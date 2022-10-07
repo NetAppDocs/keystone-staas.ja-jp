@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: concepts/gssc.html 
+keywords: Global Services Support Center, GSSC, Keystone support 
+summary: ネットアップグローバルサービスサポートセンターGSSC 
+---
+= ネットアップグローバルサービスサポートセンター
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone サービスは、ネットアップのグローバルサービスおよびサポートセンター（GSSC）、NetApp Keystone サクセスマネージャ、NetApp Keystone サービスデリバリマネージャを活用して運営されています。
+
+
+
+== ネットアップグローバルサービスおよびサポートセンター（ GSSC ）
+
+ネットアップは、 NetApp Keystone のお客様に運用サービスをリモートで提供しています。これらのサービスには、資産管理と構成管理、容量とパフォーマンス管理、変更管理、イベント、インシデントと問題管理、サービスリクエストの履行、レポートなど、ストレージ管理アクティビティ全体にわたる運用上のさまざまな分野が含まれます。ネットアップは、必要に応じて入手可能な管理の状態と証拠を提示します。
+
+
+
+== 追加情報とサポートの連絡先
+
+ネットアップグローバルサービスおよびサポートセンター（GSSC）チームは、主にNetApp Keystone のお客様に対するサービスをサポートします。以下の情報を参考にして、サポートチームに連絡してください。
+
+* グローバルサービス担当者：https://www.netapp.com/us/contact-us/support.aspx[]
+* エスカレーションが必要なオープンケース/チケットをお持ちの場合は、次のいずれかのアドレスに電子メールを送信してください：keystone.services@netapp.com keystone.escalations@netapp.com
+* ネットアップでは、クラウドベースのリモートゲートウェイ解決策である OpsRamp を使用して、トラブルシューティングのために NetApp Keystone 環境をプロアクティブに監視し、接続します。OpsRamp の詳細については、を参照してください https://www.opsramp.com/#[]。
+
+
+
+NOTE: パートナー運用モデルでは、テナントとサブテナントのサービス要求がパートナーのサービスデスクに割り当てられます。OpsRamp と GSSC アプリケーションとの統合はパートナーのサポートツールで可能です。L3 の問題のみが GSSC を通じてネットアップにエスカレーションされます。
+
+このドキュメントに記載されている情報の詳細については、以下のドキュメントや Web サイトを参照してください。
+
+* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* ネットアップの製品マニュアルhttps://docs.netapp.com["https://docs.netapp.com"^]
+
+
+
+
+== GSSCモニタリング
+
+NetApp Global Services and Support Center（GSSC）は、お客様の製品と登録サービスの健常性を監視し、リモートサポートを提供し、Keystone Success Managerとのコラボレーションを行います。関連するKeystoneサブスクリプション注文に関連する製品を監視する担当者は、すべて米国で運用されている米国市民です土。
+
+Keystone Success Managerは米国米国で活動している市民土。担当業務は、NetApp Keystone 契約に明記されています。
+
+詳細については、を参照してください link:../concepts/uscs.html["米国市民サポート（USCS）"]

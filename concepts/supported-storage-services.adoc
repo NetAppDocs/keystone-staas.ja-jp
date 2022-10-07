@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concepts/supported-storage-services.html 
+keywords: storage service, service definition, keystone STaaS storage service, 
+summary: サポートされているストレージサービス 
+---
+= サポートされているストレージサービス
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystoneサービスは、ファイルストレージやブロックストレージなどの基本ストレージタイプのONTAP をサポートします。StorageGRID プラットフォーム用のオブジェクトストレージもサポートしています。Cloud Volumes ONTAP のデータ管理機能もサポートされています。
+
+サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]
+
+
+
+== ベースのストレージサービス
+
+|===
+| ストレージサービス | 根拠 | サポートされている機能 | プロトコル 
+
+
+ a| 
+ファイルストレージ
+| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | NFS、CIFS、S3（FabricPool ターゲットに使用） 
+
+
+ a| 
+ブロックストレージ
+| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | FC、iSCSI、S3（FabricPool ターゲットに使用） 
+
+
+ a| 
+オブジェクトストレージ
+| StorageGRID プラットフォームに基づきます | は、複数のサイトにまたがる複数の情報ライフサイクル管理（ILM）ポリシーをサポートしています。注：各サイトには個別のサブスクリプションが必要です。 | S3 
+|===
+
+NOTE: ネットアップストレージターゲットへのデータ階層化は、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。
+
+データ階層化の詳細については、を参照してください link:../concepts/data-tiering.html["データ階層化"]データ保護サービスについては、を参照してください link:../concepts/adp.html["高度なデータ保護"]
+
+
+
+== クラウドストレージサービス
+
+Keystoneは、AWS、Azure、Google_でサポートされるCloud Volumes ONTAP 向けの_データ管理機能をサポートしています。このサービスは、既存のサブスクリプションと共存できます。クラウドサービスは、サービス期間中いつでも含めることができます。ただし、サブスクリプションの更新を予定していない場合は、サブスクリプションの過去90日間にクラウドサービスを含めることはできません。
+
+
+NOTE: ハイパースケーラベースのコンピューティングおよびストレージインフラは、Keystoneサブスクリプションの一部としてネットアップから提供されるものではなく、ハイパースケーラークラウドサービスプロバイダから調達する必要があります。

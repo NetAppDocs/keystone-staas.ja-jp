@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Keystoneの価格設定 
+---
+= Keystoneの価格設定
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone は、ストレージサブスクリプションの予測可能な初期価格設定を可能にします。
+
+設備投資（CapEx）やリースに運用コスト（OpEx）の消費モデルを使用する場合は、柔軟でスケーラブルな消費ニーズに合わせて、Keystoneの成長に応じたモデルを選択できます。
+
+Keystoneには、以下の請求先施設が用意されています。
+
+* IOPS とレイテンシのコミット済み容量に基づいて料金を支払うことで、さまざまなワークロードのニーズに対応できます。さまざまなパフォーマンスサービスレベル- Extreme、Premium、Performance、Standard、Value、 また、オブジェクトを使用することで、Keystone用に購入したサービスレベルに基づいてストレージを管理できます。
+* また、容量の利用状況に応じて、コミット済み容量と従量課金制の容量を予測可能で提示します。
+* ハードウェア、コア OS 、サポートのバンドル価格を 1TiB 価格で選択できます。ストレージタイプ、ファイル、ブロック、オブジェクト、クラウドストレージの各サービスについて、 1 つの請求書を用意しておきます。
+* サービスと支払いの柔軟な条件を選択します。サイトごとに12カ月、25TiB、またはそれ以上を選択できます。その後、12カ月間自動更新を実行できます。
+
+
+Keystone請求は、コミット済み容量と可変バースト消費に基づいて行われます。
+
+Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]

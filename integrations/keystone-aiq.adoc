@@ -1,0 +1,20 @@
+---
+sidebar: sidebar 
+permalink: integrations/keystone-aiq.html 
+keywords: Keystone, Active IQ	Digital Advisor, keystone-aiq, aiq 
+summary: KeystoneとActive IQ デジタルアドバイザ 
+---
+= KeystoneとActive IQ デジタルアドバイザ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+NetApp Keystone サービスに登録している場合は、Active IQ デジタルアドバイザダッシュボードに使用状況レポートとグラフを表示できます。Active IQ デジタルアドバイザを使用すると、Storage as a Service（STaaS；ストレージサービス）の詳細と、所有しているネットアップインフラに関する情報を表示できます。Active IQ デジタルアドバイザでは、容量の使用状況と傾向のデータを可視化し、詳細なレポートを作成できる単一のダッシュボードビューを提供しています。Active IQ デジタルアドバイザからKeystoneサブスクリプションを管理することもできます。サブスクリプション用の新しいサービスを発注したり、既存のサービスの容量を更新したりすることもできます。
+
+Active IQ デジタルアドバイザの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["Active IQ デジタルアドバイザのドキュメント"]
+
+データフローの詳細については、を参照してください link:../concepts/infra.html["監視ツール"]。

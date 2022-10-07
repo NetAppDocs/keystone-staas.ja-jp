@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: concepts/nrnvc.html 
+keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
+summary: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠 
+---
+= 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+ネットアップは、NetApp Keystone サブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、リターン不能な不揮発性コンポーネント（NRNVC）を拡張しています。
+
+このアドオンサービスには、Keystoneサブスクリプションの一部としてサブスクライブすることができます。ベースストレージとクラウドストレージサービスについては、を参照してください link:supported-storage-services.html["サポートされているストレージサービス"]
+
+サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]
+
+ネットアップでは、サービスの提供中に使用された物理ストレージメディアをリカバリすることはありません。リカバリに使用されていた物理ストレージメディアは、ネットアップがリカバリの際にサービスの終了時にリカバリすることはありません。
+
+このサービスを購入した場合は、次の点に注意してください。
+
+* サービス期間終了時、またはサービス期間中に障害や欠陥が検出されたドライブや不揮発性メモリを返却する必要はありません。
+* ただし、ドライブや不揮発性メモリを破壊する証明書を作成する必要があり、それ以外の目的には使用できません。
+* NRNVCに関連する追加コストは、ストレージサービス全体（ストレージサービス、高度なデータ保護、データ階層化を含む）の月単位の請求額に対する割合として課金されます。
+* このサービスは、ファイル、ブロック、オブジェクトの各サービスにのみ適用されます。
+
+
+
+
+== SnapLock コンプライアンス
+
+SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。
+
+SnapLock テクノロジの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock とは"]

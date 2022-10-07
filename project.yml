@@ -1,0 +1,136 @@
+---
+settings:
+  name: Keystone
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+    langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,fr-fr
+sidebar:
+  entries:
+  - title: Keystoneのドキュメント
+    url: "/index.html"
+  - title: はじめに
+    entries:
+    - title: Keystoneの詳細をご確認ください
+      url: "/concepts/overview.html"
+    - title: Keystoneでサポートされるストレージ容量
+      url: "/concepts/supported-storage-capacity.html"
+    - title: Keystoneサービスの指標と定義
+      url: "/concepts/metrics.html"
+    - title: Keystoneでサポートされるストレージタイプ
+      url: "/concepts/supported-storage-services.html"
+    - title: Keystoneのサービスレベル
+      url: "/concepts/service-levels.html"
+    - title: アドオンサービス
+      entries:
+      - title: データの階層化
+        url: "/concepts/data-tiering.html"
+      - title: 高度なデータ保護
+        url: "/concepts/adp.html"
+      - title: 米国市民サポート（USCS）
+        url: "/concepts/uscs.html"
+      - title: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
+        url: "/concepts/nrnvc.html"
+      - title: KeystoneとEquinixを提供
+        url: "/concepts/equinix.html"
+  - title: サービスレベルの詳細
+    entries:
+    - title: Quality of Service の略
+      url: "/concepts/qos.html"
+    - title: サービスレベルの容量要件
+      url: "/concepts/capacity-requirements.html"
+  - title: 課金
+    entries:
+    - title: Keystoneの価格設定
+      url: "/concepts/pricing.html"
+    - title: コミット済み容量に基づく請求
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 消費容量に基づく計測
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: バースト消費に基づく請求
+      url: "/concepts/burst-consumption-billing.html"
+    - title: その他のボリュームタイプに基づく請求
+      url: "/concepts/misc-volume-billing.html"
+    - title: 請求スケジュール
+      url: "/concepts/billing-schedules.html"
+  - title: パートナー様とお客様が運用する環境
+    url: "/concepts/operational-models.html"
+  - title: Keystoneインフラ
+    entries:
+    - title: インフラの詳細
+      url: "/concepts/infra.html"
+    - title: コンポーネント
+      url: "/concepts/components.html"
+    - title: OpsRampを監視アプリケーションとして使用します
+      url: "/concepts/opsramp.html"
+    - title: データフロー
+      url: "/concepts/data-flow.html"
+  - title: ネットアップグローバルサービスサポートセンター
+    url: "/concepts/gssc.html"
+  - title: Keystoneサービスでさらに多くのことを実現
+    entries:
+    - title: KeystoneとCloud Manager
+      url: "/integrations/keystone-cm.html"
+    - title: KeystoneとActive IQ デジタルアドバイザ
+      url: "/integrations/keystone-aiq.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: はじめに
+    links:
+    - title: NetApp Keystone とは
+      url: "/concepts/overview.html"
+    - title: 測定単位を教えてください。
+      url: "/concepts/metrics.html"
+    - title: サポートされているベースストレージ
+      url: "/concepts/supported-storage-services.html"
+    - title: データ階層化とは
+      url: "/concepts/data-tiering.html"
+    - title: Keystoneデータが保護されるかどうか
+      url: "/concepts/adp.html"
+  - title: Keystoneのサービスレベル
+    links:
+    - title: Keystoneのサービスレベル
+      url: "/concepts/service-levels.html"
+    - title: サービス品質（QoS）
+      url: "/concepts/qos.html"
+    - title: サービスレベルの容量要件
+      url: "/concepts/capacity-requirements.html"
+    - title: 消費データを確認するにはどうすればよいですか？
+      url: "/integrations/keystone-aiq.html"
+  - title: Keystoneの価格設定
+    links:
+    - title: Keystoneの請求について理解する
+      url: "/concepts/pricing.html"
+    - title: 請求スケジュール
+      url: "/concepts/billing-schedules.html"
+    - title: コミット済み容量に基づく請求
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 消費容量に基づく計測
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: コミット済み容量を超えて消費された場合はどうなりますか？
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Keystoneサービスでさらに多くのことを実現
+    links:
+    - title: サポートチームの理解（Keystone GSSC）
+      url: "/concepts/gssc.html"
+    - title: KeystoneとCloud Manager
+      url: "/integrations/keystone-cm.html"
+    - title: KeystoneとActive IQ デジタルアドバイザ
+      url: "/integrations/keystone-aiq.html"
+    - title: 米国市民サポート
+      url: "/concepts/uscs.html"
+  - title: 詳細情報
+    links:
+    - title: Keystone Flex サブスクリプション
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Active IQ Digital Advisor
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: クラウドマネージャ
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

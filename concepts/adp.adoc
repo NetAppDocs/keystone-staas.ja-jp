@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concepts/adp.html 
+keywords: data protection advanced 
+summary: 高度なデータ保護 
+---
+= 高度なデータ保護
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystoneサブスクリプションに含まれるAdvanced Data Protectionアドオンサービスに登録することができます。
+
+ベースストレージとクラウドストレージサービスについては、を参照してください link:../concepts/supported-storage-services.html["サポートされているストレージサービス"]
+
+サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]
+
+Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングして、プライマリサイトで災害が発生した場合に、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能では、2つのサイト間のMetroCluster 設定を利用してデータを保護します。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ使用できます。ONTAP MetroCluster の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster のドキュメント"]
+
+アドオン料金は、サブスクリプションに含まれるすべての容量（ソース、ミラーコピー、ミラーリングされていないデータ）に適用されます。
+
+次の点に注意してください。
+
+* このサービスでは、関連するストレージサービスのコミット済み容量の100%がコミット済み容量として設定されます。
+* ソースとデスティネーションの両方のクラスタのストレージ料金が発生します。このアドオンサービスには、プライマリボリュームとセカンダリボリューム（ミラー）の両方の容量も追加料金されます。
+* 料金は、ファイルおよびブロックストレージサービスにのみ適用されます。
+

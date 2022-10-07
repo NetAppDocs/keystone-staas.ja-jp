@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/committed-capacity-billing.html 
+keywords: Billing based on committed capacity, committed capacity billing 
+summary: サポートされているストレージ容量 
+---
+= コミット済み容量に基づく請求
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone （Keystone）の請求は、Keystoneサービスサブスクリプションの一部としてお客様にコミットされた容量に基づいて行われます。
+
+コミット済み容量とは、お客様とネットアップ/パートナー様が受け取る1つのサブスクリプション内のさまざまなサービスの容量を指します。この容量は、Keystoneの注文ごとに記載され、実際の消費量にかかわらず請求されます。
+
+Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]

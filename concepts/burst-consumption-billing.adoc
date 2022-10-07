@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-consumption-billing.html 
+keywords: burst consumption billing 
+summary: バースト消費に基づく請求 
+---
+= バースト消費に基づく請求
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone （Keystone）による請求は、お客様がサブスクライブしたサービスレベルのコミット済み容量に基づいて消費するバースト容量に基づいて行われます。
+
+消費容量がサービスレベルのコミット済み容量を超えると、バースト消費量が記録され、それに応じて課金が適用されます。このプロセスは、生成される消費レコードごとに実行されます。したがって、バースト消費量は、オーバー消費容量の量と時間の両方を、コミット済み容量の上に反映したものです。
+
+Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]
