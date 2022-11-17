@@ -16,15 +16,15 @@ summary: Keystoneのサービス品質
 [role="lead"]
 ストレージQuality of Service（QoS；サービス品質）は、アプリケーションのパフォーマンスが安定し、予測可能な安定したものになるようにするための重要なテクノロジです。QoSが設定されていないと、複数のシステムのブートなど、特定のワークロードが一定期間リソース全体を消費し、他のワークロードに影響を与える可能性があります。QoSの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS の概要を使用してスループットを保証"]。
 
-QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoS上限の2つのパラメータを定義しています。 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSは、ワークロードのスループットが特定のIOPSまたはMBps、あるいはIOPSとMBpsを下回っていないことを保証します。
+QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoS上限の2つのパラメータを定義しています。 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSは、ワークロードのスループットが特定のIOPS / MBps、またはIOPS / MBps未満でないことを保証します。
 
 
 
 == アダプティブ QoS
 
-アダプティブQoSは、Keystoneサービスに使用されます。サイズがQoSポリシーによって自動的に適用されるため、TBまたはGBあたりのIOPSが一定に維持されます。アダプティブQoSについては、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["アダプティブ QoS について"]。
+アダプティブQoSは、QoSポリシーが自動的に適用されるため、KeystoneサービスでTBまたはGBあたりのIOPSの比率が一定になるように設定されます。アダプティブQoSについては、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["アダプティブ QoS について"]。
 
-Keystoneには、クラスタが本番環境に移行した時点で設定可能なアダプティブQoSポリシーが用意されています。システムですでに作成されて使用可能な正しいアダプティブQoSポリシーがすべてのボリュームに関連付けられていることを確認してください。
+Keystoneには、クラスタが本番環境になった時点で設定可能なアダプティブQoSポリシーが用意されています。システムですでに作成されて使用可能な正しいアダプティブQoSポリシーがすべてのボリュームに関連付けられていることを確認してください。
 
 
 NOTE: ボリュームにアダプティブQoSポリシーが正しく適用されていない場合、適用したボリュームはサブスクリプションごとに最も高いサービスレベルで測定されて課金されます。これにより、意図しないバースト料金が発生する可能性があります。
@@ -60,7 +60,7 @@ NOTE: これはIOPS密度ではなく（75IOPS/TBなど）、絶対最小IOPS数
 
 === Extremeサービスレベルの設定
 
-Extremeサービスレベルの場合、以下の設定とコマンドがあります。
+Extremeサービスレベルの設定とコマンド：
 
 * コマンド例：
 
@@ -76,8 +76,7 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 
 === Premiumサービスレベルの設定
 
-Premiumサービスレベルの場合、設定とコマンドは次のとおりです。
-
+ Settings and commands for the Premium service level:
 * コマンド例：
 
 
@@ -92,7 +91,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 === パフォーマンスサービスレベルの設定
 
-パフォーマンスサービスレベルの場合、設定とコマンドは次のとおりです。
+パフォーマンスサービスレベルの設定とコマンド：
 
 * コマンド例：
 
@@ -108,8 +107,7 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 
 === 値サービスレベルの設定
 
-値サービスレベルの場合、設定とコマンドは次のとおりです。
-
+ Settings and commands for the Value  service level:
 * コマンド例：
 
 

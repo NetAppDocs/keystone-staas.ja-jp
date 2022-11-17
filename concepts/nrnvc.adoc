@@ -16,9 +16,9 @@ summary: 非リターン可能な不揮発性コンポーネントとSnapLock �
 [role="lead"]
 ネットアップは、NetApp Keystone サブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、リターン不能な不揮発性コンポーネント（NRNVC）を拡張しています。
 
-このアドオンサービスには、Keystoneサブスクリプションの一部としてサブスクライブすることができます。ベースストレージとクラウドストレージサービスについては、を参照してください link:supported-storage-services.html["サポートされているストレージサービス"]
+このアドオンサービスには、Keystoneサブスクリプションの一部としてサブスクライブすることができます。ベースストレージとクラウドストレージサービスについては、を参照してください link:supported-storage-services.html["サポートされているストレージサービス"]。
 
-サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]
+サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
 
 ネットアップでは、サービスの提供中に使用された物理ストレージメディアをリカバリすることはありません。リカバリに使用されていた物理ストレージメディアは、ネットアップがリカバリの際にサービスの終了時にリカバリすることはありません。
 
@@ -36,4 +36,4 @@ summary: 非リターン可能な不揮発性コンポーネントとSnapLock �
 
 SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。
 
-SnapLock テクノロジの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock とは"]
+SnapLock テクノロジの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock とは"]。

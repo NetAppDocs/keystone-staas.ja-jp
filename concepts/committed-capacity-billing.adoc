@@ -18,4 +18,4 @@ NetApp Keystone （Keystone）の請求は、Keystoneサービスサブスクリ
 
 コミット済み容量とは、お客様とネットアップ/パートナー様が受け取る1つのサブスクリプション内のさまざまなサービスの容量を指します。この容量は、Keystoneの注文ごとに記載され、実際の消費量にかかわらず請求されます。
 
-Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]
+Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。

@@ -14,19 +14,19 @@ summary: Keystoneのデータフロー
 
 
 [role="lead"]
-Keystoneシステムでは、Keystone Collectorトラフィックとデータフローの監視という2つのシステムを経由してデータフローが発生します。
+Keystoneシステムでは、Keystoneコレクタトラフィックのデータフローが発生し、データフローが監視されます。
 
 
 
 == Keystoneコレクタのデータフロー
 
-Keystoneコレクタは、ストレージコントローラへのREST API呼び出しを定期的に開始し、次の図に示すようにコントローラの使用状況の詳細を取得します。
+Keystoneコレクタは、ストレージコントローラへのREST API呼び出しを開始し、コントローラの使用状況の詳細を定期的に取得します。
 
 image:collector-data-flow.png[""]
 
 .凡例
-. NetApp Collectorは、Active IQ Cloud PortalへのHTTPSセッションを開始します。
-. この接続を許可する必要があります。
+. NetApp Collectorは、Active IQクラウドポータルへのHTTPSセッションを開始します。
+. お客様が動作するファイアウォールが接続を許可します。
 . Active IQ クラウドポータルで接続が許可され、NetAppコレクタへのトンネルが確立されます。
 . ネットアップコレクタが、ストレージコントローラの管理接続に対するREST APIセッションを確立し、環境データを取得してActive IQ ポータルに送信します。
 
@@ -35,13 +35,13 @@ image:collector-data-flow.png[""]
 
 == データフローの監視
 
-ストレージインフラの健常性を継続的に監視することは、Keystoneサービスの最も重要な機能の1つです。Keystoneで監視するには、OpsRampを使用します。OpsRampはお客様のネットワークへのリモートアクセスが必要です。次の図に、OpsRampツールによってお客様の場所へのリモートアクセスが保護される仕組みを示します。
+ストレージインフラの健常性を継続的に監視することは、Keystoneサービスの最も重要な機能の1つです。Keystoneで監視するには、OpsRampを使用します。OpsRampのネットワークへのリモートアクセスが必要です。次の図に、OpsRampツールによってお客様の場所へのリモートアクセスが保護される仕組みを示します。
 
 image:monitoring-flow.png[""]
 
 .凡例
 . OpsRamp Gatewayは、クラウドのOpsRamp Cloud PortalへのTLSセッションを開始します。
-. この接続を許可する必要があります。
+. お客様が動作するファイアウォールが接続を許可します。
 . クラウドのOpsRamp Serverで接続が受け入れられます。
 . OpsRamp CloudポータルとOpsRampローカルゲートウェイの間にTLSトンネルが確立されます。
 . ネットアップコントローラは、SNMPプロトコルを使用してアラートを送信するか、OpsRampのローカルゲートウェイにAPI要求に応答します。

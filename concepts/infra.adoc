@@ -26,7 +26,7 @@ Keystoneのインフラ、設計、テクノロジの選択、コンポーネン
 
 Keystoneインフラには、次のような複数のコンポーネントが含まれます。
 
-* ストレージコントローラを含むKeystoneインフラ
+* ストレージコントローラを含むKeystoneインフラ。
 * OpsRamp 、 Active IQ 、 Active IQ Unified Manager などのサービスを管理および運用するツール
 
 
@@ -50,4 +50,4 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 
 image:mgmt-stack.png[""]
 
-詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとActive IQ デジタルアドバイザ"]
+詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとActive IQ デジタルアドバイザ"]。
