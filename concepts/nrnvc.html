@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ja-jp/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ja-jp/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ja-jp/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/keystone-staas/js/na-search.js'></script><script src='/ja-jp/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ja-jp/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ja-jp/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/keystone-staas/js/na-search.js'></script><script src='/ja-jp/keystone-staas/js/na-pagenav.js'></script><script src='/ja-jp/keystone-staas/js/na-utility.js'></script>
   <script src='/ja-jp/keystone-staas/js/clouddocs.js'></script>
   <script src='/ja-jp/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ja-jp/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> はじめに</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystoneの詳細をご確認ください"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> アドオンサービス</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="データの階層化"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> サービスレベルの詳細</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Quality of Service の略"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 課金</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystoneの価格設定"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystoneインフラ</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="インフラの詳細"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystoneサービスでさらに多くのことを実現</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="KeystoneとCloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:05:30 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:40:13 +0000">11/17/2022</time>
     
   
 
@@ -925,10 +913,10 @@
 <p>ネットアップは、NetApp Keystone サブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、リターン不能な不揮発性コンポーネント（NRNVC）を拡張しています。</p>
 </div>
 <div class="paragraph">
-<p>このアドオンサービスには、Keystoneサブスクリプションの一部としてサブスクライブすることができます。ベースストレージとクラウドストレージサービスについては、を参照してください <a href="supported-storage-services.html">"サポートされているストレージサービス"</a></p>
+<p>このアドオンサービスには、Keystoneサブスクリプションの一部としてサブスクライブすることができます。ベースストレージとクラウドストレージサービスについては、を参照してください <a href="supported-storage-services.html">"サポートされているストレージサービス"</a>。</p>
 </div>
 <div class="paragraph">
-<p>サービスレベルの詳細については、を参照してください <a href="../concepts/service-levels.html">"Keystoneのサービスレベル"</a></p>
+<p>サービスレベルの詳細については、を参照してください <a href="../concepts/service-levels.html">"Keystoneのサービスレベル"</a>。</p>
 </div>
 <div class="paragraph">
 <p>ネットアップでは、サービスの提供中に使用された物理ストレージメディアをリカバリすることはありません。リカバリに使用されていた物理ストレージメディアは、ネットアップがリカバリの際にサービスの終了時にリカバリすることはありません。</p>
@@ -961,7 +949,7 @@
 <p>SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。</p>
 </div>
 <div class="paragraph">
-<p>SnapLock テクノロジの詳細については、を参照してください <a href="https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html">"SnapLock とは"</a></p>
+<p>SnapLock テクノロジの詳細については、を参照してください <a href="https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html">"SnapLock とは"</a>。</p>
 </div>
 </div>
 </div>

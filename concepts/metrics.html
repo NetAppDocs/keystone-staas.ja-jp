@@ -25,28 +25,8 @@
   <!-- Elastic Search -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
 
-  <!-- Controls AsciiDoctor Admonition Blocks -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/font-awesome.min.css">
-
-  <!-- Controls the shadow effect for search dropdown menu -->
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/boxshadowproperties.css">
-
-  <!-- NetApp CSS controls the technical content -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/netapp.css">
-
-  <!-- WWW CSS Content -->
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/www-luci-dotcom.min.css">
-  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/www-netapp-dotcom.css">
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-critical.min.css" media="all" >
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="stylesheet" href="/ja-jp/keystone-staas/css/www-netapp-library-global-header-footer.min.css">
-
-  <!-- NetApp IE Customizations -->
-  <link rel="stylesheet" href='/ja-jp/keystone-staas/css/na-utility.css' type='text/css'>
-  <link rel="stylesheet" href='/ja-jp/keystone-staas/css/na-sidebar.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/clouddocs.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/custom-dropdown.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/na-pagenav.css' type='text/css'>
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/ja-jp/keystone-staas/css/netappdocs.css">
 
   
   <link rel="stylesheet" href="/ja-jp/keystone-staas/css/landing-page.css" type="text/css">
@@ -98,11 +78,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/keystone-staas/js/na-search.js'></script><script src='/ja-jp/keystone-staas/js/na-pagenav.js'></script><link rel='stylesheet' href='/ja-jp/keystone-staas/css/prism.css' type='text/css'>
-  <link rel='stylesheet' href='/ja-jp/keystone-staas/css/prism-netapp.css' type='text/css'>
-
-
-  <script src='/ja-jp/keystone-staas/js/na-utility.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/ja-jp/keystone-staas/js/na-search.js'></script><script src='/ja-jp/keystone-staas/js/na-pagenav.js'></script><script src='/ja-jp/keystone-staas/js/na-utility.js'></script>
   <script src='/ja-jp/keystone-staas/js/clouddocs.js'></script>
   <script src='/ja-jp/keystone-staas/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -141,6 +117,17 @@
           $("#expandAll").click(function(e) {
               e.preventDefault();
               $("#mysidebar").navgoco('toggle', true);
+          });
+
+          $(".sidebar-nav-container").on("scroll", function() {
+            $.cookie("sidebarScroll", $(".sidebar-nav-container").scrollTop(), {
+              path    : "/ja-jp/keystone-staas"  
+            });
+          });
+          $(function() {
+            if ($.cookie("sidebarScroll")) {
+              $(".sidebar-nav-container").scrollTop($.cookie("sidebarScroll"));
+            }
           });
 
       });
@@ -612,7 +599,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> はじめに</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystoneの詳細をご確認ください"
@@ -656,7 +643,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> アドオンサービス</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="データの階層化"
@@ -700,7 +687,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> サービスレベルの詳細</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Quality of Service の略"
@@ -723,7 +710,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> 課金</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystoneの価格設定"
@@ -781,7 +768,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystoneインフラ</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="インフラの詳細"
@@ -825,7 +812,7 @@
     ><a href="#">
         <div class="na-navbar-padding"> Keystoneサービスでさらに多くのことを実現</div>
       </a>
-      <ul>
+      <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
       data-pdf-filename="KeystoneとCloud Manager"
@@ -858,6 +845,7 @@
 </script>
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
+<script>$("#mysidebar li.active").parents('ul').css("display","block");</script>
 
 
   </div>
@@ -909,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-10-07 21:05:30 +0000">10/07/2022</time>
+    <time datetime="2022-11-17 09:40:13 +0000">11/17/2022</time>
     
   
 
@@ -951,26 +939,26 @@
 <div class="ulist">
 <ul>
 <li>
-<p><strong>容量ドキュメント（GiB、TiB、PiB）。</strong> 1024（1GiB = 1024<sup>3</sup>バイト、1TiB = 1024<sup>4</sup>バイト、1PiB = 1024<sup>5</sup>バイト）を使用したデータストレージ容量の測定値。</p>
+<p>*容量ドキュメント（GiB、TiB、PiB）：1024進数（1GiB = 1024<sup>3</sup>バイト、1TiB = 1024<sup>4</sup>バイト、1PiB = 1024<sup>5</sup>バイト）を使用したデータストレージ容量の測定値。</p>
 </li>
 <li>
 <p>*処理カウンタチャート：IOPS/ TiB。*アプリケーションから要求された1秒あたりのプロトコル処理数を、ワークロードで使用されるボリュームのサイズで割った値です。</p>
 </li>
 <li>
-<p>*可用性*は、サービスが正常に応答したI/O要求の数に対する割合として、サービスに対して行われたI/O要求の総数で除算されます。これは、サービスの境界で1カ月分に測定され、顧客が提供する施設、ネットワーク、またはその他のサービスの計画的なダウンタイムや利用不可については含まれません。</p>
+<p><strong>可用性</strong>:サービスが正常に応答したI/O要求数の割合として、サービスに対して行われたI/O要求の総数で割った値。これは、サービスの境界で1カ月分に測定され、顧客が提供する施設、ネットワーク、またはその他のサービスの計画的なダウンタイムや利用不可については含まれません。</p>
 </li>
 <li>
-<p>* 耐久性 * は、顧客が原因で行った削除や破損を除き、忠実性を損なうことなくアクセスされるデータの割合です。</p>
+<p><strong>耐久性</strong>：お客様が原因で行った削除や破損を除き、忠実性を損なうことなくアクセスされたデータの割合。</p>
 </li>
 <li>
-<p>* レイテンシ。 * クライアントから受信した I/O 要求の処理にかかる時間。サービスの分離（ストレージコントローラの I/O ポート）で測定されます。</p>
+<p>* Latency *：クライアントから受信したI/O要求の処理にかかる時間。これはサービスの分離（ストレージコントローラのI/Oポート）で測定されます。</p>
 </li>
 </ul>
 </div>
 <div class="sect2">
 <h3 id="スループットパフォーマンス指標">スループットパフォーマンス指標</h3>
 <div class="paragraph">
-<p>スループットパフォーマンス指標は、ファイルサービスとブロックサービスにのみ適用されます。これらは次の要素に基づいています。</p>
+<p>スループットパフォーマンス指標は、以下に基づくファイルサービスとブロックサービスにのみ適用されます。</p>
 </div>
 <div class="ulist">
 <ul>
@@ -986,7 +974,7 @@
 <div class="sect2">
 <h3 id="io密度の変化">I/O密度の変化</h3>
 <div class="paragraph">
-<p>IOPS / TiB、Mbps / TiB、またはその両方で計算されるI/O密度は、次の要因によって異なる場合があります。</p>
+<p>IOPS / TiB、MBps / TiBで計算されるI/O密度は、次の要素によって異なります。</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1019,7 +1007,7 @@
 <p>使用済み容量に含まれるユーザデータとSnapshotコピーデータ</p>
 </li>
 <li>
-<p>各ONTAP ボリュームに割り当てられた絶対最小IOPS。データ量にはかかわりません。</p>
+<p>ボリューム内のデータ量に関係なく、各ONTAP ボリュームに割り当てられている絶対最小IOPS。</p>
 <div class="ulist">
 <ul>
 <li>
@@ -1035,7 +1023,7 @@
 </div>
 </li>
 <li>
-<p>Advanced Data Protectionアドオンサービスを使用する場合、ターゲットレイテンシの環境 はローカルストレージからのIO要求のみを処理します</p>
+<p>Advanced Data Protectionアドオンサービスの使用中は、ターゲットレイテンシはローカルストレージからのIO要求の処理にのみ適用されます。</p>
 </li>
 </ul>
 </div>
