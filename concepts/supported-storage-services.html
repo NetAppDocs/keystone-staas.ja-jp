@@ -623,11 +623,11 @@
         Keystoneサービスの指標と定義
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="Keystoneでサポートされるストレージタイプ"
+      data-pdf-filename="Keystoneでサポートされるストレージサービス"
       data-li-level="2#" 
       class="  active "
     ><a class="na-navbar-padding" href="/ja-jp/keystone-staas/concepts/supported-storage-services.html">
-        Keystoneでサポートされるストレージタイプ
+        Keystoneでサポートされるストレージサービス
       </a></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="Keystoneのサービスレベル"
@@ -815,18 +815,18 @@
       <ul style="display: none;">
         <li 
       data-pdf-exists="true" 
-      data-pdf-filename="KeystoneとCloud Manager"
+      data-pdf-filename="KeystoneとBlueXP"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/ja-jp/keystone-staas/integrations/keystone-cm.html">
-        KeystoneとCloud Manager
+        KeystoneとBlueXP
       </a></li><li 
       data-pdf-exists="true" 
-      data-pdf-filename="KeystoneとActive IQ デジタルアドバイザ"
+      data-pdf-filename="KeystoneとDigital Advisor"
       data-li-level="2#" 
       class=" "
     ><a class="na-navbar-padding" href="/ja-jp/keystone-staas/integrations/keystone-aiq.html">
-        KeystoneとActive IQ デジタルアドバイザ
+        KeystoneとDigital Advisor
       </a></li></ul></li><li 
       data-pdf-exists="true" 
       data-pdf-filename="法的通知"
@@ -897,7 +897,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-17 09:40:13 +0000">11/17/2022</time>
+    <time datetime="2022-11-28 10:23:15 +0000">11/28/2022</time>
     
   
 
@@ -921,7 +921,7 @@
 <h2 id="ベースのストレージサービス">ベースのストレージサービス</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Keystoneの基本ストレージサービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用してデータ保護サービスを提供し、ファイルサービスとブロックストレージサービスのサポート対象のネットアップストレージターゲットで階層化機能を提供します。さらに、データ保護と階層化のためのアドオンサービスも選択できます。アドオンサービスについては、を参照してください <a href="../concepts/adp.html">"高度なデータ保護"</a> および <a href="../concepts/data-tiering.html">"データの階層化"</a>。</p>
+<p>ファイルとブロックのベースのストレージサービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用して、デフォルトのデータ保護サービスを提供します。ネットアップストレージターゲットへのデータ階層化も、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。さらに、データ保護と階層化のためのアドオンサービスも選択できます。アドオンサービスについては、を参照してください <a href="../concepts/adp.html">"高度なデータ保護"</a> および <a href="../concepts/data-tiering.html">"データの階層化"</a>。</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -945,7 +945,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP テクノロジに基づく</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">NFS、CIFS、S3（FabricPool ターゲットに使用）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">NFSとCIFS：</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -953,7 +953,7 @@
 </div></div></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">ONTAP テクノロジに基づく</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません）</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">FC、iSCSI、S3（FabricPool ターゲットに使用）</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">FCおよびiSCSI</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
@@ -965,21 +965,6 @@
 </tr>
 </tbody>
 </table>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<img src="/us-en/keystone-staas/images/note.svg" alt="注記">
-</td>
-<td class="content">
-ネットアップストレージターゲットへのデータ階層化は、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>データ階層化の詳細については、を参照してください <a href="../concepts/data-tiering.html">"データ階層化"</a>。データ保護サービスについては、を参照してください <a href="../concepts/adp.html">"高度なデータ保護"</a>。</p>
-</div>
 </div>
 </div>
 <div class="sect1">
