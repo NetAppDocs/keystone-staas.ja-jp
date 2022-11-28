@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/keystone-cm.html 
-keywords: Keystone-Cloud Manager 
-summary: KeystoneとCloud Manager 
+keywords: Keystone-BlueXP 
+summary: KeystoneとBlueXP 
 ---
-= KeystoneとCloud Manager
+= KeystoneとBlueXP
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: KeystoneとCloud Manager
 
 
 [role="lead"]
-Keystoneサブスクリプションでクラウドサービスを購入すると、それらのサービスにCloud Managerからアクセスして管理できるようになります。
+Keystoneサブスクリプションでクラウドサービスを購入すると、これらのサービスにBlueXPからアクセスして管理できます。
 
-Keystoneをご利用のお客様は、Cloud Volumes ONTAP サブスクリプションがある場合、Keystoneサービスを使用してCloud Volumes ONTAP の使用量を課金し、Cloud Managerで請求先や消費状況の詳細を確認できます。
+Keystoneをご利用のお客様は、Cloud Volumes ONTAP サブスクリプションをお持ちの場合、Keystoneサービスを使用してCloud Volumes ONTAP の使用量を課金し、BlueXPを使用して請求および消費の詳細を確認できます。
 
-そのためには、Cloud Managerアカウントを1つ以上作成し、Keystoneアカウントにリンクする必要があります。Keystoneからクラウドサービスを購入する際には、Cloud Managerアカウントの詳細をKeystone Success Managerに提供する必要があります。これにより、Keystoneサブスクリプションを使用してクラウドサービスの利用率を適切に計測し、課金することができます。
+そのためには、1つ以上のBlueXPアカウントを作成し、それらをKeystoneアカウントにリンクする必要があります。Keystoneを通じてクラウドサービスを購入する場合は、お客様のKeystone Success ManagerにBlueXPアカウントの詳細を提供する必要があります。これにより、Keystoneサブスクリプションを使用してクラウドサービスの利用率を適切に計測し、課金することができます。
 
-詳細については、 Cloud Manager のドキュメントにある次のリンクを参照してください。
+詳細については、BlueXPのドキュメントにある次のリンクを参照してください。
 
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystoneサブスクリプション"]
 * https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Keystoneサブスクリプションの管理"]

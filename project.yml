@@ -19,7 +19,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: Keystoneサービスの指標と定義
       url: "/concepts/metrics.html"
-    - title: Keystoneでサポートされるストレージタイプ
+    - title: Keystoneでサポートされるストレージサービス
       url: "/concepts/supported-storage-services.html"
     - title: Keystoneのサービスレベル
       url: "/concepts/service-levels.html"
@@ -71,9 +71,9 @@ sidebar:
     url: "/concepts/gssc.html"
   - title: Keystoneサービスでさらに多くのことを実現
     entries:
-    - title: KeystoneとCloud Manager
+    - title: KeystoneとBlueXP
       url: "/integrations/keystone-cm.html"
-    - title: KeystoneとActive IQ デジタルアドバイザ
+    - title: KeystoneとDigital Advisor
       url: "/integrations/keystone-aiq.html"
   - title: 法的通知
     url: "/legal-notices.html"
@@ -117,9 +117,9 @@ homepage:
     links:
     - title: サポートチームの理解（Keystone GSSC）
       url: "/concepts/gssc.html"
-    - title: KeystoneとCloud Manager
+    - title: KeystoneとBlueXP
       url: "/integrations/keystone-cm.html"
-    - title: KeystoneとActive IQ デジタルアドバイザ
+    - title: KeystoneとDigital Advisor
       url: "/integrations/keystone-aiq.html"
     - title: 米国市民サポート
       url: "/concepts/uscs.html"
@@ -127,9 +127,9 @@ homepage:
     links:
     - title: Keystone Flex サブスクリプション
       url: https://docs.netapp.com/us-en/keystone/
-    - title: Active IQ Digital Advisor
+    - title: Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
-    - title: クラウドマネージャ
+    - title: BlueXP
       url: https://docs.netapp.com/us-en/cloud-manager-family/
     - title: Active IQ Unified Manager
       url: https://docs.netapp.com/us-en/active-iq-unified-manager/

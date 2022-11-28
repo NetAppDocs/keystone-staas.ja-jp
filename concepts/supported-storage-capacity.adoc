@@ -40,7 +40,7 @@ NetApp Keystone サービスの容量は次のとおりです。
 
 * コミット済み容量は、特定の条件に基づいて削減できます。詳細については、を参照してください link:../concepts/capacity-requirements.html["容量の削減"]。
 * 12 カ月間延長する場合を除き、コミット済み容量はサブスクリプションの有効期限の 90 日前に増やすことはできません。
-* Cloud ManagerインターフェイスまたはKeystone Success Managerを使用して、コミット済み容量に対する変更を要求できます。変更の要求については、を参照してください link:../concepts/gssc.html["ネットアップグローバルサービスサポートセンター"]。
+* 確定済み容量の変更は、BlueXPインターフェイスまたはKeystone Success Managerを通じてリクエストできます。変更の要求については、を参照してください link:../concepts/gssc.html["ネットアップグローバルサービスサポートセンター"]。
 
 
 

@@ -22,7 +22,7 @@ Keystoneサービスは、ベースストレージタイプのONTAP 、ファイ
 
 == ベースのストレージサービス
 
-Keystoneの基本ストレージサービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用してデータ保護サービスを提供し、ファイルサービスとブロックストレージサービスのサポート対象のネットアップストレージターゲットで階層化機能を提供します。さらに、データ保護と階層化のためのアドオンサービスも選択できます。アドオンサービスについては、を参照してください link:../concepts/adp.html["高度なデータ保護"] および link:../concepts/data-tiering.html["データの階層化"]。
+ファイルとブロックのベースのストレージサービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用して、デフォルトのデータ保護サービスを提供します。ネットアップストレージターゲットへのデータ階層化も、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。さらに、データ保護と階層化のためのアドオンサービスも選択できます。アドオンサービスについては、を参照してください link:../concepts/adp.html["高度なデータ保護"] および link:../concepts/data-tiering.html["データの階層化"]。
 
 |===
 | ストレージサービス | 根拠 | サポートされている機能 | プロトコル 
@@ -30,23 +30,18 @@ Keystoneの基本ストレージサービスは、SnapMirror、SnapVault 、Snap
 
  a| 
 ファイルストレージ
-| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | NFS、CIFS、S3（FabricPool ターゲットに使用） 
+| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | NFSとCIFS： 
 
 
  a| 
 ブロックストレージ
-| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | FC、iSCSI、S3（FabricPool ターゲットに使用） 
+| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | FCおよびiSCSI 
 
 
  a| 
 オブジェクトストレージ
 | StorageGRID プラットフォームに基づきます | は、複数のサイトにまたがる複数の情報ライフサイクル管理（ILM）ポリシーをサポートしています。注：各サイトには個別のサブスクリプションが必要です。 | S3 
 |===
-
-NOTE: ネットアップストレージターゲットへのデータ階層化は、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。
-
-データ階層化の詳細については、を参照してください link:../concepts/data-tiering.html["データ階層化"]。データ保護サービスについては、を参照してください link:../concepts/adp.html["高度なデータ保護"]。
-
 
 
 == クラウドストレージサービス
