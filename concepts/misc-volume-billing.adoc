@@ -34,6 +34,7 @@ NOTE: 注：
 
 ONTAP System Manager（System Manager）またはActive IQ Unified Manager （Unified Manager）を使用してクラスタを監視する場合は、ツールとKeystoneで報告される使用量との間に不一致が生じることがあります。System ManagerとUnified Managerでは、ミラーリングされた（リモートの）クラスタにボリュームが報告されません。報告されるのは、Keystoneサービスから報告される消費指標の半分です。
 
+.例
 サイトAとサイトBは、MetroCluster 構成でセットアップされます。サイト A に 10TB のボリュームを作成すると、サイト B には同一の 10TB ボリュームが作成されますKeystoneは各サイトの消費量が10TBであることを確認し、合計で20TBの容量が増加しています。System ManagerとUnified Managerは、サイトAで作成した10TBのボリュームを報告しますが、サイトBでは10TBのボリュームを報告しません
 
 さらに、Advanced Data Protectionが搭載されたKeystoneシステムで作成されたすべてのボリュームは、これらのボリュームがミラーリングされているかどうかに関係なく、Advanced Data Protectionの使用にカウントされます。

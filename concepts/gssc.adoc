@@ -48,6 +48,7 @@ NOTE: パートナー運用モデルでは、テナントとサブテナント�
 
 NetApp Global Services and Support Center（GSSC）は、お客様の製品と登録サービスの健常性を監視し、リモートサポートを提供し、Keystone Success Managerとのコラボレーションを行います。関連するKeystoneサブスクリプション注文に関連する製品を監視する担当者は、すべて米国で運用されている米国市民です土。
 
+.Keystone Success Managerの略
 Keystone Success Managerは米国米国で活動している市民土。責任は、NetApp Keystone 契約で規定されています。
 
 詳細については、を参照してください link:../concepts/uscs.html["米国市民サポート（USCS）"]。
