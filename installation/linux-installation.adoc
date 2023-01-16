@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: installation/linux-installation.html 
+keywords: Linux installation Keystone, Linux Collector installation 
+summary: LinuxにKeystoneコレクタをインストールする 
+---
+= LinuxシステムへのKeystone Collectorのインストール
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystone Collectorソフトウェアは、オンラインのYUMソフトウェアリポジトリによって配布されます。Linuxサーバにファイルをインポートしてインストールする必要があります。
+
+Linuxサーバにソフトウェアをインストールするには、次の手順を実行します。
+
+. KeystoneコレクタサーバにSSH接続し、に昇格します `root` 権限：
+. Keystone公開署名署名をインポートします。
+`# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
+. RPMデータベースでKeystone請求プラットフォームのフィンガープリントを確認して、正しいパブリック証明書がインポートされていることを確認します。
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`正しい指紋は次のようになります。
+`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+. をダウンロードします `keystonerepo.rpm` ファイル：
+`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+. ファイルの信頼性を確認します。
+`rpm --checksig -v keystonerepo.rpm`本物のファイルの署名は次のようになります。
+`Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
+. YUMソフトウェアリポジトリファイルをインストールします。
+`# yum install keystonerepo.rpm`
+. Keystone repoがインストールされたら、YUMパッケージマネージャを使用してKeystoneコレクタパッケージをインストールします。
+`# yum install keystone-collector`
+

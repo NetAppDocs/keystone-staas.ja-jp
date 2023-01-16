@@ -14,7 +14,7 @@ summary: Keystoneのデータフロー
 
 
 [role="lead"]
-Keystoneシステムでは、Keystoneコレクタトラフィックのデータフローが発生し、データフローが監視されます。
+Keystone STaaSシステムでは、Keystoneコレクタトラフィックでデータフローを監視し、
 
 
 

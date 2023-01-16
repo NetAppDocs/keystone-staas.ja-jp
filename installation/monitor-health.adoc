@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: installation/monitor-health.html 
+keywords: monitoring system health 
+summary: Keystoneコレクタを使用してシステムの健全性を監視 
+---
+= システムヘルスを監視する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+HTTP要求をサポートする任意の監視システムを使用して、Keystoneコレクタサービスを通じてシステムの健全性を監視できます。
+
+デフォルトでは、Keystoneヘルスサービスはlocalhost以外のIPからの接続を受け入れません。Keystoneの健常性エンドポイントはです `/uber/health`、およびKeystone Collectorサーバのすべてのインターフェイスでポート上でリスンします `7777`。クエリの際、JSON出力を含むHTTP要求ステータスコードがエンドポイントから応答として返され、Keystoneコレクタシステムのステータスが説明されます。JSONの本文は、の全体的な健常性ステータスを提供します `is_healthy` 属性。ブール値で、のコンポーネントごとのステータスの詳細なリストです `component_details` 属性（Attribute）：次に例を示します。
+
+[listing]
+----
+$ curl http://127.0.0.1:7777/uber/health
+{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+----
+次のステータスコードが返されます。
+
+* *200*:監視対象のすべてのコンポーネントが正常であることを示します
+* *508*: 1つまたは複数のコンポーネントが正常でないことを示します
+* * 403 *：許可されているネットワークCIDRのリストである_allow_listにHTTPクライアントがヘルスステータスを照会していないことを示します。このステータスでは、ヘルス情報は返されません。allow_listは、ネットワークCIDRメソッドを使用して、Keystoneヘルスシステムへの照会を許可するネットワークデバイスを制御します。このエラーが表示された場合は、* Keystone Collector管理TUI >設定>ヘルスモニタ*から_allow_listに監視システムを追加します。
+
+
+.Linuxユーザの場合は、次の既知の問題 に注意してください。
+
+NOTE: *事象の説明 *：Keystone Collectorは、使用状況計測システムの一部として、多数のコンテナを実行します。Red Hat Enterprise Linux 8.xサーバが米国国防総省情報システム機関（DISA）セキュリティ技術実装ガイド（STIG）ポリシーで強化されると、fapolicyd（ファイルアクセスポリシーデーモン）を持つ既知の問題 が断続的に確認されています。この問題 はと識別されます link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["バグ1907870"]。*回避策 *：Red Hat Enterpriseが解決するまでは、この問題 を迂回することをお勧めします `fapolicyd` Permissiveモードになります。インチ /`etc/fapolicyd/fapolicyd.conf`をクリックして、の値を設定します `permissive = 1`。
+
+
+
+== システムログを表示する
+
+Keystoneコレクタシステムのログを表示して、システム情報を確認し、それらのログを使用してトラブルシューティングを実行できます。Keystone Collectorはホストの_journald_loggingシステムを使用し、システムログはstandard_journalctl_systemユーティリティを使用して確認できます。ログを確認するには、次のキーサービスを利用します。
+
+* KSコレクタ
+* KSヘルス
+* KS-autoupdate
+
+
+メインのデータ収集service_ks-collector_では、のJSON形式のログが生成されます `run-id` スケジュールされた各データ収集ジョブに関連付けられた属性。次の例は、標準の使用状況データ収集ジョブが正常に完了した場合を示しています。
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:01.831Z","caller":"light-collector/main.go:31","msg":"initialising light collector with run-id cdflm0f74cgphgfon8cg","run-id":"cdflm0f74cgphgfon8cg"}
+{"level":"info","time":"2022-10-31T05:20:04.624Z","caller":"ontap/service.go:215","msg":"223 volumes collected for cluster a2049dd4-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:18.821Z","caller":"ontap/service.go:215","msg":"697 volumes collected for cluster 909cbacc-bfcf-11ec-8500-00505695ce60","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:41.598Z","caller":"ontap/service.go:215","msg":"7 volumes collected for cluster f7b9a30c-55dc-11ed-9c88-005056b3d66f","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.247Z","caller":"ontap/service.go:215","msg":"24 volumes collected for cluster a9e2dcff-ab21-11ec-8428-00a098ad3ba2","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.786Z","caller":"worker/collector.go:75","msg":"4 clusters collected","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.839Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193648.tar.gz type=ontap to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:48.840Z","caller":"reception/reception.go:76","msg":"File bytes 123425","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+----
+以下は、オプションのパフォーマンスデータ収集ジョブが成功した場合の例です。
+
+[listing]
+----
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:28","msg":"initialising MySql service at 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:55","msg":"Opening MySql db connection at server 10.128.114.214"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sql/service.go:39","msg":"Creating MySql db config object"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:69","msg":"initialising SLA service"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"sla_reporting/service.go:71","msg":"SLA service successfully initialised"}
+
+{"level":"info","time":"2022-10-31T05:20:51.324Z","caller":"worker/collector.go:217","msg":"Performance data would be collected for timerange: 2022-10-31T10:24:52~2022-10-31T10:29:52"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"worker/collector.go:244","msg":"New file generated: 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz"}
+
+{"level":"info","time":"2022-10-31T05:21:31.385Z","caller":"reception/reception.go:75","msg":"Sending file 65a71542-cb4d-bdb2-e9a7-a826be4fdcb7_1667193651.tar.gz type=ontap-perf to reception","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:31.386Z","caller":"reception/reception.go:76","msg":"File bytes 17767","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"reception/reception.go:99","msg":"uploaded usage file to reception with status 201 Created","run-id":"cdflm0f74cgphgfon8cg"}
+
+{"level":"info","time":"2022-10-31T05:21:33.025Z","caller":"light-collector/main.go:88","msg":"exiting","run-id":"cdflm0f74cgphgfon8cg"}
+----
+
+
+== サポートバンドルを生成して収集
+
+KeystoneコレクタTUIでは、サポートバンドルを生成し、サポート問題を解決するためのサービス要求に追加することができます。次の手順 に従います。
+
+.手順
+. Keystone Collector管理TUIユーティリティを開きます。
+`$ keystone-collector-tui`
+. 「*トラブルシューティング」>「サポートバンドルの生成」に進みます。image:tui-sup-bundl.png[""]
+. 生成されると、バンドルが保存される場所が表示されます。FTP、SFTP、SCPを使用して場所に接続し、ログファイルをローカルシステムにダウンロードします。image:tui-sup-bundl-2.png[""]
+. ファイルがダウンロードされたら、Keystone ServiceNowサポートチケットに添付できます。詳細については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
+

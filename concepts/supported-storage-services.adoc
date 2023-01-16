@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: concepts/supported-storage-services.html 
-keywords: storage service, service definition, keystone STaaS storage service, 
-summary: サポートされているストレージサービス 
+keywords: storage, service, service definition, keystone STaaS services, 
+summary: Keystone STaaSサービス 
 ---
-= サポートされているストレージサービス
+= Keystone STaaSサービスでストレージをサポート
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,39 +14,87 @@ summary: サポートされているストレージサービス
 
 
 [role="lead"]
-Keystoneサービスは、ベースストレージタイプのONTAP 、ファイル、およびブロックをサポートします。また、StorageGRID プラットフォーム用のオブジェクトストレージとCloud Volumes ONTAP 向けのデータ管理機能もサポートしています。
+Keystone STaaSサービスは、ONTAP のファイルストレージとブロックストレージ、StorageGRID プラットフォームのオブジェクトストレージ、Cloud Volumes ONTAP のデータ管理機能をサポートします。
 
-サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+Keystone STaaSで、ストレージの標準的なサービスとオプションのサービスを提供します。
+
+* Keystone STaaS標準サービス*：Standardサービスは基本サブスクリプションに含まれており、別途料金が発生することはありません。
+
+* Keystone STaaSアドオンサービス*：このサービスはオプションで有料です。このサービスは、Keystone STaaS標準サブスクリプションサービスに加えて、追加のユーティリティとメリットを提供します。
+
+Keystone STaaSサービスを相互に共存させることができます。たとえば、クラウドストレージサブスクリプションは、ファイル、ブロック、オブジェクトストレージのサブスクリプションと長期的な契約が可能です。クラウドサービスは、既存のストレージサブスクリプションのサービス期間中いつでも含めることができます。ただし、既存のファイル、ブロック、およびオブジェクトのサブスクリプションを更新しない場合は、サブスクリプションの過去90日間にクラウドストレージのサブスクリプションを追加することはできません。
 
 
 
-== ベースのストレージサービス
+== ファイル、ブロック、オブジェクトストレージ用のサービス
 
-ファイルとブロックのベースのストレージサービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用して、デフォルトのデータ保護サービスを提供します。ネットアップストレージターゲットへのデータ階層化も、デフォルトでファイルストレージとブロックストレージのサービス階層に含まれています。さらに、データ保護と階層化のためのアドオンサービスも選択できます。アドオンサービスについては、を参照してください link:../concepts/adp.html["高度なデータ保護"] および link:../concepts/data-tiering.html["データの階層化"]。
+ONTAP ファイル/ブロックストレージ、StorageGRID オブジェクトストレージ向けのKeystone STaaSサービスで、次の表に示す複数の機能とプロトコルをサポートします。
 
 |===
-| ストレージサービス | 根拠 | サポートされている機能 | プロトコル 
+| ストレージ | プラットフォーム | プロトコル | サポートされている機能 
 
 
  a| 
 ファイルストレージ
-| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | NFSとCIFS： 
+ a| 
+ONTAP
+ a| 
+NFSとCIFS
+ a| 
+サポートされるONTAP 機能：
+
+* FlexVol
+* FlexGroup
+* Snapshot コピー
+* SnapMirror（非同期）
+* SnapVault
+* SnapLock エンタープライズ
+* FabricPoolとクラウドの階層化
+* SnapRestore
+* FlexClone
+* SnapCenter （ライセンスは含まれていますが、Keystoneサービスには含まれていません。また、管理は保証されません）
+
+
 
 
  a| 
 ブロックストレージ
-| ONTAP テクノロジに基づく | サポートされるONTAP 機能：FlexVol FlexGroup SnapVault SnapLock （非同期）Enterprise FabricPool /クラウド階層化リストアクローンSnapCenter （ライセンスは含まれていますが、これはKeystoneサービスには含まれておらず、管理が保証されていません） | FCおよびiSCSI 
+ a| 
+ONTAP
+ a| 
+FCおよびiSCSI
+ a| 
+サポートされるONTAP 機能：
+
+* FlexVol
+* FlexGroup
+* Snapshot コピー
+* SnapMirror（非同期）
+* SnapVault
+* SnapLock エンタープライズ
+* FabricPoolとクラウドの階層化
+* SnapRestore
+* FlexClone
+* SnapCenter （ライセンスは含まれていますが、Keystoneサービスには含まれていません。また、管理は保証されません）
+
+
 
 
  a| 
 オブジェクトストレージ
-| StorageGRID プラットフォームに基づきます | は、複数のサイトにまたがる複数の情報ライフサイクル管理（ILM）ポリシーをサポートしています。注：各サイトには個別のサブスクリプションが必要です。 | S3 
+ a| 
+StorageGRID
+ a| 
+S3
+ a| 
+は、複数のサイトにまたがる複数の情報ライフサイクル管理（ILM）ポリシーをサポートしています。*注：各サイトに個別のサブスクリプションが必要です。
+
 |===
 
 
-== クラウドストレージサービス
+== クラウドストレージ向けサービス
 
-Keystoneは、Amazon Web Services（AWS）、Microsoft Azure、Google Cloud PlatformでCloud Volumes ONTAP のデータ管理機能をサポートします。このサービスは、既存のサブスクリプションと共存できます。クラウドサービスは、サービス期間中いつでも含めることができます。ただし、サブスクリプションの更新を予定していない場合は、サブスクリプションの過去90日間にクラウドサービスを含めることはできません。
+Keystone STaaSがクラウドストレージサービスを提供Keystone STaaSは、Amazon Web Services（AWS）、Microsoft Azure、Google Cloud PlatformでCloud Volumes ONTAP のデータ管理機能をサポートします。
 
 
-NOTE: ハイパースケーラベースのコンピューティングおよびストレージインフラは、Keystoneサブスクリプションの一部としてネットアップから提供されるものではありません。ハイパースケーラークラウドサービスプロバイダから調達する必要があります。
+NOTE: Cloud Volumes ONTAP に必要なハイパースケーラベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaSサブスクリプションの一部としてネットアップから提供されるものではありません。これらのサブスクリプションは、ハイパースケーラークラウドサービスプロバイダから直接調達する必要があります。

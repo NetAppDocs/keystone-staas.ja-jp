@@ -11,15 +11,39 @@ sidebar:
   entries:
   - title: Keystoneのドキュメント
     url: "/index.html"
-  - title: はじめに
+  - title: Keystoneへようこそ
+    url: "/concepts/overview.html"
+  - title: Keystoneをセットアップおよび設定する
     entries:
-    - title: Keystoneの詳細をご確認ください
-      url: "/concepts/overview.html"
-    - title: Keystoneでサポートされるストレージ容量
+    - title: Keystoneコレクタとは
+      url: "/installation/installation-overview.html"
+    - title: インストールの前提条件
+      entries:
+      - title: VMware vSphere の前提条件
+        url: "/installation/vapp-prereqs.html"
+      - title: Linuxの前提条件
+        url: "/installation/linux-prereqs.html"
+      - title: Active IQ Unified Manager 構成
+        url: "/installation/aiqum-req.html"
+    - title: Installation手順 の略
+      entries:
+      - title: VMware vSphereの導入
+        url: "/installation/vapp-installation.html"
+      - title: Linuxのインストール
+        url: "/installation/linux-installation.html"
+      - title: 自動整合性検証
+        url: "/installation/validation.html"
+    - title: Keystoneコレクタを設定する
+      url: "/installation/configuration.html"
+    - title: システムヘルスを監視する
+      url: "/installation/monitor-health.html"
+  - title: Keystoneの詳細をご確認ください
+    entries:
+    - title: サポートされるストレージ容量
       url: "/concepts/supported-storage-capacity.html"
-    - title: Keystoneサービスの指標と定義
+    - title: 指標と定義
       url: "/concepts/metrics.html"
-    - title: Keystoneでサポートされるストレージサービス
+    - title: Keystoneでサポートされるストレージ
       url: "/concepts/supported-storage-services.html"
     - title: Keystoneのサービスレベル
       url: "/concepts/service-levels.html"
@@ -83,24 +107,26 @@ homepage:
     links:
     - title: NetApp Keystone とは
       url: "/concepts/overview.html"
+    - title: VMware vSphereへのKeystone Collectorのインストール
+      url: "/installation/vapp-installation.html"
+    - title: LinuxへのKeystone Collectorのインストール
+      url: "/installation/linux-installation.html"
     - title: 測定単位を教えてください。
       url: "/concepts/metrics.html"
     - title: サポートされているベースストレージ
       url: "/concepts/supported-storage-services.html"
-    - title: データ階層化とは
-      url: "/concepts/data-tiering.html"
-    - title: Keystoneデータが保護されるかどうか
-      url: "/concepts/adp.html"
-  - title: Keystoneのサービスレベル
+    - title: 消費データを確認するにはどうすればよいですか？
+      url: "/integrations/keystone-aiq.html"
+  - title: Keystoneでサポートされるサービス
     links:
     - title: Keystoneのサービスレベル
       url: "/concepts/service-levels.html"
     - title: サービス品質（QoS）
       url: "/concepts/qos.html"
-    - title: サービスレベルの容量要件
-      url: "/concepts/capacity-requirements.html"
-    - title: 消費データを確認するにはどうすればよいですか？
-      url: "/integrations/keystone-aiq.html"
+    - title: データ階層化とは
+      url: "/concepts/data-tiering.html"
+    - title: Keystoneデータが保護されるかどうか
+      url: "/concepts/adp.html"
   - title: Keystoneの価格設定
     links:
     - title: Keystoneの請求について理解する

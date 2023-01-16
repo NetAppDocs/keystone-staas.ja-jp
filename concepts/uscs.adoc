@@ -28,7 +28,7 @@ NetApp Global Services and Support Center（GSSC）は、お客様の製品と�
 
 == Keystone Success Managerの略
 
-Keystone Success Managerは米国米国で活動している市民土。担当業務は、NetApp Keystone 契約に明記されています。
+Keystone Success Manager（KSM）は米国米国で活動している市民土。担当業務は、NetApp Keystone 契約に明記されています。
 
 
 

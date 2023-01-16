@@ -14,7 +14,7 @@ summary: KeystoneとEquinixを提供
 
 
 [role="lead"]
-ネットアップは、EquinixデータセンターでNetApp Keystone サービスをホストするためにEquinixとパートナー関係を結び、ユニファイド解決策 を確実に提供しています。
+ネットアップは、EquinixデータセンターでNetApp Keystone STaaSサービスをホストするためにEquinixとパートナー関係を結び、お客様に確実にUnified解決策 を提供しています。
 
 Equinixによって提供されるKeystoneコロケーション（Co-Lo）サービスは、標準のKeystoneサービスとは異なります。
 

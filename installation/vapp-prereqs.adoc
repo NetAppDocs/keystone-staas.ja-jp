@@ -1,0 +1,221 @@
+---
+sidebar: sidebar 
+permalink: installation/vapp-prereqs.html 
+keywords: prerequisites, VMware vSphere, vApp 
+summary: VMware vSphereシステムにKeystoneコレクタをインストールするための前提条件 
+---
+= 仮想インフラの要件
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+VMware vSphereシステムにKeystone Collectorをインストールするには、いくつかの仮想インフラ構成が必要です。
+
+Keystone Collectorサーバ仮想マシンには、次のものが必要です。
+
+* オペレーティングシステム：VMware vCenter ServerおよびESXi 6.5以降
+* コア：CPU×4
+* RAM：12GB RAM
+* ディスクスペース：200GBのvDisk
+
+
+
+
+== その他の要件
+
+次の一般的な要件を満たしていることを確認します。
+
+
+
+=== ネットワーク要件
+
+次の表に、Keystone Collectorのネットワーク要件を示します。
+
+
+NOTE: Keystoneコレクタにはインターネット接続が必要です。インターネット接続は、デフォルトゲートウェイ（NAT経由）またはHTTPプロキシ経由で直接ルーティングできます。ここでは、両方のバリエーションについて説明します。
+
+|===
+
+
+| ソース | 宛先 | サービス | プロトコルとポート | カテゴリ | 目的 
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+Active IQ Unified Manager （Unified Manager）
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+必須
+ a| 
+Keystoneコレクタの使用率指標の収集
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+インターネット（後で指定するURL要件に従って）
+ a| 
+HTTP 、 HTTPS
+ a| 
+TCP 80、TCP 443
+ a| 
+必須（インターネット接続）
+ a| 
+Keystoneコレクタソフトウェア、OSの更新、指標のアップロード
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+顧客のHTTPプロキシ
+ a| 
+HTTPプロキシ
+ a| 
+顧客プロキシポート
+ a| 
+必須（インターネット接続）
+ a| 
+Keystoneコレクタソフトウェア、OSの更新、指標のアップロード
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+顧客のDNSサーバ
+ a| 
+DNS
+ a| 
+TCP/UDP 53
+ a| 
+必須
+ a| 
+DNS解決
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+顧客のNTPサーバ
+ a| 
+NTP
+ a| 
+UDP 123
+ a| 
+必須
+ a| 
+時刻の同期
+
+
+
+ a| 
+顧客のOperationsワークステーション
+ a| 
+Keystoneコレクタ
+ a| 
+SSH
+ a| 
+TCP 22
+ a| 
+管理
+ a| 
+Keystoneコレクタ管理にアクセスする
+
+
+
+ a| 
+NetApp ONTAP クラスタおよびノード管理アドレス
+ a| 
+Keystoneコレクタ
+ a| 
+HTTP_8000、ping
+ a| 
+TCP 8000、ICMPエコー要求/応答
+ a| 
+オプションの機能
+ a| 
+ONTAP ファームウェアの更新用Webサーバ
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+Unified Manager の略
+ a| 
+MySQL
+ a| 
+TCP 3306
+ a| 
+オプションの機能
+ a| 
+Keystoneコレクタのパフォーマンス指標の収集
+
+
+
+ a| 
+Keystoneコレクタ
+ a| 
+カスタマーモニタリングシステム
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+オプションの機能
+ a| 
+Keystoneコレクタの健常性レポート
+
+|===
+
+
+=== URLアクセス
+
+Keystoneコレクタには、次のインターネットホストへのアクセスが必要です。
+
+|===
+
+
+| 住所 | 理由 
+
+
+ a| 
+https://keystone.netapp.com[]
+ a| 
+Keystoneコレクタソフトウェアの更新と使用状況のレポート
+
+
+
+ a| 
+https://support.netapp.com[]
+ a| 
+ネットアップHQによる請求情報とAutoSupport の提供
+
+
+
+ a| 
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
+ a| 
+Keystoneコレクタ用のOSの更新（OVA環境のみ）
+
+
+
+ a| 
+http://repo.mysql.com[]
+ a| 
+MySQLの依存関係をダウンロードして更新（Linux環境のみ）
+
+|===

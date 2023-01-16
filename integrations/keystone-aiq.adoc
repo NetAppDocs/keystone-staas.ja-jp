@@ -13,7 +13,10 @@ summary: KeystoneとDigital Advisor
 :imagesdir: ../media/
 
 
-NetApp Keystone サービスに登録している場合は、Digital Advisorダッシュボードに使用状況レポートとグラフを表示できます。Digital Advisorを使用すると、Storage as a Service（STaaS；ストレージサービス）の詳細と、所有しているネットアップインフラに関する情報を確認できます。Digital Advisorでは、容量の使用状況と傾向のデータを可視化し、詳細なレポートを作成できる単一のダッシュボードビューが提供されます。また、サブスクリプション用の新しいサービスを注文したり、既存のサービスの容量を更新したりできるため、Digital Advisorを通じてKeystoneサブスクリプションを管理することもできます。
+[role="lead"]
+NetApp Keystone サービスに登録している場合は、Digital Advisorダッシュボードに使用状況レポートとグラフを表示できます。
+
+Digital Advisorを使用すると、Storage as a Service（STaaS；ストレージサービス）の詳細と、所有しているネットアップインフラに関する情報を確認できます。Digital Advisorでは、容量の使用状況と傾向のデータを可視化し、詳細なレポートを作成できる単一のダッシュボードビューが提供されます。また、サブスクリプション用の新しいサービスを注文したり、既存のサービスの容量を更新したりできるため、Digital Advisorを通じてKeystoneサブスクリプションを管理することもできます。
 
 Digital Advisorの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["Digital Advisorのドキュメント"]。
 
