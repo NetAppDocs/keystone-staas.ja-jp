@@ -14,15 +14,15 @@ summary: Keystoneのサービス品質
 
 
 [role="lead"]
-ストレージQuality of Service（QoS；サービス品質）は、アプリケーションのパフォーマンスが安定し、予測可能な安定したものになるようにするための重要なテクノロジです。QoSが設定されていないと、複数のシステムのブートなど、特定のワークロードが一定期間リソース全体を消費し、他のワークロードに影響を与える可能性があります。QoSの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS の概要を使用してスループットを保証"]。
+ストレージQuality of Service（QoS；サービス品質）は、アプリケーションのパフォーマンスが安定し、予測可能な安定したものになるようにするための重要なテクノロジです。QoSが設定されていないと、複数のシステムのブートなど、特定のワークロードが一定期間リソース全体を消費し、他のワークロードに影響を与える可能性があります。QoSの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS の概要を使用してスループットを保証"^]。
 
-QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoS上限の2つのパラメータを定義しています。 https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSは、ワークロードのスループットが特定のIOPS / MBps、またはIOPS / MBps未満でないことを保証します。
+QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoSのパラメータを天井から https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"^]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"^]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSは、ワークロードのスループットが特定のIOPS / MBps、またはIOPS / MBps未満でないことを保証します。
 
 
 
 == アダプティブ QoS
 
-アダプティブQoSは、QoSポリシーが自動的に適用されるため、KeystoneサービスでTBまたはGBあたりのIOPSの比率が一定になるように設定されます。アダプティブQoSについては、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["アダプティブ QoS について"]。
+アダプティブQoS（AQoS）は、QoSポリシーが自動的に適用されるため、KeystoneサービスでTB / GBあたりのIOPSが一定になるように設定されています。アダプティブQoSについては、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-adaptive-qos["アダプティブ QoS について"^]。
 
 Keystoneには、クラスタが本番環境になった時点で設定可能なアダプティブQoSポリシーが用意されています。システムですでに作成されて使用可能な正しいアダプティブQoSポリシーがすべてのボリュームに関連付けられていることを確認してください。
 
@@ -35,26 +35,26 @@ NOTE: ボリュームにアダプティブQoSポリシーが正しく適用さ�
 
 アダプティブQoSポリシーは、スループットの上限や下限をボリュームサイズに自動的に調整するように設定できます。ポリシーを設定する場合は、次の点に注意してください。
 
-* Policy Group name：アダプティブQoSポリシーグループの名前。たとえば'Keystone _extremeとなります
-* Vserver：SVMまたはStorage VM（Storage Virtual Machine）の名前。
-* 想定IOPS：パフォーマンスが保証されるかぎり最小値としてONTAP が提供するTiBあたりのIOPS数。
-* 最大IOPS。パフォーマンスが制限される前にボリュームで使用可能な最大IOPS / TiB。
-* 想定IOPS割り当て：割り当てスペースと使用済みスペースのどちらが想定IOPSか。このフィールドは、ボリュームで使用可能な想定IOPSが、ボリュームのプロビジョニング済みサイズと使用済みサイズのどちらに基づいているかを制御します。Keystoneでは、QoSの計算はすべて使用済みスペースに基づいて行われます。
-* ピークIOPSの割り当て：割り当てスペースと使用済みスペースのどちらがピークIOPSを考慮するか。このフィールドは、ボリュームで利用可能なピークIOPSが、ボリュームのプロビジョニング済みサイズと使用済みサイズのどちらに基づいているかを制御します。Keystoneでは、QoSの計算はすべて使用済みスペースに基づいて行われます。
-* 絶対最小IOPS：ボリュームサイズが非常に小さく、それ以外の場合に許容できない数のIOPSが発生する場合に、ボリュームに適用される想定IOPSの最小値。デフォルト値は'Extremeの場合は1,000 ' Premiumの場合は500 'その他のサービス・レベルの場合は75です
+* * Policy group name *：アダプティブQoSポリシーグループの名前。例： `Keystone_extreme`。
+* * vserver *：SVMまたはStorage VM（Storage Virtual Machine）の名前。
+* *想定IOPS *：パフォーマンスが保証されているかぎり、ONTAP が最小値として提供するTiBあたりのIOPS数。
+* *ピークIOPS *：パフォーマンスが制限される前にボリュームで使用可能な最大IOPS / TiB。
+* *想定IOPS割り当て*：このフィールドは、ボリュームで使用可能な想定IOPSが、割り当てられたサイズと使用済みのサイズのどちらに基づいているかを制御します。Keystoneでは、割り当てられたスペースに基づいて判断します。
+* *ピークIOPS割り当て*：このフィールドは、ボリュームに使用可能なピークIOPSが、割り当てられたサイズと使用済みのサイズのどちらに基づいているかを制御します。Keystoneでは、使用済みスペースに基づいて判断します。
+* *絶対最小IOPS *：ボリュームサイズが非常に小さく、それ以外の場合に許容できない数のIOPSが発生する場合に、ボリュームに適用される想定IOPSの最小値。のデフォルト値は1、000です `Extreme`の場合は500 `Premium`その他のサービスレベルの場合は75。
 +
 
 NOTE: これはIOPS密度ではなく（75IOPS/TBなど）、絶対最小IOPS数です。
 
 
 
-詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["アダプティブ QoS ポリシーグループを使用する"]。
+I/O密度の詳細については、を参照してください link:../concepts/metrics.html["Keystoneサービスで使用される指標と定義"]。AQoSポリシーグループの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/adaptive-qos-policy-groups-task.html["アダプティブ QoS ポリシーグループを使用する"^]。
 
 
 
 == アダプティブQoSポリシーの設定
 
-アダプティブQoSポリシーの設定はサービスレベルごとに異なります。
+以降のセクションでは、各サービスレベルのアダプティブQoSポリシーの設定について説明します。ここで指定するサービスレベルごとの最小ボリュームサイズと最大ボリュームサイズにより、ボリュームのIOPSとレイテンシの値を最適化できます。このガイドライン以外でボリュームを大量に作成すると、ボリュームのパフォーマンスが低下する可能性があります。
 
 
 
@@ -66,7 +66,7 @@ Extremeサービスレベルの設定とコマンド：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_extreme> -vserver <SVM_name> -expected-iops 6144 -peak-iops 12288 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 1000
 ....
 * 最小ボリュームサイズ：100GiB、0.1TiB
 * 最大ボリュームサイズ：10TiB
@@ -76,12 +76,13 @@ qos adaptive-policy-group create -policy group <Keystone_extreme> -vserver <SVM_
 
 === Premiumサービスレベルの設定
 
- Settings and commands for the Premium service level:
+Premiumサービスレベルの設定とコマンド：
+
 * コマンド例：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_premium> -vserver <SVM_name> -expected-iops 2048 -peak-iops 4096 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 500
 ....
 * 最小ボリュームサイズ：500GiB、0.5TiB
 * 最大ボリュームサイズ：50TiB
@@ -97,7 +98,7 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_performance> -vserver <SVM_name> -expected-iops 1024 -peak-iops 2048 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 250
 ....
 * 最小ボリュームサイズ：500GiB、0.5TiB
 * 最大ボリュームサイズ：80TiB
@@ -105,14 +106,15 @@ qos adaptive-policy-group create -policy group <Keystone_performance> -vserver <
 
 
 
-=== 値サービスレベルの設定
+=== Standardサービスレベルの設定
 
- Settings and commands for the Value  service level:
+Standardサービスレベルの設定とコマンド：
+
 * コマンド例：
 
 
 ....
-qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation used-space -peak-iops-allocation used-space -block-size 32K
+qos adaptive-policy-group create -policy-group <Keystone_standard> -vserver <SVM_name> -expected-iops 256 -peak-iops 512 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 77
 ....
 * 最小ボリュームサイズ：1TiB
 * 最大ボリュームサイズ：100TiB
@@ -120,9 +122,19 @@ qos adaptive-policy-group create -policy group <Keystone_premium> -vserver <SVM_
 
 
 
-=== ボリュームサイズの推奨事項
+=== 値サービスレベルの設定
 
-ここで説明する各サービスレベルの最小ボリュームサイズと最大ボリュームサイズにより、ボリュームのIOPSとレイテンシの値が最適化されます。このガイドライン以外でボリュームを大量に作成すると、ボリュームのパフォーマンスが低下する可能性があります。
+値サービスレベルの設定とコマンド：
+
+* コマンド例：
+
+
+....
+qos adaptive-policy-group create -policy-group <Keystone_value> -vserver <SVM_name> -expected-iops 64 -peak-iops 128 -expected-iops-allocation allocated-space -peak-iops-allocation used-space -block-size Any -absolute-min-iops 59
+....
+* 最小ボリュームサイズ：1TiB
+* 最大ボリュームサイズ：100TiB
+
 
 
 

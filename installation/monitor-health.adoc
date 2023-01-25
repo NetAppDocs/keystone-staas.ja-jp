@@ -32,7 +32,7 @@ $ curl http://127.0.0.1:7777/uber/health
 
 .Linuxユーザの場合は、次の既知の問題 に注意してください。
 
-NOTE: *事象の説明 *：Keystone Collectorは、使用状況計測システムの一部として、多数のコンテナを実行します。Red Hat Enterprise Linux 8.xサーバが米国国防総省情報システム機関（DISA）セキュリティ技術実装ガイド（STIG）ポリシーで強化されると、fapolicyd（ファイルアクセスポリシーデーモン）を持つ既知の問題 が断続的に確認されています。この問題 はと識別されます link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["バグ1907870"]。*回避策 *：Red Hat Enterpriseが解決するまでは、この問題 を迂回することをお勧めします `fapolicyd` Permissiveモードになります。インチ /`etc/fapolicyd/fapolicyd.conf`をクリックして、の値を設定します `permissive = 1`。
+NOTE: *事象の説明 *：Keystone Collectorは、使用状況計測システムの一部として、多数のコンテナを実行します。Red Hat Enterprise Linux 8.xサーバが米国国防総省情報システム機関（DISA）セキュリティ技術実装ガイド（STIG）ポリシーで強化されると、fapolicyd（ファイルアクセスポリシーデーモン）を持つ既知の問題 が断続的に確認されています。この問題 はと識別されます link:https://bugzilla.redhat.com/show_bug.cgi?id=1907870["バグ1907870"^]。*回避策 *：Red Hat Enterpriseが解決するまでは、この問題 を迂回することをお勧めします `fapolicyd` Permissiveモードになります。インチ /`etc/fapolicyd/fapolicyd.conf`をクリックして、の値を設定します `permissive = 1`。
 
 
 

@@ -20,8 +20,8 @@ Unified Manager 9.7以降がインストールされていて、APIゲートウ�
 
 Unified Managerのインストールについては、次のリンクを参照してください。
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphereシステムへのUnified Managerのインストール"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux システムへの Unified Manager のインストール"]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphereシステムへのUnified Managerのインストール"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux システムへの Unified Manager のインストール"^]
 
 
 
@@ -36,15 +36,15 @@ Keystoneコレクタで使用状況とパフォーマンスのデータを収集
 
 ユーザの作成、ユーザタイプ、およびユーザロールについては、次のリンクを参照してください。
 
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html["ユーザタイプの定義"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["ユーザロールの定義"]
-* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html["Unified Manager のユーザロールと機能"]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_types.html["ユーザタイプの定義"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["ユーザロールの定義"^]
+* https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_unified_manager_roles_and_capabilities.html["Unified Manager のユーザロールと機能"^]
 
 
 .手順
-. アプリケーション管理者のユーザクレデンシャルを使用してUnified Manager Web UIにログインします。インストール時にデフォルトの管理者ユーザが作成されます。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"]。
-. を使用してユーザを作成します `Operator role`。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["ユーザを追加する"]。
-. を作成します `Database` ユーザ：を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["データベースユーザを作成しています"]。
+. アプリケーション管理者のユーザクレデンシャルを使用してUnified Manager Web UIにログインします。インストール時にデフォルトの管理者ユーザが作成されます。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"^]。
+. を使用してユーザを作成します `Operator role`。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["ユーザを追加する"^]。
+. を作成します `Database` ユーザ：を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["データベースユーザを作成しています"^]。
 
 
 image:um-add-user.png[""]
@@ -64,8 +64,8 @@ APIゲートウェイは、Web UIまたはUnified Manager CLIからいくつか�
 Unified Manager Web UIからAPIゲートウェイを有効にするには、次の手順を実行します。
 
 .手順
-. アプリケーション管理者のユーザクレデンシャルを使用してUnified Manager Web UIにログインします。インストール時にデフォルトの管理者ユーザが作成されます。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"]。
-. APIゲートウェイの有効化の詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API ゲートウェイを有効にしてい"]。
+. アプリケーション管理者のユーザクレデンシャルを使用してUnified Manager Web UIにログインします。インストール時にデフォルトの管理者ユーザが作成されます。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"^]。
+. APIゲートウェイの有効化の詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API ゲートウェイを有効にしてい"^]。
 
 
 
@@ -74,7 +74,7 @@ Unified Manager Web UIからAPIゲートウェイを有効にするには、次�
 
 以下の手順では、Unified Manager CLIからのAPIゲートウェイアクセスを有効にする方法について説明します。
 
-サポートされているコマンドの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Unified Manager の CLI コマンドがサポートされています"]。
+サポートされているコマンドの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Unified Manager の CLI コマンドがサポートされています"^]。
 
 .手順
 . Unified Managerサーバで、SSHセッションを開始してUnified Manager CLIにログインします。
@@ -85,8 +85,8 @@ Unified Manager Web UIからAPIゲートウェイを有効にするには、次�
 `um option set api.gateway.enabled=true`
 . Unified Managerサーバを再起動して設定を適用します。情報：
 +
-** Linuxシステムの場合は、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager を再開しています"]。
-** VMware vSphereシステムについては、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 仮想マシンを再起動しています"]。
+** Linuxシステムの場合は、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager を再開しています"^]。
+** VMware vSphereシステムについては、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 仮想マシンを再起動しています"^]。
 
 
 

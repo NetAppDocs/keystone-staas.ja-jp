@@ -99,6 +99,8 @@ sidebar:
       url: "/integrations/keystone-cm.html"
     - title: KeystoneとDigital Advisor
       url: "/integrations/keystone-aiq.html"
+    - title: Digital Advisor Keystoneのダッシュボードとレポート
+      url: "/integrations/aiq-keystone-details.html"
   - title: 法的通知
     url: "/legal-notices.html"
 homepage:
@@ -127,6 +129,8 @@ homepage:
       url: "/concepts/data-tiering.html"
     - title: Keystoneデータが保護されるかどうか
       url: "/concepts/adp.html"
+    - title: サービスレベルあたりの消費量を確認するにはどうすればよいですか？
+      url: "/integrations/aiq-keystone-details.html"
   - title: Keystoneの価格設定
     links:
     - title: Keystoneの請求について理解する
