@@ -26,7 +26,7 @@ summary: アドオン、追加サービスの詳細、データ階層化
 
 たとえば、コールドストレージ階層のターゲットが次の場合です。
 
-* Keystone STaaSの価値階層、Keystone STaaS StorageGRID オブジェクト階層、または既存のSGWSグリッド（お客様が所有）-追加料金なしで標準サービスに含まれます。
+* Keystone STaaSバリュー階層、Keystone STaaS StorageGRID オブジェクト階層、既存のSGWSグリッド（お客様所有）-追加料金は発生しません。標準サービスの一部です。
 * パブリッククラウド（AWS、Azure、Google）やKeystone STaaSをサポートするサードパーティのオブジェクトストレージ-コールドストレージターゲットに階層化されたデータ容量には追加料金が発生します。
 
 

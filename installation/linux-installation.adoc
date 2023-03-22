@@ -25,7 +25,7 @@ Linuxサーバにソフトウェアをインストールするには、次の手
 `# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`正しい指紋は次のようになります。
 `90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
 . をダウンロードします `keystonerepo.rpm` ファイル：
-`# wget https://keystone.netapp.com/repo/keystonerepo.rpm`
+`curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . ファイルの信頼性を確認します。
 `rpm --checksig -v keystonerepo.rpm`本物のファイルの署名は次のようになります。
 `Header V4 RSA/SHA512 Signature, key ID 33b6c17d: OK`
@@ -34,3 +34,6 @@ Linuxサーバにソフトウェアをインストールするには、次の手
 . Keystone repoがインストールされたら、YUMパッケージマネージャを使用してKeystoneコレクタパッケージをインストールします。
 `# yum install keystone-collector`
 
+
+
+NOTE: インストールが完了したら、Keystone Collector管理のターミナルユーザインターフェイス（TUI）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。を参照してください link:../installation/configuration.html["Keystoneコレクタを設定する"] および link:../installation/monitor-health.html["システムヘルスを監視する"]。

@@ -21,7 +21,7 @@ HTTP要求をサポートする任意の監視システムを使用して、Keys
 [listing]
 ----
 $ curl http://127.0.0.1:7777/uber/health
-{"is_healthy": true, "component_details": {"vicmet": "Running", "minio": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
+{"is_healthy": true, "component_details": {"vicmet": "Running", "ks-collector": "Running", "ks-billing": "Running", "chronyd": "Running"}}
 ----
 次のステータスコードが返されます。
 
@@ -103,5 +103,5 @@ KeystoneコレクタTUIでは、サポートバンドルを生成し、サポー
 `$ keystone-collector-tui`
 . 「*トラブルシューティング」>「サポートバンドルの生成」に進みます。image:tui-sup-bundl.png[""]
 . 生成されると、バンドルが保存される場所が表示されます。FTP、SFTP、SCPを使用して場所に接続し、ログファイルをローカルシステムにダウンロードします。image:tui-sup-bundl-2.png[""]
-. ファイルがダウンロードされたら、Keystone ServiceNowサポートチケットに添付できます。詳細については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
+. ファイルがダウンロードされたら、Keystone ServiceNowサポートチケットに添付できます。チケットの発行については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
 

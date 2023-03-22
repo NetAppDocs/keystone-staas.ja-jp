@@ -45,9 +45,9 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 ストレージ機器に加えて、ストレージと消費の監視用に2つの監視ツールがプロビジョニングされています。
 
 * OpsRamp Local Gateway：OpsRampはネットワークの監視に使用するクラウドベースのアプリケーションです。ネットアップのストレージプラットフォームとの統合機能が組み込まれており、環境データの収集とネットワークの監視に役立ちます。このサービスは、クラウドポータルと通信するためにサイトにインストールされたローカルゲートウェイを使用することで有効になります。を参照してください
-* Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分ごとに定期的にデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクが課金用のデータを処理し、Zuoraに送信して課金を行います。Digital Advisorのカスタマーポータルでは、Keystoneサブスクリプションにログインして、サブスクリプションと使用状況の詳細を確認できます。
+* Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分ごとに定期的にデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクが課金用のデータを処理し、Zuoraに送信して課金を行います。Active IQ デジタルアドバイザ（デジタルアドバイザ）カスタマーポータルでは、ログインして、Keystoneサブスクリプションのサブスクリプションと消費量の詳細を表示できます。
 
 
 image:mgmt-stack.png[""]
 
-詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。
+Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。

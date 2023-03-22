@@ -14,15 +14,36 @@ summary: Keystoneコレクタの設定
 
 
 [role="lead"]
-Keystoneコレクタがストレージ環境の使用状況データを収集できるようにするには、いくつかの設定タスクを実行する必要があります。これは、必要なコレクタコンポーネントをアクティブにしてActive IQ Unified Manager （Unified Manager）に関連付ける1回限りのアクティビティです。
+Keystoneコレクタがストレージ環境の使用状況データを収集できるようにするには、いくつかの設定タスクを実行する必要があります。これは、必要なコレクタコンポーネントをアクティブ化してストレージ環境に関連付けるための1回限りのアクティビティです。
 
-Unified Managerで管理されているすべてのONTAP クラスタを監視できます。次の手順を実行します。
+
+NOTE: Keystone Collectorには、設定と監視のアクティビティを実行するためのKeystone Collector管理ターミナルユーザインターフェイス（TUI）ユーティリティが用意されています。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。
 
 .手順
 . Keystone Collector管理TUIユーティリティを開きます。
 `$ keystone-collector-tui`
-. **Configure > KS-Collector **に移動してKeystone Collector設定画面を開き、Unified Managerサーバとサービスアカウントの詳細を追加します。この環境でSLAの目的でパフォーマンスの監視が必要な場合は、[**Collect ONTAP Performance Data**]オプションを有効にし、Unified Managerデータベースのユーザアカウントの詳細を指定します。詳細については、を参照してください link:../aiqum-req.html["Unified Managerユーザを作成します"]。
-. [Enable KS-Collector Service**]フィールドを切り替えます。
+. [Configure]>[KS-Collector]**に移動して、Keystone Collectorの設定画面を開き、更新に使用できるオプションを確認します。
+. 必要なオプションを更新します。
++
+.<xmt-block0><strong></xmt-block> for ONTAP<xmt-block1> </strong></xmt-block> を参照してください
+[%collapsible]
+====
+** * ONTAP 使用状況の収集*：このオプションは、ONTAP の使用状況データの収集を有効にします。Active IQ Unified Manager （Unified Manager）サーバとサービスアカウントの詳細を追加します。
+** * ONTAP パフォーマンスデータの収集*：このオプションは、ONTAP のパフォーマンスデータの収集を有効にします。これはデフォルトでは無効になっています。SLAのために環境でパフォーマンス監視が必要な場合は、このオプションを有効にします。Unified Managerデータベースのユーザアカウントの詳細を指定します。データベース・ユーザの作成については、を参照してください link:../addl-req.html["Unified Managerユーザを作成します"]。
+** *プライベートデータの削除*：このオプションは、顧客の特定のプライベートデータを削除し、デフォルトで有効になっています。このオプションを有効にした場合にメトリックから除外されるデータの詳細については、を参照してください link:../installation/configuration.html#limit-collection-of-private-data["プライベートデータの収集を制限します"]。
+
+
+====
++
+.<xmt-block0><strong></xmt-block> for StorageGRID<xmt-block1> </strong></xmt-block> を参照してください
+[%collapsible]
+====
+** * Collect StorageGRID usage *：このオプションを選択すると、ノード使用状況の詳細を収集できます。StorageGRID ノードのアドレスとユーザの詳細を追加します。
+** *プライベートデータの削除*：このオプションは、顧客の特定のプライベートデータを削除し、デフォルトで有効になっています。このオプションを有効にした場合にメトリックから除外されるデータの詳細については、を参照してください link:../configuration.html#limit-collection-of-private-data["プライベートデータの収集を制限します"]。
+
+
+====
+. ** Start KS - Collector with System **フィールドを切り替えます。
 . [**保存**]をクリックします。image:tui-1.png[""]
 . TUIのメイン画面に戻り、**Service Status**情報を確認して、Keystone Collectorが正常な状態になっていることを確認します。サービスのステータスが**overall：healthy **であることがシステムに表示されます。image:tui-2.png[""]
 . ホーム画面で[** Exit to Shell**]オプションを選択して、Keystone Collector管理TUIを終了します。
@@ -47,113 +68,8 @@ Unified Managerで管理されているすべてのONTAP クラスタを監視�
 
 Keystoneコレクタは、サブスクリプションの計測に必要な設定、ステータス、およびパフォーマンスに関する情報を一部収集します。アップロードしたコンテンツから機密情報をマスキングすることで、収集する情報をさらに制限するオプションがあります。これは請求計算には影響しません。ただし、情報を制限すると、ボリューム名などのユーザが簡単に識別できる一部の要素がUUIDに置き換えられるため、レポート情報のユーザビリティに影響する可能性があります。
 
-データを制限するオプション**プライベートデータの削除**は、TUI設定画面で設定できます。このオプションは、デフォルトでは無効になっています。
+特定のお客様データの収集を制限するオプションは、Keystone CollectorのTUI画面で設定できます。このオプション*プライベートデータの削除*はデフォルトで有効になっています。
 
 image:tui-4.png[""]
 
-
-
-=== 使用状況の収集用に収集された情報のリストの例
-
-次に、使用状況の収集に含まれる情報の代表的な例を示します。
-
-* クラスタ
-+
-** クラスタUUID
-** シリアル番号
-** 場所（ONTAP クラスタでの値の入力に基づく）
-** 連絡先
-
-
-* ノード
-+
-** シリアル番号
-** ノード名
-
-
-* 個のボリューム
-+
-** アグリゲート名
-** ボリューム名
-** ボリュームインスタンスUUID
-** IsCloneVolumeフラグ
-** IsFlexGroupConstitutentフラグ
-** IsSpaceEnforcementLogicalフラグ
-** IsSpaceReportingLogicalフラグ
-** LogicalSpaceUsedByAfs
-** PercentSnapshotSpace
-** PerformanceTierInactiveUserData
-** PerformanceTierInactiveUserDataPercent
-** QosAdaptivePolicyGroup名
-** QosPolicyGroup名
-** サイズ
-** サイズ使用方法を指定します
-** を入力します
-** VolumeStyleExtended
-** SVM 名です
-** IsVsRootフラグ
-
-
-* ストレージアグリゲート
-+
-** ストレージタイプ
-** アグリゲート名
-** アグリゲートUUID
-
-
-* AggregateObjectStoresのようになります
-+
-** ObjectStoreNameの略
-** ObjectStoreUUID
-** プロバイダタイプ（providerType）
-** アグリゲート名
-
-
-* StorageLuns
-+
-** LUN UUID
-** サイズ
-** 使用済み
-** IsReservedフラグ
-** IsRequestedフラグ
-** LogicalUnit名
-** QosPolicyUUID
-** QosPolicyNameの実行
-** ボリュームのUUID
-** ボリューム名
-** svmUUID
-** SVM名
-
-
-* コレクタ観察メトリック
-+
-** 収集時間
-** AIQUM APIエンドポイントが照会されました
-** 応答時間
-** レコード数
-** AiqumInstance IPの場合
-** CollectorInstance ID
-
-
-
-
-
-
-=== プライベートデータアクセスの制限で削除された項目のリスト
-
-[プライベートデータの削除*]オプションを有効にすると、次の情報が削除されます。
-
-* クラスタ名
-* クラスタの場所
-* クラスタの連絡先
-* ノード名
-* アグリゲート名
-* ボリューム名
-* QosAdaptivePolicyGroup名
-* QosPolicyGroup名
-* SVM 名です
-* アグリゲート名
-* LogicalUnit名
-* SVM名
-* AiqumInstance IPの場合
-
+ONTAP とStorageGRID の両方でプライベートデータアクセスを制限する際に削除される項目の詳細については、を参照してください link:../installation/data-collection.html["プライベートデータアクセスの制限で削除された項目のリスト"]。

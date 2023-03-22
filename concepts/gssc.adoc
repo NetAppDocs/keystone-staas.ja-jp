@@ -14,7 +14,7 @@ summary: ネットアップグローバルサービスサポートセンターGS
 
 
 [role="lead"]
-NetApp Keystone サービスは、ネットアップのグローバルサービスおよびサポートセンター（GSSC）、NetApp Keystone サクセスマネージャ、NetApp Keystone サービスデリバリマネージャを活用して運営されています。
+Keystoneサブスクリプション向けのサービスは、ネットアップのグローバルサービスおよびサポートセンター（GSSC）とNetApp Keystone サクセスマネージャー（KSM）が担当します。
 
 
 
@@ -36,7 +36,7 @@ NetApp Keystone サービスは、ネットアップのグローバルサービ�
 
 NOTE: パートナー運用モデルでは、テナントとサブテナントのサービス要求がパートナーのサービスデスクに割り当てられます。OpsRamp と GSSC アプリケーションとの統合はパートナーのサポートツールで可能です。L3 の問題のみが GSSC を通じてネットアップにエスカレーションされます。
 
-詳細については、を参照してください
+Keystoneサービスの詳細については、以下を参照してください。
 
 * NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
 * ネットアップの製品マニュアルhttps://docs.netapp.com["https://docs.netapp.com"^]

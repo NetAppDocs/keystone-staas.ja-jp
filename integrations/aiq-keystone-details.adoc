@@ -14,9 +14,9 @@ summary: Keystoneサブスクリプションレポートとグラフ
 
 
 [role="lead"]
-NetApp Keystone STaaSサービスにサブスクライブしている場合は、デジタルアドバイザダッシュボードの* Keystone Subscriptions *ウィジェットで使用状況を監視できます。
+NetApp Keystone STaaSサービスにサブスクライブしている場合は、Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットで使用状況を監視できます。
 
-Digital Advisorウィジェットについては、を参照してください https://docs.netapp.com/us-en/active-iq/task_view_keystone_capacity_utilization.html["NetApp Keystone サブスクリプションを使用して容量利用率を表示します"^]。
+Digital Advisorウィジェットについては、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone サブスクリプションを使用して容量利用率を表示します"^]。
 
 ウィジェットで* View More Details *をクリックすると、* Keystoneサブスクリプション*ページでボリュームの使用状況の詳細とアラートが表示されます。または、左側のナビゲーションペインで、* General > Keystone Subscription *に移動します。
 

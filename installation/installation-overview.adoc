@@ -14,12 +14,12 @@ summary: Keystoneコレクタとは
 
 
 [role="lead"]
-Keystoneサービスを利用および有効にするには、サイトのVMware vSphereまたはLinuxシステムにKeystone Collectorをインストールする必要があります。
+Keystoneサービスを利用して使用状況データを表示するには、サイトのVMware vSphereまたはLinuxシステムにKeystone Collectorをインストールする必要があります。
 
 
-NOTE: ここで説明するインストールと設定の情報は、ONTAP にのみ適用されます。
+NOTE: ここに記載されているインストールと設定の情報は、ONTAP とStorageGRID に適用されます。要件と手順は、指摘された例外を除いて、ONTAP とStorageGRID の両方に共通です。
 
-Keystoneコレクタは、Active IQ Unified Manager やその他のアプリケーションを利用してONTAP ストレージシステムに接続するKeystone請求プラットフォームの主要コンポーネントです。このコンポーネントを使用すると、ストレージ環境の健全性を監視しながら、課金データを送信してレポートを作成できます。
+Keystone Collectorは、Keystone課金プラットフォームの使用量を取得するコンポーネントで、Active IQ Unified Manager やその他のアプリケーションを利用してONTAP システムやStorageGRID システムに接続し、Keystoneサブスクリプションの使用量やSLAパフォーマンスの計測に必要なメタデータを収集します。レポート作成のために請求データを送信しながら、システムの健全性を監視する機能を提供します。
 
 このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。
 

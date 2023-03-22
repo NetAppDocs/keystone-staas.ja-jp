@@ -17,14 +17,14 @@ sidebar:
     entries:
     - title: Keystoneコレクタとは
       url: "/installation/installation-overview.html"
-    - title: インストールの前提条件
+    - title: Keystone Collectorをインストールするための前提条件
       entries:
       - title: VMware vSphere の前提条件
         url: "/installation/vapp-prereqs.html"
       - title: Linuxの前提条件
         url: "/installation/linux-prereqs.html"
-      - title: Active IQ Unified Manager 構成
-        url: "/installation/aiqum-req.html"
+      - title: ONTAP およびStorageGRID の特定の前提条件
+        url: "/installation/addl-req.html"
     - title: Installation手順 の略
       entries:
       - title: VMware vSphereの導入
@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: システムヘルスを監視する
       url: "/installation/monitor-health.html"
+    - title: 課金のために収集されたデータ
+      url: "/installation/data-collection.html"
   - title: Keystoneの詳細をご確認ください
     entries:
     - title: サポートされるストレージ容量
@@ -97,9 +99,9 @@ sidebar:
     entries:
     - title: KeystoneとBlueXP
       url: "/integrations/keystone-cm.html"
-    - title: KeystoneとDigital Advisor
+    - title: KeystoneとActive IQ デジタルアドバイザ
       url: "/integrations/keystone-aiq.html"
-    - title: Digital Advisor Keystoneのダッシュボードとレポート
+    - title: Keystone向けのActive IQ デジタルアドバイザレポート
       url: "/integrations/aiq-keystone-details.html"
   - title: 法的通知
     url: "/legal-notices.html"
@@ -149,7 +151,7 @@ homepage:
       url: "/concepts/gssc.html"
     - title: KeystoneとBlueXP
       url: "/integrations/keystone-cm.html"
-    - title: KeystoneとDigital Advisor
+    - title: KeystoneとActive IQ デジタルアドバイザ
       url: "/integrations/keystone-aiq.html"
     - title: 米国市民サポート
       url: "/concepts/uscs.html"
@@ -157,7 +159,7 @@ homepage:
     links:
     - title: Keystone Flex サブスクリプション
       url: https://docs.netapp.com/us-en/keystone/
-    - title: Digital Advisor
+    - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP
       url: https://docs.netapp.com/us-en/cloud-manager-family/

@@ -24,7 +24,7 @@ NOTE: Keystoneコレクタにはインターネット接続が必要です。イ
 
 
  a| 
-Keystoneコレクタ
+Keystone Collector（Keystone ONTAP 向け）
  a| 
 Active IQ Unified Manager （Unified Manager）
  a| 
@@ -32,14 +32,29 @@ HTTPS
  a| 
 TCP 443
  a| 
-必須
+必須（Keystone ONTAP を使用する場合）
  a| 
-Keystoneコレクタの使用率指標の収集
+ONTAP のKeystone Collectorの使用状況指標の収集
 
 
 
  a| 
-Keystoneコレクタ
+Keystone Collector（Keystone StorageGRID 向け）
+ a| 
+StorageGRID 管理ノード
+ a| 
+HTTPS
+ a| 
+TCP 443
+ a| 
+必須（Keystone StorageGRID を使用する場合）
+ a| 
+StorageGRID のKeystone Collectorの使用状況指標の収集
+
+
+
+ a| 
+Keystone Collector（汎用）
  a| 
 インターネット（後で指定するURL要件に従って）
  a| 
@@ -54,7 +69,7 @@ Keystoneコレクタソフトウェア、OSの更新、指標のアップロー�
 
 
  a| 
-Keystoneコレクタ
+Keystone Collector（汎用）
  a| 
 顧客のHTTPプロキシ
  a| 
@@ -69,7 +84,7 @@ Keystoneコレクタソフトウェア、OSの更新、指標のアップロー�
 
 
  a| 
-Keystoneコレクタ
+Keystone Collector（汎用）
  a| 
 顧客のDNSサーバ
  a| 
@@ -84,7 +99,7 @@ DNS解決
 
 
  a| 
-Keystoneコレクタ
+Keystone Collector（汎用）
  a| 
 顧客のNTPサーバ
  a| 
@@ -95,6 +110,36 @@ UDP 123
 必須
  a| 
 時刻の同期
+
+
+
+ a| 
+Keystone Collector（Keystone ONTAP 向け）
+ a| 
+Unified Manager の略
+ a| 
+MySQL
+ a| 
+TCP 3306
+ a| 
+オプションの機能
+ a| 
+Keystoneコレクタのパフォーマンス指標の収集
+
+
+
+ a| 
+Keystone Collector（汎用）
+ a| 
+カスタマーモニタリングシステム
+ a| 
+HTTP
+ a| 
+TCP 777
+ a| 
+オプションの機能
+ a| 
+Keystoneコレクタの健常性レポート
 
 
 
@@ -125,36 +170,6 @@ TCP 8000、ICMPエコー要求/応答
 オプションの機能
  a| 
 ONTAP ファームウェアの更新用Webサーバ
-
-
-
- a| 
-Keystoneコレクタ
- a| 
-Unified Manager の略
- a| 
-MySQL
- a| 
-TCP 3306
- a| 
-オプションの機能
- a| 
-Keystoneコレクタのパフォーマンス指標の収集
-
-
-
- a| 
-Keystoneコレクタ
- a| 
-カスタマーモニタリングシステム
- a| 
-HTTP
- a| 
-TCP 777
- a| 
-オプションの機能
- a| 
-Keystoneコレクタの健常性レポート
 
 |===
 
