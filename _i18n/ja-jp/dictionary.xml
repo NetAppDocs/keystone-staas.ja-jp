@@ -830,8 +830,6 @@
   <block id="89fb8980c16c92d28af72e0579cfac9c" category="summary">Keystoneサブスクリプションレポートとグラフ</block>
   <block id="deaf5bbabe29231a9826b313fee569a1" category="doc">Keystoneサブスクリプションのダッシュボードとレポート</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="inline-link">NetApp Keystone サブスクリプションを使用して容量利用率を表示します</block>
-  <block id="530e795f91eac0d251eb1546c915f390" category="paragraph">ウィジェットで* View More Details *をクリックすると、* Keystoneサブスクリプション*ページでボリュームの使用状況の詳細とアラートが表示されます。または、左側のナビゲーションペインで、* General &gt; Keystone Subscription *に移動します。</block>
-  <block id="2b5cc61793a2ba9e545466a73e93c16e" category="paragraph">サブスクリプションの詳細、各サービスレベルの使用状況グラフ、およびボリュームの詳細が、この画面の異なるタブに表示されます。</block>
   <block id="016b01bead3857be9fd51bfef49b23aa" category="admonition">Keystoneサブスクリプションの容量消費は、ダッシュボードとレポートのTiBに小数点以下2桁まで表示されます。使用量が0.01 TiB未満の場合、値は0またはと表示されます<block ref="31c2db4909d0d3638d380d92c0a194e0" prefix=" " category="inline-code"></block>。その他の使用指標については、を参照してください <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。Keystoneで使用されるさまざまな容量については、を参照してください <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
   <block id="b3c0ed0e576799a24c9e0fda06bee006" category="section-title">サブスクリプションの詳細を表示します</block>
   <block id="b5d0d2658bdd7db17a2251c2d1fa6edb" category="paragraph">アカウント名のすべてのサブスクリプションは、[*Subscription Details*]タブで確認できます。</block>
@@ -867,7 +865,6 @@
   <block id="d08b54ee187c7327910bae3997812ee1" category="list-text">*警告*：非順守などの問題は警告として表示されます。たとえば、管理対象クラスタにアダプティブQoS（AQoS）ポリシーが適用されていないボリュームがある場合、警告メッセージが表示されます。警告メッセージのリンクをクリックすると、* System Details *タブに非準拠ボリュームのリストが表示されます。</block>
   <block id="0fdfd6d11ae114ae172cdc0ad002c349" category="paragraph">AQoSポリシーの詳細については、を参照してください <block ref="ec50deebd618280d321c610a1ff0d73b" category="inline-link-macro-rx"></block>。</block>
   <block id="2f79ebd4f32cabd1114c688445ebf53e" category="paragraph"><block ref="2f79ebd4f32cabd1114c688445ebf53e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7e3b81d04325da2b3bbb50d615754b46" category="paragraph">これらの注意および警告メッセージの詳細については、サポートにお問い合わせください。詳細については、を参照してください <block ref="a7ae718de79af41225531b7d4972e1ef" category="inline-link-macro-rx"></block>。</block>
   <block id="f303aa2ecdcc69fbc97adcf5a2476825" category="paragraph">Digital Advisorを使用すると、Storage as a Service（STaaS；ストレージサービス）の詳細と、所有しているネットアップインフラに関する情報を確認できます。Digital Advisorは、サブスクリプション、サービスレベル、容量の使用状況を可視化する単一のダッシュボードと、詳細なレポートを作成する機能を提供します。</block>
   <block id="7a00a46aa8b851e05a0a8783db55e3ab" category="paragraph">Keystoneのダッシュボードとレポートの詳細については、を参照してください <block ref="e4a96850db17c7110d770223b8207b51" category="inline-link-macro-rx"></block>。</block>
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*事象の説明 *：Keystone Collectorは、使用状況計測システムの一部として、多数のコンテナを実行します。Red Hat Enterprise Linux 8.xサーバが米国国防総省情報システム機関（DISA）セキュリティ技術実装ガイド（STIG）ポリシーで強化されると、fapolicyd（ファイルアクセスポリシーデーモン）を持つ既知の問題 が断続的に確認されています。この問題 はと識別されます <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*回避策 *：Red Hat Enterpriseが解決するまでは、この問題 を迂回することをお勧めします<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> Permissiveモードになります。インチ <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>をクリックして、の値を設定します<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
@@ -1115,8 +1112,6 @@
   <block id="c9b73422281776827a4c8f78b386d48d" category="list-text">Keystone STaaSバリュー階層、Keystone STaaS StorageGRID オブジェクト階層、既存のSGWSグリッド（お客様所有）-追加料金は発生しません。標準サービスの一部です。</block>
   <block id="bdb55621cf8fb40ec7b1841db7d1f702" category="paragraph">NetApp Keystone サービスに登録している場合は、Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードで使用状況レポートとグラフを表示できます。</block>
   <block id="a8db66bfea8d3f0ff898a3ca39507082" category="paragraph">Keystone用のDigital Advisorダッシュボードウィジェットの詳細については、を参照してください<block ref="f1d08d608ab5c8900f388298993967cb" category="inline-link-rx"></block>。</block>
-  <block id="1df8c900e0f061f7bb2ff4a2177621de" category="paragraph">NetApp Keystone STaaSサービスにサブスクライブしている場合は、Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットで使用状況を監視できます。</block>
-  <block id="9ff2a83b372e89b7fee5580c527d9e8e" category="paragraph">Digital Advisorウィジェットについては、を参照してください<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>。</block>
   <block id="bea3a7144124c0e70f43a6748e2fb32b" category="paragraph">KeystoneとBlueXPの詳細については、BlueXPドキュメントの次のリンクを参照してください。</block>
   <block id="db9c0d8e0c5e9a6fc69af04d34b56fee" category="sidebar">Keystone Collectorをインストールするための前提条件</block>
   <block id="80d2bb01a7a85d4aa2c304e7cde98a6e" category="sidebar">ONTAP およびStorageGRID の特定の前提条件</block>
@@ -1159,4 +1154,11 @@
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">リンクをクリックすると、各ノードのノード名と物理的な使用状況の詳細が表示されます。</block>
   <block id="47e40976658c073c0e6048f08d9a27c6" category="paragraph"><block ref="47e40976658c073c0e6048f08d9a27c6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a0a61d280e201148fcd091f8167d88f" category="list-text">*情報*:サブスクリプションがまもなく終了するなどの問題については、情報アラートを表示できます。情報アイコンにカーソルを合わせると、問題 の詳細が表示されます。</block>
+  <block id="1aa4a8544fc94c7ce0ff8c9bc46bb523" category="paragraph">Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードでは、NetApp Keystone サブスクリプションに関連する使用状況を監視し、レポートを生成できます。Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。</block>
+  <block id="936acd8bca51b1c47ce51ce5d9e45134" category="admonition">ここで入手できる情報は、ONTAP とStorageGRID の両方を環境 に掲載しています。例外は関連するセクションで指摘されています。</block>
+  <block id="90022a4ed9f097be4671116b6b5b7754" category="paragraph">[Keystone Digital Advisor]ウィジェットの詳細については、を参照してください<block ref="553d5c0a148912943ee201440d3b98c5" category="inline-link-rx"></block>。</block>
+  <block id="af23688fe47e4923ebd83f7238688630" category="paragraph">詳細を表示するには、次の手順を実行します。</block>
+  <block id="e84dede1181b53e24bdf1d55508b83bf" category="list-text">Digital Advisorで、ウィジェットの*[詳細を表示]*をクリックして、* Keystoneサブスクリプション*ページにボリュームに関する使用状況の詳細とアラートを表示します。または、左側のナビゲーションペインで*[全般]&gt;[Keystoneサブスクリプション]*に移動します。</block>
+  <block id="b49a48b1a3504debfe7fedab8ad4086d" category="paragraph">サブスクリプションの詳細、各サービスレベルの使用状況グラフ、ボリュームの詳細が、* Keystoneサブスクリプション*画面の別 々 のタブに表示されます。</block>
+  <block id="de87c00cded561268b46fe5428fdd938" category="paragraph">これらの注意および警告メッセージの詳細については、ネットアップサポートにお問い合わせください。サービスリクエストの発行については、を参照してください <block ref="1bf858345505311d2a0e9fcf6e1f42da" category="inline-link-macro-rx"></block>。</block>
 </blocks>

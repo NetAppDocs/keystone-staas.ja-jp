@@ -14,13 +14,20 @@ summary: Keystoneサブスクリプションレポートとグラフ
 
 
 [role="lead"]
-NetApp Keystone STaaSサービスにサブスクライブしている場合は、Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットで使用状況を監視できます。
+Active IQ デジタルアドバイザ（デジタルアドバイザ）ダッシュボードでは、NetApp Keystone サブスクリプションに関連する使用状況を監視し、レポートを生成できます。Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。
 
-Digital Advisorウィジェットについては、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone サブスクリプションを使用して容量利用率を表示します"^]。
 
-ウィジェットで* View More Details *をクリックすると、* Keystoneサブスクリプション*ページでボリュームの使用状況の詳細とアラートが表示されます。または、左側のナビゲーションペインで、* General > Keystone Subscription *に移動します。
+NOTE: ここで入手できる情報は、ONTAP とStorageGRID の両方を環境 に掲載しています。例外は関連するセクションで指摘されています。
 
-サブスクリプションの詳細、各サービスレベルの使用状況グラフ、およびボリュームの詳細が、この画面の異なるタブに表示されます。
+[Keystone Digital Advisor]ウィジェットの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone サブスクリプションを使用して容量利用率を表示します"^]。
+
+詳細を表示するには、次の手順を実行します。
+
+.手順
+. Digital Advisorで、ウィジェットの*[詳細を表示]*をクリックして、* Keystoneサブスクリプション*ページにボリュームに関する使用状況の詳細とアラートを表示します。または、左側のナビゲーションペインで*[全般]>[Keystoneサブスクリプション]*に移動します。
+
+
+サブスクリプションの詳細、各サービスレベルの使用状況グラフ、ボリュームの詳細が、* Keystoneサブスクリプション*画面の別 々 のタブに表示されます。
 
 
 NOTE: Keystoneサブスクリプションの容量消費は、ダッシュボードとレポートのTiBに小数点以下2桁まで表示されます。使用量が0.01 TiB未満の場合、値は0またはと表示されます `No Usage`。その他の使用指標については、を参照してください link:../concepts/metrics.html#metrics-measurement["メトリック測定"]。Keystoneで使用されるさまざまな容量については、を参照してください link:../concepts/supported-storage-capacity.html["サポートされているストレージ容量"]。
@@ -182,4 +189,4 @@ AQoSポリシーの詳細については、を参照してください link:../c
 
 image:alert-aiq.png[""]
 
-これらの注意および警告メッセージの詳細については、サポートにお問い合わせください。詳細については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
+これらの注意および警告メッセージの詳細については、ネットアップサポートにお問い合わせください。サービスリクエストの発行については、を参照してください link:../concepts/gssc.html#generating-service-requests["サービスリクエストを生成しています"]。
