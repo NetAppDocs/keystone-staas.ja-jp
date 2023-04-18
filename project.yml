@@ -37,6 +37,8 @@ sidebar:
       url: "/installation/configuration.html"
     - title: システムヘルスを監視する
       url: "/installation/monitor-health.html"
+    - title: Keystone Collectorをアップグレードします
+      url: "/installation/upgrade.html"
     - title: 課金のために収集されたデータ
       url: "/installation/data-collection.html"
   - title: Keystoneの詳細をご確認ください
@@ -89,8 +91,6 @@ sidebar:
       url: "/concepts/infra.html"
     - title: コンポーネント
       url: "/concepts/components.html"
-    - title: OpsRampを監視アプリケーションとして使用します
-      url: "/concepts/opsramp.html"
     - title: データフロー
       url: "/concepts/data-flow.html"
   - title: ネットアップグローバルサービスサポートセンター

@@ -20,7 +20,7 @@ Keystoneコレクタがストレージ環境の使用状況データを収集で
 NOTE: Keystone Collectorには、設定と監視のアクティビティを実行するためのKeystone Collector管理ターミナルユーザインターフェイス（TUI）ユーティリティが用意されています。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。
 
 .手順
-. Keystone Collector管理TUIユーティリティを開きます。
+. Keystone Collector管理TUIユーティリティを起動します。
 `$ keystone-collector-tui`
 . [Configure]>[KS-Collector]**に移動して、Keystone Collectorの設定画面を開き、更新に使用できるオプションを確認します。
 . 必要なオプションを更新します。
@@ -29,7 +29,7 @@ NOTE: Keystone Collectorには、設定と監視のアクティビティを実�
 [%collapsible]
 ====
 ** * ONTAP 使用状況の収集*：このオプションは、ONTAP の使用状況データの収集を有効にします。Active IQ Unified Manager （Unified Manager）サーバとサービスアカウントの詳細を追加します。
-** * ONTAP パフォーマンスデータの収集*：このオプションは、ONTAP のパフォーマンスデータの収集を有効にします。これはデフォルトでは無効になっています。SLAのために環境でパフォーマンス監視が必要な場合は、このオプションを有効にします。Unified Managerデータベースのユーザアカウントの詳細を指定します。データベース・ユーザの作成については、を参照してください link:../addl-req.html["Unified Managerユーザを作成します"]。
+** * ONTAP パフォーマンスデータの収集*：このオプションは、ONTAP のパフォーマンスデータの収集を有効にします。これはデフォルトでは無効になっています。SLAのために環境でパフォーマンス監視が必要な場合は、このオプションを有効にします。Unified Managerデータベースのユーザアカウントの詳細を指定します。データベース・ユーザの作成については、を参照してください link:../installation/addl-req.html["Unified Managerユーザを作成します"]。
 ** *プライベートデータの削除*：このオプションは、顧客の特定のプライベートデータを削除し、デフォルトで有効になっています。このオプションを有効にした場合にメトリックから除外されるデータの詳細については、を参照してください link:../installation/configuration.html#limit-collection-of-private-data["プライベートデータの収集を制限します"]。
 
 
@@ -39,7 +39,7 @@ NOTE: Keystone Collectorには、設定と監視のアクティビティを実�
 [%collapsible]
 ====
 ** * Collect StorageGRID usage *：このオプションを選択すると、ノード使用状況の詳細を収集できます。StorageGRID ノードのアドレスとユーザの詳細を追加します。
-** *プライベートデータの削除*：このオプションは、顧客の特定のプライベートデータを削除し、デフォルトで有効になっています。このオプションを有効にした場合にメトリックから除外されるデータの詳細については、を参照してください link:../configuration.html#limit-collection-of-private-data["プライベートデータの収集を制限します"]。
+** *プライベートデータの削除*：このオプションは、顧客の特定のプライベートデータを削除し、デフォルトで有効になっています。このオプションを有効にした場合にメトリックから除外されるデータの詳細については、を参照してください link:../installation/configuration.html#limit-collection-of-private-data["プライベートデータの収集を制限します"]。
 
 
 ====
@@ -56,7 +56,7 @@ NOTE: Keystone Collectorには、設定と監視のアクティビティを実�
 コレクタソフトウェアは、HTTPプロキシを使用したインターネットとの通信をサポートしています。これはTUIで設定できます。
 
 .手順
-. Keystoneコレクタ管理TUIユーティリティが閉じている場合は、ユーティリティを開きます。
+. Keystone Collector管理TUIユーティリティを閉じている場合は再起動します。
 `$ keystone-collector-tui`
 . [** HTTPプロキシ**]フィールドをオンに切り替え、認証が必要な場合はHTTPプロキシサーバ、ポート、およびクレデンシャルの詳細を追加します。
 . [**保存**]をクリックします。image:tui-3.png[""]

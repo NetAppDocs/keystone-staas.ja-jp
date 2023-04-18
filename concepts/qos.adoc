@@ -16,7 +16,7 @@ summary: Keystoneのサービス品質
 [role="lead"]
 ストレージQuality of Service（QoS；サービス品質）は、アプリケーションのパフォーマンスが安定し、予測可能な安定したものになるようにするための重要なテクノロジです。QoSが設定されていないと、複数のシステムのブートなど、特定のワークロードが一定期間リソース全体を消費し、他のワークロードに影響を与える可能性があります。QoSの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html["QoS の概要を使用してスループットを保証"^]。
 
-QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoSのパラメータを天井から https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"^]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"^]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSは、ワークロードのスループットが特定のIOPS / MBps、またはIOPS / MBps未満でないことを保証します。
+QoSを適用することで、アプリケーションのパフォーマンスが常に安定します。NetApp ONTAP では、QoSのパラメータを天井から https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-ceilings-qos-max["最大QoS"^]、スループットの下限- https://docs.netapp.com/us-en/ontap/performance-admin/guarantee-throughput-qos-task.html#about-throughput-floors-qos-min["最小QoS"^]。QoS Maxは、ワークロードが達成できるIOPSまたはMBps、IOPS、MBpsの最大数です。一方、最小QoSでは、ワークロードのスループットが一定のIOPS、MBps、またはIOPSとMBpsを下回らないことが保証されます。
 
 
 

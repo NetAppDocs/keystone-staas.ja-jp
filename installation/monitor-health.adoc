@@ -99,7 +99,7 @@ Keystoneコレクタシステムのログを表示して、システム情報を
 KeystoneコレクタTUIでは、サポートバンドルを生成し、サポート問題を解決するためのサービス要求に追加することができます。次の手順 に従います。
 
 .手順
-. Keystone Collector管理TUIユーティリティを開きます。
+. Keystone Collector管理TUIユーティリティを起動します。
 `$ keystone-collector-tui`
 . 「*トラブルシューティング」>「サポートバンドルの生成」に進みます。image:tui-sup-bundl.png[""]
 . 生成されると、バンドルが保存される場所が表示されます。FTP、SFTP、SCPを使用して場所に接続し、ログファイルをローカルシステムにダウンロードします。image:tui-sup-bundl-2.png[""]

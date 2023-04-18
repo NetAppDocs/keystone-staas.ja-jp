@@ -14,7 +14,9 @@ summary: KeystoneとBlueXP
 
 
 [role="lead"]
-Keystoneサブスクリプションでクラウドサービスを購入すると、これらのサービスにBlueXPからアクセスして管理できます。
+NetApp BlueXPは、何百ものデータソースを監視するための包括的なプラットフォームで、独自のインタラクティブな視覚化ダッシュボードを備えています。NetApp Keystone サブスクリプションでクラウドサービスを購入した場合は、BlueXPからそれらのサービスにアクセスして管理できます。
+
+BlueXP Digital Advisorのダッシュボードでは、グラフィカルビューとドリルダウン機能を使用してKeystoneサブスクリプションの使用状況を監視し、レポートを生成できます。Digital AdvisorダッシュボードとKeystoneの詳細については、を参照してください link:../integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"]。
 
 Keystoneをご利用のお客様は、Cloud Volumes ONTAP サブスクリプションをお持ちの場合、Keystoneサービスを使用してCloud Volumes ONTAP の使用量を課金し、BlueXPを使用して請求および消費の詳細を確認できます。
 
