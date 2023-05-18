@@ -23,22 +23,22 @@ VMware vSphereシステムにKeystone Collectorを導入するには、OVAテン
 次の手順を実行します。
 
 .手順
-. からOVAファイルをダウンロードします https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] VMware vSphereシステムに保存できます。
+. からOVAファイルをダウンロードします https://[] VMware vSphereシステムに保存できます。
 . VMware vSphereシステムで、「* VMs and Templates *」ビューに移動します。
 . 仮想マシン（VM）（またはデータセンター（VMフォルダを使用していない場合）に必要なフォルダを右クリックし、[Deploy OVF Template*]を選択します。
 . [Deploy OVF Template*（OVFテンプレートの展開）]ウィザードの[On _ Step 1_（ステップ1 _）]で、[* Select and OVF template*（選択とOVFテンプレート*）]をクリックしてダウンロードしたテンプレートを選択 `KeystoneCollector-latest.ova` ファイル。
 . [On _ Step 2]で、VM名を指定し、VMフォルダを選択します。
 . 手順3_で、VMを実行するために必要なコンピューティングリソースを指定します。
-. On_Step 4：OVAの正確性と信頼性を確認します。製品名は_ NetApp Keystone Collector_と表示されます。image:ova-deploy.png[""]vCenterは、OVAの内容の整合性を検証し、OVAに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることを確認します。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。
+. オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。製品名は_ NetApp Keystone Collector_と表示されます。image:ova-deploy.png["OVA UIの略"]vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。次の手順を実行します。
 +
 .. [*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。
-.. _Keystone Billing_public証明書をダウンロードします。 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
+.. _Keystone Billing_public証明書をダウンロードします。 https://[]。
 .. OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 
 
 . [Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。
-. 手順6_で、VMに使用するデスティネーションネットワークを選択します。
+. 手順6_で、VMが使用するデスティネーションネットワークを選択します。
 . On_Step 7 Customize template_で、管理者ユーザーアカウントの初期ネットワークアドレスとパスワードを指定します。
 +
 
@@ -53,14 +53,14 @@ NOTE: 管理者パスワードはvCenterの元の形式で保存され、ブー�
 
 == Initial System Configurationの略
 
-OVAを使用して導入したKeystone Collectorサーバの初期設定を行うには、VMware vSphereシステムで次の手順を実行します。
+OVAを使用して導入されたKeystone Collectorサーバの初期設定を行うには、VMware vSphereシステムで次の手順を実行します。
 
 
 NOTE: 導入が完了したら、Keystone Collector Management Terminal User Interface（TUI；ターミナルユーザインターフェイス）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。
 
-. KeystoneコレクタサーバへのSSHセッションを開きます。ログインすると、TUIが表示されます。を実行して、TUIを手動で起動することもできます `keystone-collector-tui` CLIコマンド。
+. KeystoneコレクタサーバへのSSHセッションを開きます。ログインすると、TUIが表示されます。または、を実行してTUIを手動で起動することもできます `keystone-collector-tui` CLIコマンド。
 . 必要に応じて、TUIの* Configuration > Network *セクションでプロキシの詳細を設定します。
-. [* Maintenance]>[Update System]オプションを使用して、システム/コレクタを更新します。選択したミラーの中には、使用できないものもあり、再試行後にシステムの詳細が更新されます。
+. [Maintenance]>[Update System]*オプションを使用してコレクタを更新します。選択したミラーの一部が使用できない可能性があり、数回再試行するとシステムの詳細が更新されます。
 . システムのホスト名、場所、およびNTPサーバを、*Configuration > System *セクションで設定します。
 . [* Maintenance]>[User *]セクションでadminパスワードを更新します。
 . 「* Configuration > Advanced *」セクションで、初期OVAの設定を「complete」にします。

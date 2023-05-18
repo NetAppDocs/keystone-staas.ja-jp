@@ -48,6 +48,6 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 * Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクは請求データを処理し、請求のためにZuoraに送信します。
 
 
-image:mgmt-stack.png[""]
+image:mgmt-stack.png["managemntスタック"]
 
 Active IQ デジタルアドバイザ（デジタルアドバイザ）では、ログインして、Keystoneサブスクリプションのサブスクリプションと消費の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。

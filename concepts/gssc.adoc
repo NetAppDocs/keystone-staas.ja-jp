@@ -28,7 +28,7 @@ Keystoneサブスクリプション向けのサービスは、ネットアップ
 
 ネットアップグローバルサービスおよびサポートセンター（GSSC）チームは、主にNetApp Keystone のお客様に対するサービスをサポートします。以下の情報を参考にして、サポートチームに連絡してください。
 
-* グローバルサービス担当者：https://www.netapp.com/us/contact-us/support.aspx[]
+* グローバルサービス担当者：https://[]
 * エスカレーションが必要なオープンケース/チケットをお持ちの場合は、次のいずれかのアドレスに電子メールを送信してください：keystone.services@netapp.com keystone.escalations@netapp.com
 * ネットアップは、AIOps解決策 を使用して、トラブルシューティングのためにNetApp Keystone 環境をプロアクティブに監視し、接続します。
 
@@ -38,8 +38,8 @@ NOTE: パートナー運用モデルでは、テナントとサブテナント�
 
 Keystoneサービスの詳細については、以下を参照してください。
 
-* NetApp Keystonehttps://www.netapp.com/us/solutions/keystone/index.aspx["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
-* ネットアップの製品マニュアルhttps://docs.netapp.com["https://docs.netapp.com"^]
+* NetApp Keystonehttps://["https://www.netapp.com/us/solutions/keystone/index.aspx"^]
+* ネットアップの製品マニュアルhttps://["https://docs.netapp.com"^]
 
 
 
@@ -57,7 +57,7 @@ Keystone Success Manager（KSM）は、Keystoneサービスについてお客様
 
 オンボーディング時に、NetApp Keystone ServiceNowへのアクセスおよび使用のためのクレデンシャルが提供されている場合は、ポータルを使用して、Keystoneサブスクリプションに関連する問題に対するサービスリクエストを生成できます。
 
-https://netappgssc.service-now.com/csm[]
+https://[]
 
 サービスリクエストを作成する前に、システムの詳細、ログ、および関連情報を準備しておきます。サービスリクエストを発行すると、GSSCチームはサポートチケットを受け取り、トラブルシューティングのための情報にアクセスします。ServiceNowチケットに従って、ステータスと解決策を確認できます。
 

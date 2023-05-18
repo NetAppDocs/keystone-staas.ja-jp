@@ -23,4 +23,4 @@ Keystone Collectorは、Keystone課金プラットフォームの使用量を取
 
 このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。
 
-image:collector-arch.png[""]
+image:collector-arch.png["コレクタアーキテクチャ"]

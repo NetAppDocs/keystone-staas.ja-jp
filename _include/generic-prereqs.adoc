@@ -6,13 +6,13 @@
 
 == その他の要件
 
-次の一般的な要件を満たしていることを確認します。
+次の一般的な要件が満たされていることを確認します。
 
 
 
 === ネットワーク要件
 
-次の表に、Keystone Collectorのネットワーク要件を示します。
+Keystone Collectorのネットワーク要件を次の表に示します。
 
 
 NOTE: Keystoneコレクタにはインターネット接続が必要です。インターネット接続は、デフォルトゲートウェイ（NAT経由）またはHTTPプロキシ経由で直接ルーティングできます。ここでは、両方のバリエーションについて説明します。
@@ -185,29 +185,29 @@ Keystoneコレクタには、次のインターネットホストへのアクセ
 
 
  a| 
-https://keystone.netapp.com[]
+https://[]
  a| 
 Keystoneコレクタソフトウェアの更新と使用状況のレポート
 
 
 
  a| 
-https://support.netapp.com[]
+https://[]
  a| 
 ネットアップHQによる請求情報とAutoSupport の提供
 
 
 
  a| 
-https://mirror.centos.org[]
-https://mirrorlist.centos.org[]
+https://[]
+https://[]
  a| 
 Keystoneコレクタ用のOSの更新（OVA環境のみ）
 
 
 
  a| 
-http://repo.mysql.com[]
+https://[]
  a| 
 MySQLの依存関係をダウンロードして更新（Linux環境のみ）
 

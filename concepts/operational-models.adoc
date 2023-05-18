@@ -40,7 +40,7 @@ NetApp Keystone （Keystone）STaaSは、パートナー様が運用するモデ
 * 導入
 * オンボード
 
-| image:check.png[""] | なし 
+| image:check.png["チェックマーク"] | なし 
 
 
  a| 
@@ -51,7 +51,7 @@ NetApp Keystone （Keystone）STaaSは、パートナー様が運用するモデ
 * 管理タスクを実行
 * アラート
 
-| なし | image:check.png[""] 
+| なし | image:check.png["チェックマーク"] 
 
 
  a| 
@@ -61,7 +61,7 @@ NetApp Keystone （Keystone）STaaSは、パートナー様が運用するモデ
 * パフォーマンスを管理
 * SLA を管理します
 
-| なし | image:check.png[""] 
+| なし | image:check.png["チェックマーク"] 
 
 
  a| 
@@ -72,6 +72,6 @@ NetApp Keystone （Keystone）STaaSは、パートナー様が運用するモデ
 * ソフトウェアサポート
 * アップグレードとパッチ
 
-| image:check.png[""] | なし 
+| image:check.png["チェックマーク"] | なし 
 |===
 導入の詳細については、を参照してください link:../concepts/infra.html["Keystoneインフラ"] および link:..//concepts/components.html["導入用のコンポーネント"]。

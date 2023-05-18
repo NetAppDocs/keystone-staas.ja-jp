@@ -22,7 +22,7 @@ Keystone STaaSシステムのデータは、Keystone Collectorと関連する監
 
 Keystone Collectorは、次のフロー図に示すように、ストレージコントローラへのREST API呼び出しを開始し、コントローラの使用状況の詳細を定期的に取得します。
 
-image:collector-data-flow.png[""]
+image:collector-data-flow.png["に、コレクタコンポーネント内のデータフローを示します"]
 
 .凡例
 . NetApp Collectorは、Active IQクラウドポータルへのHTTPSセッションを開始します。
@@ -37,7 +37,7 @@ image:collector-data-flow.png[""]
 
 ストレージインフラの健常性を継続的に監視することは、Keystoneサービスの最も重要な機能の1つです。Keystoneでは、監視とレポートにAIOps解決策 を使用します。AIOpsはお客様のネットワークへのリモートアクセスを必要とします。次の図は、AIOps解決策 ツールによってお客様の場所へのリモートアクセスがどのように保護されるかを示しています。
 
-image:monitoring-flow.png[""]
+image:monitoring-flow.png["データフロー"]
 
 .凡例
 . AIOps解決策 ゲートウェイは、クラウドポータルへのTLSセッションを開始します。

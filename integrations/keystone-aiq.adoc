@@ -18,7 +18,7 @@ NetApp Keystone サービスに登録している場合は、Active IQ デジタ
 
 Digital Advisorを使用すると、Storage as a Service（STaaS；ストレージサービス）の詳細と、所有しているネットアップインフラに関する情報を確認できます。Digital Advisorは、サブスクリプション、サービスレベル、容量の使用状況を可視化する単一のダッシュボードと、詳細なレポートを作成する機能を提供します。
 
-Keystone用のDigital Advisorダッシュボードウィジェットの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Digital Advisorのドキュメント"^]。
+Keystone用のDigital Advisorダッシュボードウィジェットの詳細については、を参照してください https://["Digital Advisorのドキュメント"^]。
 
 Keystoneのダッシュボードとレポートの詳細については、を参照してください link:../integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"]。
 

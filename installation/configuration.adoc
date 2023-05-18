@@ -44,8 +44,8 @@ NOTE: Keystone Collectorには、設定と監視のアクティビティを実�
 
 ====
 . ** Start KS - Collector with System **フィールドを切り替えます。
-. [**保存**]をクリックします。image:tui-1.png[""]
-. TUIのメイン画面に戻り、**Service Status**情報を確認して、Keystone Collectorが正常な状態になっていることを確認します。サービスのステータスが**overall：healthy **であることがシステムに表示されます。image:tui-2.png[""]
+. [**保存**]をクリックします。image:tui-1.png["TUI画面"]
+. TUIのメイン画面に戻り、**Service Status**情報を確認して、Keystone Collectorが正常な状態になっていることを確認します。サービスのステータスが**overall：healthy **であることがシステムに表示されます。image:tui-2.png["TUI画面"]
 . ホーム画面で[** Exit to Shell**]オプションを選択して、Keystone Collector管理TUIを終了します。
 
 
@@ -59,7 +59,7 @@ NOTE: Keystone Collectorには、設定と監視のアクティビティを実�
 . Keystone Collector管理TUIユーティリティを閉じている場合は再起動します。
 `$ keystone-collector-tui`
 . [** HTTPプロキシ**]フィールドをオンに切り替え、認証が必要な場合はHTTPプロキシサーバ、ポート、およびクレデンシャルの詳細を追加します。
-. [**保存**]をクリックします。image:tui-3.png[""]
+. [**保存**]をクリックします。image:tui-3.png["TUI画面"]
 
 
 
@@ -70,6 +70,6 @@ Keystoneコレクタは、サブスクリプションの計測に必要な設定
 
 特定のお客様データの収集を制限するオプションは、Keystone CollectorのTUI画面で設定できます。このオプション*プライベートデータの削除*はデフォルトで有効になっています。
 
-image:tui-4.png[""]
+image:tui-4.png["TUI画面"]
 
 ONTAP とStorageGRID の両方でプライベートデータアクセスを制限する際に削除される項目の詳細については、を参照してください link:../installation/data-collection.html["プライベートデータアクセスの制限で削除された項目のリスト"]。

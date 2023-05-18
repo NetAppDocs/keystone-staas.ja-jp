@@ -24,6 +24,6 @@ Keystoneをご利用のお客様は、Cloud Volumes ONTAP サブスクリプシ�
 
 KeystoneとBlueXPの詳細については、BlueXPドキュメントの次のリンクを参照してください。
 
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#keystone-flex-subscription["Keystoneサブスクリプション"^]
-* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-keystone.html["Keystoneサブスクリプションの管理"^]
+* https://["Keystoneサブスクリプション"^]
+* https://["Keystoneサブスクリプションの管理"^]
 
