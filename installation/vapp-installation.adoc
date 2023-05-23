@@ -23,7 +23,7 @@ VMware vSphereシステムにKeystone Collectorを導入するには、OVAテン
 次の手順を実行します。
 
 .手順
-. からOVAファイルをダウンロードします https://[] VMware vSphereシステムに保存できます。
+. からOVAファイルをダウンロードします https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] VMware vSphereシステムに保存できます。
 . VMware vSphereシステムで、「* VMs and Templates *」ビューに移動します。
 . 仮想マシン（VM）（またはデータセンター（VMフォルダを使用していない場合）に必要なフォルダを右クリックし、[Deploy OVF Template*]を選択します。
 . [Deploy OVF Template*（OVFテンプレートの展開）]ウィザードの[On _ Step 1_（ステップ1 _）]で、[* Select and OVF template*（選択とOVFテンプレート*）]をクリックしてダウンロードしたテンプレートを選択 `KeystoneCollector-latest.ova` ファイル。
@@ -32,7 +32,7 @@ VMware vSphereシステムにKeystone Collectorを導入するには、OVAテン
 . オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。製品名は_ NetApp Keystone Collector_と表示されます。image:ova-deploy.png["OVA UIの略"]vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。次の手順を実行します。
 +
 .. [*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。
-.. _Keystone Billing_public証明書をダウンロードします。 https://[]。
+.. _Keystone Billing_public証明書をダウンロードします。 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
 .. OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 

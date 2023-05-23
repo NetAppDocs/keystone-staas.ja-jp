@@ -24,22 +24,22 @@ ONTAP にKeystone Collectorをインストールするには、前提条件と�
 
 . Active IQ Unified Manager （Unified Manager）サーバがUnified Manager 9.7以降で設定されていることを確認します。Unified Managerのインストールについては、次のリンクを参照してください。
 +
-** https://["VMware vSphereシステムへのUnified Managerのインストール"^]
-** https://["Linux システムへの Unified Manager のインストール"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphereシステムへのUnified Managerのインストール"^]
+** https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/concept_requirements_for_install_unified_manager.html["Linux システムへの Unified Manager のインストール"^]
 
 
-. ONTAP クラスタがUnified Managerに追加されていることを確認します。クラスタの追加については、を参照してください https://["クラスタを追加する"^]。
-. 使用状況やパフォーマンスのデータ収集用に特定のロールを持つUnified Managerユーザを作成します。次の手順を実行します。ユーザロールの詳細については、を参照してください https://["ユーザロールの定義"^]。
+. ONTAP クラスタがUnified Managerに追加されていることを確認します。クラスタの追加については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_clusters.html["クラスタを追加する"^]。
+. 使用状況やパフォーマンスのデータ収集用に特定のロールを持つUnified Managerユーザを作成します。次の手順を実行します。ユーザロールの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_definitions_of_user_roles.html["ユーザロールの定義"^]。
 +
-.. インストール時に生成されたデフォルトのアプリケーション管理者ユーザクレデンシャルを使用して、Unified Manager Web UIにログインします。を参照してください https://["Unified Manager Web UI にアクセスします"^]。
-.. でKeystone Collectorのサービスアカウントを作成します `Operator` ユーザロール。Keystone CollectorサービスAPIは、このサービスアカウントを使用してUnified Managerと通信し、使用状況データを収集します。を参照してください https://["ユーザを追加する"^]。
-.. を作成します `Database` を使用したユーザアカウント `Report Schema` ロール。このユーザは、パフォーマンスデータの収集に必要です。を参照してください https://["データベースユーザを作成しています"^]。
+.. インストール時に生成されたデフォルトのアプリケーション管理者ユーザクレデンシャルを使用して、Unified Manager Web UIにログインします。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"^]。
+.. でKeystone Collectorのサービスアカウントを作成します `Operator` ユーザロール。Keystone CollectorサービスAPIは、このサービスアカウントを使用してUnified Managerと通信し、使用状況データを収集します。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["ユーザを追加する"^]。
+.. を作成します `Database` を使用したユーザアカウント `Report Schema` ロール。このユーザは、パフォーマンスデータの収集に必要です。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["データベースユーザを作成しています"^]。
 
 
 . Unified ManagerでAPIゲートウェイを有効にします。Keystone Collectorは、APIゲートウェイ機能を使用してONTAP クラスタと通信します。APIゲートウェイは、Web UIまたはUnified Manager CLIからいくつかのコマンドを実行して有効にすることができます。
 +
 .Web UI
-Unified Manager Web UIからAPIゲートウェイを有効にするには、Unified Manager Web UIにログインしてAPIゲートウェイを有効にします。詳細については、を参照してください https://["API ゲートウェイを有効にしてい"^]。
+Unified Manager Web UIからAPIゲートウェイを有効にするには、Unified Manager Web UIにログインしてAPIゲートウェイを有効にします。詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/concept_api_gateway.html["API ゲートウェイを有効にしてい"^]。
 
 +
 .CLI の使用
@@ -47,15 +47,15 @@ Unified Manager CLIを使用してAPIゲートウェイを有効にするには�
 
 +
 .. Unified Managerサーバで、SSHセッションを開始してUnified Manager CLIにログインします。
-`um cli login -u _<umadmin>_`CLIコマンドの詳細については、を参照してください https://["Unified Manager の CLI コマンドがサポートされています"^]。
+`um cli login -u _<umadmin>_`CLIコマンドの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Unified Manager の CLI コマンドがサポートされています"^]。
 .. APIゲートウェイがすでに有効になっているかどうかを確認します。
 `um option list api.gateway.enabled`A `true` この値は、APIゲートウェイが有効になっていることを示します。
 .. の場合、返される値はです `false`次のコマンドを実行します。
 `um option set api.gateway.enabled=true`
 .. Unified Managerサーバを再起動します。
 +
-*** Linux ： https://["Unified Manager を再開しています"^]。
-*** VMware vSphere： https://["Unified Manager 仮想マシンを再起動しています"^]。
+*** Linux ： https://docs.netapp.com/us-en/active-iq-unified-manager/install-linux/task_restart_unified_manager.html["Unified Manager を再開しています"^]。
+*** VMware vSphere： https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/task_restart_unified_manager_virtual_machine.html["Unified Manager 仮想マシンを再起動しています"^]。
 
 
 
@@ -71,8 +71,8 @@ StorageGRID にKeystone Collectorをインストールするには、次の設�
 * 使用状況データを収集するために、StorageGRID ローカル管理者ユーザアカウントを作成する必要があります。このサービスアカウントは、Keystone Collectorサービスが管理ノードのAPIを介してStorageGRID と通信するために使用します。
 +
 .手順
-.. Grid Managerにログインします。を参照してください https://["Grid Manager にサインインします"^]。
-.. を使用してローカル管理者グループを作成します `Access mode: Read-only`。を参照してください https://["管理者グループを作成します"^]。
+.. Grid Managerにログインします。を参照してください https://docs.netapp.com/us-en/storagegrid-116/admin/signing-in-to-grid-manager.html["Grid Manager にサインインします"^]。
+.. を使用してローカル管理者グループを作成します `Access mode: Read-only`。を参照してください https://docs.netapp.com/us-en/storagegrid-116/admin/managing-admin-groups.html#create-an-admin-group["管理者グループを作成します"^]。
 .. 次の権限を追加します。
 +
 *** テナントアカウント
@@ -80,7 +80,7 @@ StorageGRID にKeystone Collectorをインストールするには、次の設�
 *** 指標クエリ
 
 
-.. Keystoneサービスアカウントのユーザを作成し、adminグループに関連付けます。を参照してください https://["ユーザを管理します"]。
+.. Keystoneサービスアカウントのユーザを作成し、adminグループに関連付けます。を参照してください https://docs.netapp.com/us-en/storagegrid-116/admin/managing-users.html["ユーザを管理します"]。
 
 
 

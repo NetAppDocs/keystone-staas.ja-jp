@@ -219,29 +219,29 @@ Keystoneコレクタには、次のインターネットホストへのアクセ
 
 
  a| 
-https://[]
+https://keystone.netapp.com[]
  a| 
 Keystoneコレクタソフトウェアの更新と使用状況のレポート
 
 
 
  a| 
-https://[]
+https://support.netapp.com[]
  a| 
 ネットアップHQによる請求情報とAutoSupport の提供
 
 
 
  a| 
-https://[]
-https://[]
+https://mirror.centos.org[]
+https://mirrorlist.centos.org[]
  a| 
 Keystoneコレクタ用のOSの更新（OVA環境のみ）
 
 
 
  a| 
-https://[]
+https://repo.mysql.com[]
  a| 
 MySQLの依存関係をダウンロードして更新（Linux環境のみ）
 
