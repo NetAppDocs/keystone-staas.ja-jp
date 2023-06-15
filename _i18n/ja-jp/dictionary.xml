@@ -363,7 +363,6 @@
   <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">サポートチームの理解（Keystone GSSC）</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">米国市民サポート</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">詳細情報</block>
-  <block id="a47bcecd4f4a1f89ad4e82bca88975ab" category="sidebar">Keystone Flex サブスクリプション</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
   <block id="352a60ab05e46c12f3319134b5ec7ee2" category="paragraph">サービスレベルの詳細については、を参照してください <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
   <block id="6dd7fd4aac069a06bec3ae24a6b1b39b" category="paragraph">Keystoneでサポートされる各種容量については、を参照してください <block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>。</block>
@@ -675,14 +674,12 @@
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphereシステムにKeystone Collectorを導入するには、OVAテンプレートをダウンロードし、* Deploy OVF Template *ウィザードを使用してテンプレートを導入し、証明書の整合性を確認し、VMの準備状況を確認します。</block>
   <block id="9f42f344107d0334c53b7214197ab946" category="section-title">OVAテンプレートを導入します</block>
   <block id="deadee5e2cfce7600cfd5def40a7d618" category="paragraph">次の手順を実行します。</block>
-  <block id="333f303d3da33179663a76488da72b3b" category="list-text">からOVAファイルをダウンロードします<block ref="c28508f3358b4bad6b96fa0b8de677a2" category="inline-link-rx"></block> VMware vSphereシステムに保存できます。</block>
   <block id="2cea028d7f417e050d146ae4d5405601" category="list-text">VMware vSphereシステムで、「* VMs and Templates *」ビューに移動します。</block>
   <block id="00b73a9cfc6c889062282db720dc980a" category="list-text">仮想マシン（VM）（またはデータセンター（VMフォルダを使用していない場合）に必要なフォルダを右クリックし、[Deploy OVF Template*]を選択します。</block>
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">[Deploy OVF Template*（OVFテンプレートの展開）]ウィザードの[On _ Step 1_（ステップ1 _）]で、[* Select and OVF template*（選択とOVFテンプレート*）]をクリックしてダウンロードしたテンプレートを選択<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">[On _ Step 2]で、VM名を指定し、VMフォルダを選択します。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">手順3_で、VMを実行するために必要なコンピューティングリソースを指定します。</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">[*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。</block>
-  <block id="79aa6ff54605af89e06167728f22a5af" category="list-text">_Keystone Billing_public証明書をダウンロードします。<block ref="ed42a04573e7bc8bae44a0216f31177e" category="inline-link-rx"></block>。</block>
   <block id="250e025c960accde58851d9cba806aa4" category="list-text">OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">[Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">On_Step 7 Customize template_で、管理者ユーザーアカウントの初期ネットワークアドレスとパスワードを指定します。</block>
@@ -717,7 +714,6 @@
   <block id="e5e7352eac1aab74c62e3fb3c13c93eb" category="sidebar">Keystoneコレクタとは</block>
   <block id="d495047561c1a08074d3afeeb5b5d172" category="sidebar">VMware vSphere の前提条件</block>
   <block id="634b2ff9559aed00b394d1ea933e1865" category="sidebar">Linuxの前提条件</block>
-  <block id="2ae485aa3ac00a7ebfcd427dc2f82aa4" category="sidebar">Installation手順 の略</block>
   <block id="e1963f69cecc9ae42f0776dbde80b970" category="sidebar">VMware vSphereの導入</block>
   <block id="1f331fee3a3f66a9a0cc8b4298329656" category="sidebar">Linuxのインストール</block>
   <block id="5f263121a32bf1557841d7fe819ad1e8" category="sidebar">自動整合性検証</block>
@@ -784,7 +780,6 @@
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystoneが収集するユーザデータのタイプ</block>
   <block id="d980f7fd4d1a571450a5dfb6e21c1ca0" category="paragraph">Keystoneは、Keystone ONTAP およびKeystone StorageGRIDサブスクリプションの構成、ステータス、使用状況の情報を収集します。Keystone Collectorでオプションが有効になっている場合は、ONTAP のパフォーマンスデータのみを収集することもできます。</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP データ収集</block>
-  <block id="fb81e227d7ec41942ad20d4497532f70" category="example-title">ONTAP 用に収集された使用状況データ</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">次に、ONTAP で収集される容量消費データの代表的なサンプルを示します。</block>
   <block id="9b99bf7d2bfd4b09363304c166832734" category="list-text">クラスタ</block>
   <block id="9167f44e96ef14493eb91fa385a1b03a" category="list-text">クラスタ名</block>
@@ -850,7 +845,6 @@
   <block id="650be61892bf690026089544abbd9d26" category="list-text">モード</block>
   <block id="a38399fd05eed54a30356063875ba5c7" category="list-text">Active IQ Unified Manager APIエンドポイントが照会されました</block>
   <block id="81631db9933f83ee6511c56a7577d112" category="list-text">AIQUMInstance IPの略</block>
-  <block id="101f4a88b595ebd0ef997252c9f00966" category="example-title">ONTAP 用に収集されたパフォーマンスデータ</block>
   <block id="06b0dd42b36609a32d1b4e237ca0b021" category="paragraph">次に、ONTAP で収集されるパフォーマンスデータの代表的なサンプルを示します。</block>
   <block id="878efc5de6def52e25be6f622fb5a7ee" category="list-text">クラスタUUID</block>
   <block id="8b3f98ef5143f8196aca53b61aeccebd" category="list-text">オブジェクトID</block>
@@ -893,7 +887,6 @@
   <block id="973a9795a80306129b19cf9ac732cadc" category="list-text">ストレージLUN名</block>
   <block id="6519cc2cb2093a31c9e2c21cd389d7b6" category="list-text">RemoteClusterNameの略</block>
   <block id="8a5466dffc1fb3688afcf85af44acae0" category="section-title">StorageGRID データ収集</block>
-  <block id="e4045be0afd459dcae607006e83ba4cb" category="example-title">StorageGRID 用に収集された使用状況データ</block>
   <block id="ead7f826444254c9fd18d42967aa1bdf" category="paragraph">次に、の代表的なサンプルを示します<block ref="655d716c75a0a3e6c9b4eb8987013918" prefix=" " category="inline-code"></block> StorageGRID について収集：</block>
   <block id="4b6e9c25ecc55504ebb330411f41421a" category="list-text">StorageGRID ID</block>
   <block id="351a2eb8764e19b9e565e8a355469e70" category="list-text">アカウント ID</block>
@@ -1012,11 +1005,9 @@
   <block id="393e226f044ba6b817b81de6d94e7276" category="admonition">[Current Consumed]、[Current Burst]、[Accrued Burst]の各指標は、サブスクリプションの課金期間に関する消費量を決定し、クエリの日付範囲には基づいていません。</block>
   <block id="b99a21b99fb9e230b533835afc100672" category="section-title">システムの詳細を表示します</block>
   <block id="819abf779095094c4f296a2f1911a333" category="paragraph">[システムの詳細]*タブでは、ONTAP でボリュームの使用状況やその他の詳細を確認できます。StorageGRID の場合、オブジェクトストレージ環境でのノードとその個 々 の使用状況が表示されます。</block>
-  <block id="7fdbc37a63f55a7bf94c4f7eee9fbbb6" category="example-title">&lt;strong&gt; ONTAPボリュームの詳細&lt;/strong&gt;</block>
   <block id="6f7e564e5f841331ad117d7eb3b3ae10" category="paragraph">ONTAP の場合、*[システムの詳細]*タブには、Keystoneサブスクリプションで管理されるストレージ環境内のボリュームについて、使用容量、ボリュームタイプ、クラスタ、アグリゲート、サービスレベルなどの情報が表示されます。</block>
   <block id="d2c1241be04ae4d70013755a80c6cbd2" category="list-text">[システムの詳細]*タブをクリックします。</block>
   <block id="ccdbd07a063ad5631511d37c5d2f5a36" category="list-text">サブスクリプション番号を選択します。デフォルトでは、使用可能な最初のサブスクリプション番号が選択されています。</block>
-  <block id="8b315ff987c2e0cfd5650f23e5464623" category="example-title">&lt;strong&gt; StorageGRIDノードと消費の詳細&lt;/strong&gt;</block>
   <block id="45cbe8d46cd75aedbf971e2391199759" category="paragraph">StorageGRID の場合、オブジェクトストレージ環境内のノードの物理的な使用量が表示されます。</block>
   <block id="4305e9b17980561df3c63a75f32b2075" category="list-text">サブスクリプション番号を選択します。デフォルトでは、使用可能な最初のサブスクリプション番号が選択されています。サブスクリプション番号を選択すると、オブジェクトストレージの詳細のリンクが有効になります。</block>
   <block id="d599237a38a37deabe01bd34298be802" category="list-text">リンクをクリックすると、各ノードのノード名と物理的な使用状況の詳細が表示されます。</block>
@@ -1079,8 +1070,6 @@
   <block id="83358b34b4abb7dcc8940f33dbf53bee" category="paragraph"><block ref="83358b34b4abb7dcc8940f33dbf53bee" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b7d00c952bfb58048323cc58b966f1a0" category="paragraph"><block ref="b7d00c952bfb58048323cc58b966f1a0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="260df4711332c71713eaccd137544035" category="inline-image-macro">OVA UIの略</block>
-  <block id="755b21da384cfa7a50f9dd463bb59495" category="list-text">オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。製品名は_ NetApp Keystone Collector_と表示されます。<block ref="1ff64d23a057ee58e587c113040b4ea5" category="inline-image-macro-rx" type="image"></block>vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。次の手順を実行します。</block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">手順6_で、VMが使用するデスティネーションネットワークを選択します。</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">OVAを使用して導入されたKeystone Collectorサーバの初期設定を行うには、VMware vSphereシステムで次の手順を実行します。</block>
   <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">KeystoneコレクタサーバへのSSHセッションを開きます。ログインすると、TUIが表示されます。または、を実行してTUIを手動で起動することもできます<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLIコマンド。</block>
@@ -1187,4 +1176,32 @@
   <block id="c5353e1a31b3a925fabe61c02b5bfc5e" category="paragraph"><block ref="c5353e1a31b3a925fabe61c02b5bfc5e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e34cff1dbe58bcff4567c9224e5370c6" category="list-text">*終了日*：サブスクリプションの終了日。日付が空白の場合は、サブスクリプションに終了日がなく、自動的に更新されます。この日付に基づいて、有効期限が近づいている、または自動更新ポリシーが適用されているサブスクリプションに関する情報メッセージが表示される場合があります。</block>
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">空のグラフは、そのデータ収集ポイントで使用可能なデータが環境になかったことを示します。</block>
+  <block id="885a7272db12515ccb176ecc5739bfc0" category="inline-link">NetApp Keystone のドキュメント</block>
+  <block id="2aff714660911e754b718f59da053651" category="list-text">*使用タイプ*：複数のKeystone（バージョン1）またはKeystone STaaS（バージョン2）サブスクリプションに登録済みの場合があります。サービスレベルのレートプランルールは、2つのサブスクリプションタイプで異なる場合があります。この列の値を見ると、使用タイプがプロビジョニング済みの使用量と論理的な使用量のどちらに基づいて課金されているかがわかります<block ref="6654c734ccab8f440ff0825eb443dc7f" prefix=" " category="inline-code"></block> または<block ref="1b267619c4812cc46ee281747884ca50" prefix=" " category="inline-code"></block>。Keystoneサブスクリプションバージョン1の詳細については、を参照してください<block ref="04786649a4dbcc1655013fc588bcc7d4" category="inline-link-rx"></block>。</block>
+  <block id="382af8e8b2bf82c4df59a255786526a2" category="section-title">ONTAPボリュームの詳細</block>
+  <block id="936ccdb97115e9f35a11d35e3d5b5cad" category="example-title">ここをクリックしてください</block>
+  <block id="fc33c921eada2f71b3a548355734f006" category="section-title">StorageGRIDノードと消費の詳細</block>
+  <block id="248ee1b5c36074ad26f09b9a95a55dca" category="admonition">単一のサービスレベルプランまたはレートプランにサブスクライブしている場合、非準拠ボリュームのアラートは表示されません。</block>
+  <block id="136b0008f17d90b606be2c19f82e3657" category="paragraph">1つのサブスクリプションに複数の料金プランを設定でき、各料金プランは1つのサービスレベルに対応しています。各レートプランには、サービスレベルごとにコミット済み容量があります。</block>
+  <block id="08bc9c47f9116aac1e5b09b002ef9baa" category="example-title">&lt;strong&gt; ONTAPで収集された使用状況データ:ここをクリック&lt;/strong&gt;</block>
+  <block id="4f578190261ed45b509224c2edf739f1" category="example-title">ONTAPで収集された&lt;strong&gt;パフォーマンスデータ：ここをクリック&lt;/strong&gt;</block>
+  <block id="cd390c72a9953eea426540df402531d8" category="example-title">&lt;strong&gt;プライベートデータアクセスの制限で削除された項目のリスト:ここをクリック&lt;/strong&gt;</block>
+  <block id="d46219faf19708f0ca1ed17c243f5cf3" category="example-title">&lt;strong&gt; StorageGRIDで収集された使用状況データ:ここをクリック&lt;/strong&gt;</block>
+  <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">リンクをクリックしてください</block>
+  <block id="7656f92cecd653f72ca596d6def21867" category="list-text">からOVAファイルをダウンロードします<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> VMware vSphereシステムに保存できます。</block>
+  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。
+7.0u2より前のバージョンのvCenterでは、コード署名証明書の信頼性を自動的に検証できません。vCenter 7.0u2以降で検証を実行できますが、その場合は署名認証局をvCenterに追加する必要があります。使用しているvCenterのバージョンに応じて、次の手順を実行します。</block>
+  <block id="dca8969f962acd76587a818d56d8c5f7" category="example-title">vCenter 7.0u1以前：ここをクリックしてください</block>
+  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。</block>
+  <block id="347aea822a41d615267a1a09f727c32d" category="list-text">から_Keystone Billing_public証明書をダウンロードします<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>。</block>
+  <block id="b9fe920b385d36c5f104da8b5485cfd8" category="example-title">vCenter 7.0u2以降：ここをクリックしてください</block>
+  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2以降のバージョンのvCenterでは、有効なコード署名ダイジェストを指定した場合に、OVAファイルの内容の整合性とコード署名証明書の信頼性を検証できます。vCenterのルート信頼ストアにはVMware証明書のみが格納されています。NetAppは認証局としてEntrustを使用しているため、これらの証明書をvCenter信頼ストアに追加する必要があります。</block>
+  <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">こちらをご覧ください</block>
+  <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">コード署名CA証明書をEntrustからダウンロードします<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>。</block>
+  <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">の手順に従います<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> このナレッジベース（KB）記事のセクション：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
+  <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">検証済みの証明書が表示されるOVA UI</block>
+  <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">Keystone Collector OVAの整合性と信頼性が検証されると、テキストが表示されます<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 出版社と
+<block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collectorをインストールします</block>
+  <block id="da152509ccdb6d6b167f659fc63ed210" category="sidebar">Keystoneサブスクリプションバージョン1（以前のKeystone Flexサブスクリプション）</block>
 </blocks>

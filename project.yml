@@ -25,7 +25,7 @@ sidebar:
         url: "/installation/linux-prereqs.html"
       - title: ONTAP およびStorageGRID の特定の前提条件
         url: "/installation/addl-req.html"
-    - title: Installation手順 の略
+    - title: Keystone Collectorをインストールします
       entries:
       - title: VMware vSphereの導入
         url: "/installation/vapp-installation.html"
@@ -157,7 +157,7 @@ homepage:
       url: "/concepts/uscs.html"
   - title: 詳細情報
     links:
-    - title: Keystone Flex サブスクリプション
+    - title: Keystoneサブスクリプションバージョン1（以前のKeystone Flexサブスクリプション）
       url: https://docs.netapp.com/us-en/keystone/
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html

@@ -23,19 +23,41 @@ VMware vSphereシステムにKeystone Collectorを導入するには、OVAテン
 次の手順を実行します。
 
 .手順
-. からOVAファイルをダウンロードします https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova[] VMware vSphereシステムに保存できます。
+. からOVAファイルをダウンロードします https://keystone.netapp.com/downloads/KeystoneCollector-latest.ova["リンクをクリックしてください"^] VMware vSphereシステムに保存できます。
 . VMware vSphereシステムで、「* VMs and Templates *」ビューに移動します。
 . 仮想マシン（VM）（またはデータセンター（VMフォルダを使用していない場合）に必要なフォルダを右クリックし、[Deploy OVF Template*]を選択します。
 . [Deploy OVF Template*（OVFテンプレートの展開）]ウィザードの[On _ Step 1_（ステップ1 _）]で、[* Select and OVF template*（選択とOVFテンプレート*）]をクリックしてダウンロードしたテンプレートを選択 `KeystoneCollector-latest.ova` ファイル。
 . [On _ Step 2]で、VM名を指定し、VMフォルダを選択します。
 . 手順3_で、VMを実行するために必要なコンピューティングリソースを指定します。
-. オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。製品名は_ NetApp Keystone Collector_と表示されます。image:ova-deploy.png["OVA UIの略"]vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。次の手順を実行します。
+. オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。
+7.0u2より前のバージョンのvCenterでは、コード署名証明書の信頼性を自動的に検証できません。vCenter 7.0u2以降で検証を実行できますが、その場合は署名認証局をvCenterに追加する必要があります。使用しているvCenterのバージョンに応じて、次の手順を実行します。
 +
+.vCenter 7.0u1以前：ここをクリックしてください
+[%collapsible]
+====
+vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。
+
 .. [*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。
-.. _Keystone Billing_public証明書をダウンロードします。 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem[]。
+.. から_Keystone Billing_public証明書をダウンロードします https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem["リンクをクリックしてください"^]。
 .. OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。
 `openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
 
+
+====
++
+.vCenter 7.0u2以降：ここをクリックしてください
+[%collapsible]
+====
+7.0u2以降のバージョンのvCenterでは、有効なコード署名ダイジェストを指定した場合に、OVAファイルの内容の整合性とコード署名証明書の信頼性を検証できます。vCenterのルート信頼ストアにはVMware証明書のみが格納されています。NetAppは認証局としてEntrustを使用しているため、これらの証明書をvCenter信頼ストアに追加する必要があります。
+
+.. コード署名CA証明書をEntrustからダウンロードします https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer["こちらをご覧ください"^]。
+.. の手順に従います `Resolution` このナレッジベース（KB）記事のセクション： https://kb.vmware.com/s/article/84240[]。
+
+
+====
++
+Keystone Collector OVAの整合性と信頼性が検証されると、テキストが表示されます `(Trusted certificate)` 出版社と
+image:ova-deploy.png["検証済みの証明書が表示されるOVA UI"]
 
 . [Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。
 . 手順6_で、VMが使用するデスティネーションネットワークを選択します。

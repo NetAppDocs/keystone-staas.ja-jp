@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
-keywords: service levels, service level 
+keywords: service levels, service level, rate plan or service level 
 summary: サポートされているサービスレベル 
 ---
 = Keystoneのサービスレベル
@@ -15,6 +15,8 @@ summary: サポートされているサービスレベル
 
 [role="lead"]
 Keystone STaaSは、事前定義されたパフォーマンスサービスレベル（サービスレベル）で、サブスクリプションベースでデータストレージ容量を提供します。Keystoneサービスで管理される各ボリュームはサービスレベルに関連付けられます。
+
+1つのサブスクリプションに複数の料金プランを設定でき、各料金プランは1つのサービスレベルに対応しています。各レートプランには、サービスレベルごとにコミット済み容量があります。
 
 各サービスレベルは、I/O密度（IOPS/TiB/ボリューム）で定義されます。パフォーマンス（1秒あたりの入出力処理数[IOPS]）と使用済みストレージ容量（TiB）の比率で、ボリュームあたりの平均レイテンシでのIOPS/TiBです。
 
