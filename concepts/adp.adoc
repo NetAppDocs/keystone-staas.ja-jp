@@ -14,25 +14,27 @@ summary: 高度なデータ保護
 
 
 [role="lead"]
-Keystone STaaSサブスクリプションに含まれるAdvanced Data Protectionアドオンサービスに登録することができます。このアドオンサービスでは、NetApp MetroCluster テクノロジを活用して、RPO（目標復旧時点）ゼロのミッションクリティカルなワークロードに対して効率的なデータ保護を実現します。
+Keystone STaaSサブスクリプションの一部として、高度なデータ保護アドオンサービスをサブスクライブできます。このアドオンサービスでは、NetApp MetroCluster テクノロジを活用して、RPO（目標復旧時点）ゼロのミッションクリティカルなワークロードに対して効率的なデータ保護を実現します。
 
 
 NOTE: ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスは、SnapMirror、SnapVault 、Snapshotなどのネットアップテクノロジを活用して、デフォルトのデータ保護サービスを提供します。
 
 Standardサービスとクラウドサービスについては、を参照してください link:../concepts/supported-storage-services.html["Keystone STaaSサービス"]。
 
-サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングできます。プライマリサイトで災害が発生した場合、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能では、2つのサイト間のMetroCluster 設定を利用してデータを保護します。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ利用できます。このアドオンサービスの一部として、 `Advanced Data-Protect` サービスレベルはサブスクリプションに割り当てられます。
+ONTAP MetroCluster の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster のドキュメント"^]。
 
-Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングできます。プライマリサイトで災害が発生した場合、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能では、2つのサイト間のMetroCluster 設定を利用してデータを保護します。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ利用できます。ONTAP MetroCluster の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster のドキュメント"^]。
+MetroCluster構成での使用状況を表示する方法については、を参照してください link:../integrations/aiq-keystone-details.html#additional-details-for-advanced-data-protection["高度なデータ保護の詳細"]。
 
 アドオン料金は、サブスクリプションに含まれるすべての容量（ソース、ミラーコピー、ミラーリングされていないデータ）に適用されます。
 
-
-NOTE: 注：
+次の点に注意してください。
 
 * このサービスでは、関連付けられているストレージのコミット済み容量の100%がコミット済み容量として設定されます。
 * ソースとデスティネーションの両方のクラスタのストレージ料金が発生します。このアドオンサービスには、プライマリボリュームとセカンダリボリューム（ミラー）の両方の容量も追加料金されます。
-* 料金は、ファイルとブロックストレージにのみ適用されます。次のMetroCluster シナリオがサポートされています。
+* 料金は、ファイルとブロックストレージにのみ適用されます。
 
+
+次のMetroCluster シナリオがサポートされています。
 
 image:mcc.png["KeystoneでサポートされるMetroCluster 構成"]
