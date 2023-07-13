@@ -69,6 +69,8 @@ sidebar:
       url: "/concepts/qos.html"
     - title: サービスレベルの容量要件
       url: "/concepts/capacity-requirements.html"
+    - title: 持続可能性SLAサービスレベル
+      url: "/concepts/sla-sustainability.html"
   - title: 課金
     entries:
     - title: Keystoneの価格設定

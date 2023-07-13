@@ -1,0 +1,95 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: Sustainability、SLA、サービスレベル契約 
+---
+= Keystoneの持続可能性SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaSは、サービスレベルごとに消費される最大ワット数/TiBを定義するサービスレベルアグリーメントまたはSLAベースの持続可能性サービスレベルを提供し、ITの持続可能性目標の計画、監視、達成を支援します。
+
+
+
+== 持続可能性の指標
+
+持続可能性の定義と測定には、次の指標が使用されます。
+
+* ワット：ONTAP AFF Aシリーズアレイおよび接続されたSSDシェルフの1日あたりの消費電力。
+* TiB：次のうち大きい方：
++
+** サービスレベルのコミット済み容量と割り当て済みバースト容量、または
+** 導入されている実効容量（ストレージ効率係数を2と仮定）。ストレージ容量削減比率の詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["ストレージ効率を把握"^]。
+
+
+
+
+
+
+== 持続可能性のサービスレベル
+
+次の表は、Sustainabilityのサービスレベル（Extreme、Premium、Performance）をまとめたものです。
+
+|===
+
+
+| * サービスレベル * | * SLA基準* | *最小コミット済み容量* | * プラットフォーム * 
+
+
+ a| 
+最高レベル
+| 8ワット/TiB以下 | 200TiB | AFF A800およびAFF A900 
+
+
+ a| 
+Premium サービス
+| 4ワット/TiB以下 | 300TiB | AFF A800およびAFF A900 
+
+
+ a| 
+パフォーマンス
+| 4ワット/TiB以下 | 300TiB | AFF A800およびAFF A900 
+|===
+
+
+== 持続可能性SLAの適格基準
+
+次の条件を満たすKeystone STaaSサブスクリプションはSLAの対象となります。
+
+* カスタマイズされていない標準のKeystone STaaSサブスクリプションで、単一のサービスレベルを月額後払いで提供
+* サービスレベルがExtreme、Premium、Performanceのサブスクリプションが対象となります。
+* カスタマイズされていない、参照されるKeystone持続可能なハードウェア構成は以下のもので構成されます。
++
+** ONTAP AFF Aシリーズストレージアレイ（NetApp AFF A900やAFF A800オールフラッシュストレージプラットフォームなど）。詳細については、を参照してください https://www.netapp.com/data-storage/aff-a-series["AFF A シリーズ"^]。
+** 2ノードスイッチレスクラスタ：
+混在構成とMetroCluster構成はサポートされていません。
+
+
+* Keystoneは、AutoSupportの計測データと転送メカニズムを使用して持続可能性データを収集します。すべてのONTAP AFFストレージアレイでAutoSupportが有効になっていて動作している必要があります。詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。
+* 格納されるデータのストレージ効率化の平均係数は2以上である必要があります。
+* 周囲の動作環境温度は25°C ~ 27°Cである必要があります
+* サービスレベルごとの最小コミット済み容量が満たされている必要があります。
+
+
+
+
+== 持続可能性レポート
+
+Active IQデジタルアドバイザ（デジタルアドバイザ）Keystoneダッシュボードの[SLA]タブには、Keystoneサブスクリプションの持続可能性指標の詳細が表示されます。指標を表示したり、将来の分析やアクションに備えてレポートを生成したりできます。
+
+Keystoneのダッシュボードとレポートの詳細については、を参照してください link:../integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"]。
+
+
+
+== 持続可能性サービスクレジット
+
+消費電力がサービスレベルのSLAで指定された基準を超えた場合、または満たさなかった場合、NetAppは、対象となるすべてのサブスクリプションについて、請求期間中に報告された差異に対してサービスクレジットの支払いを提供します。サービスレベルSLAの指標が満たされていない場合は、サービス月の最終日の1週間前までにNetAppグローバルサービスサポートセンター（GSSC）に連絡するサービスレベルの違反が確定すると、クレジットはサービスレベルのコミット済み容量に基づいて計算され、翌月の請求書に反映されます。
+
+詳細については、を参照してください link:../concepts/gssc.html["ネットアップグローバルサービスサポートセンター"]。

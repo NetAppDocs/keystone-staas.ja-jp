@@ -20,7 +20,7 @@ Keystoneは、Keystone ONTAP およびKeystone StorageGRIDサブスクリプシ�
 
 == ONTAP データ収集
 
-.<strong> ONTAPで収集された使用状況データ:ここをクリック</strong>
+.<strong> ONTAPで収集された使用状況データ:詳細はこちら</strong>
 [%collapsible]
 ====
 次に、ONTAP で収集される容量消費データの代表的なサンプルを示します。
@@ -198,7 +198,7 @@ Keystoneは、Keystone ONTAP およびKeystone StorageGRIDサブスクリプシ�
 
 
 ====
-.ONTAPで収集された<strong>パフォーマンスデータ：ここをクリック</strong>
+.ONTAP用に収集された<strong>パフォーマンスデータ：詳細はこちら</strong>
 [%collapsible]
 ====
 次に、ONTAP で収集されるパフォーマンスデータの代表的なサンプルを示します。
@@ -247,7 +247,7 @@ Keystoneは、Keystone ONTAP およびKeystone StorageGRIDサブスクリプシ�
 
 
 ====
-.<strong>プライベートデータアクセスの制限で削除された項目のリスト:ここをクリック</strong>
+.<strong>プライベートデータアクセスの制限で削除されたアイテムのリスト:詳細</strong>
 [%collapsible]
 ====
 Keystone Collectorで* Remove Private Data *オプションを有効にすると、ONTAP の次の使用情報が削除されます。このオプションはデフォルトで有効になっています。
@@ -275,7 +275,7 @@ Keystone Collectorで* Remove Private Data *オプションを有効にすると
 
 == StorageGRID データ収集
 
-.<strong> StorageGRIDで収集された使用状況データ:ここをクリック</strong>
+.<strong> StorageGRIDで収集された使用状況データ:詳細はこちら</strong>
 [%collapsible]
 ====
 次に、の代表的なサンプルを示します `Logical Data` StorageGRID について収集：
@@ -301,7 +301,7 @@ Keystone Collectorで* Remove Private Data *オプションを有効にすると
 
 
 ====
-.<strong>プライベートデータアクセスの制限で削除された項目のリスト:ここをクリック</strong>
+.<strong>プライベートデータアクセスの制限で削除されたアイテムのリスト:詳細</strong>
 [%collapsible]
 ====
 Keystone Collectorで* Remove Private Data *オプションを有効にすると、StorageGRID の次の使用情報が削除されます。このオプションはデフォルトで有効になっています。
