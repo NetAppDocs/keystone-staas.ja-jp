@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: installation/asup-config.html 
+keywords: ASUP, AutoSupport configuration 
+summary: Keystone向けAutoSupportを設定するための手順 
+---
+= Keystone向けのAutoSupportの設定
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupportのテレメトリメカニズムを使用する場合、KeystoneサービスはAutoSupportのテレメトリデータに基づいて使用量を計測します。必要なレベルのきめ細かさを実現するには、ONTAPクラスタから送信される日 々 のサポートバンドルにKeystoneデータが組み込まれるようにAutoSupportを設定する必要があります。
+
+.作業を開始する前に
+Keystoneデータを含めるようにAutoSupportを設定する前に、次の点に注意してください。
+
+* AutoSupportテレメトリオプションを編集するには、ONTAP CLIを使用します。AutoSupportサービスおよびシステム（クラスタ）管理者ロールの管理については、を参照してください。 https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["Manage AutoSupport の概要"^] および https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["クラスタ管理者と SVM 管理者"^]。
+* Keystoneの正確なデータ収集を保証するために、次のサブシステムを日次AutoSupportバンドルに含める必要があります。AutoSupportサブシステムの詳細については、を参照してください。 https://docs.netapp.com/us-en/ontap/system-admin/autosupport-subsystem-collection-reference.html["AutoSupport サブシステムとは"^]。
++
+|===
+| サブシステム名 | Keystoneに必要なデータ項目 
+
+
+ a| 
+WAFL
+| `VOLUME-CLONE-SHOW.XML` 
+
+
+ a| 
+パフォーマンス
+| `QOS-POLICY-GROUP.XML` および `QOS-ADAPTIVE-POLICY.XML` 
+
+
+ a| 
+スナップショット
+| `SNAPSHOT.XML` 
+
+
+ a| 
+プラットフォーム
+| `ENVIRONMENT.txt` 
+|===
++
+これらのサブシステムは、デフォルトで週次AutoSupportバンドルに含まれています。 `asup_type` is_dot-regular_、および `asup_subject` IS_HAグループ通知（WEEKLY_LOG）NOTICE_。ただし、Keystoneの使用状況データを取得してレポートするには、日次バンドルに追加する必要があります。
+
+
+
+.手順
+. システム管理者ユーザとして、SSHを使用してKeystone ONTAPクラスタにログインします。詳細については、を参照してください https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["SSHを使用したクラスタへのアクセス"^]。
+. 次のコマンドを実行して、既存の設定を確認します。
++
+`autosupport trigger show -node * -autosupport-message management.log -instance`
+
++
+このコマンドの詳細については、を参照してください https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-manifest-show.html#parameters["system node AutoSupport manifest show"^]。
+
+. 次のコマンドを実行して、日次ログの内容を変更します。
++
+`autosupport trigger modify -node * -autosupport-message management.log -basic-additional _<existing comma-separated subsystems>_, _<new subsystems>_`
+
++
+このコマンドの詳細については、を参照してください https://docs.netapp.com/us-en/ontap-cli-9131/system-node-autosupport-trigger-modify.html["system node AutoSupport trigger modifyコマンドを実行します"^]。
+
+

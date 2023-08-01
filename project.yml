@@ -39,6 +39,8 @@ sidebar:
       url: "/installation/monitor-health.html"
     - title: Keystone Collectorをアップグレードします
       url: "/installation/upgrade.html"
+    - title: Keystone向けのAutoSupportの設定
+      url: "/installation/asup-config.html"
     - title: 課金のために収集されたデータ
       url: "/installation/data-collection.html"
   - title: Keystoneの詳細をご確認ください

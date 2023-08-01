@@ -1179,13 +1179,9 @@
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="inline-link-macro">高度なデータ保護</block>
   <block id="31983c33f891876ff7bcaee65805fde0" category="paragraph">高度なデータ保護アドオンサービスの詳細については、を参照してください <block ref="a91680a6ffe7d115054b2a3a29590c88" category="inline-link-macro-rx"></block>。</block>
   <block id="04db5afbef84567f5c1ef044a2971b66" category="paragraph">ONTAP ストレージ環境内のクラスタがMetroCluster セットアップで構成されている場合は、Keystoneサブスクリプションの消費データが同じ時系列グラフに分割されて、基本のサービスレベルのプライマリサイトとミラーサイトでの消費量が表示されます。</block>
-  <block id="569bc20a83ee79e720c8118dfd3197e4" category="admonition">消費棒グラフは、基本サービスレベルに対してのみ分割されます。高度なデータ保護アドオンサービス（_Advanced Data-Protect_Serviceレベル）の場合、この境界は表示されません。</block>
   <block id="fb3cbb66357c55c4f429abc77ecde8bb" category="paragraph-title">高度なデータ保護サービスレベル</block>
-  <block id="dc22a90e0f32f2a7c39774489ee8fb79" category="admonition">[サブスクリプションの詳細]タブのサブスクリプションのタッキングIDの横にあるツールチップは、MetroClusterセットアップでパートナーサブスクリプションを識別するのに役立ちます。</block>
   <block id="c3c3060e985c56412fb0189a9c010a6d" category="paragraph-title">基本サービスレベル</block>
-  <block id="fe1654f1038a98c579f04107a47b091b" category="paragraph">基本のサービスレベルの場合、各ボリュームはプライマリサイトとミラーサイトでプロビジョニング済みとして課金されるため、プライマリサイトとミラーサイトでの使用量に応じて同じ棒グラフが分割されます。</block>
   <block id="65626369a820db5271fac7f41d059e93" category="paragraph-title">プライマリサブスクリプションで表示される内容</block>
-  <block id="6f66763d1fa17a342e4bfd7244527ffb" category="paragraph">次の図は、_Extreme_service level（基本サービスレベル）とプライマリサブスクリプション番号のグラフを示しています。同じ時系列チャートは、プライマリサイトに使用されるカラーコードのより明るい色合いでミラーサイトの消費をマークします。マウスにカーソルを合わせると、プライマリサイトとミラーサイトの消費量の内訳（TiB）がそれぞれ1.02TiBと1.05TiBで表示されます。</block>
   <block id="7cbd40b0470c3f0ea1063db9202530ff" category="inline-image-macro">MCCプライマリ</block>
   <block id="69ee7237e9b9f659b4b0f2cee316a662" category="paragraph"><block ref="69ee7237e9b9f659b4b0f2cee316a662" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8aed2cb2a7e1e2ed4080282a23781e67" category="paragraph">Advanced Data - Protect_serviceレベルの場合、グラフは次のように表示されます。</block>
@@ -1262,7 +1258,6 @@ ONTAP MetroCluster の詳細については、を参照してください <block
   <block id="4678bee42b24b1f259e76813ce5c8c11" category="list-text">サブスクリプションの詳細：サブスクリプションの開始日と終了日、および請求期間（四半期ごと、年ごとなど）。</block>
   <block id="0bb824bc11c0651d90f603b301be0454" category="list-text">使用状況グラフ：棒グラフには、日付範囲におけるサービスレベル名とそのサービスレベルに対する消費容量が表示されます。収集の日時がグラフの下部に表示されます。</block>
   <block id="f7415915998d4b4ddd0480235cfc5147" category="paragraph">高度なデータ保護アドオンサービスに登録している場合は、*[タイムシリーズ]*タブでMetroClusterパートナーサイトの消費データの内訳を確認できます。</block>
-  <block id="fd8f042413e243ba85b89698462975b9" category="paragraph">_Advanced Data - Protect _サービスレベルの場合、総消費量がパートナーサイト間で分割され、各パートナーサイトでの使用量が別のサブスクリプション（プライマリサイト用とミラーサイト用）に反映されて課金されます。そのため、*[Time Series]*タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費グラフにはプライマリサイトの個別の消費の詳細のみが表示されます。MetroCluster構成の各パートナーサイトがソースおよびミラーとして機能するため、各サイトでの合計消費量には、そのサイトに作成されたソースボリュームとミラーボリュームが含まれます。</block>
   <block id="1ab7bb685c5a04401573e75118c580cb" category="paragraph">グラフデータが変換される*時系列*タブのサンプルレポート：</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">Sustainability、SLA、サービスレベル契約</block>
   <block id="da7b7e32fb13eed4f75ab9bd36eb819f" category="paragraph">NetApp Keystone STaaSは、サービスレベルごとに消費される最大ワット数/TiBを定義するサービスレベルアグリーメントまたはSLAベースの持続可能性サービスレベルを提供し、ITの持続可能性目標の計画、監視、達成を支援します。</block>
@@ -1306,6 +1301,42 @@ ONTAP MetroCluster の詳細については、を参照してください <block
   <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">ONTAP用に収集された&lt;strong&gt;パフォーマンスデータ：詳細はこちら&lt;/strong&gt;</block>
   <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">&lt;strong&gt;プライベートデータアクセスの制限で削除されたアイテムのリスト:詳細&lt;/strong&gt;</block>
   <block id="f2b69dc6ebbf3f5003867401fe70494a" category="example-title">&lt;strong&gt; StorageGRIDで収集された使用状況データ:詳細はこちら&lt;/strong&gt;</block>
-  <block id="5d8bad95eb1baa3803b9e8dce984e67b" category="admonition">Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。お使いの環境がKeystone Collectorをサポートできない場合は、代わりにAutoSupportデータを使用する権限をKeystone製品管理部門に求めることができます。AutoSupportテレメトリ・データの詳細については、を参照してください<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>。</block>
   <block id="44a356ee93aa30cde0789bb1b6288edc" category="sidebar">持続可能性SLAサービスレベル</block>
+  <block id="c28b09cc41570276b2b0042903d57c79" category="admonition">消費棒グラフは、基本サービスレベルについてのみ分割されます。高度なデータ保護アドオンサービス（_Advanced Data-Protect_Serviceレベル）の場合、この境界は表示されません。</block>
+  <block id="627187033e0d403fd6c6200ee1ae4adc" category="paragraph">_Advanced Data - Protect _サービスレベルの場合、総消費量がパートナーサイト間で分割され、各パートナーサイトでの使用量が別のサブスクリプション（プライマリサイト用とミラーサイト用）に反映されて課金されます。そのため、*[Time Series]*タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費グラフにプライマリサイトのみの個別の消費の詳細が表示されます。MetroCluster構成の各パートナーサイトはソースとミラーの両方として機能するため、各サイトでの合計消費量には、そのサイトに作成されたソースボリュームとミラーボリュームが含まれます。</block>
+  <block id="fd52d7221e8b245c3170011b6a9ec588" category="admonition">[サブスクリプションの詳細]タブのサブスクリプションの追跡IDの横にあるツールチップは、MetroClusterセットアップでパートナーサブスクリプションを識別するのに役立ちます。</block>
+  <block id="b0fd82c95d4d70af17cabfddda9d8ba1" category="paragraph">基本のサービスレベルの場合、各ボリュームはプライマリサイトとミラーサイトでプロビジョニング済みとして課金されるため、プライマリサイトとミラーサイトでの使用量に応じて同じ棒グラフが分割されます。</block>
+  <block id="8c7448231ca20d3d6396d889131809c0" category="paragraph">次の図は、_Extreme_service level（基本サービスレベル）とプライマリサブスクリプション番号のグラフを示しています。同じ時系列グラフには、プライマリサイトで使用されているのと同じカラーコードの明るい色合いでミラーサイトの消費量も示されます。マウスにカーソルを合わせると、プライマリサイトとミラーサイトの消費量の内訳（TiB）がそれぞれ1.02TiBと1.05TiBで表示されます。</block>
+  <block id="8bc5c0080c428076bcf05bc51bb14788" category="inline-link-macro">Keystone向けのAutoSupportの設定</block>
+  <block id="6d578c7641fb44c9c4f671451a0ca720" category="admonition">Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。ご使用の環境がKeystone Collectorをサポートできない場合は、代わりにAutoSupportテレメトリメカニズムを使用する権限をKeystone製品管理部門に求めることができます。AutoSupportの詳細については、を参照してください。<block ref="b096b20f4ffee8d064588e63f22e1fc6" category="inline-link-rx"></block>。Keystone向けのAutoSupportの設定については、を参照してください。 <block ref="580f515f260b4eafdf5c4395b86d5cc8" category="inline-link-macro-rx"></block>。</block>
+  <block id="a2cb1683fa1d21863cd2e58f04cb8840" category="summary">Keystone向けAutoSupportを設定するための手順</block>
+  <block id="108d99cfe6acee2f282b35eb37399a4a" category="paragraph">AutoSupportのテレメトリメカニズムを使用する場合、KeystoneサービスはAutoSupportのテレメトリデータに基づいて使用量を計測します。必要なレベルのきめ細かさを実現するには、ONTAPクラスタから送信される日 々 のサポートバンドルにKeystoneデータが組み込まれるようにAutoSupportを設定する必要があります。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
+  <block id="b42d0b3eb8f170855db83a70fb500c9f" category="paragraph">Keystoneデータを含めるようにAutoSupportを設定する前に、次の点に注意してください。</block>
+  <block id="2624c7604ba2852efeff8c117d2b3833" category="inline-link">Manage AutoSupport の概要</block>
+  <block id="eaa7ee71946117afbd8b7b870c08c754" category="inline-link">クラスタ管理者と SVM 管理者</block>
+  <block id="4d58f253221193b9aefb05118d1f988b" category="list-text">AutoSupportテレメトリオプションを編集するには、ONTAP CLIを使用します。AutoSupportサービスおよびシステム（クラスタ）管理者ロールの管理については、を参照してください。<block ref="74c81977f67f7fd8730001b7bd71d272" category="inline-link-rx"></block> および<block ref="39dd1478a2434d6fd2a2e23247a37102" category="inline-link-rx"></block>。</block>
+  <block id="9e86f3ba8d920b1df3ab63648bd8eb29" category="inline-link">AutoSupport サブシステムとは</block>
+  <block id="d247e9a9e4b2d045ed1836a1636dd501" category="list-text">Keystoneの正確なデータ収集を保証するために、次のサブシステムを日次AutoSupportバンドルに含める必要があります。AutoSupportサブシステムの詳細については、を参照してください。<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>。</block>
+  <block id="1529ae16a08da72c10cf08ee8267b2b7" category="cell">サブシステム名</block>
+  <block id="518cc8d86719655e7d0b3e47b00cfcc4" category="cell">Keystoneに必要なデータ項目</block>
+  <block id="8deea84f7a861bbe25e208fcbb02eef1" category="paragraph">WAFL</block>
+  <block id="ceea79966527e25b8813fd6eeb6f5f53" category="cell"><block ref="d85d77ffdc00a53694547877662a0963" prefix="" category="inline-code"></block></block>
+  <block id="c05f6c233521207f6fe311afef550c3c" category="paragraph">パフォーマンス</block>
+  <block id="ae9231d884fca9aaf815810fa343d412" category="cell"><block ref="5031958c10a4bbf8dd2d0ffa99048d80" prefix="" category="inline-code"></block> および<block ref="46182b51ebeba863e7a89f90cfa59b48" prefix=" " category="inline-code"></block></block>
+  <block id="c322d3de29d2b0c5e2e011dad5e77df2" category="paragraph">スナップショット</block>
+  <block id="bb65c8cd0470e288b9c75785564d6a2e" category="cell"><block ref="f709c12953aa6b2660ce761bc3f1deb1" prefix="" category="inline-code"></block></block>
+  <block id="34a6e5d64ade17ef4e51612c50dd72f5" category="paragraph">プラットフォーム</block>
+  <block id="20633a185eef8cd0787928097ee67ed2" category="cell"><block ref="2e5491b472dcdbe9db18fd79935e0ccd" prefix="" category="inline-code"></block></block>
+  <block id="bcc16de506d1dbb7779a3062decf2fa6" category="paragraph">これらのサブシステムは、デフォルトで週次AutoSupportバンドルに含まれています。<block ref="c2f7a910dac56891bdc98acd8bf80faa" prefix=" " category="inline-code"></block> is_dot-regular_、および<block ref="155fe96c8db8042fed76defa0f5b6d97" prefix=" " category="inline-code"></block> IS_HAグループ通知（WEEKLY_LOG）NOTICE_。ただし、Keystoneの使用状況データを取得してレポートするには、日次バンドルに追加する必要があります。</block>
+  <block id="0615b5bfa7b669de144331b512440192" category="inline-link">SSHを使用したクラスタへのアクセス</block>
+  <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">システム管理者ユーザとして、SSHを使用してKeystone ONTAPクラスタにログインします。詳細については、を参照してください<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>。</block>
+  <block id="8105c13cb7b1a6ae8cfa1eedb5f33c40" category="list-text">次のコマンドを実行して、既存の設定を確認します。</block>
+  <block id="33b4af89f59af8bb80d82b221f1f8248" category="paragraph"><block ref="a036514af4c04ea01cab410ea50e1d6b" prefix="" category="inline-code"></block></block>
+  <block id="d4139f82ccaf32f8e108d4cd48dc0801" category="inline-link">system node AutoSupport manifest show</block>
+  <block id="fcd234d37052b608416125513e6350d6" category="paragraph">このコマンドの詳細については、を参照してください<block ref="ebf3b588f9456f5d9eb4379234927367" category="inline-link-rx"></block>。</block>
+  <block id="b25e1baa640468dcaf7b5bcd975ace0a" category="list-text">次のコマンドを実行して、日次ログの内容を変更します。</block>
+  <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
+  <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">system node AutoSupport trigger modifyコマンドを実行します</block>
+  <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">このコマンドの詳細については、を参照してください<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>。</block>
 </blocks>
