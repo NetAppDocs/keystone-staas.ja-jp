@@ -16,11 +16,11 @@ summary: KeystoneとEquinixを提供
 [role="lead"]
 ネットアップは、EquinixデータセンターでNetApp Keystone STaaSサービスをホストするためにEquinixとパートナー関係を結び、お客様に確実にUnified解決策 を提供しています。
 
-Equinixによって提供されるKeystoneコロケーション（Co-Lo）サービスは、標準のKeystoneサービスとは異なります。
+Equinixを基盤とするKeystoneコロケーション（Co-Lo）サービスは、標準のKeystoneサービスから変更はありません。
 
 このサービスでは、次の作業を
 
-* Equinixは、スペース、電力、冷却、ネットワーク、請求書を提供、 また、ストレージも月単位で提供されます。
+* Equinixは、スペース、電力、冷却、ネットワーク、請求書、 ストレージを月単位で提供しています。
 * Keystoneの一部の営業活動に対してサポートが提供されます。
 * これらのサービスは、11カ国のデータセンターでサポートされています。
 

@@ -26,7 +26,7 @@ Keystoneのインフラ、設計、テクノロジの選択、コンポーネン
 
 Keystoneインフラには、次のような複数のコンポーネントが含まれます。
 
-* ストレージコントローラを含むKeystoneインフラ。
+* Keystoneインフラ（ストレージコントローラを含む）。
 * AIOps解決策 、Active IQ 、Active IQ Unified Manager など、サービスを管理および運用するためのツール。
 
 

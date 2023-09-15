@@ -14,15 +14,15 @@ summary: アドオン、追加サービスの詳細、データ階層化
 
 
 [role="lead"]
-ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスには、使用頻度の低いデータを識別する階層化機能が含まれ、Keystone STaaS対応のネットアップコールドストレージに階層化できます。コールドデータをKeystone STaaSでサポートされるネットアップ以外のストレージに階層化する場合は、アドオンサービスとしてデータ階層化を利用できます。
+ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスには、使用頻度の低いデータを識別する階層化機能が含まれ、Keystone STaaS対応のネットアップコールドストレージに階層化できます。Keystone STaaSに対応したネットアップ以外の任意のストレージにコールドデータを階層化する場合は、アドオンサービスとしてデータ階層化を使用できます。
 
 標準サービスとアドオンサービスについては、を参照してください link:../concepts/supported-storage-services.html["Keystone STaaSサービス"]。サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
 
-階層化アドオンサービスが必要となるのは、データがAmazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）などのネットアップ以外のストレージに階層化されている場合のみです。Keystone STaaSをサポートし、S3互換性のある、サードパーティのオブジェクトストレージも必要です。
+階層化アドオンサービスが必要になるのは、Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）、Keystone STaaS対応でS3互換のサードパーティオブジェクトストレージなど、ネットアップ以外のストレージにデータが階層化される場合のみです。
 
 階層化機能では、NetApp FabricPool テクノロジを利用して、オンプレミスとオフプレミスのオブジェクトストレージ階層に、アクセス頻度の低いデータを自動で階層化できます。
 
-アドオンのデータ階層化サービスでは、Extreme、Premium、Performance、Standard、Valueの各階層からオブジェクトストレージターゲットへの階層化が可能です。階層化されるホットコールドデータの比率は固定されず、各階層は個別に計測および請求されます。
+アドオンのデータ階層化サービスでは、Extreme、Premium、Performance、Standard、Valueの各階層からオブジェクトストレージターゲットへの階層化が可能です。階層化されるコールドデータに対するホットデータの比率は固定ではなく、各階層の計測と請求は別 々 に行われます。
 
 たとえば、コールドストレージ階層のターゲットが次の場合です。
 
