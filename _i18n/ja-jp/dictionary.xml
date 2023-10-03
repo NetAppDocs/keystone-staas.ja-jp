@@ -442,7 +442,6 @@
   <block id="1923c743bdc7a28d03225437a33faad3" category="paragraph">NetApp Keystone （Keystone）STaaSは、パートナー様が運用するモデルとお客様が運用するモデルの2つのサービス提供モデルを提供します。</block>
   <block id="ceaa88393b953e384cdb413dd3572b41" category="list-text">*お客様が運用するモデル*：お客様は、選択したサービスレベルとストレージに応じてKeystoneサービスをサブスクライブできます。ネットアップはアーキテクチャと製品を定義し、Keystoneをお客様のオンプレミスに導入します。ストレージとITリソースを使用してインフラを管理する必要があります。お客様は、テナントまたはサブテナントとして、ネットアップまたはパートナー/サービスプロバイダに所属しています。お客様の契約に基づいて、ネットアップまたはサービスプロバイダが対応するサービスリクエストを発行できます。管理者は、サイト（環境）で管理タスクを実行できます。これらのタスクは、環境内のユーザに関連付けられます。</block>
   <block id="d9074f8f6ffc16585a17ec283468500b" category="paragraph">Keystone STaaSは、サービスの利用中に消費される容量に基づいて計測を行います。</block>
-  <block id="6d478c5e5b9eefab3f25d9f707b30bac" category="paragraph">コミット済み容量は、サブスクリプションの購入時に特定のサービスレベル用にコミットされた容量です。使用済み容量は、ワークロードが実際に使用している容量です。Keystoneサービスの導入の一環として、ネットアップはサービスの利用状況を継続的に監視し、測定します。5分ごとに消費レコードが生成され、サブスクリプションの現在の消費容量が詳細に表示されます。これらのレコードは、請求書および使用状況レポートを生成するために請求期間にわたって集計されます。</block>
   <block id="427fa3429ea764a6d2b1f1e8f8111b9e" category="list-text">NRNVCに関連する追加コストは、月額請求書（標準サービス、高度なデータ保護、データ階層化を含む）の合計サブスクリプションサービスのパーセンテージとして課金されます。</block>
   <block id="4dc2830ae7b31704bf74b200d5350dea" category="paragraph">このセクションでは、環境内でNetApp Keystone STaaSサービスを実現するために必要なコンポーネントを示します。</block>
   <block id="d9a2f9a8831ac707c49715a960ba187b" category="paragraph">NetApp Keystone STaaSを利用することで、ストレージサブスクリプションの予測可能な初期価格を設定できます。</block>
@@ -1391,4 +1390,39 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c6f432b1870f0e6972013545b17800a3" category="paragraph">システムファイアウォールでSSL/TLSインスペクションを使用すると、インターネットベースのトラフィックがカスタムCA証明書で再暗号化されます。ルート証明書を受け入れて接続を許可する前に、ソースが信頼できるCAであることを確認するように設定する必要があります。次の手順を実行します。</block>
   <block id="f9e29c5d1d04edbbfd564585d416bd59" category="list-text">[ 保存（ Save ） ] を選択します。設定が適用されます。</block>
   <block id="f481813467557e4621102213f070e886" category="admonition">管理者パスワードは元に戻すことができる形式でvCenterに保存され、VMware vSphereシステムへの初期アクセスを確立するためのブートストラップクレデンシャルとして使用する必要があります。ソフトウェアの初期設定中に、この管理者パスワードを変更する必要があります。IPv4アドレスのサブネットマスクはCIDR表記で指定する必要があります。たとえば、255.255.255.0というサブネットマスクには24の値を使用します。</block>
+  <block id="f55b179b8cade00ad34b1162d0791a0f" category="paragraph">コミット済み容量は、サブスクリプションの購入時に特定のサービスレベル用にコミットされた容量です。使用済み容量は、ワークロードが実際に使用している容量です。
+Keystoneサービスの導入の一環として、ネットアップはサービスの利用状況を継続的に監視し、測定します。少なくとも5分に1回は、サブスクリプションで現在消費されている容量の詳細を示す消費レコードがシステムによって生成されます。これらのレコードは、請求書および使用状況レポートを生成するために請求期間にわたって集計されます。</block>
+  <block id="24cba01226edf9c3d3a2a54ff2dcb01b" category="section-title">ONTAPボリュームのパフォーマンスの表示</block>
+  <block id="3b53297f45bd7b71fc7268ad58677e21" category="paragraph">Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンスの詳細を確認するには、*[パフォーマンス]*タブをクリックします。</block>
+  <block id="0fb53446c9ba4fb31807c3858dd35fc5" category="paragraph">このタブは、ONTAPボリュームのパフォーマンス指標を表示するために使用できない場合があります。このタブの表示については、サポートにお問い合わせください。</block>
+  <block id="6e72d1d005343795162600a4ae63ec11" category="list-text">[パフォーマンス]*タブをクリックします。</block>
+  <block id="f1addfc8f24f051397cc85f6926bf8ed" category="list-text">サブスクリプション番号を選択します。デフォルトでは、最初のサブスクリプション番号が選択されています。</block>
+  <block id="f642e4642652119f9ec47a2dc27c51ff" category="list-text">リストから必要なボリューム名を選択します。</block>
+  <block id="52dc465dcb6a1292788d1d65f181d28c" category="inline-image-macro">グラフアイコン</block>
+  <block id="c3663dd8e997e8e07f88f594ea89534a" category="paragraph">または、 <block ref="813df7a1965c665b3db93a22dec39701" category="inline-image-macro-rx" type="image"></block> アイコンをクリックONTAPして、[ボリューム]*タブに移動します。</block>
+  <block id="748946393eca5431e5760647d605462b" category="list-text">クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。</block>
+  <block id="78ba841e2af7da29fc53dabaf1dfd5e5" category="inline-link-macro">Keystoneのサービスレベル</block>
+  <block id="bb690fa6b66cd77f49761854afb035e2" category="paragraph">取得される詳細は、各サービスレベルのサービスレベル目標に基づいて決まります。たとえば、ピークIOPS、最大スループット、ターゲットレイテンシなどの指標は、サービスレベルの個 々 の設定によって決まります。設定の詳細については、を参照してください。 <block ref="7141573db29c2af45d0b9d0159276c43" category="inline-link-macro-rx"></block>。</block>
+  <block id="8145d7f98eef781aeba1bf4e2ed3d8a0" category="admonition">[SLO Reference Line]*チェックボックスを選択すると、IOPS、スループット、レイテンシのグラフがサービスレベルのサービスレベル目標に基づいて表示されます。それ以外の場合は、実際の数値で表示されます。</block>
+  <block id="1c9f2c60f5b1a2cf540da5ecfcf8f343" category="paragraph">水平グラフには、5分間隔の平均パフォーマンスデータがクエリの日付範囲に従って表示されます。グラフをスクロールして特定のデータポイントにカーソルを合わせると、収集したデータにさらにドリルダウンできます。</block>
+  <block id="be7199993fdc167e8dadd6faa046275c" category="paragraph">以降のセクションでは、サブスクリプション番号、ボリューム名、選択した日付範囲の組み合わせに基づいてパフォーマンス指標を表示および比較できます。詳細は、ボリュームに割り当てられているサービスレベルに応じて表示されます。クラスタ名とボリュームタイプ（ボリュームに割り当てられている読み取り権限と書き込み権限）を確認できます。ボリュームに関連する警告メッセージも表示されます。</block>
+  <block id="4f1b175c93064365bb72c5f847f7bbd0" category="section-title">IOPS/TiB</block>
+  <block id="a0746619a848c7d48f648ce50934b43d" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードの入出力グラフが表示されます。サービスレベルの最大IOPSと現在のIOPS（クエリの日付範囲ではなく過去5分間）が、その期間の最小IOPS、最大IOPS、平均IOPS（IOPS/TiB）とともに表示されます。</block>
+  <block id="39b7678a1c994ad158e2003e86860ff2" category="inline-image-macro">グラフの[IOPS]セクション</block>
+  <block id="6eef5220ce0ee019d4add6ef8f2212e8" category="paragraph"><block ref="6eef5220ce0ee019d4add6ef8f2212e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35484398406e066f146becbf5ade9a1f" category="section-title">スループット（MBps / TiB）</block>
+  <block id="da4fa7ec69d7af1bb610207a3c277040" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードのスループットグラフが表示されます。サービスレベルの最大スループット（SLO Max）と現在のスループット（クエリの日付範囲ではなく過去5分間）が、その時間範囲の最小スループット、最大スループット、平均スループット（MBPS/TiB）とともに表示されます。</block>
+  <block id="7f753ebf99003e3a50de147adbf5688c" category="inline-image-macro">スループットグラフ</block>
+  <block id="ded93b2a5ebed6aba8869fc052419dbb" category="paragraph"><block ref="ded93b2a5ebed6aba8869fc052419dbb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="561523f74b83ed5c17b02cb73ff8a80e" category="section-title">レイテンシ（ミリ秒）</block>
+  <block id="e2ca784e5909e7dac9c413d2bf636dac" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードのレイテンシグラフが表示されます。サービスレベル（SLOターゲット）の最大レイテンシと現在のレイテンシ（クエリの日付範囲ではなく過去5分間）が、その時間範囲の最小、最大、平均レイテンシ（ミリ秒）とともに表示されます。</block>
+  <block id="edf72d8b9161ba73ea48bf2e68fe9aed" category="paragraph">このグラフの色は次のとおりです。</block>
+  <block id="81989d847dc8278048053c5d03a4bea2" category="list-text">水色：_レイテンシ_。Keystoneサービス以外のレイテンシを含む実際のレイテンシ。これには、ネットワークとクライアントの間で発生するレイテンシなど、追加のレイテンシが含まれる場合があります。</block>
+  <block id="4c8726ebb2509982ab96801bddd96ce9" category="list-text">濃い青：_有効なレイテンシ_。実効レイテンシとは、SLAに関してお客様のKeystoneサービスにのみ適用されるレイテンシのことです。</block>
+  <block id="ff4b5372ded8ea29de7805373e0a5338" category="inline-image-macro">パフォーマンスグラフ</block>
+  <block id="f00c097e03b4ce4a62527a13752de77d" category="paragraph"><block ref="f00c097e03b4ce4a62527a13752de77d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b8e154beb0e4292a33a0a1882f0e5a11" category="section-title">使用済み論理容量（TiB）</block>
+  <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">このセクションには、ボリュームのプロビジョニング済み容量と使用済み論理容量が表示されます。現在の使用済み論理容量（クエリの日付範囲ではなく過去5分間）と、その期間の使用量の最小値、最大値、平均値がTiB単位で表示されます。このグラフでは、グレーの領域がコミット済み容量、黄色のグラフが論理的な使用状況を示しています。</block>
+  <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">使用済み論理容量のグラフ</block>
+  <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
