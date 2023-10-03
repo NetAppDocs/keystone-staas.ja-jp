@@ -82,7 +82,6 @@
   <block id="83cd48b4617f1e69361a1ecec3f5b3a3" category="summary">その他のボリュームタイプに基づく請求</block>
   <block id="bb6903e39254cc1a8d4ee2116c8e91e1" category="doc">Keystone請求のその他のシナリオ</block>
   <block id="ff6306dccf086261b36fc9764ec0a69c" category="section-title">クローニングされたボリュームに対する請求</block>
-  <block id="9ecca21c579121ef7bd72dc9d12e518a" category="list-text">クローンボリュームの消費は、クローンの作成から 24 時間以内には考慮されないため、この間に料金は発生しません。</block>
   <block id="d37a813a136d622d708c8200aef13f52" category="section-title">高度なデータ保護のための課金</block>
   <block id="eeeb76af3f8badbcccdfd5a1b14f4e37" category="paragraph">さらに、Advanced Data Protectionが搭載されたKeystoneシステムで作成されたすべてのボリュームは、これらのボリュームがミラーリングされているかどうかに関係なく、Advanced Data Protectionの使用にカウントされます。</block>
   <block id="ba4c22a98feebac558bbaac68b704e09" category="section-title">一時ボリュームについての請求</block>
@@ -371,8 +370,6 @@
   <block id="d96367d414f2f1ab0c8c14b8d62edc0e" category="list-text">Keystoneの一部の営業活動に対してサポートが提供されます。</block>
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extremeサービスレベルの設定とコマンド：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">パフォーマンスサービスレベルの設定とコマンド：</block>
-  <block id="77810f754f0d83cb5519f01e38866b76" category="paragraph">ONTAP でボリュームがクローニングされている場合、データのバックアップとリストアにそのボリュームを使用すると、追加の支払いなしでクローンを引き続き使用できます。ただし、ビジネスで他の目的に使用されていたクローンボリュームには、広範囲の期間料金がかかります。</block>
-  <block id="a1cc3d09aee1ee7b9c7c5bb4e7c0be32" category="list-text">「Standard」および「Value」のサービスレベルが設定されたクローンボリュームは、新しいデータがボリュームに書き込まれないかぎり、消費量とはみなされません。たとえば、バックアップとリストアのユースケースでは、クローンボリュームのデータのバックアップやリストアによって、クローンボリューム自体のデータが変更されることはなく、消費とはみなされません。</block>
   <block id="9899ef6b9a20de2fea89aa9492d2bbe6" category="paragraph">高度なデータ保護： NetApp MetroCluster を使用して、物理的に分離された 2 つのクラスタ間でデータをミラーリングしますMetroCluster のミラーされたアグリゲートの場合、データは各クラスタに1回ずつ、2回書き込まれます。Keystoneサービスでは、各サイドで個別に消費量が課金されるため、2つの同一の消費レコードが生成されます。アドオン料金は、データがソースにあるか、ミラーリングされているかまたはミラーリングされていないかに関係なく、サブスクリプション内のすべての容量に適用されます。</block>
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">ONTAP System Manager（System Manager）またはActive IQ Unified Manager （Unified Manager）を使用してクラスタを監視する場合は、ツールとKeystoneで報告される使用量との間に不一致が生じることがあります。System ManagerとUnified Managerでは、ミラーリングされた（リモートの）クラスタにボリュームが報告されません。報告されるのは、Keystoneサービスから報告される消費指標の半分です。</block>
   <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">SnapMirrorデスティネーションボリュームの料金は、ソースで割り当てられているサービスレベルのQoSポリシーによって決まります。ただし、ソースに QoS ポリシーが関連付けられていない場合、デスティネーションには、利用可能な最小のサービスレベルに基づいて課金されます。</block>
@@ -1425,4 +1422,8 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="72870aad377aa9744011edff931cfbe7" category="paragraph">このセクションには、ボリュームのプロビジョニング済み容量と使用済み論理容量が表示されます。現在の使用済み論理容量（クエリの日付範囲ではなく過去5分間）と、その期間の使用量の最小値、最大値、平均値がTiB単位で表示されます。このグラフでは、グレーの領域がコミット済み容量、黄色のグラフが論理的な使用状況を示しています。</block>
   <block id="55501f4ad85eceeadd5249ad583111f6" category="inline-image-macro">使用済み論理容量のグラフ</block>
   <block id="5d511ef587684e994c938c0e19441988" category="paragraph"><block ref="5d511ef587684e994c938c0e19441988" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0e3a3dc0c3eeb16df240b7eafc4a840c" category="paragraph">ONTAP でボリュームがクローニングされている場合に、データのバックアップとリストアに使用すると、追加の支払いなしでクローンを引き続き使用できます。ただし、ビジネスで他の目的に使用されていたクローンボリュームには、広範囲の期間料金がかかります。</block>
+  <block id="308838aa7669887098042a1899ce59bc" category="list-text">クローンボリュームは、サイズが親ボリュームの10%（親ボリュームで使用されている物理容量に対するクローンボリュームで使用されている物理容量）未満であれば充電されません。</block>
+  <block id="80a3381e7f0324d1481403cc81d8b605" category="list-text">クローニングされたボリュームには24時間の猶予期間はなく、クローンのサイズのみが考慮されます。</block>
+  <block id="5e46e614581cd458f9521294062d3783" category="list-text">クローンボリュームが親の物理サイズの10%を超えると、クローンは標準ボリューム（使用済み論理容量）として課金されます。</block>
 </blocks>
