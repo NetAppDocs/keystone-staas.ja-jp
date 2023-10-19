@@ -1312,7 +1312,6 @@
   <block id="5c69a894a823a6f1e25d1f277385ff77" category="list-text">色なし：バーストまたはそれ以上のバースト使用量。</block>
   <block id="c452de47d60f3598e66be78d36617ef7" category="list-text">グレー：使用できません。</block>
   <block id="ece9b76d902f947684c80e55f9218ffd" category="list-text">オレンジ：バースト容量にコミットされたの80%。</block>
-  <block id="f1b2da32c9846a4c537afee772c677be" category="list-text">* Current Burst *：定義されたバースト制限内またはそれ以上の消費容量を示すインジケータ。合意されたバースト制限内の使用量（コミット済み容量を20%超過した場合など）は、バースト制限内に収まります。それ以上の使用量は、バースト制限を超えた使用量とみなされます。このフィールドには特定の色が表示されます。</block>
   <block id="3fd44300bcd672c4c6d1dbe5de43532f" category="list-text">色なし：バースト使用量はありません。</block>
   <block id="bfaa63cafd86466ff5242aecfc7dad7c" category="list-text">赤：バースト使用量。</block>
   <block id="15956c549b6628aeb4d08a85d80be4b9" category="inline-image-macro">StorageGRIDダイアログボックス</block>
@@ -1424,7 +1423,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">詳細が表示された[Capacity Trend]タブ</block>
   <block id="476bf470b1b8dcf24df737be1ac03609" category="paragraph"><block ref="476bf470b1b8dcf24df737be1ac03609" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">棒グラフの以下の色は、サービスレベルで定義された消費容量を示します。グラフ全体で月単位のデータが縦線で区切られています。</block>
-  <block id="4bc2af7993e31ca7b54c80a630603236" category="paragraph">切り替えボタン*[Show Current Usage]*をクリックすると、サブスクリプションの課金期間に関する現在の消費量とバースト使用量を確認できます。これらはクエリの日付範囲に基づいていません。</block>
   <block id="a122d7ff9fbb0694ecb095cdf8f27baa" category="section-title">バースト履歴データの表示</block>
   <block id="7f4aafd34e1281a2bb7098e5b06084bd" category="paragraph">[Accrued Burst]オプションを選択した場合は、デフォルトで、過去12カ月間の月単位のバースト使用量データが表示されます。過去30カ月までの日付範囲で照会できます。</block>
   <block id="75ddfeb3beb9d2a265ac2ce3b66ef050" category="admonition">累積バースト使用量または消費容量は、現在の請求期間の月単位で計算されます。累積バースト使用量は、サービスレベルのコミット済み容量と消費容量に基づいて次の式で計算されます。<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>。</block>
@@ -1432,4 +1430,7 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="b9e135b5bcd23b0beff424e32497e77c" category="paragraph"><block ref="b9e135b5bcd23b0beff424e32497e77c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">この機能は、プレビューのみのモードで使用できます。この機能の詳細については、KSMにお問い合わせください。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。将来の日付は選択できません。</block>
+  <block id="4c81eafa216c925957e13d302baa98d5" category="paragraph">切り替えボタン*[Show Current Usage]*をクリックすると、現在の課金期間の消費量、バースト使用量、発生バーストデータを確認できます。これらの詳細は、クエリの日付範囲に基づいていません。</block>
+  <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* Current Burst *：定義されたバースト制限内またはそれ以上の消費容量を示すインジケータ。サブスクリプションのバースト制限内（コミット済み容量を20%超過した場合など）の使用量は、バースト制限内に収まる。それ以上の使用量は、バースト制限を超えた使用量とみなされます。このフィールドには特定の色が表示されます。</block>
+  <block id="6b7dfe5a7e219d1bb1b0d4dec89d1cb1" category="list-text">* Accrued Burst *：現在の請求期間の月単位で計算された、発生したバーストの使用量または消費容量を示すインジケータ。蓄積されたバースト使用量は、サービスレベルのコミット済み容量と消費済み容量に基づいて計算されます。<block ref="0664f1d332f0bb3aa9231cb5f4fb3bca" prefix=" " category="inline-code"></block>。</block>
 </blocks>
