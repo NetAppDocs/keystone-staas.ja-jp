@@ -17,13 +17,13 @@ sidebar:
     entries:
     - title: Keystoneコレクタとは
       url: "/installation/installation-overview.html"
-    - title: Keystone Collectorをインストールするための前提条件
+    - title: Keystone Collectorをインストールするためのシステムの準備
       entries:
-      - title: VMware vSphere の前提条件
+      - title: VMware vSphere の要件
         url: "/installation/vapp-prereqs.html"
-      - title: Linuxの前提条件
+      - title: Linuxの要件
         url: "/installation/linux-prereqs.html"
-      - title: ONTAP およびStorageGRID の特定の前提条件
+      - title: ONTAPトStorageGRIDノヨウケン
         url: "/installation/addl-req.html"
     - title: Keystone Collectorをインストールします
       entries:
