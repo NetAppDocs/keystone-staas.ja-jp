@@ -28,7 +28,8 @@ Keystoneサブスクリプションのサービスは、NetAppグローバルサ
 
 ネットアップグローバルサービスおよびサポートセンター（GSSC）チームは、主にNetApp Keystone のお客様に対するサービスをサポートします。以下の情報を参考にして、サポートチームに連絡してください。
 
-* グローバルサービス担当者：https://www.netapp.com/us/contact-us/support.aspx[]
+* グローバルサービス担当者：
+https://www.netapp.com/company/contact-us/support/[]
 * エスカレーションが必要なオープンケース/チケットをお持ちの場合は、次のいずれかのアドレスに電子メールを送信してください：keystone.services@netapp.com keystone.escalations@netapp.com
 * ネットアップは、AIOps解決策 を使用して、トラブルシューティングのためにNetApp Keystone 環境をプロアクティブに監視し、接続します。
 

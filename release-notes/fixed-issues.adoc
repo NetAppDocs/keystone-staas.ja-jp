@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: release-notes/fixed-issues.html 
+keywords: fixed issues 
+summary: Keystone STaaSのリリースごとに解決された問題 
+---
+= 解決済みの問題です
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Keystone STaaSサービスの以前のリリースで見つかった問題は、以降のリリースで修正されています。次の表に、修正の一覧を示します。
+
+[cols="3*"]
+|===
+| 事象の説明 | 修正後 | リリースで修正 
+
+
+ a| 
+バースト消費レコードの使用状況インジケータがオレンジで表示されていました。
+ a| 
+インジケータが赤で表示されます。
+ a| 
+2023年12月13日
+
+
+
+ a| 
+[Capacity Trend]、[Current Usage]、[Performance]の各タブの日付範囲とデータがUTCタイムゾーンに変換されませんでした。
+ a| 
+すべてのタブのクエリとデータの日付範囲は、UTC時間（サーバタイムゾーン）で表示されます。UTCタイムゾーンは、タブの各日付フィールドに対しても表示されます。
+ a| 
+2023年12月13日
+
+
+
+ a| 
+タブとダウンロードしたCSVレポートの開始日と終了日が一致していません。
+ a| 
+修正しました。
+ a| 
+2023年12月13日
+
+|===

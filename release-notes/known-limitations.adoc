@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-limitations.html 
+keywords: limitations, known limitations in Keystone STaaS 
+summary: 既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください 
+---
+= 既知の制限
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+既知の制限事項は、Keystone STaaSのサービスやコンポーネントでサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、機能を示しています。これらの制限事項を慎重に確認してください
+
+
+
+== Keystone Collectorの制限事項
+
+
+
+=== Keystone CollectorをvSphere 8.0 Update 1で起動できない
+
+VMware vSphereバージョン8.0 Update 1を搭載したKeystone Collector仮想マシン（VM）をオンにできず、次のエラーメッセージが表示されます。
+
+`Property 'Gateway' must be configured for the VM to power on.`
+
+技術情報アーティクルを参照してください link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_start_on_vSphere_8.0_U1["vSphere 8.0 U1でKeystone Collectorが起動しない"^] を参照してください。
+
+
+
+=== Kerberosを使用してサポートバンドルを生成することはできません
+
+Keystone CollectorのホームディレクトリがKerberosを使用してNFSv4経由でマウントされている場合、サポートバンドルは生成されず、次のエラーメッセージが表示されます。
+
+`subprocess.CalledProcessError: Command '['sosreport', '--batch', '-q', '--tmp-dir', '/home/<user>']' returned non-zero exit status 1.`
+
+技術情報アーティクルを参照してください https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_fails_to_generate_support_bundle_on_Kerberized_home_directory["Kerberos対応のホームディレクトリでKeystone Collectorがサポートバンドルの生成に失敗する"^] を参照してください。
+
+
+
+=== Keystone Collectorが特定のネットワーク範囲内のホストと通信できない
+
+Keystone Collectorが10.88.0.0/16ネットワーク範囲内のデバイスと通信できない `ks-collector` サービスは実行中です。技術情報アーティクルを参照してください link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_container_conflict_with_customer_network["Keystone Collectorコンテナがお客様のネットワークと競合しています"^] を参照してください。
+
+
+
+=== Keystone Collectorでお客様のルートSSL CA証明書を確認できない
+
+SSL/TLSトラフィックを検査するために環境内の境界ファイアウォールでSSL/TLSインスペクションが有効になっている場合、お客様のルートCA証明書が信頼されていないため、Keystone CollectorはHTTPS接続を確立できません。
+
+詳細と解決方法については、を参照してください。 link:..//installation/configuration.html#trust-a-custom-root-ca["カスタムルートCAを信頼する"^] またはナレッジベースの記事 link:https://kb.netapp.com/hybrid/Keystone/Collector/Keystone_Collector_cannot_verify_Customer_Root_SSL_CA_certificate["Keystone Collectorが顧客のルートSSL CA証明書を検証できない"^]。

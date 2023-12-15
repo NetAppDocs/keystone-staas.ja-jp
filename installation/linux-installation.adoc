@@ -36,4 +36,4 @@ Linuxサーバにソフトウェアをインストールするには、次の手
 
 
 
-NOTE: インストールが完了したら、Keystone Collector管理のターミナルユーザインターフェイス（TUI）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。を参照してください link:../installation/configuration.html["Keystoneコレクタを設定する"] および link:../installation/monitor-health.html["システムヘルスを監視する"]。
+NOTE: インストールが完了したら、Keystone Collector管理のターミナルユーザインターフェイス（TUI）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。を参照してください link:../installation/configuration.html["Keystoneコレクタを設定する"] および link:../installation/monitor-health.html["システムヘルスを監視する"] を参照してください。

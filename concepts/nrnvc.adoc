@@ -37,4 +37,4 @@ Standardサービスとクラウドサービスについては、を参照して
 
 SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。
 
-SnapLock テクノロジの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock とは"]。
+SnapLock テクノロジの詳細については、を参照してください https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["SnapLock とは"^]。

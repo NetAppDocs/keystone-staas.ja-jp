@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'new features, release notes, enhancements, what"s new' 
+summary: Keystone STaaSの新機能と機能強化： 
+---
+= Keystone STaaSの新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化された機能を提供します。
+
+
+
+== 2023年12月15日の新機能と拡張機能
+
+このリリースの新機能について説明します。
+
+
+
+=== 監視リストでの検索機能
+
+Active IQデジタルアドバイザ（デジタルアドバイザ）の監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください。 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Keystone監視リストを使用して検索"^]。
+
+
+
+=== UTCタイムゾーンに変換された日付
+
+Active IQデジタルアドバイザの[Keystoneサブスクリプション]*画面のタブに返されるデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください link:../integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。

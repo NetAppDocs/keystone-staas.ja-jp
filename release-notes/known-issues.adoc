@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: release-notes/known-issues.html 
+keywords: netapp, keystone, release notes, known issues 
+summary: NetApp Service Engine の既知の問題 
+---
+= NetApp Service Engine の既知の問題
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+以下の既知の問題がNetApp Keystone STaaSで報告されています。この問題は、Keystoneサブスクリプションの一部としてストレージをプロビジョニングまたは使用する場合に発生することがあります。
+
+[cols="3*"]
+|===
+| Known 問題の略 | 説明 | 回避策 
+
+
+ a| 
+ミラーボリュームのサービスレベルが正しくありません。
+ a| 
+階層化とオブジェクトストレージの両方のレートプランが適用される環境でMetroClusterとFabricPoolの両方が有効になっている場合、ミラーボリューム（コンスティチュエントとFabricPoolボリュームの両方）のサービスレベルが正しくない可能性があります。
+ a| 
+なし
+
+|===

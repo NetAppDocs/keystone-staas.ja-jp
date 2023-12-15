@@ -4,7 +4,7 @@ permalink: integrations/aiq-keystone-details.html
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq sustainability, digital advisor sustainability, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts 
 summary: Keystoneサブスクリプションレポートとグラフ 
 ---
-= Keystoneサブスクリプションのダッシュボードとレポート
+= Keystoneのダッシュボードとレポート機能を使用
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -30,13 +30,13 @@ Keystoneサブスクリプションと使用量の詳細を表示するには、
 
 
 
-NOTE: Keystoneサブスクリプションの容量消費量は、ダッシュボードとレポートにTiB単位で表示され、小数点以下2桁に四捨五入されます。使用量が0.01 TiB未満の場合、値は0またはと表示されます `No Usage`。これらのタブにクエリ用に入力されたローカル時間は、UTC時間に変換されます。そのため、照会された時間に基づいて、返されるデータにわずかな違いが生じることがあります。
+NOTE: Keystoneサブスクリプションの容量消費量は、ダッシュボードとレポートにTiB単位で表示され、小数点以下2桁に四捨五入されます。使用量が0.01 TiB未満の場合、値は0またはと表示されます `No Usage`。これらの画面のデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。
 
 利用率指標の詳細については、を参照してください。 link:../concepts/metrics.html#metrics-measurement["メトリック測定"]。Keystoneで使用されるさまざまな容量については、を参照してください link:../concepts/supported-storage-capacity.html["サポートされているストレージ容量"]。
 
 
 
-== サブスクリプションの表示
+== サブスクリプション
 
 [サブスクリプション]タブで、すべてのサブスクリプションのリストを表示できます。
 
@@ -68,7 +68,7 @@ image:icon-grey.png["グレーのドットアイコン"]：サービスレベル
 
 
 
-== サブスクリプションの使用状況の詳細を表示する
+== 現在の使用状況
 
 サブスクリプションの使用状況の詳細を確認するには、*現在の使用状況*タブをクリックし、必要なサブスクリプション番号を選択します。
 
@@ -83,22 +83,29 @@ Keystoneストレージサービスと関連するサービスレベルについ
 
 
 
-== 持続可能性SLAの詳細を表示します
+== SLAの詳細
+
+サービスレベルアグリーメント（SLA）は、ネットアップのクラウドストレージソリューションの主要な構成要素です。SLAは、Keystone STaaSサービスの一環として、効果的で高品質、信頼性に優れたストレージ解決策を提供することを目的としています。[SLA Details]*タブは、NetAppで有効な持続可能性SLAがある場合にのみ使用できます。
+
+
+
+=== 持続可能性SLAの詳細を表示します
 
 .詳細はこちら。
 [%collapsible]
 ====
-[SLA Details]*タブは、NetAppと有効なSustainability Service Level Agreement（SLA;持続可能性サービスレベル契約）がある場合にのみ使用できます。Keystone STaaSの持続可能性SLAの詳細については、を参照してください link:../concepts/sla-sustainability.html["Keystoneの持続可能性SLA"]。
+* Sustainability SLA *タブは、NetAppと有効なSustainability Service Level Agreement（SLA;持続可能性サービスレベル契約）がある場合にのみ使用できます。Keystone STaaSの持続可能性の詳細については、 link:../concepts/sla-sustainability.html["Keystoneの持続可能性SLA"]。
 
-[* SLA Details *]タブには、サステナビリティSLAの詳細が表示されます。
+* Sustainability SLA *タブには、サステナビリティSLAの詳細が表示されます。
 
 .手順
-. [SLA Details]*タブをクリックします。
+. [SLA Details]>[Sustainability SLA]*をクリックします。
 . 詳細を表示するサブスクリプションを選択します。持続可能性SLAの条件を満たすサブスクリプションのみを表示できます。条件の詳細については、を参照してください link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla["持続可能性SLAの適格基準"]。
-. 詳細を表示する年と月を選択します。サブスクリプションがアクティブになっている年と月を選択できます。
+. 詳細を表示する年と月を選択します。デフォルトでは、現在の月のデータが表示されます。サブスクリプションがアクティブになっている年と月を選択できます。
+. [ * 詳細の表示 * ] をクリックします。
 
 
-選択した月について、測定された持続可能性関連の指標の日単位の内訳を表示できます。
+選択した月の持続可能性指標の日単位の内訳を表示できます。
 
 image:sla-sustainability.png["持続可能性の詳細を示す[SLAの詳細]タブ"]
 
@@ -124,7 +131,7 @@ SLAに違反した場合、 image:warning.png["警告のアイコン"] 列の横
 ====
 
 
-== 使用履歴データの表示
+== 容量のトレンド
 
 [容量のトレンド]*タブには、特定の期間のKeystoneサブスクリプションの履歴データが表示されます。縦のグラフには、選択した期間の使用状況の詳細と、レポートを比較して生成するための適切なインジケータが表示されます。
 
@@ -253,7 +260,7 @@ MetroCluster によるデータの保護方法については、を参照して�
 ====
 
 
-== ボリュームとオブジェクトの詳細の表示
+== ボリュームとオブジェクト
 
 [ボリュームとオブジェクト]*タブでは、ONTAPでボリュームの使用状況やその他の詳細を確認できます。StorageGRID の場合、オブジェクトストレージ環境でのノードとその個 々 の使用状況が表示されます。
 
@@ -262,7 +269,7 @@ NOTE: このタブの名前は、サイトでの導入の種類によって異�
 
 
 
-=== ONTAPボリュームの詳細
+=== ONTAPボリュームの詳細の表示
 
 .詳細はこちら。
 [%collapsible]
@@ -286,12 +293,12 @@ image:aiq-ks-sysdtls.png["[ボリュームとオブジェクト]タブ"]
 ====
 
 
-=== StorageGRIDノードと消費の詳細
+=== StorageGRIDのノードと使用状況を表示
 
 .詳細はこちら。
 [%collapsible]
 ====
-StorageGRID の場合、オブジェクトストレージ環境内のノードの物理的な使用量が表示されます。
+StorageGRIDの場合、オブジェクトストレージに対するノードの物理的な使用量が表示されます。
 
 .手順
 . [オブジェクト]タブをクリックします。
@@ -308,11 +315,12 @@ image:sg-link-2.png["StorageGRIDダイアログボックス"]
 ====
 
 
-== ONTAPボリュームのパフォーマンスの表示
+== パフォーマンス
 
-Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンスの詳細を確認するには、*[パフォーマンス]*タブをクリックします。
+*[パフォーマンス]*タブでは、Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンス指標を表示できます。
 
-このタブは、ONTAPボリュームのパフォーマンス指標を表示するために使用できない場合があります。このタブの表示については、サポートにお問い合わせください。
+
+TIP: このタブはオプションで使用できます。このタブの表示については、サポートにお問い合わせください。
 
 .手順
 . [パフォーマンス]*タブをクリックします。
