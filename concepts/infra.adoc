@@ -50,4 +50,4 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 
 image:mgmt-stack.png["managemntスタック"]
 
-Active IQ デジタルアドバイザ（デジタルアドバイザ）では、ログインして、Keystoneサブスクリプションのサブスクリプションと消費の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。
+Active IQデジタルアドバイザ（別名デジタルアドバイザ）を使用すると、ログインして、Keystoneサブスクリプションのサブスクリプションと消費量の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。

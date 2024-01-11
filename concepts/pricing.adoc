@@ -29,3 +29,12 @@ Keystoneには、以下の請求先施設が用意されています。
 Keystone請求は、コミット済み容量と可変バースト消費に基づいて行われます。
 
 Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。
+
+* 関連情報 *
+
+* link:../concepts/committed-capacity-billing.html["コミット済み容量に基づく請求"]
+* link:../concepts/consumed-capacity-billing.html["消費容量に基づく計測"]
+* link:../concepts/burst-consumption-billing.html["バースト消費に基づく請求"]
+* link:../concepts/misc-volume-billing.html["その他のボリュームタイプに基づく請求"]
+* link:../concepts/billing-schedules.html["請求スケジュール"]
+

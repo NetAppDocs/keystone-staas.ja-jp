@@ -53,7 +53,7 @@ sidebar:
       url: "/installation/asup-config.html"
     - title: 課金のために収集されたデータ
       url: "/installation/data-collection.html"
-  - title: Keystoneサービスでさらに多くのことを実現
+  - title: Keystoneダッシュボードを表示してサブスクリプションを管理
     entries:
     - title: Active IQデジタルアドバイザのKeystoneダッシュボードを見る
       url: "/integrations/keystone-aiq.html"
@@ -73,6 +73,8 @@ sidebar:
       url: "/concepts/service-levels.html"
     - title: アドオンサービス
       entries:
+      - title: Keystone STaaSのアドオンサービス
+        url: "/concepts/add-on.html"
       - title: データの階層化
         url: "/concepts/data-tiering.html"
       - title: 高度なデータ保護

@@ -135,3 +135,10 @@ NOTE: レイテンシには、FabricPool ストレージの場合、オブジェ
 
 
 ====
+* 関連情報 *
+
+* link:../concepts/supported-storage-capacity.html["サポートされているストレージ容量"]
+* link:..//concepts/metrics.html["Keystoneサービスで使用される指標と定義"]
+* link:../concepts/qos.html["Keystoneのサービス品質（QoS"]
+* link:../concepts/pricing.html["Keystoneの価格設定"]
+

@@ -18,6 +18,26 @@ NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化
 
 
 
+== 2024年1月11日の新機能と拡張機能
+
+このリリースの新機能について説明します。
+
+Active IQデジタルアドバイザ（デジタルアドバイザ）の[Keystoneサブスクリプション]*画面に次の変更が加えられました。
+
+
+
+=== Accrued Burstに対して請求されたデータが返されました
+
+[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["請求済みバースト容量の表示"^]。
+
+
+
+=== 特定の料金プランの発生した消費の詳細
+
+_zero_committed容量のレートプランがあるサブスクリプションの場合は、* Capacity Trend *タブで消費量の詳細を確認できます。[Invoiced Accrued Consumption]*オプションを選択すると、課金されたAccrued Consumptionデータの月単位のグラフを表示できます。
+
+
+
 == 2023年12月15日の新機能と拡張機能
 
 このリリースの新機能について説明します。

@@ -22,8 +22,9 @@ Linuxサーバにソフトウェアをインストールするには、次の手
 . Keystone公開署名署名をインポートします。
 `# rpm --import https://keystone.netapp.com/repo/RPM-GPG-NetApp-Keystone-20221101`
 . RPMデータベースでKeystone請求プラットフォームのフィンガープリントを確認して、正しいパブリック証明書がインポートされていることを確認します。
-`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`正しい指紋は次のようになります。
-`90B3 83AF E07B 658A 6058  5B4E 76C2 45E4 33B6 C17D`
+`# rpm -qa gpg-pubkey --qf '%_<Description>_'|gpg --show-keys --fingerprint`
+正しい指紋は次のようになります。
+`90B3 83AF E07B 658A 6058 5B4E 76C2 45E4 33B6 C17D`
 . をダウンロードします `keystonerepo.rpm` ファイル：
 `curl -O https://keystone.netapp.com/repo/keystonerepo.rpm`
 . ファイルの信頼性を確認します。
