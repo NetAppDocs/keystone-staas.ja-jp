@@ -56,7 +56,7 @@ C13コンセントが十分にある、別々の保護された2つの回路に�
 
 === Storage Virtual Machineの略
 
-Keystone CollectorとAIOps解決策 ゲートウェイを導入するには、Storage Virtual Machine（Storage VM）が必要です。Keystone Collectorをインストールするための前提条件は次のとおりです。 link:..//installation/installation-overview.html["Keystone Collectorのインストールガイド"]。その他の要件は導入時に共有されます。
+Keystone CollectorとAIOps解決策 ゲートウェイを導入するには、Storage Virtual Machine（Storage VM）が必要です。Keystone Collectorをインストールするための前提条件は次のとおりです。 link:../installation/installation-overview.html["Keystone Collectorのインストールガイド"]。その他の要件は導入時に共有されます。
 
 
 

@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: integrations/volumes-objects-tab.html 
+keywords: keystone-aiq, digital advisor keystone, volumes-objects-tab, StorageGRID objects details, ONTAP volumes 
+summary: ボリューム-オブジェクト-タブ 
+---
+= [Volumes & Objects]タブ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+[ボリュームとオブジェクト]*タブでは、ONTAPでボリュームの使用状況やその他の詳細を確認できます。StorageGRID の場合、オブジェクトストレージ環境でのノードとその個 々 の使用状況が表示されます。
+
+
+NOTE: このタブの名前は、サイトでの導入の種類によって異なります。ボリュームとオブジェクトストレージの両方がある場合は、*[ボリュームとオブジェクト]*タブが表示されます。ストレージ環境にONTAPボリュームしかない場合は、名前が* Volumes *に変わります。StorageGRIDオブジェクトストレージの場合は、*[オブジェクト]*タブが表示されます。
+
+
+
+== ONTAPボリュームの詳細の表示
+
+ONTAPの場合、*[ボリューム]*タブには、Keystoneサブスクリプションで管理されるストレージ環境内のボリュームの、使用容量、ボリュームタイプ、クラスタ、アグリゲート、サービスレベルなどの情報が表示されます。
+
+.手順
+. [全般]>[Keystoneサブスクリプション]>[ボリューム]*をクリックします。
+. サブスクリプション番号を選択します。デフォルトでは、使用可能な最初のサブスクリプション番号が選択されています。
++
+ボリュームの詳細が表示されます。列見出しの横にある情報アイコンにマウスを合わせると、列をスクロールして詳細を確認できます。列でソートしたり、リストをフィルタして特定の情報を表示したりできます。
+
++
+
+NOTE: 高度なデータ保護アドオンサービスの場合は、ボリュームがMetroCluster構成のプライマリボリュームかミラーボリュームかを示す列が表示されます。個 々 のノードシリアル番号をコピーするには、*ノードシリアルのコピー*ボタンをクリックします。
+
+
+
+image:aiq-ks-sysdtls.png["[ボリュームとオブジェクト]タブ"]
+
+
+
+== StorageGRIDのノードと使用状況を表示
+
+StorageGRIDの場合、オブジェクトストレージに対するノードの物理的な使用量が表示されます。
+
+.手順
+. [全般]>[Keystoneサブスクリプション]>[オブジェクト]*をクリックします。
+. サブスクリプション番号を選択します。デフォルトでは、使用可能な最初のサブスクリプション番号が選択されています。サブスクリプション番号を選択すると、オブジェクトストレージの詳細のリンクが有効になります。
++
+image:sg-link.png["StorageGRIDダイアログボックス"]
+
+. リンクをクリックすると、各ノードのノード名と物理的な使用状況の詳細が表示されます。
++
+image:sg-link-2.png["StorageGRIDダイアログボックス"]
+
+
+
+* 関連情報 *
+
+* link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
+* link:../integrations/subscriptions-tab.html["サブスクリプション"]
+* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/sla-details-tab.html["SLAの詳細"]
+* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
+

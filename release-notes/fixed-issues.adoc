@@ -14,7 +14,7 @@ summary: Keystone STaaSのリリースごとに解決された問題
 
 
 [role="lead"]
-NetApp Keystone STaaSサービスの以前のリリースで見つかった問題は、以降のリリースで修正されています。次の表に、修正の一覧を示します。
+NetApp Keystone STaaSサービスの以前のリリースで見つかった問題は、以降のリリースで修正されています。次の表に、これらの修正を示します。
 
 [cols="3*"]
 |===

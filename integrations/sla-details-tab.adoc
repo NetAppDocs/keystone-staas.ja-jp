@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: integrations/sla-details-tab.html 
+keywords: keystone-aiq, digital advisor keystone, SLA details 
+summary: 'KeystoneとDigital Advisorの[SLA Details]タブ' 
+---
+= [SLA Details]タブ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+[SLA Details]*タブは、NetAppと有効なサービスレベル契約（SLA）がある場合にのみ使用できます。* Sustainability SLA *タブは、有効なSustainability SLAがある場合にのみ使用できます。
+
+サービスレベルアグリーメント（SLA）は、ネットアップのクラウドストレージソリューションの主要な構成要素です。SLAは、Keystone STaaSサービスの一環として、効果的で高品質、信頼性に優れたストレージ解決策を提供することを目的としています。Keystone STaaSの持続可能性の詳細については、 link:../concepts/sla-sustainability.html["Keystoneの持続可能性SLA"]。
+
+.手順
+. [General]>[Keystoneサブスクリプション]>[SLAの詳細]>[Sustainability SLA]*をクリックします。
+. 詳細を表示するサブスクリプションを選択します。持続可能性SLAの条件を満たすサブスクリプションのみを表示できます。条件の詳細については、を参照してください link:../concepts/sla-sustainability.html#eligibility-criteria-for-sustainability-sla["持続可能性SLAの適格基準"]。
+. 詳細を表示する年と月を選択します。デフォルトでは、現在の月のデータが表示されます。サブスクリプションがアクティブになっている年と月を選択できます。
+. [ * 詳細の表示 * ] をクリックします。
+
+
+選択した月の持続可能性指標の日単位の内訳を表示できます。
+
+image:sla-sustainability.png["持続可能性の詳細を示す[SLAの詳細]タブ"]
+
+次の詳細が表示されます。一部のフィールドや列では、データに関する追加情報を提供する情報アイコンやツールチップが表示される場合があります。
+
+* * Average Sustainability *：このサブスクリプションの最後の請求期間における平均消費電力（ワット/TiB）。
+* *日付*:収集されたSLAデータの日付。
+* *平均ワット数*：クラスタがその日に消費した電力の平均ワット数。
+* *実効容量（TiB *）：サービスレベルのコミット済み容量と割り当て済みバースト容量の合計。
+* *実際のワット数（TiB *）：実際のワット数/TiBは、クラスタによるその日のTiBあたりの実際の電力消費量です。この値を* SLA Watts/TiB *の値と比較して、オーバーシュートを分析できます。
+* * SLA Watts/TiB *：SLAで定義されたサービスレベルのワット/ TiB値。
+* *平均気温（^o^C）*：その日の平均周囲温度。
+* *ストレージ容量削減比率*：Keystoneストレージ環境におけるストレージ容量削減比率。Storage Efficiency設定を有効にしたあとにシステムで使用されている合計論理スペースの、データの格納に使用されている合計物理スペースに対する比率です。ストレージ容量削減比率の詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/concept_overview_storage_efficiency.html["ストレージ効率を把握"^]。
+
+
+SLAに違反した場合、 image:warning.png["警告のアイコン"] 列の横にある警告アイコンは、違反の性質を示します。次の警告が表示されます。
+
+* 周囲温度：温度が25^o^C-27^o^Cの範囲外の場合
+* SLA Watts/TiB：サービスレベルのSLA指標が満たされていない場合。詳細については、を参照してください link:../concepts/sla-sustainability.html#sustainability-service-level["Sustainabilityサービスレベル"]。
+* ストレージ容量削減比率：ストレージ容量削減比率が2：1未満の場合。
+
+
+* 関連情報 *
+
+* link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
+* link:../integrations/subscriptions-tab.html["サブスクリプション"]
+* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
+

@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscriptions-tab.html 
+keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
+summary: 'AIQ DA Keystoneダッシュボードの[Subscriptions]タブ' 
+---
+= [サブスクリプション]タブ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+[サブスクリプション]タブで、すべてのサブスクリプションのリストを表示できます。
+
+このタブを表示するには、左側のナビゲーションペインで*[全般]>[Keystoneサブスクリプション]>[サブスクリプション]*に移動します。
+
+image:all-subs.png["[サブスクリプション]タブの画像"]
+
+次の情報が表示されます。一部のフィールドや列では、情報や警告アイコン、およびデータに関する追加情報を表示するツールチップが表示される場合があります。
+
+* *サブスクリプション番号*：ネットアップが割り当てたKeystoneサブスクリプションのサブスクリプション番号。
+* *トラッキングID*：登録の有効化時に割り当てられたトラッキングID。これは、サブスクリプションとサイトごとに一意のIDで、サブスクリプションの追跡に使用されます。
++
+
+TIP: 高度なデータ保護アドオンサービスに登録している場合は、サブスクリプション番号のツールチップをクリックして、MetroClusterセットアップでパートナーサブスクリプションの追跡IDを表示できます。MetroCluster構成のパートナーサブスクリプション別の詳細な消費状況を表示する方法については、を参照してください link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["高度なデータ保護のリファレンスチャート"]。
+
+* *使用タイプ*：複数のKeystone（バージョン1）またはKeystone STaaS（バージョン2）サブスクリプションに登録済みの場合があります。サービスレベルのレートプランルールは、2つのサブスクリプションタイプで異なる場合があります。この列の値を見ると、使用タイプがプロビジョニング済みの使用量と論理的な使用量のどちらに基づいて課金されているかがわかります `v1` または `v2`。Keystoneサブスクリプションバージョン1の詳細については、を参照してください https://docs.netapp.com/us-en/keystone/index.html["NetApp Keystone のドキュメント"^]。
+* *請求期間*：月額、四半期、年単位など、サブスクリプションの請求期間。
+* *開始日*：サブスクリプションの開始日。
+* *終了日*：サブスクリプションの終了日。毎月自動的に更新される月額課金制のサブスクリプションをお持ちの場合は、 `Month-on-month` 終了日の代わりに。この日付に基づいて、終了間近のサブスクリプションや自動更新ポリシーが適用されているサブスクリプションの通知が表示される場合があります。
+* *使用状況*：使用状況インジケーターを表示して、使用状況がサブスクリプション制限内か超過しているかを示します。消費レコードの数を最も高くする場合は、この列でリストをソートできます。
+* image:subs-dtls-icon.png["をクリックします。"]:サブスクリプションのこのアイコンをクリックすると、[現在の使用状況]タブが開き、そのサブスクリプションの使用状況の詳細が表示されます。
+* image:aiq-ks-time-icon.png["をクリックします。"]：このアイコンをクリックすると、* Capacity Trend *タブが開き、このサブスクリプションに含まれる各サービスレベルの使用履歴データを確認できます。
+
+
+各サブスクリプションの使用状況を確認するには、次の使用状況インジケータを参照してください。
+
+image:usage-indicator.png["をクリックします。"]
+
+.インデックス
+image:icon-grey.png["グレーのドットアイコン"]：サービスレベルのコミット済み容量に照らして、使用容量は記録されませんimage:icon-green.png["緑色のドットアイコン"]：コミット済み容量の80%以内で、通常消費量が発生しますimage:icon-amber.png["オレンジ色のドットアイコン"]：最大消費量とは、コミット済み容量の約100%以上に達することを意味します。*Consumed *列には、コミット済み容量の80%を超える消費量を示すインジケータが表示されますimage:icon-red.png["赤い点のアイコン"]：消費量がバースト制限内にあります。バースト消費量とは、サービスレベルの100%のコミット済み容量を超え、120 %などの合意されたバースト使用制限の範囲内である消費量のことですimage:icon-purple.png["紫色のドットアイコン"]：指定されたバースト制限を超過した消費量を示します
+
+* 関連情報 *
+
+* link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
+* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/sla-details-tab.html["SLAの詳細"]
+* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
+

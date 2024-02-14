@@ -24,7 +24,7 @@ Standardサービスとクラウドサービスについては、を参照して
 Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングできます。プライマリサイトで災害が発生した場合、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能は、2つのサイト間のMetroCluster構成を利用してデータ保護を実現します。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ利用できます。このアドオンサービスの一部として、 `Advanced Data-Protect` サービスレベルはサブスクリプションに割り当てられます。
 ONTAP MetroCluster の詳細については、を参照してください link:https://docs.netapp.com/us-en/ontap-metrocluster["MetroCluster のドキュメント"^]。
 
-MetroCluster構成での使用状況を表示する方法については、を参照してください link:../integrations/aiq-keystone-details.html#reference-charts-for-advanced-data-protection["高度なデータ保護のリファレンスチャート"]。
+MetroCluster構成での使用状況を表示する方法については、を参照してください link:../integrations/capacity-trend-tab.html#reference-charts-for-advanced-data-protection["高度なデータ保護のリファレンスチャート"]。
 
 アドオン料金は、サブスクリプションに含まれるすべての容量（ソース、ミラーコピー、ミラーリングされていないデータ）に適用されます。
 

@@ -1,0 +1,66 @@
+---
+indexpage:
+  title: Keystoneに関するドキュメント
+  summary: NetApp Keystone は、オンプレミスとクラウドの両方のデータストレージサービスを1つのサブスクリプションで提供する、従量課金制のストレージサービスです。複数のクラウドにストレージコストを再割り当てできます。
+  keywords: Keystone STaaS
+  lead: NetApp Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）が望ましいお客様に、シームレスなハイブリッドクラウドエクスペリエンスを提供する、柔軟な従量課金制のサブスクリプションベースサービスです。リソースの管理や時間のかかる調達サイクルに伴うITの負担を解消し、価値実現までの時間を短縮できます。このライブラリのドキュメントを参照して、ONTAPまたはStorageGRID環境でのNetApp
+    Keystone STaaSサービスの詳細を確認してください。
+  tiles:
+  - title: はじめに
+    links:
+    - title: NetApp Keystone とは
+      url: "/concepts/overview.html"
+    - title: VMware vSphereへのKeystone Collectorのインストール
+      url: "/installation/vapp-installation.html"
+    - title: LinuxへのKeystone Collectorのインストール
+      url: "/installation/linux-installation.html"
+    - title: Digital Advisorで使用状況を確認
+      url: "/integrations/keystone-aiq.html"
+    - title: 消費状況のレポートを生成
+      url: "/integrations/aiq-keystone-details.html"
+  - title: Keystoneでサポートされるサービス
+    links:
+    - title: Keystoneのサービスレベル
+      url: "/concepts/service-levels.html"
+    - title: サービス品質（QoS）
+      url: "/concepts/qos.html"
+    - title: 測定単位を教えてください。
+      url: "/concepts/metrics.html"
+    - title: サポートされているベースストレージ
+      url: "/concepts/supported-storage-services.html"
+    - title: コストをオンプレミスからクラウドに再割り当てできますか。
+      url: "/concepts/capacity-requirements.html#capacity-adjustments"
+  - title: Keystoneの価格設定と課金
+    links:
+    - title: Keystoneの価格設定を確認する
+      url: "/concepts/pricing.html"
+    - title: 請求スケジュール
+      url: "/concepts/billing-schedules.html"
+    - title: コミット済み容量に基づく請求
+      url: "/concepts/committed-capacity-billing.html"
+    - title: 消費容量に基づく計測
+      url: "/concepts/consumed-capacity-billing.html"
+    - title: コミット済み容量を超えて消費された場合はどうなりますか？
+      url: "/concepts/burst-consumption-billing.html"
+  - title: Keystoneサービスでさらに多くのことを実現
+    links:
+    - title: サポートチームの理解（Keystone GSSC）
+      url: "/concepts/gssc.html"
+    - title: コールドデータや使用頻度の低いデータはどうすればよいですか？
+      url: "/concepts/data-tiering.html"
+    - title: Keystoneデータを保護するにはどうすればよいですか？
+      url: "/concepts/adp.html"
+    - title: KeystoneとBlueXP
+      url: "/integrations/keystone-cm.html"
+    - title: 米国市民サポート
+      url: "/concepts/uscs.html"
+  - title: 詳細情報
+    links:
+    - title: Keystoneサブスクリプションバージョン1（以前のKeystone Flexサブスクリプション）
+      url: https://docs.netapp.com/us-en/keystone/
+    - title: Active IQ Digital Advisor
+      url: https://docs.netapp.com/us-en/active-iq/index.html
+    - title: BlueXP
+      url: https://docs.netapp.com/us-en/cloud-manager-family/
+    - title: Active IQ Unified Manager
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/

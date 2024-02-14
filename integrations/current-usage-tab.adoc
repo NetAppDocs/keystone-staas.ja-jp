@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: integrations/current-usage-tab.html 
+keywords: keystone-aiq, digital advisor keystone, current usage tab 
+summary: 'AIQ DA Keystoneダッシュボードの[Current Usage]タブ' 
+---
+= [Current Usage]タブ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+[現在の使用状況]タブには、サブスクリプションの使用状況の詳細が表示されます。
+
+このタブを表示するには、左側のナビゲーションペインで*[全般]>[Keystoneサブスクリプション]>[現在の使用状況]*に移動し、必要なサブスクリプション番号を選択します。
+
+image:aiq-ks-dtls.png["[Current Usage]タブ"]
+
+選択したサブスクリプションの詳細（サブスクリプションの開始日と終了日など）、請求期間（月単位や年単位など）を表示できます。サブスクリプションの使用量には、サービスレベル名、コミット済み容量、消費容量、使用可能な容量、現在のバースト使用量と累積バースト使用量（TiB）が表示されます。
+
+
+TIP: 。 image:icon-info.png["情報アイコン"] 各列の横にあるアイコンには、その列に関する包括的な情報が表示されます。高消費量を記録した特定のサービスレベルが強調表示されます。ボリュームに対して生成された警告やアラートを確認することもできます。
+
+Keystoneストレージサービスと関連するサービスレベルについては、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+
+現在の使用状況と併せて、使用状況の履歴データを表示して比較することもできます。[View Historical Data]*ボタンをクリックして[Capacity Trend]*タブに移動し、同じサブスクリプションの履歴データを表示します。
+
+* 関連情報 *
+
+* link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
+* link:../integrations/subscriptions-tab.html["サブスクリプション"]
+* link:../integrations/sla-details-tab.html["SLAの詳細"]
+* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
+
