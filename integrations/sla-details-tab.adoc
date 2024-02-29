@@ -56,4 +56,5 @@ SLAに違反した場合、 image:warning.png["警告のアイコン"] 列の横
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]
+* link:../integrations/assets-tab.html["資産"]
 

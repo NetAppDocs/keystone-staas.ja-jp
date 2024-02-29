@@ -14,9 +14,11 @@ summary: LinuxシステムにKeystoneコレクタをインストールするた�
 
 
 [role="lead"]
-LinuxシステムにKeystone Collectorをインストールするために必要な設定はいくつかあります。
+必要なソフトウェアを使用してLinuxシステムを準備することで、Keystone Collectorによる正確なインストールとデータ収集が保証されます。
 
-.Linuxサーバの前提条件：
+LinuxおよびKeystone CollectorサーバVMがこれらの構成になっていることを確認します。
+
+.Linuxサーバ：
 * オペレーティングシステム：CentOS 7またはRed Hat Enterprise Linux 8.6以降
 * クロニド時間同期
 * 標準のLinuxソフトウェアリポジトリへのアクセス
@@ -30,7 +32,7 @@ LinuxシステムにKeystone Collectorをインストールするために必要
 * Python 3（3.6.8～3.9.13）
 
 
-.Keystone CollectorサーバVMの前提条件：
+.Keystone CollectorサーバのVM：
 * コア：CPU×2
 * RAM：4GBのRAM
 * ディスク容量：50GBのvDisk

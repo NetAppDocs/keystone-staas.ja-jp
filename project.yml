@@ -27,7 +27,7 @@ sidebar:
     entries:
     - title: Keystoneコレクタとは
       url: "/installation/installation-overview.html"
-    - title: Keystone Collectorをインストールするためのシステムの準備
+    - title: システムを準備
       entries:
       - title: VMware vSphere の要件
         url: "/installation/vapp-prereqs.html"
@@ -73,6 +73,8 @@ sidebar:
         url: "/integrations/volumes-objects-tab.html"
       - title: "[パフォーマンス]タブ"
         url: "/integrations/performance-tab.html"
+      - title: "[Assets]タブ"
+        url: "/integrations/assets-tab.html"
     - title: BlueXPからKeystoneサブスクリプションを管理
       url: "/integrations/keystone-cm.html"
   - title: Keystoneの詳細をご確認ください

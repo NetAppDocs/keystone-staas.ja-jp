@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: integrations/assets-tab.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
+summary: Keystoneサブスクリプションレポートとグラフ 
+---
+= [Assets]タブ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+[Assets]*タブを使用して、Keystoneサブスクリプションで管理されているクラスタとノードに関する情報を収集します。
+
+Active IQデジタルアドバイザ(デジタルアドバイザ)は、導入環境の包括的なインベントリレベルの情報を提供します。一方、Keystoneダッシュボードの*[Assets]*タブでは、サブスクリプションに基づいてクラスタレベルの情報が収集され、正確な情報が分離されて表示されます。
+
+.手順
+. [全般]>[Keystoneサブスクリプション]>[アセット]*をクリックします。
+. クラスタを表示するサブスクリプション番号を選択します。
+
+
+クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。
+
+image:assets-tab.png["[Assets]タブ"]
+
+* 関連情報 *
+
+* link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
+* link:../integrations/subscriptions-tab.html["サブスクリプション"]
+* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/sla-details-tab.html["SLAの詳細"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
+* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
+

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: NetApp Service Engine の既知の問題 
+summary: Keystone STaaSの既知の問題 
 ---
-= NetApp Service Engine の既知の問題
+= Keystone STaaSの既知の問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,9 @@ summary: NetApp Service Engine の既知の問題
 
 
 [role="lead"]
-NetApp Keystone STaaSで報告されている既知の問題は次のとおりです。これらの問題は、Keystoneサブスクリプションで管理されるストレージをプロビジョニングまたは使用するときに発生する可能性があります。
+既知の問題には、Keystoneサブスクリプションサービスの効果的な利用を妨げる可能性のある問題が記載されています。
+
+NetApp Keystone STaaSで報告されている既知の問題は次のとおりです。
 
 [cols="3*"]
 |===
@@ -22,19 +24,28 @@ NetApp Keystone STaaSで報告されている既知の問題は次のとおり�
 
 
  a| 
-ミラーボリュームのサービスレベルが正しくありません。
+[ボリューム]*タブで、AQoSに準拠していないボリュームの数が一致しないことがあります。
  a| 
-階層化とオブジェクトストレージの両方のレートプランが適用される環境でMetroClusterとFabricPoolの両方が有効になっている場合、ミラーボリューム（コンスティチュエントとFabricPoolボリュームの両方）のサービスレベルが正しくない可能性があります。
+1つのサービスレベルでAQoS準拠を満たすボリュームに2つのサービスレベルが割り当てられている場合、*[ボリュームの概要]*タブと*[ボリュームの詳細]*タブに表示されるAQoS非準拠ボリュームの数は異なる場合があります。
  a| 
 なし
 
 
 
  a| 
-[サブスクリプション（Subscriptions）]タブに部分的に表示されるリンクとアイコン。
+* AutoSupportサブスクリプションの場合、[アセット]タブには情報が表示されません。
  a| 
-[現在の使用状況]タブへのリンクや一部の列のツールチップなど、いくつかのリンクやアイコンが部分的に表示されます。
+サブスクリプション番号のKeystoneデータの収集にAutoSupportテレメトリが使用されている場合は、*[アセット]*タブで情報が取得されません。
  a| 
-回避策は必要ありません。リンクは期待どおりに機能します。
+なし
+
+
+
+ a| 
+ツールチップの外観が正しくありません。
+ a| 
+[Current Burst]*インデックスアイコンのツールチップが[Capacity Trend]*タブに正しく表示されません。
+ a| 
+正しいツールチップテキスト「_現在消費されているバースト容量」を参照してください。これは、選択した日付範囲ではなく、現在の請求期間に適用されることに注意してください。_"
 
 |===

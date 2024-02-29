@@ -14,10 +14,12 @@ summary: Keystoneサブスクリプションレポートとグラフ
 
 
 [role="lead"]
-Active IQデジタルアドバイザ（デジタルアドバイザとも呼ばれる）ダッシュボードでは、NetApp Keystoneサブスクリプションに関連する使用状況を監視し、レポートを生成できます。Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。
+Keystone STaaSサブスクリプションのActive IQデジタルアドバイザ（デジタルアドバイザ）ダッシュボードを使用して、容量の使用状況を監視し、レポートを生成します。
+
+Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。
 
 
-NOTE: ここで入手できる情報は、ONTAP とStorageGRID の両方を環境 に掲載しています。例外は関連するセクションで指摘されています。
+NOTE: ここに記載されている情報は、環境Both ONTAP and StorageGRIDです。例外は関連するセクションで指摘されています。
 
 [Keystone Digital Advisor]ウィジェットの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["NetApp Keystone サブスクリプションを使用して容量利用率を表示します"^]。
 

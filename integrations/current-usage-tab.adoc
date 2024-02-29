@@ -37,4 +37,5 @@ Keystoneストレージサービスと関連するサービスレベルについ
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]
+* link:../integrations/assets-tab.html["[Assets]タブ"]
 

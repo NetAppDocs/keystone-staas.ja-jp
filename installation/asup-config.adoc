@@ -14,9 +14,9 @@ summary: Keystone向けAutoSupportを設定するための手順
 
 
 [role="lead"]
-AutoSupportのテレメトリメカニズムを使用する場合、KeystoneサービスはAutoSupportのテレメトリデータに基づいて使用量を計測します。必要なレベルのきめ細かさを実現するには、ONTAPクラスタから送信される日 々 のサポートバンドルにKeystoneデータが組み込まれるようにAutoSupportを設定する必要があります。
+AutoSupportのテレメトリメカニズムを使用する場合、KeystoneはAutoSupportのテレメトリデータに基づいて使用量を計算します。必要なレベルのきめ細かさを実現するには、ONTAPクラスタから送信される日 々 のサポートバンドルにKeystoneデータが組み込まれるようにAutoSupportを設定する必要があります。
 
-.作業を開始する前に
+.このタスクについて
 Keystoneデータを含めるようにAutoSupportを設定する前に、次の点に注意してください。
 
 * AutoSupportテレメトリオプションを編集するには、ONTAP CLIを使用します。AutoSupportサービスおよびシステム（クラスタ）管理者ロールの管理については、を参照してください。 https://docs.netapp.com/us-en/ontap/system-admin/manage-autosupport-concept.html["Manage AutoSupport の概要"^] および https://docs.netapp.com/us-en/ontap/system-admin/cluster-svm-administrators-concept.html["クラスタ管理者と SVM 管理者"^]。
