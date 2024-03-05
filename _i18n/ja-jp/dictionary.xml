@@ -669,7 +669,6 @@
   <block id="a49bb8de1f373a2c0821dd3715e2473c" category="list-text">詳細を表示するサブスクリプションを選択します。デフォルトでは、アカウント名の最初のサブスクリプションが選択されています。</block>
   <block id="c3b2392317dad26eb62ae53f36697f5e" category="list-text">赤：バースト時の使用状況（合意済みのバースト制限に対するコミット済み容量の100%）</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="section-title">レポートを生成します</block>
-  <block id="03051fbd458dd7625e7969d74dd74735" category="paragraph">詳細はCSV形式で生成され、あとで使用できるように保存できます。</block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">アラートを表示します</block>
   <block id="c71fcee7f813aa85774b9114dfba4ef1" category="paragraph">ダッシュボードのアラートは警告メッセージを送信するため、ストレージ環境で発生している問題を把握することができます。</block>
   <block id="903961eaa166cc0c38b735276961eb0c" category="paragraph">アラートには次の2種類があります。</block>
@@ -1209,7 +1208,6 @@
   <block id="f25c1d8bbc68ac70ff3f49b577f83657" category="admonition">[現在の使用状況]タブのサブスクリプションの追跡IDの横にあるツールチップは、MetroClusterセットアップでパートナーサブスクリプションを識別するのに役立ちます。</block>
   <block id="e51f3e7f0941c06c83640e3bf3f8f64c" category="paragraph">次の図は、_Extreme_service level（基本サービスレベル）とプライマリサブスクリプション番号のグラフを示しています。同じ履歴データチャートには、プライマリサイトで使用されているのと同じカラーコードの明るい色合いでミラーサイトの使用状況も示されます。マウスにカーソルを合わせると、プライマリサイトとミラーサイトの消費量の内訳（TiB）がそれぞれ1.02TiBと1.05TiBで表示されます。</block>
   <block id="50dd3f9725af8367b4d116d8c903ab1f" category="inline-image-macro">[ボリュームとオブジェクト]タブ</block>
-  <block id="297093c3fae3db4cf400ebe50badab45" category="paragraph">各タブでダウンロードボタンをクリックすると、サブスクリプションの詳細、期間内の使用履歴データ、ボリュームの詳細に関するレポートを生成して表示できます。 <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ae133bb1aeacd8e8e2cacbda0dd91045" category="paragraph">グラフデータが変換される* Capacity Trend *タブのサンプルレポート：</block>
   <block id="cfa76bbfd0724f28399538bdb3182c2e" category="list-text">*警告*：非順守などの問題は警告として表示されます。たとえば、管理対象クラスタにアダプティブQoS（AQoS）ポリシーが適用されていないボリュームがある場合、警告メッセージが表示されます。警告メッセージのリンクをクリックすると、*[ボリューム]*タブに準拠していないボリュームのリストが表示されます。</block>
   <block id="a92886b7733793b3a223bd5644cc1363" category="list-text">*終了日*：サブスクリプションの終了日。毎月自動的に更新される月額課金制のサブスクリプションをお持ちの場合は、<block ref="3201d1330dc2228e5eaa1f9ecab30666" prefix=" " category="inline-code"></block> 終了日の代わりに。この日付に基づいて、終了間近のサブスクリプションや自動更新ポリシーが適用されているサブスクリプションの通知が表示される場合があります。</block>
@@ -1617,4 +1615,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">VMware vSphereへのKeystone Collectorのインストール</block>
   <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">LinuxへのKeystone Collectorのインストール</block>
   <block id="b4c8d461cf544f3b1324e87e550416e1" category="sidebar">システムを準備</block>
+  <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">Keystoneデータのレポートを生成して表示できます。Keystoneサブスクリプション*ページの各タブでは、ダウンロードボタンをクリックして、サブスクリプション、過去の使用量とバースト使用量、パフォーマンス、アセット、ボリュームとオブジェクトに関するレポートを生成できます。 <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">詳細はCSV形式で生成され、将来の使用や比較のために保存できます。</block>
 </blocks>

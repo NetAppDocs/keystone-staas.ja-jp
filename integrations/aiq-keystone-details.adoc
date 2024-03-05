@@ -44,15 +44,16 @@ NOTE: Keystoneサブスクリプションの容量消費量は、ダッシュボ
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]
+* link:../integrations/assets-tab.html["資産"]
 
 
 
 
 == レポートを生成します
 
-各タブでダウンロードボタンをクリックすると、サブスクリプションの詳細、期間内の使用履歴データ、ボリュームの詳細に関するレポートを生成して表示できます。 image:download-icon.png["レポートダウンロードアイコン"]
+Keystoneデータのレポートを生成して表示できます。Keystoneサブスクリプション*ページの各タブでは、ダウンロードボタンをクリックして、サブスクリプション、過去の使用量とバースト使用量、パフォーマンス、アセット、ボリュームとオブジェクトに関するレポートを生成できます。 image:download-icon.png["レポートダウンロードアイコン"]
 
-詳細はCSV形式で生成され、あとで使用できるように保存できます。
+詳細はCSV形式で生成され、将来の使用や比較のために保存できます。
 
 グラフデータが変換される* Capacity Trend *タブのサンプルレポート：
 
