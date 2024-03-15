@@ -1541,8 +1541,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">NetApp Keystone STaaSで報告されている既知の問題は次のとおりです。</block>
   <block id="b57ac208343300b485336a006b1b8d3a" category="paragraph">[ボリューム]*タブで、AQoSに準拠していないボリュームの数が一致しないことがあります。</block>
   <block id="e869f03abde9aeae1c0e990b9ab25b5d" category="paragraph">1つのサービスレベルでAQoS準拠を満たすボリュームに2つのサービスレベルが割り当てられている場合、*[ボリュームの概要]*タブと*[ボリュームの詳細]*タブに表示されるAQoS非準拠ボリュームの数は異なる場合があります。</block>
-  <block id="dff510fff5f3e0445103891eda4984fa" category="paragraph">* AutoSupportサブスクリプションの場合、[アセット]タブには情報が表示されません。</block>
-  <block id="7ae14e4cb0932c9b84aa8e8223343a96" category="paragraph">サブスクリプション番号のKeystoneデータの収集にAutoSupportテレメトリが使用されている場合は、*[アセット]*タブで情報が取得されません。</block>
   <block id="c3793f37646d7912d9f966e272bf6e19" category="paragraph">ツールチップの外観が正しくありません。</block>
   <block id="0fc4cafaef1f137e9c12e2f6d181561c" category="paragraph">[Current Burst]*インデックスアイコンのツールチップが[Capacity Trend]*タブに正しく表示されません。</block>
   <block id="1256b327f17e3f51e207a701dde2481e" category="paragraph">正しいツールチップテキスト「_現在消費されているバースト容量」を参照してください。これは、選択した日付範囲ではなく、現在の請求期間に適用されることに注意してください。_"</block>
@@ -1611,10 +1609,15 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[アセット]*をクリックします。</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">クラスタを表示するサブスクリプション番号を選択します。</block>
   <block id="1014f28a098809635129e3768d88c841" category="paragraph">クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。</block>
-  <block id="fa664bb18e5c689d25a1899359c9245e" category="paragraph"><block ref="fa664bb18e5c689d25a1899359c9245e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">VMware vSphereへのKeystone Collectorのインストール</block>
   <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">LinuxへのKeystone Collectorのインストール</block>
   <block id="b4c8d461cf544f3b1324e87e550416e1" category="sidebar">システムを準備</block>
   <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">Keystoneデータのレポートを生成して表示できます。Keystoneサブスクリプション*ページの各タブでは、ダウンロードボタンをクリックして、サブスクリプション、過去の使用量とバースト使用量、パフォーマンス、アセット、ボリュームとオブジェクトに関するレポートを生成できます。 <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">詳細はCSV形式で生成され、将来の使用や比較のために保存できます。</block>
+  <block id="27e4fdbd0cb158caedf682943810f5af" category="paragraph"><block ref="27e4fdbd0cb158caedf682943810f5af" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="16299daea8c4c1acc7d9eb66580654e7" category="paragraph">AutoSupportサブスクリプションの*[アセット]タブには情報がありません。</block>
+  <block id="4457d440870ad6d42bab9082d9bf9b61" category="paragraph">固定（ Fixed ）</block>
+  <block id="824332c973fd0c189c484864ad8005ab" category="paragraph">2024年3月14日</block>
+  <block id="bffa1ad2163e84c8afb350de90d9c62b" category="paragraph">AQoSに準拠していないボリュームやMetroClusterパートナーに関する情報は、AutoSupportサブスクリプションでは提供されません。</block>
+  <block id="a9984fe861efdaed7977f6ae7356a850" category="paragraph">Keystoneデータの収集にAutoSupportテレメトリを使用している場合、Keystoneデータが24時間存在しないと、*[Volume Summary]*タブと*[Current Usage]*タブに表示されるAQoSに準拠していないボリュームの数、およびMetroClusterパートナーに関する情報は使用できません。</block>
 </blocks>

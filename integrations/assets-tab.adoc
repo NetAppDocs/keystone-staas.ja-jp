@@ -25,7 +25,7 @@ Active IQデジタルアドバイザ(デジタルアドバイザ)は、導入環
 
 クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。
 
-image:assets-tab.png["[Assets]タブ"]
+image:assets-tab-2.png["[Assets]タブ"]
 
 * 関連情報 *
 
