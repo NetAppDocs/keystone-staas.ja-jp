@@ -217,19 +217,4 @@ https://support.netapp.com[]
  a| 
 ネットアップHQによる請求情報とAutoSupport の提供
 
-
-
- a| 
-http://mirror.centos.org[]
-http://mirrorlist.centos.org[]
- a| 
-Keystoneコレクタ用のOSの更新（OVA環境のみ）
-
-
-
- a| 
-https://repo.mysql.com[]
- a| 
-MySQLの依存関係をダウンロードして更新（Linux環境のみ）
-
 |===

@@ -40,7 +40,6 @@ NOTE: Keystoneサブスクリプションの容量消費量は、ダッシュボ
 
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
 * link:../integrations/current-usage-tab.html["現在の使用状況"]
-* link:../integrations/sla-details-tab.html["SLAの詳細"]
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]

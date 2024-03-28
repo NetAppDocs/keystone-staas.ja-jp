@@ -48,7 +48,6 @@ image:icon-grey.png["グレーのドットアイコン"]：サービスレベル
 
 * link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
 * link:../integrations/current-usage-tab.html["現在の使用状況"]
-* link:../integrations/sla-details-tab.html["SLAの詳細"]
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]

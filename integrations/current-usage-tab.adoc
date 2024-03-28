@@ -33,7 +33,6 @@ Keystoneストレージサービスと関連するサービスレベルについ
 
 * link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
-* link:../integrations/sla-details-tab.html["SLAの詳細"]
 * link:../integrations/capacity-trend-tab.html["容量のトレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/performance-tab.html["パフォーマンス"]
