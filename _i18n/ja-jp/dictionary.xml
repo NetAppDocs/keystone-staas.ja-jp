@@ -564,7 +564,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">必須</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">インターネット（後で指定するURL要件に従って）</block>
-  <block id="1de3382e8d585a7e028aaf322ae1a2e1" category="paragraph">HTTP 、 HTTPS</block>
   <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80、TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">必須（インターネット接続）</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystoneコレクタソフトウェア、OSの更新、指標のアップロード</block>
@@ -594,7 +593,6 @@
   <block id="9bb201387a3fc98daabac0d0184d67b2" category="paragraph">TCP 3306</block>
   <block id="1cdcb6b512bcad3d3f44e441ef4b8b27" category="paragraph">Keystoneコレクタのパフォーマンス指標の収集</block>
   <block id="9dcb5a3c0168fd793b27b3a0ad251e42" category="paragraph">カスタマーモニタリングシステム</block>
-  <block id="293c9ea246ff9985dc6f62a650f78986" category="paragraph">HTTP</block>
   <block id="763598941dbbbfc084a41d50118d7cf0" category="paragraph">TCP 777</block>
   <block id="6ef2c9b331690e63d11b8024f8e69408" category="paragraph">Keystoneコレクタの健常性レポート</block>
   <block id="4e38d92cc04c51157b68c55909b859b7" category="section-title">URLアクセス</block>
@@ -606,9 +604,6 @@
   <block id="fbf8359989576f0800cb2da4a25f4be1" category="summary">VMware vSphereシステムにKeystoneコレクタをインストールするための前提条件</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">仮想インフラの要件</block>
   <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.5以降</block>
-  <block id="a6074a8dda65f87c74db6e5b6a444683" category="list-text">コア：CPU×4</block>
-  <block id="f003ca1f65b35534eb0dad8c4f388f6a" category="list-text">RAM：12GB RAM</block>
-  <block id="12bd6e40a7bc94d413c13b8520e74365" category="list-text">ディスクスペース：200GBのvDisk</block>
   <block id="b0450b259fdefd76bfc3006ccd12c375" category="summary">VMwareシステムにKeystoneコレクタをインストールする</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">VMware vSphereシステムにKeystone Collectorを導入する</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphereシステムにKeystone Collectorを導入するには、OVAテンプレートをダウンロードし、* Deploy OVF Template *ウィザードを使用してテンプレートを導入し、証明書の整合性を確認し、VMの準備状況を確認します。</block>
@@ -907,9 +902,7 @@
   <block id="303598db14cdac7b8531356d3fa6ae67" category="doc">Keystone Collectorを手動でアップグレードする</block>
   <block id="eb5316849956503093c848cdd2e2189f" category="paragraph">Keystone Collectorの自動更新機能はデフォルトで有効になっており、新しいリリースごとにKeystone Collectorソフトウェアが自動的にアップグレードされます。ただし、この機能を無効にして、ソフトウェアを手動でアップグレードすることはできます。</block>
   <block id="c5bc18b9ae708308f165d213528edb66" category="list-text">メンテナンス画面で、* Update collectors now（コレクタを今すぐアップデート）*オプションを選択します。</block>
-  <block id="f8bc55f7c7f782e0fdeced65037abf84" category="paragraph">または、次のコマンドを実行してバージョンをアップグレードします。</block>
   <block id="b31f1ebf783dc22abf4699b042b9b3db" category="list-text">Keystone Collector管理TUIを再起動すると、ホーム画面の左上に最新バージョンが表示されます。</block>
-  <block id="bb05cc2f27b372eeefcaf8c9d31c4fba" category="paragraph">または、次のコマンドを実行して最新バージョンを表示します。</block>
   <block id="26ff0e396ade6fe360b35528d3afe577" category="paragraph">Keystone STaaSシステムのデータは、Keystone Collectorと関連する監視システムであるAIOps解決策 ツールを通じて流れます。</block>
   <block id="9e2f9cd4a9ee8b88a18988f62eb67dd7" category="paragraph">Keystone Collectorは、次のフロー図に示すように、ストレージコントローラへのREST API呼び出しを開始し、コントローラの使用状況の詳細を定期的に取得します。</block>
   <block id="144be97e21d1c48cc88d9c1079fd7242" category="list-text">Active IQ クラウドポータルが接続を受け入れ、ネットアップのコレクタへのトンネルを確立します。</block>
@@ -1555,4 +1548,11 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">ONTAPボリュームのパフォーマンス指標（*[パフォーマンス]*タブ）、</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">これらはすべて、サブスクリプションの選択した日付に基づいてデータが表示されます。</block>
   <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">既知の問題は特定されていません。</block>
+  <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">または、次のコマンドを実行してバージョンをアップグレードします。</block>
+  <block id="014327995266184e82832bad8c943216" category="paragraph">CentOSの場合：</block>
+  <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">Debianの場合:</block>
+  <block id="6c6acbd25509a9e20307e1496a9b9db2" category="paragraph">または、次のコマンドを実行して最新バージョンを表示します。</block>
+  <block id="0ed064e2cd201442fba4d1be4a8ee19c" category="list-text">コア：1 CPU</block>
+  <block id="2e82715d47e898df71b0f37522311a05" category="list-text">RAM：2GBのRAM</block>
+  <block id="54c62dd9045f6805a09d9d86b629862d" category="list-text">ディスク容量：20GB vDisk</block>
 </blocks>

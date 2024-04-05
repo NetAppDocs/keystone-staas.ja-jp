@@ -27,6 +27,9 @@ image:upgrade-1.png["TUI画面"]
 または、次のコマンドを実行してバージョンをアップグレードします。
 
 +
+CentOSの場合：
+
++
 [listing]
 ----
 sudo yum clean metadata && sudo yum install keystone-collector
@@ -34,13 +37,32 @@ sudo yum clean metadata && sudo yum install keystone-collector
 +
 image:upgrade-2.png["TUI画面"]
 
++
+Debianの場合:
+
++
+[listing]
+----
+sudo apt-get update && sudo apt-get upgrade keystone-collector
+----
 . Keystone Collector管理TUIを再起動すると、ホーム画面の左上に最新バージョンが表示されます。
 +
 または、次のコマンドを実行して最新バージョンを表示します。
 
 +
+CentOSの場合：
+
++
 [listing]
 ----
 rpm -q keystone-collector
+----
++
+Debianの場合:
+
++
+[listing]
+----
+dpkg -l | grep keystone-collector
 ----
 
