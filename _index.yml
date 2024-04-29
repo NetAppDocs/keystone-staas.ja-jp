@@ -56,8 +56,6 @@ indexpage:
       url: "/concepts/uscs.html"
   - title: 詳細情報
     links:
-    - title: Keystoneサブスクリプションバージョン1（以前のKeystone Flexサブスクリプション）
-      url: https://docs.netapp.com/us-en/keystone/
     - title: Active IQ Digital Advisor
       url: https://docs.netapp.com/us-en/active-iq/index.html
     - title: BlueXP

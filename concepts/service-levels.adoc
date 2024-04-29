@@ -23,7 +23,7 @@ Keystone STaaSは、事前定義されたパフォーマンスサービスレベ
 サービスレベルは、ストレージ環境、およびストレージと消費のニーズに基づいて選択します。基本サービスレベルはデフォルトで選択できます。アドオンサービスを選択した場合は、特定のサービスレベルも追加で選択できます。たとえば、Advanced Data Protectionアドオンサービスの場合、_Advanced Data-Protect_serviceレベルがサブスクリプションに割り当てられます。
 
 
-TIP: NetApp Keystone STaaSサービスレベル向けの詳細なサービス概要を提供 https://www.netapp.com/pdf.html?item=/media/77179-Keystone-STaaS-Service-Description-On-Prem.pdf["こちらをご覧ください"^]。
+TIP: NetApp Keystone STaaSサービスレベル向けの詳細なサービス概要を提供 https://www.netapp.com/services/keystone/terms-and-conditions/["こちらをご覧ください"^]。
 
 以降のセクションでは、サポートされるストレージタイプ、ファイルサービス、ブロックサービス、オブジェクトサービス、クラウドサービスの基本サービスレベルについて説明します。
 

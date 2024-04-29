@@ -99,6 +99,8 @@ sidebar:
         url: "/concepts/nrnvc.html"
       - title: KeystoneとEquinixを提供
         url: "/concepts/equinix.html"
+    - title: Keystoneサブスクリプションサービスバージョン1
+      url: "/subscription-services-v1.html"
   - title: サービスレベルの詳細
     entries:
     - title: Quality of Service の略
