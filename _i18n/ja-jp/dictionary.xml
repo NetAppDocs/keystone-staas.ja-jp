@@ -619,12 +619,8 @@
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">On_Step 7 Customize template_で、管理者ユーザーアカウントの初期ネットワークアドレスとパスワードを指定します。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">On _ Step 8 Ready to Complete_of the * Deploy OVF Template *（OVFテンプレートの導入*ウィザードの完了準備完了）ウィザードで設定を確認し、OVA導入のパラメータが正しく設定されていることを確認します。</block>
   <block id="d5599cb082a40129e25bed4de770048b" category="paragraph">テンプレートからVMを導入して電源をオンにしたら、VMへのSSHセッションを開き、一時的な管理クレデンシャルを使用してログインし、VMが設定可能な状態にあることを確認します。</block>
-  <block id="a2840fbbafc1435ffe70d4b579b45ac6" category="section-title">Initial System Configurationの略</block>
   <block id="a0416d96615fb872a7f19a13f6e245aa" category="admonition">導入が完了したら、Keystone Collector Management Terminal User Interface（TUI；ターミナルユーザインターフェイス）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。</block>
-  <block id="25f96d2dea5d65fdf3a40639ee4d2baf" category="list-text">必要に応じて、TUIの* Configuration &gt; Network *セクションでプロキシの詳細を設定します。</block>
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">システムのホスト名、場所、およびNTPサーバを、*Configuration &gt; System *セクションで設定します。</block>
-  <block id="b6b465ab63a0aae38b40c4f7c52e2ebe" category="list-text">[* Maintenance]&gt;[User *]セクションでadminパスワードを更新します。</block>
-  <block id="6d001a04aa3a4da5de64981a8c657ad6" category="list-text">「* Configuration &gt; Advanced *」セクションで、初期OVAの設定を「complete」にします。</block>
   <block id="84f5023b640dd27c1674e40684ab2961" category="summary">LinuxシステムでKeystoneコレクタを検証</block>
   <block id="35aa404988b4754613fc18c25cec1e7f" category="doc">ソフトウェア整合性の自動検証</block>
   <block id="cf28efdbdaf364aa104021336a5f5cf4" category="paragraph">Keystoneソフトウェアの整合性を検証するプロセスは、繰り返し実行されます。</block>
@@ -937,7 +933,6 @@
   <block id="305955a2ac717f15ce5b0f0a3abc280a" category="paragraph"><block ref="305955a2ac717f15ce5b0f0a3abc280a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a1e055c606dddb7ffa7ea4aa739f762" category="list-text">手順6_で、VMが使用するデスティネーションネットワークを選択します。</block>
   <block id="77c3a99746e93de71f55722d8f5802d8" category="paragraph">OVAを使用して導入されたKeystone Collectorサーバの初期設定を行うには、VMware vSphereシステムで次の手順を実行します。</block>
-  <block id="02b9a7808a83ccb6ba15cb4854eba098" category="list-text">KeystoneコレクタサーバへのSSHセッションを開きます。ログインすると、TUIが表示されます。または、を実行してTUIを手動で起動することもできます<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLIコマンド。</block>
   <block id="79e0703c840b981be16f9e1a40c5a0b4" category="inline-image-macro">コレクタアーキテクチャ</block>
   <block id="009d77d3b79ee4c7df16ef0658dd3bc3" category="paragraph"><block ref="009d77d3b79ee4c7df16ef0658dd3bc3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25c10b524de794226cf520c9a3dacc83" category="list-text">標準のLinuxソフトウェアリポジトリへのアクセス</block>
@@ -1090,10 +1085,7 @@
   <block id="bcc16de506d1dbb7779a3062decf2fa6" category="paragraph">これらのサブシステムは、デフォルトで週次AutoSupportバンドルに含まれています。<block ref="c2f7a910dac56891bdc98acd8bf80faa" prefix=" " category="inline-code"></block> is_dot-regular_、および<block ref="155fe96c8db8042fed76defa0f5b6d97" prefix=" " category="inline-code"></block> IS_HAグループ通知（WEEKLY_LOG）NOTICE_。ただし、Keystoneの使用状況データを取得してレポートするには、日次バンドルに追加する必要があります。</block>
   <block id="0615b5bfa7b669de144331b512440192" category="inline-link">SSHを使用したクラスタへのアクセス</block>
   <block id="75637cd8fe530b3ca0a91d01f7a154b3" category="list-text">システム管理者ユーザとして、SSHを使用してKeystone ONTAPクラスタにログインします。詳細については、を参照してください<block ref="72c78e462556b03d46e2f3029d4a0613" category="inline-link-rx"></block>。</block>
-  <block id="d4139f82ccaf32f8e108d4cd48dc0801" category="inline-link">system node AutoSupport manifest show</block>
-  <block id="fcd234d37052b608416125513e6350d6" category="paragraph">このコマンドの詳細については、を参照してください<block ref="ebf3b588f9456f5d9eb4379234927367" category="inline-link-rx"></block>。</block>
   <block id="b25e1baa640468dcaf7b5bcd975ace0a" category="list-text">次のコマンドを実行して、日次ログの内容を変更します。</block>
-  <block id="a7b3681fbca584aa4e58ecc74f068237" category="paragraph"><block ref="1835384cfbb7a783927d2d026c6446bc" prefix="" category="inline-code"></block></block>
   <block id="20c41bcd9366cdbd961d6554489ea863" category="inline-link">system node AutoSupport trigger modifyコマンドを実行します</block>
   <block id="5f6d98c1ed4256fab45f6c20e637744e" category="paragraph">このコマンドの詳細については、を参照してください<block ref="700e80291e0b2dbcd3452a610925a1ef" category="inline-link-rx"></block>。</block>
   <block id="766bf6a1b0285febc0d67565c929ccb2" category="paragraph">以降のセクションでは、サポートされるストレージタイプ、ファイルサービス、ブロックサービス、オブジェクトサービス、クラウドサービスの基本サービスレベルについて説明します。</block>
@@ -1173,7 +1165,6 @@
   <block id="087c9dc5266982ef54ba80f023cbd793" category="list-text">Enter キーを押します。[詳細設定]画面に戻ります。</block>
   <block id="03a891b6d33a248fa861083fe4247d1c" category="inline-image-macro">CAカスタマイズ用のTUI画面</block>
   <block id="8763d534a475bad985b63c246739efb2" category="paragraph"><block ref="8763d534a475bad985b63c246739efb2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="42b719750bcc67ec4565e4a291dd81b0" category="list-text">[Maintenance]&gt;[Update System]*オプションを使用してKeystone Collectorを更新します。選択したミラーの一部が使用できない可能性があり、数回再試行するとシステムの詳細が更新されます。</block>
   <block id="62da9737386f7b0511bd36a15644e898" category="paragraph">Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングできます。プライマリサイトで災害が発生した場合、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能は、2つのサイト間のMetroCluster構成を利用してデータ保護を実現します。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ利用できます。このアドオンサービスの一部として、<block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block> サービスレベルはサブスクリプションに割り当てられます。
 ONTAP MetroCluster の詳細については、を参照してください <block ref="80871b8782cc051e20935ca40e2a0650" category="inline-link-macro-rx"></block>。</block>
   <block id="0315debcd2143476e3ac1f5e6124081b" category="paragraph">Equinixを基盤とするKeystoneコロケーション（Co-Lo）サービスは、標準のKeystoneサービスから変更はありません。</block>
@@ -1417,8 +1408,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="694ddc221b1ba079b86890f70c44cb11" category="section-title">2024年2月13日の新機能と機能拡張</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">プライマリサブスクリプションにリンクされているサブスクリプションを表示する機能</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">一部のプライマリサブスクリプションは、リンクされたセカンダリサブスクリプションを持つことができます。その場合、プライマリサブスクリプション番号は引き続き*サブスクリプション番号*列に表示され、リンクされたサブスクリプション番号は*サブスクリプション*タブの新しい列*リンクされたサブスクリプション番号*に表示されます。[リンクされたサブスクリプション]列は、リンクされたサブスクリプションがある場合にのみ使用可能になり、それらについて通知する情報メッセージが表示されます。</block>
-  <block id="75c6f7540c7b06e4afb66c0e49e2b6eb" category="list-text">次のコマンドを実行し、既存のサブシステムに関する既存の設定を確認します。</block>
-  <block id="3ae087a778fc31353925828cff4f6c5e" category="paragraph"><block ref="8c5d13e75d7b6fef515d481823c7b360" prefix="" category="inline-code"></block></block>
   <block id="6986ced354a8932900d97fca40ed0a5b" category="summary">ボリューム-オブジェクト-タブ</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">[Volumes &amp; Objects]タブ</block>
   <block id="7f54c89739f450385c8dcecb323dd15f" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[オブジェクト]*をクリックします。</block>
@@ -1577,4 +1566,10 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="0c3292833800a62d7f718700dbce3a67" category="list-text">NRNVCに関連する追加コストは、サブスクリプションサービス全体（標準サービス、高度なデータ保護、データ階層化を含む）の月額料金に対する割合として課金されます。</block>
   <block id="e5a6cc7fd3fb0ce58296055c4fa99a5d" category="admonition">NetApp Keystone STaaSサービスレベル向けの詳細なサービス概要を提供<block ref="d71be405d81c1e2747195607ed9eca90" category="inline-link-rx"></block>。</block>
   <block id="087e52621b1299752b891e4115749950" category="sidebar">Keystoneサブスクリプションサービスバージョン1</block>
+  <block id="899a771b5dc110dfc5fafd791b598948" category="section-title">システムノシヨキセツテイ</block>
+  <block id="2cc31eb816941afbd27aaf7e157c893c" category="list-text">KeystoneコレクタサーバへのSSHセッションを開きます。接続すると、管理者パスワードの更新を求めるプロンプトが表示されます。必要に応じて、adminパスワードの更新を完了します。</block>
+  <block id="9b511d4b9fae2194e94ea56697f90270" category="list-text">新しいパスワードを使用してログインし、TUIにアクセスします。  ログインすると、TUIが表示されます。</block>
+  <block id="76a9fcc99866cc713d361014e5f04c71" category="paragraph">または、<block ref="a38cb024a2fa677a71e9a8148df3dbeb" prefix=" " category="inline-code"></block> CLIコマンド。</block>
+  <block id="c74d63e364ced8b98060b508c4df9160" category="list-text">必要に応じて、TUIの*[設定]&gt;[ネットワーク]セクション*でプロキシの詳細を設定します。</block>
+  <block id="3901dacdf71718d8755295861e5a2509" category="list-text">[Maintenance]&gt;[Update Collectors]*オプションを使用してKeystone Collectorを更新します。更新が完了したら、Keystone Collector管理TUIユーティリティを再起動して変更を適用します。</block>
 </blocks>

@@ -73,17 +73,19 @@ NOTE: 管理者パスワードは元に戻すことができる形式でvCenter�
 
 
 
-== Initial System Configurationの略
+== システムノシヨキセツテイ
 
 OVAを使用して導入されたKeystone Collectorサーバの初期設定を行うには、VMware vSphereシステムで次の手順を実行します。
 
 
 NOTE: 導入が完了したら、Keystone Collector Management Terminal User Interface（TUI；ターミナルユーザインターフェイス）ユーティリティを使用して設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。
 
-. KeystoneコレクタサーバへのSSHセッションを開きます。ログインすると、TUIが表示されます。または、を実行してTUIを手動で起動することもできます `keystone-collector-tui` CLIコマンド。
-. 必要に応じて、TUIの* Configuration > Network *セクションでプロキシの詳細を設定します。
-. [Maintenance]>[Update System]*オプションを使用してKeystone Collectorを更新します。選択したミラーの一部が使用できない可能性があり、数回再試行するとシステムの詳細が更新されます。
+. KeystoneコレクタサーバへのSSHセッションを開きます。接続すると、管理者パスワードの更新を求めるプロンプトが表示されます。必要に応じて、adminパスワードの更新を完了します。
+. 新しいパスワードを使用してログインし、TUIにアクセスします。  ログインすると、TUIが表示されます。
++
+または、 `keystone-collector-tui` CLIコマンド。
+
+. 必要に応じて、TUIの*[設定]>[ネットワーク]セクション*でプロキシの詳細を設定します。
 . システムのホスト名、場所、およびNTPサーバを、*Configuration > System *セクションで設定します。
-. [* Maintenance]>[User *]セクションでadminパスワードを更新します。
-. 「* Configuration > Advanced *」セクションで、初期OVAの設定を「complete」にします。
+. [Maintenance]>[Update Collectors]*オプションを使用してKeystone Collectorを更新します。更新が完了したら、Keystone Collector管理TUIユーティリティを再起動して変更を適用します。
 
