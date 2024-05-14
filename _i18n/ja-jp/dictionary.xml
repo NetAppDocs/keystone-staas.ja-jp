@@ -1307,7 +1307,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="c58866f1ef5f53d12f483be3139c8b21" category="paragraph">Active IQデジタルアドバイザの[Keystoneサブスクリプション]*画面のタブに返されるデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください <block ref="fd9d2abed6b27ddb199966f81ac84d0e" category="inline-link-macro-rx"></block>。</block>
   <block id="ba72cb24d1620c10dda9d29d238cd62f" category="summary">Keystone STaaSのリリースごとに解決された問題</block>
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="doc">解決済みの問題です</block>
-  <block id="3e6913b831218e5028d3a4532f801a65" category="cell">事象の説明</block>
   <block id="ad7fffc52967fac2195a87d71ddfefed" category="cell">修正後</block>
   <block id="daacdb57878cbe5d9fa64d7c020a2e9d" category="cell">リリースで修正</block>
   <block id="ab8fe64a75f26e766fbdddeb24ad2b52" category="paragraph">バースト消費レコードの使用状況インジケータがオレンジで表示されていました。</block>
@@ -1501,7 +1500,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="f9fb20285d9c1550cfd8af36cedeebff" category="list-text">[Capacity Trend]*タブでの消費量と累積バースト使用量のデータ</block>
   <block id="2edc64c57ca29e2f950fd753874bafbc" category="list-text">ONTAPボリュームのパフォーマンス指標（*[パフォーマンス]*タブ）、</block>
   <block id="7a7b2bda8aa958fd2f922e2acb85ca1e" category="paragraph">これらはすべて、サブスクリプションの選択した日付に基づいてデータが表示されます。</block>
-  <block id="f37be92ace88534a02480f8f04d48882" category="paragraph">既知の問題は特定されていません。</block>
   <block id="5f2b8b9897b51974b3e829ddd4511e8e" category="paragraph">または、次のコマンドを実行してバージョンをアップグレードします。</block>
   <block id="014327995266184e82832bad8c943216" category="paragraph">CentOSの場合：</block>
   <block id="21a26c88c032eccbe4aba03b7481511e" category="paragraph">Debianの場合:</block>
@@ -1568,4 +1566,11 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">ログの内容を変更します。</block>
   <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">日次ログの内容を変更するには、次のコマンドを実行します。</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">週次ログの内容を変更するには、次のコマンドを実行します。</block>
+  <block id="f7168a4acbbbaa603715b2a0aeb4cea5" category="paragraph">NetApp Keystone STaaSで報告されている既知の問題は次のとおりです。</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">Known 問題の略</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">回避策</block>
+  <block id="05890055e47d7356b21b212f915e3d3b" category="paragraph">CSVレポートにKeystoneデータが正しく表示されません。</block>
+  <block id="cf57a91fb76a6fe323d7bc94294753a2" category="paragraph">CSVレポートの*[Capacity Trend]*タブから生成された*[Account Name]*列にコンマ付きのアカウント名が含まれている場合<block ref="e1266d71c305ae3767d9d953acaf0aae" prefix=" " category="inline-code"></block>KeystoneデータがCSVレポートに正しく配置されていないように見える。</block>
+  <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">事象の説明</block>
 </blocks>

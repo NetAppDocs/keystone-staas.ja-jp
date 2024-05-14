@@ -16,4 +16,18 @@ summary: Keystone STaaSの既知の問題
 [role="lead"]
 既知の問題には、Keystoneサブスクリプションサービスの効果的な利用を妨げる可能性のある問題が記載されています。
 
-既知の問題は特定されていません。
+NetApp Keystone STaaSで報告されている既知の問題は次のとおりです。
+
+[cols="3*"]
+|===
+| Known 問題の略 | 説明 | 回避策 
+
+
+ a| 
+CSVレポートにKeystoneデータが正しく表示されません。
+ a| 
+CSVレポートの*[Capacity Trend]*タブから生成された*[Account Name]*列にコンマ付きのアカウント名が含まれている場合 `(,)`KeystoneデータがCSVレポートに正しく配置されていないように見える。
+ a| 
+なし
+
+|===
