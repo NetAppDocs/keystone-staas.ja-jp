@@ -17,10 +17,10 @@ sidebar:
       url: "/release-notes/whats-new.html"
     - title: 解決済みの問題です
       url: "/release-notes/fixed-issues.html"
-    - title: 既知の制限
-      url: "/release-notes/known-limitations.html"
     - title: 既知の問題
       url: "/release-notes/known-issues.html"
+    - title: 既知の制限
+      url: "/release-notes/known-limitations.html"
   - title: Keystoneへようこそ
     url: "/concepts/overview.html"
   - title: Keystoneをセットアップおよび設定する
@@ -51,62 +51,58 @@ sidebar:
       url: "/installation/upgrade.html"
     - title: Keystone向けのAutoSupportの設定
       url: "/installation/asup-config.html"
+    - title: Keystone Collectorのセキュリティ
+      url: "/installation/security.html"
     - title: 課金のために収集されたデータ
       url: "/installation/data-collection.html"
-  - title: Keystoneダッシュボードを表示してサブスクリプションを管理
+  - title: Keystoneダッシュボード
     entries:
-    - title: Active IQデジタルアドバイザのKeystoneダッシュボードを見る
-      entries:
-      - title: KeystoneとDigital Advisorのダッシュボード
-        url: "/integrations/keystone-aiq.html"
-      - title: 消費の詳細を表示してレポートを生成
-        url: "/integrations/aiq-keystone-details.html"
-      - title: "[サブスクリプション]タブ"
-        url: "/integrations/subscriptions-tab.html"
-      - title: "[Current Usage]タブ"
-        url: "/integrations/current-usage-tab.html"
-      - title: "[Capacity Trend]タブ"
-        url: "/integrations/capacity-trend-tab.html"
-      - title: "[Volumes & Objects]タブ"
-        url: "/integrations/volumes-objects-tab.html"
-      - title: "[パフォーマンス]タブ"
-        url: "/integrations/performance-tab.html"
-      - title: "[Assets]タブ"
-        url: "/integrations/assets-tab.html"
+    - title: Keystoneダッシュボードを見る
+      url: "/integrations/keystone-aiq.html"
+    - title: 使用状況の詳細を表示してレポートを生成
+      url: "/integrations/aiq-keystone-details.html"
+    - title: "[サブスクリプション]タブ"
+      url: "/integrations/subscriptions-tab.html"
+    - title: "[Current Usage]タブ"
+      url: "/integrations/current-usage-tab.html"
+    - title: "[Capacity Trend]タブ"
+      url: "/integrations/capacity-trend-tab.html"
+    - title: "[Volumes & Objects]タブ"
+      url: "/integrations/volumes-objects-tab.html"
+    - title: "[パフォーマンス]タブ"
+      url: "/integrations/performance-tab.html"
+    - title: "[Assets]タブ"
+      url: "/integrations/assets-tab.html"
     - title: BlueXPからKeystoneサブスクリプションを管理
       url: "/integrations/keystone-cm.html"
-  - title: Keystoneの詳細をご確認ください
+  - title: Keystone STaaSサービス
     entries:
-    - title: サポートされるストレージ容量
-      url: "/concepts/supported-storage-capacity.html"
     - title: 指標と定義
       url: "/concepts/metrics.html"
-    - title: Keystoneでサポートされるストレージ
-      url: "/concepts/supported-storage-services.html"
-    - title: Keystoneのサービスレベル
-      url: "/concepts/service-levels.html"
-    - title: アドオンサービス
-      entries:
-      - title: Keystone STaaSのアドオンサービス
-        url: "/concepts/add-on.html"
-      - title: データの階層化
-        url: "/concepts/data-tiering.html"
-      - title: 高度なデータ保護
-        url: "/concepts/adp.html"
-      - title: 米国市民サポート（USCS）
-        url: "/concepts/uscs.html"
-      - title: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
-        url: "/concepts/nrnvc.html"
-      - title: KeystoneとEquinixを提供
-        url: "/concepts/equinix.html"
-    - title: Keystoneサブスクリプションサービスバージョン1
-      url: "/subscription-services-v1.html"
-  - title: サービスレベルの詳細
-    entries:
     - title: Quality of Service の略
       url: "/concepts/qos.html"
-    - title: サービスレベルの容量要件
+    - title: サポートされるストレージ
+      url: "/concepts/supported-storage-services.html"
+    - title: サポートされる容量
+      url: "/concepts/supported-storage-capacity.html"
+    - title: サービスレベル
+      url: "/concepts/service-levels.html"
+    - title: サービスレベルデサポートサレルヨウリョウ
       url: "/concepts/capacity-requirements.html"
+    - title: Keystoneサブスクリプションサービスバージョン1
+      url: "/subscription-services-v1.html"
+    - title: アドオンサービス
+      entries:
+      - title: 高度なデータ保護
+        url: "/concepts/adp.html"
+      - title: データの階層化
+        url: "/concepts/data-tiering.html"
+      - title: Equinixを基盤とするサービス
+        url: "/concepts/equinix.html"
+      - title: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
+        url: "/concepts/nrnvc.html"
+      - title: 米国市民サポート（USCS）
+        url: "/concepts/uscs.html"
   - title: 課金
     entries:
     - title: Keystoneの価格設定

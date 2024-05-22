@@ -16,7 +16,7 @@ summary: KeystoneとDigital Advisor
 [role="lead"]
 NetApp Keystone STaaSサービスにサブスクライブしている場合は、Active IQデジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットでサブスクリプションの概要を確認できます。
 
-Keystoneサブスクリプションを検索するには、お客様名または監視リスト名の最初の3文字、またはKeystoneサブスクリプション番号を入力します。Keystone STaaSサブスクリプションを監視リストで検索する方法については、を参照してください。 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Keystone監視リストを使用して検索"]。
+Keystoneサブスクリプションを検索するには、お客様名または監視リスト名の最初の3文字、またはKeystoneサブスクリプション番号を入力します。Keystone STaaSサブスクリプションを監視リストで検索する方法については、を参照してください。 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone監視リストを使用して検索"]。
 
 Digital Advisorは、*[Switch to old/new dashboard]*ボタンを使用して、サブスクリプションデータと使用状況に関するさまざまなレベルのインサイトを提供する統合ダッシュボードを提供します。
 
