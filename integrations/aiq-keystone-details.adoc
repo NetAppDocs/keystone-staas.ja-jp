@@ -67,7 +67,7 @@ image:report_1.png["レポートのCSV"]
 
 NOTE: 単一のサービスレベルプランまたはレートプランにサブスクライブしている場合、非準拠ボリュームのアラートは表示されません。
 
-image:alert-aiq-1.png["アラート"]
+image:alert-aiq-2.png["アラート"]
 
 AQoSポリシーの詳細については、を参照してください link:../concepts/qos.html["アダプティブ QoS"]。
 
