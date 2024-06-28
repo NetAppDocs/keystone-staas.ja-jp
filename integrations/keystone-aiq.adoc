@@ -4,7 +4,7 @@ permalink: integrations/keystone-aiq.html
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
 summary: KeystoneとDigital Advisor 
 ---
-= Active IQデジタルアドバイザのKeystoneダッシュボードを見る
+= Digital AdvisorでKeystoneダッシュボードを見る
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -58,7 +58,7 @@ Keystoneのダッシュボードとレポートの詳細については、を参
 
 == Keystone監視リストで検索
 
-監視リストは、Active IQデジタルアドバイザ（デジタルアドバイザ）の機能です。詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["監視リストがわかります"^]。監視リストの作成については、を参照してください。 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["監視リストを作成します"^]。
+監視リストはDigital Advisorの機能です。詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["監視リストがわかります"^]。監視リストの作成については、を参照してください。 https://docs.netapp.com/us-en/active-iq/task_add_watchlist.html["監視リストを作成します"^]。
 
 Keystone STaaSの場合は、お客様向けの監視リストやサブスクリプション番号を作成できます。Digital Advisor画面で監視リスト名で検索できます。監視リストで検索すると、* Keystoneサブスクリプション*ウィジェットの*サブスクリプション*ドロップダウンリストにお客様とそのサブスクリプションを表示できます。
 

@@ -21,40 +21,52 @@ sidebar:
       url: "/release-notes/known-issues.html"
     - title: 既知の制限
       url: "/release-notes/known-limitations.html"
-  - title: Keystoneへようこそ
-    url: "/concepts/overview.html"
+  - title: Keystoneの詳細をご確認ください
+    entries:
+    - title: 概要
+      url: "/concepts/overview.html"
+    - title: Keystoneインフラ
+      url: "/concepts/infra.html"
+    - title: コンポーネント
+      url: "/concepts/components.html"
+    - title: データフロー
+      url: "/concepts/data-flow.html"
+    - title: 運用モデル
+      url: "/concepts/operational-models.html"
+    - title: Keystoneコレクタ
+      url: "/installation/installation-overview.html"
   - title: Keystoneをセットアップおよび設定する
     entries:
-    - title: Keystoneコレクタとは
-      url: "/installation/installation-overview.html"
-    - title: システムを準備
+    - title: 要件
       entries:
-      - title: VMware vSphere の要件
+      - title: VMware vSphere の場合
         url: "/installation/vapp-prereqs.html"
-      - title: Linuxの要件
+      - title: Linux の場合
         url: "/installation/linux-prereqs.html"
-      - title: ONTAPトStorageGRIDノヨウケン
+      - title: ONTAPとStorageGRID
         url: "/installation/addl-req.html"
     - title: Keystone Collectorをインストールします
       entries:
-      - title: VMware vSphereの導入
+      - title: VMware vSphereに導入
         url: "/installation/vapp-installation.html"
-      - title: Linuxのインストール
+      - title: Linuxへのインストール
         url: "/installation/linux-installation.html"
-      - title: 自動整合性検証
+      - title: 整合性を検証
         url: "/installation/validation.html"
     - title: Keystoneコレクタを設定する
       url: "/installation/configuration.html"
-    - title: システムヘルスを監視する
-      url: "/installation/monitor-health.html"
-    - title: Keystone Collectorをアップグレードします
-      url: "/installation/upgrade.html"
-    - title: Keystone向けのAutoSupportの設定
+    - title: AutoSupport を設定します
       url: "/installation/asup-config.html"
     - title: Keystone Collectorのセキュリティ
       url: "/installation/security.html"
     - title: 課金のために収集されたデータ
       url: "/installation/data-collection.html"
+  - title: 監視とアップグレード
+    entries:
+    - title: システムヘルスを監視する
+      url: "/installation/monitor-health.html"
+    - title: Keystone Collectorをアップグレードします
+      url: "/installation/upgrade.html"
   - title: Keystoneダッシュボード
     entries:
     - title: Keystoneダッシュボードを見る
@@ -117,16 +129,6 @@ sidebar:
       url: "/concepts/misc-volume-billing.html"
     - title: 請求スケジュール
       url: "/concepts/billing-schedules.html"
-  - title: パートナー様とお客様が運用する環境
-    url: "/concepts/operational-models.html"
-  - title: Keystoneインフラ
-    entries:
-    - title: インフラの詳細
-      url: "/concepts/infra.html"
-    - title: コンポーネント
-      url: "/concepts/components.html"
-    - title: データフロー
-      url: "/concepts/data-flow.html"
   - title: ネットアップグローバルサービスサポートセンター
     url: "/concepts/gssc.html"
   - title: 法的通知

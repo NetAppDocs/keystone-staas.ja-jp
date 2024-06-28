@@ -31,7 +31,7 @@ Keystoneデータを含めるようにAutoSupportを設定する前に、次の�
 +
 [source]
 ----
-autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,nfs,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,platform,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
 ----
 ** 週次ログの内容を変更するには、次のコマンドを実行します。
 +
