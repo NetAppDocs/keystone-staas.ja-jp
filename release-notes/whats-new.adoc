@@ -20,6 +20,22 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 
 
+== 2024/07/10
+
+
+
+=== ラベルの変更
+
+ラベル* Current Usage *が* Current Consumption *に変更され、* Capacity Trend *が* Consumption Trend *に変更されます。
+
+
+
+=== サブスクリプションの検索バー
+
+[Keystone Subscriptions]画面のすべてのタブにある*[Subscriptions]*ドロップダウンに検索バーが表示されるようになりました。[サブスクリプション]*ドロップダウンにリストされている特定のサブスクリプションを検索できます。
+
+
+
 == 2024年6月27日
 
 
@@ -174,7 +190,7 @@ Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプ�
 
 === Accrued Burstに対して請求されたデータが返されました
 
-[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/aiq-keystone-details.html#view-invoiced-accrued-burst["請求済みバースト容量の表示"^]。
+[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["請求済みバースト容量の表示"^]。
 
 
 
@@ -190,7 +206,7 @@ _zero_committed容量のレートプランがあるサブスクリプション�
 
 === 監視リストでの検索機能
 
-Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください。 link:../integrations/keystone-aiq.html#search-by-using-keystone-watchlists["Keystone監視リストを使用して検索"^]。
+Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone監視リストで検索"^]。
 
 
 

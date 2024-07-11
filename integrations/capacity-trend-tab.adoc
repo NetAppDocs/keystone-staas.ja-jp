@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
-keywords: keystone-aiq, digital advisor keystone, capacity trend tab, historical usage, accrued burst, accrued, consumption 
-summary: 'Keystoneサブスクリプションダッシュボードの[Capacity trend]タブ' 
+keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
+summary: 'Keystoneサブスクリプションダッシュボードの[Consumption trend]タブ' 
 ---
-= [Capacity Trend]タブ
+= [Consumption Trend]タブ
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,21 +14,21 @@ summary: 'Keystoneサブスクリプションダッシュボードの[Capacity t
 
 
 [role="lead"]
-[容量のトレンド]*タブには、特定の期間のKeystoneサブスクリプションの履歴データが表示されます。
+[Consumption Trend]*タブには、特定の期間のKeystoneサブスクリプションの履歴データが表示されます。
 
 縦のグラフには、選択した期間の使用状況の詳細と、レポートを比較して生成するための適切なインジケータが表示されます。
 
 .手順
-. [General]>[Keystoneサブスクリプション]>[Capacity Trend]*をクリックします。
+. [General]>[Keystoneサブスクリプション]>[Consumption Trend]*をクリックします。
 . 詳細を表示するサブスクリプションを選択します。デフォルトでは、アカウント名の最初のサブスクリプションが選択されています。
-. 履歴データを表示して容量の使用状況のトレンドを分析する場合は、*[容量のトレンド]*を選択します。請求書が生成されたバースト使用量の履歴データを表示する場合は、* Invoiced Accrued Burst *を選択します。このデータを使用して、請求書に従って請求された使用量を分析できます。
+. 履歴データを表示して容量使用状況のトレンドを分析する場合は、*消費トレンド*を選択します。請求書が生成されたバースト使用量の履歴データを表示する場合は、* Invoiced Accrued Burst *を選択します。このデータを使用して、請求書に従って請求された使用量を分析できます。
 
 
 
 
-== 容量のトレンドを表示
+== 消費トレンドの表示
 
-[Capacity Trend]*オプションを選択した場合は、次の手順を実行します。
+*消費トレンド*オプションを選択した場合は、次の手順を実行します。
 
 .手順
 . [開始日*（From Date）]および[終了日*（* To Date）]フィールドのカレンダーアイコンから時間範囲を選択します。クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。将来の日付は選択できません。
@@ -97,7 +97,7 @@ NOTE: 空のグラフは、そのデータ収集ポイントで使用可能な�
 
 TIP: 課金される累積バースト使用量は、サービスレベルのコミット済み容量と消費容量に基づいて、課金期間ごとに計算されます。
 
-image:accr-burst.png["[Accrued burst usage]グラフ"]
+image:accr-burst-1.png["[Accrued burst usage]グラフ"]
 
 この機能は、プレビューのみのモードで使用できます。この機能の詳細については、KSMにお問い合わせください。
 
@@ -105,7 +105,7 @@ image:accr-burst.png["[Accrued burst usage]グラフ"]
 
 == 高度なデータ保護のリファレンスチャート
 
-高度なデータ保護アドオンサービスにサブスクライブしている場合は、*[容量のトレンド]*タブでMetroClusterパートナーサイトの消費データの内訳を確認できます。
+高度なデータ保護アドオンサービスに登録している場合は、*消費トレンド*タブでMetroClusterパートナーサイトの消費データの内訳を確認できます。
 
 高度なデータ保護アドオンサービスの詳細については、を参照してください link:../concepts/adp.html["高度なデータ保護"]。
 
@@ -115,31 +115,31 @@ ONTAPストレージ環境内のクラスタがMetroClusterセットアップで
 NOTE: 消費棒グラフは、基本サービスレベルについてのみ分割されます。高度なデータ保護アドオンサービス（_Advanced Data-Protect_Serviceレベル）の場合、この境界は表示されません。
 
 .高度なデータ保護サービスレベル
-_Advanced Data - Protect _サービスレベルの場合、総消費量がパートナーサイト間で分割され、各パートナーサイトでの使用量が別のサブスクリプション（プライマリサイト用とミラーサイト用）に反映されて課金されます。そのため、* Capacity Trend *タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費グラフにプライマリサイトのみの個別の消費の詳細が表示されます。MetroCluster構成の各パートナーサイトはソースとミラーの両方として機能するため、各サイトでの合計消費量には、そのサイトに作成されたソースボリュームとミラーボリュームが含まれます。
+_Advanced Data - Protect _サービスレベルの場合、総消費量がパートナーサイト間で分割され、各パートナーサイトでの使用量が別のサブスクリプション（プライマリサイト用とミラーサイト用）に反映されて課金されます。そのため、*消費トレンド*タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費グラフにプライマリサイトのみの個別の消費の詳細が表示されます。MetroCluster構成の各パートナーサイトはソースとミラーの両方として機能するため、各サイトでの合計消費量には、そのサイトに作成されたソースボリュームとミラーボリュームが含まれます。
 
 
-TIP: [現在の使用状況]タブのサブスクリプションの追跡IDの横にあるツールチップは、MetroClusterセットアップでパートナーサブスクリプションを識別するのに役立ちます。
+TIP: [* Current Consumption]タブでサブスクリプションの追跡IDの横にあるツールチップを使用すると、MetroClusterセットアップでパートナーサブスクリプションを特定できます。
 
 .基本サービスレベル
 基本のサービスレベルの場合、各ボリュームはプライマリサイトとミラーサイトでプロビジョニング済みとして課金されるため、プライマリサイトとミラーサイトでの使用量に応じて同じ棒グラフが分割されます。
 
 .プライマリサブスクリプションで表示される内容
-次の図は、_Extreme_service level（基本サービスレベル）とプライマリサブスクリプション番号のグラフを示しています。同じ履歴データチャートには、プライマリサイトで使用されているのと同じカラーコードの明るい色合いでミラーサイトの使用状況も示されます。マウスにカーソルを合わせると、プライマリサイトとミラーサイトの消費量の内訳（TiB）がそれぞれ1.02TiBと1.05TiBで表示されます。
+次の図は、_Extreme_service level（基本サービスレベル）とプライマリサブスクリプション番号のグラフを示しています。同じ履歴データチャートには、プライマリサイトで使用されているのと同じカラーコードの明るい色合いでミラーサイトの使用状況も示されます。マウスにカーソルを合わせると、プライマリサイトとミラーサイトの消費量の内訳（TiB）がそれぞれ22.24TiBと14.86TiBで表示されます。
 
-image:mcc-chart.png["MCCプライマリ"]
+image:mcc-chart-1.png["MCCプライマリ"]
 
 Advanced Data - Protect_serviceレベルの場合、グラフは次のように表示されます。
 
-image:adp-src.png["MCCプライマリベース"]
+image:adp-src-1.png["MCCプライマリベース"]
 
 .セカンダリ（ミラーサイト）サブスクリプションで表示される情報
-セカンダリサブスクリプションを確認すると、パートナーサイトと同じデータ収集ポイントの_Extreme_service level（基本のサービスレベル）の棒グラフが反転し、プライマリサイトとミラーサイトでの消費量の内訳がそれぞれ1.05TiBと1.02TiBであることがわかります。
+セカンダリサブスクリプションを確認すると、パートナーサイトと同じデータ収集ポイントの_Extreme_service level（基本のサービスレベル）の棒グラフが反転し、プライマリサイトとミラーサイトでの消費量の内訳がそれぞれ14.86TiBと22.24TiBであることがわかります。
 
-image:mcc-chart-mirror.png["MCCミラー"]
+image:mcc-chart-mirror-1.png["MCCミラー"]
 
 _Advanced Data - Protect_serviceレベルの場合、パートナーサイトと同じ収集ポイントのグラフは次のように表示されます。
 
-image:adp-mir.png["MCCミラーベース"]
+image:adp-mir-1.png["MCCミラーベース"]
 
 MetroCluster によるデータの保護方法については、を参照してください https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["MetroCluster のデータ保護とディザスタリカバリについて理解する"^]。
 
@@ -147,8 +147,8 @@ MetroCluster によるデータの保護方法については、を参照して�
 
 * link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
-* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/current-usage-tab.html["消費電流"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
-* link:../integrations/performance-tab.html["パフォーマンス"]
 * link:../integrations/assets-tab.html["資産"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
 

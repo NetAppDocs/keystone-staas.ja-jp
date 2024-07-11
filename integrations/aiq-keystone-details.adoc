@@ -34,16 +34,16 @@ Keystoneサブスクリプションと使用量の詳細を表示するには、
 
 NOTE: Keystoneサブスクリプションの容量消費量は、ダッシュボードとレポートにTiB単位で表示され、小数点以下2桁に四捨五入されます。使用量が0.01 TiB未満の場合、値は0またはと表示されます `No Usage`。これらの画面のデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。
 
-利用率指標の詳細については、を参照してください。 link:../concepts/metrics.html#metrics-measurement["メトリック測定"]。Keystoneで使用されるさまざまな容量については、を参照してください link:../concepts/supported-storage-capacity.html["サポートされているストレージ容量"]。
+使用率指標の詳細については、を参照してください link:../concepts/metrics.html#metrics-measurement["メトリック測定"]。Keystoneで使用されるさまざまな容量については、を参照してください link:../concepts/supported-storage-capacity.html["サポートされているストレージ容量"]。
 
 各タブの詳細については、次のリンクを参照してください。
 
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
-* link:../integrations/current-usage-tab.html["現在の使用状況"]
-* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/current-usage-tab.html["消費電流"]
+* link:../integrations/capacity-trend-tab.html["消費トレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
-* link:../integrations/performance-tab.html["パフォーマンス"]
 * link:../integrations/assets-tab.html["資産"]
+* link:../integrations/performance-tab.html["パフォーマンス"]
 
 
 
@@ -54,7 +54,7 @@ Keystoneデータのレポートを生成して表示できます。Keystoneサ�
 
 詳細はCSV形式で生成され、将来の使用や比較のために保存できます。
 
-グラフデータが変換される* Capacity Trend *タブのサンプルレポート：
+グラフデータが変換される*消費トレンド*タブのサンプルレポート：
 
 image:report_1.png["レポートのCSV"]
 
@@ -67,7 +67,7 @@ image:report_1.png["レポートのCSV"]
 
 NOTE: 単一のサービスレベルプランまたはレートプランにサブスクライブしている場合、非準拠ボリュームのアラートは表示されません。
 
-image:alert-aiq-2.png["アラート"]
+image:alert-aiq-3.png["アラート"]
 
 AQoSポリシーの詳細については、を参照してください link:../concepts/qos.html["アダプティブ QoS"]。
 

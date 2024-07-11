@@ -21,18 +21,19 @@ Digital Advisorは、導入環境に関する包括的なインベントリレ�
 .手順
 . [全般]>[Keystoneサブスクリプション]>[アセット]*をクリックします。
 . クラスタを表示するサブスクリプション番号を選択します。
-
-
++
 クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。
 
-image:assets-tab-2.png["[Assets]タブ"]
+
+
+image:assets-tab-3.png["[Assets]タブ"]
 
 * 関連情報 *
 
 * link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
-* link:../integrations/current-usage-tab.html["現在の使用状況"]
+* link:../integrations/current-usage-tab.html["消費電流"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
-* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/capacity-trend-tab.html["消費トレンド"]
 * link:../integrations/performance-tab.html["パフォーマンス"]
 

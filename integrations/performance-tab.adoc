@@ -80,8 +80,8 @@ image:perf-log-usd.png["使用済み論理容量のグラフ"]
 
 * link:../integrations/aiq-keystone-details.html["Keystoneのダッシュボードとレポート機能を使用"]
 * link:../integrations/subscriptions-tab.html["サブスクリプション"]
-* link:../integrations/current-usage-tab.html["現在の使用状況"]
-* link:../integrations/capacity-trend-tab.html["容量のトレンド"]
+* link:../integrations/current-usage-tab.html["消費電流"]
+* link:../integrations/capacity-trend-tab.html["消費トレンド"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクト"]
 * link:../integrations/assets-tab.html["資産"]
 
