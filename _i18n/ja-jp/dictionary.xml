@@ -1452,7 +1452,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="555fdd5c5952939fd3a2e87f3c0202cc" category="section-title">[Volume Details]タブからオブジェクトストレージの詳細にアクセス</block>
   <block id="29117909372d41a783c58a54504dc882" category="paragraph">[ボリュームとオブジェクト]タブの*[ボリュームの詳細]*タブに、オブジェクトストレージの詳細と、ファイルとオブジェクトの両方のサービスレベルを含むサブスクリプションのボリューム情報が表示されるようになりました。[ボリュームの詳細]*タブで*[オブジェクトストレージの詳細]*ボタンをクリックすると、詳細を確認できます。</block>
   <block id="d1460394a13760c5650d62f6d4fd88e4" category="list-text">* QoS警告*：AQoSポリシーが割り当てられていないボリュームがあります。</block>
-  <block id="85348b428bc0994aa230ffb67e5ed22d" category="paragraph"><block ref="85348b428bc0994aa230ffb67e5ed22d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3b1babefaddbc8aaa22a17b8869a426" category="list-text">[Keystoneサブスクリプション]*ウィジェットで*[すべてのサブスクリプションを表示]*をクリックし、*[Keystoneサブスクリプション]*ページにボリュームに関する使用状況の詳細とアラートを表示します。または、左側のナビゲーションペインで*[全般]&gt;[Keystoneサブスクリプション]*に移動します。
 サブスクリプションの詳細、各サービスレベルの使用状況グラフ、ボリュームの詳細が、* Keystoneサブスクリプション*画面の別 々 のタブに表示されます。</block>
   <block id="13e7adb1be14d277e7a4fb6ecf5d048c" category="paragraph"><block ref="13e7adb1be14d277e7a4fb6ecf5d048c" category="inline-image-macro-rx" type="image"></block></block>
@@ -1520,7 +1519,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="a8242ba7a4a7f15ad320c0c336f0f541" category="paragraph">NetApp Keystone STaaSには、サービス提供のための2つの運用モデル（パートナー運用モデルとお客様運用モデル）があります。</block>
   <block id="2fe25ef49287108f9097618ddff98a05" category="paragraph">Digital Advisorダッシュボードを使用して、Keystoneサブスクリプションの詳細の表示、容量の使用状況の監視、レポートの生成を行います。</block>
   <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">Digital Advisorは、導入環境に関する包括的なインベントリレベルの情報を提供します。一方、Keystoneダッシュボードの*[Assets]*タブでは、サブスクリプションに基づいてクラスタレベルの情報が収集され、正確な情報が分離されて表示されます。</block>
-  <block id="d6807769eefb798524ae26e4e26e380c" category="paragraph"><block ref="d6807769eefb798524ae26e4e26e380c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">切り替えボタン*[Show Current Usage]*をクリックすると、現在の課金期間の消費量、バースト使用量、および蓄積バーストデータを確認できます。これらの詳細は、クエリの日付範囲に基づいていません。</block>
   <block id="a49bc4f8e609a4d43e0d9598bebd4bb5" category="doc">Digital AdvisorでKeystoneダッシュボードを見る</block>
   <block id="3249e310d1f377e16af196e978621a35" category="paragraph">監視リストはDigital Advisorの機能です。詳細については、を参照してください<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。監視リストの作成については、を参照してください。<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>。</block>
@@ -1588,7 +1586,6 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="113a7f7a3800ecc0ca2650ec55f2fc4d" category="doc">[Current Consumption]タブ</block>
   <block id="2e6c192f3d1b980937c51968eb5c620d" category="paragraph">[現在の消費量]タブには、サブスクリプションの使用量の詳細が表示されます。</block>
   <block id="28f032b01b5c18fd69fa59635c9b79b2" category="paragraph">このタブを表示するには、左側のナビゲーションペインで*[全般]&gt;[Keystoneサブスクリプション]&gt;[現在の消費量]*に移動し、必要なサブスクリプション番号を選択します。</block>
-  <block id="e6e48947a0a84d4c75379d3ad849a802" category="paragraph"><block ref="e6e48947a0a84d4c75379d3ad849a802" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2f92de04a3d2869fe0cf56db40e54a0a" category="paragraph">現在の消費量と併せて、使用量の履歴データを表示して比較することもできます。*履歴データの表示*ボタンをクリックして*消費トレンド*タブに移動し、同じサブスクリプションの履歴データを表示します。</block>
   <block id="c2d175fdd558b3470a3010058a7c94ab" category="paragraph"><block ref="c2d175fdd558b3470a3010058a7c94ab" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0f9ac035eb1ca017e76913bac1e0a516" category="paragraph"><block ref="0f9ac035eb1ca017e76913bac1e0a516" category="inline-image-macro-rx" type="image"></block></block>
@@ -1621,4 +1618,11 @@ Keystoneサービスの導入の一環として、ネットアップはサービ
   <block id="df56284dfb684f79b8cd68b6256e8808" category="paragraph">[Keystone Subscriptions]画面のすべてのタブにある*[Subscriptions]*ドロップダウンに検索バーが表示されるようになりました。[サブスクリプション]*ドロップダウンにリストされている特定のサブスクリプションを検索できます。</block>
   <block id="1bb4f4215b4cfc16e3a95f61314a8ded" category="paragraph">[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>。</block>
   <block id="322b7c203883b5f1e51c48d947e1cb4d" category="paragraph">Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください <block ref="bd6c55fabca71f10e9c92f78aa84686b" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b6bc3125f482fcbcf029c833aea1290" category="inline-link-macro">ONTAPの要件</block>
+  <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone Collectorのパフォーマンス指標が収集されません。詳細については、を参照してください <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
+  <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">その他のメニューオプション</block>
+  <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone ONTAPのパフォーマンスデータが収集されません。この設定を変更したり、Unified Managerメンテナンスコンソールのオプションを使用して他のホストに接続を確立したりでき<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> ます。詳細については、を参照してください <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
+  <block id="f693bd6f9d65926fbf70950854618f50" category="paragraph"><block ref="f693bd6f9d65926fbf70950854618f50" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

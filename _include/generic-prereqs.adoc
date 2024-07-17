@@ -173,6 +173,9 @@ ONTAP ファームウェアの更新用Webサーバ
 
 |===
 
+NOTE: MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone Collectorのパフォーマンス指標が収集されません。詳細については、を参照してください link:addl-req.html["ONTAPの要件"]。
+
+
 
 === URLアクセス
 

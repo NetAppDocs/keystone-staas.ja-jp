@@ -38,6 +38,10 @@ ONTAP とStorageGRID を使用する場合は、さらにいくつかの前提�
 .. インストール時に生成されたデフォルトのアプリケーション管理者ユーザクレデンシャルを使用して、Unified Manager Web UIにログインします。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_access_unified_manager_web_ui.html["Unified Manager Web UI にアクセスします"^]。
 .. でKeystone Collectorのサービスアカウントを作成します `Operator` ユーザロール。Keystone CollectorサービスAPIは、このサービスアカウントを使用してUnified Managerと通信し、使用状況データを収集します。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_add_users.html["ユーザを追加する"^]。
 .. を作成します `Database` を使用したユーザアカウント `Report Schema` ロール。このユーザは、パフォーマンスデータの収集に必要です。を参照してください https://docs.netapp.com/us-en/active-iq-unified-manager/config/task_create_database_user.html["データベースユーザを作成しています"^]。
++
+
+NOTE: MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone ONTAPのパフォーマンスデータが収集されません。この設定を変更したり、Unified Managerメンテナンスコンソールのオプションを使用して他のホストに接続を確立したりでき `Control access to MySQL port 3306` ます。詳細については、を参照してください link:https://docs.netapp.com/us-en/active-iq-unified-manager/config/reference_additional_menu_options.html["その他のメニューオプション"^]。
+
 
 
 . Unified ManagerでAPIゲートウェイを有効にします。Keystone Collectorは、APIゲートウェイ機能を使用してONTAP クラスタと通信します。APIゲートウェイは、Web UIまたはUnified Manager CLIからいくつかのコマンドを実行して有効にすることができます。
