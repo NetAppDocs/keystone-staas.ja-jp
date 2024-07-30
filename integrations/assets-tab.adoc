@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/assets-tab.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab 
-summary: Keystoneサブスクリプションレポートとグラフ 
+summary: '[Assets]タブを使用して、Keystoneサブスクリプションで管理されているクラスタとノードに関する詳細を表示します。' 
 ---
-= [Assets]タブ
+= Keystoneで管理されているクラスタとノードの詳細を表示する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneサブスクリプションレポートとグラフ
 
 
 [role="lead"]
-[Assets]*タブを使用して、Keystoneサブスクリプションで管理されているクラスタとノードに関する情報を収集します。
+Keystoneサブスクリプションで管理されているクラスタとノードに関する詳細を表示するには、*[アセット]*タブを使用します。
 
 Digital Advisorは、導入環境に関する包括的なインベントリレベルの情報を提供します。一方、Keystoneダッシュボードの*[Assets]*タブでは、サブスクリプションに基づいてクラスタレベルの情報が収集され、正確な情報が分離されて表示されます。
 

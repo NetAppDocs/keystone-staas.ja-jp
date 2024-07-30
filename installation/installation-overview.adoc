@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/installation-overview.html 
 keywords: installation, Keystone Collector 
-summary: Keystoneコレクタとは 
+summary: Keystone Collectorは、サイトのVMware vSphereまたはLinuxホストにインストールするNetAppソフトウェアです。Keystoneシステムの使用状況データを収集します。 
 ---
-= Keystoneコレクタの概要
+= Keystone Collectorの詳細
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,11 @@ summary: Keystoneコレクタとは
 
 
 [role="lead"]
-Keystoneサービスを利用して使用状況データを表示するには、サイトのVMware vSphereまたはLinuxシステムにKeystone Collectorをインストールする必要があります。
+_Keystone Collector_は、KeystoneサービスにアクセスするためにサイトのVMware vSphereまたはLinuxホストにインストールするNetAppソフトウェアです。Keystoneシステムの使用状況データを収集します。
 
+Keystone Collectorは、Keystone課金プラットフォームの使用量を取得するコンポーネントです。Active IQ Unified Managerやその他のアプリケーションを活用してONTAPやStorageGRIDのシステムに接続し、Keystoneサブスクリプションの使用状況やSLAパフォーマンスの計測に必要なメタデータを収集します。レポート作成のために請求データを送信しながら、システムの健全性を監視する機能を提供します。
 
-NOTE: Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。ご使用の環境がKeystone Collectorをサポートできない場合は、代わりにAutoSupportテレメトリメカニズムを使用する権限をKeystone製品管理部門に求めることができます。AutoSupportの詳細については、を参照してください。 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。Keystone向けのAutoSupportの設定については、を参照してください。 link:../installation/asup-config.html["Keystone向けのAutoSupportの設定"]。
-
-Keystone Collectorは、Keystone課金プラットフォームの使用量を取得するコンポーネントで、Active IQ Unified Manager やその他のアプリケーションを利用してONTAP システムやStorageGRID システムに接続し、Keystoneサブスクリプションの使用量やSLAパフォーマンスの計測に必要なメタデータを収集します。レポート作成のために請求データを送信しながら、システムの健全性を監視する機能を提供します。
-
-
-NOTE: ここに記載されているインストールと設定の情報は、ONTAP とStorageGRID に適用されます。要件と手順は、指摘された例外を除いて、ONTAP とStorageGRID の両方に共通です。
+Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。ご使用の環境がKeystone Collectorをサポートできない場合は、代わりにAutoSupportテレメトリメカニズムを使用する権限をKeystone製品管理部門に求めることができます。AutoSupportの詳細については、を参照してください。 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。Keystone向けのAutoSupportの設定については、を参照してください。 link:../installation/asup-config.html["Keystone向けのAutoSupportの設定"]。
 
 このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。
 

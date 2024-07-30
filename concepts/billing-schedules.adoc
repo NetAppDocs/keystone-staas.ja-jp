@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/billing-schedules.html 
 keywords: billing schedules, schedule for payment 
-summary: 請求スケジュールがキーストーンになっている 
+summary: Keystone STaaSサブスクリプションは、月単位と年単位で課金されます。 
 ---
 = 請求スケジュール
 :hardbreaks:

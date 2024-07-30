@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/data-flow.html 
 keywords: data flow 
-summary: Keystoneのデータフロー 
+summary: Keystone STaaSシステムのデータは、Keystone Collectorと、関連する監視システムであるAIOpsソリューションツールを通じて流れます。 
 ---
 = Keystoneのデータフロー
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Keystoneのデータフロー
 
 
 [role="lead"]
-Keystone STaaSシステムのデータは、Keystone Collectorと関連する監視システムであるAIOps解決策 ツールを通じて流れます。
+Keystone STaaSシステムのデータは、Keystone Collectorと、関連する監視システムであるAIOpsソリューションツールを通じて流れます。
 
 
 

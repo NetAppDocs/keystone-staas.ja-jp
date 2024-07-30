@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/validation.html 
 keywords: validate, validation 
-summary: LinuxシステムでKeystoneコレクタを検証 
+summary: Keystoneリポジトリは、Keystoneソフトウェアの整合性を自動的に検証するように設定されます。 
 ---
-= ソフトウェア整合性の自動検証
+= Keystoneソフトウェアの自動検証
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,6 +14,6 @@ summary: LinuxシステムでKeystoneコレクタを検証
 
 
 [role="lead"]
-Keystoneソフトウェアの整合性を検証するプロセスは、繰り返し実行されます。
+Keystoneリポジトリは、Keystoneソフトウェアの整合性を自動的に検証するように設定されており、有効で信頼性の高いソフトウェアのみがお客様のサイトにインストールされます。
 
-で提供されるKeystone YUMリポジトリのクライアント設定 `keystonerepo.rpm` 適用されたGPGチェックを利用する (`gpgcheck=1`）をクリックします。署名の検証に失敗したKeystoneリポジトリからダウンロードされたRPMはインストールできません。この機能は、Keystoneコレクタの定期的な自動更新機能で使用され、有効で正規のソフトウェアのみがお客様のサイトにインストールされていることを確認します。
+で提供されるKeystone YUMリポジトリクライアント構成で `keystonerepo.rpm` は、このリポジトリからダウンロードされたすべてのソフトウェアに適用されるGPGチェックが使用さ (`gpgcheck=1`れます。署名の検証に失敗したKeystoneリポジトリからダウンロードされたRPMはインストールできません。この機能は、Keystone Collectorのスケジュールされた自動更新機能で使用され、有効で信頼性の高いソフトウェアのみがサイトにインストールされるようにします。

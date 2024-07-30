@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/data-tiering.html 
 keywords: add-on services, add-on, data tiering 
-summary: アドオン、追加サービスの詳細、データ階層化 
+summary: データ階層化アドオンサービスは、使用頻度の低いデータを特定し、サポート対象のストレージに階層化します。 
 ---
-= データの階層化
+= データ階層化の詳細
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

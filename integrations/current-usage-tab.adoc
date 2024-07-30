@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/current-usage-tab.html 
 keywords: keystone-aiq, digital advisor keystone, current consumption tab 
-summary: 'AIQ DA Keystoneダッシュボードの[Current Consumption]タブ' 
+summary: サブスクリプションの使用量を把握するために、コミット済み容量、消費容量、使用可能容量などを確認できます。 
 ---
-= [Current Consumption]タブ
+= サブスクリプションの現在の消費量を表示する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'AIQ DA Keystoneダッシュボードの[Current Consumption]タブ'
 
 
 [role="lead"]
-[現在の消費量]タブには、サブスクリプションの使用量の詳細が表示されます。
+サブスクリプションの使用量を把握するために、コミット済み容量、消費容量、使用可能容量など、使用量の詳細を表示できます。
 
 このタブを表示するには、左側のナビゲーションペインで*[全般]>[Keystoneサブスクリプション]>[現在の消費量]*に移動し、必要なサブスクリプション番号を選択します。
 

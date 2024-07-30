@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/monitor-health.html 
 keywords: monitoring system health 
-summary: Keystoneコレクタを使用してシステムの健全性を監視 
+summary: データを確実に利用できるようにするには、HTTP要求をサポートする任意の監視システムを使用して、Keystone Collectorの健全性を監視します。 
 ---
-= システムヘルスを監視する
+= Keystone Collectorの健全性を監視する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneコレクタを使用してシステムの健全性を監視
 
 
 [role="lead"]
-HTTP要求をサポートする任意の監視システムを使用して、Keystoneコレクタサービスを通じてシステムの健全性を監視できます。
+HTTP要求をサポートする任意の監視システムを使用して、Keystone Collectorの健全性を監視できます。健全性を監視することは、Keystoneダッシュボードでデータを利用できることを確認するのに役立ちます。
 
 デフォルトでは、Keystoneヘルスサービスはlocalhost以外のIPからの接続を受け入れません。Keystoneの健常性エンドポイントはです `/uber/health`、およびKeystone Collectorサーバのすべてのインターフェイスでポート上でリスンします `7777`。クエリの際、JSON出力を含むHTTP要求ステータスコードがエンドポイントから応答として返され、Keystoneコレクタシステムのステータスが説明されます。
 JSONの本文は、の全体的な健常性ステータスを提供します `is_healthy` 属性。ブール値で、のコンポーネントごとのステータスの詳細なリストです `component_details` 属性（Attribute）：

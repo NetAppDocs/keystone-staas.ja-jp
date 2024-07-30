@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/supported-storage-capacity.html 
 keywords: storage capacity, capacity definition, keystone STaaS storage capacity, 
-summary: サポートされているストレージ容量 
+summary: NetApp Keystone STaaSサービスでサポートされるストレージ容量のタイプについて説明します。 
 ---
 = Keystoneでサポートされるストレージ容量
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: サポートされているストレージ容量
 
 
 [role="lead"]
-NetApp Keystone STaaSサービスの容量は次のとおりです。
+NetApp Keystone STaaSサービスは、複数のタイプのストレージ容量をサポートします。これらの容量のさまざまな用語を理解しておくと、Keystoneを利用する際に役立ちます。
 
 
 

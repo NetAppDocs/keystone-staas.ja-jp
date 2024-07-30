@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/nrnvc.html 
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
-summary: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠 
+summary: NetAppは、NetApp Keystoneサブスクリプションの一部として、お客様のファイルサービス、ブロックサービス、オブジェクトサービス向けにNRNVCサービスを拡張します。 
 ---
-= 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
+= 返品不可、不揮発性コンポーネント、SnapLock準拠
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,22 +14,21 @@ summary: 非リターン可能な不揮発性コンポーネントとSnapLock �
 
 
 [role="lead"]
-ネットアップは、NetApp Keystone サブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、リターン不能な不揮発性コンポーネント（NRNVC）を拡張しています。
-
-Keystoneサブスクリプションの一部としてこのアドオンサービスをサブスクライブできます。
-Standardサービスとクラウドサービスについては、を参照してください link:supported-storage-services.html["Keystone STaaSサービス"]。
-
-サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+NetAppは、NetApp Keystoneサブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、返却不要不揮発性コンポーネント（NRNVC）サービスを拡張します。
 
 ネットアップでは、サービスの提供中に使用された物理ストレージメディアをリカバリすることはありません。リカバリに使用されていた物理ストレージメディアは、ネットアップがリカバリの際にサービスの終了時にリカバリすることはありません。
 
-このサービスを購入した場合は、次の点に注意してください。
+Keystoneサブスクリプションの一部としてこのアドオンサービスをサブスクライブできます。このサービスを購入した場合は、次の点に注意してください。
 
 * サービス期間の終了時や、ドライブや不揮発性メモリで障害が発生した場合やサービス期間中に欠陥が見つかった場合は、ドライブや不揮発性メモリを返却する必要はありません。
 * ただし、ドライブや不揮発性メモリを破壊する証明書を作成する必要があり、それ以外の目的には使用できません。
 * NRNVCに関連する追加コストは、サブスクリプションサービス全体（標準サービス、高度なデータ保護、データ階層化を含む）の月額料金に対する割合として課金されます。
 * このサービスは、ファイル、ブロック、オブジェクトの各サービスにのみ適用されます。
 
+
+標準サービスとクラウドサービスの詳細については、を参照してください link:supported-storage-services.html["Keystone STaaSサービス"]。
+
+サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
 
 
 

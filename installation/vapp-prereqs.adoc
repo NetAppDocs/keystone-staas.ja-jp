@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/vapp-prereqs.html 
 keywords: prerequisites, VMware vSphere, vApp 
-summary: VMware vSphereシステムにKeystoneコレクタをインストールするための前提条件 
+summary: Keystone Collectorをインストールするには、VMware vSphereシステムがいくつかの要件を満たしている必要があります。 
 ---
 = 仮想インフラの要件
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: VMware vSphereシステムにKeystoneコレクタをインストール�
 
 
 [role="lead"]
-VMware vSphereシステムにKeystone Collectorをインストールするには、いくつかの仮想インフラ設定が必要です。
+Keystone Collectorをインストールするには、VMware vSphereシステムがいくつかの要件を満たしている必要があります。
 
 .Keystone CollectorサーバVMの前提条件：
 * オペレーティングシステム：VMware vCenter ServerおよびESXi 6.5以降

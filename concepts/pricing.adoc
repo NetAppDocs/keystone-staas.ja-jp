@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, billing introduction, Keystone billing 
-summary: Keystoneの価格設定 
+summary: Keystoneは、柔軟で拡張性に優れた消費ニーズに対応する従量課金制モデルを提供します。 
 ---
 = Keystoneの価格設定
 :hardbreaks:
@@ -14,9 +14,7 @@ summary: Keystoneの価格設定
 
 
 [role="lead"]
-NetApp Keystone STaaSを利用することで、ストレージサブスクリプションの予測可能な初期価格を設定できます。
-
-設備投資（CapEx）やリースに運用コスト（OpEx）の消費モデルを使用する場合は、柔軟でスケーラブルな消費ニーズに合わせて、Keystoneの成長に応じたモデルを選択できます。
+設備投資（CAPEX）やリースよりも運用コスト（OPEX）の消費モデルを希望される場合は、NetApp Keystone STaaSの従量課金制モデルを選択して、柔軟で拡張性に優れた消費モデルで、ストレージサブスクリプションの予測可能な初期料金を設定できます。
 
 Keystoneには、以下の請求先施設が用意されています。
 

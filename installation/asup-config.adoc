@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/asup-config.html 
 keywords: ASUP, AutoSupport configuration 
-summary: Keystone向けAutoSupportを設定するための手順 
+summary: ONTAPクラスタから送信される日 々 のサポートバンドルにKeystoneデータが組み込まれるようにAutoSupportを設定します。 
 ---
 = Keystone向けのAutoSupportの設定
 :hardbreaks:

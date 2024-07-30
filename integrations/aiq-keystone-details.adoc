@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/aiq-keystone-details.html 
 keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone usage graphs charts, generate reports, iq, digital advisor, metrocluster, storagegrid, ontap, tracking id, burst usage, alerts, different tabs 
-summary: Keystoneサブスクリプションレポートとグラフ 
+summary: Digital Advisorダッシュボードでは、Keystoneサブスクリプションの詳細の表示、容量の使用状況の監視、レポートの生成を行うことができます。 
 ---
-= Keystoneのダッシュボードとレポート機能を使用
+= 使用状況の詳細を表示してレポートを生成
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneサブスクリプションレポートとグラフ
 
 
 [role="lead"]
-Digital Advisorダッシュボードを使用して、Keystoneサブスクリプションの詳細の表示、容量の使用状況の監視、レポートの生成を行います。
+Digital Advisorダッシュボードでは、Keystoneサブスクリプションの詳細の表示、容量の使用状況の監視、レポートの生成を行うことができます。
 
 Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。
 

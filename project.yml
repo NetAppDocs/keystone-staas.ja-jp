@@ -27,19 +27,19 @@ sidebar:
       url: "/concepts/overview.html"
     - title: Keystoneインフラ
       url: "/concepts/infra.html"
+    - title: Keystoneコレクタ
+      url: "/installation/installation-overview.html"
     - title: コンポーネント
       url: "/concepts/components.html"
     - title: データフロー
       url: "/concepts/data-flow.html"
     - title: 運用モデル
       url: "/concepts/operational-models.html"
-    - title: Keystoneコレクタ
-      url: "/installation/installation-overview.html"
   - title: Keystoneをセットアップおよび設定する
     entries:
     - title: 要件
       entries:
-      - title: VMware vSphere の場合
+      - title: 仮想インフラ
         url: "/installation/vapp-prereqs.html"
       - title: Linux の場合
         url: "/installation/linux-prereqs.html"
@@ -51,7 +51,7 @@ sidebar:
         url: "/installation/vapp-installation.html"
       - title: Linuxへのインストール
         url: "/installation/linux-installation.html"
-      - title: 整合性を検証
+      - title: Keystoneソフトウェアの自動検証
         url: "/installation/validation.html"
     - title: Keystoneコレクタを設定する
       url: "/installation/configuration.html"
@@ -63,13 +63,13 @@ sidebar:
       url: "/installation/data-collection.html"
   - title: 監視とアップグレード
     entries:
-    - title: システムヘルスを監視する
+    - title: Keystone Collectorの健全性を監視する
       url: "/installation/monitor-health.html"
     - title: Keystone Collectorをアップグレードします
       url: "/installation/upgrade.html"
   - title: Keystoneダッシュボード
     entries:
-    - title: Keystoneダッシュボードを見る
+    - title: Keystoneダッシュボードの概要
       url: "/integrations/keystone-aiq.html"
     - title: 使用状況の詳細を表示してレポートを生成
       url: "/integrations/aiq-keystone-details.html"
@@ -85,13 +85,13 @@ sidebar:
       url: "/integrations/assets-tab.html"
     - title: "[パフォーマンス]タブ"
       url: "/integrations/performance-tab.html"
-    - title: BlueXPからKeystoneサブスクリプションを管理
+    - title: KeystoneとBlueXPの詳細
       url: "/integrations/keystone-cm.html"
   - title: Keystone STaaSサービス
     entries:
     - title: 指標と定義
       url: "/concepts/metrics.html"
-    - title: Quality of Service の略
+    - title: ストレージQoS
       url: "/concepts/qos.html"
     - title: サポートされるストレージ
       url: "/concepts/supported-storage-services.html"
@@ -99,7 +99,7 @@ sidebar:
       url: "/concepts/supported-storage-capacity.html"
     - title: サービスレベル
       url: "/concepts/service-levels.html"
-    - title: サービスレベルデサポートサレルヨウリョウ
+    - title: サービスレベルの容量要件
       url: "/concepts/capacity-requirements.html"
     - title: Keystoneサブスクリプションサービスバージョン1
       url: "/subscription-services-v1.html"
@@ -111,7 +111,7 @@ sidebar:
         url: "/concepts/data-tiering.html"
       - title: Equinixを基盤とするサービス
         url: "/concepts/equinix.html"
-      - title: 非リターン可能な不揮発性コンポーネントとSnapLock 準拠
+      - title: 返品不可、不揮発性コンポーネント、SnapLock準拠
         url: "/concepts/nrnvc.html"
       - title: 米国市民サポート（USCS）
         url: "/concepts/uscs.html"
@@ -125,11 +125,11 @@ sidebar:
       url: "/concepts/consumed-capacity-billing.html"
     - title: バースト消費に基づく請求
       url: "/concepts/burst-consumption-billing.html"
-    - title: その他のボリュームタイプに基づく請求
+    - title: Keystone請求のその他のシナリオ
       url: "/concepts/misc-volume-billing.html"
     - title: 請求スケジュール
       url: "/concepts/billing-schedules.html"
-  - title: ネットアップグローバルサービスサポートセンター
+  - title: Keystoneに関するサポートを受ける
     url: "/concepts/gssc.html"
   - title: 法的通知
     url: "/legal-notices.html"

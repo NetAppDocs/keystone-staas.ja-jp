@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
-summary: Keystone STaaSの新機能と機能強化： 
+summary: NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化された機能を提供します。 
 ---
 = Keystone STaaSの新機能
 :hardbreaks:

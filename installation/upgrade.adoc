@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: installation/upgrade.html 
 keywords: Keystone Collector upgrade 
-summary: Keystone Collectorをアップグレードします 
+summary: 自動更新機能が無効になっている場合は、Keystone Collectorを手動でアップグレードします。 
 ---
 = Keystone Collectorを手動でアップグレードする
 :hardbreaks:

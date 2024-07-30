@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/capacity-trend-tab.html 
 keywords: keystone-aiq, digital advisor keystone, consumption trend tab, historical usage, accrued burst, accrued, consumption 
-summary: 'Keystoneサブスクリプションダッシュボードの[Consumption trend]タブ' 
+summary: サブスクリプションの使用状況を監視するために、一定期間のKeystoneサブスクリプションの履歴データを表示できます。 
 ---
-= [Consumption Trend]タブ
+= 消費トレンドの表示
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'Keystoneサブスクリプションダッシュボードの[Consumptio
 
 
 [role="lead"]
-[Consumption Trend]*タブには、特定の期間のKeystoneサブスクリプションの履歴データが表示されます。
+サブスクリプションの使用状況を監視するために、一定期間のKeystoneサブスクリプションの履歴データを表示できます。
 
 縦のグラフには、選択した期間の使用状況の詳細と、レポートを比較して生成するための適切なインジケータが表示されます。
 

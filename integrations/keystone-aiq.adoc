@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/keystone-aiq.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq 
-summary: KeystoneとDigital Advisor 
+summary: NetApp Keystone STaaS加入者は、デジタルアドバイザダッシュボードからサブスクリプションの概要を確認できます。 
 ---
-= Digital AdvisorでKeystoneダッシュボードを見る
+= Keystoneダッシュボードの概要
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: KeystoneとDigital Advisor
 
 
 [role="lead"]
-NetApp Keystone STaaSサービスにサブスクライブしている場合は、Active IQデジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットでサブスクリプションの概要を確認できます。
+NetApp Keystone STaaSを契約している場合は、Active IQデジタルアドバイザ（デジタルアドバイザ）ダッシュボードの* Keystoneサブスクリプション*ウィジェットでサブスクリプションの概要を確認できます。
 
 Keystoneサブスクリプションを検索するには、お客様名または監視リスト名の最初の3文字、またはKeystoneサブスクリプション番号を入力します。Keystone STaaSサブスクリプションを監視リストで検索する方法については、を参照してください。 link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone監視リストを使用して検索"]。
 

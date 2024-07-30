@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/overview.html 
 keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
-summary: Keystoneへようこそ 
+summary: Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）消費モデルを希望する企業向けの、従量課金制のサブスクリプションベースのサービスモデルです。 
 ---
 = NetApp Keystone の詳細をご覧ください
 :hardbreaks:

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/performance-tab.html 
 keywords: keystone-aiq, digital advisor keystone, performance tab 
-summary: 'KeystoneサブスクリプションAIQ DAダッシュボードの[パフォーマンス]タブ' 
+summary: システムのパフォーマンスを監視するために、Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンス指標を表示できます。 
 ---
-= [パフォーマンス]タブ
+= パフォーマンス指標の表示
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'KeystoneサブスクリプションAIQ DAダッシュボードの[パ�
 
 
 [role="lead"]
-*[パフォーマンス]*タブでは、Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンス指標を表示できます。
+システムのパフォーマンスを監視するために、Keystoneサブスクリプションで管理されているONTAPボリュームのパフォーマンス指標を表示できます。
 
 
 TIP: このタブはオプションで使用できます。このタブの表示については、サポートにお問い合わせください。

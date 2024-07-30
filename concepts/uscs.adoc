@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/uscs.html 
 keywords: netapp, keystone, US citizen support, USCS GSSC, Keystone Success Manager, USCS support 
-summary: 米国市民サポート（ USCS ） 
+summary: United States Citizen Supportは、米国内の米国市民から継続的なKeystoneサービスの提供とサポートを提供するアドオンサービスです。 
 ---
-= 米国市民サポート（USCS）
+= USCSの詳細
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

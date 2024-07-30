@@ -4,7 +4,7 @@ permalink: concepts/equinix.html
 keywords: netapp, keystone, Equinix 
 summary: KeystoneとEquinixを提供 
 ---
-= Keystoneのコロケーションサービスは、Equinixが提供します
+= Equinixを活用したコロケーションサービスの詳細
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: KeystoneとEquinixを提供
 
 
 [role="lead"]
-ネットアップは、EquinixデータセンターでNetApp Keystone STaaSサービスをホストするためにEquinixとパートナー関係を結び、お客様に確実にUnified解決策 を提供しています。
+NetAppは、フルスタックソリューションサービスを提供するために、EquinixデータセンターでNetApp Keystone STaaSサービスをホスティングするために、Equinixと提携しました。
 
 Equinixを基盤とするKeystoneコロケーション（Co-Lo）サービスは、標準のKeystoneサービスから変更はありません。
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/infra.html 
 keywords: keystone infrastructure, infra 
-summary: Keystoneインフラ 
+summary: Keystoneのインフラ、設計、テクノロジの選択、コンポーネント製品は、ネットアップだけが提供します。 
 ---
 = Keystoneインフラ
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: Keystoneインフラ
 
 
 [role="lead"]
-このセクションでは、ネットアップおよびお客様が運用する環境向けのNetApp Keystone STaaSインフラ、アーキテクチャ、管理アプリケーションについて説明します。
+NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コンポーネントについて単独で責任を負います。これらは、NetApp環境とお客様が運用する環境の両方に適用されます。
 
-Keystoneのインフラ、設計、テクノロジの選択、コンポーネント製品は、ネットアップだけが提供します。ネットアップは、次の処理を実行する権利を留保します。
+ネットアップは、次の処理を実行する権利を留保します。
 
 * 製品の選択、代替、または転用。
 * 適切であると判断された場合は、新しいテクノロジで製品を更新します
@@ -50,4 +50,4 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 
 image:mgmt-stack.png["managemntスタック"]
 
- Digital Advisor enables you to log in and view the subscription and consumption details for your Keystone subscriptions. For more information about Keystone reporting on the Digital Advisor dashboard, see link:../integrations/keystone-aiq.html[Keystone and Digital Advisor].
+Digital Advisorでは、ログインして、Keystoneサブスクリプションのサブスクリプションと消費量の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。

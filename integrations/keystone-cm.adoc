@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/keystone-cm.html 
 keywords: Keystone-BlueXP 
-summary: KeystoneとBlueXP 
+summary: NetApp Keystoneサブスクリプションでクラウドサービスを購入した場合は、BlueXPからそれらのサービスにアクセスして管理できます。 
 ---
 = KeystoneとBlueXPの詳細
 :hardbreaks:

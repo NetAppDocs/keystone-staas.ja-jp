@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: integrations/subscriptions-tab.html 
 keywords: keystone-aiq, digital advisor keystone, subscriptions-tab 
-summary: 'AIQ DA Keystoneダッシュボードの[Subscriptions]タブ' 
+summary: 'Keystoneサブスクリプションの詳細については、[Subscriptions]タブですべてのサブスクリプションのリストを表示できます。' 
 ---
-= [サブスクリプション]タブ
+= 月額プランの詳細を表示する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 'AIQ DA Keystoneダッシュボードの[Subscriptions]タブ'
 
 
 [role="lead"]
-[サブスクリプション]タブで、すべてのサブスクリプションのリストを表示できます。
+Keystoneサブスクリプションの詳細については、*[サブスクリプション]*タブですべてのサブスクリプションのリストを表示できます。
 
 このタブを表示するには、左側のナビゲーションペインで*[全般]>[Keystoneサブスクリプション]>[サブスクリプション]*に移動します。すべての月額プランが表示されます。
 

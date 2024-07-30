@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: concepts/service-levels.html 
 keywords: service levels, service level, rate plan or service level 
-summary: サポートされているサービスレベル 
+summary: Keystone STaaSは、事前定義されたサービスレベルでストレージ容量を提供します。Keystoneで管理される各ボリュームには、1つのサービスレベルが関連付けられています。 
 ---
 = Keystoneのサービスレベル
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: サポートされているサービスレベル
 
 
 [role="lead"]
-Keystone STaaSは、事前定義されたパフォーマンスサービスレベル（サービスレベル）で、サブスクリプションベースでデータストレージ容量を提供します。Keystoneサービスで管理される各ボリュームはサービスレベルに関連付けられます。
+Keystone STaaSは、事前定義されたパフォーマンスサービスレベルでデータストレージ容量を提供します。Keystoneサービスで管理される各ボリュームには、1つのサービスレベルが関連付けられます。
 
 1つのサブスクリプションに複数の料金プランを設定でき、各料金プランは1つのサービスレベルに対応しています。各レートプランには、サービスレベルごとにコミット済み容量があります。
 
