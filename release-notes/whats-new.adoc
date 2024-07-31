@@ -70,9 +70,9 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 
 
-=== ズームイン機能でマイクロバーストの詳細を把握
+=== 短期間のバーストに対応したズームイン機能
 
-[Capacity Trend]*タブにズームイン機能が追加され、マイクロバーストと呼ばれる短期的な急増の詳細が使用状況グラフに表示されるようになりました。詳細については、を参照してください link:../integrations/capacity-trend-tab.html["[Capacity Trend]タブ"^]。
+[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください link:../integrations/capacity-trend-tab.html["[Capacity Trend]タブ"^]。
 
 
 

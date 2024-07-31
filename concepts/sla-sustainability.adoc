@@ -1,0 +1,107 @@
+---
+sidebar: sidebar 
+permalink: concepts/sla-sustainability.html 
+keywords: sustainability, sla, service level agreement, 
+summary: Sustainability、SLA、サービスレベル契約 
+---
+= 持続可能性SLA
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystoneは、Sustainability SLAに基づくONTAPフラッシュストレージアレイに基づき、ストレージサービスの実際のワット数（W/TiB）の最大値を保証します。持続可能性SLAでは、対象となるサービスレベルごとにW/TiBの最大消費量を定義し、組織の持続可能性目標の達成を支援します。
+
+
+
+== 指標
+
+* *ワット*：毎日のAutoSupportから報告される電力消費量。コントローラおよび接続されているディスクシェルフによる使用量を含みます。
+* * Tebibyte *：最大値：
++
+** サービスレベルのコミット済み容量+割り当て済みバースト容量、または
+** 導入されている実効容量（ストレージ効率係数をに設定した場合） `2:1`。
+
+
++
+ストレージ容量削減比率の詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["容量と Storage Efficiency による削減効果を分析できます"^]。
+
+
+
+
+
+== サービスレベル
+
+持続可能性のSLAは、次の消費基準に基づいています。
+
+|===
+
+
+| * サービスレベル * | * SLA基準* | *最小コミット済み容量* | * プラットフォーム * 
+
+
+ a| 
+最高レベル
+| 8 W/TiB以下 | 200TiB | AFF A800およびAFF A900 
+
+
+ a| 
+Premium サービス
+| 4 W/TiB以下 | 300TiB | AFF A800およびAFF A900 
+
+
+ a| 
+パフォーマンス
+| 4 W/TiB以下 | 300TiB | AFF A800およびAFF A900 
+|===
+詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystoneのサービスレベル"]ください。
+
+
+
+== サービスクレジット
+
+課金期間中のTiBあたりの消費量がSLAの基準を満たしていない場合、NetAppは次のようにサービスクレジットを発行します。
+
+|===
+| 請求期間中にSLAを達成できなかった日数 | サービスクレジット 
+
+
+ a| 
+1～2
+ a| 
+3%
+
+
+
+ a| 
+3～7
+ a| 
+15%
+
+
+
+ a| 
+14
+ a| 
+50%
+
+|===
+
+
+== サービスクレジットリクエスト
+
+SLAの違反が検出された場合は、Keystone Global Services and Support Center（GSSC）に優先度3（P3）のサポートチケットを発行し、Excelシートの要求に応じて以下の詳細を提供します。
+
+image:sla-breach.png["Excelシートテンプレート"]
+
+[NOTE]
+====
+* GSSCが違反を確認してから6週間以内にサービスクレジット申請を開始する必要がある。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。
+* サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して link:../concepts/gssc.html["ネットアップグローバルサービスサポートセンター"]ください。
+
+
+====

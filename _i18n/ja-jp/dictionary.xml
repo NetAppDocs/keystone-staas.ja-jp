@@ -1098,7 +1098,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">[開始日*（From Date）]および[終了日*（* To Date）]フィールドのカレンダーアイコンから時間範囲を選択します。クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。将来の日付は選択できません。</block>
   <block id="9a1db55a20b384661303cf6789a6fed8" category="list-text">[ * 詳細の表示 * ] をクリックします。選択した期間に基づいて、各サービスレベルのサブスクリプションの消費履歴データが表示されます。</block>
   <block id="5c0d50dc2c715b658984931c688519eb" category="paragraph">棒グラフには、その日付範囲について、サービスレベル名とそのサービスレベルに対する消費容量が表示されます。収集の日時がグラフの下部に表示されます。クエリの日付範囲に基づいて、使用状況グラフは30のデータ収集ポイントの範囲で表示されます。グラフにカーソルを合わせると、そのデータ収集ポイントでのコミット済み容量、消費容量、バースト、バースト制限データを基準にした使用量の内訳が表示されます。</block>
-  <block id="85c7c9dc88496ccb44926915d526201d" category="inline-image-macro">詳細が表示された[Capacity Trend]タブ</block>
   <block id="f8eaf321d70fdf3e9d097bb407d56130" category="paragraph">棒グラフの以下の色は、サービスレベルで定義された消費容量を示します。グラフ全体で月単位のデータが縦線で区切られています。</block>
   <block id="952c204f277570032cf6454e003c63da" category="inline-image-macro">[Accrued burst usage]グラフ</block>
   <block id="36234decc68306d26e71012f98474aa1" category="paragraph">この機能は、プレビューのみのモードで使用できます。この機能の詳細については、KSMにお問い合わせください。</block>
@@ -1402,8 +1401,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="09202d1f550debc90536918fe48073d2" category="section-title">サービスレベルの追加</block>
   <block id="698a24cda3201383036fa310a4f6dcdc" category="paragraph">サービスレベル* CVO Primary *と* CVO Secondary *は、コミット済み容量がゼロのレートプランのサブスクリプション、またはメトロクラスタで構成されたサブスクリプションのCloud Volumes ONTAPをサポートするために含まれます。</block>
   <block id="b4a4e7fcb0047788c24de350740273e2" category="list-text">これらのサービスレベルの容量使用状況グラフは、* Keystone Subscriptions *ウィジェットと* Capacity Trend *タブの古いダッシュボードで確認できます。また、* Current Usage *タブの詳細な使用状況情報も確認できます。</block>
-  <block id="997bfb6646529389b763e6cabd21c37a" category="section-title">ズームイン機能でマイクロバーストの詳細を把握</block>
-  <block id="c93882722f26936f556f483ae7c22259" category="paragraph">[Capacity Trend]*タブにズームイン機能が追加され、マイクロバーストと呼ばれる短期的な急増の詳細が使用状況グラフに表示されるようになりました。詳細については、を参照してください <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>。</block>
   <block id="6c48d999111838f1ba95a5cf4091e681" category="section-title">サブスクリプションの表示の強化</block>
   <block id="f5bd7be5a51d8e07eec34f2c9ddb662a" category="section-title">強化された累積バースト表示</block>
   <block id="f42805586acc16ac661193d0d72e676a" category="paragraph">[Capacity Trend]*タブの使用容量の棒グラフにカーソルを合わせると表示されるツールチップに、コミット済み容量に基づく累積バーストのタイプが表示されるようになりました。コミット済み容量レートプランがないサブスクリプションの場合は、暫定的な蓄積バーストと請求書による蓄積バーストを区別し、コミット済み容量がゼロの場合は*暫定的な蓄積消費*と*請求書による蓄積消費*、コミット済み容量がゼロでない場合は*暫定的な蓄積バースト*と*請求書による蓄積バースト*を表示します。</block>
@@ -1411,7 +1408,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b45b03a249b5f6cfa9e1cc559ba79e40" category="section-title">2024年2月13日</block>
   <block id="b06c73c3805ce52954e13f27b28cb072" category="section-title">2024年1月11日</block>
   <block id="6171bdf5841e2bfa70f97036e02d1f44" category="section-title">2023年12月15日</block>
-  <block id="c3d408e303aadca10fcde3732cec0448" category="paragraph">ズームイン機能を使用すると、使用状況グラフ（マイクロバースト）に短期的な急増を表示できます。マイクロバーストが発生している場合は、対応するバーに青い点が表示され、データが消費されていない場合はX軸に直接表示されます。詳細を表示するには、青い点が表示されているバーまたはX軸をクリックしたままグラフ上でカーソルをドラッグして目的の時間間隔を選択し、放して選択内容を確認します。データが拡大表示され、選択した間隔でそのサービスレベルで使用されている容量の詳細が表示されます。さらに拡大すると、詳細を2分間隔で表示できます。[Reset Zoom]*ボタンをクリックすると、元のチャートビューに戻ることができます。</block>
   <block id="8a19ac37aa90f4bbe7f16a2f7767bbcd" category="list-text">*プライバシーバイデザイン*- Keystone Collectorは、使用量の計測とパフォーマンスの監視に必要な最小限のデータを収集します。詳細については、を参照してください <block ref="d45e4cc5f7d31c567a5a7e94087cf357" category="inline-link-macro-rx"></block>。。 <block ref="056e2bf20fc58bf3ad9e840fe1ebc39f" category="inline-link-macro-rx"></block> このオプションはデフォルトで有効になっており、機密情報をマスクして保護します。</block>
   <block id="252857c59cbe54ddba7bda3d2d19b7a3" category="list-text">*最小権限*- Keystone Collectorには、ストレージシステムを監視するための最小限の権限が必要です。これにより、セキュリティリスクが最小限に抑えられ、データが意図せず変更されるのを防ぐことができます。このアプローチは最小権限の原則に沿っており、監視対象の環境の全体的なセキュリティ体制を強化します。</block>
   <block id="8f14f42f9cacaaf485cd3e478fca2ae7" category="list-text">*セキュアなソフトウェア開発フレームワーク*- Keystoneは、開発サイクル全体を通じてセキュアなソフトウェア開発フレームワークを使用して、リスクの軽減、脆弱性の軽減、潜在的な脅威からシステムを保護します。</block>
@@ -1518,7 +1514,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone Collectorのパフォーマンス指標が収集されません。詳細については、を参照してください <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">その他のメニューオプション</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone ONTAPのパフォーマンスデータが収集されません。この設定を変更したり、Unified Managerメンテナンスコンソールのオプションを使用して他のホストに接続を確立したりでき<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> ます。詳細については、を参照してください <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
-  <block id="f693bd6f9d65926fbf70950854618f50" category="paragraph"><block ref="f693bd6f9d65926fbf70950854618f50" category="inline-image-macro-rx" type="image"></block></block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">高度なデータ保護アドオンサービスを使用して、ミッションクリティカルなワークロードの効率的なデータ保護を実現します。</block>
@@ -1639,4 +1634,140 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="d339106c5234c4fffed6b25356ff263d" category="sidebar">監視とアップグレード</block>
   <block id="7b373ff6530e34788cfaf1ee2a5d46b5" category="sidebar">Keystone Collectorの健全性を監視する</block>
   <block id="be373fb58d77d15be6b1ad3433c36936" category="sidebar">ストレージQoS</block>
+  <block id="22b84f9f97a424698d7726d02f067c07" category="summary">可用性、SLA、サービスレベルアグリーメント</block>
+  <block id="b809b21522a310a2526e263d79f9259a" category="doc">可用性SLA</block>
+  <block id="a383f57fb1f133e23d708fa682c4de38" category="paragraph">可用性SLAでは、Keystoneの発注を行うために導入されたAll NetApp ONTAPフラッシュストレージアレイの課金期間中、99.999%のアップタイムを目標としています。</block>
+  <block id="f32c3edaacea72c0ddb30ecf0135c4de" category="section-title">指標</block>
+  <block id="e67906640477f8681e506869bc6e612e" category="list-text">*毎月のアップタイムの割合*=[（1カ月の対象秒数-その月にKeystone注文を提供するために導入されたすべてのAFFストレージアレイのダウンタイムの平均秒数）/ 1カ月の対象秒数] x 100%</block>
+  <block id="53ca36728241336dcf15ee413e4d7946" category="list-text">*ダウンタイム*：ストレージアレイ内のペアの両方のコントローラを使用できない期間。NetAppによって決定されます。</block>
+  <block id="e3af360bffb0ac501e3dff5765197e4e" category="list-text">*適用可能な秒数*：月の秒数で、アップタイムの計算にカウントされます。計画的なメンテナンス、アップグレード、NetAppと合意したサポート活動、またはNetAppサービスまたはKeystoneサービスの制御不能または責任が原因でSTaaSサービスを利用できない期間は含まれません。</block>
+  <block id="b8cbf0764e5d7f6f10308786d0f252b5" category="paragraph">ONTAPフラッシュストレージアレイでサポートされるすべてのサービスレベルは、可用性SLAの対象となります。詳細については、を参照して <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="3b916544092c6bba180097d47f80505f" category="section-title">サービスクレジット</block>
+  <block id="563fcbc0524e38c0a55e5aece4d67824" category="paragraph">対象となるサブスクリプションでONTAPフラッシュストレージアレイを使用できるかどうかが、請求期間内に月間アップタイムの目標である99.999%を下回ると、NetAppは次のようにサービスクレジットを発行します。</block>
+  <block id="e92fc6300f495b762ab94da55380457b" category="cell">*月間稼働時間（未満）*</block>
+  <block id="5178c68cc936db933ad4703eeb49414c" category="cell">*サービスクレジット*</block>
+  <block id="4976c7cf214ee731a167dd46c1579825" category="paragraph">99.999%</block>
+  <block id="159a57128f3918d387e13cc8a5a7f2f2" category="paragraph">5%</block>
+  <block id="19fb9916968211db983d13bffe0cc6af" category="paragraph">99.99%</block>
+  <block id="bb1a5a2b7eec4f940f8e78abe48d68bf" category="paragraph">10%</block>
+  <block id="ebb51b0b7e8f1fcf89ef483709bd61c6" category="paragraph">99.9%</block>
+  <block id="ae0ce64fc49cd0aa826b50099f869922" category="paragraph">25%</block>
+  <block id="35a2d0b107eb0fd223479b0ab02ffd0d" category="paragraph">99.0%</block>
+  <block id="2496af30b64c3a4ff21e8505ea439a73" category="paragraph">50%</block>
+  <block id="f086e6ea351565075aec266b27d7808a" category="section-title">サービスクレジットの計算</block>
+  <block id="b71fb0239a9f9bd482967a91eeab0936" category="paragraph">サービスクレジットは、次の式を使用して決定されます。</block>
+  <block id="25c407ad6633f6e284ed84bee3a409db" category="paragraph">サービスクレジット=（影響を受ける容量/コミット済み容量の合計）X容量料金Xクレジットの割合</block>
+  <block id="4cd361459ea2bb087ed6c989579796c7" category="paragraph">ここで、</block>
+  <block id="b40f8895b827f227835eb3bc2f25b9e6" category="list-text">*影響を受ける容量*：影響を受ける格納容量。</block>
+  <block id="7dbf58090874a3542e3d87aa654d8cad" category="list-text">*合計コミット済み容量*：Keystone注文のサービスレベルのコミット済み容量。</block>
+  <block id="3d1f89c9f1a96ed5b2b2badbb5aa02dc" category="list-text">*キャパシティ料金*:その月の影響を受けるサービスレベルの料金。</block>
+  <block id="44582b33017b5fbb933f27e3c80d845a" category="list-text">*クレジットパーセンテージ*：サービスクレジットの事前定義されたパーセンテージ。</block>
+  <block id="938f1047c15f00fdd0cbfc8e4cfa15e1" category="paragraph">* 例 *</block>
+  <block id="1bddd707a0359d778b1d813a90c93052" category="paragraph">次の例は、サービスクレジットの計算方法を示しています。</block>
+  <block id="8675aaab182cd1ede22d88336898c1ea" category="list-text">月単位のアップタイムを計算して、サービスクレジットの割合を決定します。</block>
+  <block id="fefccd3601226bfde489bb3cb07d859b" category="list-text">30日間の対象秒数：30（日）X 24（時間/日）X 60（分/時間）X 60（秒/分）= 2、592、000秒</block>
+  <block id="df212c5e5de67c296152f5d72add0126" category="list-text">秒単位のダウンタイム：95秒</block>
+  <block id="b40d5e2f3db898060ede6a53207406c4" category="paragraph">次の式を使用します。月間アップタイムの割合=[（2、592、000-95）/（2、592、000）] X 100</block>
+  <block id="d5a0ad93e7cae0cea5d2164c32e6c7bb" category="paragraph">計算に基づいて、月 々 のアップタイムは99.996%、サービスクレジットの割合は5%になります。</block>
+  <block id="b63c272bec6c081cf8f64799562fc87e" category="list-text">サービスクレジットの計算：</block>
+  <block id="57083671d3a4c5d078576f2774acaae3" category="cell">*影響を受ける容量*</block>
+  <block id="6319b3ae1be9dc9c6905e608cb789a7a" category="cell">*コミット済み容量の合計*</block>
+  <block id="159b517c08e421584e24e48d485c1ccc" category="cell">*容量料金*</block>
+  <block id="4446d2e739a007870c02f013ca45ebde" category="cell">*クレジットの割合*</block>
+  <block id="b76181e0697998338d4a37bf656675c7" category="cell">95秒で10TiB</block>
+  <block id="6855eef8daff30988247789b63790191" category="cell">100TiB</block>
+  <block id="6ff79498e54770f62cf549ca824c38fc" category="cell">1、000ドル</block>
+  <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">式を使用：サービスクレジット=（10/100）X 1000 x 0.05</block>
+  <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">計算に基づいて、サービスクレジットは5ドルになります。</block>
+  <block id="182bf07a2845568515ca20b4e4654296" category="section-title">サービスクレジットリクエスト</block>
+  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">SLAの違反が検出された場合は、Keystoneグローバルサービスおよびサポートセンター（GSSC）に優先度3（P3）のサポートチケットを発行します。</block>
+  <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">次の詳細情報が必要です。</block>
+  <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystoneサブスクリプション番号</block>
+  <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">ボリュームとストレージコントローラの詳細</block>
+  <block id="3b6a4c4dee52c0519690b8a93c60159e" category="list-text">問題のサイト、時刻、日付、および説明</block>
+  <block id="de0480c0f5c929948100ece899e9724e" category="list-text">レイテンシ検出の計算時間</block>
+  <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">測定ツールと測定方法</block>
+  <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">その他の該当する文書</block>
+  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">Keystone GSSCで開始されたP3チケットの詳細を以下のようにExcelシートに入力します。</block>
+  <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excelシートテンプレート</block>
+  <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">GSSCが違反を確認してから6週間以内にサービスクレジット申請を開始する必要がある。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。</block>
+  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">Sustainability、SLA、サービスレベル契約</block>
+  <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">パフォーマンスSLA</block>
+  <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">NetApp Keystoneは、サービスレベルごとにレイテンシベースのSLAを提供します。これは、Keystoneの注文書に記載されているとおり、バースト制限までの消費容量に対して、以下の契約条件に従って提供されます。</block>
+  <block id="23f04236d1f84e52d087f768059adbbe" category="list-text">*パフォーマンスの低下*：レイテンシの目標である90%のパーセンタイル値が達成されなかったインシデントあたりの時間（分）。</block>
+  <block id="3fe43b4ffa54563c104bbdf1eeea2b59" category="list-text">90^th^percentileレイテンシ*は、Keystone注文内のすべてのボリュームについて、ボリュームごと、パフォーマンスレベルごとに測定されます。レイテンシは5分ごとにサンプリングされ、24時間で計算された90^th^パーセンタイル値が次の点を考慮して1日の測定値として使用されます。</block>
+  <block id="35254eb51c71659b3cf343855354b8b1" category="list-text">指標収集時に少なくとも5つのIOPSを記録したボリュームがサンプルとみなされます。</block>
+  <block id="0e0e9d5bae73de26860af74cb8fc6ac2" category="list-text">指標収集時の書き込み処理の割合が30%を超えるボリュームはサンプルから除外されます。</block>
+  <block id="ab4c900b0e1430edc1bd09939be8859a" category="list-text">要求されたIOPS/TiBに対して、ターゲットIOPS/TiBよりも大きいAQoSによって追加されたレイテンシはサンプルから除外されます。</block>
+  <block id="565d8433df6c6c23be6de8fd7871abae" category="list-text">ボリュームあたりの最小IOPSを維持するためにAQoSで追加されたレイテンシは、サンプルから除外されています。</block>
+  <block id="f901dbc53f8dea2d74e68635ec84a298" category="list-text">FabricPoolが有効になっているボリュームの場合、ターゲット（コールド）ストレージとの間のデータの転送によって発生したレイテンシはカウントされません。</block>
+  <block id="23ca5c8d56457bbd625ff236b3c706ef" category="list-text">ONTAPクラスタの外部にあるアプリケーション、ホスト、またはお客様のネットワークが原因のレイテンシはカウントされません。</block>
+  <block id="57d56dc842f4da79392d5bc2178582dc" category="list-text">高度なデータ保護アドオンサービスを使用している場合、ターゲットレイテンシにはローカルストレージアレイとの間のIO処理のみが含まれます。</block>
+  <block id="efbd8d78a7008161e0e4f42c63d84ad6" category="list-text">24時間の間に、少なくとも10個の有効な指標を使用できる必要があります。そうでない場合、メトリックは破棄されます。</block>
+  <block id="5b8e1d393a8c6bf1b5c0be8eb268aba3" category="list-text">ストレージアレイ上の1つ以上のボリュームに有効なAQoSポリシーが適用されていない場合、他のボリュームで使用可能なIOPSの数に影響が出る可能性があり、NetAppはそのストレージアレイのパフォーマンスレベルを目標に設定したり達成したりすることはありません。</block>
+  <block id="d8ace9c4f3c105767c7ec01ce669eca3" category="list-text">FabricPool構成では、要求されたすべてのデータブロックがFabricPoolソース（ホット）ストレージにあり、ソースストレージがSnapMirror同期関係にない場合にパフォーマンスレベルが適用されます。</block>
+  <block id="711c8ebd035f0ec5d70c9afa8d3996ba" category="paragraph">ONTAPフラッシュストレージアレイでサポートされるすべてのサービスレベルは、パフォーマンスSLAの対象となり、次の目標レイテンシを保証します。</block>
+  <block id="ce8f4bd254d7fa591c64caccc3aa3eeb" category="cell">1ミリ秒未満</block>
+  <block id="101d21e523f12f01303be5acdf4141d9" category="cell">2ミリ秒未満</block>
+  <block id="65e7d97f5e59814284d01d2b0cd62581" category="cell">4ミリ秒未満</block>
+  <block id="898c79ff0b480671f7fa964d846a9316" category="paragraph">サービスレベルのレイテンシ要件の詳細については、を参照してください <block ref="7ea66a5a0ec24dd88c60fc26a094a732" category="inline-link-macro-rx"></block>。</block>
+  <block id="4528f5e882cc88c8842dcf9b1ac1b1bc" category="paragraph">NetAppは、パフォーマンスが低下した場合にサービスクレジットを発行します。</block>
+  <block id="72c2dabc519f204563247ef9d2fd1c7a" category="cell">*パフォーマンスしきい値*</block>
+  <block id="133c2090971805c26a4b7780a43a4e1f" category="paragraph">90^th ^パーセンタイルレイテンシ&gt;ターゲットレイテンシ</block>
+  <block id="1ec8365151cced34dc67c0dcce455e5e" category="cell">発生日ごとに3%</block>
+  <block id="68bff7f600a4d4bddae207bf52b8dbdb" category="paragraph">サービスクレジット=（影響を受ける容量/コミット済み容量の合計）X容量料金X影響を受ける日数Xクレジットの割合</block>
+  <block id="518fb0e9794f4b9e14b0dc061ac61fda" category="list-text">*容量料金*：Keystone注文に基づく、影響を受けるパフォーマンスレベルの料金。</block>
+  <block id="9bd7cf79d77a54ab7c62e80f778e9d2a" category="list-text">*影響日数*:影響を受けるカレンダー日数。</block>
+  <block id="b452a2e7bf15034c9bd63c001b3e6e64" category="cell">*影響を受けるカレンダーの日数*</block>
+  <block id="a22d50cab82690cbdc8113c3ff9c2076" category="cell">10TiB</block>
+  <block id="58f24a17f570c7949880710fdf616d32" category="cell">50TiB</block>
+  <block id="c81e728d9d4c2f636f067f89cc14862c" category="cell">2</block>
+  <block id="dcfe0b3ef8eb8156a5e83949c2e2f7b6" category="cell">3%</block>
+  <block id="b9ad6821bc2a0e4300b5b91ca5245476" category="paragraph">次の式を使用：サービスクレジット=（10/50）X 1000 x 2 x 0.03</block>
+  <block id="732192040cca36723308ae6b02982093" category="paragraph">計算に基づくと、サービスクレジットは12ドルになります。</block>
+  <block id="fed70707a2e768c22f4b0fc06a401786" category="summary">NetAppは、ランサムウェア攻撃が発生した場合に、Ransomware Recovery Guaranteeプログラムを使用して、SnapLock ComplianceボリュームからSnapshotデータをリカバリすることを保証します。</block>
+  <block id="30a37a729e8d5bdf11c9e3c6965f6872" category="doc">ランサムウェアリカバリ保証</block>
+  <block id="c314df61fd93029a87d16eb15b842e7d" category="paragraph">NetAppは、ランサムウェア攻撃が発生した場合に、Ransomware Recovery Guaranteeプログラムを使用して、SnapLock ComplianceボリュームからSnapshotデータをリカバリすることを保証します。NetApp Ransomware Recovery Assurance Serviceは、Ransomware Recovery保証プログラムをサポートするために必要であり、関連するKeystone注文とは別に購入する必要がある。</block>
+  <block id="99b0e05699c63fe883231037a5d59d8c" category="paragraph">Ransomware Recovery Assurance Serviceは、該当するサブスクリプション期間中、Keystoneサブスクリプションをサポートするすべてのハードウェアに対して必要である。</block>
+  <block id="28a098f372ec3073fc5e647934157274" category="paragraph">SnapLock Complianceがベストプラクティスに従って導入され、Ransomware Recovery Assuranceサービスの購入時にNetAppプロフェッショナルサービスが設定または検証を行った場合、SnapLockで保護されているデータがリカバリできない場合、NetAppはサービスクレジットを発行します。これらのクレジットの基準は次のとおりです。</block>
+  <block id="7624fb3c672dd8786b7b17fae31c1f0c" category="list-text">サービスクレジットは、今後の請求書に適用できます。クレジットは、Committed Contract Value（CCV）の10%に制限され、サブスクリプション単位で支払われます。</block>
+  <block id="edb32d0cffb273251a459f28452610a9" category="list-text">クレジットは、関連するKeystone注文のアクティブなサブスクリプション期間中に提供される。</block>
+  <block id="a5c0e3b5e544c9e98cfff04374762f87" category="list-text">月額課金制のサブスクリプションの場合、クレジットは今後12カ月間に分割され、サブスクリプション期間が終了するまでKeystoneの今後の請求書に使用できる。サブスクリプションが12カ月以内に終了した場合は、更新してクレジットを引き続き使用することも、クレジットを他のNetApp請求書に適用することもできます。</block>
+  <block id="accb4d9ec21427fc3d795090c44c8639" category="list-text">年間サブスクリプションの場合、クレジットはKeystoneの次の請求書（利用可能な場合）に適用されます。今後Keystoneの請求書がない場合は、クレジットを他のNetAppの請求書に適用できます。</block>
+  <block id="c45f003136d304ebcf90c3d9ef36e2a5" category="doc">持続可能性SLA</block>
+  <block id="8098263ee670c19264303ffd6cc934c8" category="paragraph">NetApp Keystoneは、Sustainability SLAに基づくONTAPフラッシュストレージアレイに基づき、ストレージサービスの実際のワット数（W/TiB）の最大値を保証します。持続可能性SLAでは、対象となるサービスレベルごとにW/TiBの最大消費量を定義し、組織の持続可能性目標の達成を支援します。</block>
+  <block id="864c642a56d20e6430164211b9f12588" category="list-text">*ワット*：毎日のAutoSupportから報告される電力消費量。コントローラおよび接続されているディスクシェルフによる使用量を含みます。</block>
+  <block id="fbce2f0375e75ac94f7d2ed62924d9bc" category="list-text">* Tebibyte *：最大値：</block>
+  <block id="4d3ea8c46694851a5676d28d94c2044b" category="list-text">サービスレベルのコミット済み容量+割り当て済みバースト容量、または</block>
+  <block id="359b2a968ad487e93ac13bd70001517c" category="list-text">導入されている実効容量（ストレージ効率係数をに設定した場合）<block ref="6af2d30e671ebc9deaa134b9f0a1e248" prefix=" " category="inline-code"></block>。</block>
+  <block id="7c6137cde05014e7fab83f78a553dffa" category="inline-link">容量と Storage Efficiency による削減効果を分析できます</block>
+  <block id="f113a645920e8735b32ceb02f13e8f0e" category="paragraph">ストレージ容量削減比率の詳細については、を参照してください<block ref="0b320c60938d31987498bfd27213b133" category="inline-link-rx"></block>。</block>
+  <block id="7cb67ea6d99999bbcfd14f6aaa5c5f1c" category="paragraph">持続可能性のSLAは、次の消費基準に基づいています。</block>
+  <block id="d2cd9e2adbaf4876955be264272e3e87" category="cell">* SLA基準*</block>
+  <block id="1319573781151fa1f86a29da308f602f" category="cell">*最小コミット済み容量*</block>
+  <block id="b86f7ac7010a768aee36fc0e592eceed" category="cell">* プラットフォーム *</block>
+  <block id="3c541a9c0b82dd48b86975ee394b3ee3" category="cell">8 W/TiB以下</block>
+  <block id="7d2e99b7f21ff40f996fbbab5c1d6feb" category="cell">200TiB</block>
+  <block id="72c62eae5362784360f3e531446bec41" category="cell">AFF A800およびAFF A900</block>
+  <block id="3291342846d33d69a17f1d4cdac855f0" category="cell">4 W/TiB以下</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300TiB</block>
+  <block id="0d671512d24f669e4da894030bfdf975" category="paragraph">詳細については、を参照して <block ref="5ac7feee2bb1965f2cc5b973896ee439" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="27bddf685047b887365f1db06595c078" category="paragraph">課金期間中のTiBあたりの消費量がSLAの基準を満たしていない場合、NetAppは次のようにサービスクレジットを発行します。</block>
+  <block id="ecbb890e24d251759ba476b9c893862e" category="cell">請求期間中にSLAを達成できなかった日数</block>
+  <block id="499023bc51a126935827ef29f6bd520b" category="cell">サービスクレジット</block>
+  <block id="5aebd95c292f266eb59b8073d99a7699" category="paragraph">1～2</block>
+  <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3～7</block>
+  <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
+  <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
+  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">SLAの違反が検出された場合は、Keystone Global Services and Support Center（GSSC）に優先度3（P3）のサポートチケットを発行し、Excelシートの要求に応じて以下の詳細を提供します。</block>
+  <block id="b16f882170095725eb371909f87f469f" category="paragraph">棒グラフには短時間のバーストが表示され、ズームイン機能を使用してこれらのバーストを表示できます。短期バーストが発生している場合は、対応するバーに青い点が表示され、データが消費されていない場合はX軸に直接示されます。詳細を表示するには、青い点が表示されているバーまたはX軸をクリックしたままグラフ上でカーソルをドラッグして目的の時間間隔を選択し、放して選択内容を確認します。この操作ではデータが拡大表示され、選択した間隔でそのサービスレベルで使用されている容量がより詳細に表示されます。[Reset Zoom]*ボタンをクリックすると、元のチャートビューに戻ることができます。</block>
+  <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">[Consumption Trend]タブと詳細</block>
+  <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7d38300f41bba6c7ac41d2b9c6de4c3" category="section-title">短期間のバーストに対応したズームイン機能</block>
+  <block id="adc169249aa5bb5c38a27b4a1c617bcd" category="paragraph">[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください <block ref="45b36c44a7c4fb4ef2168b619f60755c" category="inline-link-macro-rx"></block>。</block>
+  <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">Keystone STaaSのSLA</block>
+  <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">可用性</block>
+  <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">持続可能性</block>
 </blocks>
