@@ -17,6 +17,9 @@ summary: NetAppは、ランサムウェア攻撃が発生した場合に、Ranso
 NetAppは、ランサムウェア攻撃が発生した場合に、Ransomware Recovery Guaranteeプログラムを使用して、SnapLock ComplianceボリュームからSnapshotデータをリカバリすることを保証します。NetApp Ransomware Recovery Assurance Serviceは、Ransomware Recovery保証プログラムをサポートするために必要であり、関連するKeystone注文とは別に購入する必要がある。
 
 
+NOTE: SLAと保証は申請に応じて提供されます。
+
+
 
 == サービスレベル
 

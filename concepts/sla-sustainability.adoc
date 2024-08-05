@@ -17,6 +17,9 @@ summary: Sustainability、SLA、サービスレベル契約
 NetApp Keystoneは、Sustainability SLAに基づくONTAPフラッシュストレージアレイに基づき、ストレージサービスの実際のワット数（W/TiB）の最大値を保証します。持続可能性SLAでは、対象となるサービスレベルごとにW/TiBの最大消費量を定義し、組織の持続可能性目標の達成を支援します。
 
 
+NOTE: SLAと保証は申請に応じて提供されます。
+
+
 
 == 指標
 

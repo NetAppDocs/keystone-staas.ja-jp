@@ -1770,4 +1770,5 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9cda68e54ae42ad7708b87ba7d09426f" category="sidebar">Keystone STaaSのSLA</block>
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">可用性</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">持続可能性</block>
+  <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLAと保証は申請に応じて提供されます。</block>
 </blocks>
