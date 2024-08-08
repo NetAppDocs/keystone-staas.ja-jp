@@ -1496,13 +1496,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="dbc8f427883e788403672a61fd4a8b14" category="list-text">サブスクリプション番号を選択します。以前に選択したサブスクリプションにファイルストレージとオブジェクトストレージのサービスレベルが含まれていない場合は、デフォルトで最初に使用可能なサブスクリプション番号が選択されます。</block>
   <block id="8f0fe81a9b7f4cb142f2a7084f33fd88" category="inline-image-macro">[Objects]タブ</block>
   <block id="ff86b04f28e9deb882d5f8b709958474" category="paragraph"><block ref="ff86b04f28e9deb882d5f8b709958474" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="965245bd249a1410397d5d87be0a0bd2" category="paragraph">次の既知の問題が報告されています。</block>
-  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">既知の問題</block>
-  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
-  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">回避策</block>
   <block id="d3be07034d0ea358558d4e2243a27e4a" category="paragraph">AQoSポリシーの設定時にKeystone Collector管理TUIが応答しなくなる。</block>
-  <block id="be4309ed72d89f7ccd2b196827e60e87" category="paragraph">TUIでAQoSポリシーを作成しようとすると、TUIで問題が発生して応答が停止することがあります。</block>
-  <block id="1952ddeca0b71a5d88548a44205f2c9f" category="paragraph">NetAppサポートにお問い合わせください。</block>
   <block id="e358ee99bcdc82fedabffa4fe9dda483" category="section-title">2024/07/10</block>
   <block id="fff7af8a2fab8d84dd9f7858aff6d7d9" category="section-title">ラベルの変更</block>
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">ラベル* Current Usage *が* Current Consumption *に変更され、* Capacity Trend *が* Consumption Trend *に変更されます。</block>
@@ -1771,4 +1765,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="faeaec9eda6bc4c8cb6e1a9156a858be" category="sidebar">可用性</block>
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">持続可能性</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLAと保証は申請に応じて提供されます。</block>
+  <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024/08/07</block>
+  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">現時点で既知の問題はありません。</block>
 </blocks>
