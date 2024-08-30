@@ -550,7 +550,6 @@
   <block id="c52919f8e1a989864d933795a6103494" category="paragraph">Keystoneコレクタソフトウェアの更新と使用状況のレポート</block>
   <block id="0dc1066c9360d7e2bbaf4bb6e9c5ebe1" category="paragraph">ネットアップHQによる請求情報とAutoSupport の提供</block>
   <block id="2f0d22e6971fda1cbc3411961fec8360" category="doc">仮想インフラの要件</block>
-  <block id="080838bb01c5d3b3c97a54a92d98023d" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.5以降</block>
   <block id="a1c9c4a1979d4de63c959aa0eb8db228" category="doc">VMware vSphereシステムにKeystone Collectorを導入する</block>
   <block id="5636c5e292ad15c979ccdf35d4ddd63f" category="paragraph">VMware vSphereシステムにKeystone Collectorを導入するには、OVAテンプレートをダウンロードし、* Deploy OVF Template *ウィザードを使用してテンプレートを導入し、証明書の整合性を確認し、VMの準備状況を確認します。</block>
   <block id="9f42f344107d0334c53b7214197ab946" category="section-title">OVAテンプレートを導入します</block>
@@ -1794,4 +1793,5 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">ポリシー作成に関するエラーメッセージを表示するTUI画面</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">選択したサービスレベルのPSLが指定したActive IQ Unified Mangerサーバにすでに存在する場合、再度作成することはできません。これを実行しようとすると、エラーメッセージが表示されます。 <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
 </blocks>
