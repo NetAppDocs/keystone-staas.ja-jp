@@ -1794,4 +1794,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">ポリシー作成に関するエラーメッセージを表示するTUI画面</block>
   <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">選択したサービスレベルのPSLが指定したActive IQ Unified Mangerサーバにすでに存在する場合、再度作成することはできません。これを実行しようとすると、エラーメッセージが表示されます。 <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
+  <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">日付範囲を選択する*開始日*フィールドには、*消費トレンド*タブに移動すると、デフォルトで将来の日付が表示されます。</block>
+  <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024/09/04</block>
 </blocks>
