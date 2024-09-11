@@ -14,6 +14,8 @@ indexpage:
       url: "/installation/vapp-installation.html"
     - title: LinuxへのKeystone Collectorのインストール
       url: "/installation/linux-installation.html"
+    - title: Keystone Collectorをプライベートモードでインストールする
+      url: "/dark-sites/overview.html"
     - title: Digital Advisorで使用状況を確認
       url: "/integrations/keystone-aiq.html"
     - title: 消費状況のレポートを生成

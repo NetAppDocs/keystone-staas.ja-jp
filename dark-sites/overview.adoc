@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: dark-sites/overview.html 
+keywords: keystone, dark, site, staas, security, deployment, collector, encryption, access 
+summary: Keystoneでは、ビジネス要件とセキュリティ要件を満たすために、_private_deploymentモード（_dark site_とも呼ばれます）が用意されています。 
+---
+= Keystoneの詳細（プライベートモード）
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystoneでは、ビジネス要件とセキュリティ要件を満たすために、_private_deploymentモード（_dark site_とも呼ばれます）が用意されています。このモードは、接続が制限されている組織で使用できます。
+
+NetAppは、インターネット接続が制限されている、またはまったく接続されていない環境（ダークサイトとも呼ばれる）に特化したKeystone STaaS環境を提供します。これらは、セキュリティ、コンプライアンス、または運用上の要件のために外部との通信が制限されている、セキュアまたは分離された環境です。
+
+NetApp Keystoneでダークサイト向けにサービスを提供するということは、これらの環境の制約を考慮してKeystoneの柔軟なストレージサブスクリプションサービスを提供することを意味します。具体的には、
+
+* *ローカル導入*：Keystoneは分離された環境内で個別に設定できるため、セットアップアクセスのためにインターネット接続や外部の担当者が必要ありません。
+* *オフライン操作*：健全性チェックおよび課金機能を備えたすべてのストレージ管理機能をオフラインで操作できます。
+* *セキュリティとコンプライアンス*：Keystoneは、高度な暗号化、セキュアなアクセス制御、詳細な監査機能など、ダークサイトのセキュリティとコンプライアンスの要件を満たしていることを確認します。
+* *ヘルプとサポート*：NetAppは24時間体制のグローバルサポートを提供し、Keystoneサクセスマネージャーを各アカウントに割り当ててサポートとトラブルシューティングを提供します。
+
+
+
+NOTE: Keystone Collectorは、接続を制限せずに設定できます（_STANDARD_MODEとも呼ばれます）。詳細については、を参照して link:../installation/installation-overview.html["Keystone Collectorの詳細"]ください。
+
+
+
+== Keystone Collector（プライベートモード）
+
+Keystone Collectorは、ストレージシステムから使用状況データを定期的に収集し、オフラインの使用状況レポートとローカルのファイルストアに指標をエクスポートします。生成されたファイルは、暗号化された形式とプレーンテキスト形式の両方で作成され、検証チェック後にユーザーによって手動でNetAppに転送されます。受領後、NetAppのKeystone課金プラットフォームがこれらのファイルを認証および処理し、請求およびサブスクリプション管理システムに統合して月額料金を計算します。
+
+image:dark-sites-diagram-computer-system.png["コンピュータシステムの図"]
+
+サーバ上のKeystone Collectorサービスは、使用状況データを定期的に収集し、この情報を処理して、サーバ上でローカルに使用状況ファイルを生成します。ヘルスサービスは、システムのヘルスチェックを実施し、お客様が使用するヘルスモニタリングシステムと連携するように設計されています。これらのレポートはユーザがオフラインでアクセスできるため、問題の検証やトラブルシューティングに役立ちます。
+
+image:dark-sites-customer-premise.png["お客様の前提条件"]

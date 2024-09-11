@@ -125,6 +125,18 @@ sidebar:
       url: "/concepts/sla-sustainability.html"
     - title: ランサムウェアリカバリ保証
       url: "/concepts/sla-ransomware.html"
+  - title: Keystone（プライベートモード）
+    entries:
+    - title: 概要
+      url: "/dark-sites/overview.html"
+    - title: 設置を準備
+      url: "/dark-sites/requirements.html"
+    - title: Keystone Collectorをインストールします
+      url: "/dark-sites/install-collector.html"
+    - title: Keystoneコレクタを設定する
+      url: "/dark-sites/configure-collector.html"
+    - title: Keystone Collectorの健全性を監視する
+      url: "/dark-sites/monitor.html"
   - title: 課金
     entries:
     - title: Keystoneの価格設定
