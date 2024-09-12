@@ -137,6 +137,18 @@ sidebar:
       url: "/dark-sites/configure-collector.html"
     - title: Keystone Collectorの健全性を監視する
       url: "/dark-sites/monitor.html"
+  - title: Digital Advisor REST APIからKeystoneにアクセス
+    entries:
+    - title: Digital Advisor REST APIを使用したKeystoneデータの取得を開始する
+      url: "/rest-api/retrieve-keystone-data-with-digital-advisor-rest-api.html"
+    - title: 更新トークンとアクセストークンの生成
+      url: "/rest-api/generate-tokens.html"
+    - title: Digital Advisor REST APIを使用しているすべてのお客様のリストを取得する
+      url: "/rest-api/get-customer-list.html"
+    - title: Digital Advisor REST APIを使用してお客様のサブスクリプションを取得
+      url: "/rest-api/get-customer-subscriptions.html"
+    - title: Digital Advisor REST APIを使用してお客様の消費情報を取得
+      url: "/rest-api/get-customer-consumption.html"
   - title: 課金
     entries:
     - title: Keystoneの価格設定

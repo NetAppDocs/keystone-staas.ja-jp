@@ -1,0 +1,172 @@
+---
+sidebar: sidebar 
+permalink: rest-api/get-customer-consumption.html 
+keywords: api, consumption, subscriptions, customerID, keystone 
+summary: このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費の詳細を取得します。 
+---
+= Digital Advisor REST APIを使用してお客様の消費情報を取得
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費の詳細を取得します。
+
+*リクエスト：*
+
+[cols="24%,76%"]
+|===
+
+
+| * メソッド * | 取得 
+
+
+| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details[] 
+
+
+| * パラメータ *  a| 
+* タイプ："customer"
+* ID：<customer-id>
+
+
+
+
+| *ヘッダー*  a| 
+* 承認：application/json
+* AuthorizationToken:<access_key>
+
+
+|===
+*応答:* APIは、指定された顧客の現在のサービス使用状況メトリックを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。
+
+[listing]
+----
+{
+"result":  {
+"returned_records": "string",
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "string",
+"end_date": "string"
+},
+"service_levels": [
+{
+"name": "string",
+"committed_tib": "string",
+"consumed_tib": "string",
+"consumed_timestamp_utc": "string",
+"burst_tib": "string",
+"accrued_burst_tib": "string"
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+----
+*ステータスコード*:200–要求に成功しました
+
+*カールの例*：
+
+[source, curl]
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----
+
+
+== お客様の消費履歴の詳細を取得する
+
+このAPIは、指定された時間範囲に従って、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの消費履歴の詳細を取得します。
+
+*リクエスト：*
+
+[cols="24%,76%"]
+|===
+
+
+| * メソッド * | 取得 
+
+
+| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details[] 
+
+
+| * パラメータ *  a| 
+* タイプ："customer"
+* ID：<customer-id>
+* FROM_DATE_UTC：<開始日（RFC3339形式）>
+* TO_DATE_UTC：<終了日（RFC3339形式）>
+
+
+
+
+| *ヘッダー*  a| 
+* 承認：application/json
+* AuthorizationToken:<access_key>
+
+
+|===
+*回答：*
+
+APIは、選択した期間内の特定の顧客のサービス使用状況の履歴メトリクスを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。
+
+[listing]
+----
+{
+"results":  {
+"returned_records": 0,
+"records": [
+{
+"subscription":  {
+"account_name": "string",
+"number": "string",
+"start_date": "2023-08-24T14:15:22Z",
+"end_date": "2023-08-24T14:15:22Z"
+},
+"service_levels": [
+{
+"name": "string",
+"historical_consumption": [
+{
+"committed_tib": 0,
+"consumed_tib": 0,
+"timestamp_utc": "2023-08-24T14:15:22Z",
+"burst_tib": 0,
+"accrued_burst_tib": 0,
+"is_invoiced": true
+}
+]
+}
+]
+}
+],
+"request_parameters":  {
+"from_date_utc": "2023-08-24",
+"to_date_utc": "2023-08-24",
+"customer_id": "string"
+},
+"request_id": "string",
+"response_time": "string",
+"customer":  {
+"name": "string",
+"id": "string"
+}
+}
+}
+----
+*ステータスコード*:200–要求に成功しました
+
+*カールの例*：
+
+[source, curl]
+----
+curl -X 'GET' \ 'https://api.activeiq-stg.netapp.com/v1/keystone/customer/historical-consumption-details? type=customer&id=<customerID>&from_date_utc=2023-08-24T14%3A15%3A22Z&t _date_utc=2023-08-24T14%3A15%3A22Z' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----

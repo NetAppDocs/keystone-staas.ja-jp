@@ -1,0 +1,94 @@
+---
+sidebar: sidebar 
+permalink: rest-api/generate-tokens.html 
+keywords: Refresh token, AIQ Digital Advisor portal,access 
+summary: リフレッシュトークンは、プログラムによって新しいアクセストークンのセットを取得するために使用され、1週間または新しいトークンのセットを取得するために使用されるまで有効です。 
+---
+= 更新トークンとアクセストークンの生成
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+リフレッシュトークンは、プログラムによって新しいアクセストークンのセットを取得するために使用され、1週間または新しいトークンのセットを取得するために使用されるまで有効です。
+
+Digital Advisorポータルを使用してリフレッシュトークンを生成する手順は次のとおりです。
+
+.  https://aiq.netapp.com/api["Digital Advisorポータル"]NetAppクレデンシャルを使用してにログインし、*[トークンの生成]*を選択します。
++
+image:rest-api-aiq-portal.png["Digital Advisorポータルを使用してリフレッシュトークンを生成する手順"]
+
++
+
+NOTE: 初めてのユーザーの場合、* Generate Tokens *オプションを使用できない場合は、* Register *を選択して承認リクエストを送信します。登録フォームに必要事項を入力して、機能を有効にします。
+
+. アクセストークンとリフレッシュトークンが生成されます。更新トークンを信頼できるプラットフォームに保存します。
++
+
+NOTE: ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。
+
++
+image:rest-api-token-types.png["トークンの種類"]
+
+
+
+
+
+== Digital Advisor REST APIを使用したアクセストークンの生成
+
+アクセストークンは、Digital Advisor API要求の認証に使用されます。更新トークンと一緒にコンソールから直接生成するか、次のAPI呼び出しを使用して生成できます。
+
+*リクエスト：*
+
+[cols="41%,59%"]
+|===
+
+
+| * メソッド * | 投稿 
+
+
+| *エンドポイント* | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+
+
+| *ヘッダー*  a| 
+* 承認：application/json
+* Content-Type：application/json
+
+
+
+
+| *リクエスト本文*  a| 
+｛"refresh_token"："refresh_token"<refresh-token>｝
+
+|===
+
+NOTE: このエンドポイントにアクセスするには、Digital Advisorの管理用Privilegesが必要です。
+
+*回答：*
+
+APIは、アクセストークンとリフレッシュトークンをJSON形式で応答として返します。
+
+[listing]
+----
+{
+"refresh_token": "string",
+"access_token": "string"
+}
+----
+*ステータスコード*:200–要求に成功しました
+
+*カールの例*：
+
+[source, curl]
+----
+curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'accept: application/json' \ -H 'Content-Type: application/json' \ -d ' { "refresh_token": "<refresh-token>" }'
+----
+
+
+== API呼び出しを実行する
+
+アクセストークンが正常に生成されたら、必要な情報に対して承認されたDigital Advisor API呼び出しを実行できます。

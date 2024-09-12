@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: rest-api/get-customer-subscriptions.html 
+keywords: subscriptions, service levels, customer IDs, keystone, api 
+summary: このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。 
+---
+= Digital Advisor REST APIを使用してお客様のサブスクリプションを取得
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。
+
+*リクエスト：*
+
+[cols="24%,76%"]
+|===
+
+
+| * メソッド * | 取得 
+
+
+| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info[] 
+
+
+| * パラメータ *  a| 
+* タイプ："customer"
+* ID：<customer-id>
+
+
+
+
+| *ヘッダー*  a| 
+* 承認：application/json
+* AuthorizationToken:<access_key>
+
+
+|===
+*回答：*
+
+APIは、特定の顧客のすべてのサブスクリプションと関連するサービスレベルの詳細のリストを含むJSONオブジェクトで応答します。以下に回答例を示します。
+
+[listing]
+----
+[
+{
+"results": {
+"returned_records": 0,
+"records": [
+{
+"subscription": {
+"account_name": "string",
+"number": "string",
+"start_date": "2024-05-28T15:47:49.254Z",
+"end_date": "2024-05-28T15:47:49.255Z"
+},
+"service_levels": [
+{
+"name": "string",
+"committed_tib": 0
+}
+]
+}
+],
+"request_id": "string",
+"response_time": "string"
+}
+}
+]
+----
+*ステータスコード*:200–要求に成功しました
+
+*カールの例*：
+
+[source, curl]
+----
+curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info?type=customer&id=<customerID>' \ -H 'accept: application/json' \ -H 'authorizationToken: <access-key>'
+----

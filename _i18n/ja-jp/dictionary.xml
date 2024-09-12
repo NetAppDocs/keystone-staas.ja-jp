@@ -82,7 +82,6 @@
   <block id="18b8a063bbf57f20dcdbb6f12a9dc0e9" category="section-title">SnapMirror デスティネーションについての請求</block>
   <block id="c73be2f2aaeb82cecf852c49f3ea4cce" category="section-title">LUN の請求</block>
   <block id="cb1713b138a78b69b1922aa45131c2df" category="list-text">LUN のサイズは、その LUN に関連付けられているサービスレベルに基づいて消費されます。</block>
-  <block id="a0426b9dc757c80060e1b3657daf68d2" category="list-text">ボリュームに設定されているサービスレベルの QoS ポリシーに基づいて、ボリュームの残りのスペースがある場合はそのスペースに基づいて料金が発生します。</block>
   <block id="1eba80d57d3138b5dae3b976f061f9d9" category="section-title">システムボリュームとルートボリューム</block>
   <block id="3655e8bb18b4941a3bf9ce392c24bbb4" category="paragraph">システムボリュームとルートボリュームは、Keystoneサービスの全体的な監視の一環として監視されますが、カウントされたり課金されることはありません。これらのボリュームの消費は、請求から除外されます。</block>
   <block id="8ae2f411abd3cc165322ca02f81cde27" category="summary">KeystoneとEquinixを提供</block>
@@ -329,8 +328,6 @@
   <block id="b6b6ef9bcccde24a7790b0a3093601da" category="paragraph">Extremeサービスレベルの設定とコマンド：</block>
   <block id="0a32480150714670b636bea04f9ef2a1" category="paragraph">パフォーマンスサービスレベルの設定とコマンド：</block>
   <block id="536a21a9808fc714076b198f94a4a506" category="paragraph">ONTAP System Manager（System Manager）またはActive IQ Unified Manager （Unified Manager）を使用してクラスタを監視する場合は、ツールとKeystoneで報告される使用量との間に不一致が生じることがあります。System ManagerとUnified Managerでは、ミラーリングされた（リモートの）クラスタにボリュームが報告されません。報告されるのは、Keystoneサービスから報告される消費指標の半分です。</block>
-  <block id="34331c74c5db43631e74f0ed21504ce2" category="paragraph">SnapMirrorデスティネーションボリュームの料金は、ソースで割り当てられているサービスレベルのQoSポリシーによって決まります。ただし、ソースに QoS ポリシーが関連付けられていない場合、デスティネーションには、利用可能な最小のサービスレベルに基づいて課金されます。</block>
-  <block id="0d128bf188abd70ede35e6c24063c36b" category="paragraph">LUNの場合は、QoSポリシーが適用されるボリュームと同じ請求パターンが適用されます。LUN に個別の QoS ポリシーが設定されている場合は、次の手順を実行します。</block>
   <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">容量削減（年間）は、Advanceペイメントモデルの_年間およびオンプレミスのみの導入に適用されます。クラウド サービス またはハイブリッド クラウド サービス では使用できません。オンプレミスの容量をプロビジョニングできるため、サブスクリプションあたりサービスレベルを最大25%削減できます。この削減は、毎年1回、次の年間請求期間の開始時に有効にすることができます。サービスベースのオンプレミス年間支払い額は、容量削減を活用するために、いつでも2万ドル以上になるはずです。オンプレミス環境でのみサポートされるため、この課金モデルでは、オンプレミス環境から クラウド サービス 環境への支出に再割り当ては行われません。次の図に、年間容量削減の例を示します。</block>
   <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">契約期間が1年、2年、または3年のサブスクリプションにのみ適用されます。</block>
   <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">再割り当ての申請は、お客様またはパートナーが正式にKeystone Success Manager（KSM）に提出する必要があります。少なくとも1週間は次回の請求サイクルの前に実施してください。</block>
@@ -603,7 +600,6 @@
   <block id="7448ec74d1e6091b2ad38508ebdc37f4" category="section-title">Standardサービスレベルの設定</block>
   <block id="f20f6fc30a0b0f9782dbad2fdc8d1694" category="paragraph">Standardサービスレベルの設定とコマンド：</block>
   <block id="5cd7d5370bb2b4b9a46af59b9c5c279e" category="paragraph">値サービスレベルの設定とコマンド：</block>
-  <block id="31dc6a9375ebd13745edd88d9ad398fa" category="paragraph">Keystoneは、サービスレベルに基づいて消費量を測定します。各サービスレベルは、特定のアダプティブQoSポリシーに関連付けられます。導入時に、サブスクライブしたKeystoneサービスの各QoSポリシーの詳細が通知されます。ストレージ管理処理中に、予期しない課金を避けるために、ボリュームにサブスクライブしたサービスレベルに従って適切なQoSポリシーが割り当てられていることを確認してください。ONTAP の QoS ポリシーの詳細については、を参照してください <block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>。</block>
   <block id="6ee89d6c0a15491675b7cc32e34a211d" category="list-text">*ギビバイト（GiB）、テビバイト（TiB）、およびピビバイト（PiB）での容量測定*：1024進数（1GiB = 1024^3^バイト、1TiB = 1024^4^バイト、1PiB = 1024^5^バイト）を使用したデータストレージ容量の測定値。</block>
   <block id="d634acbcc57e75a34f7ef2ecf60eb69c" category="list-text">バースト時の容量は、Keystone契約で合意されます。この値は通常、コミット済み容量を20%上回るように設定され、コミット済み容量と同じ速度で充電されます。</block>
   <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">をダウンロードします<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> ファイル：<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
@@ -1927,4 +1923,74 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="d94b27c65b00f48ddf2590d54d34311d" category="list-text">Keystone Collectorは、インターネットにアクセスできない組織（_dark site_or_private mode_とも 呼ばれます）用に設定できます。の詳細については、を参照して<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>ください。</block>
   <block id="70746148197a1842a9455cddc0c18adc" category="paragraph">Keystone Collectorは、接続に制限がなく機能する_STANDARD_MODEまたは接続に制限がある組織向けに設計された_PRIVATE_MODEのいずれかで設定できます。Keystone Collectorを標準モードでインストールするには、を参照してください<block ref="a9306132ed6aac4cbc6f1e3f3feb8703" category="inline-link-macro-rx"></block>。プライベートモードについては、を参照してください<block ref="a6faf1739dac35fa9b42259f2ec27ee2" category="inline-link-macro-rx"></block>。</block>
   <block id="67f289221dc2b8315be57c85a28e0619" category="sidebar">設置を準備</block>
+  <block id="5e2de39ee27d191717827ce53298c90c" category="paragraph">Keystoneは、サービスレベルに基づいて消費量を測定します。各サービスレベルは、特定のアダプティブQoSポリシーに関連付けられます。導入時に、サブスクリプションしたKeystoneサービスの各アダプティブQoSポリシーの詳細が通知されます。予期しない課金を回避するために、ストレージ管理処理の実行中は、サブスクライブしたサービスレベルごとに適切なアダプティブQoSポリシーがボリュームに割り当てられていることを確認してください。ONTAPのアダプティブQoSポリシーの詳細については、を参照してください<block ref="c361ea29a8da4892d7ebbf6b7b42594c" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3f67b6d739086a60e5e83a06fc9385a" category="paragraph">SnapMirrorデスティネーションボリュームの価格設定は、ソースで割り当てられたサービスレベルのアダプティブQoSポリシーによって管理されます。ただし、ソースにアダプティブQoSポリシーが関連付けられていない場合は、使用可能な最も低いサービスレベルに基づいてデスティネーションに課金されます。</block>
+  <block id="48a2e47bd08859aaadb33439caee37ab" category="paragraph">LUNの場合は、アダプティブQoSポリシーで管理されるボリュームの場合と同じ課金パターンが適用されます。複数のLUNに別 々 のアダプティブQoSポリシーが設定されている場合：</block>
+  <block id="6490b5d86d9c2c555b3e5beda0a2a9d5" category="list-text">ボリューム内の残りのスペースがある場合は、そのボリュームで設定されているサービスレベルのアダプティブQoSポリシーに基づいて課金されます。</block>
+  <block id="9204b645e4eea2a02754c156cfd9e1a6" category="summary">リフレッシュトークンは、プログラムによって新しいアクセストークンのセットを取得するために使用され、1週間または新しいトークンのセットを取得するために使用されるまで有効です。</block>
+  <block id="145b307d4ba69aec19da1f45298d0331" category="doc">更新トークンとアクセストークンの生成</block>
+  <block id="927b8562aa4139e861d75cb3b52989c0" category="paragraph">Digital Advisorポータルを使用してリフレッシュトークンを生成する手順は次のとおりです。</block>
+  <block id="6000572c108dfa296d55e1b66e617881" category="inline-link">Digital Advisorポータル</block>
+  <block id="65b626e7fc3c2a629d8173445c374939" category="list-text"><block ref="68e1c8d460b05c6b3487ddd972231b8a" category="inline-link-rx"></block>NetAppクレデンシャルを使用してにログインし、*[トークンの生成]*を選択します。</block>
+  <block id="84a0716e9996908ee6c3f7844b40f16e" category="inline-image-macro">Digital Advisorポータルを使用してリフレッシュトークンを生成する手順</block>
+  <block id="38ddf21c7008008f5756c8d45f73e98d" category="paragraph"><block ref="38ddf21c7008008f5756c8d45f73e98d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2eab0ef2787046e5ca1a37a551a84a52" category="admonition">初めてのユーザーの場合、* Generate Tokens *オプションを使用できない場合は、* Register *を選択して承認リクエストを送信します。登録フォームに必要事項を入力して、機能を有効にします。</block>
+  <block id="dfafc53dc163bc9e881aaefa4141b99b" category="list-text">アクセストークンとリフレッシュトークンが生成されます。更新トークンを信頼できるプラットフォームに保存します。</block>
+  <block id="99a9cfa523a42e23621796dfca6edb0a" category="admonition">ポータルでは、 1 つまたは両方のトークンを複数の方法でセットに保存できます。クリップボードにコピーしたり、テキストファイルとしてダウンロードしたり、プレーンテキストで表示したりすることができます。</block>
+  <block id="0c985b7de8ddbf36c9ba269c6fa7d19d" category="inline-image-macro">トークンの種類</block>
+  <block id="e1b9a61b4bf198d118cecea54ef50f05" category="paragraph"><block ref="e1b9a61b4bf198d118cecea54ef50f05" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="76acfd7cc1462b0cb95165dff3d80956" category="section-title">Digital Advisor REST APIを使用したアクセストークンの生成</block>
+  <block id="3bec9bdc64ea5ba7cdaa6b6cbcced8c1" category="paragraph">アクセストークンは、Digital Advisor API要求の認証に使用されます。更新トークンと一緒にコンソールから直接生成するか、次のAPI呼び出しを使用して生成できます。</block>
+  <block id="44ca1d23512f6b8b70e799213f0aa0cd" category="paragraph">*リクエスト：*</block>
+  <block id="28ed9b5b5df5d633073f9cca1d10bee9" category="cell">* メソッド *</block>
+  <block id="a02439ec229d8be0e74b0c1602392310" category="cell">投稿</block>
+  <block id="55322ba3b4cd3b7782949a6debd00e1c" category="cell">*エンドポイント*</block>
+  <block id="111ffa9d375a47f985e5a930df93acad" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" category="inline-link-rx"></block></block>
+  <block id="904069365b298cc4d7103f93cb31dbfc" category="cell">*ヘッダー*</block>
+  <block id="542ec3d8c98f371802d8fd77096ac7b2" category="list-text">承認：application/json</block>
+  <block id="30de7c9b045a8fbe02ed2b9d4ffe4425" category="list-text">Content-Type：application/json</block>
+  <block id="b7fa10c6a4149a93a4eaaba61e0f23e1" category="cell">*リクエスト本文*</block>
+  <block id="13bdfec6f8b9e7cc7abb43fab0b6b384" category="paragraph">｛"refresh_token"："refresh_token"&lt;refresh-token&gt;｝</block>
+  <block id="7893264e0d59291df9deafb0e9f1b841" category="admonition">このエンドポイントにアクセスするには、Digital Advisorの管理用Privilegesが必要です。</block>
+  <block id="49fdcb561eb10ce1bc7df051ca7f8d08" category="paragraph">*回答：*</block>
+  <block id="746b4a10356112a607ace0b2038463aa" category="paragraph">APIは、アクセストークンとリフレッシュトークンをJSON形式で応答として返します。</block>
+  <block id="fb024c1026b3468fe6493e58895bb1d2" category="paragraph">*ステータスコード*:200–要求に成功しました</block>
+  <block id="c1243520ab8986b01d2c43fb104c0bce" category="paragraph">*カールの例*：</block>
+  <block id="da50043d1f7c61447ab36e5a81e7ab67" category="section-title">API呼び出しを実行する</block>
+  <block id="ffc141c1c95ba83a77683a29e2e3c158" category="paragraph">アクセストークンが正常に生成されたら、必要な情報に対して承認されたDigital Advisor API呼び出しを実行できます。</block>
+  <block id="60da99bd88f7966b796873420df2f1c3" category="summary">このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費の詳細を取得します。</block>
+  <block id="8bc9e7b2eb702a14a34a24bcc32c172d" category="doc">Digital Advisor REST APIを使用してお客様の消費情報を取得</block>
+  <block id="7528035a93ee69cedb1dbddb2f0bfcc8" category="cell">取得</block>
+  <block id="41d2da547ce3e763f6eead2948c7bce6" category="cell">*エンドポイント*</block>
+  <block id="7390986cba8738a130d09a1ae8c7619d" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" category="inline-link-rx"></block></block>
+  <block id="ff42ec92d6bd64c6ab6d1f0800017eef" category="cell">* パラメータ *</block>
+  <block id="5ee9048a2df6bae318564eb60313820f" category="list-text">タイプ："customer"</block>
+  <block id="b6fcb149db1c33db8b3446e2f7582d90" category="list-text">ID：&lt;customer-id&gt;</block>
+  <block id="630edeee8eb5e603fd6d970a407a9c25" category="list-text">AuthorizationToken:&lt;access_key&gt;</block>
+  <block id="3d19254bb03e315d634fc0986c9eb4f0" category="paragraph">*応答:* APIは、指定された顧客の現在のサービス使用状況メトリックを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
+  <block id="d3f7bd75a02cbe1c2370c78a86417b77" category="section-title">お客様の消費履歴の詳細を取得する</block>
+  <block id="aa781d0910bba8a0c595fe9b0cd9d3b8" category="paragraph">このAPIは、指定された時間範囲に従って、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの消費履歴の詳細を取得します。</block>
+  <block id="1c706be136f0541b294fcc885fde1a63" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" category="inline-link-rx"></block></block>
+  <block id="72ce780c61cc8fc26c3fc393d965f9b7" category="list-text">FROM_DATE_UTC：&lt;開始日（RFC3339形式）&gt;</block>
+  <block id="d4232bc3d79f7c2651bc3b089aa822c1" category="list-text">TO_DATE_UTC：&lt;終了日（RFC3339形式）&gt;</block>
+  <block id="eb53e4bff92730b260ff2452a158fac7" category="paragraph">APIは、選択した期間内の特定の顧客のサービス使用状況の履歴メトリクスを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
+  <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">このAPIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。</block>
+  <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">Digital Advisor REST APIを使用しているすべてのお客様のリストを取得する</block>
+  <block id="b6c5a11b232c98606fb9ada3ec62627d" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" category="inline-link-rx"></block></block>
+  <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">APIは、顧客名とそれぞれのIDのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
+  <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。</block>
+  <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">Digital Advisor REST APIを使用してお客様のサブスクリプションを取得</block>
+  <block id="bb50b1b9a7f23ddec00f27c428c363f2" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" category="inline-link-rx"></block></block>
+  <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">APIは、特定の顧客のすべてのサブスクリプションと関連するサービスレベルの詳細のリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
+  <block id="4add8177bc48d8ace8e3bcec902454ad" category="summary">NetApp Keystone ActiveIQデジタルアドバイザAPIは、Keystoneサービスの詳細や指標を取得するためのプログラム化されたインターフェイスを提供します。</block>
+  <block id="0a076b1454da01faf38e4805c15570ee" category="doc">Digital Advisor REST APIを使用したKeystoneデータの取得を開始する</block>
+  <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">Digital Advisor REST APIは、Keystoneのサブスクリプションと消費の詳細を取得するためのプログラム化されたインターフェイスを提供します。</block>
+  <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">Digital Advisor REST APIを操作するワークフローの大まかな手順は次のとおりです。</block>
+  <block id="6c0397360aa8b37bbbe1fa3a38744674" category="inline-link">Digital Advisorにログインします。</block>
+  <block id="cb2ea5f9df257b4df0243d4cf9e535bf" category="list-text">Digital Advisorアカウントを設定します。デジタルアドバイザにログインするには、有効なNetAppサポートサイトのクレデンシャルが必要です。詳細については、<block ref="f7709f12f686047b8295b5977c1d6d33" category="inline-link-rx"></block></block>
+  <block id="d99ad2d9a576f68ae4b88fb369c0150d" category="list-text">2段階認証プロセスを理解します。</block>
+  <block id="10a330e0acf4a6c5af02e22d7528123d" category="list-text">*リフレッシュトークンの生成*:リフレッシュトークンは、デジタルアドバイザコンソールからNetAppクレデンシャルを使用して取得されます。このトークンは、繰り返しログインすることなく継続的にアクセスできるようにするために使用されます。</block>
+  <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*アクセストークンの生成*:リフレッシュトークンは、アクセストークンの生成に使用されます。KeystoneサービスへのAPI呼び出しを許可するにはアクセストークンが必要で、有効期間は1時間です。</block>
+  <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">API呼び出しを実行して、目的のデータを取得します。顧客のリスト、顧客サブスクリプションデータ、および顧客消費の詳細をプログラムで取得できます。</block>
+  <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Digital Advisor REST APIからKeystoneにアクセス</block>
 </blocks>
