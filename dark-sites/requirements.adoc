@@ -30,7 +30,7 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 == Linuxノヨウケン
 
-* オペレーティングシステム：Debian V12またはRed Hat Enterprise Linux 8.6以降
+* オペレーティングシステム：Debian V12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン
 * コア：2 CPU
 * RAM ： 4GB
 * ディスク容量：50GBのvDisk

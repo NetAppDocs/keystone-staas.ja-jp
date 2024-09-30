@@ -65,7 +65,7 @@ Keystone CollectorとAIOpsソリューションゲートウェイを導入する
 Keystone Collectorは、次の方法で導入できます。
 
 * VMware OVAテンプレート（VMware vCenter Server 6.7以降が必要）
-* お客様がRed Hat Enterprise Linux 7 / 8またはCentOS 7 Linuxサーバを導入した。Keystoneソフトウェアは、を使用してインストールします `.rpm` インストールプロセス。
+* お客様が、Red Hat Enterprise Linux 8.6以降の8.xバージョンまたはCentOS 7で実行されているLinuxサーバを用意しておきます。Keystoneソフトウェアは、インストールプロセスでインストールされ `.rpm`ます。
 
 
 AIOps解決策 ゲートウェイは次の構成で導入されます。
@@ -84,12 +84,7 @@ AIOps解決策 ゲートウェイは次の構成で導入されます。
 
 === ネットワーキング
 
-Keystone CollectorおよびAIOpsソリューションゲートウェイの運用とメンテナンスのために、次のサービスへのアウトバウンドアクセスが必要になります。
-
-* support.netapp.com（使用状況データのアップロード）
-* keystone.netapp.com（ソフトウェアアップデート）
-* hub.docker.io（ソフトウェアアップデート）
-
+Keystone CollectorとNetAppソリューションゲートウェイの運用とメンテナンスに不可欠な、ソフトウェアの更新と使用状況データのアップロードには、_keystone.AIOps .com_へのアウトバウンドアクセスが必要です。
 
 お客様の要件や使用しているストレージコントローラによっては、ネットアップはお客様のサイトで10GB、40GB、100GBの接続を提供できます。
 

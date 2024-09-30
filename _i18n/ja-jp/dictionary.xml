@@ -29,8 +29,6 @@
   <block id="bbc2d665b02dc421c5c756db4b973610" category="list-text">Microsoft Hyper-V</block>
   <block id="e05386baa04fdb8086234b221371bac1" category="list-text">Kernel-based Virtual Machine（Linux KVM）</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">ネットワーキング</block>
-  <block id="6a289655b3295fc9e844e417d89ad1d9" category="list-text">support.netapp.com（使用状況データのアップロード）</block>
-  <block id="ebe9aca07858175421a1a9356e13ef73" category="list-text">hub.docker.io（ソフトウェアアップデート）</block>
   <block id="bc9ce1a2001f13d5a3489030a7b630e9" category="paragraph">ネットアップは、ネットアップが提供するインフラデバイス専用に必要なトランシーバを提供します。お客様のデバイスに必要なトランシーバを提供し、ネットアップが提供するKeystoneインフラデバイスにケーブル接続する必要があります。</block>
   <block id="d701dcea67fd884a29f39c9adfdeb8bf" category="section-title">リモートアクセスの要件</block>
   <block id="8ae3d79d3f1b6cb3022dbfb96c477b67" category="doc">NetApp Keystone の詳細をご覧ください</block>
@@ -488,7 +486,6 @@
   <block id="963d08ca263f6cd538d14c2e7f2ec229" category="inline-link">Unified Manager を再開しています</block>
   <block id="f0534e91aef6ef17323964d9d72a8ced" category="inline-link">Unified Manager 仮想マシンを再起動しています</block>
   <block id="ec42ecd035e3697033aaf0a3f87f6d29" category="doc">Linuxシステムの要件</block>
-  <block id="29bc7d9ab3c94b603834dbbd074f9667" category="list-text">オペレーティングシステム：CentOS 7またはRed Hat Enterprise Linux 8.6以降</block>
   <block id="6c0ecb6db472eae3c84276b7cd5ea34f" category="list-text">クロニド時間同期</block>
   <block id="8dff4f66fbdc44d35cadc9cf566cab06" category="paragraph">同じサーバに次のサードパーティパッケージもインストールする必要があります。</block>
   <block id="8a43eb05c3b74f093be84dcedec105e4" category="list-text">ポッドマン（ポッドマネージャー）</block>
@@ -821,7 +818,6 @@
   <block id="fe69a54042d9eff356aefd4641754a9d" category="list-text">AIOps解決策 local gateway:ネットワークの監視に使用されるクラウドベースのアプリケーション。ネットアップのストレージプラットフォームとの統合機能が組み込まれており、環境データの収集とネットワークの監視に役立ちます。このサービスは、クラウドポータルと通信するためにサイトにインストールされたローカルゲートウェイを使用することで有効になります。</block>
   <block id="370f5a2dcf3c761999eec9796ac7cb95" category="list-text">Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクは請求データを処理し、請求のためにZuoraに送信します。</block>
   <block id="b061e71795ea0169fae5918033aa1426" category="inline-link-macro">Keystone Collectorのインストールガイド</block>
-  <block id="78723ce66f58e9e7caf198aa1ec6dc10" category="list-text">お客様がRed Hat Enterprise Linux 7 / 8またはCentOS 7 Linuxサーバを導入した。Keystoneソフトウェアは、を使用してインストールします<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> インストールプロセス。</block>
   <block id="b264c507ce69115ec3b1ea258739f71a" category="paragraph">AIOps解決策 ゲートウェイは次の構成で導入されます。</block>
   <block id="3db5d9db3e9bbb96192cdbca3e683f2d" category="list-text">ネットアップは、AIOps解決策 を使用して、トラブルシューティングのためにNetApp Keystone 環境をプロアクティブに監視し、接続します。</block>
   <block id="f117a997c71ee803b4f42cc859317819" category="admonition">パートナー運用モデルでは、テナントとサブテナントのサービス要求がパートナーのサービスデスクに割り当てられます。パートナー様のサポートツールは、AIOps解決策 やGSSCアプリケーションと統合されている場合があります。L3 の問題のみが GSSC を通じてネットアップにエスカレーションされます。</block>
@@ -1193,7 +1189,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager（Unified Manager）9.10以降</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPMデータベースでKeystone請求プラットフォームのフィンガープリントを確認して、正しいパブリック証明書がインポートされていることを確認します。<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
 正しい指紋は次のようになります。<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
-  <block id="82141214645629808da05e70bbc23bcf" category="list-text">keystone.netapp.com（ソフトウェアアップデート）</block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">NetApp Keystone （Keystone）は、成長に合わせて拡張できるサブスクリプションベースのサービスモデルです。OPEX消費モデルを希望する企業が、設備投資やリースの初期化を希望する場合に、シームレスなハイブリッドクラウドエクスペリエンスを提供します。</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystoneを使用すると、予測できない容量の増加や複雑な調達サイクルを管理する際の課題を軽減し、価値創出までの時間を短縮できます。Keystoneを使用すると、お客様は経済性と運用性をビジネスの優先事項に合わせることができます。</block>
@@ -1520,7 +1515,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1d338514e4b31738eb689c9e5bf1deca" category="paragraph">環境でNetApp Keystone STaaSサービスを有効にするには、いくつかのコンポーネントが必要です。作業を開始する前に、これらのコンポーネントの詳細を確認しておく必要があります。</block>
   <block id="147c46cde84c281f55a6c47d275ff845" category="paragraph">Keystone CollectorとAIOpsソリューションゲートウェイを導入するには、Storage Virtual Machine（Storage VM）が必要です。Keystone Collectorをインストールするための前提条件については、を参照してください。 <block ref="90d7b7caf953f72ddc1c63cc7891ca46" category="inline-link-macro-rx"></block>その他の要件は導入時に共有されます。</block>
   <block id="d246f9b425c150eb3d6e174fbc2525d0" category="paragraph">Keystone Collectorは、次の方法で導入できます。</block>
-  <block id="2ad06e7ec3a3005472f12c2250cfbe16" category="paragraph">Keystone CollectorおよびAIOpsソリューションゲートウェイの運用とメンテナンスのために、次のサービスへのアウトバウンドアクセスが必要になります。</block>
   <block id="3332bc574644f77a870b242a631af1e3" category="summary">消費容量は、サービスの使用中にワークロードが実際に使用する容量です。</block>
   <block id="7a6709ab5e3b396814fccf37c263ad1f" category="paragraph">Keystone STaaSは、サービスの利用中に消費される容量に基づいて計測を行います。使用済み容量は、ワークロードが実際に使用している容量です。</block>
   <block id="35ff061e0e3d6c0c79e597b4d638231e" category="paragraph">Keystoneサービスの導入の一環として、ネットアップはサービスの利用状況を継続的に監視し、測定します。少なくとも5分に1回は、サブスクリプションで現在消費されている容量の詳細を示す消費レコードがシステムによって生成されます。これらのレコードは、請求書および使用状況レポートを生成するために請求期間にわたって集計されます。</block>
@@ -1898,7 +1892,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4b78be970b5500221a819608df5616e7" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM ： 2GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linuxノヨウケン</block>
-  <block id="839c50014246079994053b486bb0f80c" category="list-text">オペレーティングシステム：Debian V12またはRed Hat Enterprise Linux 8.6以降</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">コア：2 CPU</block>
   <block id="9b254436141f0faf599283567283dff9" category="list-text">RAM ： 4GB</block>
   <block id="52bef7e9917e522c1436572ddc5a3a3f" category="list-text">2 GB以上の空き容量<block ref="9854ed422bddbda845d9be18e5812dbc" prefix=" " category="inline-code"></block></block>
@@ -1993,4 +1986,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*アクセストークンの生成*:リフレッシュトークンは、アクセストークンの生成に使用されます。KeystoneサービスへのAPI呼び出しを許可するにはアクセストークンが必要で、有効期間は1時間です。</block>
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">API呼び出しを実行して、目的のデータを取得します。顧客のリスト、顧客サブスクリプションデータ、および顧客消費の詳細をプログラムで取得できます。</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Digital Advisor REST APIからKeystoneにアクセス</block>
+  <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">お客様が、Red Hat Enterprise Linux 8.6以降の8.xバージョンまたはCentOS 7で実行されているLinuxサーバを用意しておきます。Keystoneソフトウェアは、インストールプロセスでインストールされ<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>ます。</block>
+  <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">Keystone CollectorとNetAppソリューションゲートウェイの運用とメンテナンスに不可欠な、ソフトウェアの更新と使用状況データのアップロードには、_keystone.AIOps .com_へのアウトバウンドアクセスが必要です。</block>
+  <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">オペレーティングシステム：Debian V12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
+  <block id="2604f9447676294c730c1410115fcdc0" category="list-text">オペレーティングシステム：CentOS 7、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
 </blocks>
