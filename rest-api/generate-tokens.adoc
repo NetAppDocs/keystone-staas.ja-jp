@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/generate-tokens.html 
-keywords: Refresh token, AIQ Digital Advisor portal,access 
-summary: リフレッシュトークンは、プログラムによって新しいアクセストークンのセットを取得するために使用され、1週間または新しいトークンのセットを取得するために使用されるまで有効です。 
+keywords: Refresh token, Digital Advisor portal,access 
+summary: リフレッシュトークンを生成して新しいアクセストークンを取得します。API要求を認証し、1週間または置き換えられるまで有効です。アクセストークンは、コンソールまたはAPI呼び出しから取得できます。 
 ---
 = 更新トークンとアクセストークンの生成
 :hardbreaks:
@@ -51,7 +51,7 @@ image:rest-api-token-types.png["トークンの種類"]
 | * メソッド * | 投稿 
 
 
-| *エンドポイント* | https://api.activeiq.netapp.com/v1/tokens/accessToken[] 
+| *エンドポイント* | `https://api.activeiq.netapp.com/v1/tokens/accessToken` 
 
 
 | *ヘッダー*  a| 

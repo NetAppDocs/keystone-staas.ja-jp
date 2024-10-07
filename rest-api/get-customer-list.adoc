@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/get-customer-list.html 
-keywords: customer, keystone, api, IDs 
-summary: このAPIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。 
+keywords: customer, keystone, api, IDs,  Digital Advisor 
+summary: Digital Advisor REST APIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。 
 ---
 = Digital Advisor REST APIを使用しているすべてのお客様のリストを取得する
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: このAPIは、ユーザに関連付けられているすべてのcusto
 | * メソッド * | 取得 
 
 
-| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customers[] 
+| *エンドポイント* | `https://api.activeiq.netapp.com/v1/keystone/customers` 
 
 
 | *ヘッダー*  a| 

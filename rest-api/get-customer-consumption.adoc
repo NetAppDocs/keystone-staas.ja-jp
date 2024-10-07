@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: rest-api/get-customer-consumption.html 
-keywords: api, consumption, subscriptions, customerID, keystone 
-summary: このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費の詳細を取得します。 
+keywords: api, consumption, subscriptions, customerID, keystone, Digital Advisor 
+summary: Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費量の詳細を取得します。 
 ---
 = Digital Advisor REST APIを使用してお客様の消費情報を取得
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: このAPIは、指定されたcustomerIDに関連付けられている�
 | * メソッド * | 取得 
 
 
-| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details[] 
+| *エンドポイント* | `https://api.activeiq.netapp.com/v1/keystone/customer/consumption-details` 
 
 
 | * パラメータ *  a| 
@@ -96,7 +96,7 @@ curl -X 'GET' \ 'https://api.activeiq.netapp.com/v1/keystone/customer/consumptio
 | * メソッド * | 取得 
 
 
-| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details[] 
+| *エンドポイント* | `https://api.activeiq.netapp.com/v1/keystone/customer/historical-consumption-details` 
 
 
 | * パラメータ *  a| 

@@ -856,20 +856,16 @@
   <block id="bc26ba2885b2bd7d8c41202e1d58b847" category="section-title">アダプティブQoSの設定</block>
   <block id="d2c88ef05da757a3aeaaf8bc9fe70038" category="paragraph">アダプティブQoS（AQoS）の設定はサービスレベルによって異なります。</block>
   <block id="3e1621011a15ff9b858d144dd8b32184" category="cell">*ポリシー名*</block>
-  <block id="e61bad254169eaf696462c655e0bb47a" category="cell">*想定IOPS *</block>
   <block id="911c903acff40c3f442bbae7f73ea081" category="cell">6,144</block>
   <block id="a980f22074119d4103953f70f2fd69ce" category="cell">1,024</block>
   <block id="f718499c1c8cef6730f9fd03c8125cab" category="cell">256</block>
   <block id="8dea0526cd966f1d2b8537ec99d156b6" category="cell">*想定IOPS割り当て*</block>
   <block id="d948b8bd026bed9e90e7989a41fdbb46" category="cell">割り当て済みスペース</block>
-  <block id="7954bc4f3c43f3e699c2169329a71b4b" category="cell">*最大IOPS *</block>
   <block id="13533e52f2c161b3cad8ec91b2a8bc26" category="cell">*最大IOPS割り当て*</block>
   <block id="aa06850d5c9d77127d7340a724cb89be" category="cell">使用済みスペース</block>
   <block id="fd5c2880a704553c642b2e60a6ff5cf2" category="cell">* ブロックサイズ *</block>
   <block id="de66b0668daa0803e4322ddd80158d6c" category="cell">32K</block>
   <block id="1485819d1bb1109d78f142c11b8e830d" category="paragraph">アダプティブQoS（AQoS）ポリシーを設定して、スループットの上限や下限をボリュームサイズに自動的に拡張することができます。KeystoneのすべてのサービスレベルがデフォルトのONTAP QoSポリシーに準拠しているわけではありません。カスタムのQoSポリシーを作成できます。ポリシーを設定する場合は、次の点に注意してください。</block>
-  <block id="d87e8cd2516a937506841a2ee6710603" category="list-text">*想定IOPS *：十分なシステムIOPSがある場合にシステムが提供を試みる、ボリュームあたりの割り当て済みTiBあたりの最小IOPS。</block>
-  <block id="35c0bb4205f89d0eddba85d9bda132b6" category="list-text">*ピークIOPS *：ボリュームがレイテンシの注入によってIOPSを調整するまでに許容される、ボリュームあたりの使用TiBあたりの最大IOPS。</block>
   <block id="be53c8157b32393bccd2e22d0b1536aa" category="list-text">*想定IOPSの割り当て*：このパラメータは、ボリュームで使用可能な想定IOPSを、ボリュームの割り当てサイズまたは使用済みサイズに基づいて決定するかどうかを制御します。Keystoneでは、割り当てられたスペースに基づいて判断します。</block>
   <block id="14d0dc302a669d6a99952e49afc7861a" category="list-text">* Peak IOPS allocation *：このパラメータは、ボリュームで使用可能なピークIOPSを、ボリュームの割り当て済みサイズと使用済みサイズのどちらに基づいて設定するかを制御します。Keystoneでは、使用済みスペースに基づいて判断します。</block>
   <block id="4d5ef2163c192509afec8de9ab79da82" category="paragraph">各サービスレベルは、I/O密度（IOPS/TiB/ボリューム）で定義されます。パフォーマンス（1秒あたりの入出力処理数[IOPS]）と使用済みストレージ容量（TiB）の比率で、ボリュームあたりの平均レイテンシでのIOPS/TiBです。</block>
@@ -1833,7 +1829,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="35f01f8a1c6a4619b0104f40d24a4086" category="list-text">ONTAPアップグレードイメージファイルを*/opt/web/web-upgrade/*にコピーしNetApp、*[Webサーバの起動]*を選択してWebサーバを起動しますONTAP。</block>
   <block id="fb123a7b444cd374b7ac10caba50e88b" category="inline-image-macro">Webサーバの起動オプション</block>
   <block id="cf04058d80eac818246874f910eb2ab2" category="paragraph"><block ref="cf04058d80eac818246874f910eb2ab2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a8044aea994fa3363bcd4c256ce5d88e" category="list-text"><block ref="1c23bf18bce0ce7f2bb813cdd6798bbd" category="inline-link-rx"></block>アップグレードのサポートについては、Webブラウザの使用に進みます。</block>
   <block id="f650c6d8e69bf10094accbd07b391694" category="section-title">Keystone Collectorを再起動</block>
   <block id="93317cb239ead322a8c1e1452ffcabe3" category="paragraph">TUIからKeystone Collectorサービスを再起動できます。TUIで*[Maintenance]&gt;[Restart Collector]*[Services]に移動します。これにより、すべてのコレクタサービスがリブートされ、TUIのホーム画面からステータスを監視できます。</block>
   <block id="9bc0cd001c38d64376373002ab821fad" category="inline-image-macro">[Restart Collector Services]オプション</block>
@@ -1938,13 +1933,11 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="28ed9b5b5df5d633073f9cca1d10bee9" category="cell">* メソッド *</block>
   <block id="a02439ec229d8be0e74b0c1602392310" category="cell">投稿</block>
   <block id="55322ba3b4cd3b7782949a6debd00e1c" category="cell">*エンドポイント*</block>
-  <block id="111ffa9d375a47f985e5a930df93acad" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" category="inline-link-rx"></block></block>
   <block id="904069365b298cc4d7103f93cb31dbfc" category="cell">*ヘッダー*</block>
   <block id="542ec3d8c98f371802d8fd77096ac7b2" category="list-text">承認：application/json</block>
   <block id="30de7c9b045a8fbe02ed2b9d4ffe4425" category="list-text">Content-Type：application/json</block>
   <block id="b7fa10c6a4149a93a4eaaba61e0f23e1" category="cell">*リクエスト本文*</block>
   <block id="13bdfec6f8b9e7cc7abb43fab0b6b384" category="paragraph">｛"refresh_token"："refresh_token"&lt;refresh-token&gt;｝</block>
-  <block id="7893264e0d59291df9deafb0e9f1b841" category="admonition">このエンドポイントにアクセスするには、Digital Advisorの管理用Privilegesが必要です。</block>
   <block id="49fdcb561eb10ce1bc7df051ca7f8d08" category="paragraph">*回答：*</block>
   <block id="746b4a10356112a607ace0b2038463aa" category="paragraph">APIは、アクセストークンとリフレッシュトークンをJSON形式で応答として返します。</block>
   <block id="fb024c1026b3468fe6493e58895bb1d2" category="paragraph">*ステータスコード*:200–要求に成功しました</block>
@@ -1955,7 +1948,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="8bc9e7b2eb702a14a34a24bcc32c172d" category="doc">Digital Advisor REST APIを使用してお客様の消費情報を取得</block>
   <block id="7528035a93ee69cedb1dbddb2f0bfcc8" category="cell">取得</block>
   <block id="41d2da547ce3e763f6eead2948c7bce6" category="cell">*エンドポイント*</block>
-  <block id="7390986cba8738a130d09a1ae8c7619d" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" category="inline-link-rx"></block></block>
   <block id="ff42ec92d6bd64c6ab6d1f0800017eef" category="cell">* パラメータ *</block>
   <block id="5ee9048a2df6bae318564eb60313820f" category="list-text">タイプ："customer"</block>
   <block id="b6fcb149db1c33db8b3446e2f7582d90" category="list-text">ID：&lt;customer-id&gt;</block>
@@ -1963,19 +1955,15 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="3d19254bb03e315d634fc0986c9eb4f0" category="paragraph">*応答:* APIは、指定された顧客の現在のサービス使用状況メトリックを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
   <block id="d3f7bd75a02cbe1c2370c78a86417b77" category="section-title">お客様の消費履歴の詳細を取得する</block>
   <block id="aa781d0910bba8a0c595fe9b0cd9d3b8" category="paragraph">このAPIは、指定された時間範囲に従って、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの消費履歴の詳細を取得します。</block>
-  <block id="1c706be136f0541b294fcc885fde1a63" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" category="inline-link-rx"></block></block>
   <block id="72ce780c61cc8fc26c3fc393d965f9b7" category="list-text">FROM_DATE_UTC：&lt;開始日（RFC3339形式）&gt;</block>
   <block id="d4232bc3d79f7c2651bc3b089aa822c1" category="list-text">TO_DATE_UTC：&lt;終了日（RFC3339形式）&gt;</block>
   <block id="eb53e4bff92730b260ff2452a158fac7" category="paragraph">APIは、選択した期間内の特定の顧客のサービス使用状況の履歴メトリクスを含むすべてのサブスクリプションのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
   <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">このAPIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。</block>
   <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">Digital Advisor REST APIを使用しているすべてのお客様のリストを取得する</block>
-  <block id="b6c5a11b232c98606fb9ada3ec62627d" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" category="inline-link-rx"></block></block>
   <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">APIは、顧客名とそれぞれのIDのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
   <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。</block>
   <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">Digital Advisor REST APIを使用してお客様のサブスクリプションを取得</block>
-  <block id="bb50b1b9a7f23ddec00f27c428c363f2" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" category="inline-link-rx"></block></block>
   <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">APIは、特定の顧客のすべてのサブスクリプションと関連するサービスレベルの詳細のリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
-  <block id="4add8177bc48d8ace8e3bcec902454ad" category="summary">NetApp Keystone ActiveIQデジタルアドバイザAPIは、Keystoneサービスの詳細や指標を取得するためのプログラム化されたインターフェイスを提供します。</block>
   <block id="0a076b1454da01faf38e4805c15570ee" category="doc">Digital Advisor REST APIを使用したKeystoneデータの取得を開始する</block>
   <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">Digital Advisor REST APIは、Keystoneのサブスクリプションと消費の詳細を取得するためのプログラム化されたインターフェイスを提供します。</block>
   <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">Digital Advisor REST APIを操作するワークフローの大まかな手順は次のとおりです。</block>
@@ -1990,4 +1978,25 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">Keystone CollectorとNetAppソリューションゲートウェイの運用とメンテナンスに不可欠な、ソフトウェアの更新と使用状況データのアップロードには、_keystone.AIOps .com_へのアウトバウンドアクセスが必要です。</block>
   <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">オペレーティングシステム：Debian V12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
   <block id="2604f9447676294c730c1410115fcdc0" category="list-text">オペレーティングシステム：CentOS 7、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
+  <block id="04e5e9b2304d0098895d9985c9a8ea89" category="cell">*想定IOPS/TiB *</block>
+  <block id="66add2975320c187fa0c68a862f9277b" category="cell">*最大IOPS/TiB *</block>
+  <block id="44c1604c68364a078a1faa312c3f1fca" category="list-text">*想定IOPS/TiB *：十分なシステムIOPSがある場合にシステムが提供を試行する、ボリュームあたりの割り当て済みTiBあたりの最小IOPS。</block>
+  <block id="a7eb9e3e2db26f418ff1bd33758058b5" category="list-text">*ピークIOPS/TiB *：ボリュームがレイテンシの注入によってIOPSを調整するまでに許容される、ボリュームあたりの使用TiBあたりの最大IOPS。</block>
+  <block id="f661dc3165fc7dcc25ae3a0d950ce6ac" category="list-text"><block ref="3db77c7f8084c19af25e224539c526e1" prefix=" " category="inline-code"></block>アップグレードのサポートについては、Webブラウザの使用に進みます。</block>
+  <block id="3e0da19ae0755de400b746f325485a60" category="section-title">StorageGRID SSOが有効な場合にKeystone Collectorの認証に失敗する</block>
+  <block id="19717f3367e97979df17a62a0de1d760" category="paragraph">StorageGRIDシステムでシングルサインオン（SSO）が有効になっている場合、Keystone Collectorは計測をサポートしません。ログには次のエラーメッセージが表示されます。</block>
+  <block id="0e690a868c62119e2856f2a1fe116b2c" category="paragraph"><block ref="61e95538e67afefe4554fdced79f1dc3" prefix="" category="inline-code"></block></block>
+  <block id="2885bdeaa1cab112dcc8c381c30f671f" category="inline-link-macro">Keystone CollectorがSSOモードのStorageGRIDで認証されない</block>
+  <block id="b2d1bca2132e220619802a2a119eaf61" category="paragraph">詳細および解決方法については、ナレッジベースの記事を参照してください<block ref="81af88b2d9bce20dafc4743c5a7c77b4" category="inline-link-macro-rx"></block>。</block>
+  <block id="d5afb45b1c0b33a5b19d72191f0ca7ab" category="summary">リフレッシュトークンを生成して新しいアクセストークンを取得します。API要求を認証し、1週間または置き換えられるまで有効です。アクセストークンは、コンソールまたはAPI呼び出しから取得できます。</block>
+  <block id="675e00b57381caeda6a7676bb22f6ad5" category="cell"><block ref="111ffa9d375a47f985e5a930df93acad" prefix="" category="inline-code"></block></block>
+  <block id="ef9242902d0aabcf93b46f524d5c682d" category="admonition">このエンドポイントにアクセスするには、Digital Advisorの管理用Privilegesが必要です。</block>
+  <block id="b5db1df1ea6118ca7ac1ab438161410f" category="summary">Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションの現在の消費量の詳細を取得します。</block>
+  <block id="f6eaec28d0ffb80012d221c3532274f6" category="cell"><block ref="7390986cba8738a130d09a1ae8c7619d" prefix="" category="inline-code"></block></block>
+  <block id="9fefb0959caba046858531046deeebac" category="cell"><block ref="1c706be136f0541b294fcc885fde1a63" prefix="" category="inline-code"></block></block>
+  <block id="f9758d05812567489fe8755ed9e896cf" category="summary">Digital Advisor REST APIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。</block>
+  <block id="beadb7936ab29d8bd492fb93114101f3" category="cell"><block ref="b6c5a11b232c98606fb9ada3ec62627d" prefix="" category="inline-code"></block></block>
+  <block id="b964b33b06c664e35c5f043238992fba" category="summary">Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。</block>
+  <block id="2c74d7df1fc4058a6a46b83d4b38bb2a" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" prefix="" category="inline-code"></block></block>
+  <block id="67b63898a05fe3ab08e6c0690cc73ca3" category="summary">Digital Advisor APIは、Keystoneサービスの詳細と指標を取得するためのプログラムインターフェイスを提供します。</block>
 </blocks>

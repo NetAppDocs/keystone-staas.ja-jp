@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: rest-api/get-customer-subscriptions.html 
 keywords: subscriptions, service levels, customer IDs, keystone, api 
-summary: このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。 
+summary: Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。 
 ---
 = Digital Advisor REST APIを使用してお客様のサブスクリプションを取得
 :hardbreaks:
@@ -25,7 +25,7 @@ summary: このAPIは、指定されたcustomerIDに関連付けられている�
 | * メソッド * | 取得 
 
 
-| *エンドポイント* | https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info[] 
+| *エンドポイント* | `https://api.activeiq.netapp.com/v1/keystone/customer/subscriptions-info` 
 
 
 | * パラメータ *  a| 

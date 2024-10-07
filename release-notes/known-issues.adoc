@@ -10,7 +10,7 @@ summary: 既知の問題には、Keystoneサブスクリプションサービス
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]

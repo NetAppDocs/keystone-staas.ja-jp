@@ -97,7 +97,7 @@ ONTAPをアップグレードする手順は、次のとおりです。
 +
 image:dark-site-start-webserver-1.png["Webサーバの起動オプション"]
 
-.  http://<collector-ip>:8000[]アップグレードのサポートについては、Webブラウザの使用に進みます。
+.  `http://<collector-ip>:8000`アップグレードのサポートについては、Webブラウザの使用に進みます。
 
 
 
