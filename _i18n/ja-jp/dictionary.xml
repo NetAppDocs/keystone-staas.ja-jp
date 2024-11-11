@@ -1751,7 +1751,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="19bea5bec76c66ef8bd189aa23a4c860" category="sidebar">持続可能性</block>
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLAと保証は申請に応じて提供されます。</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024/08/07</block>
-  <block id="5b56041030df17cc6aeb8d87e04d16db" category="paragraph">現時点で既知の問題はありません。</block>
   <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">パフォーマンスサービスレベルの作成</block>
   <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">Keystone Collector管理TUIユーティリティを使用して、パフォーマンスサービスレベル（PSL）を作成できます。TUIでPSLを作成すると、各サービスレベルに設定されているデフォルト値が自動的に選択されるため、Active IQ Unified ManagerでPSLを作成する際にこれらの値を手動で設定したときにエラーが発生する可能性が低くなります。</block>
   <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">パフォーマンスサービスレベル</block>
@@ -1999,4 +1998,12 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b964b33b06c664e35c5f043238992fba" category="summary">Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。</block>
   <block id="2c74d7df1fc4058a6a46b83d4b38bb2a" category="cell"><block ref="bb50b1b9a7f23ddec00f27c428c363f2" prefix="" category="inline-code"></block></block>
   <block id="67b63898a05fe3ab08e6c0690cc73ca3" category="summary">Digital Advisor APIは、Keystoneサービスの詳細と指標を取得するためのプログラムインターフェイスを提供します。</block>
+  <block id="6bd41c7ebef51543eb0a67b1eb2cabc1" category="paragraph">次の既知の問題がNetApp Keystone STaaSで報告されています。</block>
+  <block id="e83464ce8bd634efb1f099c956ec64a8" category="cell">既知の問題</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">製品説明</block>
+  <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">回避策</block>
+  <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">プライマリサブスクリプションとリンクサブスクリプションでボリュームの詳細を使用できません</block>
+  <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">[ボリュームの概要]*タブには、プライマリサブスクリプションとリンクされたセカンダリサブスクリプションのボリュームの総数、QoS準拠ステータス、保護されているボリュームの数、消費容量の合計がゼロと表示されます。</block>
+  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*ボリュームの概要* StorageGRIDサブスクリプションでサブタブがロードされない</block>
+  <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">StorageGRIDサブスクリプションの場合、*[ボリュームとオブジェクト]*タブの*[ボリュームの概要]*サブタブのロードに失敗します。</block>
 </blocks>
