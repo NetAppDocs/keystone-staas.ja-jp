@@ -20,6 +20,16 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 
 
+== 2024/11/11
+
+
+
+=== レポート生成機能の強化
+
+Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、を参照して link:../integrations/aiq-keystone-details.html#generate-consolidated-report["統合レポートの生成"^]ください。
+
+
+
 == 2024/07/10
 
 
