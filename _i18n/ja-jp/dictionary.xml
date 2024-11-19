@@ -2019,4 +2019,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="8a1116f55c6659c55d506df698030041" category="section-title">2024/11/11</block>
   <block id="1503d912784bec55335f32e3c747c9df" category="section-title">レポート生成機能の強化</block>
   <block id="bab5e70b8fca6215bd90bf396708d647" category="paragraph">Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、を参照して <block ref="f3fd429c1c2a13f9f8f5c8d4ec2129e6" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">*コミット済み容量と従量課金容量のタイプ*</block>
+  <block id="e7a731a6342f126055b89b80d800a180" category="cell">論理</block>
+  <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">物理</block>
 </blocks>
