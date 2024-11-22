@@ -1173,7 +1173,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c977c72cd7678128aadf339e54fc0498" category="sidebar">コールドデータや使用頻度の低いデータはどうすればよいですか？</block>
   <block id="3c433d996e071fc968830570a2649830" category="sidebar">Keystoneデータを保護するにはどうすればよいですか？</block>
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">請求済みバースト容量の表示</block>
-  <block id="db0ef40224829d8428d6c42004012b26" category="paragraph">[Invoiced Accrued Burst]オプションを選択した場合、デフォルトでは、過去12カ月間の月単位のバースト使用量データが表示されます。過去30カ月までの日付範囲で照会できます。請求されたデータの棒グラフが表示され、使用量がまだ請求されていない場合は、その月の_Pending_が表示されます。</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">課金される累積バースト使用量は、サービスレベルのコミット済み容量と消費容量に基づいて、課金期間ごとに計算されます。</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager（Unified Manager）9.10以降</block>
   <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPMデータベースでKeystone請求プラットフォームのフィンガープリントを確認して、正しいパブリック証明書がインポートされていることを確認します。<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
@@ -1200,7 +1199,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b08a55fcdae4be7efabe97ebd6da5f96" category="section-title">Accrued Burstに対して請求されたデータが返されました</block>
   <block id="038fa77b2d09a08187d251d11af66fec" category="section-title">特定の料金プランの発生した消費の詳細</block>
   <block id="e8eb002764288209a5c4ba14af40e3c1" category="paragraph">_zero_committed容量のレートプランがあるサブスクリプションの場合は、* Capacity Trend *タブで消費量の詳細を確認できます。[Invoiced Accrued Consumption]*オプションを選択すると、課金されたAccrued Consumptionデータの月単位のグラフを表示できます。</block>
-  <block id="58b8c716856200f705d08eebb54e18f2" category="paragraph">MetroCluster構成での使用状況を表示する方法については、を参照してください <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>。</block>
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">プライマリサブスクリプションにリンクされているサブスクリプションを表示する機能</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">一部のプライマリサブスクリプションは、リンクされたセカンダリサブスクリプションを持つことができます。その場合、プライマリサブスクリプション番号は引き続き*サブスクリプション番号*列に表示され、リンクされたサブスクリプション番号は*サブスクリプション*タブの新しい列*リンクされたサブスクリプション番号*に表示されます。[リンクされたサブスクリプション]列は、リンクされたサブスクリプションがある場合にのみ使用可能になり、それらについて通知する情報メッセージが表示されます。</block>
   <block id="80a766e7eebce2ca48e414230534ddb7" category="doc">[Volumes &amp; Objects]タブ</block>
@@ -1215,7 +1213,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="14eaf858e86c38bf5f21aa319c01ad8b" category="list-text"><block ref="75640177dd65c74f10505e0d1d77322f" category="inline-link-macro-rx"></block></block>
   <block id="f5308d78e48927072f23b5c9ea1d54f9" category="paragraph">選択したサブスクリプションの詳細（サブスクリプションの開始日と終了日など）、請求期間（月単位や年単位など）を表示できます。サブスクリプションの使用量には、サービスレベル名、コミット済み容量、消費容量、使用可能な容量、現在のバースト使用量と累積バースト使用量（TiB）が表示されます。</block>
   <block id="1623545ecb1ca990b229d62e7e5fc4b4" category="doc">[サブスクリプション]タブ</block>
-  <block id="edc29cab045406ca906dd10b5912883e" category="admonition">高度なデータ保護アドオンサービスに登録している場合は、サブスクリプション番号のツールチップをクリックして、MetroClusterセットアップでパートナーサブスクリプションの追跡IDを表示できます。MetroCluster構成のパートナーサブスクリプション別の詳細な消費状況を表示する方法については、を参照してください <block ref="dce2e2b996a813464c91ed5f90c2ee95" category="inline-link-macro-rx"></block>。</block>
   <block id="109b44d9ae88073ca74514f04dce3f43" category="doc">[パフォーマンス]タブ</block>
   <block id="e25aef7d73f188d691460fe7a81c1615" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[パフォーマンス]*をクリックします。</block>
   <block id="b38469a0957abb9fcc179f471234aeb1" category="paragraph">各タブの詳細については、次のリンクを参照してください。</block>
@@ -1488,7 +1485,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">その他のメニューオプション</block>
   <block id="915546b63309e4afc31cc6f77934d3f4" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone ONTAPのパフォーマンスデータが収集されません。この設定を変更したり、Unified Managerメンテナンスコンソールのオプションを使用して他のホストに接続を確立したりでき<block ref="dd441ca9450a58c2c7b09ab86e8f7a28" prefix=" " category="inline-code"></block> ます。詳細については、を参照してください <block ref="df7524dc87f6643f2fa76eb53a86ec87" category="inline-link-macro-rx"></block>。</block>
   <block id="82417085e656251b41cd76814fd5b48a" category="paragraph"><block ref="82417085e656251b41cd76814fd5b48a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f4927a3debc365e92273fa3de8985ec2" category="paragraph"><block ref="f4927a3debc365e92273fa3de8985ec2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3173b2ec37a82d2973529cd167d6287e" category="summary">高度なデータ保護アドオンサービスを使用して、ミッションクリティカルなワークロードの効率的なデータ保護を実現します。</block>
   <block id="a6b5c7400b59e86e1201f869cdba2c1a" category="doc">高度なデータ保護機能の詳細</block>
   <block id="7322651c5a3929e757c7e2a38e363825" category="paragraph">Keystone STaaSサブスクリプションの一部として、高度なデータ保護アドオンサービスをサブスクライブできます。このアドオンサービスでは、NetApp MetroClusterテクノロジを活用して、目標復旧時点（RPO）を0に設定し、ミッションクリティカルなワークロードの効率的なデータ保護を実現します。</block>
@@ -1997,7 +1993,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="7aebfa1e2291377e040de92d7f7f335f" category="cell">回避策</block>
   <block id="3156e09a94461db7bf19fe1f351546ed" category="paragraph">プライマリサブスクリプションとリンクサブスクリプションでボリュームの詳細を使用できません</block>
   <block id="98b4e51c8dbd4ac2829fdf8a44b9eac2" category="paragraph">[ボリュームの概要]*タブには、プライマリサブスクリプションとリンクされたセカンダリサブスクリプションのボリュームの総数、QoS準拠ステータス、保護されているボリュームの数、消費容量の合計がゼロと表示されます。</block>
-  <block id="e50629aea15eaa890e9555d823c3aa0e" category="paragraph">*ボリュームの概要* StorageGRIDサブスクリプションでサブタブがロードされない</block>
   <block id="d57b1938a7f40139b0f6f6a8312cab9d" category="paragraph">StorageGRIDサブスクリプションの場合、*[ボリュームとオブジェクト]*タブの*[ボリュームの概要]*サブタブのロードに失敗します。</block>
   <block id="51f4eff2679d00a84e768ca09b950896" category="list-text">推奨される最小ボリュームサイズ：100GiB、0.1TiB</block>
   <block id="0a972e42bf2862708f1b761f38f43097" category="list-text">推奨される最大ボリュームサイズ：10TiB</block>
@@ -2022,4 +2017,23 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="70852ac05a65501c650a9135c4a2ab17" category="cell">*コミット済み容量と従量課金容量のタイプ*</block>
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">論理</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">物理</block>
+  <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">MetroCluster構成での使用状況を表示する方法については、を参照してください<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">[Invoiced Accrued Burst]オプションを選択した場合は、選択した請求期間に応じて、月単位または四半期単位で発生したバースト使用量データを確認できます。このデータは請求済みの過去12カ月間のデータであり、過去30カ月までの期間を日付範囲で照会できます。棒グラフには請求されたデータが表示され、使用量がまだ請求されていない場合は、その期間の_Pending_としてマークされます。</block>
+  <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">四半期請求期間の場合、月額プランがその月の1^st^以外の日付に開始された場合、四半期請求書はその後の90日間をカバーします。たとえば、サブスクリプションが8月15日に開始された場合、8月15日から10月14日までの期間の請求書が生成されます。</block>
+  <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">請求を四半期単位から月単位に切り替えた場合でも、四半期ごとの請求書は90日の期間をカバーし、四半期の最後の月に四半期ごとの請求書とその月の残りの日数分の2つの請求書が生成されます。この移行により、毎月の請求期間が翌月の1^st^から開始されるようになります。たとえば、サブスクリプションが10月15日に開始された場合、毎月の請求期間が2月1日に始まる前に、1月15日から1月14日までと1月15日から31日までの2件の請求書が届きます。</block>
+  <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">累積バースト使用量（四半期ごと）</block>
+  <block id="8215e5a0d8116559b577a00ac7f9d7a4" category="paragraph"><block ref="8215e5a0d8116559b577a00ac7f9d7a4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd743c791b4d6ca2e7a1d3c5f2d40a95" category="section-title">MetroClusterの高度なデータ保護のリファレンスチャート</block>
+  <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">高度なデータ保護アドオンサービスに登録している場合は、サブスクリプション番号のツールチップをクリックして、MetroClusterセットアップでパートナーサブスクリプションの追跡IDを表示できます。MetroCluster構成のパートナーサブスクリプション別の詳細な消費状況を表示する方法については、を参照してください<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
+  <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024/11/21</block>
+  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">サブスクリプションのレポートを生成できません</block>
+  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">[Keystone Subscriptions]ページの*[Subscriptions]*タブで10 ~ 12個を超えるサブスクリプションを選択した場合、*[Include data for each service level]*オプションの*[Download CSV]*ボタンをクリックしてもレポートが生成されません。</block>
+  <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">増額された累積バースト課金</block>
+  <block id="68282426b20517fa5a804475f31878a9" category="paragraph">四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">[Volumes Details]タブの新しい列</block>
+  <block id="6f3602613697bd7c1dd3b585d5221b75" category="paragraph">論理使用量の計算をわかりやすくするために、*[ボリュームとオブジェクト]*タブ内の*[ボリュームの詳細]*タブに2つの新しい列が追加されました。</block>
+  <block id="ff33e32470641c161a9b0ae3c97385c3" category="list-text">*論理AFS *：ボリュームのアクティブファイルシステムで使用されている論理容量を表示します。</block>
+  <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">*物理Snapshot *：Snapshotで使用されている物理スペースが表示されます。</block>
+  <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">これらの列は、* Logical Used *列をよりわかりやすく表示します。この列には、ボリュームのアクティブファイルシステムで使用されている論理容量とSnapshotで使用されている物理スペースの合計が表示されます。</block>
 </blocks>

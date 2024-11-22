@@ -48,7 +48,7 @@ TIP: [サブスクリプション]*リンクをクリックすると、[サブ�
 
 
 
-image:new-db-3.png["新しいダッシュボード"]
+image:new-db-4.png["新しいダッシュボード"]
 
 Keystone用のDigital Advisorダッシュボードウィジェットの詳細については、を参照してください https://docs.netapp.com/us-en/active-iq/view_keystone_capacity_utilization.html["Digital Advisorのドキュメント"^]。
 

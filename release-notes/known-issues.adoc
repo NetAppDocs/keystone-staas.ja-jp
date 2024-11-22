@@ -33,9 +33,9 @@ summary: 既知の問題には、Keystoneサブスクリプションサービス
 
 
  a| 
-*ボリュームの概要* StorageGRIDサブスクリプションでサブタブがロードされない
+サブスクリプションのレポートを生成できません
  a| 
-StorageGRIDサブスクリプションの場合、*[ボリュームとオブジェクト]*タブの*[ボリュームの概要]*サブタブのロードに失敗します。
+[Keystone Subscriptions]ページの*[Subscriptions]*タブで10 ~ 12個を超えるサブスクリプションを選択した場合、*[Include data for each service level]*オプションの*[Download CSV]*ボタンをクリックしてもレポートが生成されません。
  a| 
 なし
 
