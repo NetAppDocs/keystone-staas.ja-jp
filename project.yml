@@ -6,7 +6,7 @@ settings:
   prod:
     pdf_enabled: true
     harmony_enabled: false
-  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
   - title: Keystoneのドキュメント
@@ -107,6 +107,8 @@ sidebar:
       entries:
       - title: 高度なデータ保護
         url: "/concepts/adp.html"
+      - title: データインフラの分析情報
+        url: "/concepts/data-infra-insights.html"
       - title: データの階層化
         url: "/concepts/data-tiering.html"
       - title: Equinixを基盤とするサービス

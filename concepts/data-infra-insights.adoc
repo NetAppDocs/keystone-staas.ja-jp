@@ -1,0 +1,83 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-infra-insights.html 
+keywords: add-on services, add-on, data infrastructure insights, DII, deployment of DII 
+summary: Data Infrastructure Insightsは、パブリッククラウドやプライベートデータセンターのストレージを監視、トラブルシューティング、最適化することで、Keystone STaaSの効率性を高めます。 
+---
+= データインフラの分析情報
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Data Infrastructure Insights（DII、旧Cloud Insights）は、Keystone STaaS向けのアドオンサービスです。このサービスをKeystone STaaSと統合することで、パブリッククラウドとプライベートデータセンターにわたるKeystoneが提供するストレージリソースの監視、トラブルシューティング、最適化の機能が強化されます。
+
+Data Infrastructure Insightsの詳細については、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/["Data Infrastructure Insightsドキュメント"^]。
+
+DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DIIがKeystoneサブスクリプションに統合されると、サブスクリプションの基本サービスレベルごとに対応するサービスレベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DIIのサービスレベルがKeystoneサブスクリプションの基本サービスレベルと一致していることが保証されます。
+
+Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットに表示されるDIIサービスレベル：
+
+image:keystone-widget-dii.png["DIIサービスレベルを示す[Keystone Subscriptions]ウィジェットのスクリーンショット"]
+
+
+
+== Keystone向けDIIの導入
+
+Keystone向けDIIは、Keystone以外の他の環境を監視する既存のインスタンスの一部として、または新しいインスタンスの一部として、2つの方法で統合できます。DIIを設定するのはお客様の責任です。複雑な環境でDIIを設定するためにサポートが必要な場合は、アカウントチームが対応しますlink:https://www.netapp.com/services/["NetAppプロフェッショナルサービス"^]。
+
+DIIの設定については、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html["データインフラの分析情報をオンボーディング"^]。
+
+次の点に注意してください。
+
+* お客様が新しいDIIインスタンスを開始する場合は、から開始することをお勧めしますlink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html#starting-your-data-infrastructure-insights-free-trial["DII 無償トライアル"^]。この機能および必要な起動チェックリストの詳細については、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/concept_feature_tutorials.html["機能チュートリアル"^]。
+* サイトごとにAcquisition Unitが必要です。Acquisition Unitのインストールについては、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html#install-an-acquisition-unit["Acquisition Unit をインストールする"^]。お客様がすでにDIIインスタンスとAcquisition Unitをセットアップしている場合は、データコレクタの設定に進みます。
+* 導入するストレージハードウェアごとに、Acquisition Unitにデータコレクタを設定する必要があります。データコレクタを設定するには、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_configure_data_collectors.html["データコレクタを設定する"^]。Keystoneストレージに必要なデータコレクタは、基盤となるハードウェアに応じて次のとおりです。
++
+|===
+| ストレージハードウェア | データコレクタ 
+
+
+| ONTAPシステム | NetApp ONTAP データ管理ソフトウェア 
+
+
+| StorageGRID | NetApp StorageGRID 
+
+
+| Cloud Volumes ONTAP | NetApp Cloud Volumes ONTAP の略 
+|===
++
+設定が完了すると、DIIインスタンスはKeystoneストレージの監視を開始します。
+
+
+
+
+
+== 課金と計測
+
+以下に、DIIアドオンサービスの課金と計測の詳細の概要を示します。
+
+* このサービスは、お客様のメインサブスクリプションと同じ方法で測定されます。たとえば、メインのサブスクリプションに100TiBのExtremeサービスと100TiBのPremiumサービスが含まれている場合、どちらも論理使用量に基づいて測定されます。アドオンサービスのDII Extreme 100TiBとDII Premium 100TiBも、論理使用量に基づいて測定されます。メインのサブスクリプションがプロビジョニングベースで測定される場合、アドオンサービスは同じ容量に対して同じ方法で測定されます。アドオンサービスは、メインサブスクリプションと同じ測定方法に従います。
++
+image:current-consumption-dii.png["サービスレベルの計測値を示す[Current Consumption]タブのスクリーンショット"]
+
+* このサービスは、Keystoneサブスクリプションと一緒に計測、請求され、同じ請求書に記載されます。Keystoneサブスクリプションをアクティブ化する前にKeystone用にDIIを設定しても、Keystoneサブスクリプションのアクティブ化日または既存のサブスクリプションの変更日から課金が開始されます。
+* このサービスは、Keystoneの標準請求書に加えて、DIIサービスレベルのコミット済み容量とバースト使用量の両方に基づいて計測および請求される。このアドオンサービスの計測方法は、基盤となるKeystoneサブスクリプションサービスレベル（論理、プロビジョニング、物理）と同じです。
+* このサービスは、リンク先のKeystoneサブスクリプションで終了します。更新時に、アドオンサービスを更新するかどうかを選択できます。Keystoneサブスクリプションを更新しないと、監視対象のハードウェアが運用停止され、アドオンサービスは自動的に終了します。
+
+
+
+
+== サポートとユーザアクセス
+
+お客様が[Allow NetApp Access to Your Data Infrastructure Insights Environment]オプションを有効にしている場合、承認されたNetAppサポートチームメンバーはお客様のDIIインスタンスにアクセスできます。これを行うには、*[ヘルプ]>[サポート]*に移動し、オプションを有効にします。
+
+image:dii-support-permission.png["お客様がオプションを有効にする方法を示すスクリーンショット"]
+
+お客様は、オプションを使用して、*ユーザー管理*画面から内部または外部のユーザーにアクセス権を付与できますimage:dii-user-option.png["ユーザーボタン"]。
+
+image:dii-user-access.png["ユーザを追加するオプションを示すスクリーンショット"]

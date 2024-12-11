@@ -2036,4 +2036,49 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="ff33e32470641c161a9b0ae3c97385c3" category="list-text">*論理AFS *：ボリュームのアクティブファイルシステムで使用されている論理容量を表示します。</block>
   <block id="4a1c882b0ab41fd998beccee85292567" category="list-text">*物理Snapshot *：Snapshotで使用されている物理スペースが表示されます。</block>
   <block id="ff17f3533de401f605df9cf9c2553b80" category="paragraph">これらの列は、* Logical Used *列をよりわかりやすく表示します。この列には、ボリュームのアクティブファイルシステムで使用されている論理容量とSnapshotで使用されている物理スペースの合計が表示されます。</block>
+  <block id="28734ee482d13456cc49c54e4f4ae12f" category="summary">Data Infrastructure Insightsは、パブリッククラウドやプライベートデータセンターのストレージを監視、トラブルシューティング、最適化することで、Keystone STaaSの効率性を高めます。</block>
+  <block id="a66177733b1b85eabceb5f32ad65a8f2" category="doc">データインフラの分析情報</block>
+  <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp Data Infrastructure Insights（DII、旧Cloud Insights）は、Keystone STaaS向けのアドオンサービスです。このサービスをKeystone STaaSと統合することで、パブリッククラウドとプライベートデータセンターにわたるKeystoneが提供するストレージリソースの監視、トラブルシューティング、最適化の機能が強化されます。</block>
+  <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insightsドキュメント</block>
+  <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">Data Infrastructure Insightsの詳細については、を参照してください<block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>。</block>
+  <block id="b737d9abc5c91defa3f06854c716ace3" category="paragraph">DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DIIがKeystoneサブスクリプションに統合されると、サブスクリプションの基本サービスレベルごとに対応するサービスレベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DIIのサービスレベルがKeystoneサブスクリプションの基本サービスレベルと一致していることが保証されます。</block>
+  <block id="011703c38a5e2cdda4be217889b6e270" category="paragraph">Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットに表示されるDIIサービスレベル：</block>
+  <block id="8821a03fd087171377d0af609b3c7f94" category="inline-image-macro">DIIサービスレベルを示す[Keystone Subscriptions]ウィジェットのスクリーンショット</block>
+  <block id="62d433b3a1743ca27d23bb2bc966e462" category="paragraph"><block ref="62d433b3a1743ca27d23bb2bc966e462" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35093b8f232384c1cc56aa0b089de156" category="section-title">Keystone向けDIIの導入</block>
+  <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetAppプロフェッショナルサービス</block>
+  <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">Keystone向けDIIは、Keystone以外の他の環境を監視する既存のインスタンスの一部として、または新しいインスタンスの一部として、2つの方法で統合できます。DIIを設定するのはお客様の責任です。複雑な環境でDIIを設定するためにサポートが必要な場合は、アカウントチームが対応します<block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>。</block>
+  <block id="098aa3cf35fbf6dcd0f8bf264d8fbb02" category="inline-link-macro">データインフラの分析情報をオンボーディング</block>
+  <block id="5521be72a56c20199f2583f6122fb79e" category="paragraph">DIIの設定については、を参照してください<block ref="b97f1974c4920cfa5b0a8266cf2ad03c" category="inline-link-macro-rx"></block>。</block>
+  <block id="71ef8949a55d6b1791e3d610418ebf29" category="inline-link-macro">DII 無償トライアル</block>
+  <block id="5b425cd08035f29c3dad5d45f1d2ea6e" category="inline-link-macro">機能チュートリアル</block>
+  <block id="3b179eeaf9ac878bf9783e7b6444e172" category="list-text">お客様が新しいDIIインスタンスを開始する場合は、から開始することをお勧めします<block ref="9bb21587dbf1a819ba039401f4e5726c" category="inline-link-macro-rx"></block>。この機能および必要な起動チェックリストの詳細については、を参照してください<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>。</block>
+  <block id="5774c882dad1ebd6e046b3a9fdfae618" category="inline-link-macro">Acquisition Unit をインストールする</block>
+  <block id="b0a1bf81aa560384c37a6699221d9a92" category="list-text">サイトごとにAcquisition Unitが必要です。Acquisition Unitのインストールについては、を参照してください<block ref="42d868d67c77926a662ccf38524dc1ee" category="inline-link-macro-rx"></block>。お客様がすでにDIIインスタンスとAcquisition Unitをセットアップしている場合は、データコレクタの設定に進みます。</block>
+  <block id="995baaed007a33dba572505ffd6d726b" category="inline-link-macro">データコレクタを設定する</block>
+  <block id="9e5f2c187562f849cb59c40da16c3df4" category="list-text">導入するストレージハードウェアごとに、Acquisition Unitにデータコレクタを設定する必要があります。データコレクタを設定するには、を参照してください<block ref="61f06ce17d28c7f0dc6700988d29795b" category="inline-link-macro-rx"></block>。Keystoneストレージに必要なデータコレクタは、基盤となるハードウェアに応じて次のとおりです。</block>
+  <block id="0cf4a786acebd750bbfdfc4416c89406" category="cell">ストレージハードウェア</block>
+  <block id="98ef2c7e04140188dc85ced94acd2b67" category="cell">データコレクタ</block>
+  <block id="60753a586c03bf35ffaaa51dc78d0820" category="cell">ONTAPシステム</block>
+  <block id="2303cf1ff6b7eaf72c629756eb1e13ee" category="cell">NetApp ONTAP データ管理ソフトウェア</block>
+  <block id="55cf1a0f0fce69fd543500e5761dd26d" category="cell">NetApp StorageGRID</block>
+  <block id="0f0b99ea2f70cd363c2c6a279f74e760" category="cell">NetApp Cloud Volumes ONTAP の略</block>
+  <block id="0cc60d42c8b08c19f6e0c7852cb1ba77" category="paragraph">設定が完了すると、DIIインスタンスはKeystoneストレージの監視を開始します。</block>
+  <block id="9a46d798eebbf17a0a8de6e011f77e61" category="section-title">課金と計測</block>
+  <block id="906219bd5cad7b32c457e4301bb3dddb" category="paragraph">以下に、DIIアドオンサービスの課金と計測の詳細の概要を示します。</block>
+  <block id="4845aab96333666b12d6803a4dfa7e2f" category="list-text">このサービスは、お客様のメインサブスクリプションと同じ方法で測定されます。たとえば、メインのサブスクリプションに100TiBのExtremeサービスと100TiBのPremiumサービスが含まれている場合、どちらも論理使用量に基づいて測定されます。アドオンサービスのDII Extreme 100TiBとDII Premium 100TiBも、論理使用量に基づいて測定されます。メインのサブスクリプションがプロビジョニングベースで測定される場合、アドオンサービスは同じ容量に対して同じ方法で測定されます。アドオンサービスは、メインサブスクリプションと同じ測定方法に従います。</block>
+  <block id="c99e19e7853ccd0683be6a6018ad7741" category="inline-image-macro">サービスレベルの計測値を示す[Current Consumption]タブのスクリーンショット</block>
+  <block id="b0885a29b96393f9e5617fe484028b66" category="paragraph"><block ref="b0885a29b96393f9e5617fe484028b66" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8db98a7e401d579f2dabed9e0f2ae0e5" category="list-text">このサービスは、Keystoneサブスクリプションと一緒に計測、請求され、同じ請求書に記載されます。Keystoneサブスクリプションをアクティブ化する前にKeystone用にDIIを設定しても、Keystoneサブスクリプションのアクティブ化日または既存のサブスクリプションの変更日から課金が開始されます。</block>
+  <block id="f4dea3e33f96c31e045bda2ca911e035" category="list-text">このサービスは、Keystoneの標準請求書に加えて、DIIサービスレベルのコミット済み容量とバースト使用量の両方に基づいて計測および請求される。このアドオンサービスの計測方法は、基盤となるKeystoneサブスクリプションサービスレベル（論理、プロビジョニング、物理）と同じです。</block>
+  <block id="acc5c60ef02b38c0c3d244a1fce02d83" category="list-text">このサービスは、リンク先のKeystoneサブスクリプションで終了します。更新時に、アドオンサービスを更新するかどうかを選択できます。Keystoneサブスクリプションを更新しないと、監視対象のハードウェアが運用停止され、アドオンサービスは自動的に終了します。</block>
+  <block id="bfff02ceb19e1dc747612576a86266f9" category="section-title">サポートとユーザアクセス</block>
+  <block id="24f6f9b21fffd4d332fb35f3cdaede8f" category="paragraph">お客様が[Allow NetApp Access to Your Data Infrastructure Insights Environment]オプションを有効にしている場合、承認されたNetAppサポートチームメンバーはお客様のDIIインスタンスにアクセスできます。これを行うには、*[ヘルプ]&gt;[サポート]*に移動し、オプションを有効にします。</block>
+  <block id="c121e755910605fdcf74c06e7b48e698" category="inline-image-macro">お客様がオプションを有効にする方法を示すスクリーンショット</block>
+  <block id="5a76214ad6c936837ffbc2b3519f66ce" category="paragraph"><block ref="5a76214ad6c936837ffbc2b3519f66ce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="118e3f1f2af9e76988d5dd4464cde783" category="inline-image-macro">ユーザーボタン</block>
+  <block id="0c9a1e230a4dff8b65df1622847f8d76" category="paragraph">お客様は、オプションを使用して、*ユーザー管理*画面から内部または外部のユーザーにアクセス権を付与できます<block ref="7583d99cfb8081c5535ddb803cd818d8" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="749c79ba020f9d0aaf1b465f6dd56db8" category="inline-image-macro">ユーザを追加するオプションを示すスクリーンショット</block>
+  <block id="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="paragraph"><block ref="c0a1f4b52f74dc2cd70fa3478d9d97ca" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9406fb3af0e8e2bf8446823785c0e069" category="sidebar">データインフラの分析情報</block>
 </blocks>
