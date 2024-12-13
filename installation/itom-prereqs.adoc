@@ -1,0 +1,71 @@
+---
+sidebar: sidebar 
+permalink: installation/itom-prereqs.html 
+keywords: prerequisites, ITOM, 
+summary: ITOM Collectorをインストールするには、システムがいくつかの要件を満たしている必要があります。 
+---
+= ITOM Collectorのインストール要件
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+ITOM Collectorをインストールする前に、システムに必要なソフトウェアが準備されており、必要なすべての前提条件を満たしていることを確認してください。
+
+.ITOM CollectorサーバVMの前提条件：
+* サポートされるオペレーティングシステム：Debian 12、Windows Server 2016、Ubuntu 20.04 LTS、Red Hat Enterprise Linux（RHEL）8.x、Amazon Linux 2023、またはそれ以降のバージョンのオペレーティングシステム。
++
+
+NOTE: 推奨されるオペレーティングシステムは、Debian 12、Windows Server 2016、またはそれ以降です。
+
+* リソース要件：監視対象のNetAppノード数に基づくVMリソース要件は次のとおりです。
++
+** 2~10ノード：CPU×4、8GB RAM、40GBディスク
+** 12~20ノード：CPU×8、16GB RAM、40GBディスク
+
+
+* 設定要件：監視対象デバイスに読み取り専用アカウントとSNMPが設定されていることを確認します。必要に応じて、ITOMコレクタサーバVMも、NetAppクラスタおよびクラスタスイッチ上でSNMPトラップホストおよびsyslogサーバとして設定する必要があります。
+
+
+
+
+== ネットワーク要件
+
+ITOM Collectorのネットワーク要件を次の表に示します。
+
+|===
+
+
+| ソース | 宛先 | プロトコル | ポート | 製品説明 
+
+
+| ITOMコレクタ | NetApp ONTAPクラスタ管理IP | HTTPS、SNMP | TCP 443、UDP 161 | ONTAPコントローラの監視 
+
+
+| NetApp ONTAPのクラスタおよびノードの管理IP | ITOMコレクタ | SNMP、syslog | UDP 162、UDP 514 | コントローラからのSNMPトラップとsyslog 
+
+
+| ITOMコレクタ | クラスタスイッチ | SNMP | UDP 161 | スイッチの監視 
+
+
+| クラスタスイッチ | ITOMコレクタ | SNMP、syslog | UDP 162、UDP 514 | スイッチからのSNMPトラップとsyslog 
+
+
+| ITOMコレクタ | StorageGRIDノードのIP | HTTPS、SNMP | TCP 443、UDP 161 | StorageGRIDのSNMP監視 
+
+
+| StorageGRIDノードのIP | ITOMコレクタ | SNMP、syslog | UDP 162、UDP 514 | StorageGRIDカラノSNMPトラツフ 
+
+
+| ITOMコレクタ | Keystoneコレクタ | SSH、HTTPS、SNMP | tcp 22、tcp 443、udp 161 | Keystone Collectorの監視とリモート管理 
+
+
+| ITOMコレクタ | ローカルDNS | DNS | UDP 53 | パブリックまたはプライベートDNSサービス 
+
+
+| ITOMコレクタ | 選択したNTPサーバ | NTP | UDP 123 | 時間管理 
+|===

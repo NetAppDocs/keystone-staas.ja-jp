@@ -55,6 +55,14 @@ sidebar:
         url: "/installation/validation.html"
     - title: Keystoneコレクタを設定する
       url: "/installation/configuration.html"
+    - title: ITOMコレクタのインストール
+      entries:
+      - title: 設置を準備
+        url: "/installation/itom-prereqs.html"
+      - title: Linuxへのインストール
+        url: "/installation/install-itom-linux.html"
+      - title: Windowsへのインストール
+        url: "/installation/install-itom-windows.html"
     - title: AutoSupport を設定します
       url: "/installation/asup-config.html"
     - title: Keystone Collectorのセキュリティ
@@ -115,8 +123,8 @@ sidebar:
         url: "/concepts/equinix.html"
       - title: 返品不可、不揮発性コンポーネント、SnapLock準拠
         url: "/concepts/nrnvc.html"
-      - title: 米国市民サポート（USCS）
-        url: "/concepts/uscs.html"
+      - title: 米国保護サポート（USPS）
+        url: "/concepts/usps.html"
   - title: Keystone STaaSのSLA
     entries:
     - title: 可用性

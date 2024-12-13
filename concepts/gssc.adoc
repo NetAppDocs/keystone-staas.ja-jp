@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concepts/gssc.html 
-keywords: Global Services Support Center, GSSC, Keystone support, service request, support ticket 
+keywords: Keystone support, service request, support ticket 
 summary: サポートが必要な場合は、NetAppグローバルサービスおよびサポートセンターにお問い合わせください。 
 ---
 = Keystoneに関するサポートを受ける
@@ -14,28 +14,22 @@ summary: サポートが必要な場合は、NetAppグローバルサービス�
 
 
 [role="lead"]
-Keystoneサブスクリプションのサービスは、NetAppグローバルサービスおよびサポートセンター（GSSC）とNetApp Keystoneサクセスマネージャー（KSM）が担当します。サポートが必要な場合は、サポートチームにお問い合わせください。
+Keystoneサブスクリプションのサービスは、NetApp KeystoneサポートチームとKeystoneサクセスマネージャー（KSM）が担当します。サポートが必要な場合は、Keystoneサポートチームにお問い合わせください。
 
 
 
-== NetAppグローバルサービスおよびサポートセンター
+== NetApp Keystoneのサポート
 
 ネットアップは、 NetApp Keystone のお客様に運用サービスをリモートで提供しています。これらのサービスには、ストレージ管理アクティビティ全体にわたる運用上のさまざまな分野が含まれます。これらのサービスには、アセットと構成の管理、容量とパフォーマンスの管理、変更管理、イベント、インシデントと問題の管理、サービスリクエストのフルフィルメント、レポートなどがあります。NetAppは、必要に応じてコントロールの状態と裏付けとなる証拠を示します。
 
 
 
-== 追加情報とサポートの連絡先
+== 追加情報
 
-NetAppグローバルサービスおよびサポートセンターチームは、主にNetApp Keystoneのお客様に対するサービスをサポートします。以下の情報を参考にして、サポートチームに連絡してください。
-
-* グローバルサービス担当者：
-https://www.netapp.com/company/contact-us/support/[]
-* エスカレーションが必要なオープンケース/チケットをお持ちの場合は、次のいずれかのアドレスに電子メールを送信してください：keystone.services@netapp.com keystone.escalations@netapp.com
-* ネットアップは、AIOps解決策 を使用して、トラブルシューティングのためにNetApp Keystone 環境をプロアクティブに監視し、接続します。
+NetAppは、ITOM監視ソリューションを使用して、トラブルシューティングのためにNetApp Keystone環境をプロアクティブに監視し、接続します。
 
 
-
-NOTE: パートナー運用モデルでは、テナントとサブテナントのサービス要求がパートナーのサービスデスクに割り当てられます。パートナー様のサポートツールは、AIOps解決策 やGSSCアプリケーションと統合されている場合があります。L3 の問題のみが GSSC を通じてネットアップにエスカレーションされます。
+NOTE: パートナー運用モデルでは、テナントとサブテナントのサービス要求がパートナーのサービスデスクに割り当てられます。パートナーのサポートツールがITOMソリューションと統合されている場合があります。
 
 Keystoneサービスの詳細については、以下を参照してください。
 
@@ -45,9 +39,9 @@ Keystoneサービスの詳細については、以下を参照してください
 
 
 
-== GSSCモニタリング
+== Keystoneのサポート監視
 
-NetAppグローバルサービスおよびサポートセンターは、お客様の製品やサブスクリプションサービスの健常性を監視し、リモートサポートを提供し、Keystoneサクセスマネージャーと連携します。関連するKeystoneサブスクリプションの発注に関連付けられている製品を監視しているすべての担当者がUです。 米国で活動しているS市民。
+NetApp Keystoneサポートは、製品とサブスクライブ済みサービスの健常性を監視し、リモートサポートを提供し、Keystoneサクセスマネージャーと連携します。
 
 .Keystone Success Managerの略
 Keystone Success Manager（KSM）は、Keystoneサービスに関してパートナー様と緊密に連携し、週単位または月単位の請求レポートや運用レポートを作成して更新します。責任は、NetApp Keystone 契約で規定されています。
@@ -60,6 +54,8 @@ Keystone Success Manager（KSM）は、Keystoneサービスに関してパート
 
 https://netappgssc.service-now.com/csm[]
 
-サービスリクエストを作成する前に、システムの詳細、ログ、および関連情報を準備しておきます。サービスリクエストを発行すると、GSSCチームはサポートチケットを受け取り、トラブルシューティングのための情報にアクセスします。ServiceNowチケットをフォローして、ステータスと解決策を確認できます。
+サービスリクエストを作成する前に、システムの詳細、ログ、および関連情報を準備しておきます。サービスリクエストを発行すると、Keystoneサポートチームがサポートチケットを受け取り、トラブルシューティング用の情報にアクセスします。ServiceNowチケットをフォローして、ステータスと解決策を確認できます。
 
 サポートバンドルの追加については、を参照してください link:../installation/monitor-health.html["サポートバンドルを生成して収集する"]。
+
+エスカレーションが必要なオープンケース/チケットをお持ちの場合は、次のいずれかのアドレスに電子メールを送信してください：keystone.services@netapp.com keystone.escalations@netapp.com

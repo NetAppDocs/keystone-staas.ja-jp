@@ -1,0 +1,60 @@
+---
+sidebar: sidebar 
+permalink: installation/install-itom-linux.html 
+keywords: Linux installation, ITOM Collector installation 
+summary: LinuxベースのシステムにITOM Collectorソフトウェアをインストールします。 
+---
+= LinuxシステムへのITOM Collectorのインストール
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージ環境のメトリックデータを収集するITOM Collectorをインストールするには、いくつかの手順を実行します。要件に応じて、WindowsシステムまたはLinuxシステムにインストールできます。
+
+
+NOTE: KeystoneサポートチームがITOM Collectorセットアップファイルをダウンロードするための動的リンクを提供（有効期限は2時間）
+
+WindowsシステムにITOM Collectorをインストールするには、を参照してくださいlink:../installation/install-itom-windows.html["WindowsシステムへのITOM Collectorのインストール"]。
+
+Linuxサーバにソフトウェアをインストールするには、次の手順に従います。
+
+.作業を開始する前に
+* LinuxインストールスクリプトでBourneシェルが使用可能であることを確認します。
+* パッケージをインストールして `vim-common`、ITOM Collectorセットアップファイルに必要な* xxd *バイナリを取得します。
+* ITOM Collectorをroot以外のユーザとして実行する場合は、がインストールされていることを確認します `sudo package`。
+
+
+.手順
+. ITOMコレクタ設定ファイルをLinuxサーバにダウンロードします。
+. サーバでターミナルを開き、次のコマンドを実行して権限を変更し、バイナリを実行可能にします。
+`# chmod +x <installer_file_name>.bin`
+. コマンドを実行して、ITOMコレクタセットアップファイルを開始します。
+`#./<installer_file_name>.bin`
+. セットアップファイルを実行すると、次の操作が求められます。
++
+.. エンドユーザライセンス契約（EULA）に同意します。
+.. インストールのユーザ詳細を入力します。
+.. インストールの親ディレクトリを指定します。
+.. コレクタサイズを選択します。
+.. 必要に応じてプロキシの詳細を指定します。
++
+プロンプトごとに、デフォルトのオプションが表示されます。特定の要件がないかぎり、デフォルトのオプションを選択することをお勧めします。Enter *キーを押して、デフォルトオプションを選択します。インストールが完了すると、ITOM Collectorが正常にインストールされたことを示すメッセージが表示されます。
+
+
+
+
+
+[NOTE]
+====
+* ITOM Collectorセットアップファイルは、サービスの再起動とメモリダンプを処理するためにを追加し `/etc/sudoers`ます。
+* LinuxサーバーにITOMコレクタをインストールすると、ルートPrivilegesなしでITOMコレクタを実行するためのデフォルトユーザー* ITOM *が作成されます。別のユーザを選択することも、rootとして実行することもできますが、Linuxインストールスクリプトで作成したITOMユーザを使用することを推奨します。
+
+
+====
+.次の手順
+インストールが完了したら、Keystoneサポートチームに連絡して、ITOMサポートポータルからITOM Collectorが正常にインストールされたことを確認します。検証が完了したら、KeystoneサポートチームがITOM Collectorをリモートで設定します。これには、デバイスの検出と監視のセットアップも含まれます。設定が完了すると、確認メッセージが送信されます。ご不明な点や追加情報については、keystone.services@ NetApp .comまでお問い合わせください。

@@ -27,7 +27,7 @@ NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コン
 Keystoneインフラには、次のような複数のコンポーネントが含まれます。
 
 * Keystoneインフラ（ストレージコントローラを含む）。
-* AIOps解決策 、Active IQ 、Active IQ Unified Manager など、サービスを管理および運用するためのツール。
+* ITOM監視ソリューション、Active IQ、Active IQ Unified Managerなど、サービスを管理および運用するためのツール。
 
 
 
@@ -44,10 +44,10 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 
 ストレージ機器に加えて、ストレージと消費の監視用に2つの監視ツールがプロビジョニングされています。
 
-* AIOps解決策 local gateway:ネットワークの監視に使用されるクラウドベースのアプリケーション。ネットアップのストレージプラットフォームとの統合機能が組み込まれており、環境データの収集とネットワークの監視に役立ちます。このサービスは、クラウドポータルと通信するためにサイトにインストールされたローカルゲートウェイを使用することで有効になります。
+* Keystone IT Operations Management（ITOM）監視ソリューション：Keystone環境の監視に使用するクラウドベースのSaaSアプリケーション。NetAppストレージプラットフォームとの統合が組み込まれているため、環境データを収集し、Keystoneインフラのコンピューティング、ネットワーク、ストレージのコンポーネントを監視できます。この監視機能は、オンプレミスのセットアップ、データセンター、クラウド環境、またはこれらの組み合わせにまで及びます。このサービスは、クラウドポータルと通信するサイトにインストールされたローカルのITOM Collectorを使用して有効になります。
 * Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクは請求データを処理し、請求のためにZuoraに送信します。
 
 
-image:mgmt-stack.png["managemntスタック"]
+image:mgmt-stack-2.png["managemntスタック"]
 
 Digital Advisorでは、ログインして、Keystoneサブスクリプションのサブスクリプションと消費量の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。

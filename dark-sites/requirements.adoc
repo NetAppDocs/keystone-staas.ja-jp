@@ -71,5 +71,5 @@ Keystone Collectorのネットワーク要件は次のとおりです。
 * Unified Managerサーバに、ポート443（HTTPS）でKeystone Collectorサーバからアクセスできる必要があります。
 * Unified ManagerサーバでKeystone Collector用のアプリケーションユーザ権限を持つサービスアカウントを設定する必要があります。
 * 外部インターネット接続は必要ありません。
-* 毎月、Keystone Collectorからファイルをエクスポートし、NetAppサポートチームにEメールで送信します。サポートチームへの連絡方法の詳細については、を参照してくださいlink:../concepts/gssc.html#netapp-global-services-and-support-center["Keystoneに関するサポートを受ける"]。
+* 毎月、Keystone Collectorからファイルをエクスポートし、NetAppサポートチームにEメールで送信します。サポートチームへの連絡方法の詳細については、を参照してくださいlink:../concepts/gssc.html["Keystoneに関するサポートを受ける"]。
 
