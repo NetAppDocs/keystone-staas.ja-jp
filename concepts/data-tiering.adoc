@@ -34,3 +34,7 @@ summary: データ階層化アドオンサービスは、使用頻度の低い�
 
 
 NOTE: Cloud Volumes ONTAP に必要なハイパースケーラベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaSサブスクリプションの一部としてネットアップから提供されるものではありません。これらのサービスはハイパースケーラークラウドサービスプロバイダから直接調達する必要があります。
+
+* 関連情報 *
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["ONTAP CLIを使用してデータ階層化（FabricPool）でKeystoneの消費量を概算する方法"^]

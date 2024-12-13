@@ -276,7 +276,6 @@
   <block id="780c462e85ba4399a5d42e88f69a15ca" category="sidebar">課金</block>
   <block id="05bbb43b3d923283e0b6ffafd088f41f" category="sidebar">コンポーネント</block>
   <block id="51e229527022b23ef548bfc016bfb0ac" category="sidebar">データフロー</block>
-  <block id="c4068cabe0040e62a0f9e5c030ce1b50" category="sidebar">Keystoneサービスでさらに多くのことを実現</block>
   <block id="895b14af35ea6854d4009fe0ca2d99a9" category="sidebar">NetApp Keystone とは</block>
   <block id="272552b591277a155ab212d038a32279" category="sidebar">測定単位を教えてください。</block>
   <block id="202e5e87c64fed77827697acb780124e" category="sidebar">サポートされているベースストレージ</block>
@@ -284,7 +283,6 @@
   <block id="edfc4c86589e31546a8fb2d8b085b8c9" category="sidebar">サービス品質（QoS）</block>
   <block id="7fb6ecbfc2c7172d977f1ac481edef36" category="sidebar">請求スケジュール</block>
   <block id="e6bdb181d03ed18f61204d6fa6f9e26d" category="sidebar">コミット済み容量を超えて消費された場合はどうなりますか？</block>
-  <block id="a7c5201b644834daf4816d3080e93837" category="sidebar">サポートチームの理解（Keystone GSSC）</block>
   <block id="0e0fe605239796a7018441e65fa28979" category="sidebar">米国市民サポート</block>
   <block id="f0411ca83e625da2c18b5f0c0682bd93" category="sidebar">詳細情報</block>
   <block id="5ecb6b24c169667ff1a176768115659e" category="sidebar">Active IQ Unified Manager</block>
@@ -1235,11 +1233,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="40a849f1b1a23a8ad5b9eda7fffbc498" category="admonition">監視リストで検索すると、古いダッシュボードにサブスクリプションのリストが表示されます。監視リストにサブスクリプション番号が含まれている場合、Digital Advisorダッシュボードには* Keystoneサブスクリプション*ウィジェットのみが表示されます。</block>
   <block id="7bec9688ecf2b38ad916098d979ab11d" category="paragraph">Keystoneサービスにサブスクライブすると、Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットでサブスクリプションと使用量の詳細を確認できます。</block>
   <block id="72225f6e4157a41063cc314ef6fbee87" category="admonition">ここに記載されている情報は、環境Both ONTAP and StorageGRIDです。例外は関連するセクションで指摘されています。</block>
-  <block id="e2a2270c486beacf71e6bd4a48314991" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[アセット]*をクリックします。</block>
   <block id="89c9ef7132e6fac6325de01d876fc5aa" category="list-text">クラスタを表示するサブスクリプション番号を選択します。</block>
-  <block id="1014f28a098809635129e3768d88c841" category="paragraph">クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。</block>
-  <block id="50f8af23d47854d6e926cd5b6a614505" category="sidebar">VMware vSphereへのKeystone Collectorのインストール</block>
-  <block id="86215e54968c6d7de59c34d62652d9b9" category="sidebar">LinuxへのKeystone Collectorのインストール</block>
   <block id="d44d28fd40b9c69ef8ce92777484e334" category="paragraph">Keystoneデータのレポートを生成して表示できます。Keystoneサブスクリプション*ページの各タブでは、ダウンロードボタンをクリックして、サブスクリプション、過去の使用量とバースト使用量、パフォーマンス、アセット、ボリュームとオブジェクトに関するレポートを生成できます。 <block ref="8dec166a4f6cf96a41e44a339dcc6d98" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2982b614ac2cf7f1a9aabd6fd79028f2" category="paragraph">詳細はCSV形式で生成され、将来の使用や比較のために保存できます。</block>
   <block id="16299daea8c4c1acc7d9eb66580654e7" category="paragraph">AutoSupportサブスクリプションの*[アセット]タブには情報がありません。</block>
@@ -1366,7 +1360,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="bd79126b847656ed7fae36b5cf2b2a67" category="list-text"><block ref="bd79126b847656ed7fae36b5cf2b2a67" category="inline-link-macro-rx"></block></block>
   <block id="6b4c0e011e525c6bfef1c89d400050ea" category="list-text"><block ref="6b4c0e011e525c6bfef1c89d400050ea" category="inline-link-macro-rx"></block></block>
   <block id="8e3557260fa2ecc062aeb9b921f99cce" category="summary">Keystone Flexサブスクリプションサービスを介したKeystone STaaS</block>
-  <block id="c14158742caa91eb4e1b6152329dc0fb" category="paragraph">Digital Advisorは、導入環境に関する包括的なインベントリレベルの情報を提供します。一方、Keystoneダッシュボードの*[Assets]*タブでは、サブスクリプションに基づいてクラスタレベルの情報が収集され、正確な情報が分離されて表示されます。</block>
   <block id="160de0b8ef29975a3bcc6e2e2b61c540" category="paragraph">切り替えボタン*[Show Current Usage]*をクリックすると、現在の課金期間の消費量、バースト使用量、および蓄積バーストデータを確認できます。これらの詳細は、クエリの日付範囲に基づいていません。</block>
   <block id="3249e310d1f377e16af196e978621a35" category="paragraph">監視リストはDigital Advisorの機能です。詳細については、を参照してください<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。監視リストの作成については、を参照してください。<block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block>。</block>
   <block id="47f8ab1b56fa7a9acaabc7ce6e4ffaab" category="paragraph">使用状況グラフには、* Capacity Trends *タブの* Capacity Trend *オプションから、前月の開始日と終了日として現在の日に対応する日付が選択されている場合、指定した1日の期間を超えたデータが表示されます。</block>
@@ -1409,7 +1402,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0ea24cb9e38328d97758b94ddb59b5ef" category="list-text"><block ref="0ea24cb9e38328d97758b94ddb59b5ef" category="inline-link-macro-rx"></block></block>
   <block id="7e50034c4460f3b691f597afb9a64ad3" category="paragraph">グラフデータが変換される*消費トレンド*タブのサンプルレポート：</block>
   <block id="382fd8723ebdcd2f39cbf2ac2a288ee4" category="paragraph"><block ref="382fd8723ebdcd2f39cbf2ac2a288ee4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0a012b7cc2f110abb0e9e4de50825e19" category="paragraph"><block ref="0a012b7cc2f110abb0e9e4de50825e19" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f600fd5916241a1ab6313921a59142a" category="list-text">[General]&gt;[Keystoneサブスクリプション]&gt;[Consumption Trend]*をクリックします。</block>
   <block id="a2f28b723367aa51b8cf89e4b45c5710" category="list-text">履歴データを表示して容量使用状況のトレンドを分析する場合は、*消費トレンド*を選択します。請求書が生成されたバースト使用量の履歴データを表示する場合は、* Invoiced Accrued Burst *を選択します。このデータを使用して、請求書に従って請求された使用量を分析できます。</block>
   <block id="af246886868b8aec437536365e1c07b6" category="section-title">消費トレンドの表示</block>
@@ -1539,9 +1531,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="953fc9eddf4cd31e31fe4a50570ababf" category="summary">OVAテンプレートのダウンロード、テンプレートの導入などにより、Keystone CollectorをVMware vSphereシステムに導入します。</block>
   <block id="1cceea5af439cdbb6c02b1dac3e52f59" category="summary">Keystone Collectorをインストールするには、VMware vSphereシステムがいくつかの要件を満たしている必要があります。</block>
   <block id="898ee4a9f94be9ae6d445399f980be4f" category="summary">Digital Advisorダッシュボードでは、Keystoneサブスクリプションの詳細の表示、容量の使用状況の監視、レポートの生成を行うことができます。</block>
-  <block id="88ba1a903782e6e9fa15c49759c77002" category="summary">[Assets]タブを使用して、Keystoneサブスクリプションで管理されているクラスタとノードに関する詳細を表示します。</block>
-  <block id="c9d3977801acf4ccae129ec84792bff6" category="doc">Keystoneで管理されているクラスタとノードの詳細を表示する</block>
-  <block id="bd40bda8c4e7d21d9b37e2630b5d3847" category="paragraph">Keystoneサブスクリプションで管理されているクラスタとノードに関する詳細を表示するには、*[アセット]*タブを使用します。</block>
   <block id="9bc1b954ed18e282db9621503d1ab732" category="summary">サブスクリプションの使用状況を監視するために、一定期間のKeystoneサブスクリプションの履歴データを表示できます。</block>
   <block id="82b1ab776febbe15c1e9dd82cf8b7ed3" category="doc">消費トレンドの表示</block>
   <block id="7a6bf42e443853b65d1851b22d80d1b8" category="summary">サブスクリプションの使用量を把握するために、コミット済み容量、消費容量、使用可能容量などを確認できます。</block>
@@ -2158,4 +2147,29 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="fee7b996a8ab0bee47684563d23b4926" category="sidebar">ITOMコレクタのインストール</block>
   <block id="8869eeb557230a1ee1c042d1156e4eef" category="sidebar">Windowsへのインストール</block>
   <block id="fbb165d9f99339f62e1190730a20d297" category="sidebar">米国保護サポート（USPS）</block>
+  <block id="3158f806d725e1ec78b0701704e3095e" category="inline-link-macro">ONTAP CLIを使用してデータ階層化（FabricPool）でKeystoneの消費量を概算する方法</block>
+  <block id="a61155b6c29c4a67dcebc112d4f1a0e6" category="paragraph"><block ref="a61155b6c29c4a67dcebc112d4f1a0e6" category="inline-link-macro-rx"></block></block>
+  <block id="383808601885ff3e8a9a0d874893b2f1" category="summary">[Assets]タブを使用して、ONTAPのクラスタとノード、およびKeystoneサブスクリプションで管理されるStorageGRIDのグリッド、サイト、ノードの詳細を表示します。</block>
+  <block id="f6b2ecd1814849b78e41e3e2b4e0fca3" category="doc">Keystoneで管理されているクラスタとグリッドの詳細を表示する</block>
+  <block id="4af983dc8b38330ebf279dac7575b6af" category="paragraph">Keystoneサブスクリプションで管理されているONTAPのクラスタとノード、およびStorageGRIDのグリッド、サイト、ノードの詳細を表示するには、*[アセット]*タブを使用します。</block>
+  <block id="ccb59ed71491ec34ae61a4a3e64b1fd7" category="paragraph">Keystoneダッシュボードの* Assets *タブには、* ONTAP *と* StorageGRID *という2つのサブタブがあります。このタブには、サブスクリプションに基づいてONTAPのクラスタレベルの情報とStorageGRIDのグリッドレベルの情報が収集され、データが正確な情報とともに分離されて表示されます。この情報は、それぞれのサブタブをクリックして表示できます。</block>
+  <block id="61458f2c1b18b9bcbc537de740c9e1e0" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[アセット]&gt;[ ONTAP ]*をクリックします。</block>
+  <block id="25e1d9e56c0d85d8f80b0bbb2ab7e58e" category="paragraph">クラスタの詳細がStorage Efficiency設定、プラットフォームタイプ、および容量の詳細別に内訳で表示されます。いずれかのクラスタをクリックすると、[Digital Advisor]画面の*[Clusters]*ウィジェットが開き、そのクラスタの追加情報が表示されます。Digital Advisorは、導入環境に関する包括的なインベントリレベルの情報を提供します。</block>
+  <block id="3dea7e0612816c330ed28a23513ff990" category="inline-image-macro">ONTAPのクラスタレベルの情報を示すスクリーンショット</block>
+  <block id="4a3681d6237f5e015ad5ede6e3821946" category="paragraph"><block ref="4a3681d6237f5e015ad5ede6e3821946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0c99c647c90765307c7881aeb82d4b0a" category="list-text">[全般]&gt;[Keystoneサブスクリプション]&gt;[アセット]&gt;[ StorageGRID ]*をクリックします。</block>
+  <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">グリッドの詳細がグリッドとノードの識別子、サイト情報、ハードウェア仕様、および容量の詳細別に分類されて表示されます。これらの情報は、StorageGRIDインフラ内のノードの監視と管理に役立ちます。</block>
+  <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">StorageGRIDのグリッドレベルの情報を示すスクリーンショット</block>
+  <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">表に表示されている列を追加または削除するには、*列の非表示/表示*を使用します。デフォルトでは、*部門*列を除くすべての列が選択されています。[部門]列を含む列を選択または選択解除すると、後で使用できるように設定が保存されます。CSVレポートをダウンロードすると、選択されている場合は*部門*列の詳細が含まれ、テーブル内の選択ステータスに関係なく他の列が表示されます。</block>
+  <block id="bc6d0fec5ccd5f580ac081a7231e72de" category="section-title">2024/12/12</block>
+  <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">名前が変更された論理使用列</block>
+  <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">[Volumes &amp; Objects]*の*[Volume Details]*タブの*[Logical Used]*列の名前が*[Keystone Logical Used]*に変更されました。</block>
+  <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">強化されたアセットタブ</block>
+  <block id="b37b0904549353aadf47641a5b0575b8" category="paragraph">[Keystone Subscriptions]画面の*[Assets]*タブに、* ONTAP *と* StorageGRID *という2つの新しいサブタブが追加されました。これらのサブタブには、ONTAPのクラスタレベルの詳細な情報と、サブスクリプションに基づくStorageGRIDのグリッドレベルの情報が表示されます。詳細については、を参照して <block ref="188c8c355e0f1b0eb880092ea81f5051" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">新しい[列の非表示/表示]オプション</block>
+  <block id="498f6fe433bcf5b2aeb742aa58e012a5" category="paragraph">[ボリュームとオブジェクト]*の*[ボリュームの詳細]*タブに*[列の表示/非表示]*オプションが追加されました。このオプションでは、列を選択または選択解除して、ボリュームの表形式のリストを希望に応じてカスタマイズできます。詳細については、を参照して <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Keystoneサービスでより多くの成果を達成</block>
+  <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">サポートチームを知る</block>
+  <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">ストレージの監視、トラブルシューティング、強化</block>
 </blocks>

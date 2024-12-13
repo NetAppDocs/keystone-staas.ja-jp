@@ -10,10 +10,10 @@ indexpage:
     links:
     - title: NetApp Keystone とは
       url: "/concepts/overview.html"
-    - title: VMware vSphereへのKeystone Collectorのインストール
+    - title: Keystone Collectorをインストールします
       url: "/installation/vapp-installation.html"
-    - title: LinuxへのKeystone Collectorのインストール
-      url: "/installation/linux-installation.html"
+    - title: ITOMコレクタのインストール
+      url: "/installation/itom-prereqs.html"
     - title: Keystone Collectorをプライベートモードでインストールする
       url: "/dark-sites/overview.html"
     - title: Digital Advisorで使用状況を確認
@@ -44,14 +44,16 @@ indexpage:
       url: "/concepts/consumed-capacity-billing.html"
     - title: コミット済み容量を超えて消費された場合はどうなりますか？
       url: "/concepts/burst-consumption-billing.html"
-  - title: Keystoneサービスでさらに多くのことを実現
+  - title: Keystoneサービスでより多くの成果を達成
     links:
-    - title: サポートチームの理解（Keystone GSSC）
+    - title: サポートチームを知る
       url: "/concepts/gssc.html"
     - title: コールドデータや使用頻度の低いデータはどうすればよいですか？
       url: "/concepts/data-tiering.html"
     - title: Keystoneデータを保護するにはどうすればよいですか？
       url: "/concepts/adp.html"
+    - title: ストレージの監視、トラブルシューティング、強化
+      url: "/concepts/data-infra-insights.html"
     - title: KeystoneとBlueXP
       url: "/integrations/keystone-cm.html"
     - title: 米国市民サポート
