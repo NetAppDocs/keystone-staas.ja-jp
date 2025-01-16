@@ -118,7 +118,6 @@
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">サブスクリプションの期間中に、コミット済み容量を変更できます。ただし、前提条件は次のとおりです。</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">容量の削減</block>
   <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">コミット済み容量は、特定の条件に基づいて削減できます。詳細については、を参照してください <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>。</block>
-  <block id="1df0745e84cded8b1998d4aaf3fce411" category="inline-link-macro">ネットアップグローバルサービスサポートセンター</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">使用済み容量</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">バースト時の容量</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">請求容量</block>
@@ -346,7 +345,6 @@
   <block id="c32944bc40d1accb43f1f8bfaf090dce" category="paragraph">アドオン階層化サービスの料金は、サブスクリプション期間全体を通じて適用されます。</block>
   <block id="e72611e56e05f623af5dc7011928a294" category="admonition">Cloud Volumes ONTAP に必要なハイパースケーラベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaSサブスクリプションの一部としてネットアップから提供されるものではありません。これらのサービスはハイパースケーラークラウドサービスプロバイダから直接調達する必要があります。</block>
   <block id="e18765eb2b8dddd29b66918ffb976fcc" category="paragraph">Keystone STaaSサブスクリプションは、月単位と年単位で課金されます。</block>
-  <block id="5979b85a79f05c1c731acd749343d5ff" category="list-text">認定済み容量の変更は、BlueXPインターフェイスまたはKeystone Success Manager（KSM）を通じてリクエストできます。変更の要求については、を参照してください <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>。</block>
   <block id="9b25613e0d8ca22f20fe93edf63407f1" category="cell">*ワークロードタイプの例*</block>
   <block id="548dcac52aca7f6902fd2de4648c5e9e" category="cell">*ボリュームあたりの最大IOPS /論理ティアBの格納数*</block>
   <block id="93ed1a757e360a886c7ba5a5d93ba089" category="cell">*ボリュームあたりの最大IOPS /論理TiB保存容量*</block>
@@ -486,7 +484,6 @@
   <block id="5f76d762520637f1eb1b8dd5e4b71129" category="paragraph">TCP 443</block>
   <block id="e89ab59baea830bd940c300886c50efe" category="paragraph">必須</block>
   <block id="8e77c75fd2b5c8f6c41f3c1b738d2a22" category="paragraph">インターネット（後で指定するURL要件に従って）</block>
-  <block id="77af2ba0b86f594a268203e05693cb8f" category="paragraph">TCP 80、TCP 443</block>
   <block id="882da07ddabac1aa28b5f358bcbeb2ce" category="paragraph">必須（インターネット接続）</block>
   <block id="01633331ef3bca3e96b0dfd60ceb54bd" category="paragraph">Keystoneコレクタソフトウェア、OSの更新、指標のアップロード</block>
   <block id="18cc1486462950320ca2ccc7310af46b" category="paragraph">顧客のHTTPプロキシ</block>
@@ -1143,8 +1140,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b01022ea67a6b913d57f7194fcc72d9d" category="section-title">請求済みバースト容量の表示</block>
   <block id="393673167b0e2f5fe79a42f45c884852" category="admonition">課金される累積バースト使用量は、サービスレベルのコミット済み容量と消費容量に基づいて、課金期間ごとに計算されます。</block>
   <block id="0cd22f9baa25202637cff789fe1dfe9f" category="list-text">Active IQ Unified Manager（Unified Manager）9.10以降</block>
-  <block id="81f184376266ed69a659d0030be070fc" category="list-text">RPMデータベースでKeystone請求プラットフォームのフィンガープリントを確認して、正しいパブリック証明書がインポートされていることを確認します。<block ref="ea7401e26ed6546568cda192cd234905" prefix=" " category="inline-code"></block>
-正しい指紋は次のようになります。<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block></block>
   <block id="cbe21b6da30db10de9cd33de72b5dc48" category="paragraph">SnapLock テクノロジは、ボリュームに設定された有効期限を過ぎたドライブを使用不可にすることで、NRNVC機能を有効にします。ボリュームでSnapLock テクノロジを使用するには、NRNVCに登録する必要があります。これは、ファイルサービスとブロックサービスにのみ該当します。</block>
   <block id="25ee4dffb8ff9627245188cd5d5a88f9" category="paragraph">NetApp Keystone （Keystone）は、成長に合わせて拡張できるサブスクリプションベースのサービスモデルです。OPEX消費モデルを希望する企業が、設備投資やリースの初期化を希望する場合に、シームレスなハイブリッドクラウドエクスペリエンスを提供します。</block>
   <block id="14ef43baeaecb16eed97981bac41fa1a" category="paragraph">Keystoneを使用すると、予測できない容量の増加や複雑な調達サイクルを管理する際の課題を軽減し、価値創出までの時間を短縮できます。Keystoneを使用すると、お客様は経済性と運用性をビジネスの優先事項に合わせることができます。</block>
@@ -1470,7 +1465,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="db35003a371cb115e382b44e289c2eba" category="doc">Equinixを活用したコロケーションサービスの詳細</block>
   <block id="89cb717227b1e2f0129bc67abb7b696c" category="paragraph">NetAppは、フルスタックソリューションサービスを提供するために、EquinixデータセンターでNetApp Keystone STaaSサービスをホスティングするために、Equinixと提携しました。</block>
   <block id="a129a1a3a2b62ad0169083e37600a64e" category="paragraph">Equinixのデータセンターは次の場所にあります。</block>
-  <block id="baec7a90ff5a6d18f6dd7ef76c3e4998" category="summary">サポートが必要な場合は、NetAppグローバルサービスおよびサポートセンターにお問い合わせください。</block>
   <block id="9c749342ce1dc8c39f5e67d29a9500ac" category="doc">Keystoneに関するサポートを受ける</block>
   <block id="24acde87a618c9dc2d11377311afc495" category="summary">Keystoneのインフラ、設計、テクノロジの選択、コンポーネント製品は、ネットアップだけが提供します。</block>
   <block id="7954e225c8bd390ff2168144c5e393c1" category="paragraph">NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コンポーネントについて単独で責任を負います。これらは、NetApp環境とお客様が運用する環境の両方に適用されます。</block>
@@ -1600,7 +1594,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9eae698db2f9979943823c8ee1440c7d" category="paragraph">式を使用：サービスクレジット=（10/100）X 1000 x 0.05</block>
   <block id="df3634b399ce52d35f1816fa036f42b4" category="paragraph">計算に基づいて、サービスクレジットは5ドルになります。</block>
   <block id="182bf07a2845568515ca20b4e4654296" category="section-title">サービスクレジットリクエスト</block>
-  <block id="d914d7b4a96bed82ab1c41c97e6c5742" category="paragraph">SLAの違反が検出された場合は、Keystoneグローバルサービスおよびサポートセンター（GSSC）に優先度3（P3）のサポートチケットを発行します。</block>
   <block id="6d3089ef2f50007a659aa12b3a7415f8" category="list-text">次の詳細情報が必要です。</block>
   <block id="e3e23368bff57e5796042f5fba6c3fbd" category="list-text">Keystoneサブスクリプション番号</block>
   <block id="5e27e36d07d4a7286d88cd834cfbd611" category="list-text">ボリュームとストレージコントローラの詳細</block>
@@ -1608,11 +1601,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="de0480c0f5c929948100ece899e9724e" category="list-text">レイテンシ検出の計算時間</block>
   <block id="f657fc20931370f67393f5612ec70ffe" category="list-text">測定ツールと測定方法</block>
   <block id="2ecd994c3d59e0ce0211ab40d4167837" category="list-text">その他の該当する文書</block>
-  <block id="dc33a5089714f6579a5ab21118922cef" category="list-text">Keystone GSSCで開始されたP3チケットの詳細を以下のようにExcelシートに入力します。</block>
   <block id="892db0165f2238f40c3370386d79cac7" category="inline-image-macro">Excelシートテンプレート</block>
   <block id="f0fbc9cddebee973debd106e878bebdd" category="paragraph"><block ref="f0fbc9cddebee973debd106e878bebdd" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eb0abc09e7b5678911ee2656102c8868" category="list-text">GSSCが違反を確認してから6週間以内にサービスクレジット申請を開始する必要がある。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。</block>
-  <block id="45a3835755fcd6b1bf728c884bcc8d34" category="list-text">サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して <block ref="3dc9ad4ab1c3dcaa061c2b4df6782877" category="inline-link-macro-rx"></block>ください。</block>
   <block id="1d864ae11e362329da4731cbf31eca7b" category="summary">Sustainability、SLA、サービスレベル契約</block>
   <block id="4bcbaed6ba1519c1f0036c82537ffc1f" category="doc">パフォーマンスSLA</block>
   <block id="8c9a4601149bbf6f607b6419227dc5e3" category="paragraph">NetApp Keystoneは、サービスレベルごとにレイテンシベースのSLAを提供します。これは、Keystoneの注文書に記載されているとおり、バースト制限までの消費容量に対して、以下の契約条件に従って提供されます。</block>
@@ -1681,7 +1671,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1190761e382695cb9416b27ee7eed4d3" category="paragraph">3～7</block>
   <block id="f5c2de6939fdeaa3904b08a1fad7a2d3" category="paragraph">15%</block>
   <block id="aab3238922bcc25a6f606eb525ffdc56" category="paragraph">14</block>
-  <block id="87b656ee6c82131afa7ac0871d8168e8" category="paragraph">SLAの違反が検出された場合は、Keystone Global Services and Support Center（GSSC）に優先度3（P3）のサポートチケットを発行し、Excelシートの要求に応じて以下の詳細を提供します。</block>
   <block id="b16f882170095725eb371909f87f469f" category="paragraph">棒グラフには短時間のバーストが表示され、ズームイン機能を使用してこれらのバーストを表示できます。短期バーストが発生している場合は、対応するバーに青い点が表示され、データが消費されていない場合はX軸に直接示されます。詳細を表示するには、青い点が表示されているバーまたはX軸をクリックしたままグラフ上でカーソルをドラッグして目的の時間間隔を選択し、放して選択内容を確認します。この操作ではデータが拡大表示され、選択した間隔でそのサービスレベルで使用されている容量がより詳細に表示されます。[Reset Zoom]*ボタンをクリックすると、元のチャートビューに戻ることができます。</block>
   <block id="78a0f8f91a436c9b95253697658f1b15" category="inline-image-macro">[Consumption Trend]タブと詳細</block>
   <block id="0dd96295669c1478814661e7ab071d6e" category="paragraph"><block ref="0dd96295669c1478814661e7ab071d6e" category="inline-image-macro-rx" type="image"></block></block>
@@ -1966,7 +1955,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e7a731a6342f126055b89b80d800a180" category="cell">論理</block>
   <block id="ce898d62ed9ca7653a01fe0c781e97e9" category="cell">物理</block>
   <block id="77755c419ef346c65225a7d2709520ab" category="paragraph">MetroCluster構成での使用状況を表示する方法については、を参照してください<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
-  <block id="138155ee615aaf4d4e698be7c61a12c0" category="paragraph">[Invoiced Accrued Burst]オプションを選択した場合は、選択した請求期間に応じて、月単位または四半期単位で発生したバースト使用量データを確認できます。このデータは請求済みの過去12カ月間のデータであり、過去30カ月までの期間を日付範囲で照会できます。棒グラフには請求されたデータが表示され、使用量がまだ請求されていない場合は、その期間の_Pending_としてマークされます。</block>
   <block id="df54e0aa337c00aed9738ce50d6f7d40" category="paragraph">四半期請求期間の場合、月額プランがその月の1^st^以外の日付に開始された場合、四半期請求書はその後の90日間をカバーします。たとえば、サブスクリプションが8月15日に開始された場合、8月15日から10月14日までの期間の請求書が生成されます。</block>
   <block id="a15b1d5c20a80360a519fdba86f9d359" category="paragraph">請求を四半期単位から月単位に切り替えた場合でも、四半期ごとの請求書は90日の期間をカバーし、四半期の最後の月に四半期ごとの請求書とその月の残りの日数分の2つの請求書が生成されます。この移行により、毎月の請求期間が翌月の1^st^から開始されるようになります。たとえば、サブスクリプションが10月15日に開始された場合、毎月の請求期間が2月1日に始まる前に、1月15日から1月14日までと1月15日から31日までの2件の請求書が届きます。</block>
   <block id="19c39546a17d632b3f81a88517195dcb" category="inline-image-macro">累積バースト使用量（四半期ごと）</block>
@@ -1975,8 +1963,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="abdc803a1b380f3cb4c996e2b30a1820" category="paragraph"><block ref="abdc803a1b380f3cb4c996e2b30a1820" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c0bf27b930a0841a9485431dd01de3f4" category="admonition">高度なデータ保護アドオンサービスに登録している場合は、サブスクリプション番号のツールチップをクリックして、MetroClusterセットアップでパートナーサブスクリプションの追跡IDを表示できます。MetroCluster構成のパートナーサブスクリプション別の詳細な消費状況を表示する方法については、を参照してください<block ref="4655b13baf4ca66eebf5b6765e4df9a4" category="inline-link-macro-rx"></block>。</block>
   <block id="24685db79ee3df152404bc24333590fd" category="paragraph">2024/11/21</block>
-  <block id="2531cde1a4803cc2a1ae862eb5d81705" category="paragraph">サブスクリプションのレポートを生成できません</block>
-  <block id="4b22f859addb0f523b4eb20c8a3de953" category="paragraph">[Keystone Subscriptions]ページの*[Subscriptions]*タブで10 ~ 12個を超えるサブスクリプションを選択した場合、*[Include data for each service level]*オプションの*[Download CSV]*ボタンをクリックしてもレポートが生成されません。</block>
   <block id="01e50fa0cb5ca9093067bd7f7b5ce77d" category="section-title">増額された累積バースト課金</block>
   <block id="68282426b20517fa5a804475f31878a9" category="paragraph">四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して <block ref="b9f581509f4f5c092d1e1e258ec0cc04" category="inline-link-macro-rx"></block>ください。</block>
   <block id="f916fd7c91361d368cb72a24d8c89422" category="section-title">[Volumes Details]タブの新しい列</block>
@@ -2182,4 +2168,29 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="653181dc830ebbf1153310c93a009c52" category="list-text">Debian 12</block>
   <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8.6以降の8.xバージョン</block>
   <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7（既存環境のみ）</block>
+  <block id="265561b81e51364d306e58144832b7a8" category="summary">サポートが必要な場合は、NetApp Keystoneサポートチームにお問い合わせください。</block>
+  <block id="9dc4e2b4f34e5f118e35019c46b06a4a" category="paragraph">SLA違反が検出された場合は、NetApp Keystoneサポートにプライオリティ3（P3）サポートチケットをオープンします。</block>
+  <block id="5ece80a8e6fc51ca90ea8b795dbe7f83" category="list-text">以下に示すように、NetApp KeystoneサポートでオープンされたP3チケットの詳細をExcelシートに入力します。</block>
+  <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">サービスクレジットリクエストは、NetApp Keystoneサポートが違反を確認してから6週間以内に開始する必要があります。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。</block>
+  <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">SLAの違反が検出された場合は、優先度3（P3）のサポートチケットをNetApp Keystoneサポートとともにオープンし、要求された詳細を次のようにExcelシートに入力します。</block>
+  <block id="87b542a75a4c78cc8d36c595c7c05de1" category="list-text">認定済み容量の変更は、BlueXPインターフェイスまたはKeystone Success Manager（KSM）を通じてリクエストできます。変更リクエストの詳細については、を参照してください<block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>。</block>
+  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">RPMデータベースでKeystone Billing Platformのフィンガープリントをチェックして、正しいパブリック証明書がインポートされていることを確認します。正しいフィンガープリントは次のようになります<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block>。<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block></block>
+  <block id="46c3e6e27fbc70afa310c1553eb52893" category="paragraph">[Invoiced Accrued Burst]オプションを選択した場合は、選択した請求期間に応じて、月単位または四半期単位で発生したバーストデータの使用量を確認できます。このデータは請求済みの過去12カ月間のデータであり、過去30カ月までの期間を日付範囲で照会できます。棒グラフには請求されたデータが表示され、使用量がまだ請求されていない場合は、その期間の_Pending_としてマークされます。</block>
+  <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">日単位のバーストデータ使用量を表示</block>
+  <block id="5f79c46e242a47bee55e1f47143a24eb" category="paragraph">月単位または四半期単位の課金期間における、日単位のバーストデータの使用量を表示できます。請求済みデータを表示するバーをクリックすると、棒グラフの下に[Billable Provisioned Capacity]セクションが表示され、*[Graph]*および*[Table]*表示オプションが表示されます。デフォルトのグラフビューには、日単位のバーストデータ使用量が折れ線グラフ形式で表示され、時間の経過に伴う使用量の変化が示されます。</block>
+  <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">棒グラフを示すスクリーンショット</block>
+  <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">1日あたりの累積バーストデータ使用量を折れ線グラフで示す例：</block>
+  <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">バースト使用量データを折れ線グラフ形式で示すスクリーンショット</block>
+  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">グラフの右上隅にある* Table *オプションをクリックすると、テーブルビューに切り替えることができます。テーブルビューには、サービスレベル、タイムスタンプ、コミット済み容量、消費容量、課金可能なプロビジョニング済み容量など、日単位の使用状況に関する詳細な指標が表示されます。これらの詳細のレポートをCSV形式で生成して、将来の使用や比較に使用することもできます。</block>
+  <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">バースト使用量データを表形式で示すスクリーンショット</block>
+  <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c47baa61c22503bd11f03c33a6eb4733" category="paragraph">Keystoneサブスクリプション*ページの*サブスクリプション*タブで10～12を超えるサブスクリプションを選択した場合、サブスクリプションのレポートを生成できません。</block>
+  <block id="823d73fac48b123a5c54fb36b35fa946" category="paragraph">2025/01/08</block>
+  <block id="0210cb3765fda3047d9297b0f453ca44" category="paragraph">QoSポリシータイプガタダシクナイ</block>
+  <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">[ボリュームの詳細]*タブで、QoSポリシーが適用されていない場合は「QoSポリシータイプ」*列に「_QoS_」と表示され、[準拠]列に「_not set_」と表示されているため、表示されたQoSポリシーのステータスに不整合が生じています。</block>
+  <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">日単位の累積データ使用量表示オプションの追加</block>
+  <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>ください。</block>
 </blocks>
