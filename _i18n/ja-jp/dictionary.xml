@@ -542,7 +542,6 @@
   <block id="ea0dbfc6ab6c0af39db6e8b2db365d7f" category="list-text">システムのホスト名、場所、およびNTPサーバを、*Configuration &gt; System *セクションで設定します。</block>
   <block id="f5dfacf7a95f4945b3caa091e27ec747" category="doc">Keystoneコレクタの概要</block>
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。</block>
-  <block id="1fb4cbb275f095e6c7e8f914d27ed735" category="paragraph">Keystone Collectorソフトウェアは、オンラインのYUMソフトウェアリポジトリによって配布されます。Linuxサーバにファイルをインポートしてインストールする必要があります。</block>
   <block id="ea74ae761acf4f1176f873f6437675f6" category="paragraph">Linuxサーバにソフトウェアをインストールするには、次の手順を実行します。</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">KeystoneコレクタサーバにSSH接続し、に昇格します<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 権限：</block>
   <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Keystone公開署名署名をインポートします。<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
@@ -1914,10 +1913,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*アクセストークンの生成*:リフレッシュトークンは、アクセストークンの生成に使用されます。KeystoneサービスへのAPI呼び出しを許可するにはアクセストークンが必要で、有効期間は1時間です。</block>
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">API呼び出しを実行して、目的のデータを取得します。顧客のリスト、顧客サブスクリプションデータ、および顧客消費の詳細をプログラムで取得できます。</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Digital Advisor REST APIからKeystoneにアクセス</block>
-  <block id="aef0601039f80516fbc2cefd134a7b42" category="list-text">お客様が、Red Hat Enterprise Linux 8.6以降の8.xバージョンまたはCentOS 7で実行されているLinuxサーバを用意しておきます。Keystoneソフトウェアは、インストールプロセスでインストールされ<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>ます。</block>
   <block id="4bfa7642bccc7e1047a0f5b699a01631" category="paragraph">Keystone CollectorとNetAppソリューションゲートウェイの運用とメンテナンスに不可欠な、ソフトウェアの更新と使用状況データのアップロードには、_keystone.AIOps .com_へのアウトバウンドアクセスが必要です。</block>
-  <block id="f9d3d3159cdb3dcf297f1a90d133e474" category="list-text">オペレーティングシステム：Debian V12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
-  <block id="2604f9447676294c730c1410115fcdc0" category="list-text">オペレーティングシステム：CentOS 7、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
   <block id="04e5e9b2304d0098895d9985c9a8ea89" category="cell">*想定IOPS/TiB *</block>
   <block id="66add2975320c187fa0c68a862f9277b" category="cell">*最大IOPS/TiB *</block>
   <block id="44c1604c68364a078a1faa312c3f1fca" category="list-text">*想定IOPS/TiB *：十分なシステムIOPSがある場合にシステムが提供を試行する、ボリュームあたりの割り当て済みTiBあたりの最小IOPS。</block>
@@ -2172,4 +2168,18 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Keystoneサービスでより多くの成果を達成</block>
   <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">サポートチームを知る</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">ストレージの監視、トラブルシューティング、強化</block>
+  <block id="7fe1234c016df317c9bb2796b94c80c3" category="list-text">お客様が、Debian 12、Red Hat Enterprise Linux 8.6以降の8.xバージョン、またはCentOS 7（既存環境のみ）のいずれかのオペレーティングシステムでLinuxサーバを運用している。Keystoneソフトウェアは、Linuxディストリビューションに応じて、または<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block>パッケージを使用してインストールし<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block>ます。</block>
+  <block id="af1726e663445fca1780939dd8437580" category="list-text">オペレーティングシステム：Debian 12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン</block>
+  <block id="4082fa09d81cb2bcef02087304b3c30e" category="paragraph">Keystone Collectorソフトウェアは、RPMまたはDebianパッケージを使用してLinuxサーバにインストールできます。Linuxディストリビューションに応じて、インストール手順を実行します。</block>
+  <block id="3fc1f45d72a49b590c944fab8aac1e82" category="open-title">RPMの使用</block>
+  <block id="162a9e33a865943694a11b0031d84b66" category="open-title">Debianを使う</block>
+  <block id="a98e37707079fc949c91ca051e0dcead" category="list-text">Keystone CollectorサーバにSSHで接続し、権限を昇格し<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block>ます。<block ref="e73620038e8b54deb176b2581c7558a7" prefix=" " category="inline-code"></block></block>
+  <block id="5d4cb7a4cf862260849df5175a34c215" category="list-text">ファイルをダウンロードし<block ref="f86119adbf6f60ddd66d8af50a026122" prefix=" " category="inline-code"></block>ます。<block ref="4228c57e26dcb7e788f67e6f9e02ceb5" prefix=" " category="inline-code"></block></block>
+  <block id="6ff4e4466ce735d11d88c1194817f0d7" category="list-text">Keystoneソフトウェアリポジトリファイルをインストールします。<block ref="071fc003590c05068b84e2edffcea01e" prefix=" " category="inline-code"></block></block>
+  <block id="1f55f1a8efb6267e6c92c68a37d05869" category="list-text">パッケージリストを更新します。<block ref="e4d1bfabfe93077d65c8642e0205cfbf" prefix=" " category="inline-code"></block></block>
+  <block id="f3c8438664647f9d220cbfd1625a0edd" category="list-text">Keystoneリポジトリをインストールしたら、keystone-collectorパッケージをインストールします。<block ref="29b04259d51ea73a795fc3c2452196f4" prefix=" " category="inline-code"></block></block>
+  <block id="d830024e9ce7615651460580909fdc44" category="list-text">オペレーティングシステム：次のいずれか。</block>
+  <block id="653181dc830ebbf1153310c93a009c52" category="list-text">Debian 12</block>
+  <block id="015c84a3348885955ce882f1beed478e" category="list-text">Red Hat Enterprise Linux 8.6以降の8.xバージョン</block>
+  <block id="bcd6ed294af34e837c537b83a1a3de21" category="list-text">CentOS 7（既存環境のみ）</block>
 </blocks>

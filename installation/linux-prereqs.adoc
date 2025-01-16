@@ -19,7 +19,13 @@ summary: Keystone Collectorをインストールする前に、必要なソフ�
 LinuxおよびKeystone CollectorサーバVMがこれらの構成になっていることを確認します。
 
 .Linuxサーバ：
-* オペレーティングシステム：CentOS 7、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン
+* オペレーティングシステム：次のいずれか。
++
+** Debian 12
+** Red Hat Enterprise Linux 8.6以降の8.xバージョン
+** CentOS 7（既存環境のみ）
+
+
 * クロニド時間同期
 * 標準のLinuxソフトウェアリポジトリへのアクセス
 
