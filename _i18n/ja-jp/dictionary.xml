@@ -2193,4 +2193,9 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2fd8a3db64e08617acb19923d6feb044" category="paragraph">[ボリュームの詳細]*タブで、QoSポリシーが適用されていない場合は「QoSポリシータイプ」*列に「_QoS_」と表示され、[準拠]列に「_not set_」と表示されているため、表示されたQoSポリシーのステータスに不整合が生じています。</block>
   <block id="6fac87c4e304acd1c313d83787f9b7bd" category="section-title">日単位の累積データ使用量表示オプションの追加</block>
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="0488df5729275bc610c775109a5e97ed" category="doc">Keystone STaaSで解決された問題</block>
+  <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaSの既知の問題</block>
+  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">履歴データを表示できません</block>
+  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">[Consumption Trend]（消費トレンド）タブでは、以前のサブスクリプションに関連付けられたサービスレベルは、サブスクリプションの有効期限が切れ、同じトラッキングIDで更新されても、サービスレベルが異なると表示されません。その結果、履歴消費データにアクセスできなくなります。</block>
+  <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Keystone STaaSの既知の制限事項</block>
 </blocks>

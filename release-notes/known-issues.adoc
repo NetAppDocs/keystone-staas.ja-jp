@@ -4,7 +4,7 @@ permalink: release-notes/known-issues.html
 keywords: netapp, keystone, release notes, known issues 
 summary: 既知の問題には、Keystoneサブスクリプションサービスの効果的な利用を妨げる可能性のある問題が記載されています。 
 ---
-= 既知の問題
+= Keystone STaaSの既知の問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -21,6 +21,15 @@ summary: 既知の問題には、Keystoneサブスクリプションサービス
 [cols="3*"]
 |===
 | 既知の問題 | 製品説明 | 回避策 
+
+
+ a| 
+履歴データを表示できません
+ a| 
+[Consumption Trend]（消費トレンド）タブでは、以前のサブスクリプションに関連付けられたサービスレベルは、サブスクリプションの有効期限が切れ、同じトラッキングIDで更新されても、サービスレベルが異なると表示されません。その結果、履歴消費データにアクセスできなくなります。
+ a| 
+なし
+
 
 
  a| 
