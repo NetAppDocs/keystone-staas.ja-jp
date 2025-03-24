@@ -2183,7 +2183,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eba7556a1fc4fd160e9d81ddb2112a3e" category="paragraph">1日あたりの累積バーストデータ使用量を折れ線グラフで示す例：</block>
   <block id="515f3b344653c49257ced259fb9261bd" category="inline-image-macro">バースト使用量データを折れ線グラフ形式で示すスクリーンショット</block>
-  <block id="47fdc60b1d26d7e27d3b186be572a4d8" category="paragraph"><block ref="47fdc60b1d26d7e27d3b186be572a4d8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="afb651343eb4e95550b828492b0990bf" category="paragraph">グラフの右上隅にある* Table *オプションをクリックすると、テーブルビューに切り替えることができます。テーブルビューには、サービスレベル、タイムスタンプ、コミット済み容量、消費容量、課金可能なプロビジョニング済み容量など、日単位の使用状況に関する詳細な指標が表示されます。これらの詳細のレポートをCSV形式で生成して、将来の使用や比較に使用することもできます。</block>
   <block id="ef839937832da4065ea73d2af5bb0212" category="inline-image-macro">バースト使用量データを表形式で示すスクリーンショット</block>
   <block id="fd4179e96bb6b563483e2da193ee3515" category="paragraph"><block ref="fd4179e96bb6b563483e2da193ee3515" category="inline-image-macro-rx" type="image"></block></block>
@@ -2195,7 +2194,10 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="bce353c38d140a9c3cfcff4f836af86f" category="paragraph">請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して <block ref="2773c8880a0c489f5c889cad1b1aa49a" category="inline-link-macro-rx"></block>ください。</block>
   <block id="0488df5729275bc610c775109a5e97ed" category="doc">Keystone STaaSで解決された問題</block>
   <block id="e3cdc936dac2c0ff066e39a4166c9208" category="doc">Keystone STaaSの既知の問題</block>
-  <block id="cf456956bf4b18082e3ed1243aff31f5" category="paragraph">履歴データを表示できません</block>
-  <block id="7b19f6e9d0fb85adf96f95ba11a7325e" category="paragraph">[Consumption Trend]（消費トレンド）タブでは、以前のサブスクリプションに関連付けられたサービスレベルは、サブスクリプションの有効期限が切れ、同じトラッキングIDで更新されても、サービスレベルが異なると表示されません。その結果、履歴消費データにアクセスできなくなります。</block>
   <block id="1dd6b840b80d1691b68b67682f45c121" category="doc">Keystone STaaSの既知の制限事項</block>
+  <block id="d84ae5b6becc67f38fe4f478e713f236" category="paragraph"><block ref="d84ae5b6becc67f38fe4f478e713f236" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="71246a468b7dd0ee3663403dfb3f159b" category="paragraph">Digital Advisorダッシュボードの*[Watchlist]*に[Keystone Subscriptions]*オプションと[Reports]*に[Subscription Number]*オプションがありません。</block>
+  <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025年3月19日</block>
+  <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Digital Advisorダッシュボードで監視リストを作成または変更したあとに、一部のKeystoneサブスクリプションが*監視リスト*に表示されない。</block>
+  <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">有効期限が切れていて、同じ追跡IDで更新されたがサービスレベルが異なるサブスクリプションに関連付けられているサービスレベルについては、*消費トレンド*タブで履歴データを表示できません。</block>
 </blocks>
