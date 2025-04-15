@@ -26,6 +26,34 @@ Keystoneの利用を開始する前に、ONTAPクラスタとStorageGRIDシス�
 
 
 .作業を開始する前に
+使用状況データをONTAP経由でのみ収集する場合は、次の要件を満たしています。
+
+. ONTAP 9.8以降が設定されていることを確認します。新しいクラスタの設定については、次のリンクを参照してください。
++
+** https://docs.netapp.com/us-en/ontap/task_configure_ontap.html["System Managerを使用した新しいクラスタでのONTAPの設定"]
+** https://docs.netapp.com/us-en/ontap/software_setup/task_create_the_cluster_on_the_first_node.html["CLIを使用したクラスタのセットアップ"]
+
+
+. 特定のロールを指定してONTAPログインアカウントを作成します。詳細については、を参照して https://docs.netapp.com/us-en/ontap/authentication/create-svm-user-accounts-task.html#cluster-and-svm-administrators["ONTAPログインアカウントの作成について"]ください。
++
+** * Web UI *
++
+... デフォルトのクレデンシャルを使用してONTAP System Managerにログインします。詳細については、を参照して https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["System Managerでのクラスタ管理"]ください。
+... 「readonly」ロールでアプリケーションタイプが「http」のONTAPユーザを作成し、*[クラスタ]>[設定]>[セキュリティ]>[ユーザ]*に移動してパスワード認証を有効にします。
+
+
+** * CLI *
++
+... デフォルトのクレデンシャルを使用してONTAP CLIにログインします。詳細については、を参照して https://docs.netapp.com/us-en/ontap/system-admin/index.html["CLIヲシヨウシタクラスタカンリ"]ください。
+... 「readonly」ロールと「http」アプリケーションタイプを持つONTAPユーザを作成し、パスワード認証を有効にします。認証の詳細については、を参照してください https://docs.netapp.com/us-en/ontap/authentication/enable-password-account-access-task.html["ONTAPアカウントパスワードアクセスの有効化"]。
+
+
+
+
+
+
+Active IQ Unified Managerを使用して使用状況データを収集する場合は、次の要件を満たしています。
+
 . Unified Manager 9.10以降が設定されていることを確認します。Unified Managerのインストールについては、次のリンクを参照してください。
 +
 ** https://docs.netapp.com/us-en/active-iq-unified-manager/install-vapp/concept_requirements_for_installing_unified_manager.html["VMware vSphereシステムへのUnified Managerのインストール"^]

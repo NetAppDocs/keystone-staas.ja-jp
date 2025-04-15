@@ -2200,4 +2200,27 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="738bb3187467e21f957b2120a45e356a" category="paragraph">2025年3月19日</block>
   <block id="f2c2ba26aedbdce8dba144e80789d0b1" category="paragraph">Digital Advisorダッシュボードで監視リストを作成または変更したあとに、一部のKeystoneサブスクリプションが*監視リスト*に表示されない。</block>
   <block id="dd3b859a25ffcf974732975af6e5a4e9" category="paragraph">有効期限が切れていて、同じ追跡IDで更新されたがサービスレベルが異なるサブスクリプションに関連付けられているサービスレベルについては、*消費トレンド*タブで履歴データを表示できません。</block>
+  <block id="b2a3bf9896e977dfd8243da5ea25ed44" category="paragraph">使用状況データをONTAP経由でのみ収集する場合は、次の要件を満たしています。</block>
+  <block id="3e53b7d63056b7201f19b650655aad66" category="list-text">ONTAP 9.8以降が設定されていることを確認します。新しいクラスタの設定については、次のリンクを参照してください。</block>
+  <block id="16b35791c547ec7b12d2d1bc88d72f59" category="inline-link">System Managerを使用した新しいクラスタでのONTAPの設定</block>
+  <block id="8c6eef0a3d7e69df22688da3d1e6d26e" category="list-text"><block ref="8c6eef0a3d7e69df22688da3d1e6d26e" category="inline-link-rx"></block></block>
+  <block id="ec797c5e4fe95fdba62563dda4040b7c" category="inline-link">CLIを使用したクラスタのセットアップ</block>
+  <block id="bf1c2cef91760714f3d41ccff2cdf9bb" category="list-text"><block ref="bf1c2cef91760714f3d41ccff2cdf9bb" category="inline-link-rx"></block></block>
+  <block id="e8f64c2c9954152b2bdf07515fefcbf3" category="inline-link">ONTAPログインアカウントの作成について</block>
+  <block id="38b5a2c7a8d52f27b8f9ac286e00f48d" category="list-text">特定のロールを指定してONTAPログインアカウントを作成します。詳細については、を参照して<block ref="e69e255c042cc41ab7a6547befcd4b4a" category="inline-link-rx"></block>ください。</block>
+  <block id="d1d5b0ca67cfe96cd1bace50b8b15cbd" category="list-text">* Web UI *</block>
+  <block id="53b500e941f815e0da37832bbbb3f265" category="inline-link">System Managerでのクラスタ管理</block>
+  <block id="249c3b3c6a9f619b64fc657020594eb4" category="list-text">デフォルトのクレデンシャルを使用してONTAP System Managerにログインします。詳細については、を参照して<block ref="6093e0d65a9e5cab5ae1ba1e186de22d" category="inline-link-rx"></block>ください。</block>
+  <block id="d07c5d1cca8977c9165277aa366fcad7" category="list-text">「readonly」ロールでアプリケーションタイプが「http」のONTAPユーザを作成し、*[クラスタ]&gt;[設定]&gt;[セキュリティ]&gt;[ユーザ]*に移動してパスワード認証を有効にします。</block>
+  <block id="1ad46d8f16866c3c58ccf12d81ea41ba" category="list-text">* CLI *</block>
+  <block id="0ac6939a607b25b41877b7739b73fac6" category="inline-link">CLIヲシヨウシタクラスタカンリ</block>
+  <block id="2aba549c4aa954187b9066ac9b8e6f24" category="list-text">デフォルトのクレデンシャルを使用してONTAP CLIにログインします。詳細については、を参照して<block ref="80681c6be3483d3efa48f0733e30d252" category="inline-link-rx"></block>ください。</block>
+  <block id="da7599bcceca45d5f685a0c9ca169dd1" category="inline-link">ONTAPアカウントパスワードアクセスの有効化</block>
+  <block id="ce5996c36dc9e027cc9e9e6ac10b3c9f" category="list-text">「readonly」ロールと「http」アプリケーションタイプを持つONTAPユーザを作成し、パスワード認証を有効にします。認証の詳細については、を参照してください<block ref="ff30655b37a4a92ad3dccbb4dd39b63c" category="inline-link-rx"></block>。</block>
+  <block id="6fccd3079eed02626646a383fcba9c32" category="paragraph">Active IQ Unified Managerを使用して使用状況データを収集する場合は、次の要件を満たしています。</block>
+  <block id="ad822ed3350baf5e919fd093d9fce7c6" category="paragraph">リンクされたサブスクリプションの消費量の値に誤った負の数値が表示されるため、コミット済みの使用量の合計が誤って高く表示されます。</block>
+  <block id="1570fe5c09c488b2521f2eadf2c94b4a" category="paragraph">2025年4月14日</block>
+  <block id="16fc27e61eb7cb21d80ac46bae8bf3c2" category="paragraph">一部のサブスクリプションのサービスレベルについて、*消費トレンド*タブで履歴データを表示できません。</block>
+  <block id="cb0b0f23652246b2cc88085920b86963" category="paragraph">データの不一致のため請求書が正しくありません</block>
+  <block id="5bf5a6c38d050a01f149d67dba290961" category="paragraph">AutoSupportサブスクリプションの消費データが一致していないと、誤った請求書が生成され、請求書に不正確な情報が表示されます。</block>
 </blocks>

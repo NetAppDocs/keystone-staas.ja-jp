@@ -22,6 +22,24 @@ NetApp Keystone STaaSサービスの以前のリリースで見つかった問�
 
 
  a| 
+リンクされたサブスクリプションの消費量の値に誤った負の数値が表示されるため、コミット済みの使用量の合計が誤って高く表示されます。
+ a| 
+固定（ Fixed ）
+ a| 
+2025年4月14日
+
+
+
+ a| 
+一部のサブスクリプションのサービスレベルについて、*消費トレンド*タブで履歴データを表示できません。
+ a| 
+固定（ Fixed ）
+ a| 
+2025年4月14日
+
+
+
+ a| 
 Digital Advisorダッシュボードの*[Watchlist]*に[Keystone Subscriptions]*オプションと[Reports]*に[Subscription Number]*オプションがありません。
  a| 
 固定（ Fixed ）
