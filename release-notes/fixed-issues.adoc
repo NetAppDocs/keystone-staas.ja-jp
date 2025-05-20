@@ -22,6 +22,15 @@ NetApp Keystone STaaSサービスの以前のリリースで見つかった問�
 
 
  a| 
+Debianパッケージを使用してインストールされている既存のKeystone Collectorが、Keystone Collector管理TUIを使用してHTTPプロキシを設定するかUnified Managerを有効にしようとすると、TUIが応答しなくなります。
+ a| 
+固定（ Fixed ）
+ a| 
+2025年5月19日
+
+
+
+ a| 
 共通の設定がないため、Keystone Collector for StorageGRIDを正しく設定できません。
  a| 
 固定（ Fixed ）

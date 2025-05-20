@@ -2231,4 +2231,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="92103b58e95f2c7bb6f6903f55f4e0ca" category="list-text">割り当てられている物理容量。</block>
   <block id="b972ea8fcf6c823010b9b37178b9d608" category="paragraph">共通の設定がないため、Keystone Collector for StorageGRIDを正しく設定できません。</block>
   <block id="3af3083ee373e5ebbb20d7719411dd4c" category="paragraph">2025年5月12日</block>
+  <block id="e52daa0a0f5a4268d3b3cd4835eb59fa" category="paragraph">Debianパッケージを使用してインストールされている既存のKeystone Collectorが、Keystone Collector管理TUIを使用してHTTPプロキシを設定するかUnified Managerを有効にしようとすると、TUIが応答しなくなります。</block>
+  <block id="2d8e5cb76ecb9ff05fdec5e05251eb14" category="paragraph">2025年5月19日</block>
 </blocks>
