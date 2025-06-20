@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: integrations/administration-tab.html 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
+summary: Keystone サブスクリプション サービスのリクエストを表示またはキャンセルします。 
+---
+= Keystoneサブスクリプションのサービスリクエストを表示する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXP を通じて Keystone サブスクリプションを変更するためのサービス リクエストを表示および追跡し、簡単な概要を表示して進行状況を監視できます。
+
+進行状況を表示したり、リクエストをキャンセルしたりするには、次の手順に従います。
+
+.手順
+. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 管理* を選択します。
++
+リクエスト番号、リクエストの種類、現在のステータスなど、すべてのサービス リクエストのリストが表示されます。
+
+. クリックするとimage:down-arrow.png["下矢印アイコン"] *提出日*列の横にあるアイコンをクリックすると、リクエスト番号を展開して詳細を表示できます。リクエストが提出されたパフォーマンス・サービスレベルが表示されます。
++
+image:bxp-service-request-list.png["スクリーンショットは、どのパフォーマンスサービスレベルに対して変更要求が出されたかを示しています"]
+
+. リクエスト番号を選択すると、リクエストされたサブスクリプションの変更の詳細や現在の進行状況などの詳細情報が表示されます。
++
+image:bxp-service-progress.png["現在の進捗状況を示すスクリーンショット"]
+
+

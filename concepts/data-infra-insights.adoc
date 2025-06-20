@@ -18,9 +18,9 @@ NetApp Data Infrastructure Insights（DII、旧Cloud Insights）は、Keystone S
 
 Data Infrastructure Insightsの詳細については、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/["Data Infrastructure Insightsドキュメント"^]。
 
-DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DIIがKeystoneサブスクリプションに統合されると、サブスクリプションの基本サービスレベルごとに対応するサービスレベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DIIのサービスレベルがKeystoneサブスクリプションの基本サービスレベルと一致していることが保証されます。
+DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DII を Keystone サブスクリプションに統合すると、サブスクリプション内の各基本パフォーマンス・サービス・レベルに対応するパフォーマンス・サービス・レベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DII のパフォーマンス・サービス・レベルが Keystone サブスクリプションの基本パフォーマンス・サービス・レベルと確実に一致するようになります。
 
-Digital Advisorダッシュボードの* Keystone Subscriptions *ウィジェットに表示されるDIIサービスレベル：
+Digital Advisor ダッシュボードの *Keystone Subscriptions* ウィジェット内の DII パフォーマンス サービス レベルのビュー:
 
 image:keystone-widget-dii.png["DIIサービスレベルを示す[Keystone Subscriptions]ウィジェットのスクリーンショット"]
 
@@ -51,9 +51,12 @@ DIIの設定については、を参照してくださいlink:https://docs.netap
 | Cloud Volumes ONTAP | NetApp Cloud Volumes ONTAP の略 
 |===
 +
-設定が完了すると、DIIインスタンスはKeystoneストレージの監視を開始します。
+設定が完了すると、DII インスタンスは Keystone の一部として導入された NetApp ストレージ リソースの監視を開始します。
 
 
+
+
+NOTE: DIIは導入されたハードウェアの広範な監視機能を提供しますが、Keystoneサブスクリプションの使用状況やパフォーマンス・サービスレベルの詳細など、サブスクリプションに関する詳細情報は提供しません。サブスクリプションに関する詳細情報については、以下をご覧ください。 link:../integrations/keystone-aiq.html["Keystoneダッシュボードとレポート"] 。
 
 
 
@@ -66,7 +69,7 @@ DIIの設定については、を参照してくださいlink:https://docs.netap
 image:current-consumption-dii.png["サービスレベルの計測値を示す[Current Consumption]タブのスクリーンショット"]
 
 * このサービスは、Keystoneサブスクリプションと一緒に計測、請求され、同じ請求書に記載されます。Keystoneサブスクリプションをアクティブ化する前にKeystone用にDIIを設定しても、Keystoneサブスクリプションのアクティブ化日または既存のサブスクリプションの変更日から課金が開始されます。
-* このサービスは、Keystoneの標準請求書に加えて、DIIサービスレベルのコミット済み容量とバースト使用量の両方に基づいて計測および請求される。このアドオンサービスの計測方法は、基盤となるKeystoneサブスクリプションサービスレベル（論理、プロビジョニング、物理）と同じです。
+* このサービスは、標準のKeystone請求書に加え、DIIパフォーマンスサービスレベルのコミット容量とバースト使用量に基づいて計測および請求されます。このアドオンサービスの計測方法は、基盤となるKeystoneサブスクリプションパフォーマンスサービスレベル（論理、プロビジョニング、または物理）と同じ方法に従います。
 * このサービスは、リンク先のKeystoneサブスクリプションで終了します。更新時に、アドオンサービスを更新するかどうかを選択できます。Keystoneサブスクリプションを更新しないと、監視対象のハードウェアが運用停止され、アドオンサービスは自動的に終了します。
 
 

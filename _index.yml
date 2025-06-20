@@ -16,13 +16,21 @@ indexpage:
       url: "/installation/itom-prereqs.html"
     - title: Keystone Collectorをプライベートモードでインストールする
       url: "/dark-sites/overview.html"
-    - title: Digital Advisorで使用状況を確認
-      url: "/integrations/keystone-aiq.html"
-    - title: 消費状況のレポートを生成
-      url: "/integrations/aiq-keystone-details.html"
+  - title: BlueXPとDigital AdvisorのKeystoneダッシュボード
+    links:
+    - title: Keystoneダッシュボードを理解する
+      url: "/integrations/dashboard-overview.html"
+    - title: Keystoneダッシュボードにアクセスする
+      url: "/integrations/dashboard-access.html"
+    - title: サブスクリプションの分析情報を表示
+      url: "/integrations/subscriptions-tab.html"
+    - title: アセットの表示
+      url: "/integrations/assets-tab.html"
+    - title: データを検索してレポートを生成する
+      url: "/integrations/options.html"
   - title: Keystoneでサポートされるサービス
     links:
-    - title: Keystoneのサービスレベル
+    - title: Keystoneパフォーマンスサービスレベル
       url: "/concepts/service-levels.html"
     - title: サービス品質（QoS）
       url: "/concepts/qos.html"
@@ -54,8 +62,6 @@ indexpage:
       url: "/concepts/adp.html"
     - title: ストレージの監視、トラブルシューティング、強化
       url: "/concepts/data-infra-insights.html"
-    - title: KeystoneとBlueXP
-      url: "/integrations/keystone-cm.html"
     - title: 米国市民サポート
       url: "/concepts/usps.html"
   - title: 詳細情報

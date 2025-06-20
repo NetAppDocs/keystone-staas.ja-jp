@@ -14,7 +14,7 @@ summary: Sustainability、SLA、サービスレベル契約
 
 
 [role="lead"]
-NetApp Keystoneは、Sustainability SLAに基づくONTAPフラッシュストレージアレイに基づき、ストレージサービスの実際のワット数（W/TiB）の最大値を保証します。持続可能性SLAでは、対象となるサービスレベルごとにW/TiBの最大消費量を定義し、組織の持続可能性目標の達成を支援します。
+NetApp Keystoneは、Sustainability SLAに基づくONTAPフラッシュストレージアレイに基づき、ストレージサービスの実際のワット数（W/TiB）の最大値を保証します。持続可能性 SLA は、対象となるパフォーマンス サービス レベルごとに W/TiB の最大消費量を定義し、組織が持続可能性目標を達成できるようにします。
 
 
 NOTE: SLAと保証は申請に応じて提供されます。
@@ -26,7 +26,7 @@ NOTE: SLAと保証は申請に応じて提供されます。
 * *ワット*：毎日のAutoSupportから報告される電力消費量。コントローラおよび接続されているディスクシェルフによる使用量を含みます。
 * * Tebibyte *：最大値：
 +
-** サービスレベルのコミット済み容量+割り当て済みバースト容量、または
+** コミットされた容量 + パフォーマンスサービスレベルの割り当てられたバースト容量、または
 ** 導入されている実効容量（ストレージ効率係数をに設定した場合） `2:1`。
 
 
@@ -37,7 +37,7 @@ NOTE: SLAと保証は申請に応じて提供されます。
 
 
 
-== サービスレベル
+== パフォーマンスサービスレベル
 
 持続可能性のSLAは、次の消費基準に基づいています。
 
@@ -61,7 +61,7 @@ Premium サービス
 パフォーマンス
 | 4 W/TiB以下 | 300TiB | AFF A800およびAFF A900 
 |===
-詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystoneのサービスレベル"]ください。
+詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystoneのパフォーマンスサービスレベル"]ください。
 
 
 

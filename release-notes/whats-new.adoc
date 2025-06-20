@@ -16,7 +16,24 @@ summary: NetAppは、Keystone STaaSサービスのリリースごとに新機能
 [role="lead"]
 NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化された機能を提供します。
 
-Active IQデジタルアドバイザ（デジタルアドバイザとも呼ばれる）の[Keystoneサブスクリプション]画面で、次の機能強化が導入されました。
+
+
+== 2025年6月19日
+
+
+
+=== BlueXPのKeystoneダッシュボード
+
+BlueXPからKeystoneダッシュボードに直接アクセスできるようになりました。この統合により、すべてのKeystoneサブスクリプションとその他のNetAppサービスを一元的に監視、管理、追跡できるようになります。
+
+BlueXP の Keystone ダッシュボードを使用すると、次のことが可能になります。
+
+* すべてのサブスクリプションの詳細、容量の使用状況、資産を 1 か所で表示します。
+* サブスクリプションを簡単に管理し、ニーズの変化に応じて変更をリクエストできます。
+* ストレージ環境の最新情報を常に把握してください。
+
+
+開始するには、BlueXP の左側のナビゲーション メニューで *ストレージ > Keystone* に移動します。詳細については、を参照して link:../integrations/dashboard-overview.html["Keystoneダッシュボードの概要"^]ください。
 
 
 
@@ -26,7 +43,7 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 === 日単位の累積データ使用量表示オプションの追加
 
-請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して link:../integrations/capacity-trend-tab.html#view-daily-accrued-burst-data-usage["日単位のバーストデータ使用量を表示"]ください。
+請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["日単位のバーストデータ使用量を表示"]ください。
 
 
 
@@ -58,7 +75,7 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 === 増額された累積バースト課金
 
-四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["請求済みバースト容量の表示"^]ください。
+四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して link:../integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]ください。
 
 
 
@@ -80,7 +97,7 @@ Active IQデジタルアドバイザ（デジタルアドバイザとも呼ば�
 
 === レポート生成機能の強化
 
-Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、を参照して link:../integrations/aiq-keystone-details.html#generate-consolidated-report["統合レポートの生成"^]ください。
+Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、 link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["統合レポートの生成"^] 。
 
 
 
@@ -136,7 +153,7 @@ Digital Advisorのレポート機能を使用して、Keystoneデータの詳細
 
 === 短期間のバーストに対応したズームイン機能
 
-[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください link:../integrations/capacity-trend-tab.html["[Capacity Trend]タブ"^]。
+[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください link:../integrations/consumption-tab.html["[Capacity Trend]タブ"^]。
 
 
 
@@ -254,7 +271,7 @@ Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプ�
 
 === Accrued Burstに対して請求されたデータが返されました
 
-[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/capacity-trend-tab.html#view-invoiced-accrued-burst["請求済みバースト容量の表示"^]。
+[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]。
 
 
 
@@ -276,4 +293,4 @@ Digital Advisorで監視リストのサポートが拡張され、Keystoneシス
 
 === UTCタイムゾーンに変換された日付
 
-Digital Advisorの[Keystone Subscriptions]*画面のタブに返されるデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください link:../integrations/aiq-keystone-details.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。
+Digital Advisor の *Keystone サブスクリプション* 画面のタブに返されるデータは、UTC 時間 (サーバー タイムゾーン) で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください link:../integrations/keystone-aiq.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。

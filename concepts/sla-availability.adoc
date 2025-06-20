@@ -30,9 +30,9 @@ NOTE: SLAと保証は申請に応じて提供されます。
 
 
 
-== サービスレベル
+== パフォーマンスサービスレベル
 
-ONTAPフラッシュストレージアレイでサポートされるすべてのサービスレベルは、可用性SLAの対象となります。詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystoneのサービスレベル"]ください。
+ONTAP フラッシュ ストレージ アレイがサポートするすべてのパフォーマンス サービス レベルは、可用性 SLA の対象となります。詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/concepts/service-levels.html#service-levels-for-file-and-block-storage["Keystoneのパフォーマンスサービスレベル"]ください。
 
 
 
@@ -82,8 +82,8 @@ ONTAPフラッシュストレージアレイでサポートされるすべての
 ここで、
 
 * *影響を受ける容量*：影響を受ける格納容量。
-* *合計コミット済み容量*：Keystone注文のサービスレベルのコミット済み容量。
-* *キャパシティ料金*:その月の影響を受けるサービスレベルの料金。
+* *合計コミット容量*: Keystone 注文のパフォーマンス サービス レベルのコミット容量。
+* *容量料金*: 当月の影響を受けるパフォーマンス サービス レベルの料金。
 * *クレジットパーセンテージ*：サービスクレジットの事前定義されたパーセンテージ。
 
 

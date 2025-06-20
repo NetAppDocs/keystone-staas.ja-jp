@@ -22,6 +22,24 @@ NetApp Keystone STaaSサービスの以前のリリースで見つかった問�
 
 
  a| 
+*Assets* タブでは、StorageGRID のアセットは表示されません。
+ a| 
+固定（ Fixed ）
+ a| 
+2025年6月19日
+
+
+
+ a| 
+Advance Data-Protect サービス レベルの場合、[消費傾向] タブのグラフに、プライマリ サイトとミラー サイトの分割が表示されます。
+ a| 
+チャートにはプライマリ サイトとミラー サイトの分割が表示されなくなりました。
+ a| 
+2025年6月19日
+
+
+
+ a| 
 Debianパッケージを使用してインストールされている既存のKeystone Collectorが、Keystone Collector管理TUIを使用してHTTPプロキシを設定するかUnified Managerを有効にしようとすると、TUIが応答しなくなります。
  a| 
 固定（ Fixed ）

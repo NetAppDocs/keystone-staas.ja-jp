@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: integrations/keystone-bluexp.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
+summary: NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP からサブスクリプションの概要を取得できます。 
+---
+= BlueXPのKeystoneダッシュボード
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+*概要*タブを使用すると、リスクのあるワークロードを迅速に特定し、サブスクリプションの容量と有効期限のステータスを確認したり、未解決のアラートを特定したり、容量使用率が最も高いサブスクリプションを確認したりできます。また、Keystoneの異なるバージョン間でのサブスクリプションのステータスを表示し、注意が必要な問題をハイライト表示することもできます。
+
+*概要* タブを表示するには、BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 概要* に移動します。
+
+image:bxp-dashboard-overview.png["概要タブのスクリーンショット"]
+
+*概要* タブでは、次の情報が表示されます。
+
+* *サマリー*：サブスクリプション、ONTAPクラスタ、StorageGRIDノード、ONTAPノードの合計数を表示します。各カテゴリには*表示*ボタンがあり、*サブスクリプション*または*アセット*タブの詳細セクションに簡単に移動できます。
+* *オープンリクエスト*: オープンなサービスリクエストの合計数。
+* *サブスクリプションの容量ステータス*: バースト超過、バースト使用中、および十分に活用されていないサブスクリプションの容量消費ステータス。各カテゴリには*表示*ボタンがあり、関連するフィルターが適用された*サブスクリプション*タブに移動できます。
+* *サブスクリプションの有効期限ステータス*: 有効期限が切れたサブスクリプションと、90日以内に有効期限が切れるサブスクリプションの数。各カテゴリには*表示*ボタンがあり、関連するフィルターが適用された*サブスクリプション*タブに移動できます。
+* *サブスクリプション全体のKeystoneバージョン*：Keystoneサブスクリプションのバージョン別内訳。パフォーマンスサービスレベルに関する料金プランのルールは、サブスクリプションのバージョンによって異なる場合があります。*表示*ボタンをクリックすると、該当するフィルターが適用された*サブスクリプション*タブに移動して、サブスクリプションをバージョン別にフィルタリングできます。 https://docs.netapp.com/us-en/keystone/index.html["Keystone サブスクリプション サービス | バージョン 1 ドキュメント"^] 。
++
+image:version-across-subscriptions.png["バージョン v1、v2、v3 にわたる Keystone サブスクリプションの円グラフ。"]
+
+* *容量使用率上位5つのサブスクリプション*：容量使用率のパーセンテージが最も高いKeystoneサブスクリプション上位5つを表形式で表示します。*サブスクリプション*列のサブスクリプション番号をクリックすると、詳細な分析情報が表示されます。
+
+
+* 関連情報 *
+
+* link:../integrations/dashboard-overview.html["Keystoneダッシュボードについて学ぶ"]
+* link:../integrations/dashboard-access.html["Keystoneダッシュボードを使い始める"]
+* link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
+* link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
+* link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"]
+* link:../integrations/consumption-tab.html["消費トレンドの表示"]
+

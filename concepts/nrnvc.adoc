@@ -28,7 +28,7 @@ Keystoneサブスクリプションの一部としてこのアドオンサービ
 
 標準サービスとクラウドサービスの詳細については、を参照してください link:supported-storage-services.html["Keystone STaaSサービス"]。
 
-サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+パフォーマンスサービスレベルの詳細については、以下を参照してください。 link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"] 。
 
 
 

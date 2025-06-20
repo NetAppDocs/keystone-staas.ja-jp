@@ -20,7 +20,7 @@ Keystoneを使用すると、予測できない容量の増加や複雑な調達
 
 image:nkfsosm_image2.png["キーストーン"]
 
-Keystoneは、事前定義されたサービスレベルでストレージ容量を提供し、ブロック、ファイル、オブジェクトの各データタイプに対応します。これらのデータタイプは、オンプレミスに導入して、ネットアップ、パートナー、お客様が運用できます。Keystoneは、任意のハイパースケーラ環境に導入できるCloud Volumes ONTAPなどのNetAppクラウドサービスと連携して使用できます。
+Keystone は、オンプレミスで導入して NetApp、パートナー、または顧客が運用できるブロック、ファイル、オブジェクト データ タイプに対して、事前定義されたパフォーマンス サービス レベルでストレージ容量を提供します。Keystoneは、任意のハイパースケーラ環境に導入できるCloud Volumes ONTAPなどのNetAppクラウドサービスと連携して使用できます。
 
 Keystoneサブスクリプションは料金プランに関連付けられます。1つの月額プランに複数の料金プランを関連付けることができます。
 
@@ -34,7 +34,7 @@ Keystoneサブスクリプションは料金プランに関連付けられます
 
 * link:../concepts/pricing.html["Keystoneの価格設定"]
 * link:../concepts/add-on.html["Keystone STaaSのアドオンサービス"]
-* link:../concepts/service-levels.html["Keystoneのサービスレベル"]
+* link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"]
 * link:../concepts/infra.html["Keystoneインフラ"]
 * link:../concepts/operational-models.html["Keystoneの運用モデル"]
 

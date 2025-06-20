@@ -16,7 +16,7 @@ summary: データ階層化アドオンサービスは、使用頻度の低い�
 [role="lead"]
 ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスには、使用頻度の低いデータを識別する階層化機能が含まれ、Keystone STaaS対応のネットアップコールドストレージに階層化できます。Keystone STaaSに対応したネットアップ以外の任意のストレージにコールドデータを階層化する場合は、アドオンサービスとしてデータ階層化を使用できます。
 
-標準サービスとアドオンサービスについては、を参照してください link:../concepts/supported-storage-services.html["Keystone STaaSサービス"]。サービスレベルの詳細については、を参照してください link:../concepts/service-levels.html["Keystoneのサービスレベル"]。
+、link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"] 。
 
 階層化アドオンサービスが必要になるのは、Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）、Keystone STaaS対応でS3互換のサードパーティオブジェクトストレージなど、ネットアップ以外のストレージにデータが階層化される場合のみです。
 

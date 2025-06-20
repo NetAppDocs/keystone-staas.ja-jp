@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: integrations/subscription-timeline.html 
+keywords: keystone, BlueXP, subscriptions, timeline, lifecycle, activation, modification, renewal 
+summary: アクティベーション、変更、更新日などのイベントを含む、BlueXP からのサブスクリプション タイムラインを表示します。 
+---
+= Keystoneサブスクリプションのタイムラインを表示する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXPのKeystoneダッシュボードでは、Keystoneサブスクリプションのタイムラインビューが提供され、アクティベーション日、変更日、更新日などのイベントが表示されます。このタイムラインビューはDigital Advisorではご利用いただけません。
+
+サブスクリプションのタイムラインを表示するには、次の手順に従います。
+
+.手順
+. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > サブスクリプション* を選択します。
+. サブスクリプションのタイムラインを表示するには、「*サブスクリプション番号*」列でサブスクリプション番号を選択します。
++
+*電流消費*タブにリダイレクトされます。
+
+. *サブスクリプションタイムライン*タブを選択します。
++
+image:bxp-subscription-timeline-graph.png["重要なイベントとともに、サブスクリプションのタイムラインを折れ線グラフ形式で表示するスクリーンショット"]
+
++
+サブスクリプションのタイムラインはデフォルトで折れ線グラフで表示され、重要なイベントにはアイコンが表示されます。イベントにマウスオーバーすると、日付や変更時にコミットされた容量への変更内容などの詳細情報が表示されます。これらのイベントを表形式で表示するには、「表示形式」ドロップダウンから「表」オプションを選択します。また、「トラッキングID」ドロップダウンリストから選択または検索することで、他のサブスクリプションのタイムラインを表示することもできます。
+
++
+image:bxp-subscription-timeline.png["重要なイベントとともに、サブスクリプションのタイムラインを表グラフ形式で表示するスクリーンショット"]
+
+
+
+* 関連情報 *
+
+* link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
+* link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
+* link:../integrations/consumption-tab.html["消費トレンドの表示"]
+* link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
+* link:../integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細を表示"]
+

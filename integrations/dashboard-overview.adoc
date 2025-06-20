@@ -1,0 +1,102 @@
+---
+sidebar: sidebar 
+permalink: integrations/dashboard-overview.html 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
+summary: NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP または Digital Advisor からサブスクリプションの概要を取得できます。 
+---
+= Keystoneダッシュボードについて学ぶ
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Keystoneダッシュボードは、Keystoneサブスクリプションを効率的に監視、分析、管理するための頼りになるソリューションです。Keystoneダッシュボードを通じて、以下の目標を達成できます。
+
+* *サブスクリプションの詳細を監視*: パフォーマンス サービス レベル、容量使用率、資産、アラートなど、Keystone サブスクリプションに関する詳細情報を表示します。
+* *容量使用状況を追跡し、レポートを生成*: 現在の容量使用状況と履歴容量使用状況を追跡し、レポートを生成してサブスクリプション データを分析して情報に基づいた意思決定を行います。
+* *サブスクリプションのタイムラインを表示*: サブスクリプションのタイムラインを監視して、重要な日付やイベントに関する最新情報を入手できます。
+* *サブスクリプションの管理*: ニーズの変化に応じて、パフォーマンス サービス レベルやその他のサブスクリプション パラメータを変更するリクエストを送信します。
+* *ボリュームとオブジェクトの分析*: ボリューム レベルとオブジェクト レベルの両方での容量など、サブスクリプションのボリュームとオブジェクトに関する詳細な情報を取得します。
+
+
+
+
+== Keystoneダッシュボードにアクセスする
+
+Keystone ダッシュボードには次の方法でアクセスできます。
+
+* *BlueXP*: BlueXP の *ストレージ > Keystone > 概要* からダッシュボードにアクセスします。詳細については、を参照して link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"^]ください。
+* *Active IQ Digital Advisor* (Digital Advisor とも呼ばれます): Digital Advisor の *全般 > Keystone サブスクリプション* からダッシュボードにアクセスします。詳細については、を参照して link:../integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"^]ください。
+
+
+次の点に注意してください。
+
+* BlueXP と Digital Advisor は独自の機能をいくつか提供していますが、BlueXP は Keystone の管理機能を提供し、サブスクリプションを管理し、必要な調整を行うことができます。
+* サブスクリプションを変更するには、*Keystone admin* ロールが割り当てられている必要があります。詳細については、を参照して link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  アクセスロールの詳細"^]ください。
+* Digital Advisor は BlueXP と統合されており、Keystone ダッシュボードを含むすべての Digital Advisor 機能に BlueXP から直接アクセスできます。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Digital AdvisorとBlueXPの統合"^]ください。
+
+
+
+
+== BlueXPとDigital AdvisorのKeystone機能
+
+次の表は、BlueXP と Digital Advisor で利用可能な機能を示しており、ニーズに適したプラットフォームを迅速に特定するのに役立ちます。
+
+|===
+
+
+| * 特徴 * | *ブルーXP* | *デジタルアドバイザー* 
+
+
+ a| 
+link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
+| はい | はい 
+
+
+ a| 
+link:../integrations/current-usage-tab.html["現在の容量使用状況と履歴容量使用状況を監視する"]
+| はい | はい 
+
+
+ a| 
+link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを追跡する"]
+| はい | いいえ 
+
+
+ a| 
+link:../integrations/assets-tab.html["Keystone サブスクリプションに関連付けられた資産を表示する"]
+| はい | はい 
+
+
+| link:../integrations/assets.html["複数のKeystoneサブスクリプションにわたる資産を表示する"] | はい | いいえ 
+
+
+ a| 
+link:../integrations/modify-subscription.html["サブスクリプションを変更する"] (Keystone 管理者のみ)
+| はい | いいえ 
+
+
+ a| 
+link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["レポートを生成します"]
+| はい | はい 
+
+
+ a| 
+link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細の表示"]
+| はい | はい 
+
+
+ a| 
+link:../integrations/performance-tab.html["パフォーマンス指標の表示"]
+| いいえ | はい 
+|===
+* 関連情報 *
+
+* link:../integrations/dashboard-access.html["Keystoneダッシュボードを使い始める"]
+* link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"]
+* link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
+
