@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/burst-consumption-billing.html 
+permalink: concepts/burst-consumption-billing-v2.html 
 keywords: burst consumption billing 
 summary: Keystone STaaSの料金は、バースト時の容量（サブスクリプションのコミット済み容量に加えて消費される容量）に基づいて計算されます。 
 ---
@@ -16,12 +16,12 @@ summary: Keystone STaaSの料金は、バースト時の容量（サブスクリ
 [role="lead"]
 Keystone STaaSの料金は、_Burst capacity_（サブスクリプションのコミット済み容量に加えて消費される容量）に基づいて計算されます。
 
-バースト制限は、Keystone契約で決定および指定されます。デフォルトでは、コミット容量の20%超に設定されています。コミット容量の40%または60%のバースト容量制限を選択することもできます。詳細については、を参照して link:../concepts/burst-capacity.html["バースト容量増加オプション"]ください。
+バースト制限は、Keystone契約で決定および指定されます。コミットされた容量を 20% 超えています。
 
 コミット済み容量は、サブスクリプションの購入時にコミットされる容量です。コミット容量とバースト容量は、パフォーマンス サービス レベルごとに測定されます。使用済み容量は、ワークロードが実際に使用している容量です。
 
-消費された容量がパフォーマンス サービス レベルのコミットされた容量を超えると、バースト消費が記録され、それに応じて課金されます。バースト容量を超過した使用量は、「超過バースト制限」と表示されます。
+消費された容量がパフォーマンス サービス レベルのコミットされた容量を超えると、バースト消費が記録され、それに応じて課金されます。通常はコミット済み容量の20%を超えます。バースト容量を超過した使用量は、「超過バースト制限」と表示されます。
 
 このプロセスは、生成される消費レコードごとに実行されます。したがって、バースト消費量は、オーバー消費容量の量と時間の両方を、コミット済み容量の上に反映したものです。詳細については、を参照して link:../integrations/consumption-tab.html["Keystoneサブスクリプションの消費傾向を表示する"]ください。
 
-Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。
+Keystoneでサポートされているさまざまな容量の詳細については、以下を参照してください。 link:../concepts/supported-storage-capacity-v2.html["Keystoneでサポートされるストレージ容量"] 。

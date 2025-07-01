@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: concepts/burst-capacity.html 
+keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
+summary: 顧客がコミットした容量を超えて追加のストレージ容量を使用できるようにします。 
+---
+= バースト容量オプション
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystoneサブスクリプションの一部として、バースト容量アドオンサービスを選択できます。このサービスにより、バースト容量の上限をコミット容量の40%または60%まで引き上げることができ、ワークロード需要の予期せぬ急増にも対応できる柔軟性が得られます。
+
+バースト容量とは、サブスクリプションのコミット容量を超えて利用できる追加のストレージ容量を指します。パフォーマンスサービスレベルごとに計測され、課金されます。デフォルトでは、バースト容量の上限はコミット容量の20%に設定されています。ただし、このアドオンサービスを利用すると、上限を40%または60%に引き上げることができます。
+
+バースト制限を 40% または 60% に変更するには、NetApp Keystone サポート チームにお問い合わせください。
+
+バースト容量の課金方法の詳細については、以下を参照してください。 link:../concepts/burst-consumption-billing.html["バースト消費に基づく請求"] 。

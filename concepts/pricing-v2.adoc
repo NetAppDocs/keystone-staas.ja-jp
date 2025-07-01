@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: concepts/pricing-v2.html 
+keywords: pricing, billing introduction, Keystone billing 
+summary: Keystoneは、柔軟で拡張性に優れた消費ニーズに対応する従量課金制モデルを提供します。 
+---
+= Keystoneの価格設定
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Keystone STaaS の従量課金制サブスクリプション サービスは、ストレージ要件に合わせて予測可能な前払い価格設定により、柔軟でスケーラブルな消費を実現します。
+
+バージョン 2 (v2) の Keystone では、次の課金機能が提供されます。
+
+* IOPS とレイテンシのコミット済み容量に基づいて料金を支払うことで、さまざまなワークロードのニーズに対応できます。さまざまなパフォーマンスサービスレベル- Extreme、Premium、Performance、Standard、Value、 およびObjectを使用すると、購入したサービスレベルに基づいてストレージを管理できます。
+* また、容量の利用状況に応じて、コミット済み容量と従量課金制の容量を予測可能で提示します。
+* ハードウェア、コア OS 、サポートのバンドル価格を 1TiB 価格で選択できます。ストレージタイプ、ファイル、ブロック、オブジェクト、クラウドストレージの各サービスについて、 1 つの請求書を用意しておきます。
+* サービス期間と支払いオプション（月次、四半期、年次など）を柔軟に選択できます。
+
+
+Keystone請求は、コミット済み容量と可変バースト消費に基づいて行われます。
+
+Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。
+
+* 関連情報 *
+
+* link:../concepts/committed-capacity-billing-v2.html["コミット済み容量に基づく請求"]
+* link:../concepts/consumed-capacity-billing-v2.html["消費容量に基づく計測"]
+* link:../concepts/burst-consumption-billing-v2.html["バースト消費に基づく請求"]
+* link:../concepts/misc-volume-billing-v2.html["その他のボリュームタイプに基づく請求"]
+* link:../concepts/billing-schedules-v2.html["請求スケジュール"]
+

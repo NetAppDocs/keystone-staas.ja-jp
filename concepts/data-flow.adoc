@@ -22,13 +22,13 @@ Keystone STaaSシステムのデータは、Keystone Collectorと、関連する
 
 Keystone Collectorは、次のフロー図に示すように、ストレージコントローラへのREST API呼び出しを開始し、コントローラの使用状況の詳細を定期的に取得します。
 
-image:collector-data-flow-2.png["に、コレクタコンポーネント内のデータフローを示します"]
+image:data-collector-flow.png["に、コレクタコンポーネント内のデータフローを示します"]
 
 .凡例
-. NetApp Collectorは、Active IQクラウドポータルへのHTTPSセッションを開始します。
+. NetApp Keystone Collector は Keystone クラウドへの接続を開始します。
 . お客様が動作するファイアウォールが接続を許可します。
-. Active IQ クラウドポータルが接続を受け入れ、ネットアップのコレクタへのトンネルを確立します。
-. ネットアップコレクタは、ストレージコントローラの管理接続へのREST APIセッションを確立し、環境データを取得してActive IQ ポータルに送信します。
+. Keystone Collector は、ストレージ コントローラの管理接続に直接 REST API 接続を確立するか、Active IQ Unified Manager を介してトンネルして使用状況とパフォーマンスのデータを収集します。
+. このデータは、HTTPS を介して Keystone クラウド コンポーネントに安全に送信されます。
 
 
 
@@ -37,7 +37,7 @@ image:collector-data-flow-2.png["に、コレクタコンポーネント内の�
 
 ストレージインフラの健常性を継続的に監視することは、Keystoneサービスの最も重要な機能の1つです。Keystoneでは、監視とレポート作成にITOM監視ソリューションを使用しています。次の図は、ITOM監視ソリューションによって顧客ロケーションへのリモートアクセスがどのように保護されるかを示しています。お客様は、リモートセッション機能を有効にすることもできます。これにより、Keystoneサポートチームは監視対象のデバイスに接続してトラブルシューティングを行うことができます。
 
-image:monitoring-flow-1.png["データフロー"]
+image:monitoring-flow-2.png["データフロー"]
 
 .凡例
 . ITOM監視ソリューションゲートウェイは、クラウドポータルへのTLSセッションを開始します。

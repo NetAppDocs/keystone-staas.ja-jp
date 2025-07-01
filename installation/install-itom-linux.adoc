@@ -14,7 +14,7 @@ summary: LinuxベースのシステムにITOM Collectorソフトウェアをイ�
 
 
 [role="lead"]
-ストレージ環境のメトリックデータを収集するITOM Collectorをインストールするには、いくつかの手順を実行します。要件に応じて、WindowsシステムまたはLinuxシステムにインストールできます。
+ストレージ環境内のメトリック データを収集する ITOM Collector をインストールするには、いくつかの手順を実行します。要件に応じて、WindowsシステムまたはLinuxシステムにインストールできます。
 
 
 NOTE: KeystoneサポートチームがITOM Collectorセットアップファイルをダウンロードするための動的リンクを提供（有効期限は2時間）

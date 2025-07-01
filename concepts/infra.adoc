@@ -26,15 +26,15 @@ NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コン
 
 Keystoneインフラには、次のような複数のコンポーネントが含まれます。
 
-* Keystoneインフラ（ストレージコントローラを含む）。
-* ITOM監視ソリューション、Active IQ、Active IQ Unified Managerなど、サービスを管理および運用するためのツール。
+* NetApp ストレージ システムを含む Keystone インフラストラクチャ。
+* ITOM 監視ソリューション、BlueXP、Active IQ、Active IQ Unified Manager などのサービスを管理および運用するためのツール。
 
 
 
 
 == ストレージプラットフォーム
 
-エンタープライズアプリケーションには、高速なプロビジョニングワークフローをサポートし、継続的な可用性を維持し、低レイテンシで高いワークロードを維持し、高いパフォーマンスを提供し、主要なクラウドプロバイダとの統合をサポートするストレージプラットフォームが必要です。ネットアップには、これらの要件をサポートするための製品とテクノロジがいくつかあります。Keystoneサービスについては、AFF プラットフォームとStorageGRID プラットフォームを使用します。
+エンタープライズアプリケーションには、高速なプロビジョニングワークフロー、継続的な可用性の維持、低レイテンシでの高ワークロードの維持、高いパフォーマンスの実現、そして主要クラウドプロバイダーとの統合をサポートするストレージプラットフォームが必要です。NetAppネットアップには、これらの要件をサポートするための製品とテクノロジがいくつかあります。はKeystoneサービスにおいて、AFF、ASA、FAS、そしてStorageGRIDシステムを採用しています。
 
 
 
@@ -45,9 +45,9 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 ストレージ機器に加えて、ストレージと消費の監視用に2つの監視ツールがプロビジョニングされています。
 
 * Keystone IT Operations Management（ITOM）監視ソリューション：Keystone環境の監視に使用するクラウドベースのSaaSアプリケーション。NetAppストレージプラットフォームとの統合が組み込まれているため、環境データを収集し、Keystoneインフラのコンピューティング、ネットワーク、ストレージのコンポーネントを監視できます。この監視機能は、オンプレミスのセットアップ、データセンター、クラウド環境、またはこれらの組み合わせにまで及びます。このサービスは、クラウドポータルと通信するサイトにインストールされたローカルのITOM Collectorを使用して有効になります。
-* Keystone Data Collector：Keystoneコレクタは、Keystoneのお客様に課金サービスを提供します。このアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。Active IQ データレイクは請求データを処理し、請求のためにZuoraに送信します。
+* Keystone Data Collector：Keystone Data Collectorはデータを収集し、Keystoneの請求プラットフォームに提供してさらなる処理を行います。ActiveこのアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。IQデータレイクは請求データを処理し、Zuoraに送信して請求処理を行います。
 
 
-image:mgmt-stack-2.png["managemntスタック"]
+image:data-collector-flow.png["コレクターデータフロー"]
 
-Digital Advisorでは、ログインして、Keystoneサブスクリプションのサブスクリプションと消費量の詳細を表示できます。Digital AdvisorダッシュボードのKeystoneレポートの詳細については、を参照してください link:../integrations/keystone-aiq.html["KeystoneとDigital Advisor"]。
+Keystoneサブスクリプションのサブスクリプションと消費の詳細は、BlueXPまたはDigital Advisorでご確認いただけます。Keystoneレポートの詳細については、以下をご覧ください。 link:../integrations/dashboard-overview.html["Keystoneダッシュボードの概要"] 。

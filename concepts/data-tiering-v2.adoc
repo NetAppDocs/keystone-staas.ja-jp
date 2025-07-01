@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: concepts/data-tiering-v2.html 
+keywords: add-on services, add-on, data tiering 
+summary: データ階層化アドオンサービスは、使用頻度の低いデータを特定し、サポート対象のストレージに階層化します。 
+---
+= データ階層化の詳細
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスには、使用頻度の低いデータを識別する階層化機能が含まれ、Keystone STaaS対応のネットアップコールドストレージに階層化できます。Keystone STaaSに対応したネットアップ以外の任意のストレージにコールドデータを階層化する場合は、アドオンサービスとしてデータ階層化を使用できます。
+
+、link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"] 。
+
+階層化アドオンサービスが必要になるのは、Amazon Web Services（AWS）S3、Azure Blob、Google Cloud Platform（GCP）、Keystone STaaS対応でS3互換のサードパーティオブジェクトストレージなど、ネットアップ以外のストレージにデータが階層化される場合のみです。
+
+階層化機能では、NetApp FabricPool テクノロジを利用して、オンプレミスとオフプレミスのオブジェクトストレージ階層に、アクセス頻度の低いデータを自動で階層化できます。
+
+アドオンのデータ階層化サービスでは、Extreme、Premium、Performance、Standard、Valueの各階層からオブジェクトストレージターゲットへの階層化が可能です。階層化されるコールドデータに対するホットデータの比率は固定ではなく、各階層の計測と請求は別 々 に行われます。
+
+たとえば、コールドストレージ階層のターゲットが次の場合です。
+
+* Keystone STaaSバリュー階層、Keystone STaaS StorageGRID オブジェクト階層、既存のSGWSグリッド（お客様所有）-追加料金は発生しません。標準サービスの一部です。
+* パブリッククラウド（AWS、Azure、Google）やKeystone STaaSをサポートするサードパーティのオブジェクトストレージ-コールドストレージターゲットに階層化されたデータ容量には追加料金が発生します。
+
+
+アドオン階層化サービスの料金は、サブスクリプション期間全体を通じて適用されます。
+
+
+NOTE: Cloud Volumes ONTAP に必要なハイパースケーラベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaSサブスクリプションの一部としてネットアップから提供されるものではありません。これらのサービスはハイパースケーラークラウドサービスプロバイダから直接調達する必要があります。
+
+* 関連情報 *
+
+link:https://kb.netapp.com/hybrid/Keystone/AIQ_Dashboard/How_to_approximate_Keystone_Consumption_with_Data_Tiering_(FabricPool)_through_the_ONTAP_cli["ONTAP CLIを使用してデータ階層化（FabricPool）でKeystoneの消費量を概算する方法"^]

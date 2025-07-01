@@ -14,7 +14,14 @@ summary: Keystone STaaSサービスは、ONTAPとStorageGRIDをサポートし�
 
 
 [role="lead"]
-Keystone STaaSサービスは、ONTAP のファイルストレージとブロックストレージ、StorageGRID プラットフォームのオブジェクトストレージ、Cloud Volumes ONTAP のデータ管理機能をサポートします。
+バージョン 3 (v3) の Keystone STaaS サービスは、NetApp の統合ストレージ、ブロック最適化ストレージ、オブジェクト ストレージ、および Cloud Volumes ONTAP をサポートします。
+
+各ストレージ タイプには次のものが含まれます。
+
+* *統合ストレージ*: ファイル、ブロック、S3 オブジェクト ストレージの両方が含まれ、NetApp ONTAP AFF および FAS システムで利用できます。
+* *ブロック最適化ストレージ*: NetApp ONTAP ASA システムで利用可能なブロック ストレージが含まれます。
+* *オブジェクト ストレージ*: NetApp StorageGRID システムで利用可能なオブジェクト ストレージが含まれます。
+
 
 Keystone STaaSで、ストレージの標準的なサービスとオプションのサービスを提供します。
 
@@ -22,62 +29,37 @@ Keystone STaaSで、ストレージの標準的なサービスとオプション
 
 * Keystone STaaSアドオンサービス*：このサービスはオプションで有料です。このサービスは、Keystone STaaS標準サブスクリプションサービスに加えて、追加のユーティリティとメリットを提供します。
 
-Keystone STaaSサービスを相互に共存させることができます。たとえば、クラウドストレージサブスクリプションは、ファイル、ブロック、オブジェクトストレージのサブスクリプションと長期的な契約が可能です。クラウドサービスは、既存のストレージサブスクリプションのサービス期間中いつでも含めることができます。ただし、既存のファイル、ブロック、およびオブジェクトのサブスクリプションを更新しない場合は、サブスクリプションの過去90日間にクラウドストレージのサブスクリプションを追加することはできません。
+Keystone STaaSサービスは同時にご利用いただけます。例えば、クラウドストレージのサブスクリプションは、統合ストレージ、ブロック最適化ストレージ、オブジェクトストレージのサブスクリプションと同じ期間でご利用いただけます。クラウドサービスは、既存のストレージサブスクリプションのサービス期間中いつでも含めることができます。ただし、既存の統合ストレージ、ブロック最適化ストレージ、またはオブジェクトストレージのサブスクリプションを更新する予定がない場合は、サブスクリプションの最後の90日間はクラウドストレージのサブスクリプションを追加できません。
 
 
 
-== ファイル、ブロック、オブジェクトストレージ用のサービス
+== 統合、ブロック最適化、オブジェクトストレージ向けサービス
 
-次の表に、ONTAP のファイル/ブロックストレージ、およびStorageGRID オブジェクトストレージ向けのKeystone STaaSサービスでは、複数の機能とプロトコルがサポートされます。
+統合、ブロック最適化、オブジェクト ストレージ向けの Keystone STaaS サービスは、複数の機能とプロトコルをサポートしており、次の表で説明されています。
 
 |===
 | ストレージ | プラットフォーム | プロトコル | サポートされている機能 
 
 
  a| 
-ファイルストレージ
+統合ストレージ
  a| 
 ONTAP
  a| 
 NFSとCIFS
  a| 
-サポートされるONTAP 機能：
-
-* FlexVol
-* FlexGroup
-* Snapshot コピー
-* SnapMirror（非同期）
-* SnapVault
-* SnapLock エンタープライズ
-* FabricPoolとクラウドの階層化
-* SnapRestore
-* FlexClone
-* SnapCenter （ライセンスは含まれていますが、Keystoneサービスには含まれていません。また、管理は保証されません）
-* 自律型ランサムウェア対策^1^
-
+ONTAP Oneのすべての機能をサポート
 
 
 
  a| 
-ブロックストレージ
+ブロック最適化ストレージ
  a| 
 ONTAP
  a| 
 FCおよびiSCSI
  a| 
-サポートされるONTAP 機能：
-
-* FlexVol
-* FlexGroup
-* Snapshot コピー
-* SnapMirror（非同期）
-* SnapVault
-* SnapLock エンタープライズ
-* FabricPoolとクラウドの階層化
-* SnapRestore
-* FlexClone
-* SnapCenter （ライセンスは含まれていますが、Keystoneサービスには含まれていません。また、管理は保証されません）
-
+ONTAP Oneのすべての機能をサポート
 
 
 
@@ -88,12 +70,10 @@ StorageGRID
  a| 
 S3
  a| 
-複数のサイトにわたって複数の情報ライフサイクル管理（ILM）ポリシーをサポート^2^
+ONTAP Oneのすべての機能をサポート
 
 |===
-
-NOTE: ^1^ ONTAPでのランサムウェア対策の詳細については、を参照してください。 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["自律的なランサムウェア防御"^]。
-^2^各サイトには個別のサブスクリプションが必要です。
+ONTAP Oneの詳細については、 link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html#licenses-included-with-ontap-one["ONTAPライセンスの概要"^]そしてlink:https://www.netapp.com/blog/ontap-one/["ONTAP One: ONTAP のパワーをすべて 1 つに"^] 。
 
 
 

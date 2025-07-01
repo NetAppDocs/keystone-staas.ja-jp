@@ -34,7 +34,13 @@ Keystone Collectorソフトウェアは、RPMまたはDebianパッケージを�
 . YUMソフトウェアリポジトリファイルをインストールします。
 `# yum install keystonerepo.rpm`
 . Keystone repoがインストールされたら、YUMパッケージマネージャを使用してKeystoneコレクタパッケージをインストールします。
++
 `# yum install keystone-collector`
+
++
+Red Hat Enterprise Linux 9 の場合は、次のコマンドを実行して keystone-collector パッケージをインストールします。 
+`# yum install keystone-collector-rhel9`
+
 
 
 --

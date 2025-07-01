@@ -1,10 +1,11 @@
 ---
 indexpage:
   title: Keystoneのドキュメント
-  summary: NetApp Keystone は、オンプレミスとクラウドの両方のデータストレージサービスを1つのサブスクリプションで提供する、従量課金制のストレージサービスです。複数のクラウドにストレージコストを再割り当てできます。
+  summary: NetApp Keystone は、オンプレミスとクラウドの両方のデータ ストレージ サービスに 1 つのサブスクリプションで対応し、クラウド間でストレージ支出を再配分する機能を備えた従量課金制のストレージ
+    サービスです。
   keywords: Keystone STaaS
-  lead: NetApp Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）が望ましいお客様に、シームレスなハイブリッドクラウドエクスペリエンスを提供する、柔軟な従量課金制のサブスクリプションベースサービスです。リソースの管理や時間のかかる調達サイクルに伴うITの負担を解消し、価値実現までの時間を短縮できます。このライブラリのドキュメントを参照して、ONTAPまたはStorageGRID環境でのNetApp
-    Keystone STaaSサービスの詳細を確認してください。
+  lead: NetApp Keystoneは、柔軟な従量課金制のサブスクリプション型サービスです。設備投資やリースよりも運用コストを重視するお客様に、シームレスなハイブリッドクラウドエクスペリエンスを提供します。リソースの管理や時間のかかる調達サイクルに伴うITの負担を解消し、価値実現までの時間を短縮できます。このライブラリのドキュメントをご覧になり、ONTAPまたはStorageGRID環境でNetApp
+    Keystone Storage-as-a-Service（STaaS）が提供するSTaaSサービスについて詳しくご確認ください。
   tiles:
   - title: はじめに
     links:
@@ -56,6 +57,8 @@ indexpage:
     links:
     - title: サポートチームを知る
       url: "/concepts/gssc.html"
+    - title: バースト容量の増加
+      url: "/concepts/burst-capacity.html"
     - title: コールドデータや使用頻度の低いデータはどうすればよいですか？
       url: "/concepts/data-tiering.html"
     - title: Keystoneデータを保護するにはどうすればよいですか？

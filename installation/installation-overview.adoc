@@ -16,12 +16,12 @@ summary: Keystone Collectorは、サイトのVMware vSphereまたはLinuxホス�
 [role="lead"]
 _Keystone Collector_は、KeystoneサービスにアクセスするためにサイトのVMware vSphereまたはLinuxホストにインストールするNetAppソフトウェアです。Keystoneシステムの使用状況データを収集します。
 
-Keystone Collectorは、Keystone課金プラットフォームの使用量を取得するコンポーネントです。Active IQ Unified Managerやその他のアプリケーションを活用してONTAPやStorageGRIDのシステムに接続し、Keystoneサブスクリプションの使用状況やSLAパフォーマンスの計測に必要なメタデータを収集します。レポート作成のために請求データを送信しながら、システムの健全性を監視する機能を提供します。
+Keystone Collectorは、Keystone課金プラットフォームの使用量を取得するコンポーネントです。Active IQ Unified Manager やその他のアプリケーションを活用して ONTAP および StorageGRID システムに接続し、Keystone サブスクリプションの使用状況とパフォーマンスの測定に必要なメタデータを収集します。レポート作成のために請求データを送信しながら、システムの健全性を監視する機能を提供します。
 
 Keystone Collectorは、接続に制限がなく機能する_STANDARD_MODEまたは接続に制限がある組織向けに設計された_PRIVATE_MODEのいずれかで設定できます。Keystone Collectorを標準モードでインストールするには、を参照してくださいlink:../installation/vapp-prereqs.html["Keystoneをセットアップおよび設定する"]。プライベートモードについては、を参照してくださいlink:../dark-sites/overview.html["Keystone（プライベートモード）"]。
 
-Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。ご使用の環境がKeystone Collectorをサポートできない場合は、代わりにAutoSupportテレメトリメカニズムを使用する権限をKeystone製品管理部門に求めることができます。AutoSupportの詳細については、を参照してください。 https://docs.netapp.com/us-en/active-iq/concept_autosupport.html["AutoSupport"^]。Keystone向けのAutoSupportの設定については、を参照してください。 link:../installation/asup-config.html["Keystone向けのAutoSupportの設定"]。
+Keystone Collectorは、Keystoneシステムの使用状況データを収集する標準的なアプローチです。お使いの環境でKeystone Collectorがサポートされていない場合は、Keystoneサポートに連絡して、代替手段としてAutoSupportテレメトリメカニズムを使用する許可を得ることができます。AutoSupport、link:../installation/asup-config.html["Keystone向けのAutoSupportの設定"] 。
 
 このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。
 
-image:collector-arch.png["コレクタアーキテクチャ"]
+image:collector-arch-1.png["コレクタアーキテクチャ"]
