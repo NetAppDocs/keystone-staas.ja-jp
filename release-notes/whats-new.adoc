@@ -43,11 +43,11 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 * ストレージ環境の最新情報を常に把握してください。
 
 
-開始するには、BlueXP の左側のナビゲーション メニューで *ストレージ > Keystone* に移動します。詳細については、を参照して link:../integrations/dashboard-overview.html["Keystoneダッシュボードの概要"]ください。
+開始するには、BlueXP の左側のナビゲーション メニューで *ストレージ > Keystone* に移動します。詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/integrations/dashboard-overview.html["Keystoneダッシュボードの概要"]ください。
 
 
 
-== 2025/01/08
+== 2025年1月8日
 
 
 
@@ -57,7 +57,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 
 
-== 2024/12/12
+== 2024年12月12日
 
 
 
@@ -79,7 +79,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 
 
-== 2024/11/21
+== 2024年11月21日
 
 
 
@@ -101,7 +101,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 
 
-== 2024/11/11
+== 2024年11月11日
 
 
 
@@ -111,7 +111,7 @@ Digital Advisorのレポート機能を使用して、Keystoneデータの詳細
 
 
 
-== 2024/07/10
+== 2024年7月10日
 
 
 
