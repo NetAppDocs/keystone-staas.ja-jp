@@ -14,7 +14,7 @@ sidebar:
   - title: リリースノート
     entries:
     - title: Keystone STaaSの新機能
-      url: "/release-notes/whats-new.html"
+      url: "/whats-new.html"
     - title: 解決済みの問題です
       url: "/release-notes/fixed-issues.html"
     - title: 既知の問題

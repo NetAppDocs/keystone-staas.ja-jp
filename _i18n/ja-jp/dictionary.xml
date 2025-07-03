@@ -1005,9 +1005,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b7539220d8497299938ec75ae391ea23" category="paragraph">既知の問題には、Keystoneサブスクリプションサービスの効果的な利用を妨げる可能性のある問題が記載されています。</block>
   <block id="2fbeaae6d4bb6e4bbb8d27338873ec72" category="section-title">[Assets]タブの追加</block>
   <block id="2c2277efed09502321b33f1286580b04" category="inline-link-macro">[Assets]タブ</block>
-  <block id="abb62c899b215fc0c9ff721741080d63" category="paragraph">[Keystone Subscriptions]*画面に*[Assets]*タブが表示されるようになりました。この新しいタブには、サブスクリプションに基づいてクラスタレベルの情報が表示されます。詳細については、を参照してください <block ref="188c8c355e0f1b0eb880092ea81f5051" category="inline-link-macro-rx"></block>。</block>
   <block id="ea3ad566bfcd2ac55a05e379fea714ae" category="section-title">[ボリュームとオブジェクト]タブの改善</block>
-  <block id="6ad955f8db98d8ed19318103d65c2e9e" category="paragraph">ONTAPシステムボリュームをわかりやすくするために、*[ボリュームの概要]*と*[ボリュームの詳細]*という2つの新しいタブボタンが*[ボリューム]*タブに追加されました。[Volume Summary]*タブには、AQoS準拠ステータスや容量情報など、サブスクライブ済みのサービスレベルに関連付けられているボリュームの総数が表示されます。[ボリュームの詳細]*タブには、すべてのボリュームとその詳細が表示されます。詳細については、を参照してください <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>。</block>
   <block id="ffc90471d60beedeebd1bec70e84713d" category="section-title">Digital Advisorでの検索機能の強化</block>
   <block id="3b9d95910ae505ff384ac8c7f9b6dcc8" category="section-title">消費データのタイムスタンプの表示</block>
   <block id="c150a924cf5d23ea89fef0c5a97a423c" category="paragraph">消費データのタイムスタンプ（UTC）は、* Keystone Subscriptions *ウィジェットの古いダッシュボードで確認できます。</block>
@@ -1045,10 +1043,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="75c4a8a90d6bd0a376bf988146f5e69c" category="paragraph">AutoSupportサブスクリプションで、AQoSに準拠していないボリュームやMetroClusterパートナーに関する情報は、Keystoneデータが24時間存在しない場合は提供されません。</block>
   <block id="ea2bb51d2805204312e53c2b3d2a43e8" category="paragraph">1つのサービスレベルでのみAQoS準拠を満たす2つのサービスレベルがボリュームに割り当てられている場合、*[ボリュームの概要]*タブと*[ボリュームの詳細]*タブに表示されるAQoS非準拠ボリュームの数が一致しないことがあります。</block>
   <block id="150fc0186525a8fa887aecae2c275b5a" category="section-title">[Volume Details]タブでのQoSポリシー準拠状況の表示の改善</block>
-  <block id="5de1e29c5f07ad0885be04bc6c52195e" category="paragraph">[ボリュームとオブジェクト]タブの*[ボリュームの詳細]*タブで、サービス品質（QoS）ポリシーへの準拠がわかりやすく表示されるようになりました。以前は「* AQoS *」と呼ばれていた列の名前が「* Compliant *」に変更され、QoSポリシーが準拠しているかどうかが示されます。また、ポリシーが固定かアダプティブかを示す新しい列* QoSポリシータイプ*が追加されました。どちらも当てはまらない場合は、列に「_not available_」と表示されます。詳細については、を参照してください <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>。</block>
   <block id="eeb525a9d00b69b55c1d9f44326df908" category="section-title">Volume Summary（ボリュームサマリ）タブの新しい列と簡素化されたサブスクリプション表示</block>
   <block id="4455701085134621cdf92c2cd631df8c" category="list-text">[ボリュームとオブジェクト]タブの*[ボリュームの概要]*タブに、*[保護]*というタイトルの新しい列が追加されました。この列には、サブスクライブ済みのサービスレベルに関連付けられている保護されているボリュームの数が表示されます。保護されているボリュームの数をクリックすると*[ボリュームの詳細]*タブが表示され、保護されているボリュームのフィルタリングされたリストを確認できます。</block>
-  <block id="a2f9dd74e9fc5e18ccc80851d5c5999f" category="list-text">[Volume Summary]*タブが更新され、アドオンサービスを除く基本サブスクリプションのみが表示されるようになりました。詳細については、を参照してください <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>。</block>
   <block id="ddd10974458db6885474ca4688d41fe0" category="section-title">[Capacity Trend]タブの[Accrued burst]の詳細表示への変更</block>
   <block id="2a42edab9d5eee6fdf5d6bb8478c5fa4" category="paragraph">[Capacity Trend]*タブの容量使用率棒グラフにカーソルを合わせると表示されるツールチップには、その月の発生したバーストの詳細が表示されます。過去1カ月間の詳細は表示されません。</block>
   <block id="3e3c28d730d328a56155a50c86ecb674" category="section-title">Keystoneサブスクリプションの履歴データを表示するためのアクセスの強化</block>
@@ -1192,7 +1188,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="6176afc8abbdfc6c0a7c0274a19d9ef8" category="paragraph">ラベル* Current Usage *が* Current Consumption *に変更され、* Capacity Trend *が* Consumption Trend *に変更されます。</block>
   <block id="b7e76ab52f2e3b0375203a91e2e782c6" category="section-title">サブスクリプションの検索バー</block>
   <block id="df56284dfb684f79b8cd68b6256e8808" category="paragraph">[Keystone Subscriptions]画面のすべてのタブにある*[Subscriptions]*ドロップダウンに検索バーが表示されるようになりました。[サブスクリプション]*ドロップダウンにリストされている特定のサブスクリプションを検索できます。</block>
-  <block id="322b7c203883b5f1e51c48d947e1cb4d" category="paragraph">Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください <block ref="bd6c55fabca71f10e9c92f78aa84686b" category="inline-link-macro-rx"></block>。</block>
   <block id="1b6bc3125f482fcbcf029c833aea1290" category="inline-link-macro">ONTAPの要件</block>
   <block id="479449c6cb6b88b7c379b1672435686c" category="admonition">MySQLのデフォルトポート3306は、Unified Managerの新規インストール時にlocalhostに制限されるため、Keystone Collectorのパフォーマンス指標が収集されません。詳細については、を参照してください <block ref="997798a1af398517058dc0d935faaa2c" category="inline-link-macro-rx"></block>。</block>
   <block id="1b1d9e9b28e55ae75dd476a860b48088" category="inline-link-macro">その他のメニューオプション</block>
@@ -1834,9 +1829,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">名前が変更された論理使用列</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">[Volumes &amp; Objects]*の*[Volume Details]*タブの*[Logical Used]*列の名前が*[Keystone Logical Used]*に変更されました。</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">強化されたアセットタブ</block>
-  <block id="b37b0904549353aadf47641a5b0575b8" category="paragraph">[Keystone Subscriptions]画面の*[Assets]*タブに、* ONTAP *と* StorageGRID *という2つの新しいサブタブが追加されました。これらのサブタブには、ONTAPのクラスタレベルの詳細な情報と、サブスクリプションに基づくStorageGRIDのグリッドレベルの情報が表示されます。詳細については、を参照して <block ref="188c8c355e0f1b0eb880092ea81f5051" category="inline-link-macro-rx"></block>ください。</block>
   <block id="d7dc6f5447fca23324df2672bac7c802" category="section-title">新しい[列の非表示/表示]オプション</block>
-  <block id="498f6fe433bcf5b2aeb742aa58e012a5" category="paragraph">[ボリュームとオブジェクト]*の*[ボリュームの詳細]*タブに*[列の表示/非表示]*オプションが追加されました。このオプションでは、列を選択または選択解除して、ボリュームの表形式のリストを希望に応じてカスタマイズできます。詳細については、を参照して <block ref="0c9c36fd88d6d1691d6b8530f58f9df1" category="inline-link-macro-rx"></block>ください。</block>
   <block id="196d7c712c7c6a9911f2d9bbb5f61bf7" category="sidebar">Keystoneサービスでより多くの成果を達成</block>
   <block id="ff7a737bcab804124f1d48754e14170d" category="sidebar">サポートチームを知る</block>
   <block id="84b3e771654397ccc8ec23cf38bfc805" category="sidebar">ストレージの監視、トラブルシューティング、強化</block>
@@ -2268,12 +2261,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e81998590c25872457befb4c184d65ca" category="paragraph">2025年6月19日</block>
   <block id="3f02a37520c925a38cca9df11f1de9a0" category="paragraph">Advance Data-Protect サービス レベルの場合、[消費傾向] タブのグラフに、プライマリ サイトとミラー サイトの分割が表示されます。</block>
   <block id="2837e6fa0daf151f4342b7c3c95bb022" category="paragraph">チャートにはプライマリ サイトとミラー サイトの分割が表示されなくなりました。</block>
-  <block id="754ac04f0f67b53cb465e4bdb6c7abac" category="paragraph">請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して <block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="f0e9b8bef28281d0a91c515dec6b3e10" category="paragraph">四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して <block ref="0e680ffbd624b2d02d1d556640708679" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="c1c0a0a8d82523ea046e88850259d3e7" category="paragraph">Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、 <block ref="40a5addce74996c581cd44476bafd8bb" category="inline-link-macro-rx"></block> 。</block>
-  <block id="7730238a41d5256f17768c2ca66dc56f" category="paragraph">[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください <block ref="c989f1943e1f1b9d7fd00f5240da4a66" category="inline-link-macro-rx"></block>。</block>
-  <block id="25bd0843fdeae1d117bfbe2bd9a931c7" category="paragraph">[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください <block ref="0e680ffbd624b2d02d1d556640708679" category="inline-link-macro-rx"></block>。</block>
-  <block id="5a8bb8597adf10d995462d8dbf85f9e4" category="paragraph">Digital Advisor の *Keystone サブスクリプション* 画面のタブに返されるデータは、UTC 時間 (サーバー タイムゾーン) で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください <block ref="78995d63a38ac6ed7571bcba2bb91195" category="inline-link-macro-rx"></block>。</block>
   <block id="373770d35b9d5cd8cd24a486a52b706b" category="paragraph">2つのサービスのナビゲーションは、 <block ref="b4a433674f6f10655ea1ce8bae52a1b9" category="inline-link-macro-rx"></block> Keystone サブスクリプション サービスは、構成パフォーマンス サービス レベル、サービス提供、課金原則において Keystone STaaS とは異なります。2024年4月現在、NetAppはKeystone STaaSに関するドキュメントのみを保守、公開しています。Keystoneサブスクリプションサービスを引き続き使用している場合は、Keystone STaaSへの移行に関するサポートをKSMにお問い合わせください。KeystoneサブスクリプションサービスのドキュメントのPDF版は、必要に応じて次のURLから入手できます。</block>
   <block id="10ad7de63c9f85cf78150d6f5eaa55cc" category="sidebar">BlueXPとDigital AdvisorのKeystoneダッシュボード</block>
   <block id="e52a62b3d3e55847cd42b248736bba1b" category="sidebar">サブスクリプションの分析情報を表示</block>
@@ -2294,7 +2281,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="634ec6d4a20da0923117077874fb324e" category="list-text"><block ref="634ec6d4a20da0923117077874fb324e" category="inline-link-macro-rx"></block></block>
   <block id="edecc7e6feeced1cf533a9de993dd568" category="list-text"><block ref="edecc7e6feeced1cf533a9de993dd568" category="inline-link-macro-rx"></block></block>
   <block id="904d19fedb40bf9820beb309aafcf17b" category="inline-link-macro">Active IQ Digital AdvisorでKeystoneダッシュボードを表示する</block>
-  <block id="ad0850f191fb8f4122711194ee92b589" category="paragraph">Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプション番号とKeystoneサブスクリプション用に作成された監視リストが表示されるようになりました。サブスクリプション番号または監視リスト名の最初の3文字を入力できます。詳細については、を参照してください <block ref="39eccf9a0eabb6a563ce58a758fa58e9" category="inline-link-macro-rx"></block>。</block>
   <block id="1749d12df3df2319d3eee218a277ff83" category="inline-link-macro">MetroCluster</block>
   <block id="b0e7be39762b5cd093fd721cb637ce50" category="paragraph">Keystoneの高度なデータ保護サービスを使用すると、セカンダリサイトにデータを同期的にミラーリングできます。プライマリサイトで災害が発生した場合、セカンダリサイトがデータを失うことなくテイクオーバーできます。この機能は、 <block ref="e34027f10b07a4258180f071293183bf" category="inline-link-macro-rx"></block>データ保護を有効にするための 2 つのサイト間の構成。高度なデータ保護アドオンサービスは、ファイルストレージサービスとブロックストレージサービスでのみ利用できます。この追加サービスの一環として、 <block ref="fb78d2349716eae6da0fd092c4f02857" prefix=" " category="inline-code"></block>パフォーマンスサービスレベルはサブスクリプションに割り当てられています。ONTAP</block>
   <block id="0bca6dc9cc192191d0c17b2098857764" category="paragraph">Keystone STaaS バージョン 2 (v2) のサブスクリプションは、月単位または年単位で課金されます。</block>
@@ -2517,7 +2503,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b4bfc97b4a6664c07d3cb265b1f77f66" category="admonition">QoS ポリシーは Keystone バージョン 3 (v3) では適用されません。</block>
   <block id="288b4e42b32faccce4a2d55e94593bd9" category="admonition">QoS ポリシーは Keystone バージョン 3 では適用されません。</block>
   <block id="b0ff511b21770d18a844437708e370f3" category="inline-link-macro">v3 の Keystone STaaS サービス</block>
-  <block id="cbe56bacc5be238a1afeadbbf1210e9d" category="paragraph">NetApp Keystone STaaSサービスの最新リリースであるKeystoneバージョン3（v3）のサブスクリプションをご利用いただけるようになりました。このバージョンでは、簡素化されたパフォーマンス・サービスレベル、追加のバースト容量オプション、柔軟な課金頻度など、いくつかの機能強化が導入されています。これらの改善により、ストレージソリューションの管理、最適化、拡張が簡素化されます。詳細については、を参照して <block ref="b4f947544b8e7d98521ee012686e2640" category="inline-link-macro-rx"></block>ください。</block>
   <block id="ee326973c25ecfa958c9bcb665f7c905" category="list-text">*容量傾向*タブからの消費量と累積バースト使用量データ。</block>
   <block id="e00666b1159de8493cf756574e49f1ec" category="list-text">*パフォーマンス* タブからの ONTAP ボリュームのパフォーマンス メトリック。</block>
   <block id="ac75d9678d2b707154377e207cada198" category="paragraph">データは、サブスクリプションの選択した開始日に基づいて表示されます。</block>
@@ -2544,4 +2529,19 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="96e33a5d1e2356ba12a5de62a859d567" category="section-title">2024年2月13日</block>
   <block id="17c3c89f25f7684516a883f30f10b747" category="section-title">2024年1月11日</block>
   <block id="8017dc46d55f13a6a86439ecb091248d" category="section-title">2023年12月15日</block>
+  <block id="238d9c83743312925f27989be3169a57" category="paragraph">NetApp Keystone STaaSサービスの最新リリースであるKeystoneバージョン3（v3）のサブスクリプションをご利用いただけるようになりました。このバージョンでは、簡素化されたパフォーマンス・サービスレベル、追加のバースト容量オプション、柔軟な課金頻度など、いくつかの機能強化が導入されています。これらの改善により、ストレージソリューションの管理、最適化、拡張が簡素化されます。詳細については、を参照して <block ref="8447fd48964084b96eba4846dff79543" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="da1502e4b231c66071c9672b3628d5d7" category="paragraph">請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="3578be224f6790339a9675dcb099b1fc" category="paragraph">[Keystone Subscriptions]画面の*[Assets]*タブに、* ONTAP *と* StorageGRID *という2つの新しいサブタブが追加されました。これらのサブタブには、ONTAPのクラスタレベルの詳細な情報と、サブスクリプションに基づくStorageGRIDのグリッドレベルの情報が表示されます。詳細については、を参照して <block ref="c61c6efa97fc0d2a151bd41776a02253" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="b8f51f2e64174b6976db9b503b1e517b" category="paragraph">[ボリュームとオブジェクト]*の*[ボリュームの詳細]*タブに*[列の表示/非表示]*オプションが追加されました。このオプションでは、列を選択または選択解除して、ボリュームの表形式のリストを希望に応じてカスタマイズできます。詳細については、を参照して <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="c30d74e64086a64916706e393c7ffdaa" category="paragraph">四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して <block ref="eabab3ebfcc1135a01e03f1ece2ffb1c" category="inline-link-macro-rx"></block>ください。</block>
+  <block id="63cc9ac427901be0b2e4380b3ae0736f" category="paragraph">Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、 <block ref="7db29450dd601b7e815f1df2f428f5d0" category="inline-link-macro-rx"></block> 。</block>
+  <block id="74209346d35aeab5a01d9daaae836c01" category="paragraph">[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください <block ref="1d742be956a24a8acb659f9517ed9bae" category="inline-link-macro-rx"></block>。</block>
+  <block id="8f05b1957fe876c849104677aae0f953" category="paragraph">[ボリュームとオブジェクト]タブの*[ボリュームの詳細]*タブで、サービス品質（QoS）ポリシーへの準拠がわかりやすく表示されるようになりました。以前は「* AQoS *」と呼ばれていた列の名前が「* Compliant *」に変更され、QoSポリシーが準拠しているかどうかが示されます。また、ポリシーが固定かアダプティブかを示す新しい列* QoSポリシータイプ*が追加されました。どちらも当てはまらない場合は、列に「_not available_」と表示されます。詳細については、を参照してください <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>。</block>
+  <block id="e40d40c4ffe06852287991929dd3513d" category="list-text">[Volume Summary]*タブが更新され、アドオンサービスを除く基本サブスクリプションのみが表示されるようになりました。詳細については、を参照してください <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>。</block>
+  <block id="a19c381f155ea3dd233eeb3d2e035b27" category="paragraph">[Keystone Subscriptions]*画面に*[Assets]*タブが表示されるようになりました。この新しいタブには、サブスクリプションに基づいてクラスタレベルの情報が表示されます。詳細については、を参照してください <block ref="c61c6efa97fc0d2a151bd41776a02253" category="inline-link-macro-rx"></block>。</block>
+  <block id="66891f08b83c2d51995043c35d9e1eea" category="paragraph">ONTAPシステムボリュームをわかりやすくするために、*[ボリュームの概要]*と*[ボリュームの詳細]*という2つの新しいタブボタンが*[ボリューム]*タブに追加されました。[Volume Summary]*タブには、AQoS準拠ステータスや容量情報など、サブスクライブ済みのサービスレベルに関連付けられているボリュームの総数が表示されます。[ボリュームの詳細]*タブには、すべてのボリュームとその詳細が表示されます。詳細については、を参照してください <block ref="e7a3c48d13050d0d62097e8438e13870" category="inline-link-macro-rx"></block>。</block>
+  <block id="a9c4781f40cc0671488f6e88b11d4af7" category="paragraph">Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプション番号とKeystoneサブスクリプション用に作成された監視リストが表示されるようになりました。サブスクリプション番号または監視リスト名の最初の3文字を入力できます。詳細については、を参照してください <block ref="593b65d9f4990414ae83da83e0d72b29" category="inline-link-macro-rx"></block>。</block>
+  <block id="7faee727fce43e18a5f377b7afb57542" category="paragraph">[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください <block ref="eabab3ebfcc1135a01e03f1ece2ffb1c" category="inline-link-macro-rx"></block>。</block>
+  <block id="8c238ecbe1955b491db6b48ea17933c2" category="paragraph">Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください <block ref="2875e10a779b54ebea1ca23299e1022f" category="inline-link-macro-rx"></block>。</block>
+  <block id="e2328d669041a542b4660884da5e30c6" category="paragraph">Digital Advisor の *Keystone サブスクリプション* 画面のタブに返されるデータは、UTC 時間 (サーバー タイムゾーン) で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください <block ref="111f11f9178fe48f6cc874a0bf33e9ed" category="inline-link-macro-rx"></block>。</block>
 </blocks>

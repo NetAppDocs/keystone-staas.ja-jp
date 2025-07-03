@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: release-notes/whats-new.html 
+permalink: whats-new.html 
 keywords: 'new features, release notes, enhancements, what"s new' 
 summary: NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化された機能を提供します。 
 ---
@@ -10,7 +10,7 @@ summary: NetAppは、Keystone STaaSサービスのリリースごとに新機能
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ NetAppは、Keystone STaaSサービスのリリースごとに新機能と強化
 
 === Keystone バージョン 3 (v3) リリース
 
-NetApp Keystone STaaSサービスの最新リリースであるKeystoneバージョン3（v3）のサブスクリプションをご利用いただけるようになりました。このバージョンでは、簡素化されたパフォーマンス・サービスレベル、追加のバースト容量オプション、柔軟な課金頻度など、いくつかの機能強化が導入されています。これらの改善により、ストレージソリューションの管理、最適化、拡張が簡素化されます。詳細については、を参照して link:../concepts/metrics.html["v3 の Keystone STaaS サービス"]ください。
+NetApp Keystone STaaSサービスの最新リリースであるKeystoneバージョン3（v3）のサブスクリプションをご利用いただけるようになりました。このバージョンでは、簡素化されたパフォーマンス・サービスレベル、追加のバースト容量オプション、柔軟な課金頻度など、いくつかの機能強化が導入されています。これらの改善により、ストレージソリューションの管理、最適化、拡張が簡素化されます。詳細については、を参照して link:./concepts/metrics.html["v3 の Keystone STaaS サービス"]ください。
 
 
 
@@ -53,7 +53,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 === 日単位の累積データ使用量表示オプションの追加
 
-請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して link:../integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["日単位のバーストデータ使用量を表示"]ください。
+請求済みデータを表示するバーをクリックすると、月単位または四半期単位の請求期間について、日単位の累積バーストデータ使用量をグラフ形式または表形式で表示できるようになりました。詳細については、を参照して link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["日単位のバーストデータ使用量を表示"]ください。
 
 
 
@@ -69,13 +69,13 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 === 強化されたアセットタブ
 
-[Keystone Subscriptions]画面の*[Assets]*タブに、* ONTAP *と* StorageGRID *という2つの新しいサブタブが追加されました。これらのサブタブには、ONTAPのクラスタレベルの詳細な情報と、サブスクリプションに基づくStorageGRIDのグリッドレベルの情報が表示されます。詳細については、を参照して link:../integrations/assets-tab.html["[Assets]タブ"^]ください。
+[Keystone Subscriptions]画面の*[Assets]*タブに、* ONTAP *と* StorageGRID *という2つの新しいサブタブが追加されました。これらのサブタブには、ONTAPのクラスタレベルの詳細な情報と、サブスクリプションに基づくStorageGRIDのグリッドレベルの情報が表示されます。詳細については、を参照して link:./integrations/assets-tab.html["[Assets]タブ"^]ください。
 
 
 
 === 新しい[列の非表示/表示]オプション
 
-[ボリュームとオブジェクト]*の*[ボリュームの詳細]*タブに*[列の表示/非表示]*オプションが追加されました。このオプションでは、列を選択または選択解除して、ボリュームの表形式のリストを希望に応じてカスタマイズできます。詳細については、を参照して link:../integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]ください。
+[ボリュームとオブジェクト]*の*[ボリュームの詳細]*タブに*[列の表示/非表示]*オプションが追加されました。このオプションでは、列を選択または選択解除して、ボリュームの表形式のリストを希望に応じてカスタマイズできます。詳細については、を参照して link:./integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]ください。
 
 
 
@@ -85,7 +85,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 === 増額された累積バースト課金
 
-四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して link:../integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]ください。
+四半期ごとの請求期間を選択している場合は、* Invoiced Accrued Burst *オプションを使用して、累積バースト使用量データを四半期ごとに表示できるようになりました。詳細については、を参照して link:./integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]ください。
 
 
 
@@ -107,7 +107,7 @@ BlueXP の Keystone ダッシュボードを使用すると、次のことが可
 
 === レポート生成機能の強化
 
-Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、 link:../integrations/options.html#generate-consolidated-report-from-digital-advisor["統合レポートの生成"^] 。
+Digital Advisorのレポート機能を使用して、Keystoneデータの詳細を表示する統合レポートを生成できるようになりました。詳細については、 link:./integrations/options.html#generate-consolidated-report-from-digital-advisor["統合レポートの生成"^] 。
 
 
 
@@ -163,7 +163,7 @@ Digital Advisorのレポート機能を使用して、Keystoneデータの詳細
 
 === 短期間のバーストに対応したズームイン機能
 
-[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください link:../integrations/consumption-tab.html["[Capacity Trend]タブ"^]。
+[Capacity Trend]*タブにズームイン機能が追加され、使用状況グラフに短期的なバーストの詳細が表示されるようになりました。詳細については、を参照してください link:./integrations/consumption-tab.html["[Capacity Trend]タブ"^]。
 
 
 
@@ -207,14 +207,14 @@ Digital Advisorのレポート機能を使用して、Keystoneデータの詳細
 
 === [Volume Details]タブでのQoSポリシー準拠状況の表示の改善
 
-[ボリュームとオブジェクト]タブの*[ボリュームの詳細]*タブで、サービス品質（QoS）ポリシーへの準拠がわかりやすく表示されるようになりました。以前は「* AQoS *」と呼ばれていた列の名前が「* Compliant *」に変更され、QoSポリシーが準拠しているかどうかが示されます。また、ポリシーが固定かアダプティブかを示す新しい列* QoSポリシータイプ*が追加されました。どちらも当てはまらない場合は、列に「_not available_」と表示されます。詳細については、を参照してください link:../integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
+[ボリュームとオブジェクト]タブの*[ボリュームの詳細]*タブで、サービス品質（QoS）ポリシーへの準拠がわかりやすく表示されるようになりました。以前は「* AQoS *」と呼ばれていた列の名前が「* Compliant *」に変更され、QoSポリシーが準拠しているかどうかが示されます。また、ポリシーが固定かアダプティブかを示す新しい列* QoSポリシータイプ*が追加されました。どちらも当てはまらない場合は、列に「_not available_」と表示されます。詳細については、を参照してください link:./integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
 
 
 
 === Volume Summary（ボリュームサマリ）タブの新しい列と簡素化されたサブスクリプション表示
 
 * [ボリュームとオブジェクト]タブの*[ボリュームの概要]*タブに、*[保護]*というタイトルの新しい列が追加されました。この列には、サブスクライブ済みのサービスレベルに関連付けられている保護されているボリュームの数が表示されます。保護されているボリュームの数をクリックすると*[ボリュームの詳細]*タブが表示され、保護されているボリュームのフィルタリングされたリストを確認できます。
-* [Volume Summary]*タブが更新され、アドオンサービスを除く基本サブスクリプションのみが表示されるようになりました。詳細については、を参照してください link:../integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
+* [Volume Summary]*タブが更新され、アドオンサービスを除く基本サブスクリプションのみが表示されるようになりました。詳細については、を参照してください link:./integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
 
 
 
@@ -243,19 +243,19 @@ Keystoneサブスクリプションが変更または更新された場合に履
 
 === [Assets]タブの追加
 
-[Keystone Subscriptions]*画面に*[Assets]*タブが表示されるようになりました。この新しいタブには、サブスクリプションに基づいてクラスタレベルの情報が表示されます。詳細については、を参照してください link:../integrations/assets-tab.html["[Assets]タブ"^]。
+[Keystone Subscriptions]*画面に*[Assets]*タブが表示されるようになりました。この新しいタブには、サブスクリプションに基づいてクラスタレベルの情報が表示されます。詳細については、を参照してください link:./integrations/assets-tab.html["[Assets]タブ"^]。
 
 
 
 === [ボリュームとオブジェクト]タブの改善
 
-ONTAPシステムボリュームをわかりやすくするために、*[ボリュームの概要]*と*[ボリュームの詳細]*という2つの新しいタブボタンが*[ボリューム]*タブに追加されました。[Volume Summary]*タブには、AQoS準拠ステータスや容量情報など、サブスクライブ済みのサービスレベルに関連付けられているボリュームの総数が表示されます。[ボリュームの詳細]*タブには、すべてのボリュームとその詳細が表示されます。詳細については、を参照してください link:../integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
+ONTAPシステムボリュームをわかりやすくするために、*[ボリュームの概要]*と*[ボリュームの詳細]*という2つの新しいタブボタンが*[ボリューム]*タブに追加されました。[Volume Summary]*タブには、AQoS準拠ステータスや容量情報など、サブスクライブ済みのサービスレベルに関連付けられているボリュームの総数が表示されます。[ボリュームの詳細]*タブには、すべてのボリュームとその詳細が表示されます。詳細については、を参照してください link:./integrations/volumes-objects-tab.html["[ボリュームとオブジェクト]タブ"^]。
 
 
 
 === Digital Advisorでの検索機能の強化
 
-Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプション番号とKeystoneサブスクリプション用に作成された監視リストが表示されるようになりました。サブスクリプション番号または監視リスト名の最初の3文字を入力できます。詳細については、を参照してください link:../integrations/keystone-aiq.html["Active IQ Digital AdvisorでKeystoneダッシュボードを表示する"^]。
+Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプション番号とKeystoneサブスクリプション用に作成された監視リストが表示されるようになりました。サブスクリプション番号または監視リスト名の最初の3文字を入力できます。詳細については、を参照してください link:./integrations/keystone-aiq.html["Active IQ Digital AdvisorでKeystoneダッシュボードを表示する"^]。
 
 
 
@@ -281,7 +281,7 @@ Digital Advisor *画面の検索パラメータに、Keystoneサブスクリプ�
 
 === Accrued Burstに対して請求されたデータが返されました
 
-[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:../integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]。
+[Capacity Trend]*タブの* Accrued Burst *のラベルが* Invoiced Accrued Burst *に変更されました。このオプションを選択すると、課金対象のバーストデータの月単位のグラフを表示できます。詳細については、を参照してください link:./integrations/consumption-tab.html#view-accrued-burst["請求済みバースト容量の表示"^]。
 
 
 
@@ -297,10 +297,10 @@ _zero_committed容量のレートプランがあるサブスクリプション�
 
 === 監視リストでの検索機能
 
-Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください link:../integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone監視リストで検索"^]。
+Digital Advisorで監視リストのサポートが拡張され、Keystoneシステムも対象になりました。監視リストで検索して、複数のお客様のサブスクリプションの詳細を表示できるようになりました。Keystone STaaSでの監視リストの使用の詳細については、を参照してください link:./integrations/keystone-aiq.html#search-by-keystone-watchlists["Keystone監視リストで検索"^]。
 
 
 
 === UTCタイムゾーンに変換された日付
 
-Digital Advisor の *Keystone サブスクリプション* 画面のタブに返されるデータは、UTC 時間 (サーバー タイムゾーン) で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください link:../integrations/keystone-aiq.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。
+Digital Advisor の *Keystone サブスクリプション* 画面のタブに返されるデータは、UTC 時間 (サーバー タイムゾーン) で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。詳細については、を参照してください link:./integrations/keystone-aiq.html["Keystoneサブスクリプションのダッシュボードとレポート"^]。
