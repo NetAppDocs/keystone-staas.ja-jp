@@ -1,0 +1,9 @@
+= インスタンスレベルの消費データを表示する
+:allow-uri-read: 
+
+
+
+
+=== インスタンスレベルの消費データを表示する
+
+BlueXPのKeystoneダッシュボードを通じて、各パフォーマンス サービス レベル インスタンスの現在の消費量と履歴データを表示できます。この機能は、 Keystoneバージョン 3 (v3) サブスクリプションをお持ちの場合、複数のインスタンスのパフォーマンス サービス レベルで利用できます。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/integrations/current-usage-tab.html["Keystoneサブスクリプションの消費量を表示する"] 。

@@ -4,8 +4,9 @@ indexpage:
   summary: NetApp Keystone は、オンプレミスとクラウドの両方のデータ ストレージ サービスに 1 つのサブスクリプションで対応し、クラウド間でストレージ支出を再配分する機能を備えた従量課金制のストレージ
     サービスです。
   keywords: Keystone STaaS
-  lead: NetApp Keystoneは、柔軟な従量課金制のサブスクリプション型サービスです。設備投資やリースよりも運用コストを重視するお客様に、シームレスなハイブリッドクラウドエクスペリエンスを提供します。リソースの管理や時間のかかる調達サイクルに伴うITの負担を解消し、価値実現までの時間を短縮できます。このライブラリのドキュメントをご覧になり、ONTAPまたはStorageGRID環境でNetApp
-    Keystone Storage-as-a-Service（STaaS）が提供するSTaaSサービスについて詳しくご確認ください。
+  lead: NetApp Keystoneは、柔軟な従量課金制のサブスクリプションベースのサービスであり、設備投資やリースよりも運用コストを重視する顧客にシームレスなハイブリッド
+    クラウド エクスペリエンスを提供します。リソース管理の IT 負担を軽減し、長期にわたる調達サイクルを回避することで、価値実現までの時間を短縮できます。NetApp
+    Keystone Storage-as-a-Service (STaaS) サービスについて詳しくは、このライブラリのドキュメントを参照してください。
   tiles:
   - title: はじめに
     links:
@@ -33,8 +34,6 @@ indexpage:
     links:
     - title: Keystoneパフォーマンスサービスレベル
       url: "/concepts/service-levels.html"
-    - title: サービス品質（QoS）
-      url: "/concepts/qos.html"
     - title: 測定単位を教えてください。
       url: "/concepts/metrics.html"
     - title: サポートされているベースストレージ
@@ -43,7 +42,7 @@ indexpage:
       url: "/concepts/capacity-requirements.html#capacity-adjustments"
   - title: Keystoneの価格設定と課金
     links:
-    - title: Keystoneの価格設定を確認する
+    - title: Keystoneの価格について
       url: "/concepts/pricing.html"
     - title: 請求スケジュール
       url: "/concepts/billing-schedules.html"
@@ -55,7 +54,7 @@ indexpage:
       url: "/concepts/burst-consumption-billing.html"
   - title: Keystoneサービスでより多くの成果を達成
     links:
-    - title: サポートチームを知る
+    - title: サポートチームについて知る
       url: "/concepts/gssc.html"
     - title: バースト容量の増加
       url: "/concepts/burst-capacity.html"

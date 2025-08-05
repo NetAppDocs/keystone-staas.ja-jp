@@ -54,14 +54,14 @@ image:dark-site-generate-collector-keypair-1.png["Generate Collector keypairオ�
 
 . TUIのメイン画面に戻り、* Service Status *情報を確認して、Keystone Collectorが正常な状態であることを確認します。サービスのステータスが「Overall：Healthy」であることが表示されます。10分ほど待ちます。この間に全体のステータスが「異常」のままになった場合は、前の設定手順を確認し、NetAppサポートチームにお問い合わせください。
 +
-image:dark-site-overall-healthy-1.png["サービスステータス"]
+image:dark-site-overall-healthy-2.png["サービスステータス"]
 
 . ホーム画面で*[Exit to Shell]*オプションを選択して、Keystone Collector管理TUIを終了します。
 . 生成された公開鍵を取得します。
 +
 `~/collector-public.pem`
 
-. このファイルを含む電子メールをkeystone.services@ NetApp .comに送信します。
+. このファイルを添付した電子メールを、安全な非 USPS サイトの場合は ng-keystone-secure-site-upload@netapp.com に、安全な USPS サイトの場合は ng-keystone-secure-site-usps-upload@netapp.com に送信してください。
 
 
 
@@ -73,7 +73,7 @@ image:dark-site-overall-healthy-1.png["サービスステータス"]
 使用状況レポートを生成するには、次の手順を実行します。
 
 . Keystone Collector TUIのホーム画面で* Export Usage *に移動します。
-. ファイルを収集し、keystone.services@ NetApp .comに送信します。
+. ファイルを収集し、安全な非 USPS サイトの場合は ng-keystone-secure-site-upload@netapp.com に、安全な USPS サイトの場合は ng-keystone-secure-site-usps-upload@netapp.com に送信します。
 +
 Keystone Collectorは、クリアファイルと暗号化されたファイルの両方を生成します。これらは手動でNetAppに送信する必要があります。クリアファイルレポートには、お客様が検証できる次の詳細が含まれています。
 

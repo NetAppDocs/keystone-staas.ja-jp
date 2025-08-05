@@ -14,12 +14,12 @@ summary: Keystone STaaSサービスは、ONTAPとStorageGRIDをサポートし�
 
 
 [role="lead"]
-バージョン 3 (v3) の Keystone STaaS サービスは、NetApp の統合ストレージ、ブロック最適化ストレージ、オブジェクト ストレージ、および Cloud Volumes ONTAP をサポートします。
+Keystone STaaS サービスは、 NetAppの統合ストレージ、ブロック最適化ストレージ、オブジェクト ストレージ、およびCloud Volumes ONTAP をサポートします。
 
-各ストレージ タイプには次のものが含まれます。
+サポートされているストレージ オプションは次のとおりです。
 
 * *統合ストレージ*: ファイル、ブロック、S3 オブジェクト ストレージの両方が含まれ、NetApp ONTAP AFF および FAS システムで利用できます。
-* *ブロック最適化ストレージ*: NetApp ONTAP ASA システムで利用可能なブロック ストレージが含まれます。
+* *ブロック最適化ストレージ*: NetApp ONTAP ASAシステムで利用可能なブロック ストレージが含まれます。
 * *オブジェクト ストレージ*: NetApp StorageGRID システムで利用可能なオブジェクト ストレージが含まれます。
 
 
