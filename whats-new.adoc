@@ -36,6 +36,8 @@ BlueXPのKeystoneダッシュボードを通じて、各パフォーマンス �
 
 NetApp Keystone STaaS オファリングの最新リリースであるKeystoneバージョン 3 (v3) をサブスクライブできるようになりました。このバージョンでは、簡素化されたパフォーマンス サービス レベル、追加のバースト容量オプション、柔軟な課金頻度など、いくつかの機能強化が導入されています。これらの改善により、ストレージ ソリューションの管理、最適化、スケーリングが簡素化されます。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/concepts/metrics.html["v3 の Keystone STaaS サービス"] 。
 
+Keystoneバージョン 3 (v3) をサブスクライブするには、 Keystoneサポート チームにお問い合わせください。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/concepts/gssc.html["Keystoneに関するサポートを受ける"] 。
+
 
 
 == 2025年6月19日
