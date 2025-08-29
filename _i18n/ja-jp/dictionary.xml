@@ -919,7 +919,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="af17398e2b948fd6715e1bdf5857d48e" category="paragraph">TCP 7777</block>
   <block id="6178fec7016b28af42fcd47c64d4da81" category="list-text">Keystoneの正確なデータ収集を保証するために、日単位と週単位のAutoSupportバンドルにサブシステムを含める必要があります。AutoSupportサブシステムの詳細については、を参照してください。<block ref="5cc209367930dbf9b2a8c95126c2b0b9" category="inline-link-rx"></block>。</block>
   <block id="001d654c5d010b25a953ace0dce0f14d" category="list-text">ログの内容を変更します。</block>
-  <block id="a35e5b3497716ca18010e0be265afb3b" category="list-text">日次ログの内容を変更するには、次のコマンドを実行します。</block>
   <block id="9060a638913c522309cdbab6919eef2b" category="list-text">週次ログの内容を変更するには、次のコマンドを実行します。</block>
   <block id="7186d4f0f71f9b706a05940b8abcacd0" category="cell">事象の説明</block>
   <block id="c8cfdcd3f2e7ef01cbd8180e33c9bf8d" category="summary">Keystone Collectorには、Keystoneシステムのパフォーマンス指標と使用状況指標を監視するセキュリティ機能が含まれており、セキュリティが強化された設定を使用するように設定されています。</block>
@@ -1608,7 +1607,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="3b70df30112e474cb2dcc361a3e3f76f" category="paragraph">グリッドの詳細がグリッドとノードの識別子、サイト情報、ハードウェア仕様、および容量の詳細別に分類されて表示されます。これらの情報は、StorageGRIDインフラ内のノードの監視と管理に役立ちます。</block>
   <block id="a5c5b30c416c34eb8d2fb09f3946721b" category="inline-image-macro">StorageGRIDのグリッドレベルの情報を示すスクリーンショット</block>
   <block id="dcaaab8361575caaad35a500d6864bd1" category="paragraph"><block ref="dcaaab8361575caaad35a500d6864bd1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1cedef25ccb6885eb8bfdc7660435962" category="paragraph">表に表示されている列を追加または削除するには、*列の非表示/表示*を使用します。デフォルトでは、*部門*列を除くすべての列が選択されています。[部門]列を含む列を選択または選択解除すると、後で使用できるように設定が保存されます。CSVレポートをダウンロードすると、選択されている場合は*部門*列の詳細が含まれ、テーブル内の選択ステータスに関係なく他の列が表示されます。</block>
   <block id="4e80b9aaf481494b7698c02bcd4558ab" category="section-title">名前が変更された論理使用列</block>
   <block id="4067362b8a27e9feb45b3dad3b225588" category="paragraph">[Volumes &amp; Objects]*の*[Volume Details]*タブの*[Logical Used]*列の名前が*[Keystone Logical Used]*に変更されました。</block>
   <block id="5676116bf1b268637a4e6fe8dd1485ca" category="section-title">強化されたアセットタブ</block>
@@ -2325,4 +2323,15 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="845131517a9dd7f41b73102338bac133" category="list-text">*論理容量*: 次の合計です:</block>
   <block id="0649df2b2e490a85273ef7528dbeb91a" category="list-text">*身体能力*: 次の合計です:</block>
   <block id="eb80e5c63a486d3698858f87d747e461" category="paragraph">Keystoneバージョン 3 (v3) をサブスクライブするには、 Keystoneサポート チームにお問い合わせください。詳細については、<block ref="ba5860e7066469b734064f44e703aa5c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7e8fe67b005603b496012796735f2d36" category="doc">新しい列による論理使用状況の追跡の強化</block>
+  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">FabricPoolボリュームのKeystone消費量追跡を強化するために、新しい列「合計フットプリント」が追加されました。</block>
+  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* BlueXPのKeystoneダッシュボード *: *Assets* タブ内の *Volumes in clusters* タブに *Total footnotes* 列が表示されます。</block>
+  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">*Digital Advisor*: * ボリュームとオブジェクト * タブ内の * ボリュームの詳細 * タブに * 合計フットプリント * 列が表示されます。</block>
+  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">この列には、パフォーマンス層とコールド層の両方のデータを含む、 FabricPool階層化を使用したボリュームの合計論理フットプリントが表示されるため、 Keystone の消費量を正確に計算できます。</block>
+  <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">ONTAP 9.16.1 以降では、次のコマンドを実行して日次ログの内容を変更します。</block>
+  <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">以前のONTAPバージョンの場合は、次のコマンドを実行して日次ログの内容を変更します。</block>
+  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">*列の非表示/表示*を使用して、テーブルに表示される列を追加または削除できます。デフォルトでは、以前に保存した列の設定がテーブルに表示されます。 *Department* 列や *Total Footprint* 列などの新しく追加された列はデフォルトでは非表示になっており、テーブルに表示するには手動で選択する必要があります。任意の列を選択または選択解除することができ、設定は後で使用するために保存されます。  CSV レポートをダウンロードする場合、表示設定に関係なく、使用可能なすべての列がエクスポートに含まれます。</block>
+  <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Digital AdvisorダッシュボードのMetroCluster構成で構成されたサブスクリプションの消費傾向チャートからバーストしきい値ラインが欠落しており、誤った *バースト制限超過* ステータスが表示されます。</block>
+  <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025/08/28</block>
+  <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025年8月28日</block>
 </blocks>

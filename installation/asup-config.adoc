@@ -27,7 +27,13 @@ Keystoneデータを含めるようにAutoSupportを設定する前に、次の�
 . システム管理者ユーザとして、SSHを使用してKeystone ONTAPクラスタにログインします。詳細については、を参照してください https://docs.netapp.com/us-en/ontap/system-admin/access-cluster-ssh-task.html["SSHを使用したクラスタへのアクセス"^]。
 . ログの内容を変更します。
 +
-** 日次ログの内容を変更するには、次のコマンドを実行します。
+** ONTAP 9.16.1 以降では、次のコマンドを実行して日次ログの内容を変更します。
++
+[source]
+----
+autosupport trigger modify -node * -autosupport-message management.log -basic-additional wafl,performance,snapshot,object_store_server,san,raid,snapmirror -troubleshooting-additional wafl
+----
+** 以前のONTAPバージョンの場合は、次のコマンドを実行して日次ログの内容を変更します。
 +
 [source]
 ----
