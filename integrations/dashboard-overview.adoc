@@ -76,6 +76,11 @@ link:../integrations/assets-tab.html["Keystone サブスクリプションに関
 
 
  a| 
+link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
+| はい | いいえ 
+
+
+ a| 
 link:../integrations/modify-subscription.html["サブスクリプションを変更する"] (Keystone 管理者のみ)
 | はい | いいえ 
 

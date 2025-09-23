@@ -100,5 +100,6 @@ TIP: 列セレクターを使用してテーブルをカスタマイズできま
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]
 * link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを表示する"]
 * link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
+* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細を表示"]
 

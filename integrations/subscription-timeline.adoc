@@ -43,5 +43,6 @@ image:bxp-subscription-timeline.png["重要なイベントとともに、サブ�
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]
 * link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
 * link:../integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]
+* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細を表示"]
 

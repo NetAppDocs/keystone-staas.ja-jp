@@ -122,6 +122,12 @@ sidebar:
         url: "/integrations/assets-tab.html"
       - title: 複数のサブスクリプションにわたる資産を表示する
         url: "/integrations/assets.html"
+    - title: アラートとモニターの表示と管理
+      entries:
+      - title: アラートの表示と管理
+        url: "/integrations/monitoring-alerts.html"
+      - title: アラートモニターの表示と作成
+        url: "/integrations/monitoring-alert-monitors.html"
     - title: サブスクリプションを変更する
       url: "/integrations/modify-subscription.html"
     - title: サービスリクエストを表示

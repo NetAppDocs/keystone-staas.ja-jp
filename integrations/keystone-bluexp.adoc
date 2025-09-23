@@ -36,5 +36,6 @@ image:bxp-dashboard-overview-1.png["概要タブのスクリーンショット"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
 * link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
 * link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"]
+* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]
 

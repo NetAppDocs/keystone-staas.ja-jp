@@ -79,5 +79,6 @@ Keystoneストレージサービスと関連するパフォーマンスサービ
 * link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを表示する"]
 * link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
 * link:../integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]
+* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
 * link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細を表示"]
 

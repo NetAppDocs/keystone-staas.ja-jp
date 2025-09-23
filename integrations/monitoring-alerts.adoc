@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: integrations/monitoring-alerts.html 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+summary: 「監視」タブを使用して、 Keystoneサブスクリプションのアラートを表示および管理します。 
+---
+= Keystoneサブスクリプションのアラートを表示および管理する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+BlueXPのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。
+
+ユーザー定義アラートを設定するには、link:../integrations/monitoring-alert-monitors.html#create-and-manage-alert-monitors["アラートモニターの作成と管理"] 。
+
+
+
+== アラートを表示
+
+アクティブなアラートを表示するには、次の手順に従います。
+
+.手順
+. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 監視 > アラート* を選択します。
++
+image:monitoring-alerts-default-view.png["Keystoneサブスクリプションのアクティブアラートのスクリーンショット"]
+
++
+重大度、ID、説明、トリガー時刻、サブスクリプション番号、追跡 ID、パフォーマンス サービス レベル、ステータスなどのアラートの詳細を表示できます。このページには、重大度とタイプ別に未解決のアラートの合計も表示されます。
+
+
+
+
+
+== アラートを管理する
+
+*アラート*タブからは、次のアクションを実行できます。
+
+* *アラートを確認して解決する*: アラート ID 番号を選択すると、アラートの詳細ビューが開きます。このビューには、アラートの説明と推奨される解決手順が表示されます。この詳細ビューから、次の操作を実行できます。
++
+** 問題に対処した後、[*編集*] ボタンを選択して、アラートを解決済みとしてマークします。
+** 必要に応じて、「*メモを追加*」ボタンを選択して補足メモを追加します。
+
+
+* *アラートのフィルタリング*: *ステータス* 列のフィルタ アイコンを使用して、アクティブなアラート、解決済みのアラート、またはその両方を表示します。
+* *サブスクリプションの詳細を表示*: *サブスクリプション* 列からサブスクリプション番号を選択すると、サブスクリプションの詳細、消費傾向、およびアラートを理解して対処するのに役立つ資産情報にアクセスできます。詳細については、 link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"] 。
+
+
+* 関連情報 *
+
+* link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
+* link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
+* link:../integrations/consumption-tab.html["消費トレンドの表示"]
+* link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを表示する"]
+* link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
+* link:../integrations/monitoring-alert-monitors.html["アラートモニターの表示と作成"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細の表示"]
+
