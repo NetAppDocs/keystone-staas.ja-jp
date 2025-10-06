@@ -27,7 +27,7 @@ NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コン
 Keystoneインフラには、次のような複数のコンポーネントが含まれます。
 
 * NetApp ストレージ システムを含む Keystone インフラストラクチャ。
-* ITOM 監視ソリューション、BlueXP、Active IQ、Active IQ Unified Manager などのサービスを管理および運用するためのツール。
+* ITOM 監視ソリューション、 NetAppコンソール、 Active IQ、 Active IQ Unified Managerなどのサービスを管理および操作するためのツール。
 
 
 
@@ -50,4 +50,4 @@ Keystoneのお客様運用サービスでは、ストレージインフラと監
 
 image:data-collector-flow.png["コレクターデータフロー"]
 
-Keystoneサブスクリプションのサブスクリプションと消費の詳細は、BlueXPまたはDigital Advisorでご確認いただけます。Keystoneレポートの詳細については、以下をご覧ください。 link:../integrations/dashboard-overview.html["Keystoneダッシュボードの概要"] 。
+Keystoneサブスクリプションのサブスクリプションと消費の詳細は、 NetAppコンソールまたはDigital Advisorを通じて表示できます。Keystoneレポートの詳細については、以下を参照してください。link:../integrations/dashboard-overview.html["Keystoneダッシュボードの概要"] 。

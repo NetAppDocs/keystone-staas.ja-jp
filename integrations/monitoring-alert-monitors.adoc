@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/monitoring-alert-monitors.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp. console 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, monitoring, bluexp, netapp console 
 summary: 「監視」タブを使用して、 Keystoneサブスクリプションのアラート モニターを表示および作成します。 
 ---
 = Keystoneサブスクリプションのアラート モニターの表示と作成
@@ -14,7 +14,7 @@ summary: 「監視」タブを使用して、 Keystoneサブスクリプショ�
 
 
 [role="lead"]
-BlueXPのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。この機能はDigital Advisorでは利用できません。
+NetAppコンソールのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。この機能はDigital Advisorでは利用できません。
 
 
 
@@ -23,9 +23,9 @@ BlueXPのKeystoneダッシュボードから、 Keystoneサブスクリプショ
 アラート モニターを表示するには、次の手順に従います。
 
 .手順
-. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 監視 > アラート モニター*を選択します。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > モニタリング > アラート モニター*を選択します。
 +
-image:monitoring-alert-monitors-default-view.png["Keystoneサブスクリプションのアラートモニターのスクリーンショット"]
+image:monitoring-alert-monitors-default-view-1.png["Keystoneサブスクリプションのアラートモニターのスクリーンショット"]
 
 +
 モニター名、通知をトリガーするアラート条件、重大度レベル、サブスクリプション番号、パフォーマンス サービス レベル、ステータスなど、 Keystoneサブスクリプション全体のアラート モニターのリストを表示できます。  *作成者* 列をチェックして、アラート モニターがシステムによって生成されたものか、ユーザー定義のものかを判別できます。

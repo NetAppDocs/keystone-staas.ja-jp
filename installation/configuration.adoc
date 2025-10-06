@@ -110,7 +110,7 @@ image:kc-custom-ca.png["CAカスタマイズ用のTUI画面"]
 
 == パフォーマンスサービスレベルの作成
 
-Keystone Collector管理TUIユーティリティを使用して、パフォーマンスサービスレベル（PSL）を作成できます。TUIでPSLを作成すると、各サービスレベルに設定されているデフォルト値が自動的に選択されるため、Active IQ Unified ManagerでPSLを作成する際にこれらの値を手動で設定したときにエラーが発生する可能性が低くなります。
+Keystone Collector 管理 TUI ユーティリティを使用して、パフォーマンス サービス レベル (PSL) を作成できます。TUI を使用して PSL を作成すると、各パフォーマンス サービス レベルに設定されているデフォルト値が自動的に選択されるため、 Active IQ Unified Managerを使用して PSL を作成する際にこれらの値を手動で設定した場合に発生する可能性のあるエラーの可能性が軽減されます。
 
 PSLの詳細については、を参照してくださいlink:https://docs.netapp.com/us-en/active-iq-unified-manager/storage-mgmt/concept_manage_performance_service_levels.html["パフォーマンスサービスレベル"^]。
 
@@ -133,15 +133,15 @@ image:qos-STaaS-selection-2.png["Keystoneのバージョンを指定するため
 
 +
 
-NOTE: Keystoneサブスクリプションサービスバージョン1の* kfs *オプションをハイライトできます。Keystoneサブスクリプションサービスは、構成要素のサービスレベル、サービス提案、課金原則でKeystone STaaSとは異なります。詳細については、を参照して link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystoneサブスクリプションサービス|バージョン1"^]ください。
+NOTE: Keystoneサブスクリプション サービス バージョン 1 の *KFS* オプションを強調表示できます。Keystoneサブスクリプション サービスは、構成パフォーマンス サービス レベル、サービス提供、課金原則においてKeystone STaaS とは異なります。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/subscription-services-v1.html["Keystoneサブスクリプションサービス|バージョン1"^] 。
 
-. サポートされるすべてのKeystoneサービスレベルは、指定したKeystoneバージョンの*[Select Keystone Service Levels]*オプションに表示されます。リストから目的のサービスレベルを有効にします。
+. 指定されたKeystoneバージョンの * Keystoneサービス レベルの選択* オプション内に、サポートされているすべてのKeystoneパフォーマンス サービス レベルが表示されます。リストから必要なパフォーマンス サービス レベルを有効にします。
 +
 image:qos-STaaS-selection-3.png["サポートされているすべてのKeystoneサービスレベルを表示するTUI画面"]
 
 +
 
-NOTE: 複数のサービスレベルを同時に選択してPSLを作成できます。
+NOTE: 複数のパフォーマンス サービス レベルを同時に選択して PSL を作成できます。
 
 . [保存]*を選択し、Enterキーを押します。パフォーマンスサービスレベルが作成されます。
 +
@@ -153,4 +153,4 @@ image:qos-performance-sl.png["作成されたAQoSポリシーを表示するUI�
 
 
 
-TIP: 選択したサービスレベルのPSLが指定したActive IQ Unified Mangerサーバにすでに存在する場合、再度作成することはできません。これを実行しようとすると、エラーメッセージが表示されます。 image:qos-failed-policy-1.png["ポリシー作成に関するエラーメッセージを表示するTUI画面"]
+TIP: 選択したパフォーマンス サービス レベルの PSL が、指定されたActive IQ Unified Manger サーバーにすでに存在する場合は、再度作成することはできません。そうしようとすると、エラー メッセージが表示されます。image:qos-failed-policy-1.png["ポリシー作成に関するエラーメッセージを表示するTUI画面"]

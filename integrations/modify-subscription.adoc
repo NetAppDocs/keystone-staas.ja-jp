@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: integrations/modify-subscription.html 
-keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription 
-summary: BlueXP を通じて関連するパフォーマンス サービス レベルのコミット容量を変更するには、Keystone サブスクリプションを変更します。 
+keywords: performance service levels, keystone-bluexp, modify subscription, edit capacity, manage subscription, NetApp Console, Console 
+summary: NetAppコンソールを通じて、関連するパフォーマンス サービス レベルのコミット済み容量を変更するには、 Keystoneサブスクリプションを変更します。 
 ---
-= BlueXPからKeystoneサブスクリプションを変更する
+= NetAppコンソールからKeystoneサブスクリプションを変更する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,19 +14,19 @@ summary: BlueXP を通じて関連するパフォーマンス サービス レ�
 
 
 [role="lead"]
-BlueXP を通じて、関連するパフォーマンス サービス レベルの Keystone サブスクリプションのコミット容量を変更できます。
+NetAppコンソールを使用して、関連するパフォーマンス サービス レベルのKeystoneサブスクリプションのコミット済み容量を変更できます。
 
 [NOTE]
 ====
 * サブスクリプションの有効期限が 90 日以上残っている場合は、コミットされた容量を変更できます。
-* コミットされた容量を変更するには、*Keystone admin* ロールが割り当てられている必要があります。詳細については、を参照して link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  アクセスロールの詳細"^]ください。
+* コミットされた容量を変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセスロールについて学ぶ"^] 。
 
 
 ====
 コミットされた容量を変更するには、次の手順に従います。
 
 .手順
-. BlueXP メニューから、*ストレージ > Keystone > サブスクリプション*を選択します。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > サブスクリプション*を選択します。
 . 変更するサブスクリプションのテーブルで省略記号アイコンをクリックし、[変更] を選択します。
 +
 *サブスクリプションの変更* ページには、選択したサブスクリプション番号に関連付けられているサブスクライブ済みパフォーマンス サービス レベルの詳細が表示されます。
@@ -36,7 +36,7 @@ BlueXP を通じて、関連するパフォーマンス サービス レベル�
 NOTE: オプションとして、サブスクリプションの詳細セクションで [*サブスクリプションの管理*] をクリックし、[*変更*] を選択して [*サブスクリプションの変更*] ページにアクセスできます。
 
 +
-image:bxp-modify-subscription-1.png["サブスクリプションリストからの変更オプションを表示するスクリーンショット"]
+image:console-modify-subscription.png["サブスクリプションリストからの変更オプションを表示するスクリーンショット"]
 
 . *容量の編集* をクリックして、パフォーマンス サービス レベルのコミット容量を変更し、必要な詳細を入力して、*送信* をクリックします。
 +

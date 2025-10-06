@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions 
-summary: NetApp Keystone STaaS加入者は、NetApp BlueXPまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
+summary: NetApp Keystone STaaS加入者は、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。 
 ---
 = Keystoneダッシュボードを使い始める
 :hardbreaks:
@@ -14,22 +14,22 @@ summary: NetApp Keystone STaaS加入者は、NetApp BlueXPまたはDigital Advis
 
 
 [role="lead"]
-NetApp Keystone サービスに加入すると、NetApp BlueXP または Digital Advisor を通じて Keystone ダッシュボードにアクセスできます。
+NetApp Keystoneサービスに加入すると、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.NetAppコンソール
 --
-BlueXP にログインするには、NetApp サポート サイトの資格情報を使用するか、電子メールとパスワードを使用して BlueXP にサインアップすることができます。詳細については、をご覧ください link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["BlueXPへのログイン"^]。
+NetAppサポート サイトの認証情報を使用してコンソールにログインするか、電子メールとパスワードを使用してNetAppクラウド ログインにサインアップします。詳細については、 link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["コンソールにログインする"^] 。
 
 .手順
-. BlueXPにログインします。
-. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone* を選択します。
+. コンソールにログインします。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone*を選択します。
 +
 Keystone ダッシュボードが表示されます。
 
 +
-image:discover-subscriptions-1.png["Keystoneダッシュボードページ"]
+image:discover-subscriptions-2.png["Keystoneダッシュボードページ"]
 
 +
 
@@ -54,7 +54,7 @@ Digital Advisorダッシュボードの*Keystoneサブスクリプション*ウ�
 ====
 * 関連情報 *
 
-* link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"]
+* link:../integrations/keystone-console.html["NetAppコンソールのKeystoneダッシュボード"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
 * link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
 

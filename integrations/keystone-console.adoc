@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: integrations/keystone-bluexp.html 
-keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor 
-summary: NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP からサブスクリプションの概要を取得できます。 
+permalink: integrations/keystone-console.html 
+keywords: Keystone, BlueXP, Keystone dashboard, overview, subscription manage, monitor, NetApp Console, Console 
+summary: NetApp Keystone STaaS サブスクライバーは、 NetAppコンソールからサブスクリプションの概要を取得できます。 
 ---
-= BlueXPのKeystoneダッシュボード
+= NetAppコンソールのKeystoneダッシュボード
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP か�
 
 
 [role="lead"]
-*概要*タブを使用すると、リスクのあるワークロードを迅速に特定し、サブスクリプションの容量と有効期限のステータスを確認したり、未解決のアラートを特定したり、容量使用率が最も高いサブスクリプションを確認したりできます。また、Keystoneの異なるバージョン間でのサブスクリプションのステータスを表示し、注意が必要な問題をハイライト表示することもできます。
+*概要* ページを使用すると、リスクのあるワークロードを迅速に特定し、サブスクリプションの容量と有効期限のステータスを表示し、未解決のアラートを識別し、容量使用率が最も高いサブスクリプションを表示できます。また、 Keystoneのさまざまなバージョンにわたるサブスクリプションのステータスを表示して、注意が必要な問題を強調表示することもできます。
 
-*概要* タブを表示するには、BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 概要* に移動します。
+*概要* ページを表示するには、コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > 概要* に移動します。
 
-image:bxp-dashboard-overview-1.png["概要タブのスクリーンショット"]
+image:bxp-dashboard-overview-2.png["概要ページのスクリーンショット"]
 
-*概要* タブでは、次の情報が表示されます。
+*概要* ページでは、次の情報を提供します。
 
 * *サマリー*：サブスクリプション、ONTAPクラスタ、StorageGRIDノード、ONTAPノードの合計数を表示します。各カテゴリには*表示*ボタンがあり、*サブスクリプション*または*アセット*タブの詳細セクションに簡単に移動できます。
 * *まもなく期限切れ*: 6 か月以内に期限切れになるサブスクリプションの数。*表示*をクリックすると、*サブスクリプション*タブでこれらのサブスクリプションが表示されます。
@@ -36,6 +36,5 @@ image:bxp-dashboard-overview-1.png["概要タブのスクリーンショット"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
 * link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
 * link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"]
-* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]
 

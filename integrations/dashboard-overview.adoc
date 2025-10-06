@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/dashboard-overview.html 
-keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard 
-summary: NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP または Digital Advisor からサブスクリプションの概要を取得できます。 
+keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, NetApp Console, Console 
+summary: NetApp Keystone STaaS サブスクライバーは、 NetAppコンソールまたはDigital Advisorからサブスクリプションの概要を取得できます。 
 ---
 = Keystoneダッシュボードについて学ぶ
 :hardbreaks:
@@ -29,27 +29,39 @@ Keystoneダッシュボードは、Keystoneサブスクリプションを効率�
 
 Keystone ダッシュボードには次の方法でアクセスできます。
 
-* *BlueXP*: BlueXP の *ストレージ > Keystone > 概要* からダッシュボードにアクセスします。詳細については、を参照して link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"^]ください。
+* * NetAppコンソール*: コンソールの *ストレージ > Keystone > 概要* からダッシュボードにアクセスします。詳細については、link:../integrations/keystone-console.html["NetAppコンソールのKeystoneダッシュボード"^] 。
 * *Active IQ Digital Advisor* (Digital Advisor とも呼ばれます): Digital Advisor の *全般 > Keystone サブスクリプション* からダッシュボードにアクセスします。詳細については、を参照して link:../integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"^]ください。
 
 
+
+
+== NetAppコンソールについて
+
+KeystoneにはNetAppコンソールからアクセスできます。
+
+NetAppコンソールは、オンプレミスおよびクラウド環境全体にわたるエンタープライズ規模のNetAppストレージおよびデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。
+
+コンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。
+
+詳細はこちらlink:https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetAppコンソール"^]。
+
 次の点に注意してください。
 
-* BlueXP と Digital Advisor は独自の機能をいくつか提供していますが、BlueXP は Keystone の管理機能を提供し、サブスクリプションを管理し、必要な調整を行うことができます。
-* サブスクリプションを変更するには、*Keystone admin* ロールが割り当てられている必要があります。詳細については、を参照して link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP  アクセスロールの詳細"^]ください。
-* Digital Advisor は BlueXP と統合されており、Keystone ダッシュボードを含むすべての Digital Advisor 機能に BlueXP から直接アクセスできます。詳細については、を参照して link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html#integration-overview["Digital AdvisorとBlueXPの統合"^]ください。
+* コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。
+* サブスクリプションを変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセスロールについて学ぶ"^] 。
+* Digital Advisorはコンソールに統合されており、 Keystoneダッシュボードを含むすべてのDigital Advisor機能にコンソールから直接アクセスできます。詳細については、link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Digital AdvisorとNetAppコンソールの統合"^] 。
 
 
 
 
-== BlueXPとDigital AdvisorのKeystone機能
+== NetAppコンソールとDigital AdvisorのKeystone機能
 
-次の表は、BlueXP と Digital Advisor で利用可能な機能を示しており、ニーズに適したプラットフォームを迅速に特定するのに役立ちます。
+次の表は、 NetAppコンソールとDigital Advisorで利用可能な機能を示しており、ニーズに合った適切なプラットフォームを迅速に特定するのに役立ちます。
 
 |===
 
 
-| * 特徴 * | *ブルーXP* | *デジタルアドバイザー* 
+| * 特徴 * | * NetAppコンソール* | *デジタルアドバイザー* 
 
 
  a| 
@@ -86,7 +98,7 @@ link:../integrations/modify-subscription.html["サブスクリプションを変
 
 
  a| 
-link:../integrations/options.html#generate-reports-from-bluexp-or-digital-advisor["レポートを生成します"]
+link:../integrations/options.html#generate-reports-from-console-or-digital-advisor["レポートを生成します"]
 | はい | はい 
 
 
@@ -102,6 +114,6 @@ link:../integrations/performance-tab.html["パフォーマンス指標の表示"
 * 関連情報 *
 
 * link:../integrations/dashboard-access.html["Keystoneダッシュボードを使い始める"]
-* link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"]
+* link:../integrations/keystone-console.html["NetAppコンソールのKeystoneダッシュボード"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
 

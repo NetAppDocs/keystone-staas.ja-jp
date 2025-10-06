@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: integrations/assets.html 
-keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID 
+keywords: keystone-aiq, digital advisor keystone, keystone reports, alerts, keystone dashboard, keystone assets tab, ONTAP, StorageGRID, NetApp Console, Console 
 summary: '[Assets]タブを使用して、ONTAPのクラスタとノード、およびKeystoneサブスクリプションで管理されるStorageGRIDのグリッド、サイト、ノードの詳細を表示します。' 
 ---
 = 複数のKeystoneサブスクリプションにわたる資産を表示する
@@ -14,19 +14,19 @@ summary: '[Assets]タブを使用して、ONTAPのクラスタとノード、お
 
 
 [role="lead"]
-BlueXPのKeystoneダッシュボードでは、アクセス権限に応じて、クラスター内のノード、プロビジョニングされたボリューム、複数のKeystoneサブスクリプションにまたがるStorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは利用できません。
+NetAppコンソールのKeystoneダッシュボードでは、アクセス権限に応じて、複数のKeystoneサブスクリプションにわたるクラスター内のノード、プロビジョニングされたボリューム、 StorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは使用できません。
 
 [role="tabbed-block"]
 ====
 .クラスター内のノード
 --
 .手順
-. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 資産* を選択します。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > 資産*を選択します。
 +
-*アセット* タブには、*クラスター内のノード* サブタブが表示されます。
+*アセット* ページには、*クラスター内のノード* タブが表示されます。
 
 +
-image:bxp-nodes-clusters-multiple-subscription.png["複数のサブスクリプションのクラスター内のノードのスクリーンショット"]
+image:console-nodes-clusters-multiple-subscription.png["複数のサブスクリプションのクラスター内のノードのスクリーンショット"]
 
 +
 Keystoneサブスクリプション全体のクラスター内のすべてのノードに関する詳細情報（ノードのシリアル番号、ステータス、ストレージ効率設定、プラットフォームタイプ、容量の詳細など）を表示できます。また、以下の概要も確認できます。
@@ -47,10 +47,10 @@ TIP: 列セレクターを使用してテーブルをカスタマイズできま
 .クラスター内のボリューム
 --
 .手順
-. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 資産* を選択します。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > 資産*を選択します。
 . *クラスター内のボリューム*タブを選択します。
 +
-image:bxp-volumes-clusters-multiple-sub-1.png["複数のサブスクリプションのクラスター内のボリュームのスクリーンショット"]
+image:console-volumes-clusters-multiple-sub.png["複数のサブスクリプションのクラスター内のボリュームのスクリーンショット"]
 
 +
 Keystoneサブスクリプション全体のクラスター内のすべてのボリュームに関する詳細情報（ボリューム名、サブスクリプション番号、ノードのシリアル番号、QoSポリシーのコンプライアンス、クラスター名、ホスト名、パフォーマンスサービスレベルなど）が表示されます。プロビジョニングされた容量、論理および物理使用率、コールドデータを監視できます。また、以下の概要も確認できます。
@@ -73,10 +73,10 @@ TIP: 列セレクターを使用してテーブルをカスタマイズできま
 .グリッド内のノード
 --
 .手順
-. BlueXP の左側のナビゲーション メニューから、*ストレージ > Keystone > 資産* を選択します。
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > 資産*を選択します。
 . *グリッド内のノード*タブを選択します。
 +
-image:bxp-nodes-grids-multiple-sub.png["複数のサブスクリプションのグリッド内のノードのスクリーンショット"]
+image:console-nodes-grids-multiple-sub.png["複数のサブスクリプションのグリッド内のノードのスクリーンショット"]
 
 +
 Keystoneサブスクリプション全体のグリッド内のすべてのノードについて、ノード名、ノードID、サブスクリプション番号、グリッド名、ノードタイプ、顧客などの詳細情報を表示できます。消費済みおよび利用可能なデータ容量、CPU使用率、使用可能なデータ容量を監視できます。

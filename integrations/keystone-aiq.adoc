@@ -61,7 +61,7 @@ image:watchlist.png["[watchlist]画面"]
 * 関連情報 *
 
 * link:../integrations/dashboard-access.html["Keystoneダッシュボードを使い始める"]
-* link:../integrations/keystone-bluexp.html["BlueXPのKeystoneダッシュボード"]
+* link:../integrations/keystone-console.html["NetAppコンソールのKeystoneダッシュボード"]
 * link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
 * link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"]
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]

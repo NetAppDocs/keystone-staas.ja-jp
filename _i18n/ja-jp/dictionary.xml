@@ -48,7 +48,6 @@
   <block id="2dd5f36775604dad2303abf8267a2c4a" category="summary">サポートされているストレージ容量</block>
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">論理容量</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">コミット済み容量</block>
-  <block id="5e4631059cd88370a28a74ba7f45c7b3" category="list-text">容量は各サービスレベルにコミットされます。</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">コミット済み容量に対する変更</block>
   <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">サブスクリプションの期間中に、コミット済み容量を変更できます。ただし、前提条件は次のとおりです。</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">容量の削減</block>
@@ -181,7 +180,6 @@
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">C13コンセントが十分にある、別々の保護された2つの回路に接続されたPower Distribution Unit（PDU；配電ユニット）を用意する必要があります。お客様が実施するサービスでは、場合によっては C19 コンセントが必要です。ネットアップが提供するサービスでは、要件に応じて、ネットアップまたはお客様がPDUを提供できます。</block>
   <block id="9696806b0bc121063e619b6f0922f330" category="paragraph">お客様の要件や使用しているストレージコントローラによっては、ネットアップはお客様のサイトで10GB、40GB、100GBの接続を提供できます。</block>
   <block id="f208065131ee7ec38a881083b91c06e2" category="cell">FCおよびiSCSI</block>
-  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="sidebar">BlueXP</block>
   <block id="2d0539451bff9f553647efc300f001de" category="section-title">サービスリクエストを生成しています</block>
   <block id="ec48441169568deaa659297bc5ea9f6c" category="paragraph">オンボーディング時に、NetApp Keystone ServiceNowへのアクセスおよび使用のためのクレデンシャルが提供されている場合は、ポータルを使用して、Keystoneサブスクリプションに関連する問題に対するサービスリクエストを生成できます。</block>
   <block id="ce79b37185c18b2eba95931a0b15de7a" category="inline-link-macro">サポートバンドルを生成して収集する</block>
@@ -827,7 +825,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0031be5085bbcd93406b2aa424a49c42" category="section-title">プライマリサブスクリプションにリンクされているサブスクリプションを表示する機能</block>
   <block id="7a76691411d2b3f52e0613b9090e3000" category="paragraph">一部のプライマリサブスクリプションは、リンクされたセカンダリサブスクリプションを持つことができます。その場合、プライマリサブスクリプション番号は引き続き*サブスクリプション番号*列に表示され、リンクされたサブスクリプション番号は*サブスクリプション*タブの新しい列*リンクされたサブスクリプション番号*に表示されます。[リンクされたサブスクリプション]列は、リンクされたサブスクリプションがある場合にのみ使用可能になり、それらについて通知する情報メッセージが表示されます。</block>
   <block id="239e6e2df7e739023e0acbac63d63a5f" category="doc">[Capacity Trend]タブ</block>
-  <block id="b7539220d8497299938ec75ae391ea23" category="paragraph">既知の問題には、Keystoneサブスクリプションサービスの効果的な利用を妨げる可能性のある問題が記載されています。</block>
   <block id="2fbeaae6d4bb6e4bbb8d27338873ec72" category="section-title">[Assets]タブの追加</block>
   <block id="2c2277efed09502321b33f1286580b04" category="inline-link-macro">[Assets]タブ</block>
   <block id="ea3ad566bfcd2ac55a05e379fea714ae" category="section-title">[ボリュームとオブジェクト]タブの改善</block>
@@ -1188,7 +1185,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0fa7096028e231171f86212b096254bd" category="admonition">SLAと保証は申請に応じて提供されます。</block>
   <block id="90c1605e73fc10bc5c46dc4183664885" category="paragraph">2024/08/07</block>
   <block id="1e4eb13a6a1b07eeb2e7895fbc7a1bb1" category="section-title">パフォーマンスサービスレベルの作成</block>
-  <block id="5053594f32aa62a7113e670df7c0dcf6" category="paragraph">Keystone Collector管理TUIユーティリティを使用して、パフォーマンスサービスレベル（PSL）を作成できます。TUIでPSLを作成すると、各サービスレベルに設定されているデフォルト値が自動的に選択されるため、Active IQ Unified ManagerでPSLを作成する際にこれらの値を手動で設定したときにエラーが発生する可能性が低くなります。</block>
   <block id="9dc46e9b8e8e3325a5f950ba6b189e61" category="inline-link-macro">パフォーマンスサービスレベル</block>
   <block id="30b9ea415acabd68ca478ac9f480dcc4" category="paragraph">PSLの詳細については、を参照してください<block ref="618fbf54ef577c932e12b764c4672483" category="inline-link-macro-rx"></block>。</block>
   <block id="3366047110e1d4df81bd4a3c7e56a81a" category="paragraph">サービスレベルの詳細については、を参照してください<block ref="65aad034e764c488cc9555200d7886f8" category="inline-link-macro-rx"></block>。</block>
@@ -1202,18 +1198,14 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="921dbe2a6293b980a37507e9b0ef99c9" category="list-text">STaaS *をハイライト表示してKeystone STaaSのKeystoneバージョンを指定し、Enterキーを押します。</block>
   <block id="fcb2a80e16744614cdf6c2f2f82c4e2e" category="inline-image-macro">Keystoneのバージョンを指定するためのTUI画面</block>
   <block id="1e2d635219881df0b1d0ff05ce928dde" category="paragraph"><block ref="1e2d635219881df0b1d0ff05ce928dde" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0d93cccfc0748834998c1743a905f0d3" category="admonition">Keystoneサブスクリプションサービスバージョン1の* kfs *オプションをハイライトできます。Keystoneサブスクリプションサービスは、構成要素のサービスレベル、サービス提案、課金原則でKeystone STaaSとは異なります。詳細については、を参照して <block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="5a8df8e784147e10e20a7f96a1911ce8" category="list-text">サポートされるすべてのKeystoneサービスレベルは、指定したKeystoneバージョンの*[Select Keystone Service Levels]*オプションに表示されます。リストから目的のサービスレベルを有効にします。</block>
   <block id="6792bca92745749645838a609966a8c2" category="inline-image-macro">サポートされているすべてのKeystoneサービスレベルを表示するTUI画面</block>
   <block id="40107ce73af0b4c30bdedbdec9454440" category="paragraph"><block ref="40107ce73af0b4c30bdedbdec9454440" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="be76688bb0584656dac7cefe07517b47" category="admonition">複数のサービスレベルを同時に選択してPSLを作成できます。</block>
   <block id="18e5eacb4fdad1ff92aee1fb4f0f41cc" category="list-text">[保存]*を選択し、Enterキーを押します。パフォーマンスサービスレベルが作成されます。</block>
   <block id="0e0dd84db86e72ae77b4739377c3a4e1" category="inline-link-macro">パフォーマンスサービスレベルの作成と編集</block>
   <block id="be298fbf55a1c81157761b8b02a6d696" category="paragraph">作成されたPSL（STaaSの場合はPremium-KS-STaaS、KFSの場合はExtreme KFSなど）は、Active IQ Unified Managerの*パフォーマンスサービスレベル*ページで確認できます。作成したPSLが要件を満たしていない場合は、必要に応じてPSLを変更できます。詳細については、を参照して <block ref="84f3a19cf4d829ad37ba5eddb2b177a0" category="inline-link-macro-rx"></block>ください。</block>
   <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">作成されたAQoSポリシーを表示するUIのスクリーンショット</block>
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">ポリシー作成に関するエラーメッセージを表示するTUI画面</block>
-  <block id="224dfc2fadc284cf45249b5ddb7bc7cd" category="admonition">選択したサービスレベルのPSLが指定したActive IQ Unified Mangerサーバにすでに存在する場合、再度作成することはできません。これを実行しようとすると、エラーメッセージが表示されます。 <block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">日付範囲を選択する*開始日*フィールドには、*消費トレンド*タブに移動すると、デフォルトで将来の日付が表示されます。</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024/09/04</block>
@@ -1388,16 +1380,13 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="20fa5f9b2d4cd9672cce24531c8f1666" category="summary">このAPIは、ユーザに関連付けられているすべてのcustomerIDのリストを取得します。</block>
   <block id="2a2abaabc17b5a91d82e82303642b09c" category="doc">Digital Advisor REST APIを使用しているすべてのお客様のリストを取得する</block>
   <block id="5b7e7d763cd7702a1e75085674fe6768" category="paragraph">APIは、顧客名とそれぞれのIDのリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
-  <block id="796057698de87bb393ab8b61e5aff5f2" category="summary">このAPIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。</block>
   <block id="9b6c21a9e3f04a27506fa4a5eb0cd41f" category="doc">Digital Advisor REST APIを使用してお客様のサブスクリプションを取得</block>
-  <block id="7dad8be1becd1cd3fe4d2ec1306c3b82" category="paragraph">APIは、特定の顧客のすべてのサブスクリプションと関連するサービスレベルの詳細のリストを含むJSONオブジェクトで応答します。以下に回答例を示します。</block>
   <block id="0a076b1454da01faf38e4805c15570ee" category="doc">Digital Advisor REST APIを使用したKeystoneデータの取得を開始する</block>
   <block id="e29debe73c0e9065a4267dfae6adefe9" category="paragraph">Digital Advisor REST APIは、Keystoneのサブスクリプションと消費の詳細を取得するためのプログラム化されたインターフェイスを提供します。</block>
   <block id="c3091c7f241015a003ff982080a072b0" category="paragraph">Digital Advisor REST APIを操作するワークフローの大まかな手順は次のとおりです。</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="inline-link">Digital Advisorにログインします。</block>
   <block id="cb2ea5f9df257b4df0243d4cf9e535bf" category="list-text">Digital Advisorアカウントを設定します。デジタルアドバイザにログインするには、有効なNetAppサポートサイトのクレデンシャルが必要です。詳細については、<block ref="f7709f12f686047b8295b5977c1d6d33" category="inline-link-rx"></block></block>
   <block id="d99ad2d9a576f68ae4b88fb369c0150d" category="list-text">2段階認証プロセスを理解します。</block>
-  <block id="10a330e0acf4a6c5af02e22d7528123d" category="list-text">*リフレッシュトークンの生成*:リフレッシュトークンは、デジタルアドバイザコンソールからNetAppクレデンシャルを使用して取得されます。このトークンは、繰り返しログインすることなく継続的にアクセスできるようにするために使用されます。</block>
   <block id="2242d62d3e8be601b23d94ea56e90d58" category="list-text">*アクセストークンの生成*:リフレッシュトークンは、アクセストークンの生成に使用されます。KeystoneサービスへのAPI呼び出しを許可するにはアクセストークンが必要で、有効期間は1時間です。</block>
   <block id="f8f8242a29d5eb9256ae05747db07412" category="list-text">API呼び出しを実行して、目的のデータを取得します。顧客のリスト、顧客サブスクリプションデータ、および顧客消費の詳細をプログラムで取得できます。</block>
   <block id="fad1e832526fa7449bfff5b810826110" category="sidebar">Digital Advisor REST APIからKeystoneにアクセス</block>
@@ -1721,26 +1710,18 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1ef86c84141cbf98bc2a59eeffa9afd3" category="paragraph">詳細については、を参照して <block ref="b7d94ab5747cf2f7821847d435faf714" category="inline-link-macro-rx"></block>ください。</block>
   <block id="33a7d9c43d0ae3063679287913d61f25" category="summary">Keystone サブスクリプション サービスのリクエストを表示またはキャンセルします。</block>
   <block id="d1852e78062b5753f2098c5dc933a1cb" category="doc">Keystoneサブスクリプションのサービスリクエストを表示する</block>
-  <block id="af612b58d0f74038ba35647dbf74d7b6" category="paragraph">BlueXP を通じて Keystone サブスクリプションを変更するためのサービス リクエストを表示および追跡し、簡単な概要を表示して進行状況を監視できます。</block>
   <block id="50d5a25394fedc4774cab128322dbb14" category="paragraph">進行状況を表示したり、リクエストをキャンセルしたりするには、次の手順に従います。</block>
-  <block id="49388dccd36c2bbe75e1150d12810960" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 管理* を選択します。</block>
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">リクエスト番号、リクエストの種類、現在のステータスなど、すべてのサービス リクエストのリストが表示されます。</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">下矢印アイコン</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">クリックすると<block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block> *提出日*列の横にあるアイコンをクリックすると、リクエスト番号を展開して詳細を表示できます。リクエストが提出されたパフォーマンス・サービスレベルが表示されます。</block>
   <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">スクリーンショットは、どのパフォーマンスサービスレベルに対して変更要求が出されたかを示しています</block>
-  <block id="00a6d19d3a5ab40ac6fa5bcf1ac3ba89" category="paragraph"><block ref="00a6d19d3a5ab40ac6fa5bcf1ac3ba89" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">リクエスト番号を選択すると、リクエストされたサブスクリプションの変更の詳細や現在の進行状況などの詳細情報が表示されます。</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">現在の進捗状況を示すスクリーンショット</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c270abc6d843162d4ce7721540f24540" category="doc">Keystone サブスクリプションに関連付けられた資産を表示する</block>
-  <block id="d25641fac9b18bcc4b03cf68488e6fd7" category="paragraph">単一のKeystoneサブスクリプションで管理されているONTAPクラスタとノード、およびStorageGRIDグリッド、サイト、ノードに関する詳細情報を表示できます。サブスクリプション資産のこのビューは、BlueXPとDigital Advisorの両方のKeystoneダッシュボードビューで利用できます。</block>
-  <block id="cb6f5260e1e71608d0e3136ef129348d" category="section-title">BlueXP から Keystone サブスクリプション資産を表示</block>
-  <block id="5be68248081b9a1a9b4ca58d0ed839b1" category="paragraph">BlueXP の *サブスクリプション* タブ内の *アセット* タブには、さまざまな詳細や容量ステータスなど、サブスクリプションに関連付けられたクラスター内のボリューム、StorageGRID ノード、および ONTAP ノードに関する詳細情報が表示されます。</block>
   <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Keystoneサブスクリプション全体の資産を表示する</block>
-  <block id="2654165bb7d80fa3a0f5b7b4d9ef9112" category="admonition">このビューは、一度に1つのKeystoneサブスクリプションのみ表示できます。*トラッキングID*ドロップダウンリストから選択することで、他のサブスクリプションのアセットも表示できます。BlueXPのKeystoneダッシュボードでは、複数のKeystoneサブスクリプションにまたがるアセットを表示できます。詳細については、を参照して <block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block>ください。</block>
   <block id="43b9ba2efffe3f9921d126f67c28b2d3" category="paragraph">この情報を表示するには、次の手順に従ってください。</block>
   <block id="5ddb5594c26d44b0ec718a53cac4970a" category="open-title">クラスター内のボリューム</block>
-  <block id="48e600d02a0e1876998fd2268ea33a4a" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; サブスクリプション* を選択します。</block>
   <block id="a9b15ae6dc597be8c67ef37fcdff860e" category="list-text">表の*サブスクリプション番号*列でサブスクリプション番号を選択します。</block>
   <block id="7b0a8b9f33001080c9b0510f87e68dd9" category="paragraph">*電流消費*タブにリダイレクトされます。</block>
   <block id="3610c4351229db10744b51bac557a915" category="list-text">*資産*タブを選択します。</block>
@@ -1749,7 +1730,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="081ceda2f79c0faf6fe05d511f52c3be" category="inline-image-macro">列セレクターアイコン</block>
   <block id="363a64ab1176a4ec2912bb476eaca7c4" category="admonition">列セレクターを使用してテーブルをカスタマイズできます<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>アイコンをクリックし、上部の検索バーを使用して、列パラメータに基づいてテーブル データを検索およびフィルタリングします。</block>
   <block id="c8dad022332943c24f5c1ee6ac971a4d" category="open-title">クラスター内のノード</block>
-  <block id="f0872e1f12428b67bd457f818a49d3c4" category="paragraph">デフォルトでは、[*サブスクリプション*] タブに [*サブスクリプション*] サブタブが表示されます。</block>
   <block id="b6c513b750c95a3328624c3df8417e83" category="list-text">*表示*ドロップダウンから*クラスター内のノード*を選択します。</block>
   <block id="f5e6672e84e78b7f4e9eb0d8920d8c44" category="inline-image-macro">サブスクリプションのクラスター内のノードのスクリーンショット</block>
   <block id="1d04201901765810dbf31b4aec4142b3" category="paragraph"><block ref="1d04201901765810dbf31b4aec4142b3" category="inline-image-macro-rx" type="image"></block></block>
@@ -1761,8 +1741,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="6307cd913d5f1e504ab4fd374fbb1530" category="paragraph">グリッド内のノードに関する詳細情報（ノード名、ノードステータス、グリッド名、ノードタイプ、顧客など）を表示できます。また、消費済みおよび利用可能なデータ容量、CPU使用率、使用可能なデータ容量を監視することもできます。</block>
   <block id="286e9528eaf916295887846dd58b4320" category="section-title">Digital Advisor から Keystone サブスクリプション資産を表示する</block>
   <block id="78f16df6a5b0438594a4fa4f37d98a5c" category="paragraph">Digital AdvisorのKeystoneダッシュボードの*Assets*タブには、*ONTAP*と*StorageGRID*という2つのサブタブがあります。このタブには、サブスクリプションに基づいてONTAPのクラスタレベルの情報とStorageGRIDのグリッドレベルの情報が収集され、データが正確な情報とともに分離されて表示されます。それぞれのサブタブをクリックすると、これらの情報が表示されます。</block>
-  <block id="1791af906b11350f983a0d6f4a05b003" category="list-text">*[一般] &gt; [Keystone サブスクリプション] &gt; [資産] &gt; [ONTAP]* をクリックします。</block>
-  <block id="2e0c1e32a689de05dc5b6936554aa208" category="list-text">*[一般] &gt; [Keystone サブスクリプション] &gt; [資産] &gt; [StorageGRID]* をクリックします。</block>
   <block id="89187807f1d3a38ba47c39436238568b" category="inline-link-macro">サブスクリプションの詳細を表示する</block>
   <block id="d089d9324be75f27b66b73791a761d09" category="list-text"><block ref="d089d9324be75f27b66b73791a761d09" category="inline-link-macro-rx"></block></block>
   <block id="08e53dd6141c0dabc389bde84c2d53cc" category="inline-link-macro">現在の消費量の詳細を表示する</block>
@@ -1774,11 +1752,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e0df93529472fb0a2a5afd2c2acf0c44" category="inline-link-macro">ボリュームとオブジェクトの詳細を表示</block>
   <block id="f15f9d706bc263d45465ce6b768b9def" category="list-text"><block ref="38b2f80965278701fdba64f24fca3826" category="inline-link-macro-rx"></block></block>
   <block id="40076857ca476d1b533ee4be1058ec27" category="doc">複数のKeystoneサブスクリプションにわたる資産を表示する</block>
-  <block id="6ad7d86c87d55f40e523315096f1e1f4" category="paragraph">BlueXPのKeystoneダッシュボードでは、アクセス権限に応じて、クラスター内のノード、プロビジョニングされたボリューム、複数のKeystoneサブスクリプションにまたがるStorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは利用できません。</block>
-  <block id="0fcbdfd936ae20afe43c90b99f5fec52" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 資産* を選択します。</block>
-  <block id="1f1a1bf247780389a79927a48cea5f53" category="paragraph">*アセット* タブには、*クラスター内のノード* サブタブが表示されます。</block>
   <block id="c1b2532b1ff5a51535b054d070cb5804" category="inline-image-macro">複数のサブスクリプションのクラスター内のノードのスクリーンショット</block>
-  <block id="803f62054d86f464fc863c83bd8b4dc7" category="paragraph"><block ref="803f62054d86f464fc863c83bd8b4dc7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2e61469f49c9578ba1ae58d795074e51" category="paragraph">Keystoneサブスクリプション全体のクラスター内のすべてのノードに関する詳細情報（ノードのシリアル番号、ステータス、ストレージ効率設定、プラットフォームタイプ、容量の詳細など）を表示できます。また、以下の概要も確認できます。</block>
   <block id="b04c539b04de9ca1fe453dda9e1b61ca" category="list-text">サブスクリプションと ONTAP ノードの合計数。</block>
   <block id="42c7b47791cbf953c4f7964a8e7583bb" category="list-text">ノード容量の消費量。クリック可能な *表示* ボタンを使用してテーブルをフィルターし、特定の基準 (消費量が 90% 超または 50% 未満) を満たすアセットを表示します。</block>
@@ -1792,12 +1766,10 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f6eb16e137bdab399dbb70e386762544" category="paragraph">*サブスクリプション番号* 列のサブスクリプション番号をクリックすると、*サブスクリプション* タブに移動し、サブスクリプションの消費の詳細、タイムライン、および関連する資産情報を表示できます。詳細については、を参照して <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block>ください。</block>
   <block id="da1115a9f69794002ce78073bd65e81d" category="list-text">*グリッド内のノード*タブを選択します。</block>
   <block id="5ee36f1a73f54a490256d184bf832f75" category="inline-image-macro">複数のサブスクリプションのグリッド内のノードのスクリーンショット</block>
-  <block id="31c573c7ddb02be8abec3ae35005e058" category="paragraph"><block ref="31c573c7ddb02be8abec3ae35005e058" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5b3fed7e8a829afa56c001ed6bba360b" category="paragraph">Keystoneサブスクリプション全体のグリッド内のすべてのノードについて、ノード名、ノードID、サブスクリプション番号、グリッド名、ノードタイプ、顧客などの詳細情報を表示できます。消費済みおよび利用可能なデータ容量、CPU使用率、使用可能なデータ容量を監視できます。</block>
   <block id="66587979f81ccfd028a141fd5be0176b" category="inline-link-macro">Keystoneサブスクリプション資産を表示する</block>
   <block id="8c1b12d5b70d8c2c59f84cab30681d5d" category="list-text"><block ref="8c1b12d5b70d8c2c59f84cab30681d5d" category="inline-link-macro-rx"></block></block>
   <block id="4547cca6c2767ce64f994ab3b984deb1" category="paragraph">Keystoneサブスクリプションの特定の期間の履歴データを表示することで、サブスクリプションの使用状況を監視できます。これにより、使用パターンに関する貴重な洞察を得ることができます。</block>
-  <block id="b12fa279afb0911f09ad7487f6d57b74" category="paragraph">BlueXP または Digital Advisor を通じて、Keystone サブスクリプションの履歴データを表示できます。</block>
   <block id="a2d82bfae4a6bb07ee9998c93a16870b" category="list-text">*サブスクリプション番号*列でサブスクリプション番号を選択します。</block>
   <block id="b3622e97032fbaf5c45471e9056cfa2a" category="list-text">*消費動向*タブを選択します。</block>
   <block id="58eb77e186ebbaf3af405a5c39204491" category="list-text">*表示*ドロップダウンから*履歴消費量*を選択し、*期間*フィールドのカレンダーアイコンを使用して時間範囲を選択し、容量使用傾向を分析します。</block>
@@ -1816,16 +1788,13 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="94c4e136db27edd2e00c5c316a21d46e" category="list-text">* Accrued Burst *：現在の課金サイクルにおける、1カ月以内の各2分インターバルの間に蓄積された合計バースト容量（TiB）。</block>
   <block id="1eea9b9945d3fe4b68b63945e862af02" category="section-title">累積バースト計算</block>
   <block id="2b67a16f12da342bb3cbca5216d7c796" category="paragraph">1カ月間の累積バースト使用量は次のように計算されます。</block>
-  <block id="1f108037829c6230f2f9864789e24e58" category="paragraph">累積バーストデータ使用量は、BlueXPまたはDigital Advisorで確認できます。BlueXPの「消費傾向」タブの「表示」ドロップダウンから「累積バースト」を選択した場合、またはDigital Advisorの「消費傾向」タブの「請求済み累積バースト」オプションを選択した場合、選択した請求期間に応じて、月ごとまたは四半期ごとに累積バーストデータ使用量を確認できます。このデータは請求済みの過去12カ月間のデータであり、過去30カ月までの期間を日付範囲で照会できます。棒グラフには請求されたデータが表示され、使用量がまだ請求されていない場合は、その期間の_Pending_としてマークされます。</block>
   <block id="546fa809ba406006a24d7ed5fae64eb8" category="admonition">請求される累積バースト使用量は、パフォーマンス サービス レベルのコミット済みおよび消費済み容量に基づいて、請求期間ごとに計算されます。</block>
-  <block id="51553f48d801016ad3d4a1e22685ac22" category="paragraph">BlueXPまたはDigital Advisorでは、月次または四半期の請求期間における日々の累積バーストデータ使用量を確認できます。BlueXPでは、「消費傾向」タブの「表示」ドロップダウンから「累積バースト」を選択すると、「日数別の累積バースト」テーブルに、タイムスタンプ、コミット済み、消費済み、累積バースト容量などの詳細なデータが表示されます。</block>
   <block id="dfdee986152ec4047af664495ba755cd" category="inline-image-macro">日別累積バーストテーブルを示すスクリーンショット</block>
   <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">Digital Advisor で、*請求済み累積バースト* オプションから請求データを表示するバーをクリックすると、棒グラフの下に請求可能なプロビジョニング済み容量セクションが表示され、グラフと表の両方の表示オプションが提供されます。デフォルトのグラフビューには、日単位のバーストデータ使用量が折れ線グラフ形式で表示され、時間の経過に伴う使用量の変化が示されます。</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">グラフの右上隅にある* Table *オプションをクリックすると、テーブルビューに切り替えることができます。テーブル ビューには、パフォーマンス サービス レベル、タイムスタンプ、コミットされた容量、消費された容量、課金対象のプロビジョニングされた容量など、詳細な毎日の使用量メトリックが表示されます。これらの詳細のレポートをCSV形式で生成して、将来の使用や比較に使用することもできます。</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">Keystoneサブスクリプションの現在の消費量を表示します</block>
   <block id="ef06226e0a70f0b27bda10913e0d2622" category="paragraph">コミットされた容量、消費された容量、使用可能な容量などの詳細情報を表示することで、サブスクリプションの使用状況に関する分析情報を得ることができます。また、現在の消費状況がパフォーマンス サービス レベル別に表示されます。</block>
-  <block id="a1b69ea5f6e5ee30c195bf008e9fa903" category="paragraph">BlueXP または Digital Advisor を通じてサブスクリプションの現在の消費状況を表示するには、次の手順に従います。</block>
   <block id="d74dcd27166505385c38faabf0aa85e8" category="list-text">現在の消費量を表示するには、表の*サブスクリプション番号*列でサブスクリプション番号を選択します。</block>
   <block id="53a763ce4287b06d38f889380a89f60e" category="inline-image-macro">グラフ形式での電流消費量の詳細</block>
   <block id="f2f90873373e8bda06d2b4b7f736c646" category="paragraph">選択したサブスクリプションでは、「表示形式」ドロップダウンから「表」または「グラフ」オプションを選択して、消費量の詳細を表形式またはグラフ形式で表示できます。グラフ表示では、使用済み容量、プロビジョニング済み容量、コミット済み容量制限、バースト容量制限など、パフォーマンスサービスレベルごとの現在の消費量を確認できます。</block>
@@ -1835,24 +1804,15 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f4dd6979877f030ad7dafa413c0d90c7" category="list-text">*サブスクリプション*ドロップダウンリストから必要なサブスクリプション番号を選択または検索します。</block>
   <block id="331c11b73c128b4850cdd7086b4a560e" category="paragraph">選択したサブスクリプションの詳細（サブスクリプションの開始日と終了日など）、請求期間（月単位や年単位など）を表示できます。サブスクリプションの使用状況の一部として、パフォーマンス・サービスレベル名、コミット済み、消費済み、利用可能な容量、現在のバースト使用量と累積バースト使用量（TiB単位）を確認できます。消費量が多いパフォーマンス・サービスレベルはハイライト表示されます。ボリュームに対して生成された警告やアラートを確認することもできます。</block>
   <block id="a12c5209e0b6f159824dc99eb2aa1fae" category="paragraph">Keystoneストレージサービスと関連するパフォーマンスサービスレベルの詳細については、以下を参照してください。 <block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> 。</block>
-  <block id="650aabb15f65ca532cbe5cd72295c5b4" category="summary">NetApp Keystone STaaS加入者は、NetApp BlueXPまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。</block>
-  <block id="a398ed77d3e75fe470592e5292f470df" category="paragraph">NetApp Keystone サービスに加入すると、NetApp BlueXP または Digital Advisor を通じて Keystone ダッシュボードにアクセスできます。</block>
-  <block id="69613a6744dc452d818ae93a3ca6e67e" category="inline-link-macro">BlueXPへのログイン</block>
-  <block id="537b2a09c10fe6380b0b9b2e62813916" category="paragraph">BlueXP にログインするには、NetApp サポート サイトの資格情報を使用するか、電子メールとパスワードを使用して BlueXP にサインアップすることができます。詳細については、をご覧ください <block ref="f004bb99255f2fe182e7d54b421131c5" category="inline-link-macro-rx"></block>。</block>
-  <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">BlueXPにログインします。</block>
-  <block id="d2f2e77e0264c0281147afc4e4d26bb4" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone* を選択します。</block>
   <block id="ddb922ba3f224bb1ae3de82c9777b690" category="paragraph">Keystone ダッシュボードが表示されます。</block>
   <block id="a7af71fbb3a9d0d3eac840e2ad3fcfca" category="inline-image-macro">Keystoneダッシュボードページ</block>
-  <block id="d661391466fed7a1409959b7d59a82d4" category="paragraph"><block ref="d661391466fed7a1409959b7d59a82d4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b2bdd6898e743eb456ca2d732991330b" category="admonition">ログイン資格情報が Keystone サブスクリプションにリンクされていない場合は、NetApp Keystone サポートにお問い合わせください。</block>
   <block id="4c1b34501fb9dfc72ff5f16b30f61cf5" category="paragraph">Digital Advisor ダッシュボードでは、Keystone サブスクリプションの詳細を表示できます。Digital Advisorにログインするには、NetApp Support Siteクレデンシャルを使用できます。</block>
   <block id="4bb15befe9c2065f8ab552b64e5143be" category="list-text">ウェブブラウザを開いて、 <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>ログインページ。</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">ユーザー名とパスワードを入力し、 * サインイン * をクリックします。</block>
   <block id="2eab75de75a2b7be0b7fb0c59c81c527" category="inline-link-macro">Digital Advisor の Keystone ダッシュボード</block>
   <block id="060031875f3f915385690798ab0a3740" category="paragraph">Digital Advisorダッシュボードの*Keystoneサブスクリプション*ウィジェットでは、サブスクリプションと使用量の詳細、および購入したKeystoneサービスに対する容量使用量の概要を確認できます。*Keystoneサブスクリプション*ウィジェットの詳細については、以下をご覧ください。 <block ref="00ed8f21a4cef28d7d8aa80cda364760" category="inline-link-macro-rx"></block> 。</block>
-  <block id="993666c3d95ac6fd97ba90eab93b4de7" category="list-text"><block ref="993666c3d95ac6fd97ba90eab93b4de7" category="inline-link-macro-rx"></block></block>
   <block id="2d6e1b228a12f4c76c76939e28065d07" category="list-text"><block ref="2d6e1b228a12f4c76c76939e28065d07" category="inline-link-macro-rx"></block></block>
-  <block id="0d6763bb3d700853734d496f9813b0a3" category="summary">NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP または Digital Advisor からサブスクリプションの概要を取得できます。</block>
   <block id="85d148be40895e3d0f9c047d8b0e01b1" category="paragraph">Keystoneダッシュボードは、Keystoneサブスクリプションを効率的に監視、分析、管理するための頼りになるソリューションです。Keystoneダッシュボードを通じて、以下の目標を達成できます。</block>
   <block id="2bf64d92e1a315894ffc10df4f760430" category="list-text">*サブスクリプションの詳細を監視*: パフォーマンス サービス レベル、容量使用率、資産、アラートなど、Keystone サブスクリプションに関する詳細情報を表示します。</block>
   <block id="80e1eadef41b346546973348e209664d" category="list-text">*容量使用状況を追跡し、レポートを生成*: 現在の容量使用状況と履歴容量使用状況を追跡し、レポートを生成してサブスクリプション データを分析して情報に基づいた意思決定を行います。</block>
@@ -1861,17 +1821,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="57407a490c41c094171e1c7c24422653" category="list-text">*ボリュームとオブジェクトの分析*: ボリューム レベルとオブジェクト レベルの両方での容量など、サブスクリプションのボリュームとオブジェクトに関する詳細な情報を取得します。</block>
   <block id="43e0c1e3b18700eba47a8317207bd980" category="section-title">Keystoneダッシュボードにアクセスする</block>
   <block id="ae7d8267370bd7b37f12238abacf4958" category="paragraph">Keystone ダッシュボードには次の方法でアクセスできます。</block>
-  <block id="78b831f616acc962bf512a5fafb6abd0" category="list-text">*BlueXP*: BlueXP の *ストレージ &gt; Keystone &gt; 概要* からダッシュボードにアクセスします。詳細については、を参照して <block ref="163397a7037ebbf6aea482c8b96a8e39" category="inline-link-macro-rx"></block>ください。</block>
   <block id="b6a4e54ce6286820a4059affb5b0c3db" category="list-text">*Active IQ Digital Advisor* (Digital Advisor とも呼ばれます): Digital Advisor の *全般 &gt; Keystone サブスクリプション* からダッシュボードにアクセスします。詳細については、を参照して <block ref="847132cf2ba0790855449a8a37c3f21f" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="1a51f7569ff8bd9742346e991c74ad7e" category="list-text">BlueXP と Digital Advisor は独自の機能をいくつか提供していますが、BlueXP は Keystone の管理機能を提供し、サブスクリプションを管理し、必要な調整を行うことができます。</block>
-  <block id="5f04b1505df8c3795b59e8cd4a8e01e3" category="inline-link-macro">BlueXP  アクセスロールの詳細</block>
-  <block id="258046efc520b3935e3b824f9d358065" category="list-text">サブスクリプションを変更するには、*Keystone admin* ロールが割り当てられている必要があります。詳細については、を参照して <block ref="5eaffd1258ac7421c1b4cee6b8232d9d" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="460143bcf999273db551806a244f984a" category="inline-link-macro">Digital AdvisorとBlueXPの統合</block>
-  <block id="b66034b1cec8769fca41f0b0a87dc156" category="list-text">Digital Advisor は BlueXP と統合されており、Keystone ダッシュボードを含むすべての Digital Advisor 機能に BlueXP から直接アクセスできます。詳細については、を参照して <block ref="4554811269d341542df26cf0a6634047" category="inline-link-macro-rx"></block>ください。</block>
-  <block id="84b61b46b4438063eaf2cf058c4e6425" category="section-title">BlueXPとDigital AdvisorのKeystone機能</block>
-  <block id="f3f87d06564ee727e8a782bda3025b5c" category="paragraph">次の表は、BlueXP と Digital Advisor で利用可能な機能を示しており、ニーズに適したプラットフォームを迅速に特定するのに役立ちます。</block>
   <block id="5fa0ef8fc40e60003288942e2da3e300" category="cell">* 特徴 *</block>
-  <block id="9bc73c54d75bf72f80b25dd41d1d34de" category="cell">*ブルーXP*</block>
   <block id="58d123e7789da5493701ca60c42e2b8a" category="cell">*デジタルアドバイザー*</block>
   <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">はい</block>
   <block id="fb43b6ea8217f28ab8d960248f882ebb" category="inline-link-macro">現在の容量使用状況と履歴容量使用状況を監視する</block>
@@ -1883,7 +1834,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="57d8e28284aecaa3906b97f010612fcd" category="cell"><block ref="57d8e28284aecaa3906b97f010612fcd" category="inline-link-macro-rx"></block></block>
   <block id="b938e197dfa8dadbdec004a37e0ef3af" category="inline-link-macro">サブスクリプションを変更する</block>
   <block id="a7629efe0e47f4108406da4590b98b87" category="paragraph"><block ref="761270557fec89f94924233c726d0e8a" category="inline-link-macro-rx"></block> (Keystone 管理者のみ)</block>
-  <block id="099b34499f8abb79c3407e947274fe54" category="paragraph"><block ref="099b34499f8abb79c3407e947274fe54" category="inline-link-macro-rx"></block></block>
   <block id="f9eade15df63147aad555cc771e3c457" category="inline-link-macro">ボリュームとオブジェクトの詳細の表示</block>
   <block id="0fbbeb712322bc30085f9aee131d6509" category="paragraph"><block ref="0fbbeb712322bc30085f9aee131d6509" category="inline-link-macro-rx"></block></block>
   <block id="73be3087ebbe8024dbe143136c7e4de9" category="paragraph"><block ref="73be3087ebbe8024dbe143136c7e4de9" category="inline-link-macro-rx"></block></block>
@@ -1896,22 +1846,12 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="020f370908e2e8464da46c9ec5591933" category="admonition">Keystoneサブスクリプションの容量消費量は、ダッシュボードとレポートにTiB単位で表示され、小数点以下2桁に四捨五入されます。使用量が 0.01 TiB 未満の場合、値は 0 または使用量なしとして表示されます。これらの画面のデータは、UTC時間（サーバのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的にUTC時間であると見なされます。使用率指標の詳細については、を参照してください <block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>。Keystoneで使用されるさまざまな容量については、を参照してください <block ref="a2e2f97253342349ff9ef2b936b778d0" category="inline-link-macro-rx"></block>。</block>
   <block id="6d1a758f446f1f9fd581fcc90feed806" category="paragraph">ウォッチリストはDigital Advisorで利用可能な機能です。詳細については、を参照してください<block ref="5d023a7962c7eae7e0af56f6e7f92603" category="inline-link-rx"></block>。ウォッチリストの作成方法については、以下をご覧ください。 <block ref="2539846485ed670b4851c404ba8cd9b6" category="inline-link-rx"></block> 。</block>
   <block id="0d795ac2b71a9eb357ea37a87aee3d75" category="paragraph">顧客またはサブスクリプション番号のウォッチリストを作成し、Digital Advisor画面でサブスクリプション番号またはウォッチリスト名の最初の3文字を使用してKeystoneサブスクリプションを検索できます。ウォッチリスト名で検索すると、*Keystoneサブスクリプション*ウィジェットの*サブスクリプション*ドロップダウンリストに顧客とそのサブスクリプションが表示されます。</block>
-  <block id="4577f1fcff69e43cb42826319c0ae7cc" category="summary">NetApp Keystone STaaS サブスクライバーは、NetApp BlueXP からサブスクリプションの概要を取得できます。</block>
-  <block id="b765b9fa2b328a037f9230a9731313e1" category="paragraph">*概要*タブを使用すると、リスクのあるワークロードを迅速に特定し、サブスクリプションの容量と有効期限のステータスを確認したり、未解決のアラートを特定したり、容量使用率が最も高いサブスクリプションを確認したりできます。また、Keystoneの異なるバージョン間でのサブスクリプションのステータスを表示し、注意が必要な問題をハイライト表示することもできます。</block>
-  <block id="69c256f24be6d7d65006f9cabf1af28b" category="paragraph">*概要* タブを表示するには、BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 概要* に移動します。</block>
-  <block id="191a397fd7f3af011ab96788c6a64400" category="inline-image-macro">概要タブのスクリーンショット</block>
-  <block id="7160cc45d78b33c1028e96d51d6d07b7" category="paragraph">*概要* タブでは、次の情報が表示されます。</block>
   <block id="eb8b05f2c3cb48609e4fe07ccdcb9e3e" category="list-text">*サマリー*：サブスクリプション、ONTAPクラスタ、StorageGRIDノード、ONTAPノードの合計数を表示します。各カテゴリには*表示*ボタンがあり、*サブスクリプション*または*アセット*タブの詳細セクションに簡単に移動できます。</block>
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*オープンリクエスト*: オープンなサービスリクエストの合計数。</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Keystone サブスクリプション サービス | バージョン 1 ドキュメント</block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">*容量使用率上位5つのサブスクリプション*：容量使用率のパーセンテージが最も高いKeystoneサブスクリプション上位5つを表形式で表示します。*サブスクリプション*列のサブスクリプション番号をクリックすると、詳細な分析情報が表示されます。</block>
-  <block id="18524115bd307002c1e1529c109b8ffa" category="summary">BlueXP を通じて関連するパフォーマンス サービス レベルのコミット容量を変更するには、Keystone サブスクリプションを変更します。</block>
-  <block id="bc7859d006be0123d59cb9e40c9f05c2" category="doc">BlueXPからKeystoneサブスクリプションを変更する</block>
-  <block id="d573755317d28a3a78295193d08481f4" category="paragraph">BlueXP を通じて、関連するパフォーマンス サービス レベルの Keystone サブスクリプションのコミット容量を変更できます。</block>
   <block id="2527930ed946837db80b382551b3e30f" category="list-text">サブスクリプションの有効期限が 90 日以上残っている場合は、コミットされた容量を変更できます。</block>
-  <block id="f9ec590654a944849e5500005d5ef09c" category="list-text">コミットされた容量を変更するには、*Keystone admin* ロールが割り当てられている必要があります。詳細については、を参照して <block ref="5eaffd1258ac7421c1b4cee6b8232d9d" category="inline-link-macro-rx"></block>ください。</block>
   <block id="36b20c02b50b952932585493baf0578c" category="paragraph">コミットされた容量を変更するには、次の手順に従います。</block>
-  <block id="2af81af9d3c190165a024bd572138bc8" category="list-text">BlueXP メニューから、*ストレージ &gt; Keystone &gt; サブスクリプション*を選択します。</block>
   <block id="0777df37fb2d784be7418d104f1b48c3" category="list-text">変更するサブスクリプションのテーブルで省略記号アイコンをクリックし、[変更] を選択します。</block>
   <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">*サブスクリプションの変更* ページには、選択したサブスクリプション番号に関連付けられているサブスクライブ済みパフォーマンス サービス レベルの詳細が表示されます。</block>
   <block id="91122b642327c299496bd2cc715f61db" category="admonition">オプションとして、サブスクリプションの詳細セクションで [*サブスクリプションの管理*] をクリックし、[*変更*] を選択して [*サブスクリプションの変更*] ページにアクセスできます。</block>
@@ -1923,35 +1863,24 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4e45fcbdeb65b88a1abb90ed1fe072a6" category="summary">NetApp Keystone STaaS サブスクライバーは、データの検索とフィルタリング、サブスクリプションと使用状況のレポートの生成、タイムスタンプの確認、アラートの表示を行うことができます。</block>
   <block id="20124e162ad63d60b063ff80ef10f3c9" category="doc">Keystoneデータを検索し、レポートを生成し、アラートを表示します</block>
   <block id="3c8389d9d758198177b96da335f3ac07" category="paragraph">データを検索およびフィルタリングしたり、サブスクリプションと使用状況のレポートを生成したり、アラートを表示してストレージ環境に関する最新情報を常に把握したりできます。</block>
-  <block id="420037edfc562a3cab0d69942792c02f" category="section-title">BlueXPからのデータの検索とフィルタリング</block>
-  <block id="e012018c98b92f9352da0f4425ac486d" category="paragraph">BlueXPでは、タブ内のテーブルで利用可能な列パラメータに基づいてKeystoneデータを検索およびフィルタリングできます。例えば、「*サブスクリプション*」タブの「*サブスクリプション*」サブタブでは、検索ボックスにKeystoneのバージョンを入力してデータをフィルタリングできます。同様に、「*アセット*」タブの「*クラスター内のボリューム*」タブでは、検索ボックスにボリューム名を入力してボリュームをフィルタリングできます。</block>
   <block id="3cee6bca91f027ee394211756dc833f4" category="inline-image-macro">高度なフィルターオプション</block>
-  <block id="e1e69bf873dd9761998d1a096d39951a" category="section-title">BlueXPまたはDigital Advisorからレポートを生成する</block>
-  <block id="d0c322fc884a1966308c94c8f8ea7989" category="inline-image-macro">BlueXPのレポートダウンロードアイコン2</block>
   <block id="c0966097b6e3bcb3af49a46a84c76250" category="section-title">デジタルアドバイザーから統合レポートを生成する</block>
   <block id="c9b179ad408758a592f1e7e3637faa7f" category="paragraph">Digital Advisor では、サブスクリプション、使用状況履歴、バースト使用状況、パフォーマンス、アセット、ボリュームとオブジェクトの統合レポートを生成して表示できます。これを行うには、Digital Advisorのレポート機能からレポートタイプとして* Keystoneサブスクリプション*を選択します。これらのレポートは、お客様、クラスタ、監視リスト、またはサブスクリプションレベルで生成できます。</block>
-  <block id="20198235825fb8adf4086bd1ca3ba286" category="admonition">このタブはDigital Advisorではオプションでご利用いただけます。BlueXPこのタブの表示については、サポートにお問い合わせください。ではご利用いただけません。</block>
   <block id="71470a3714862a9c1c398e48dfec41a7" category="paragraph">Digital Advisor でこのタブを表示するには、次の手順に従います。</block>
-  <block id="d83ac6ac0c6b80d1d5c748c0365ce923" category="list-text">*[一般] &gt; [Keystone サブスクリプション] &gt; [パフォーマンス]* をクリックします。</block>
   <block id="cfb3f4a830d3a583df968447fd533c11" category="paragraph">取得される詳細情報は、各パフォーマンスサービスレベルのパフォーマンスサービスレベル目標に基づいています。例えば、ピークIOPS、最大スループット、目標レイテンシなどの指標は、パフォーマンスサービスレベルの個々の設定によって決定されます。<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> 。</block>
   <block id="7896581df9b0f8b9035b760a6264a43b" category="admonition">*SLO リファレンス ライン* チェック ボックスをオンにすると、パフォーマンス サービス レベルのパフォーマンス サービス レベル目標に基づいて IOPS、スループット、およびレイテンシ グラフが表示されます。それ以外の場合は、実際の数値で表示されます。</block>
   <block id="3bcfbc966b0ff6d83311d6a943c7fd41" category="paragraph">以降のセクションでは、サブスクリプション番号、ボリューム名、選択した日付範囲の組み合わせに基づいてパフォーマンス指標を表示および比較できます。詳細は、ボリュームに割り当てられたパフォーマンス サービス レベルごとに表示されます。クラスタ名とボリュームタイプ（ボリュームに割り当てられている読み取り権限と書き込み権限）を確認できます。ボリュームに関連する警告メッセージも表示されます。</block>
   <block id="19f70e225e29d628affd908d8b5c4867" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードのスループットグラフが表示されます。パフォーマンス サービス レベルの最大スループット (SLO 最大) と現在のスループット (クエリの日付範囲に基づかない過去 5 分間) が、時間範囲の最小、最大、平均スループットとともに MBps/TiB 単位で表示されます。</block>
   <block id="7e045db5b09abb3d2b436787aa318f59" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードのレイテンシグラフが表示されます。パフォーマンス サービス レベルの最大レイテンシ (SLO ターゲット) と現在のレイテンシ (クエリの日付範囲に基づかない過去 5 分間) が、時間範囲の最小、最大、平均レイテンシ (ミリ秒単位) とともに表示されます。</block>
-  <block id="29037aca8f881ca5103dbdf425853f76" category="summary">アクティベーション、変更、更新日などのイベントを含む、BlueXP からのサブスクリプション タイムラインを表示します。</block>
   <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="doc">Keystoneサブスクリプションのタイムラインを表示する</block>
-  <block id="2d7ccfc8b06a85c2975a9bee7dadf9da" category="paragraph">BlueXPのKeystoneダッシュボードでは、Keystoneサブスクリプションのタイムラインビューが提供され、アクティベーション日、変更日、更新日などのイベントが表示されます。このタイムラインビューはDigital Advisorではご利用いただけません。</block>
   <block id="8f544b2dee67e556387019e97bf89bff" category="paragraph">サブスクリプションのタイムラインを表示するには、次の手順に従います。</block>
   <block id="b714a345064d1fee61d1cc1281a6fefe" category="list-text">サブスクリプションのタイムラインを表示するには、「*サブスクリプション番号*」列でサブスクリプション番号を選択します。</block>
   <block id="378f1892574980608cc14d0505dc8302" category="list-text">*サブスクリプションタイムライン*タブを選択します。</block>
   <block id="33a1adebde8a441b691ab5ca91c43f67" category="inline-image-macro">重要なイベントとともに、サブスクリプションのタイムラインを折れ線グラフ形式で表示するスクリーンショット</block>
   <block id="da68a8f816866d6c67389e49539cc5e4" category="paragraph"><block ref="da68a8f816866d6c67389e49539cc5e4" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="87f19b0cdaa4943b18fa0473df1aee51" category="paragraph">サブスクリプションのタイムラインはデフォルトで折れ線グラフで表示され、重要なイベントにはアイコンが表示されます。イベントにマウスオーバーすると、日付や変更時にコミットされた容量への変更内容などの詳細情報が表示されます。これらのイベントを表形式で表示するには、「表示形式」ドロップダウンから「表」オプションを選択します。また、「トラッキングID」ドロップダウンリストから選択または検索することで、他のサブスクリプションのタイムラインを表示することもできます。</block>
   <block id="20647cff2639f24d1690fa3e3247672e" category="inline-image-macro">重要なイベントとともに、サブスクリプションのタイムラインを表グラフ形式で表示するスクリーンショット</block>
   <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Keystoneサブスクリプションの詳細を表示する</block>
-  <block id="1809602b585b3ac8e4023ba17752a0ea" category="paragraph">BlueXPとDigital Advisorの両方で、「サブスクリプション」タブからすべてのサブスクリプションの一覧をご覧いただけます。このタブでは、サブスクリプションのステータスと使用状況に基づいた分かりやすい分析情報が提供され、常に最新情報を把握し、必要に応じて対応策を講じるのに役立ちます。</block>
-  <block id="1c497c059f638e9ed17590e5317d525b" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; サブスクリプション* に移動します。</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">サブスクリプションタブの詳細を表示する</block>
   <block id="777a92dd9a9405f5a8f4c89917427c35" category="list-text">*サブスクリプション番号*: NetApp によって割り当てられた Keystone サブスクリプションのサブスクリプション番号。</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*顧客名*: Keystone サブスクリプションに関連付けられている顧客の名前。</block>
@@ -1970,7 +1899,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="8a3b6107c8628879030ac592d36c112f" category="list-text">*請求期間*: サブスクリプションの請求期間。</block>
   <block id="55edd89d2feaee597a2b149b857d78ec" category="list-text"><block ref="435e416487181a998706b8fd7ece7b01" category="inline-image-macro-rx" type="image"></block> : このアイコンをクリックすると、*消費傾向*タブが開き、このサブスクリプションに含まれる各パフォーマンス サービス レベルの使用状況履歴データが表示されます。</block>
   <block id="f93c226f4ef038f9642234474d73b11a" category="paragraph">ボリュームまたはオブジェクト ストレージ レベルで容量の詳細を表示する場合は、Digital Advisor の [ボリュームとオブジェクト] タブに移動します。StorageGRIDの場合、このタブを使用して、オブジェクトストレージ環境内の個 々 のノードの使用状況を確認できます。</block>
-  <block id="e33166fca120e46d343d7bfb03834eaf" category="paragraph">これらの詳細はBlueXPの*Assets*タブで確認できます。、<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> 。</block>
   <block id="a1a94eb88cf3bab17f1cdd5820b53167" category="paragraph">[ボリュームとオブジェクト]タブには、ONTAPシステムボリュームとオブジェクトストレージに関するさまざまな詳細情報が表示されます。ONTAPボリュームには、2つのサブタブがあります。「ボリュームサマリー」タブでは、サブスクライブされているパフォーマンスサービスレベルにマッピングされているボリュームの総数が表示され、「ボリューム詳細」タブでは、これらのボリュームの詳細が再度表示されます。「オブジェクト」サブタブでは、ファイルストレージとオブジェクトストレージの両方のパフォーマンスサービスレベルを含むサブスクリプションのオブジェクトストレージの詳細が表示されます。</block>
   <block id="75405ccbbd606394978cb919854eeacf" category="list-text">Digital Advisor の左側のナビゲーション ペインから、*[全般] &gt; [Keystone サブスクリプション] &gt; [ボリュームとオブジェクト] &gt; [ボリュームの概要]* に移動します。</block>
   <block id="4d14bebdede2f7719e5f532aa0038aae" category="list-text">Digital Advisor の左側のナビゲーション ペインから、*[全般] &gt; [Keystone サブスクリプション] &gt; [ボリューム] &gt; [ボリュームの詳細]* に移動します。</block>
@@ -1981,8 +1909,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e81998590c25872457befb4c184d65ca" category="paragraph">2025年6月19日</block>
   <block id="3f02a37520c925a38cca9df11f1de9a0" category="paragraph">Advance Data-Protect サービス レベルの場合、[消費傾向] タブのグラフに、プライマリ サイトとミラー サイトの分割が表示されます。</block>
   <block id="2837e6fa0daf151f4342b7c3c95bb022" category="paragraph">チャートにはプライマリ サイトとミラー サイトの分割が表示されなくなりました。</block>
-  <block id="373770d35b9d5cd8cd24a486a52b706b" category="paragraph">2つのサービスのナビゲーションは、 <block ref="b4a433674f6f10655ea1ce8bae52a1b9" category="inline-link-macro-rx"></block> Keystone サブスクリプション サービスは、構成パフォーマンス サービス レベル、サービス提供、課金原則において Keystone STaaS とは異なります。2024年4月現在、NetAppはKeystone STaaSに関するドキュメントのみを保守、公開しています。Keystoneサブスクリプションサービスを引き続き使用している場合は、Keystone STaaSへの移行に関するサポートをKSMにお問い合わせください。KeystoneサブスクリプションサービスのドキュメントのPDF版は、必要に応じて次のURLから入手できます。</block>
-  <block id="10ad7de63c9f85cf78150d6f5eaa55cc" category="sidebar">BlueXPとDigital AdvisorのKeystoneダッシュボード</block>
   <block id="e52a62b3d3e55847cd42b248736bba1b" category="sidebar">サブスクリプションの分析情報を表示</block>
   <block id="7c38a1a6d325208696c25a2b660d7c45" category="sidebar">アセットの表示</block>
   <block id="90b170feab9928831461b78974ca9730" category="sidebar">データを検索してレポートを生成する</block>
@@ -2032,11 +1958,9 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="18a4b8b499c2fe442ce137abf1dbc32c" category="list-text">このデータは、HTTPS を介して Keystone クラウド コンポーネントに安全に送信されます。</block>
   <block id="2a61bef0a823576de7a3c47f8c61627f" category="paragraph"><block ref="2a61bef0a823576de7a3c47f8c61627f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2caa7b87874706ca177e508b178a1948" category="list-text">NetApp ストレージ システムを含む Keystone インフラストラクチャ。</block>
-  <block id="cbe7ac9d8bb66b75b66d937ef153b137" category="list-text">ITOM 監視ソリューション、BlueXP、Active IQ、Active IQ Unified Manager などのサービスを管理および運用するためのツール。</block>
   <block id="de0189fb2d8a23d211a49728ea826dc1" category="list-text">Keystone Data Collector：Keystone Data Collectorはデータを収集し、Keystoneの請求プラットフォームに提供してさらなる処理を行います。ActiveこのアプリケーションはActive IQ Unified Manager にバンドルされています。ONTAP コントローラとStorageGRID コントローラから5分間隔でデータを収集します。データが処理され、AutoSupport メカニズムを通じて一元化されたActive IQ データレイクにメタデータが送信されます。このメカニズムは課金データの生成に使用されます。IQデータレイクは請求データを処理し、Zuoraに送信して請求処理を行います。</block>
   <block id="c072efe8294d1003e257c7dd4fe0687d" category="inline-image-macro">コレクターデータフロー</block>
   <block id="92c812556434526899af3c97a106a849" category="paragraph"><block ref="92c812556434526899af3c97a106a849" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a4daf62661f9278775d1e8692f4fb7df" category="paragraph">Keystoneサブスクリプションのサブスクリプションと消費の詳細は、BlueXPまたはDigital Advisorでご確認いただけます。Keystoneレポートの詳細については、以下をご覧ください。 <block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block> 。</block>
   <block id="6f93f55b981dd0322ebbd8e3f04d4db1" category="summary">NetApp Keystone STaaSサービスでは、指標の測定に複数の用語を使用しています。サービスのバージョン 3 で Keystone を使用する際には、これらの用語について詳しく理解しておく必要があります。</block>
   <block id="947a74aac556a4978330239679ebabf1" category="list-text">IOPS: 1 秒あたりに処理される入出力操作の数。</block>
   <block id="06270a3cff387fa75ec0294b7ef6f62c" category="list-text">*IOPS での操作カウンター チャート*: アプリケーションによって要求された 1 秒あたりのプロトコル操作。</block>
@@ -2069,7 +1993,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e6e41564c0eb58e7df450956b2e9d7ef" category="section-title">Keystone ストレージ・アズ・ア・サービス (STaaS)</block>
   <block id="db1293ec8548c413e40861e5a81d1401" category="paragraph">ストレージサービス（STaaS）サービスは、ストレージインフラの調達、導入、管理にパブリッククラウドと変わらないモデルを提供することを目的としています。多くの企業がハイブリッドクラウド戦略を策定中である中、Keystone STaaSはオンプレミスサービスからスタートし、適切なタイミングでクラウドに移行できる柔軟性を提供します。これにより、さまざまな導入モデル間でのコミットメントを維持し、必要に応じて支出を再配分できるため、月額料金の増加を抑えることができます。</block>
   <block id="b7d43ae1979d8e64c664de0e3d94f3c9" category="paragraph">NetApp Keystone STaaS の従量課金制サブスクリプション サービスは、ストレージ要件に合わせて予測可能な前払い価格設定により、柔軟でスケーラブルな消費を実現します。</block>
-  <block id="52773f9acaafea047b32251f660d25e2" category="list-text">IOPS とレイテンシのコミット済み容量に基づいて料金を支払うことで、さまざまなワークロードのニーズに対応できます。さまざまなパフォーマンス サービス ティア (Extreme、Premium、Standard、Value、Object、Cloud Volumes ONTAP) により、購入したサービス レベルに基づいてストレージを管理できます。</block>
   <block id="50e0459d44500ff84b442895fa1a64f1" category="list-text">ハードウェア、コア OS 、サポートのバンドル価格を 1TiB 価格で選択できます。ストレージ タイプ (統合、ブロック、最適化、オブジェクト、クラウド ストレージ サービス) ごとに 1 つの請求書が発行されます。</block>
   <block id="6770f961b4c4aaa762fb284da8cafd6f" category="list-text">サービス期間と支払いオプションは、月ごと、四半期ごと、半年ごと、年ごとなど、柔軟に選択できます。</block>
   <block id="65f13786054dfad371efd46410aaee0a" category="summary">Keystone STaaS バージョン 3 は、事前定義されたサービス レベルでストレージ容量を提供します。Keystoneで管理される各ボリュームには、1つのサービスレベルが関連付けられています。</block>
@@ -2130,7 +2053,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="7649a9c2aa81e74af3af6ce5c9dcb1f7" category="cell">* SLO基準*</block>
   <block id="05a7c939901eab929ebc44c3b2bea033" category="cell">&amp;lt;= 8 W/TiB</block>
   <block id="a219a5819e6733ccfc6f4bfd2c2de9c4" category="cell">&amp;lt;= 4 W/TiB</block>
-  <block id="7317b3beebf79ce6d9067b02a860be6b" category="list-text">コミットされた容量の変更は、BlueXP インターフェースまたは Keystone Success Manager (KSM) からリクエストできます。変更リクエストの詳細については、を参照してください<block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>。</block>
   <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">次の点に注意してください。</block>
   <block id="aa26b728d618a456dca6365c13707f90" category="summary">NetApp Keystone STaaS サービス バージョン 3 でサポートされるストレージ容量の種類について説明します。</block>
   <block id="d0178ba7ef0d480555c11a8e0e008358" category="paragraph">これは、ストレージ アレイによって提供されるデータ効率が適用される前に、ユーザー データを格納するために必要なストレージ容量の量です。</block>
@@ -2170,7 +2092,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="a5295d30cda2860412d8b6bef5ab5b8a" category="paragraph"><block ref="a5295d30cda2860412d8b6bef5ab5b8a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8215bcb478e68aed5d5b6ae1aaf7d85c" category="inline-link-macro">Keystoneダッシュボードを使い始める</block>
   <block id="a30438022816f4866ad2630868499b34" category="list-text"><block ref="a30438022816f4866ad2630868499b34" category="inline-link-macro-rx"></block></block>
-  <block id="ffb1a3b812d409c688b237660355d989" category="paragraph">ダウンロードボタンを使用して、Keystoneデータのレポートを生成および表示できます。 <block ref="5875c8338d2998bbff533ca0f83e1168" category="inline-image-macro-rx" type="image"></block> BlueXP または Digital Advisor 内のタブで利用できます。これらのタブでは、サブスクリプション、過去の使用量、バースト使用量、パフォーマンス、アセット、ボリューム、オブジェクトに関するレポートを生成できます。</block>
   <block id="ba14ade4eddc6f656eb0b7e0f297c28b" category="paragraph">このセクションには、クエリの日付範囲に基づいて、ボリューム内のワークロードの入出力グラフが表示されます。パフォーマンス サービス レベルのピーク IOPS と現在の IOPS (クエリの日付範囲に基づかない過去 5 分間) が、時間範囲の最小、最大、平均 IOPS とともに IOPS/Tib 単位で表示されます。</block>
   <block id="0b85467ebafa7ca3c47e82dc38184484" category="section-title">スループット</block>
   <block id="e71af0b604b9c4925cf64f4a5d32c687" category="paragraph">使用状況インジケーターを参照して、各サブスクリプションの使用状況を確認できます。</block>
@@ -2260,7 +2181,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">ファイルを収集し、安全な非 USPS サイトの場合は ng-keystone-secure-site-upload@netapp.com に、安全な USPS サイトの場合は ng-keystone-secure-site-usps-upload@netapp.com に送信します。</block>
   <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d1b3427c4c890671eb0520ac0d4affa3" category="paragraph">ボリューム名、ノードのシリアル番号、クラスター名、ホスト名、パフォーマンス サービス レベルなど、クラスター内のボリュームに関する詳細情報が表示されます。プロビジョニングされた容量、論理的および物理的な使用率、コールド データも監視できます。</block>
-  <block id="d989db649afc27b39b5e6bcc878623cb" category="paragraph"><block ref="d989db649afc27b39b5e6bcc878623cb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">折れ線グラフには消費量の履歴データが表示され、ユーザーは選択した日付範囲の傾向を分析できます。グラフには、使用容量 (データとスナップショット データの両方を含む合計ストレージ容量)、データ (ユーザー データによって使用されるストレージ容量)、スナップショット (スナップショット データによって使用されるストレージ容量) などのメトリックと、コミット容量およびバースト容量が表示されます。各データ ポイントの日付と時刻はグラフの下部に表示されます。クエリの日付範囲に基づいて、使用状況チャートには最大 30 個のデータ収集ポイントが表示されます。グラフの上にマウス カーソルを置くと、各データ収集ポイントでの使用状況の内訳が表示されます。</block>
   <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">パフォーマンス サービス レベルに複数のインスタンスが存在する場合は、インスタンスごとにフィルター処理して、各インスタンスの履歴データを個別に表示できます。</block>
@@ -2268,11 +2188,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">パフォーマンス サービス レベルに複数のインスタンスがある場合は、どちらかのビューで [*インスタンス別に表示*] を展開して、各インスタンスの現在の消費量の詳細を個別に表示できます。たとえば、サブスクリプション内に Extreme パフォーマンス サービス レベルのインスタンスが 2 つある場合、各インスタンスのコミット済み容量、消費済み容量、および使用可能な容量が個別に表示されます。</block>
   <block id="1d33ed42565e60483002000b7dcb22c3" category="paragraph"><block ref="1d33ed42565e60483002000b7dcb22c3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">パフォーマンス サービス レベルに複数のインスタンスがある場合は、[インスタンス] タブを選択して、各インスタンスの現在の消費量の詳細を確認できます。たとえば、サブスクリプション内に Extreme パフォーマンス サービス レベルのインスタンスが 2 つある場合、各インスタンスのコミット済み容量、消費済み容量、および使用可能な容量が個別に表示されます。パフォーマンスサービスレベルの詳細については、以下を参照してください。<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> 。</block>
-  <block id="59830f78e0d47985667f7cf21bc3414e" category="paragraph"><block ref="59830f78e0d47985667f7cf21bc3414e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f888b3b7cb5daf8fc505a9054b74b03d" category="list-text">*まもなく期限切れ*: 6 か月以内に期限切れになるサブスクリプションの数。*表示*をクリックすると、*サブスクリプション*タブでこれらのサブスクリプションが表示されます。</block>
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*容量使用量*: バーストを超えている、バーストを使用している、および十分に活用されていないサブスクリプションの容量消費状態。各カテゴリには、関連するフィルターが適用された *サブスクリプション* タブに移動するための *表示* ボタンが含まれています。</block>
-  <block id="2241cb4debecdc9d4b9f4ec012449ef9" category="paragraph"><block ref="2241cb4debecdc9d4b9f4ec012449ef9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8f6704f67b358f07487daa3b4147d780" category="paragraph">利用可能な場合は、高度なフィルター オプションを使用して検索を絞り込むことができます。たとえば、[*サブスクリプション*] サブタブでは、 Keystone のバージョン、請求期間、最大容量、サブスクリプションの有効期限までの日数でデータをフィルタリングできます。また、[*クラスター内のボリューム*] タブでは、ボリューム名、クラスター名、ボリューム タイプなどでフィルタリングできます。複数のフィルターを同時に適用して、結果を正確に絞り込むことができます。<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystoneバージョン*: サブスクリプションに使用されているKeystoneサービスのバージョン。パフォーマンス サービス レベルの料金プラン ルールは、サブスクリプション バージョンによって異なる場合があります。バージョンv1の詳細については、<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> 。</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*リンクされたサブスクリプション*: この列はオプションで使用できます。プライマリ サブスクリプションにリンクされたセカンダリ サブスクリプションがある場合、この列にはプライマリ サブスクリプションにリンクされたサブスクリプション番号が一覧表示されます。このサブスクリプション番号は、プライマリ サブスクリプションまたはセカンダリ (リンクされた) サブスクリプションの番号になります。</block>
@@ -2335,12 +2252,9 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f1725014f45852c6d29865ed1732954a" category="paragraph">各パフォーマンス サービス レベルの消費履歴データは、選択した時間範囲に基づいて折れ線グラフで表示されます。Keystoneサブスクリプションが変更または更新された場合、開始日を以前の日付に設定して過去の消費データを表示できます。</block>
   <block id="59bf2678f53f6a44de56bb54540c62f2" category="summary">「監視」タブを使用して、 Keystoneサブスクリプションのアラート モニターを表示および作成します。</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="doc">Keystoneサブスクリプションのアラート モニターの表示と作成</block>
-  <block id="503deffca9ee5758ad0987665bae2c9b" category="paragraph">BlueXPのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。この機能はDigital Advisorでは利用できません。</block>
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">アラートモニターを表示する</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">アラート モニターを表示するには、次の手順に従います。</block>
-  <block id="ad041e960bec5dc5229fc16df370faba" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 監視 &gt; アラート モニター*を選択します。</block>
   <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Keystoneサブスクリプションのアラートモニターのスクリーンショット</block>
-  <block id="3d0fb75de7ebb0236cb8ae8d3c066ab9" category="paragraph"><block ref="3d0fb75de7ebb0236cb8ae8d3c066ab9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">モニター名、通知をトリガーするアラート条件、重大度レベル、サブスクリプション番号、パフォーマンス サービス レベル、ステータスなど、 Keystoneサブスクリプション全体のアラート モニターのリストを表示できます。  *作成者* 列をチェックして、アラート モニターがシステムによって生成されたものか、ユーザー定義のものかを判別できます。</block>
   <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">アラートモニターの作成と管理</block>
   <block id="c52ec421c31615867815fd4658197c12" category="paragraph">*アラート モニター* タブから、容量の使用状況とサブスクリプションの有効期限を追跡するためのモニターを作成できます。必要に応じて、既存のモニターを編集、複製、または削除することもできます。</block>
@@ -2385,13 +2299,10 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystoneサブスクリプションのアラートを表示および管理する</block>
   <block id="45b1b24d622565a139eb50e1cef4cd1b" category="list-text"><block ref="45b1b24d622565a139eb50e1cef4cd1b" category="inline-link-macro-rx"></block></block>
   <block id="1853b61f9b6b779d424aeae83667bdd2" category="summary">「監視」タブを使用して、 Keystoneサブスクリプションのアラートを表示および管理します。</block>
-  <block id="84d89a0580920cca786f8f2e2e9ea5e7" category="paragraph">BlueXPのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。</block>
   <block id="7945624e1cf116b23d8e231fa6ab8d6d" category="paragraph">ユーザー定義アラートを設定するには、<block ref="78059b8e17cadd39b328bdc0fd7cd2de" category="inline-link-macro-rx"></block> 。</block>
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">アラートを表示</block>
   <block id="17ec1dd00ee2fa8e3a2bea341f3176eb" category="paragraph">アクティブなアラートを表示するには、次の手順に従います。</block>
-  <block id="a880a650e117aeb93dc97bdeaf243435" category="list-text">BlueXP の左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 監視 &gt; アラート* を選択します。</block>
   <block id="c1c3f4de38096a880721ae1b1aac2343" category="inline-image-macro">Keystoneサブスクリプションのアクティブアラートのスクリーンショット</block>
-  <block id="4898a5ef7f9f2f68000a751495cca177" category="paragraph"><block ref="4898a5ef7f9f2f68000a751495cca177" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d3c879b0c34417e803eaa2f50299c117" category="paragraph">重大度、ID、説明、トリガー時刻、サブスクリプション番号、追跡 ID、パフォーマンス サービス レベル、ステータスなどのアラートの詳細を表示できます。このページには、重大度とタイプ別に未解決のアラートの合計も表示されます。</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">アラートを管理する</block>
   <block id="e947bf3957a95267ebbec2757a9931af" category="paragraph">*アラート*タブからは、次のアクションを実行できます。</block>
@@ -2403,8 +2314,108 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">アラートモニターの表示と作成</block>
   <block id="a2adacdfb688f8f57f2b03920c9e2a80" category="list-text"><block ref="a2adacdfb688f8f57f2b03920c9e2a80" category="inline-link-macro-rx"></block></block>
   <block id="5e8ec25578a50b65b6a5cd50c3407574" category="paragraph">サブスクリプションの詳細情報を表示するには、次の手順に従います。</block>
-  <block id="7833eab52cb0dde2b2475b6de3bac658" category="paragraph"><block ref="7833eab52cb0dde2b2475b6de3bac658" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18d49dfd26fc514adaab2c9799dd5201" category="paragraph">容量の使用状況、サブスクリプションの有効期限ステータス、未解決のアラートなどの主要なメトリックが表示されます。表から次の詳細を確認できます。</block>
   <block id="49ee8cd124ac86a74b0e8df79ea84356" category="admonition">*有効期限*列の横にある下矢印をクリックすると、各サブスクリプションのパフォーマンス サービス レベル情報を表示できます。これには、現在の使用量、コミットされた容量、プロビジョニングされた容量、バースト容量、使用可能な容量などの詳細な容量情報が表示されます。</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetAppコンソールのリリースノート</block>
+  <block id="2ef72cc8a56fc5999e258b450b9fca24" category="paragraph">変更内容の詳細については、<block ref="06d876b9fcdfcba8772d93beac1ca38b" category="inline-link-macro-rx"></block> 。</block>
+  <block id="468705a461bd39c3c6cc91cf30d78d23" category="list-text">ITOM 監視ソリューション、 NetAppコンソール、 Active IQ、 Active IQ Unified Managerなどのサービスを管理および操作するためのツール。</block>
+  <block id="8a982cf9d4fce545e4c4210341623864" category="paragraph">Keystoneサブスクリプションのサブスクリプションと消費の詳細は、 NetAppコンソールまたはDigital Advisorを通じて表示できます。Keystoneレポートの詳細については、以下を参照してください。<block ref="5a609c392d8730053e3d7fc9f1d0ffab" category="inline-link-macro-rx"></block> 。</block>
+  <block id="c3d65a3c50cdc5589b31f6ea38479a67" category="list-text">さまざまなワークロードのニーズに合わせて、IOPS とレイテンシーのコミット容量に基づいて料金を支払うことができます。さまざまなパフォーマンス サービス ティア (Extreme、Premium、Standard、Value、Object、 Cloud Volumes ONTAP)により、購入したパフォーマンス サービス レベルに基づいてストレージを管理できます。</block>
+  <block id="ba17302e854fad784b3a0f21ef030b25" category="list-text">容量は各パフォーマンス サービス レベルに割り当てられます。</block>
+  <block id="04b0e8727ad816eafd0891457121d0a1" category="list-text">コミットされた容量の変更は、コンソールまたはKeystone Success Manager (KSM) からリクエストできます。変更のリクエストについては、以下を参照してください。<block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block> 。</block>
+  <block id="876a76983fba3da801a1f6d2d41a5db3" category="paragraph">Keystone Collector 管理 TUI ユーティリティを使用して、パフォーマンス サービス レベル (PSL) を作成できます。TUI を使用して PSL を作成すると、各パフォーマンス サービス レベルに設定されているデフォルト値が自動的に選択されるため、 Active IQ Unified Managerを使用して PSL を作成する際にこれらの値を手動で設定した場合に発生する可能性のあるエラーの可能性が軽減されます。</block>
+  <block id="084a50394b54545f96247d840d02d0cf" category="admonition">Keystoneサブスクリプション サービス バージョン 1 の *KFS* オプションを強調表示できます。Keystoneサブスクリプション サービスは、構成パフォーマンス サービス レベル、サービス提供、課金原則においてKeystone STaaS とは異なります。詳細については、<block ref="28860fa9118cfd783678772e54f9b578" category="inline-link-macro-rx"></block> 。</block>
+  <block id="8b8e55daf5c09f217fffc6d663a276de" category="list-text">指定されたKeystoneバージョンの * Keystoneサービス レベルの選択* オプション内に、サポートされているすべてのKeystoneパフォーマンス サービス レベルが表示されます。リストから必要なパフォーマンス サービス レベルを有効にします。</block>
+  <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">複数のパフォーマンス サービス レベルを同時に選択して PSL を作成できます。</block>
+  <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">選択したパフォーマンス サービス レベルの PSL が、指定されたActive IQ Unified Manger サーバーにすでに存在する場合は、再度作成することはできません。そうしようとすると、エラー メッセージが表示されます。<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">NetAppコンソールを使用して、 Keystoneサブスクリプションを変更するためのサービス リクエストを表示および追跡し、簡単な概要と監視の進行状況を表示できます。</block>
+  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 管理* を選択します。</block>
+  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">単一のKeystoneサブスクリプションによって管理されるONTAPクラスタとノード、およびStorageGRIDグリッド、サイト、ノードに関する詳細情報を表示できます。NetAppコンソールまたはDigital AdvisorからKeystoneダッシュボードでこれらのサブスクリプション アセットにアクセスできます。</block>
+  <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">NetAppコンソールからKeystoneサブスクリプション資産を表示する</block>
+  <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*サブスクリプション* ページの *アセット* タブには、さまざまな詳細や容量ステータスなど、サブスクリプションに関連付けられているクラスター内のボリューム、 StorageGRIDノード、およびONTAPノードに関する詳細情報が表示されます。</block>
+  <block id="0f05cad44de93b9ae51d0faab82ddf96" category="admonition">このビューは、一度に 1 つのKeystoneサブスクリプションに制限されます。*トラッキング ID* ドロップダウン リストから選択して、他のサブスクリプションのアセットを表示することもできます。NetAppコンソールのKeystoneダッシュボードを使用すると、複数のKeystoneサブスクリプションにわたる資産を表示できます。詳細については、<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> 。</block>
+  <block id="6ad1754a0bf091736b7eaeb7b3f62c28" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; サブスクリプション*を選択します。</block>
+  <block id="faf81a172b05b574a00b455b36f81124" category="paragraph">システムは*電流消費*タブを開きます。</block>
+  <block id="5521c544829f1dc100d359936dfe7589" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [資産] &gt; [ONTAP]*を選択します。</block>
+  <block id="2e74dd182df85e5efdcab206a5bb39aa" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [資産] &gt; [StorageGRID]*を選択します。</block>
+  <block id="722a86c8a2d2a94e76387a8dfcb77c75" category="paragraph">NetAppコンソールのKeystoneダッシュボードでは、アクセス権限に応じて、複数のKeystoneサブスクリプションにわたるクラスター内のノード、プロビジョニングされたボリューム、 StorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは使用できません。</block>
+  <block id="5280fdba34096a28b0a045aa4d088574" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 資産*を選択します。</block>
+  <block id="168a7f531362f0071a0d1ecd8963c4fa" category="paragraph">*アセット* ページには、*クラスター内のノード* タブが表示されます。</block>
+  <block id="8942b04e12a7cd6446730a97caf54479" category="paragraph"><block ref="8942b04e12a7cd6446730a97caf54479" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="26b4005051a18ffb2e580913d3f58f45" category="paragraph"><block ref="26b4005051a18ffb2e580913d3f58f45" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4fef845c9e01e08990307334e4eea678" category="paragraph"><block ref="4fef845c9e01e08990307334e4eea678" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="86065a45dab20475bb9368ffbd10fe62" category="paragraph">Keystoneサブスクリプションの履歴データは、 NetAppコンソールまたはDigital Advisorから表示できます。</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="open-title">NetAppコンソール</block>
+  <block id="bbd84f060e2b584367bb75302c5f5b07" category="paragraph">蓄積されたバースト データ使用量は、コンソールまたはDigital Advisorを通じて確認できます。コンソールの *消費傾向* タブの *表示* ドロップダウンから *累積バースト* を選択した場合、またはDigital Advisorの *消費傾向* タブから *請求済み累積バースト* オプションを選択した場合は、選択した請求期間に応じて、月次または四半期ごとに累積バースト データ使用量を確認できます。このデータは、請求された過去 12 か月間分が利用可能で、過去 30 か月までの日付範囲でクエリを実行できます。棒グラフには請求データが表示され、使用量がまだ請求されていない場合は、その期間に対して「保留中」とマークされます。</block>
+  <block id="e833a568221431c19dcca95c850ae159" category="paragraph">コンソールまたはDigital Advisorを通じて、月次または四半期の請求期間における毎日の累積バースト データ使用量を表示できます。コンソールでは、[消費傾向] タブの [表示] ドロップダウンから [累積バースト] を選択すると、[日数別の累積バースト] テーブルに、タイムスタンプ、コミット済み、消費済み、累積バースト容量などの詳細なデータが表示されます。</block>
+  <block id="dfa8d7fe27ec169b0ef41ef00fee0ae8" category="paragraph">NetAppコンソールまたはDigital Advisorを通じてサブスクリプションの現在の消費状況を表示するには、次の手順に従います。</block>
+  <block id="10cb2c81585ad95f970824cfe6301506" category="summary">NetApp Keystone STaaS加入者は、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。</block>
+  <block id="c3cfe25887e605c51c4e6e8d2d976921" category="paragraph">NetApp Keystoneサービスに加入すると、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。</block>
+  <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">コンソールにログインする</block>
+  <block id="635729a4f0a6dc6d9b4d20446b497c80" category="paragraph">NetAppサポート サイトの認証情報を使用してコンソールにログインするか、電子メールとパスワードを使用してNetAppクラウド ログインにサインアップします。詳細については、 <block ref="7dcc8a9f27b5ee3278b228b8863caa51" category="inline-link-macro-rx"></block> 。</block>
+  <block id="4a43cddfeeabba4570c14c252dec0bd1" category="list-text">コンソールにログインします。</block>
+  <block id="9468bc9d4455dd0f4c2b5b47f4d4fa7a" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone*を選択します。</block>
+  <block id="444ff26ba7d7734c69a4ef9ad0f3288e" category="paragraph"><block ref="444ff26ba7d7734c69a4ef9ad0f3288e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">NetAppコンソールのKeystoneダッシュボード</block>
+  <block id="c2ada1bb7e81854dc20dc863c0626d40" category="list-text"><block ref="c2ada1bb7e81854dc20dc863c0626d40" category="inline-link-macro-rx"></block></block>
+  <block id="1e8e11a2e28362cb179e8a5acc62e9a1" category="summary">NetApp Keystone STaaS サブスクライバーは、 NetAppコンソールまたはDigital Advisorからサブスクリプションの概要を取得できます。</block>
+  <block id="ca17ff394820ffc1dc179f8c49be2df0" category="list-text">* NetAppコンソール*: コンソールの *ストレージ &gt; Keystone &gt; 概要* からダッシュボードにアクセスします。詳細については、<block ref="b91ce16ea34e848048af8bd4f38e22c2" category="inline-link-macro-rx"></block> 。</block>
+  <block id="a14ae3cf1f820878c7ed263939aa338a" category="section-title">NetAppコンソールについて</block>
+  <block id="829813f9a1fdca3dcf82b2855c04662b" category="paragraph">KeystoneにはNetAppコンソールからアクセスできます。</block>
+  <block id="d07b485359c52169277c3ff7aaed95d4" category="paragraph">NetAppコンソールは、オンプレミスおよびクラウド環境全体にわたるエンタープライズ規模のNetAppストレージおよびデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。</block>
+  <block id="25873f208d2ff2745f96d86d5a87d7e7" category="paragraph">コンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。</block>
+  <block id="e955295a860e893d00951c8233972d56" category="paragraph">詳細はこちら<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block>。</block>
+  <block id="e1a2098926fff2b44e76595b2fab04b4" category="list-text">コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。</block>
+  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">NetAppコンソールのアクセスロールについて学ぶ</block>
+  <block id="ff366c40543fbef7804957d52fabf2a0" category="list-text">サブスクリプションを変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、<block ref="22d60f99a4ac0841de53b7fa8c3f1253" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="inline-link-macro">Digital AdvisorとNetAppコンソールの統合</block>
+  <block id="19f702ba317875d05972d4dc2df1d379" category="list-text">Digital Advisorはコンソールに統合されており、 Keystoneダッシュボードを含むすべてのDigital Advisor機能にコンソールから直接アクセスできます。詳細については、<block ref="5983da9102c6398c455221dbbeef93c0" category="inline-link-macro-rx"></block> 。</block>
+  <block id="754a3a5b6d930270b1fbfb641c89b440" category="section-title">NetAppコンソールとDigital AdvisorのKeystone機能</block>
+  <block id="fbe45a39864c469e12feb1cb9128ed44" category="paragraph">次の表は、 NetAppコンソールとDigital Advisorで利用可能な機能を示しており、ニーズに合った適切なプラットフォームを迅速に特定するのに役立ちます。</block>
+  <block id="14b33e994477a76e918b15271e482d20" category="cell">* NetAppコンソール*</block>
+  <block id="e35a8b08a1eced21ae0e1445810e0ff0" category="paragraph"><block ref="e35a8b08a1eced21ae0e1445810e0ff0" category="inline-link-macro-rx"></block></block>
+  <block id="2e8b12135324e72007b3768ea8e3b475" category="summary">NetApp Keystone STaaS サブスクライバーは、 NetAppコンソールからサブスクリプションの概要を取得できます。</block>
+  <block id="a8b926e7f40ce1b8a36a0d50c4412766" category="paragraph">*概要* ページを使用すると、リスクのあるワークロードを迅速に特定し、サブスクリプションの容量と有効期限のステータスを表示し、未解決のアラートを識別し、容量使用率が最も高いサブスクリプションを表示できます。また、 Keystoneのさまざまなバージョンにわたるサブスクリプションのステータスを表示して、注意が必要な問題を強調表示することもできます。</block>
+  <block id="859167398832678cbae2e0062c6a5136" category="paragraph">*概要* ページを表示するには、コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 概要* に移動します。</block>
+  <block id="e9803f7c01419ecddf878fe4fd33bc47" category="inline-image-macro">概要ページのスクリーンショット</block>
+  <block id="4e1db70e55c012f3d68da057084056e2" category="paragraph"><block ref="4e1db70e55c012f3d68da057084056e2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e8325080ad6eca6e402bccdbbcccd2b3" category="paragraph">*概要* ページでは、次の情報を提供します。</block>
+  <block id="b6a17a16f2925f240966aa803c2d67ff" category="summary">NetAppコンソールを通じて、関連するパフォーマンス サービス レベルのコミット済み容量を変更するには、 Keystoneサブスクリプションを変更します。</block>
+  <block id="2227728e15b4a8b218a3533e278cf342" category="doc">NetAppコンソールからKeystoneサブスクリプションを変更する</block>
+  <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">NetAppコンソールを使用して、関連するパフォーマンス サービス レベルのKeystoneサブスクリプションのコミット済み容量を変更できます。</block>
+  <block id="9313fbe04542c1ff2b3e92ade6375732" category="list-text">コミットされた容量を変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、<block ref="22d60f99a4ac0841de53b7fa8c3f1253" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb873e65402011d905122364da690822" category="paragraph">NetAppコンソールのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。この機能はDigital Advisorでは利用できません。</block>
+  <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; モニタリング &gt; アラート モニター*を選択します。</block>
+  <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetAppコンソールのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。</block>
+  <block id="743c58da8a9fadd274f3f9b5676e7a58" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; モニタリング &gt; アラート*を選択します。</block>
+  <block id="63fb46a4add2145056e9aea0b921bc56" category="paragraph"><block ref="63fb46a4add2145056e9aea0b921bc56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ebc3d49271bd7e13ad66606299b721ea" category="section-title">NetAppコンソールからのデータの検索とフィルタリング</block>
+  <block id="35716f4fafb244c80a13dc4d6f0b0da8" category="paragraph">コンソールでは、タブ内のテーブルで使用可能な列パラメータに基づいて、 Keystoneデータを検索およびフィルタリングできます。たとえば、「*サブスクリプション*」ページの「*サブスクリプション*」タブでは、検索ボックスにKeystone のバージョンを入力してデータをフィルタリングできます。同様に、「アセット」ページの「クラスター内のボリューム」タブでは、検索ボックスにボリューム名を入力してボリュームをフィルタリングできます。</block>
+  <block id="4d3b4ab28c7beb3d285ae63a4b48dc5b" category="paragraph">利用可能な場合は、高度なフィルター オプションを使用して検索を絞り込むことができます。たとえば、[*サブスクリプション*] タブでは、 Keystone のバージョン、請求期間、最大容量、サブスクリプションの有効期限までの日数でデータをフィルタリングできます。また、[*クラスター内のボリューム*] タブでは、ボリューム名、クラスター名、ボリューム タイプなどでデータをフィルタリングできます。複数のフィルターを同時に適用して、結果を正確に絞り込むことができます。<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1418ec6536f32435fe4b47c5a602af2d" category="section-title">NetAppコンソールまたはDigital Advisorからレポートを生成する</block>
+  <block id="d02a7046e40b8e75255587f466fba43d" category="inline-image-macro">コンソールのレポートダウンロードアイコン2</block>
+  <block id="fc19c977e7a8a103b711cdbd09268f08" category="paragraph">ダウンロードボタンを使用して、 Keystoneデータのレポートを生成および表示できます。<block ref="e9d46812a54c7d719e025941df7bf76b" category="inline-image-macro-rx" type="image"></block>コンソールまたはDigital Advisor内のタブで利用できます。これらのタブを使用すると、サブスクリプション、使用状況履歴、バースト使用状況、パフォーマンス、アセット、ボリューム、オブジェクトに関するレポートを生成できます。</block>
+  <block id="106fec2e24576e5836ac1a7bd3770ec8" category="admonition">このタブは、 Digital Advisorでオプションとして利用できます。このタブを表示するにはサポートにお問い合わせください。NetAppコンソールでは使用できません。</block>
+  <block id="2cffc1f33b9b6ccb45614d69036254d2" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [パフォーマンス]* を選択します。</block>
+  <block id="cf965a30eec7fe8ec42e2f3f520205a4" category="summary">NetAppコンソールからサブスクリプションのタイムラインを表示します。これには、アクティベーション日、変更日、更新日などのイベントが含まれます。</block>
+  <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">NetAppコンソールのKeystoneダッシュボードには、 Keystoneサブスクリプションのタイムライン ビューが提供され、アクティベーション、変更、更新日などのイベントが表示されます。このタイムライン ビューはDigital Advisorでは使用できません。</block>
+  <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">サブスクリプションのタイムラインは、デフォルトでは折れ線グラフとして表示され、重要なイベントはアイコンでマークされます。イベントの上にマウスを移動すると、日付やコミットされた容量の変更などの詳細が表示されます。これらのイベントを表形式で表示するには、[表示形式] ドロップダウンから [表] オプションを選択します。他のサブスクリプションのタイムラインを表示するには、「*トラッキング ID*」ドロップダウンから選択または検索します。</block>
+  <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">NetAppコンソールおよびDigital Advisorの *サブスクリプション* からすべてのサブスクリプションのリストを表示できます。このビューでは、サブスクリプションのステータスと使用状況に基づいたわかりやすい分析情報が提供され、常に情報を入手し、必要に応じて対応することができます。</block>
+  <block id="5e6ce2a236a2d35561ce83721f8bb7e4" category="paragraph"><block ref="5e6ce2a236a2d35561ce83721f8bb7e4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="579139f19217a677980dce581b098367" category="paragraph">容量の使用状況、サブスクリプションの有効期限ステータス、未解決のアラートなどの主要なメトリックが表示されます。</block>
+  <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">表から次の詳細を確認できます。</block>
+  <block id="a79d6591df4c712ce010c266887785cb" category="paragraph">これらの詳細を表示するには、 NetAppコンソールの *Assets* ページを参照してください。特定のKeystone STaaSサブスクリプションの詳細を表示するには、<block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block> 。複数のKeystoneサブスクリプションの詳細を表示するには、<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> 。</block>
+  <block id="a117e95e0e717db586ac46cfe455c16c" category="summary">既知の問題では、 Keystone を効果的に使用できない可能性がある問題が特定されます。</block>
+  <block id="56c7b419b1c28b2e596114d1fcf4fd33" category="paragraph">既知の問題では、 Keystone STaaS を効果的に使用できない可能性がある問題が特定されます。</block>
+  <block id="ebc614947502c956dd0fcafc02067f05" category="paragraph">この API は、指定された顧客 ID に関連付けられているすべてのサブスクリプションとパフォーマンス サービス レベルのリストを取得します。</block>
+  <block id="af84df9dc62db50a848fb88711a5b185" category="paragraph">API は、指定された顧客のすべてのサブスクリプションと関連するパフォーマンス サービス レベルの詳細のリストを含む JSON オブジェクトで応答します。応答の例を次に示します。</block>
+  <block id="820418944be1b89bbfbf293ebae84a9a" category="list-text">*リフレッシュ トークンの生成*: リフレッシュ トークンは、 NetApp資格情報を使用してDigital Advisorコンソールから取得されます。このトークンは、繰り返しログインする必要なく継続的なアクセスを確保するために使用されます。</block>
+  <block id="827607b42918efbeec5d1431418ad729" category="paragraph">2つのサービスのナビゲーションは、<block ref="07f7314e0fdd92e843ce6bfcd1f08066" category="inline-link-macro-rx"></block> Keystoneサブスクリプション サービスは、構成パフォーマンス サービス レベル、サービス提供、課金原則においてKeystone STaaS とは異なります。2024 年 4 月現在、 NetApp はKeystone STaaS のみのドキュメントを維持および公開しています。引き続きKeystoneサブスクリプション サービスを使用している場合は、 Keystone STaaS への移行のサポートについて KSM にお問い合わせください。必要に応じて、 Keystoneサブスクリプション サービスのドキュメントの PDF バージョンにここからアクセスできます。</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="03e4603e7e1d94d1d2afa097ed77bcc4" category="sidebar">NetAppコンソールとDigital AdvisorのKeystoneダッシュボード</block>
 </blocks>
