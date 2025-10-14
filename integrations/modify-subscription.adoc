@@ -19,7 +19,7 @@ NetAppコンソールを使用して、関連するパフォーマンス サー�
 [NOTE]
 ====
 * サブスクリプションの有効期限が 90 日以上残っている場合は、コミットされた容量を変更できます。
-* コミットされた容量を変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、link:https://docs.netapp.com/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセスロールについて学ぶ"^] 。
+* コミットされた容量を変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセスロールについて学ぶ"^] 。
 
 
 ====
