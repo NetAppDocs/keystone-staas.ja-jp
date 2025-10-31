@@ -38,9 +38,9 @@ VMware vSphereシステムにKeystone Collectorを導入するには、OVAテン
 vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。
 
 .. [*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。
-.. から_Keystone Billing_public証明書をダウンロードします https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20221101.pem["リンクをクリックしてください"^]。
-.. OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。
-`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20221101.pem keystone-collector.cert`
+.. _Keystone Billing_ 公開証明書を次の場所からダウンロードします。 https://keystone.netapp.com/downloads/OVA-SSL-NetApp-Keystone-20251020.pem["リンクをクリックしてください"^]。
+.. OpenSSL を使用して、OVA 署名証明書の信頼性を公開証明書と照合して検証します。
+`openssl verify -CAfile OVA-SSL-NetApp-Keystone-20251020.pem keystone-collector.cert`
 
 
 ====
@@ -50,14 +50,13 @@ vCenterでOVAファイルの内容の整合性が検証され、OVAファイル�
 ====
 7.0u2以降のバージョンのvCenterでは、有効なコード署名ダイジェストを指定した場合に、OVAファイルの内容の整合性とコード署名証明書の信頼性を検証できます。vCenterのルート信頼ストアにはVMware証明書のみが格納されています。NetAppは認証局としてEntrustを使用しているため、これらの証明書をvCenter信頼ストアに追加する必要があります。
 
-.. コード署名CA証明書をEntrustからダウンロードします https://web.entrust.com/subca-certificates/OVCS2-CSBR1-crosscert.cer["こちらをご覧ください"^]。
+.. Sectigoからコード署名CA証明書をダウンロードする https://comodoca.my.salesforce.com/sfc/p/1N000002Ljih/a/3l000000oAhy/QCCby12C7cYo50nNyic6AuG1KFcwe1rDn1EknfTaUzY["こちらをご覧ください"^]。
 .. の手順に従います `Resolution` このナレッジベース（KB）記事のセクション： https://kb.vmware.com/s/article/84240[]。
 
 
 ====
 +
-Keystone Collector OVAの整合性と信頼性が検証されると、テキストが表示されます `(Trusted certificate)` 出版社と
-image:ova-deploy.png["検証済みの証明書が表示されるOVA UI"]
+Keystone Collector OVAの完全性と信頼性が検証されると、テキストが表示されます。 `(Trusted certificate)` 出版社と。 image:ova-deploy-1.png["検証済みの証明書が表示されるOVA UI"]
 
 . [Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。
 . 手順6_で、VMが使用するデスティネーションネットワークを選択します。

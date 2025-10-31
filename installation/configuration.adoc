@@ -104,6 +104,9 @@ NOTE: サポートされるファイル拡張子は次のとおりです `.pem`�
 . [ 保存（ Save ） ] を選択します。設定が適用されます。
 
 
+
+NOTE: CA証明書は以下にコピーされます `/opt/netapp/ks-collector/ca.pem` Keystone Collector サーバー上。
+
 image:kc-custom-ca.png["CAカスタマイズ用のTUI画面"]
 
 

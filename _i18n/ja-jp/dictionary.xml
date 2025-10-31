@@ -348,7 +348,6 @@
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">[On _ Step 2]で、VM名を指定し、VMフォルダを選択します。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">手順3_で、VMを実行するために必要なコンピューティングリソースを指定します。</block>
   <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">[*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。</block>
-  <block id="250e025c960accde58851d9cba806aa4" category="list-text">OpenSSLを使用して、OVA署名証明書のパブリック証明書との信頼性を確認します。<block ref="d67907543fcf70f6dfbc7d1139240042" prefix=" " category="inline-code"></block></block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">[Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">On_Step 7 Customize template_で、管理者ユーザーアカウントの初期ネットワークアドレスとパスワードを指定します。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">On _ Step 8 Ready to Complete_of the * Deploy OVF Template *（OVFテンプレートの導入*ウィザードの完了準備完了）ウィザードで設定を確認し、OVA導入のパラメータが正しく設定されていることを確認します。</block>
@@ -359,8 +358,6 @@
   <block id="082821bd60f72deca861daa75a2c3020" category="paragraph">このアーキテクチャ図は、一般的なKeystone環境でのコンスティチュエントコンポーネントとその接続を示しています。</block>
   <block id="ea74ae761acf4f1176f873f6437675f6" category="paragraph">Linuxサーバにソフトウェアをインストールするには、次の手順を実行します。</block>
   <block id="6b0c7fd3768c26e569ee5662bdcc2738" category="list-text">KeystoneコレクタサーバにSSH接続し、に昇格します<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 権限：</block>
-  <block id="fafcabb6e961377fe2b62d0f1d2e62be" category="list-text">Keystone公開署名署名をインポートします。<block ref="ccf45be91ebaeda977037b149762acbd" prefix=" " category="inline-code"></block></block>
-  <block id="5000c92898e0e1c2f66f175bc48765b6" category="list-text">ファイルの信頼性を確認します。<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block>本物のファイルの署名は次のようになります。<block ref="4fc602b120696aeae5ab8b4ebd2a36e8" prefix=" " category="inline-code"></block></block>
   <block id="eb1f328dadd504e03e367eafd0c1e18c" category="list-text">YUMソフトウェアリポジトリファイルをインストールします。<block ref="90fdbfbbba2139b53a74cc0098f4e51e" prefix=" " category="inline-code"></block></block>
   <block id="4b5fef6350f906c92ead8e5fcb93fb21" category="sidebar">Keystoneをセットアップおよび設定する</block>
   <block id="a84d47a9c10091a234dee7fdfbd4ae68" category="sidebar">指標と定義</block>
@@ -374,7 +371,6 @@
   <block id="ac6a5de4e069a7968a64e732a7cbd9af" category="admonition">*事象の説明 *：Keystone Collectorは、使用状況計測システムの一部として、多数のコンテナを実行します。Red Hat Enterprise Linux 8.xサーバが米国国防総省情報システム機関（DISA）セキュリティ技術実装ガイド（STIG）ポリシーで強化されると、fapolicyd（ファイルアクセスポリシーデーモン）を持つ既知の問題 が断続的に確認されています。この問題 はと識別されます <block ref="c6da6cbf9dd009f994ed56cf4b1ffbbb" category="inline-link-macro-rx"></block>。*回避策 *：Red Hat Enterpriseが解決するまでは、この問題 を迂回することをお勧めします<block ref="f3104ccbad818f132c8760f414494a6b" prefix=" " category="inline-code"></block> Permissiveモードになります。インチ <block ref="14802523b331d06f88071877a80dca79" prefix="/" category="inline-code"></block>をクリックして、の値を設定します<block ref="e2f21a3f9a4466418728abff3026c8d3" prefix=" " category="inline-code"></block>。</block>
   <block id="9893071aa012ae6b029eae73ae2be44e" category="list-text"><block ref="9893071aa012ae6b029eae73ae2be44e" category="inline-link-rx"></block></block>
   <block id="6bf0a6b5934bc27f34497309b1c2ce0a" category="list-text"><block ref="6bf0a6b5934bc27f34497309b1c2ce0a" category="inline-link-rx"></block></block>
-  <block id="1bcbd92a1182a8044032c0af47695d8a" category="list-text">をダウンロードします<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> ファイル：<block ref="d1ed07754d396f9745478bc6388ae23a" prefix=" " category="inline-code"></block></block>
   <block id="2a5a28f579ee3b6816454c527351ec56" category="doc">Keystoneが収集するユーザデータのタイプ</block>
   <block id="e14f2b2670997486a2e4f3918cbe9cb6" category="section-title">ONTAP データ収集</block>
   <block id="4752622b9e77aa409c0f10beb0726f74" category="paragraph">次に、ONTAP で収集される容量消費データの代表的なサンプルを示します。</block>
@@ -610,14 +606,10 @@
   <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。
 7.0u2より前のバージョンのvCenterでは、コード署名証明書の信頼性を自動的に検証できません。vCenter 7.0u2以降で検証を実行できますが、その場合は署名認証局をvCenterに追加する必要があります。使用しているvCenterのバージョンに応じて、次の手順を実行します。</block>
   <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。</block>
-  <block id="347aea822a41d615267a1a09f727c32d" category="list-text">から_Keystone Billing_public証明書をダウンロードします<block ref="f8a06e82c439e6817414e7a6871c3ab6" category="inline-link-rx"></block>。</block>
   <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2以降のバージョンのvCenterでは、有効なコード署名ダイジェストを指定した場合に、OVAファイルの内容の整合性とコード署名証明書の信頼性を検証できます。vCenterのルート信頼ストアにはVMware証明書のみが格納されています。NetAppは認証局としてEntrustを使用しているため、これらの証明書をvCenter信頼ストアに追加する必要があります。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">こちらをご覧ください</block>
-  <block id="7761f250d7d1edab3e627d211af402ab" category="list-text">コード署名CA証明書をEntrustからダウンロードします<block ref="d94e6f5bcf8381faff13e5c4999eb265" category="inline-link-rx"></block>。</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">の手順に従います<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> このナレッジベース（KB）記事のセクション：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">検証済みの証明書が表示されるOVA UI</block>
-  <block id="ba20b958dd73f9247c3247dbef41c8d4" category="paragraph">Keystone Collector OVAの整合性と信頼性が検証されると、テキストが表示されます<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 出版社と
-<block ref="de3bc771b0100381aa743c5ecbd3a7df" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1f5e8b836d490bee65ada2e551662a8f" category="sidebar">Keystone Collectorをインストールします</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">*使用状況*：使用状況インジケーターを表示して、使用状況がサブスクリプション制限内か超過しているかを示します。消費レコードの数を最も高くする場合は、この列でリストをソートできます。</block>
@@ -1611,7 +1603,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="cac189ace7fac11fbcff63b35adf8770" category="list-text">サービスクレジットリクエストは、NetApp Keystoneサポートが違反を確認してから6週間以内に開始する必要があります。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。</block>
   <block id="193dec405e65293a13ce97bb2c01440c" category="list-text">サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して <block ref="063933bc4dc8a29247242b2012129da2" category="inline-link-macro-rx"></block>ください。</block>
   <block id="3a36d2372ffa5421518253f5c68f7c51" category="paragraph">SLAの違反が検出された場合は、優先度3（P3）のサポートチケットをNetApp Keystoneサポートとともにオープンし、要求された詳細を次のようにExcelシートに入力します。</block>
-  <block id="b22fed8db0bb580ac39be331b010b1cd" category="list-text">RPMデータベースでKeystone Billing Platformのフィンガープリントをチェックして、正しいパブリック証明書がインポートされていることを確認します。正しいフィンガープリントは次のようになります<block ref="821b59fa560f6b692841b490c9d51dfe" prefix=" " category="inline-code"></block>。<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block></block>
   <block id="cb74be13d3a600957d1ee583265f537d" category="section-title">日単位のバーストデータ使用量を表示</block>
   <block id="bc3f9a56f76203c42fc9f8ff6b19fe46" category="inline-image-macro">棒グラフを示すスクリーンショット</block>
   <block id="de75b30d787fc40e53cc46d0b5ab30cf" category="paragraph"><block ref="de75b30d787fc40e53cc46d0b5ab30cf" category="inline-image-macro-rx" type="image"></block></block>
@@ -2445,4 +2436,13 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*リソースの選択*: 特定のサブスクリプションまたはすべてのサブスクリプションのモニターを作成するように選択します。選択したモニター タイプに基づいて、容量使用率モニターのサブスクリプション番号やパフォーマンス サービス レベルなど、表示される必須フィールドに入力します。また、サブスクリプション有効期限モニターのサブスクリプション番号のみを入力します。</block>
   <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
+  <block id="3c7ee9f17fe9ee6e8de5156a0343b43e" category="admonition">CA証明書は以下にコピーされます<block ref="fb50d256ab973f6e88410442129bc41d" prefix=" " category="inline-code"></block> Keystone Collector サーバー上。</block>
+  <block id="2378fd86d8a87b85d36308d247018184" category="list-text">Keystone公開署名をインポートします。<block ref="41d547e10dc6d168f59af339b33be959" prefix=" " category="inline-code"></block></block>
+  <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">RPM データベースでKeystone Billing Platform のフィンガープリントをチェックして、正しい公開証明書がインポートされていることを確認します。<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> 正しい指紋は次のようになります。<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
+  <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">ダウンロード<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> ファイル：<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
+  <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">ファイルの信頼性を確認します。<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> 本物のファイルの署名は次のようになります。<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
+  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">_Keystone Billing_ 公開証明書を次の場所からダウンロードします。<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>。</block>
+  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">OpenSSL を使用して、OVA 署名証明書の信頼性を公開証明書と照合して検証します。<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
+  <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Sectigoからコード署名CA証明書をダウンロードする<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
+  <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Keystone Collector OVAの完全性と信頼性が検証されると、テキストが表示されます。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 出版社と。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
