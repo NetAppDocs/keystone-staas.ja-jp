@@ -2228,12 +2228,10 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="0189c782e04bc566597908eddaee3dd5" category="section-title">アラートモニターを表示する</block>
   <block id="d8d1f09f12d3047d0b1d5264e0fbb3d4" category="paragraph">アラート モニターを表示するには、次の手順に従います。</block>
   <block id="8891b6740bffe77b967f8fe0f2bb0320" category="inline-image-macro">Keystoneサブスクリプションのアラートモニターのスクリーンショット</block>
-  <block id="ae75ac6ecba83cd82e353c5c2dddf9ca" category="paragraph">モニター名、通知をトリガーするアラート条件、重大度レベル、サブスクリプション番号、パフォーマンス サービス レベル、ステータスなど、 Keystoneサブスクリプション全体のアラート モニターのリストを表示できます。  *作成者* 列をチェックして、アラート モニターがシステムによって生成されたものか、ユーザー定義のものかを判別できます。</block>
   <block id="6b29e04f1a3d7126b32fea3e35336be6" category="section-title">アラートモニターの作成と管理</block>
   <block id="c52ec421c31615867815fd4658197c12" category="paragraph">*アラート モニター* タブから、容量の使用状況とサブスクリプションの有効期限を追跡するためのモニターを作成できます。必要に応じて、既存のモニターを編集、複製、または削除することもできます。</block>
   <block id="57ff1be6332a578fa82ccb64d9259d54" category="open-title">モニターを作成する</block>
   <block id="64c64a9516f4ac5c0006a03c872e7317" category="paragraph">アラート モニターを作成するには、次の手順に従います。</block>
-  <block id="a3513012c18df0c1a7b8764f4e9f1ff9" category="list-text">*モニターの作成*ボタンをクリックします。</block>
   <block id="f4743dcb07fb533885399ef1728ce857" category="paragraph">*アラート モニターの作成* ページが表示されます。</block>
   <block id="704b16afc2be166a3265886d6a494bb5" category="inline-image-macro">Keystoneサブスクリプションのアラートモニターを作成するスクリーンショット</block>
   <block id="b2aa832e4d8d1fd7361158475afea146" category="paragraph"><block ref="b2aa832e4d8d1fd7361158475afea146" category="inline-image-macro-rx" type="image"></block></block>
@@ -2258,7 +2256,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="37436487b6f97021df7ee2c4adbdfa45" category="list-text">コピーするモニターの省略記号アイコンを選択します。</block>
   <block id="3cf3a984f792c68d00d0ddbaa1549d75" category="list-text">*複製*を選択します。</block>
   <block id="1c9486cebc61c5048cf6288719fae578" category="paragraph">既存のフィールド値がすでに入力された「*アラート モニターの作成*」ページが表示されます。</block>
-  <block id="7a170bf7d609f40a91657be5b2c92dc3" category="list-text">必要に応じてフィールドを変更し、「作成」をクリックします。</block>
   <block id="59c8147f6a6c89c779cc9c0e0d31057d" category="paragraph">更新された構成で新しいアラート モニターが作成され、[*アラート モニター*] リストに表示されます。</block>
   <block id="f9fcefd0027bc07ce00160c69b1e0c90" category="open-title">モニターを削除</block>
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">削除するモニターの省略記号アイコンを選択します。</block>
@@ -2355,7 +2352,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2227728e15b4a8b218a3533e278cf342" category="doc">NetAppコンソールからKeystoneサブスクリプションを変更する</block>
   <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">NetAppコンソールを使用して、関連するパフォーマンス サービス レベルのKeystoneサブスクリプションのコミット済み容量を変更できます。</block>
   <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cb873e65402011d905122364da690822" category="paragraph">NetAppコンソールのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。この機能はDigital Advisorでは利用できません。</block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; モニタリング &gt; アラート モニター*を選択します。</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetAppコンソールのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。</block>
@@ -2446,4 +2442,32 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Sectigoからコード署名CA証明書をダウンロードする<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Keystone Collector OVAの完全性と信頼性が検証されると、テキストが表示されます。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 出版社と。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">クラスタがMetroCluster構成の場合、次のコマンドを実行します。</block>
+  <block id="6df7635d9934b92e0bdbe5e5a544fccb" category="doc">補償通知ボックスを入力してください</block>
+  <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">アラートモニターのカバレッジギャップを管理する</block>
+  <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">*監視*ページの*アラート モニター*タブには、カバレッジ ギャップが存在する場合に表示される*カバレッジの完了*通知ボックスが含まれています。このボックスには、容量または有効期限モニターが不足しているサブスクリプションと、サブスクリプションのないモニターがリストされます。ギャップに対処するには、既存のモニターにサブスクリプションを追加したり、新しいモニターを作成したり、使用されていないモニターを削除したりします。詳細については、 <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>。</block>
+  <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">NetApp ConsoleのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。カバーされていないサブスクリプションにモニターを追加するか、未使用のモニターを解決することで、カバレッジのギャップに対処できます。この機能はDigital Advisorでは利用できません。</block>
+  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">モニター名、通知をトリガーするアラート条件、重大度レベル、サブスクリプション番号、パフォーマンス サービス レベル、ステータスなど、 Keystoneサブスクリプション全体のアラート モニターのリストを表示できます。*作成者* 列を確認すると、アラート モニターがシステムによって生成されたものか、ユーザー定義のものかを確認できます。</block>
+  <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">*モニターの作成*ボタンを選択します。</block>
+  <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">必要なフィールドを変更し、「作成」をクリックします。</block>
+  <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">カバレッジギャップを管理する</block>
+  <block id="27693e14a82cbe43a67100eb4538ddd9" category="paragraph">アクションが必要な場合、アラート モニター リストの上に、折りたたみ可能な *補償を完了してください* 通知ボックスが表示されます。それは次のことに役立ちます:</block>
+  <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">容量使用量またはサブスクリプション有効期限モニターがないサブスクリプションを識別して対処します。</block>
+  <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">現在どのサブスクリプションにも関連付けられていないモニターを確認して管理します。</block>
+  <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Keystoneサブスクリプションのアラートモニターのカバレッジギャップのスクリーンショット</block>
+  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">モニターのないサブスクリプションまたは未使用のモニターを修正するには、次の手順に従います。</block>
+  <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">モニターなしのサブスクリプション</block>
+  <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">*サブスクリプションの有効期限*または*容量使用量*タブを選択します。</block>
+  <block id="226f73c9504a7560a9a6543e7686879d" category="list-text">*解決*列で、対処するサブスクリプションの省略記号アイコンを選択します。</block>
+  <block id="4c0349a30e44fe2e3989a278d0a1f1e1" category="list-text">1つ選択してください:</block>
+  <block id="55075c37621639cb4058160f8872944a" category="list-text">*既存のモニターに追加*: ポップアップが表示されます。モニターを選択して確認します。</block>
+  <block id="8f9840a1a3c6e0d946a2c7230f2cc4a8" category="list-text">*新しいモニターの作成*: *アラート モニターの作成* ページが表示されます。以下の手順に従ってください<block ref="f5b0d13ec8e410cddd0c73aae96856f8" category="inline-link-macro-rx"></block>新しいモニターを作成します。</block>
+  <block id="c63b72e256a63e39fd4833b7a7c43f16" category="paragraph">カバレッジが追加されると、サブスクリプションはタブから消えます。</block>
+  <block id="7652a06e5287973e36402a720937090f" category="open-title">未使用のモニター</block>
+  <block id="599e408ddca0ab40965afad26b9dd5ed" category="list-text">*未使用*タブを選択します。</block>
+  <block id="11ea68b14110fa7cbc61ea38b5a4fcec" category="list-text">*解決*列で、対処するモニターの省略記号アイコンを選択します。</block>
+  <block id="41825a04a8338881f026e0e8b933fd54" category="list-text">*編集*: *アラート モニターの編集* ページが表示されます。必要なフィールドを変更して保存します。詳細については、以下を参照してください。<block ref="b047d326fc106faf3f12ef4efac0005e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="0cfa773235daafece9ec96fac7a4ae83" category="list-text">*削除*: 削除を確認してモニターを削除します。</block>
+  <block id="9516b8db60240fe5a0c189f3a9d20181" category="paragraph">サブスクリプションを追加または削除すると、モニターはタブから削除されます。</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
 </blocks>
