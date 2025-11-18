@@ -30,7 +30,13 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 == Linuxノヨウケン
 
-* オペレーティングシステム：Debian 12、またはRHEL 8.xシリーズ内のRed Hat Enterprise Linux（RHEL）8.6以降のバージョン
+* オペレーティング システム (いずれかを選択):
++
+** Red Hat Enterprise Linux (RHEL) 8.6 またはそれ以降の 8.x シリーズ
+** Red Hat Enterprise Linux 9.0 以降のバージョン
+** Debian 12
+
+
 * コア：2 CPU
 * RAM ： 4GB
 * ディスク容量：50GBのvDisk
@@ -43,9 +49,18 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 同じサーバに次のサードパーティパッケージもインストールする必要があります。リポジトリから入手可能な場合、これらのパッケージは前提条件として自動的にインストールされます。
 
-* RHEL8
+* RHEL 8.6+ (8.x)
 +
 ** python3 >= v3.6.8、python3 \<= v3.9.13
+** ポッドマン
+** SOS
+** yum-utils
+** python3-dnf-plugin-versionlock
+
+
+* RHEL 9.0以降
++
+** python3 >= v3.9.0、python3 \<= v3.9.13
 ** ポッドマン
 ** SOS
 ** yum-utils
@@ -71,5 +86,5 @@ Keystone Collectorのネットワーク要件は次のとおりです。
 * Unified Managerサーバに、ポート443（HTTPS）でKeystone Collectorサーバからアクセスできる必要があります。
 * Unified ManagerサーバでKeystone Collector用のアプリケーションユーザ権限を持つサービスアカウントを設定する必要があります。
 * 外部インターネット接続は必要ありません。
-* 毎月、Keystone Collectorからファイルをエクスポートし、NetAppサポートチームにEメールで送信します。サポートチームへの連絡方法の詳細については、を参照してくださいlink:../concepts/gssc.html["Keystoneに関するサポートを受ける"]。
+* 毎月、 Keystone Collector からファイルをエクスポートし、 NetAppサポート チームに電子メールで送信します。サポートチームへの連絡方法の詳細については、以下を参照してください。 link:../concepts/support-services.html["Keystoneに関するサポートを受ける"]。
 

@@ -55,7 +55,7 @@ indexpage:
   - title: Keystoneサービスでより多くの成果を達成
     links:
     - title: サポートチームについて知る
-      url: "/concepts/gssc.html"
+      url: "/concepts/support-services.html"
     - title: バースト容量の増加
       url: "/concepts/burst-capacity.html"
     - title: コールドデータや使用頻度の低いデータはどうすればよいですか？

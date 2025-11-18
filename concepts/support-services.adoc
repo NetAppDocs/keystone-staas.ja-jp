@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: concepts/gssc.html 
+permalink: concepts/support-services.html 
 keywords: Keystone support, service request, support ticket 
 summary: サポートが必要な場合は、NetApp Keystoneサポートチームにお問い合わせください。 
 ---
@@ -52,7 +52,7 @@ Keystone Success Manager（KSM）は、Keystoneサービスに関してパート
 
 オンボーディング時に、NetApp Keystone ServiceNowへのアクセスおよび使用のためのクレデンシャルが提供されている場合は、ポータルを使用して、Keystoneサブスクリプションに関連する問題に対するサービスリクエストを生成できます。
 
-https://netappgssc.service-now.com/csm[]
+https://netappkeystone.service-now.com/csm[]
 
 サービスリクエストを作成する前に、システムの詳細、ログ、および関連情報を準備しておきます。サービスリクエストを発行すると、Keystoneサポートチームがサポートチケットを受け取り、トラブルシューティング用の情報にアクセスします。ServiceNowチケットをフォローして、ステータスと解決策を確認できます。
 

@@ -105,5 +105,5 @@ KeystoneコレクタTUIでは、サポートバンドルを生成し、サポー
 `$ keystone-collector-tui`
 . 「*トラブルシューティング」>「サポートバンドルの生成」に進みます。image:tui-sup-bundl.png["TUI画面"]
 . 生成されると、バンドルが保存される場所が表示されます。FTP、SFTP、SCPを使用して場所に接続し、ログファイルをローカルシステムにダウンロードします。image:tui-sup-bundl-2.png["TUI画面"]
-. ファイルがダウンロードされたら、Keystone ServiceNowサポートチケットに添付できます。チケットの発行については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
+. ファイルをダウンロードしたら、 Keystone ServiceNow サポート チケットに添付できます。チケットの発行については、以下を参照してください。 link:../concepts/support-services.html["サービスリクエストを生成しています"]。
 

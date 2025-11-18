@@ -104,7 +104,7 @@ image:sla-breach.png["Excelシートテンプレート"]
 [NOTE]
 ====
 * サービスクレジットリクエストは、NetApp Keystoneサポートが違反を確認してから6週間以内に開始する必要があります。すべてのサービスクレジットがNetAppによって承認され、承認される必要があります。
-* サービスクレジットは、将来の請求書に適用される場合があります。サービスクレジットは、期限切れのKeystoneサブスクリプションには適用されない。詳細については、を参照して link:../concepts/gssc.html["NetApp Keystoneのサポート"]ください。
+* サービス クレジットは将来の請求書に適用される場合があります。サービス クレジットは、期限切れのKeystoneサブスクリプションには適用されません。詳細については、 link:../concepts/support-services.html["NetApp Keystoneのサポート"]。
 
 
 ====

@@ -65,12 +65,12 @@ Keystone CollectorとITOM Collectorを導入するには、仮想マシンが必
 Keystone Collectorは、次の方法で導入できます。
 
 * VMware OVAテンプレート（VMware vCenter Server 6.7以降が必要）
-* お客様が、Debian 12、Red Hat Enterprise Linux 8.6以降の8.xバージョン、またはCentOS 7（既存環境のみ）のいずれかのオペレーティングシステムでLinuxサーバを運用している。Keystoneソフトウェアは、Linuxディストリビューションに応じて、または `.rpm`パッケージを使用してインストールし `.deb`ます。
+* お客様は、Debian 12、Red Hat Enterprise Linux 8.6 以降の 8.x バージョン、Red Hat Enterprise Linux 9.0 以降のバージョン、または CentOS 7 (既存の環境のみ) のいずれかのオペレーティング システムで実行される Linux サーバーを提供します。Keystoneソフトウェアは、 `.deb` または `.rpm` Linux ディストリビューションに応じてパッケージが異なります。
 
 
 ITOM Collectorは、次の方法で展開できます。
 
-* お客様が、Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux（RHEL）8.x、Amazon Linux 2023以降のバージョンで実行されているLinuxサーバを提供している。
+* お客様は、Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux (RHEL) 8.x、Red Hat Enterprise Linux 9.0、Amazon Linux 2023、またはそれ以降のバージョンで実行される Linux サーバーを提供します。
 * お客様は、Windows Server 2016以降のバージョンを実行しているWindowsサーバを用意しました。
 +
 

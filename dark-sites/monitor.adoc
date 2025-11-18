@@ -54,5 +54,5 @@ image:dark-site-generate-support-bundle-1.png["サポートバンドルの生成
 +
 このプロセスでは `tar`、問題のトラブルシューティングのためにNetAppと共有できるパッケージが前述の場所に作成されます。
 
-. ファイルがダウンロードされたら、Keystone ServiceNowサポートチケットに添付できます。チケットの発行については、を参照してください link:../concepts/gssc.html["サービスリクエストを生成しています"]。
+. ファイルをダウンロードしたら、 Keystone ServiceNow サポート チケットに添付できます。チケットの発行については、以下を参照してください。 link:../concepts/support-services.html["サービスリクエストを生成しています"]。
 
