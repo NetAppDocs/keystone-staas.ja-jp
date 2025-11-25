@@ -1684,7 +1684,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="98d28e0357b1d103f21ba89dd0d19e08" category="paragraph">リクエスト番号、リクエストの種類、現在のステータスなど、すべてのサービス リクエストのリストが表示されます。</block>
   <block id="d47cec4b54da960eb97da1285dba00bf" category="inline-image-macro">下矢印アイコン</block>
   <block id="b8915f85e20c41695f7695ce198af59a" category="list-text">クリックすると<block ref="97aa861acb085111dcd2b43caf6c79a2" category="inline-image-macro-rx" type="image"></block> *提出日*列の横にあるアイコンをクリックすると、リクエスト番号を展開して詳細を表示できます。リクエストが提出されたパフォーマンス・サービスレベルが表示されます。</block>
-  <block id="de30be97e27dee0a131478825b7f19bd" category="inline-image-macro">スクリーンショットは、どのパフォーマンスサービスレベルに対して変更要求が出されたかを示しています</block>
   <block id="6f611e4ccc824406e0de3f7a09110159" category="list-text">リクエスト番号を選択すると、リクエストされたサブスクリプションの変更の詳細や現在の進行状況などの詳細情報が表示されます。</block>
   <block id="a92c0535191745976db8964221708fe4" category="inline-image-macro">現在の進捗状況を示すスクリーンショット</block>
   <block id="fc1597aa65903b595ab66b315f8b1878" category="paragraph"><block ref="fc1597aa65903b595ab66b315f8b1878" category="inline-image-macro-rx" type="image"></block></block>
@@ -2288,8 +2287,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">複数のパフォーマンス サービス レベルを同時に選択して PSL を作成できます。</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">選択したパフォーマンス サービス レベルの PSL が、指定されたActive IQ Unified Manger サーバーにすでに存在する場合は、再度作成することはできません。そうしようとすると、エラー メッセージが表示されます。<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">NetAppコンソールを使用して、 Keystoneサブスクリプションを変更するためのサービス リクエストを表示および追跡し、簡単な概要と監視の進行状況を表示できます。</block>
-  <block id="2fbcdf41574fdac1e466d4dad9bb3a55" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 管理* を選択します。</block>
-  <block id="26a02c6592f7d54ca37b8c1a48780136" category="paragraph"><block ref="26a02c6592f7d54ca37b8c1a48780136" category="inline-image-macro-rx" type="image"></block></block>
   <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">単一のKeystoneサブスクリプションによって管理されるONTAPクラスタとノード、およびStorageGRIDグリッド、サイト、ノードに関する詳細情報を表示できます。NetAppコンソールまたはDigital AdvisorからKeystoneダッシュボードでこれらのサブスクリプション アセットにアクセスできます。</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">NetAppコンソールからKeystoneサブスクリプション資産を表示する</block>
   <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*サブスクリプション* ページの *アセット* タブには、さまざまな詳細や容量ステータスなど、サブスクリプションに関連付けられているクラスター内のボリューム、 StorageGRIDノード、およびONTAPノードに関する詳細情報が表示されます。</block>
@@ -2443,7 +2440,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="15412d2b0949c1eabadcefaed9f6f8d0" category="list-text">容量使用量またはサブスクリプション有効期限モニターがないサブスクリプションを識別して対処します。</block>
   <block id="72cf9e6c56443b9eb5c5d28a0a693ac1" category="list-text">現在どのサブスクリプションにも関連付けられていないモニターを確認して管理します。</block>
   <block id="4606189d5b77f103c0e503d8048ad8f7" category="inline-image-macro">Keystoneサブスクリプションのアラートモニターのカバレッジギャップのスクリーンショット</block>
-  <block id="db3c34c51d992294e98f857c62b4cf47" category="paragraph"><block ref="db3c34c51d992294e98f857c62b4cf47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6c84c1a10e1c87172a9fadb894dd8445" category="paragraph">モニターのないサブスクリプションまたは未使用のモニターを修正するには、次の手順に従います。</block>
   <block id="ac81eda7e7da15651a4c3d6a60e8f290" category="open-title">モニターなしのサブスクリプション</block>
   <block id="f9fc4f7dade8ed75242e3918921812c2" category="list-text">*サブスクリプションの有効期限*または*容量使用量*タブを選択します。</block>
@@ -2480,4 +2476,13 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="45d6736fdd879f91b2a538e05e0a3b12" category="list-text">Red Hat Enterprise Linux 9.0 以降</block>
   <block id="cc20f1cec12842b9bed0a2fb4b579509" category="list-text">Amazon Linux 2023以降</block>
   <block id="f0fc80440f66cd06e8621cfb9578824b" category="paragraph">Keystoneバージョン 3 (v3) をサブスクライブするには、 Keystoneサポート チームにお問い合わせください。詳細については、 <block ref="90d872d2a90e66f6330f06f20805c0ef" category="inline-link-macro-rx"></block>。</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">カバレッジギャップサブスクリプションの追跡ID</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">*モニタリング &gt; アラート モニター* の *カバレッジの完了* 通知ボックスで、各サブスクリプションのサブスクリプション番号の横に追跡 ID が表示されるようになりました。</block>
+  <block id="06d55ded719647ad67f379d0f9afc0e2" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 管理 &gt; リクエスト*を選択します。</block>
+  <block id="21ffef0c637fd0891ae9b41f52742b09" category="admonition">現在、 Keystoneサブスクリプションでは *エージェント管理* タブと *レポート* タブは使用できません。</block>
+  <block id="5d2cdc919ce893613b66b876a7c2782d" category="inline-image-macro">スクリーンショットは、変更要求のパフォーマンスサービスレベルを示しています</block>
+  <block id="a91bb8801531bd0f94f5726293b87485" category="paragraph"><block ref="a91bb8801531bd0f94f5726293b87485" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">*レポート* タブは現在、 Keystoneサブスクリプションでは利用できません。</block>
+  <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
 </blocks>
