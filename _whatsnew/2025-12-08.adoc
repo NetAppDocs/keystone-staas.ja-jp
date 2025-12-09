@@ -1,0 +1,11 @@
+= 累積バースト容量ラベルの名前を変更しました
+:allow-uri-read: 
+
+
+NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
+
+
+
+=== 累積バースト容量ラベルの名前を変更しました
+
+ラベル *Accrued burst capacity* の名前が *Accrued burst* に変更されます。

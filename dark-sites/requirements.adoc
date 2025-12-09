@@ -20,7 +20,7 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 == VMware vSphereノヨウケン
 
-* オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降
+* オペレーティング システム: VMware vCenter Server および ESXi 8.0 以降
 * コア：1 CPU
 * RAM ： 2GB
 * ディスク容量：20GB vDisk

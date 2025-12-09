@@ -347,7 +347,6 @@
   <block id="9a87285999e76f01064e09d4163dacb4" category="list-text">[Deploy OVF Template*（OVFテンプレートの展開）]ウィザードの[On _ Step 1_（ステップ1 _）]で、[* Select and OVF template*（選択とOVFテンプレート*）]をクリックしてダウンロードしたテンプレートを選択<block ref="10e7fe8d7233c9952d9060893052d234" prefix=" " category="inline-code"></block> ファイル。</block>
   <block id="eb2f786d0356dd1cd28f20f376d5da2b" category="list-text">[On _ Step 2]で、VM名を指定し、VMフォルダを選択します。</block>
   <block id="ef93bcb8e06b73273019082b41d87115" category="list-text">手順3_で、VMを実行するために必要なコンピューティングリソースを指定します。</block>
-  <block id="41466009ab38ed0e1dbd7f2358fa3825" category="list-text">[*Publisher*]リンクをクリックして、完全な署名ダイジェスト証明書をダウンロードします。</block>
   <block id="09ecce71a847e29076b9c49beb846dae" category="list-text">[Deploy OVF Template*（OVFテンプレートの導入）]ウィザードの[On _ Step 5_（ステップ5_）]で、VMを保存する場所を指定します。</block>
   <block id="8cd29cf88dddb3b6287a9351d1b4c067" category="list-text">On_Step 7 Customize template_で、管理者ユーザーアカウントの初期ネットワークアドレスとパスワードを指定します。</block>
   <block id="4ff6b73315fa76bc8171f5548ebb79ef" category="list-text">On _ Step 8 Ready to Complete_of the * Deploy OVF Template *（OVFテンプレートの導入*ウィザードの完了準備完了）ウィザードで設定を確認し、OVA導入のパラメータが正しく設定されていることを確認します。</block>
@@ -602,10 +601,6 @@
   <block id="85701aafc47f53d769db3988637e595c" category="admonition">空のグラフは、そのデータ収集ポイントで使用可能なデータが環境になかったことを示します。</block>
   <block id="c2e2fce3a995f59900d7afbbe58683f5" category="inline-link">リンクをクリックしてください</block>
   <block id="7656f92cecd653f72ca596d6def21867" category="list-text">からOVAファイルをダウンロードします<block ref="6a1066e952a937beb3c2b32013fd7738" category="inline-link-rx"></block> VMware vSphereシステムに保存できます。</block>
-  <block id="6948cdf9e6c5bdc7d80925f15f8f873e" category="list-text">オン_手順4：詳細を確認_。OVAファイルの正確性と信頼性を確認します。
-7.0u2より前のバージョンのvCenterでは、コード署名証明書の信頼性を自動的に検証できません。vCenter 7.0u2以降で検証を実行できますが、その場合は署名認証局をvCenterに追加する必要があります。使用しているvCenterのバージョンに応じて、次の手順を実行します。</block>
-  <block id="8b6cfff06473c4cd5cde3fa4ab929f0a" category="paragraph">vCenterでOVAファイルの内容の整合性が検証され、OVAファイルに含まれるファイルに対して有効なコード署名ダイジェストが提供されていることが確認されます。ただし、コード署名証明書の信頼性は検証されません。整合性を確認するには、完全な署名ダイジェスト証明書をダウンロードし、Keystoneによって公開されているパブリック証明書に対してその証明書を検証する必要があります。</block>
-  <block id="45c3e42547d79b15a504fc354a5ea227" category="paragraph">7.0u2以降のバージョンのvCenterでは、有効なコード署名ダイジェストを指定した場合に、OVAファイルの内容の整合性とコード署名証明書の信頼性を検証できます。vCenterのルート信頼ストアにはVMware証明書のみが格納されています。NetAppは認証局としてEntrustを使用しているため、これらの証明書をvCenter信頼ストアに追加する必要があります。</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link">こちらをご覧ください</block>
   <block id="f35abf22d965c5c506fba6f9273a2895" category="list-text">の手順に従います<block ref="b5a4b64b2aa505bd7c11f79b8a9f458d" prefix=" " category="inline-code"></block> このナレッジベース（KB）記事のセクション：<block ref="2e578ca4f24dfc2cfe15357800b939d4" category="inline-link-rx"></block>。</block>
   <block id="6db4d1fb4f168710dad43e921e4fec52" category="inline-image-macro">検証済みの証明書が表示されるOVA UI</block>
@@ -613,8 +608,6 @@
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
   <block id="89daf59b9c591b51911d438bdad9f762" category="list-text">*使用状況*：使用状況インジケーターを表示して、使用状況がサブスクリプション制限内か超過しているかを示します。消費レコードの数を最も高くする場合は、この列でリストをソートできます。</block>
   <block id="6645e0ebb53d4b6e68be7936af3a8039" category="inline-link">AutoSupport</block>
-  <block id="ed55999d50b7451fbe4281de85f01c45" category="example-title">vCenter 7.0u1以前：詳細については、こちらをご覧ください</block>
-  <block id="ae33212e0f96fd19173ab021f7909861" category="example-title">vCenter 7.0u2以降：詳細を確認してください</block>
   <block id="ee5ca5bbfae8b59d25890e341fb270f9" category="example-title">&lt;strong&gt; ONTAPで収集された使用状況データ:詳細はこちら&lt;/strong&gt;</block>
   <block id="c1180c8c32ead64506dbcd62aa47c4c9" category="example-title">ONTAP用に収集された&lt;strong&gt;パフォーマンスデータ：詳細はこちら&lt;/strong&gt;</block>
   <block id="fb4c693ae1537fcd9bba0f68cbeef17b" category="example-title">&lt;strong&gt;プライベートデータアクセスの制限で削除されたアイテムのリスト:詳細&lt;/strong&gt;</block>
@@ -1185,7 +1178,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e481e00ab54faed62b9dea98ed860aea" category="inline-image-macro">作成されたAQoSポリシーを表示するUIのスクリーンショット</block>
   <block id="43b019fa12d041b6c5cbfe89c5f52205" category="paragraph"><block ref="43b019fa12d041b6c5cbfe89c5f52205" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86e86c82820734a68c07adc56b6390a2" category="inline-image-macro">ポリシー作成に関するエラーメッセージを表示するTUI画面</block>
-  <block id="1b787eed58abedc58337d9fef037fb67" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
   <block id="f7e13857abd03bc318b89fe886669d7d" category="paragraph">日付範囲を選択する*開始日*フィールドには、*消費トレンド*タブに移動すると、デフォルトで将来の日付が表示されます。</block>
   <block id="443c63f2975d5902a80f1597e417d9f2" category="paragraph">2024/09/04</block>
   <block id="3564049af4b6d8549eeccf2c18fc9bb7" category="summary">インターネットにアクセスできない環境（_ダークサイト_または_プライベートモード_とも呼ばれます）でKeystone Collectorが使用状況データを収集できるようにするには、いくつかの設定タスクを実行します。</block>
@@ -1287,7 +1279,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="ddedaabf1afb461a6e3d2fe1320dcca0" category="summary">インターネットアクセスのない環境（_dark site_or_private mode _とも呼ばれます）にKeystone Collectorをインストールする前に、システムが必要なソフトウェアで準備されており、必要な前提条件をすべて満たしていることを確認してください。</block>
   <block id="fd7fae83015d688b86a7ec1ed256864e" category="doc">プライベートモードでのインストールの準備</block>
   <block id="2b9854b0330b42530e0aaf8e893e2f28" category="section-title">VMware vSphereノヨウケン</block>
-  <block id="4b78be970b5500221a819608df5616e7" category="list-text">オペレーティングシステム：VMware vCenter ServerおよびESXi 6.7以降</block>
   <block id="0a07fd95ca9bf6935ce5e61609730be6" category="list-text">RAM ： 2GB</block>
   <block id="c53de6b17f1d8da5e4d60aca127be380" category="section-title">Linuxノヨウケン</block>
   <block id="6adf0487ff5b4dadf30c70a5107314fc" category="list-text">コア：2 CPU</block>
@@ -2423,8 +2414,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b5e09b8913194b721a7e21626585dfc5" category="list-text">RPM データベースでKeystone Billing Platform のフィンガープリントをチェックして、正しい公開証明書がインポートされていることを確認します。<block ref="46ce6ee7c7afe96ac26dd093842fe062" prefix=" " category="inline-code"></block> 正しい指紋は次のようになります。<block ref="b91be68b3b67e632293886e3790eccc7" prefix=" " category="inline-code"></block></block>
   <block id="f4baeef0e68eefa8ecbde2db1c9bb6af" category="list-text">ダウンロード<block ref="5bec9e04971ed49ee2b3c939afa7a801" prefix=" " category="inline-code"></block> ファイル：<block ref="55192ff2cd286fc1b545da5fb86c86fb" prefix=" " category="inline-code"></block></block>
   <block id="859d80b97dc3be93d17073cb53fd1183" category="list-text">ファイルの信頼性を確認します。<block ref="50a551e75e87c897a8ad2128c42de747" prefix=" " category="inline-code"></block> 本物のファイルの署名は次のようになります。<block ref="ae3578a86bb737e9e2439ece85303ecb" prefix=" " category="inline-code"></block></block>
-  <block id="1eba34a29908de527656c195c6a4418a" category="list-text">_Keystone Billing_ 公開証明書を次の場所からダウンロードします。<block ref="5520f333fe3958930d4ca351e896a12f" category="inline-link-rx"></block>。</block>
-  <block id="8dd9e9a8650be62b5350b1743ec0c25a" category="list-text">OpenSSL を使用して、OVA 署名証明書の信頼性を公開証明書と照合して検証します。<block ref="f41dec976ad8e65c3e38fceba0104101" prefix=" " category="inline-code"></block></block>
   <block id="b96ad4ab266c25b5492620bb2563d5d0" category="list-text">Sectigoからコード署名CA証明書をダウンロードする<block ref="7342f89b7e38eb427d641531b8da4ba6" category="inline-link-rx"></block>。</block>
   <block id="5107c2f981fc9d221af2aedb4d9c3f10" category="paragraph">Keystone Collector OVAの完全性と信頼性が検証されると、テキストが表示されます。<block ref="2e5f0dac7b8d485649c8f829e8ba09da" prefix=" " category="inline-code"></block> 出版社と。 <block ref="4bb910ce06804868c88e19dd6ff9e83c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4d3f733b36c05e3bcdf4287f293b20f" category="paragraph">クラスタがMetroCluster構成の場合、次のコマンドを実行します。</block>
@@ -2485,4 +2474,16 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="fa37f1bdab27c9577ff178edf4ff4fef" category="admonition">*レポート* タブは現在、 Keystoneサブスクリプションでは利用できません。</block>
   <block id="2193640916b96caede95ed8f42c339e8" category="paragraph"><block ref="2193640916b96caede95ed8f42c339e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">2025年11月24日</block>
+  <block id="236430e108e8394ac19913076b10fb55" category="doc">累積バースト容量ラベルの名前を変更しました</block>
+  <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">ラベル *Accrued burst capacity* の名前が *Accrued burst* に変更されます。</block>
+  <block id="a6145fbfb28ae332bb61854cc43b2999" category="list-text">オペレーティング システム: VMware vCenter Server および ESXi 8.0 以降</block>
+  <block id="19c50fb6e1d8179976234d4afbeaf824" category="list-text">「ステップ 4: 詳細の確認」で、OVA ファイルの正確性と信頼性を確認します。</block>
+  <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">vCenter ルート信頼ストアには VMware 証明書のみが含まれます。NetApp は証明機関として Entrust を使用しており、それらの証明書を vCenter 信頼ストアに追加する必要があります。</block>
+  <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">vCenter バージョン 7.x 以前の場合は、vCenter と ESXi をバージョン 8.0 以降に更新する必要があります。以前のバージョンはサポートされなくなりました。</block>
+  <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">オペレーティング システム: VMware vCenter Server および ESXi 8.0 以降</block>
+  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">*表示*ドロップダウン オプションは、 Keystoneサブスクリプション プラットフォームによって異なります。*クラスタ内のボリューム*と*クラスタ内のノード*はONTAPで使用できます。StorageGRIDの場合、[表示] ドロップダウンは使用できませんが、[グリッド内のノード] テーブルが自動的に表示されます。サブスクリプションに両方のプラットフォームが含まれている場合は、3 つのオプションすべてが利用可能です。</block>
+  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">*Assets* ページには、 Keystoneサブスクリプションに関連付けられているプラ​​ットフォームに基づいてタブが表示されます。ONTAPの場合、*クラスター内のノード*タブと*クラスター内のボリューム*タブの両方が利用可能です。StorageGRIDの場合、タブを選択せず​​に *グリッド内のノード* テーブルが直接表示されます。サブスクリプションに両方のプラットフォームが含まれている場合は、3 つのタブすべてが利用可能になります。</block>
+  <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">消費が許可されたバースト制限内であるにもかかわらず、サブスクリプションでは、Digital Advisorダッシュボードに「*バースト制限超過*」ステータスが誤って表示されます。</block>
+  <block id="81899b5a6230dd4cf7e0bff4dbc71dfb" category="paragraph">2025/12/08</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
 </blocks>

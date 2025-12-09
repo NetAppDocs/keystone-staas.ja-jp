@@ -18,6 +18,18 @@ Keystone STaaS サービスの最新機能と拡張機能について学びま�
 
 
 
+== 2025年12月8日
+
+NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
+
+
+
+=== 累積バースト容量ラベルの名前を変更しました
+
+ラベル *Accrued burst capacity* の名前が *Accrued burst* に変更されます。
+
+
+
 == 2025年11月24日
 
 NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
