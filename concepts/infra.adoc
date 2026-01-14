@@ -4,7 +4,7 @@ permalink: concepts/infra.html
 keywords: keystone infrastructure, infra 
 summary: Keystoneのインフラ、設計、テクノロジの選択、コンポーネント製品は、ネットアップだけが提供します。 
 ---
-= Keystoneインフラ
+= Keystoneインフラストラクチャを理解する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

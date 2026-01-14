@@ -4,7 +4,7 @@ permalink: concepts/components.html
 keywords: infrastructure component, deployment requirement, installation requirement 
 summary: お客様の環境でNetApp Keystone STaaSサービスを有効にするために必要なコンポーネントについて説明します。 
 ---
-= 導入に必要なコンポーネント
+= Keystoneサービスに必要なコンポーネント
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: お客様の環境でNetApp Keystone STaaSサービスを有効にす�
 
 
 [role="lead"]
-環境でNetApp Keystone STaaSサービスを有効にするには、いくつかのコンポーネントが必要です。作業を開始する前に、これらのコンポーネントの詳細を確認しておく必要があります。
+NetApp Keystone STaaS サービスを有効にするには、いくつかのコンポーネントが必要です。始める前にこれらのコンポーネントを確認してください。
 
 
 

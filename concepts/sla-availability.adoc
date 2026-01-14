@@ -4,7 +4,7 @@ permalink: concepts/sla-availability.html
 keywords: availability, sla, service level agreement, slo, service level objectives 
 summary: '可用性SLOでは、Keystoneの発注を行うために導入されたAll NetApp ONTAPフラッシュストレージアレイの課金期間中、99.999%のアップタイムを目標としています。' 
 ---
-= 可用性SLO
+= Keystoneの可用性 SLO
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

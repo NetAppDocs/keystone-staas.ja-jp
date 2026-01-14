@@ -4,7 +4,7 @@ permalink: installation/addl-req.html
 keywords: keystone unified manager prerequisites, aiqum config keystone 
 summary: Keystoneの利用を開始する前に、ONTAPクラスタとStorageGRIDシステムがいくつかの要件を満たしていることを確認する必要があります。 
 ---
-= ONTAPトStorageGRIDノヨウケン
+= Keystone向けONTAPおよびStorageGRIDの要件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

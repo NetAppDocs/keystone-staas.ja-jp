@@ -4,7 +4,7 @@ permalink: rest-api/get-customer-subscriptions.html
 keywords: subscriptions, service levels, customer IDs, keystone, api 
 summary: Digital Advisor REST APIは、指定されたcustomerIDに関連付けられているすべてのサブスクリプションとサービスレベルのリストを取得します。 
 ---
-= Digital Advisor REST APIを使用してお客様のサブスクリプションを取得
+= Digital Advisor REST APIを使用してKeystone の顧客サブスクリプションを取得する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

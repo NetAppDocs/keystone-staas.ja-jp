@@ -4,7 +4,7 @@ permalink: concepts/usps.html
 keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support 
 summary: United States Protected Supportは、米国内の米国市民から継続的なKeystoneサービスの提供とサポートを提供するアドオンサービスです。 
 ---
-= USPSの詳細
+= KeystoneのUSPSアドオン
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

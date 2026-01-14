@@ -4,7 +4,7 @@ permalink: concepts/burst-capacity.html
 keywords: burst consumption, add-on service, burst capacity, burst limit, NetApp Keystone 
 summary: 顧客がコミットした容量を超えて追加のストレージ容量を使用できるようにします。 
 ---
-= バースト容量オプション
+= Keystoneサブスクリプションのバースト容量アドオン
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

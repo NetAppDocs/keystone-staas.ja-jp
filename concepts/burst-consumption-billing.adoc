@@ -4,7 +4,7 @@ permalink: concepts/burst-consumption-billing.html
 keywords: burst consumption billing 
 summary: Keystone STaaSの料金は、バースト時の容量（サブスクリプションのコミット済み容量に加えて消費される容量）に基づいて計算されます。 
 ---
-= バースト消費に基づく請求
+= Keystoneのバースト消費課金について理解する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

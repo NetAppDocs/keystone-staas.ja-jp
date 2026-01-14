@@ -4,7 +4,7 @@ permalink: concepts/consumed-capacity-billing.html
 keywords: consumed capacity billing, billing and consumed capacity 
 summary: 消費容量は、サービスの使用中にワークロードが実際に使用する容量です。 
 ---
-= 消費容量に基づく計測
+= Keystoneの消費容量計測を理解する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

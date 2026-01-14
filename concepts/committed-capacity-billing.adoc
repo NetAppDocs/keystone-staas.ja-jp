@@ -4,7 +4,7 @@ permalink: concepts/committed-capacity-billing.html
 keywords: Billing based on committed capacity, committed capacity billing 
 summary: コミット済み容量は、サブスクリプションの購入時に特定のサービスレベル用にコミットされた容量です。 
 ---
-= コミット済み容量に基づく請求
+= Keystoneのコミット容量課金について理解する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
