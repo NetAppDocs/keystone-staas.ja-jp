@@ -48,6 +48,10 @@ NOTE: *レポート* タブは現在、 Keystoneサブスクリプションで�
 +
 ** 問題に対処した後、[*編集*] ボタンを選択して、アラートを解決済みとしてマークします。
 ** 必要に応じて、「*メモを追加*」ボタンを選択して補足メモを追加します。
++
+
+NOTE: アラートを編集するには、* Keystone admin* ロールが必要です。* Keystone閲覧者* ロールでは、アラートの詳細のみを表示できます。詳細については、 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["NetApp ConsoleのKeystoneアクセス ロール"^]。
+
 
 
 * *アラートのフィルタリング*: *ステータス* 列のフィルタ アイコンを使用して、アクティブなアラート、解決済みのアラート、またはその両方を表示します。

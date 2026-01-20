@@ -47,8 +47,7 @@ NetAppコンソールは、オンプレミスおよびクラウド環境全体�
 
 次の点に注意してください。
 
-* コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。
-* サブスクリプションを変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetAppコンソールのアクセスロールについて学ぶ"^] 。
+* コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。詳細については、 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["NetApp ConsoleのKeystoneアクセス ロール"^]。
 * Digital Advisorはコンソールに統合されており、 Keystoneダッシュボードを含むすべてのDigital Advisor機能にコンソールから直接アクセスできます。詳細については、link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-console.html#netapp-console["Digital AdvisorとNetAppコンソールの統合"^] 。
 
 
@@ -89,11 +88,6 @@ link:../integrations/assets-tab.html["Keystone サブスクリプションに関
 
  a| 
 link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
-| はい | いいえ 
-
-
- a| 
-link:../integrations/modify-subscription.html["サブスクリプションを変更する"] (Keystone 管理者のみ)
 | はい | いいえ 
 
 

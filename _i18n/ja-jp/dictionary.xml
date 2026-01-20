@@ -1778,8 +1778,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">いいえ</block>
   <block id="33df2a894b84cf92bf7b059b0628f59d" category="paragraph"><block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block></block>
   <block id="57d8e28284aecaa3906b97f010612fcd" category="cell"><block ref="57d8e28284aecaa3906b97f010612fcd" category="inline-link-macro-rx"></block></block>
-  <block id="b938e197dfa8dadbdec004a37e0ef3af" category="inline-link-macro">サブスクリプションを変更する</block>
-  <block id="a7629efe0e47f4108406da4590b98b87" category="paragraph"><block ref="761270557fec89f94924233c726d0e8a" category="inline-link-macro-rx"></block> (Keystone 管理者のみ)</block>
   <block id="f9eade15df63147aad555cc771e3c457" category="inline-link-macro">ボリュームとオブジェクトの詳細の表示</block>
   <block id="0fbbeb712322bc30085f9aee131d6509" category="paragraph"><block ref="0fbbeb712322bc30085f9aee131d6509" category="inline-link-macro-rx"></block></block>
   <block id="73be3087ebbe8024dbe143136c7e4de9" category="paragraph"><block ref="73be3087ebbe8024dbe143136c7e4de9" category="inline-link-macro-rx"></block></block>
@@ -1796,16 +1794,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="92b787d913c7ad5afc095b2bdf953c66" category="list-text">*オープンリクエスト*: オープンなサービスリクエストの合計数。</block>
   <block id="010423df1000a45a1a63fdd5f480f566" category="inline-link">Keystone サブスクリプション サービス | バージョン 1 ドキュメント</block>
   <block id="a8ce21fd73a6b04f851be6e1d6d0da63" category="list-text">*容量使用率上位5つのサブスクリプション*：容量使用率のパーセンテージが最も高いKeystoneサブスクリプション上位5つを表形式で表示します。*サブスクリプション*列のサブスクリプション番号をクリックすると、詳細な分析情報が表示されます。</block>
-  <block id="2527930ed946837db80b382551b3e30f" category="list-text">サブスクリプションの有効期限が 90 日以上残っている場合は、コミットされた容量を変更できます。</block>
-  <block id="36b20c02b50b952932585493baf0578c" category="paragraph">コミットされた容量を変更するには、次の手順に従います。</block>
-  <block id="0777df37fb2d784be7418d104f1b48c3" category="list-text">変更するサブスクリプションのテーブルで省略記号アイコンをクリックし、[変更] を選択します。</block>
-  <block id="7368a9d71827e42ec6d0e30872f2ade8" category="paragraph">*サブスクリプションの変更* ページには、選択したサブスクリプション番号に関連付けられているサブスクライブ済みパフォーマンス サービス レベルの詳細が表示されます。</block>
-  <block id="91122b642327c299496bd2cc715f61db" category="admonition">オプションとして、サブスクリプションの詳細セクションで [*サブスクリプションの管理*] をクリックし、[*変更*] を選択して [*サブスクリプションの変更*] ページにアクセスできます。</block>
-  <block id="2bab978071b4f2c42a0cbd4063050bd6" category="inline-image-macro">サブスクリプションリストからの変更オプションを表示するスクリーンショット</block>
-  <block id="2f945ecac337fb632279a3a5c8be5147" category="list-text">*容量の編集* をクリックして、パフォーマンス サービス レベルのコミット容量を変更し、必要な詳細を入力して、*送信* をクリックします。</block>
-  <block id="77d85bf27ff4e86e9c2c0d124a29092e" category="paragraph">リクエストは同じページの*変更*セクションに表示されます。</block>
-  <block id="6174a39a3e1c2618d458d58ece61fe5f" category="list-text">リクエストの詳細を確認し、[*確認*] ボタンをクリックして必要な確認を行い、リクエストを送信します。</block>
-  <block id="0df3f6389fb32c1982ca6a2f3ba9de3c" category="paragraph">*管理*タブでリクエストの進捗状況を追跡・監視できます。*管理*タブの詳細については、以下をご覧ください。 <block ref="9f3b15d961aa4f93dcc619d13ad818be" category="inline-link-macro-rx"></block> 。</block>
   <block id="4e45fcbdeb65b88a1abb90ed1fe072a6" category="summary">NetApp Keystone STaaS サブスクライバーは、データの検索とフィルタリング、サブスクリプションと使用状況のレポートの生成、タイムスタンプの確認、アラートの表示を行うことができます。</block>
   <block id="20124e162ad63d60b063ff80ef10f3c9" category="doc">Keystoneデータを検索し、レポートを生成し、アラートを表示します</block>
   <block id="3c8389d9d758198177b96da335f3ac07" category="paragraph">データを検索およびフィルタリングしたり、サブスクリプションと使用状況のレポートを生成したり、アラートを表示してストレージ環境に関する最新情報を常に把握したりできます。</block>
@@ -2296,8 +2284,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="d07b485359c52169277c3ff7aaed95d4" category="paragraph">NetAppコンソールは、オンプレミスおよびクラウド環境全体にわたるエンタープライズ規模のNetAppストレージおよびデータ サービスの集中管理を提供します。NetAppデータ サービスにアクセスして使用するには、コンソールが必要です。管理インターフェースとして、1 つのインターフェースから多数のストレージ リソースを管理できます。コンソール管理者は、企業内のすべてのシステムのストレージとサービスへのアクセスを制御できます。</block>
   <block id="25873f208d2ff2745f96d86d5a87d7e7" category="paragraph">コンソールの使用を開始するためにライセンスやサブスクリプションは必要ありません。ストレージ システムまたはNetAppデータ サービスへの接続を確保するためにクラウドにコンソール エージェントを展開する必要がある場合にのみ料金が発生します。ただし、コンソールからアクセスできる一部のNetAppデータ サービスは、ライセンスまたはサブスクリプションベースです。</block>
   <block id="e955295a860e893d00951c8233972d56" category="paragraph">詳細はこちら<block ref="2f3134b8970d60226f00e362a8c05c8c" category="inline-link-macro-rx"></block>。</block>
-  <block id="e1a2098926fff2b44e76595b2fab04b4" category="list-text">コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。</block>
-  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">NetAppコンソールのアクセスロールについて学ぶ</block>
   <block id="7d0366e10bff9b03e7d1ebe083232ad0" category="inline-link-macro">Digital AdvisorとNetAppコンソールの統合</block>
   <block id="19f702ba317875d05972d4dc2df1d379" category="list-text">Digital Advisorはコンソールに統合されており、 Keystoneダッシュボードを含むすべてのDigital Advisor機能にコンソールから直接アクセスできます。詳細については、<block ref="5983da9102c6398c455221dbbeef93c0" category="inline-link-macro-rx"></block> 。</block>
   <block id="754a3a5b6d930270b1fbfb641c89b440" category="section-title">NetAppコンソールとDigital AdvisorのKeystone機能</block>
@@ -2308,10 +2294,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="859167398832678cbae2e0062c6a5136" category="paragraph">*概要* ページを表示するには、コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 概要* に移動します。</block>
   <block id="e9803f7c01419ecddf878fe4fd33bc47" category="inline-image-macro">概要ページのスクリーンショット</block>
   <block id="e8325080ad6eca6e402bccdbbcccd2b3" category="paragraph">*概要* ページでは、次の情報を提供します。</block>
-  <block id="b6a17a16f2925f240966aa803c2d67ff" category="summary">NetAppコンソールを通じて、関連するパフォーマンス サービス レベルのコミット済み容量を変更するには、 Keystoneサブスクリプションを変更します。</block>
-  <block id="2227728e15b4a8b218a3533e278cf342" category="doc">NetAppコンソールからKeystoneサブスクリプションを変更する</block>
-  <block id="84b1a13bc7964ae4f7768e4f9c3c8756" category="paragraph">NetAppコンソールを使用して、関連するパフォーマンス サービス レベルのKeystoneサブスクリプションのコミット済み容量を変更できます。</block>
-  <block id="7a91109a620e891743c65eea451a0cf2" category="paragraph"><block ref="7a91109a620e891743c65eea451a0cf2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b5c32e6c2b4476154d229af70df8cf7a" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; モニタリング &gt; アラート モニター*を選択します。</block>
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetAppコンソールのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。</block>
@@ -2383,12 +2365,10 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c0029d3ed944e8ef4f598481e14db28c" category="paragraph"><block ref="c0029d3ed944e8ef4f598481e14db28c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f9aa673728fdf49de5fd7f4392426fc4" category="paragraph">テーブル ビューでは、消費された最大容量や有効期限までの残り日数などの詳細を確認できます。サブスクリプションの使用状況の監視の一環として、パフォーマンス サービス レベル名、容量の使用状況、コミット済み容量と使用済み容量、プロビジョニング済み容量とバースト容量、使用可能な容量、ボリュームを表示できます。列セレクターを使用してテーブルをカスタマイズできます<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>アイコン。</block>
   <block id="c8e3290600a931a2c7f5ea26d1268469" category="paragraph"><block ref="c8e3290600a931a2c7f5ea26d1268469" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="65c72fc91b63262452cae6ffc68b5fe8" category="list-text">サブスクリプションを変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> 。</block>
   <block id="3073adc4a7680cc828c55134467305ae" category="paragraph"><block ref="3073adc4a7680cc828c55134467305ae" category="inline-link-macro-rx"></block></block>
   <block id="503323af5c69bab54cb6fe53ccef6f8e" category="paragraph"><block ref="503323af5c69bab54cb6fe53ccef6f8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3564bb0e09fc76eb6075b25b3c3643e0" category="list-text">*重大度別の未解決アラート*: 重大度 (重大、警告、情報) に基づいて、未解決のアラートの合計数を一覧表示します。各カテゴリには、詳細を確認してさらにアクションを実行するための *表示* ボタンが含まれています。</block>
   <block id="fbdd0ec7256573dce976dc52a2cdad0e" category="list-text">*最も古い未解決のKeystoneアラート*: サブスクリプション全体で最も古い重大な未解決アラートの表を表示します。</block>
-  <block id="9fcb29f9ba41ea80f15f38f0907ab2f0" category="list-text">コミットされた容量を変更するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、<block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block> 。</block>
   <block id="012cc690ee0f390b86e69b7ef941643e" category="list-text">*リソースの選択*: 特定のサブスクリプションまたはすべてのサブスクリプションのモニターを作成するように選択します。選択したモニター タイプに基づいて、容量使用率モニターのサブスクリプション番号やパフォーマンス サービス レベルなど、表示される必須フィールドに入力します。また、サブスクリプション有効期限モニターのサブスクリプション番号のみを入力します。</block>
   <block id="17eb308ea945cce061c4020365ec2ddf" category="paragraph"><block ref="17eb308ea945cce061c4020365ec2ddf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="44758d2951f923446ffff8310f8ac382" category="section-title">2025年10月13日</block>
@@ -2505,4 +2485,12 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1c0706b323b25df07171d935dadca63d" category="sidebar">Keystone STaaS SLO について学ぶ</block>
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">請求について理解する</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">特定のボリューム構成に対する課金</block>
+  <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">サブスクリプションを変更できません</block>
+  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの更新:</block>
+  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">Keystoneサブスクリプションのコミット容量を変更するオプションは現在利用できません。この機能は将来のリリースで再導入される予定です。</block>
+  <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp ConsoleのKeystoneアクセス ロール</block>
+  <block id="cecfedde5e4474302df84ae302547216" category="list-text">コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="99a171058669ac189901e0c53c44ed13" category="admonition">アラート モニターを作成および管理するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">アラートを編集するには、* Keystone admin* ロールが必要です。* Keystone閲覧者* ロールでは、アラートの詳細のみを表示できます。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
+  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
 </blocks>

@@ -42,6 +42,9 @@ NOTE: *レポート* タブは現在、 Keystoneサブスクリプションで�
 
 *アラート モニター* タブから、容量の使用状況とサブスクリプションの有効期限を追跡するためのモニターを作成できます。必要に応じて、既存のモニターを編集、複製、または削除することもできます。
 
+
+NOTE: アラート モニターを作成および管理するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、 link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-keystone-roles.html["NetApp ConsoleのKeystoneアクセス ロール"^]。
+
 [role="tabbed-block"]
 ====
 .モニターを作成する

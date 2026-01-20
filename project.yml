@@ -130,8 +130,6 @@ sidebar:
         url: "/integrations/monitoring-alerts.html"
       - title: アラートモニターの表示と作成
         url: "/integrations/monitoring-alert-monitors.html"
-    - title: サブスクリプションを変更する
-      url: "/integrations/modify-subscription.html"
     - title: サービスリクエストを表示
       url: "/integrations/administration-tab.html"
     - title: ボリュームとオブジェクトストレージの詳細を表示する
