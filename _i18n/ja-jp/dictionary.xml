@@ -697,7 +697,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="308838aa7669887098042a1899ce59bc" category="list-text">クローンボリュームは、サイズが親ボリュームの10%（親ボリュームで使用されている物理容量に対するクローンボリュームで使用されている物理容量）未満であれば充電されません。</block>
   <block id="5e46e614581cd458f9521294062d3783" category="list-text">クローンボリュームが親の物理サイズの10%を超えると、クローンは標準ボリューム（使用済み論理容量）として課金されます。</block>
   <block id="f4c8dae91522d3ec93e26aff56248527" category="list-text">[開始日*（From Date）]および[終了日*（* To Date）]フィールドのカレンダーアイコンから時間範囲を選択します。クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。将来の日付は選択できません。</block>
-  <block id="36234decc68306d26e71012f98474aa1" category="paragraph">この機能は、プレビューのみのモードで使用できます。この機能の詳細については、KSMにお問い合わせください。</block>
   <block id="efca37f4dc4125775aa5043cc3e4ba6c" category="list-text">クエリの日付範囲を選択します。日付範囲には、月の初め、サブスクリプションの開始日から現在の日付、またはサブスクリプションの終了日を指定できます。将来の日付は選択できません。</block>
   <block id="f9e4dd599c840788d289af630bc65cdb" category="list-text">* Current Burst *：定義されたバースト制限内またはそれ以上の消費容量を示すインジケータ。サブスクリプションのバースト制限内（コミット済み容量を20%超過した場合など）の使用量は、バースト制限内に収まる。それ以上の使用量は、バースト制限を超えた使用量とみなされます。このフィールドには特定の色が表示されます。</block>
   <block id="c3ce6809be6bdc67ae978395484d0585" category="list-text">ONTAP 9.8以降</block>
@@ -1405,10 +1404,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetAppプロフェッショナルサービス</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">Keystone向けDIIは、Keystone以外の他の環境を監視する既存のインスタンスの一部として、または新しいインスタンスの一部として、2つの方法で統合できます。DIIを設定するのはお客様の責任です。複雑な環境でDIIを設定するためにサポートが必要な場合は、アカウントチームが対応します<block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>。</block>
   <block id="098aa3cf35fbf6dcd0f8bf264d8fbb02" category="inline-link-macro">データインフラの分析情報をオンボーディング</block>
-  <block id="5521be72a56c20199f2583f6122fb79e" category="paragraph">DIIの設定については、を参照してください<block ref="b97f1974c4920cfa5b0a8266cf2ad03c" category="inline-link-macro-rx"></block>。</block>
   <block id="71ef8949a55d6b1791e3d610418ebf29" category="inline-link-macro">DII 無償トライアル</block>
   <block id="5b425cd08035f29c3dad5d45f1d2ea6e" category="inline-link-macro">機能チュートリアル</block>
-  <block id="3b179eeaf9ac878bf9783e7b6444e172" category="list-text">お客様が新しいDIIインスタンスを開始する場合は、から開始することをお勧めします<block ref="9bb21587dbf1a819ba039401f4e5726c" category="inline-link-macro-rx"></block>。この機能および必要な起動チェックリストの詳細については、を参照してください<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>。</block>
   <block id="5774c882dad1ebd6e046b3a9fdfae618" category="inline-link-macro">Acquisition Unit をインストールする</block>
   <block id="b0a1bf81aa560384c37a6699221d9a92" category="list-text">サイトごとにAcquisition Unitが必要です。Acquisition Unitのインストールについては、を参照してください<block ref="42d868d67c77926a662ccf38524dc1ee" category="inline-link-macro-rx"></block>。お客様がすでにDIIインスタンスとAcquisition Unitをセットアップしている場合は、データコレクタの設定に進みます。</block>
   <block id="995baaed007a33dba572505ffd6d726b" category="inline-link-macro">データコレクタを設定する</block>
@@ -1737,7 +1734,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2b67a16f12da342bb3cbca5216d7c796" category="paragraph">1カ月間の累積バースト使用量は次のように計算されます。</block>
   <block id="546fa809ba406006a24d7ed5fae64eb8" category="admonition">請求される累積バースト使用量は、パフォーマンス サービス レベルのコミット済みおよび消費済み容量に基づいて、請求期間ごとに計算されます。</block>
   <block id="dfdee986152ec4047af664495ba755cd" category="inline-image-macro">日別累積バーストテーブルを示すスクリーンショット</block>
-  <block id="5ebd05a1b0a3fae552005acfec4e3c45" category="paragraph"><block ref="5ebd05a1b0a3fae552005acfec4e3c45" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d0baf3847f6e93ee353d71b13ee7d980" category="paragraph">Digital Advisor で、*請求済み累積バースト* オプションから請求データを表示するバーをクリックすると、棒グラフの下に請求可能なプロビジョニング済み容量セクションが表示され、グラフと表の両方の表示オプションが提供されます。デフォルトのグラフビューには、日単位のバーストデータ使用量が折れ線グラフ形式で表示され、時間の経過に伴う使用量の変化が示されます。</block>
   <block id="c349aee97f052361891132091b4ab93a" category="paragraph">グラフの右上隅にある* Table *オプションをクリックすると、テーブルビューに切り替えることができます。テーブル ビューには、パフォーマンス サービス レベル、タイムスタンプ、コミットされた容量、消費された容量、課金対象のプロビジョニングされた容量など、詳細な毎日の使用量メトリックが表示されます。これらの詳細のレポートをCSV形式で生成して、将来の使用や比較に使用することもできます。</block>
   <block id="eccd215d2aef918d99c7ac04567a0cdc" category="doc">Keystoneサブスクリプションの現在の消費量を表示します</block>
@@ -2233,7 +2229,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">アラートモニターの表示と作成</block>
   <block id="a2adacdfb688f8f57f2b03920c9e2a80" category="list-text"><block ref="a2adacdfb688f8f57f2b03920c9e2a80" category="inline-link-macro-rx"></block></block>
   <block id="5e8ec25578a50b65b6a5cd50c3407574" category="paragraph">サブスクリプションの詳細情報を表示するには、次の手順に従います。</block>
-  <block id="49ee8cd124ac86a74b0e8df79ea84356" category="admonition">*有効期限*列の横にある下矢印をクリックすると、各サブスクリプションのパフォーマンス サービス レベル情報を表示できます。これには、現在の使用量、コミットされた容量、プロビジョニングされた容量、バースト容量、使用可能な容量などの詳細な容量情報が表示されます。</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">2025年9月22日</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
@@ -2265,7 +2260,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4fef845c9e01e08990307334e4eea678" category="paragraph"><block ref="4fef845c9e01e08990307334e4eea678" category="inline-image-macro-rx" type="image"></block></block>
   <block id="86065a45dab20475bb9368ffbd10fe62" category="paragraph">Keystoneサブスクリプションの履歴データは、 NetAppコンソールまたはDigital Advisorから表示できます。</block>
   <block id="3c031b939f6ec312ee601d021e7a6644" category="open-title">NetAppコンソール</block>
-  <block id="bbd84f060e2b584367bb75302c5f5b07" category="paragraph">蓄積されたバースト データ使用量は、コンソールまたはDigital Advisorを通じて確認できます。コンソールの *消費傾向* タブの *表示* ドロップダウンから *累積バースト* を選択した場合、またはDigital Advisorの *消費傾向* タブから *請求済み累積バースト* オプションを選択した場合は、選択した請求期間に応じて、月次または四半期ごとに累積バースト データ使用量を確認できます。このデータは、請求された過去 12 か月間分が利用可能で、過去 30 か月までの日付範囲でクエリを実行できます。棒グラフには請求データが表示され、使用量がまだ請求されていない場合は、その期間に対して「保留中」とマークされます。</block>
   <block id="e833a568221431c19dcca95c850ae159" category="paragraph">コンソールまたはDigital Advisorを通じて、月次または四半期の請求期間における毎日の累積バースト データ使用量を表示できます。コンソールでは、[消費傾向] タブの [表示] ドロップダウンから [累積バースト] を選択すると、[日数別の累積バースト] テーブルに、タイムスタンプ、コミット済み、消費済み、累積バースト容量などの詳細なデータが表示されます。</block>
   <block id="dfa8d7fe27ec169b0ef41ef00fee0ae8" category="paragraph">NetAppコンソールまたはDigital Advisorを通じてサブスクリプションの現在の消費状況を表示するには、次の手順に従います。</block>
   <block id="10cb2c81585ad95f970824cfe6301506" category="summary">NetApp Keystone STaaS加入者は、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。</block>
@@ -2311,7 +2305,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">NetAppコンソールのKeystoneダッシュボードには、 Keystoneサブスクリプションのタイムライン ビューが提供され、アクティベーション、変更、更新日などのイベントが表示されます。このタイムライン ビューはDigital Advisorでは使用できません。</block>
   <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">サブスクリプションのタイムラインは、デフォルトでは折れ線グラフとして表示され、重要なイベントはアイコンでマークされます。イベントの上にマウスを移動すると、日付やコミットされた容量の変更などの詳細が表示されます。これらのイベントを表形式で表示するには、[表示形式] ドロップダウンから [表] オプションを選択します。他のサブスクリプションのタイムラインを表示するには、「*トラッキング ID*」ドロップダウンから選択または検索します。</block>
   <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">NetAppコンソールおよびDigital Advisorの *サブスクリプション* からすべてのサブスクリプションのリストを表示できます。このビューでは、サブスクリプションのステータスと使用状況に基づいたわかりやすい分析情報が提供され、常に情報を入手し、必要に応じて対応することができます。</block>
-  <block id="5e6ce2a236a2d35561ce83721f8bb7e4" category="paragraph"><block ref="5e6ce2a236a2d35561ce83721f8bb7e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="579139f19217a677980dce581b098367" category="paragraph">容量の使用状況、サブスクリプションの有効期限ステータス、未解決のアラートなどの主要なメトリックが表示されます。</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">表から次の詳細を確認できます。</block>
   <block id="a79d6591df4c712ce010c266887785cb" category="paragraph">これらの詳細を表示するには、 NetAppコンソールの *Assets* ページを参照してください。特定のKeystone STaaSサブスクリプションの詳細を表示するには、<block ref="33df2a894b84cf92bf7b059b0628f59d" category="inline-link-macro-rx"></block> 。複数のKeystoneサブスクリプションの詳細を表示するには、<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> 。</block>
@@ -2486,11 +2479,28 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="4996475aff4a957b37439e45da70e7da" category="sidebar">請求について理解する</block>
   <block id="d7343c0d20dd2babfa5f38e0b87a6939" category="sidebar">特定のボリューム構成に対する課金</block>
   <block id="0fa78e8d7c7b076da1f9e1d3fa517845" category="doc">サブスクリプションを変更できません</block>
-  <block id="6c8dd41ea59e163d8fa923e1f93882e6" category="paragraph">NetApp ConsoleのKeystoneダッシュボードの更新:</block>
-  <block id="ccaf34b2cf2472652ed113639a7f687c" category="paragraph">Keystoneサブスクリプションのコミット容量を変更するオプションは現在利用できません。この機能は将来のリリースで再導入される予定です。</block>
   <block id="252561ea020b2dfb8598526a78a88036" category="inline-link-macro">NetApp ConsoleのKeystoneアクセス ロール</block>
   <block id="cecfedde5e4474302df84ae302547216" category="list-text">コンソールとDigital Advisorには独自の機能がいくつか用意されていますが、コンソールはKeystoneの管理機能を提供し、サブスクリプションを管理したり、必要な調整を行ったりすることができます。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
   <block id="99a171058669ac189901e0c53c44ed13" category="admonition">アラート モニターを作成および管理するには、* Keystone admin* ロールが割り当てられている必要があります。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
   <block id="53a22728b83fc16fec4e96baf9b85af7" category="admonition">アラートを編集するには、* Keystone admin* ロールが必要です。* Keystone閲覧者* ロールでは、アラートの詳細のみを表示できます。詳細については、 <block ref="c1ba7ab85116b0653b4bddd0a4c0ce29" category="inline-link-macro-rx"></block>。</block>
-  <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">2026年1月19日</block>
+  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">毎日蓄積されるバーストデータのインタラクティブフィルタリング</block>
+  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">*消費傾向*タブの*日数別の累積バースト*テーブルで、インタラクティブなフィルタリングがサポートされるようになりました。発生したバースト請求グラフ内の任意のバーを選択すると、その請求期間内の日数のみが表示されます。詳細については、<block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">累積バーストグラフの日付範囲表示の強化</block>
+  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">*消費傾向*タブの累積バースト課金グラフに、月と年だけでなく、2025年10月1日から2025年10月31日までなど、各課金期間の完全な日付範囲が表示されるようになりました。</block>
+  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">拡張可能なサブスクリプション詳細ビュー</block>
+  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">*Subscriptions* タブには、すべてのサブスクリプションを展開し、各サブスクリプションのパフォーマンスサービスレベル情報を同時に表示するオプションが含まれています。詳細については、<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">新しい使用タイプ列</block>
+  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*サブスクリプション*タブには、プロビジョニングされた使用量、物理的な使用量、論理的な使用量のいずれに基づいてサブスクリプションが課金されるかを表示する*使用状況タイプ*列が含まれています。詳細については、<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">DIIを設定するには、<block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">顧客が新しいDIIインスタンスを開始する場合は、<block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>から始めることをお勧めします。この機能と必要な起動チェックリストについては、<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">蓄積されたバーストデータ使用量は、コンソールまたはDigital Advisorで確認できます。コンソールの*消費傾向*タブの*表示*ドロップダウンから*発生バースト*を選択した場合、またはDigital Advisorの*消費傾向*タブから*請求済み発生バースト*オプションを選択した場合、選択した請求期間に応じて、月ごとまたは四半期ごとに累積バーストデータ使用量を確認できます。このデータは、過去12か月間の請求データとして利用可能で、過去30か月までの日付範囲でクエリを実行できます。</block>
+  <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">Console では、発生したバースト課金グラフを操作して、毎日のデータ使用量をフィルタリングできます。詳細については、<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">コンソールでは、発生したバースト課金グラフの課金期間を表すバーを選択して、テーブルをフィルタリングできます。フィルタリングすると、選択した請求期間内の日数のみが表に表示されます。完全なデータセットを再度表示するには、*フィルターをクリア*オプションを使用します。選択した期間にデータが利用できない場合は、データが利用できないことを示すメッセージが表示されます。</block>
+  <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c4eab7429b9b42ab319272d31567f10b" category="paragraph"><block ref="c4eab7429b9b42ab319272d31567f10b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6331e16cef510e2a7170f77ace7d4d3c" category="list-text">*使用タイプ*：複数のKeystoneバージョンにサブスクライブしている可能性があります。パフォーマンスサービスレベルの料金プランルールは、サブスクリプションバージョンによって異なる場合があります。この列の値を見ることで、使用タイプがプロビジョニング済み、物理的、または論理的な使用量に基づいて課金されるかどうかがわかります。バージョン1の詳細については、<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="8c4ee08746e9d4d8b64596c87ac3fab1" category="inline-image-macro">展開アイコン</block>
+  <block id="b3aabf2706f0dd29444a14f90b5b670f" category="admonition">テーブルヘッダーの下矢印<block ref="f41a012a2c49083e45aae37ff23f77bc" category="inline-image-macro-rx" type="image"></block>をクリックすると、すべてのサブスクリプションを展開し、各サブスクリプションのパフォーマンスサービスレベル情報を同時に表示できます。これにより、すべてのサブスクリプションの現在の使用状況、コミット済み容量、プロビジョニング済み容量、バースト容量、および使用可能容量を含む詳細な容量情報が表示されます。または、個々のサブスクリプション行の*有効期限*列の横にある下矢印をクリックして、1つずつ展開することもできます。</block>
+  <block id="ce767e3edd2ea431ac6813a73951729f" category="paragraph">Keystoneサブスクリプションのコミット済み容量を変更するオプションは、現在NetApp Consoleでは使用できません。この機能は、今後のリリースで再導入される予定です。</block>
+  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026年2月2日</block>
 </blocks>
