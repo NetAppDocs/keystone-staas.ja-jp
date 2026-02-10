@@ -118,6 +118,8 @@ sidebar:
         url: "/integrations/consumption-tab.html"
       - title: サブスクリプションのタイムラインを表示する
         url: "/integrations/subscription-timeline.html"
+      - title: MetroClusterサブスクリプションの消費量と健全性を表示
+        url: "/integrations/adp-tab.html"
     - title: アセットの表示
       entries:
       - title: サブスクリプションに関連付けられたアセットを表示する
@@ -150,8 +152,10 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: パフォーマンスサービスレベルの容量要件
         url: "/concepts/capacity-requirements.html"
-    - title: アドオンサービスについて学ぶ
+    - title: アドオンサービス
       entries:
+      - title: 高度なデータ保護
+        url: "/concepts/adp.html"
       - title: バースト容量オプション
         url: "/concepts/burst-capacity.html"
       - title: データインフラの分析情報

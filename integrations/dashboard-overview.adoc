@@ -102,6 +102,11 @@ link:../integrations/volumes-objects-tab.html["ボリュームとオブジェク
 
 
  a| 
+link:../integrations/adp-tab.html["MetroClusterの消費量と健全性を表示"]
+| はい（ヘルスステータス、トポロジビュー、同期監視を含む） | はい（消費データのみ） 
+
+
+ a| 
 link:../integrations/performance-tab.html["パフォーマンス指標の表示"]
 | いいえ | はい 
 |===

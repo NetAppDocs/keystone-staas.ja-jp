@@ -1,0 +1,171 @@
+---
+sidebar: sidebar 
+permalink: integrations/adp-tab.html 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
+summary: Keystoneの高度なデータ保護アドオンサービスに登録すると、MetroClusterパートナーサイトの消費データを表示し、健全性ステータスを監視できます。 
+---
+= Keystone MetroClusterサブスクリプションの消費量と健全性を表示
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+高度なデータ保護アドオンサービスに加入すると、MetroClusterパートナーサイトの消費データをNetApp ConsoleまたはDigital Advisorで表示できます。NetApp Consoleでは、MetroClusterセットアップのレプリケーションステータスと健全性を監視することもできます。
+
+
+
+== MetroClusterサブスクリプションの消費量と健全性ステータスを表示
+
+次の手順を実行します。
+
+[role="tabbed-block"]
+====
+.NetAppコンソール
+--
+.手順
+. コンソールの左側のナビゲーション メニューから、*ストレージ > Keystone > サブスクリプション*を選択します。
+. *サブスクリプション番号*列でMetroClusterサブスクリプションを選択します。
++
+
+TIP: MetroClusterサブスクリプションは、image:metrocluster-icon.png["MetroClusterサブスクリプションシンボル"]アイコンで識別されます。
+
++
+*Current consumption*タブが開き、サブスクライブした基本パフォーマンス サービス レベルとそれに対応する高度なデータ保護パフォーマンス サービス レベルの消費量分析情報が表示されます。この情報は表形式またはグラフ形式で表示できます。詳細については、link:../integrations/current-usage-tab.html["Keystoneサブスクリプションの現在の消費量を表示します"]を参照してください。
+
+. *Advanced data protection（ADP）*タブを選択します。
++
+このタブでは、プライマリサイトとミラーサイトの両方での基本パフォーマンスサービスレベルの消費データを表示し、MetroClusterセットアップの健全性ステータスを監視し、同期ステータスを追跡できます。
+
++
+** 選択した期間の消費分布チャートを表示します。
++
+グラフには、プライマリサイトとミラーサイトの両方の消費量が表示されます。グラフの上にマウスを移動すると、各サイトの消費量の内訳がテビバイト（TiB）単位で表示されます。
+
++
+
+NOTE: 基本パフォーマンス サービス レベルでは、各ボリュームはプライマリ サイトとミラー サイトの両方でプロビジョニングされたとおりに課金されます。したがって、グラフは各サイトでの消費量を反映するように分割されます。
+
++
+*例：*ツールヒントには、プライマリサイトの1.15 TiBやミラーサイトの4.22 TiBなどの消費量の値が表示されます。
+
++
+image:adp-consumption-chart.png["MetroCluster の消費分布を示す折れ線グラフ。ツールチップにプライマリサイトで 1.15 TiB、ミラーサイトで 4.22 TiB と表示されます"]
+
+** *ADP トポロジ*ビューでMetroClusterセットアップの健全性ステータスを監視します。
++
+トポロジには、プライマリサイトとミラーサイト間の接続ステータス（正常、劣化、切断、または初期化中）、データ同期ステータス（同期中または非同期）、および設定されている場合はONTAP Mediatorのステータスが表示されます。ONTAP Mediatorの詳細については、link:https://docs.netapp.com/us-en/ontap/mediator/mediator-overview-concept.html["ONTAP Mediatorについて学ぶ"^]を参照してください。
+
++
+image:adp-topology.png["プライマリサイト（クラスタA）、ミラーサイト（クラスタB）、接続ステータスインジケータ、同期ステータス、およびONTAP Mediatorを表示するADPトポロジの画像"]
+
++
+
+TIP: ADP トポロジから Cluster B サブスクリプション（ミラー）を選択して、それをプライマリ サイトとして表示できます。
+
++
+
+TIP: 同期ステータスが同期していない、または接続ステータスが低下している場合は、link:../concepts/support-services.html["Keystoneに関するサポートを受ける"]を参照して問題のトラブルシューティングを行います。
+
+** プライマリ サイトまたはミラー サイトの履歴データの消費傾向を表示します。
++
+*容量使用率*の下で、クラスタ A（プライマリ）またはクラスタ B（ミラー）の横にある *表示* を選択します。
+
++
+*消費傾向*タブが開き、指定された日付範囲における選択したクラスターの履歴データが表示されます。基本および高度なデータ保護パフォーマンス サービス レベルの両方について、容量使用傾向を分析できます。詳細については、link:../integrations/consumption-tab.html["Keystoneサブスクリプションの消費動向を表示"]を参照してください。
+
++
+*例：* 次のグラフは、プライマリサイト（クラスタA）の_Premium_パフォーマンスサービスレベル（ベース）の消費量を示しています：
+
++
+image:adp-base-consumption.png["プライマリサイトのPremium パフォーマンス サービス レベル消費チャート"]
+
++
+_Advanced Data-Protect premium_ パフォーマンスサービスレベルの場合、プライマリサイト（クラスタA）のグラフは次のようになります：
+
++
+image:adp-consumption.png["プライマリサイトのAdvanced Data Protection Premium消費チャート"]
+
++
+_Advanced Data-Protect_ パフォーマンスサービスレベルでは、総消費量はプライマリサイトとミラーサイトの間で分割され、各サイトでの使用量は別々のサブスクリプションに反映され、課金されます。1つのサブスクリプションはプライマリサイト用、もう1つはミラーサイト用です。そのため、*消費傾向*タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費チャートにプライマリサイトのみの個別の消費詳細が表示されます。MetroCluster構成の各パートナーサイトはソースとミラーの両方の役割を果たすため、各サイトでの合計消費量には、そのサイトで作成されたソースボリュームとミラーボリュームが含まれます。詳細については、link:../concepts/adp.html["Keystoneの高度なデータ保護アドオン"]を参照してください。
+
+
+
+
+
+MetroClusterによるデータ保護の詳細については、 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["MetroClusterのデータ保護およびディザスタ リカバリの概要"^]を参照してください。
+
+--
+.Digital Advisor
+--
+.手順
+. *General > Keystone Subscriptions > Consumption Trend*を選択します。
+. MetroClusterサブスクリプションを選択します。
++
+ONTAP ストレージ環境のクラスタが MetroCluster セットアップで構成されている場合、Keystone サブスクリプションの消費データは同じ履歴データ チャートに分割され、基本パフォーマンス サービス レベルのプライマリ サイトとミラー サイトでの消費量が表示されます。
+
++
+
+NOTE: 消費棒グラフは、基本パフォーマンスサービスレベルのみに分割されます。高度なデータ保護アドオンサービス、つまり_Advanced Data-Protect_パフォーマンスサービスレベルの場合、この区別は表示されません。
+
++
+
+TIP: *現在の消費*タブのサブスクリプションのトラッキングIDの横にあるツールチップは、MetroCluster設定でパートナーサブスクリプションを識別するのに役立ちます。
+
++
+*高度なデータ保護パフォーマンスサービスレベル* 高度なデータ保護パフォーマンスサービスレベルでは、総消費量がパートナーサイト間で分割され、各パートナーサイトでの使用量は個別のサブスクリプションに反映され、課金されます。1つのサブスクリプションはプライマリサイト用、もう1つはミラーサイト用です。そのため、[消費傾向]タブでプライマリサイトのサブスクリプション番号を選択すると、高度なデータ保護アドオンサービスの消費チャートにプライマリサイトのみの個別の消費詳細が表示されます。MetroCluster構成の各パートナーサイトはソースとミラーの両方の役割を果たすため、各サイトでの合計消費量には、そのサイトで作成されたソースボリュームとミラーボリュームが含まれます。
+
++
+*基本パフォーマンスサービスレベル* 基本パフォーマンスサービスレベルでは、各ボリュームはプライマリサイトとミラーサイトでプロビジョニングされたとおりに課金されるため、同じ棒グラフがプライマリサイトとミラーサイトでの消費量に応じて分割されます。
+
++
+*プライマリサブスクリプションビュー*
+
++
+次の画像は、_Performance_ サービスレベル（基本パフォーマンスサービスレベル）のグラフを示しています。同じ履歴データグラフには、プライマリサイトに使用されているのと同じ色コードの明るい色で、ミラーサイトの消費量も表示されます。グラフの上にマウスを移動すると、各サイトの消費量の内訳が TiB 単位で表示されます。この例では、プライマリサイトの値は 95.04 TiB、ミラーサイトの値は 93.38 TiB です。
+
++
+image:mcc-chart-2.png["mcc プライマリ"]
+
++
+_Advanced Data-Protect_ パフォーマンスサービスレベルの場合、グラフは次のようになります：
+
++
+image:adp-src-2.png["MCCプライマリベース"]
+
++
+表示される消費量94.21 TiBは、プライマリサブスクリプションの使用量を表します。高度なデータ保護により、消費量が個別のサブスクリプションを持つパートナーサイト間で分割されるため、このグラフにはプライマリサイトの使用状況のみが表示されます。高度なデータ保護アドオンサービスの価格については、link:../concepts/adp.html#understand-pricing["価格について"]を参照してください。
+
++
+*Mirror サブスクリプションビュー*
+
++
+ミラーサブスクリプションを確認すると、パートナーサイトと同じデータ収集ポイントの_Performance_サービスレベル（基本パフォーマンスサービスレベル）の棒グラフが反転され、プライマリサイトとミラーサイトでの消費量の内訳がそれぞれ93.38 TiBと95.04 TiBであることがわかります。
+
++
+image:mcc-chart-mirror-2.png["mccミラー"]
+
++
+_Advanced Data-Protect_ パフォーマンスサービスレベルでは、パートナーサイトと同じ収集ポイントのグラフは次のようになります：
+
++
+image:adp-mir-2.png["mccミラーベース"]
+
+
+
+MetroClusterによるデータ保護の詳細については、 https://docs.netapp.com/us-en/ontap-metrocluster/manage/concept_understanding_mcc_data_protection_and_disaster_recovery.html["MetroClusterのデータ保護およびディザスタ リカバリの概要"^]を参照してください。
+
+--
+====
+* 関連情報 *
+
+* link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
+* link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
+* link:../integrations/current-usage-tab.html["現在の消費量の詳細を表示する"]
+* link:../integrations/consumption-tab.html["消費トレンドの表示"]
+* link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを表示する"]
+* link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
+
