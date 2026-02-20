@@ -44,6 +44,10 @@ NOTE: パフォーマンス サービス レベルに複数のインスタンス
 +
 image:console-current-consumption-table.png["表形式での電流消費量の詳細"]
 
++
+
+NOTE: 高度なデータ保護（ADP）やData Infrastructure Insights（DII）などのアドオンサービスに加入している場合、これらのサービスの現在の消費量が、グラフ表示とテーブル表示の両方で基本パフォーマンスサービスレベルとともに表示されます。アドオンサービスの詳細については、link:../concepts/adp.html["アドオンサービスについて学ぶ"]を参照してください。
+
 
 
 --

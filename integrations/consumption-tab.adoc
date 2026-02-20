@@ -38,6 +38,10 @@ Keystoneサブスクリプションの履歴データは、 NetAppコンソー�
 NOTE: 請求書が生成されたバースト使用量の履歴データを表示するには、「表示」ドロップダウンから「累積バースト」を選択してください。このデータを使用して、請求書に反映されている請求使用量を分析できます。詳細については、を参照して link:../integrations/consumption-tab.html#view-accrued-burst["蓄積されたバーストを表示"]ください。
 
 +
+
+NOTE: 高度なデータ保護（ADP）やData Infrastructure Insights（DII）などのアドオンサービスに加入している場合、これらのサービスの消費データが、消費履歴と累積バーストビューの両方で基本パフォーマンスサービスレベルと一緒に表示されます。アドオンサービスの詳細については、link:../concepts/adp.html["アドオンサービスについて学ぶ"]を参照してください。
+
++
 image:bxp-consumption-trend-1.png["消費履歴を表示するスクリーンショット"]
 
 +
@@ -163,3 +167,14 @@ image:invoiced-daily-accr-burst-1.png["棒グラフを示すスクリーンシ�
 image:invoiced-daily-accr-burst-date.png["バースト使用量データを折れ線グラフ形式で示すスクリーンショット"]
 
 グラフの右上隅にある* Table *オプションをクリックすると、テーブルビューに切り替えることができます。テーブル ビューには、パフォーマンス サービス レベル、タイムスタンプ、コミットされた容量、消費された容量、課金対象のプロビジョニングされた容量など、詳細な毎日の使用量メトリックが表示されます。これらの詳細のレポートをCSV形式で生成して、将来の使用や比較に使用することもできます。
+
+* 関連情報 *
+
+* link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
+* link:../integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示する"]
+* link:../integrations/current-usage-tab.html["Keystoneサブスクリプションの現在の消費量を表示します"]
+* link:../integrations/subscription-timeline.html["Keystoneサブスクリプションのタイムラインを表示する"]
+* link:../integrations/assets-tab.html["Keystone サブスクリプションに関連付けられた資産を表示する"]
+* link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]
+* link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細の表示"]
+

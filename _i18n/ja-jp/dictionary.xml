@@ -1398,8 +1398,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="3b95e9802e539ed39990d7c53e7f63cc" category="paragraph">NetApp Data Infrastructure Insights（DII、旧Cloud Insights）は、Keystone STaaS向けのアドオンサービスです。このサービスをKeystone STaaSと統合することで、パブリッククラウドとプライベートデータセンターにわたるKeystoneが提供するストレージリソースの監視、トラブルシューティング、最適化の機能が強化されます。</block>
   <block id="b4116a637c9ad7ac63e4694f7d72fe47" category="inline-link-macro">Data Infrastructure Insightsドキュメント</block>
   <block id="791f81543da974a0b785676eb2cfa67d" category="paragraph">Data Infrastructure Insightsの詳細については、を参照してください<block ref="d3b10d06b902e7a0afb7dc49b48a5ee1" category="inline-link-macro-rx"></block>。</block>
-  <block id="8821a03fd087171377d0af609b3c7f94" category="inline-image-macro">DIIサービスレベルを示す[Keystone Subscriptions]ウィジェットのスクリーンショット</block>
-  <block id="62d433b3a1743ca27d23bb2bc966e462" category="paragraph"><block ref="62d433b3a1743ca27d23bb2bc966e462" category="inline-image-macro-rx" type="image"></block></block>
   <block id="35093b8f232384c1cc56aa0b089de156" category="section-title">Keystone向けDIIの導入</block>
   <block id="af7685e284aa0e1b6d46a67961bbd7ea" category="inline-link-macro">NetAppプロフェッショナルサービス</block>
   <block id="f7cbbc681ca27bebc7825144375b3923" category="paragraph">Keystone向けDIIは、Keystone以外の他の環境を監視する既存のインスタンスの一部として、または新しいインスタンスの一部として、2つの方法で統合できます。DIIを設定するのはお客様の責任です。複雑な環境でDIIを設定するためにサポートが必要な場合は、アカウントチームが対応します<block ref="d0b2c9035727476f87ec5eb3369e77e6" category="inline-link-macro-rx"></block>。</block>
@@ -1419,8 +1417,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9a46d798eebbf17a0a8de6e011f77e61" category="section-title">課金と計測</block>
   <block id="906219bd5cad7b32c457e4301bb3dddb" category="paragraph">以下に、DIIアドオンサービスの課金と計測の詳細の概要を示します。</block>
   <block id="4845aab96333666b12d6803a4dfa7e2f" category="list-text">このサービスは、お客様のメインサブスクリプションと同じ方法で測定されます。たとえば、メインのサブスクリプションに100TiBのExtremeサービスと100TiBのPremiumサービスが含まれている場合、どちらも論理使用量に基づいて測定されます。アドオンサービスのDII Extreme 100TiBとDII Premium 100TiBも、論理使用量に基づいて測定されます。メインのサブスクリプションがプロビジョニングベースで測定される場合、アドオンサービスは同じ容量に対して同じ方法で測定されます。アドオンサービスは、メインサブスクリプションと同じ測定方法に従います。</block>
-  <block id="c99e19e7853ccd0683be6a6018ad7741" category="inline-image-macro">サービスレベルの計測値を示す[Current Consumption]タブのスクリーンショット</block>
-  <block id="b0885a29b96393f9e5617fe484028b66" category="paragraph"><block ref="b0885a29b96393f9e5617fe484028b66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8db98a7e401d579f2dabed9e0f2ae0e5" category="list-text">このサービスは、Keystoneサブスクリプションと一緒に計測、請求され、同じ請求書に記載されます。Keystoneサブスクリプションをアクティブ化する前にKeystone用にDIIを設定しても、Keystoneサブスクリプションのアクティブ化日または既存のサブスクリプションの変更日から課金が開始されます。</block>
   <block id="acc5c60ef02b38c0c3d244a1fce02d83" category="list-text">このサービスは、リンク先のKeystoneサブスクリプションで終了します。更新時に、アドオンサービスを更新するかどうかを選択できます。Keystoneサブスクリプションを更新しないと、監視対象のハードウェアが運用停止され、アドオンサービスは自動的に終了します。</block>
   <block id="bfff02ceb19e1dc747612576a86266f9" category="section-title">サポートとユーザアクセス</block>
@@ -1631,8 +1627,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">削減される容量は、Extremeパフォーマンス・サービスレベルに割り当てられている容量の(125-108) = 17TiBです。支出の再割り当て時に、割り当てられたハイブリッドクラウドストレージの容量は17TiBではなく、5、000ドルで購入可能な容量に相当します。この例では、5,000ドルで、Extremeパフォーマンス・サービスレベルのオンプレミスストレージ容量17TiBと、Cloud Volumes ONTAPパフォーマンス・サービスレベルのハイブリッドクラウド容量47TiBを利用できます。したがって、再割り当ては容量ではなく支出に関するものです。</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">コミットされた容量は、サブスクリプションの購入時に特定のパフォーマンス サービス レベルに対してコミットされた容量です。</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">コミットされた容量は、お客様と NetApp/パートナーが承認した、単一のサブスクリプション内のさまざまなパフォーマンス サービス レベルの合計容量になります。この容量は、Keystoneの注文ごとに記載され、実際の容量の消費量にかかわらず請求されます。</block>
-  <block id="c3f0cd4e0817ed6ccaf89e89dc466a7b" category="paragraph">DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DII を Keystone サブスクリプションに統合すると、サブスクリプション内の各基本パフォーマンス・サービス・レベルに対応するパフォーマンス・サービス・レベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DII のパフォーマンス・サービス・レベルが Keystone サブスクリプションの基本パフォーマンス・サービス・レベルと確実に一致するようになります。</block>
-  <block id="c2ad6efc2c70a7ddf3129813b4086d9d" category="paragraph">Digital Advisor ダッシュボードの *Keystone Subscriptions* ウィジェット内の DII パフォーマンス サービス レベルのビュー:</block>
   <block id="a7e6ac4ae7947619253439c265eec249" category="paragraph">設定が完了すると、DII インスタンスは Keystone の一部として導入された NetApp ストレージ リソースの監視を開始します。</block>
   <block id="abc501d7e199ea4ea077a268557f07c6" category="inline-link-macro">Keystoneダッシュボードとレポート</block>
   <block id="5179c99cf35cfc837a65bf568160b173" category="admonition">DIIは導入されたハードウェアの広範な監視機能を提供しますが、Keystoneサブスクリプションの使用状況やパフォーマンス・サービスレベルの詳細など、サブスクリプションに関する詳細情報は提供しません。サブスクリプションに関する詳細情報については、以下をご覧ください。 <block ref="0c9f3efee4ad3aaa79c65e2bbafc9a0a" category="inline-link-macro-rx"></block> 。</block>
@@ -1756,7 +1750,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="060031875f3f915385690798ab0a3740" category="paragraph">Digital Advisorダッシュボードの*Keystoneサブスクリプション*ウィジェットでは、サブスクリプションと使用量の詳細、および購入したKeystoneサービスに対する容量使用量の概要を確認できます。*Keystoneサブスクリプション*ウィジェットの詳細については、以下をご覧ください。 <block ref="00ed8f21a4cef28d7d8aa80cda364760" category="inline-link-macro-rx"></block> 。</block>
   <block id="2d6e1b228a12f4c76c76939e28065d07" category="list-text"><block ref="2d6e1b228a12f4c76c76939e28065d07" category="inline-link-macro-rx"></block></block>
   <block id="85d148be40895e3d0f9c047d8b0e01b1" category="paragraph">Keystoneダッシュボードは、Keystoneサブスクリプションを効率的に監視、分析、管理するための頼りになるソリューションです。Keystoneダッシュボードを通じて、以下の目標を達成できます。</block>
-  <block id="2bf64d92e1a315894ffc10df4f760430" category="list-text">*サブスクリプションの詳細を監視*: パフォーマンス サービス レベル、容量使用率、資産、アラートなど、Keystone サブスクリプションに関する詳細情報を表示します。</block>
   <block id="80e1eadef41b346546973348e209664d" category="list-text">*容量使用状況を追跡し、レポートを生成*: 現在の容量使用状況と履歴容量使用状況を追跡し、レポートを生成してサブスクリプション データを分析して情報に基づいた意思決定を行います。</block>
   <block id="00a41eeac0923d207b9573b66eb56d6e" category="list-text">*サブスクリプションのタイムラインを表示*: サブスクリプションのタイムラインを監視して、重要な日付やイベントに関する最新情報を入手できます。</block>
   <block id="5da0271ff0556b615a698484060fe793" category="list-text">*サブスクリプションの管理*: ニーズの変化に応じて、パフォーマンス サービス レベルやその他のサブスクリプション パラメータを変更するリクエストを送信します。</block>
@@ -1813,7 +1806,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Keystoneサブスクリプションの詳細を表示する</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">サブスクリプションタブの詳細を表示する</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*顧客名*: Keystone サブスクリプションに関連付けられている顧客の名前。</block>
-  <block id="1785b788275c7de318abca94e5882fe1" category="list-text">*リンクされたサブスクリプション*: プライマリサブスクリプションにリンクされたセカンダリサブスクリプションがある場合、この列にはプライマリサブスクリプションにリンクされたサブスクリプション番号が表示されます。このサブスクリプション番号は、プライマリサブスクリプションまたはセカンダリ（リンクされた）サブスクリプションのいずれの番号でもかまいません。</block>
   <block id="7e147d47de92c4a609c07c4bb5e40f29" category="list-text">*請求期間*: サブスクリプションの請求期間。</block>
   <block id="15d3201050b72761174ef874891c70c2" category="list-text">*パフォーマンス サービス レベル*: サブスクリプションに関連付けられた料金プランの数。各料金プランは、特定のパフォーマンス サービス レベルとコミットされた容量に対応します。</block>
   <block id="7977aee626f33c6d577f1efc799f2747" category="list-text">*最大容量*: サブスクリプション内で消費される最大容量。</block>
@@ -2112,7 +2104,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e7a862d1277ff52d64b2b8419fe26d69" category="list-text">*容量使用量*: バーストを超えている、バーストを使用している、および十分に活用されていないサブスクリプションの容量消費状態。各カテゴリには、関連するフィルターが適用された *サブスクリプション* タブに移動するための *表示* ボタンが含まれています。</block>
   <block id="12e1b3132ab24ad467a7db5c6d50da11" category="list-text">* Keystoneバージョン*: サブスクリプションに使用されているKeystoneサービスのバージョン。パフォーマンス サービス レベルの料金プラン ルールは、サブスクリプション バージョンによって異なる場合があります。バージョンv1の詳細については、<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block> 。</block>
   <block id="2011f3283ff705ca06648130cb758700" category="paragraph"><block ref="2011f3283ff705ca06648130cb758700" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="e3db4ac6b95d51ce2a9fc54f2ebc8f17" category="list-text">*リンクされたサブスクリプション*: この列はオプションで使用できます。プライマリ サブスクリプションにリンクされたセカンダリ サブスクリプションがある場合、この列にはプライマリ サブスクリプションにリンクされたサブスクリプション番号が一覧表示されます。このサブスクリプション番号は、プライマリ サブスクリプションまたはセカンダリ (リンクされた) サブスクリプションの番号になります。</block>
   <block id="afb3d054878af254ad9d657e9c39d6be" category="paragraph">選択したKeystone STaaS サブスクリプションについて、ボリュームの合計数、保護されているボリュームの数、ランサムウェア対策のステータス、およびすべてのボリュームの合計コミット容量、消費容量、および使用可能な容量を確認できます。保護されているボリュームの数をクリックすると、[ボリュームの詳細] タブに移動し、選択内容に基づいて保護されているボリュームを示すフィルターされたリストを表示できます。</block>
   <block id="c7409eaa8633fe96cf75ec03a907af58" category="paragraph"><block ref="c7409eaa8633fe96cf75ec03a907af58" category="inline-image-macro-rx" type="image"></block></block>
   <block id="964c0373b6e90b739308a155629631d1" category="paragraph"><block ref="964c0373b6e90b739308a155629631d1" category="inline-image-macro-rx" type="image"></block></block>
@@ -2593,6 +2584,30 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="97e3a227dc9559ee612b1a162bda9b44" category="cell">はい（消費データのみ）</block>
   <block id="83a7d79d2446fe66f125a9ccf9a54e8d" category="list-text">*サブスクリプション番号*：NetAppによって割り当てられたKeystoneサブスクリプションのサブスクリプション番号。<block ref="a865e8e7573241a1da9d2c81b0ca0ac4" category="inline-image-macro-rx" type="image"></block>アイコンが付いているサブスクリプションは、MetroClusterサブスクリプションです。MetroClusterサブスクリプションの詳細については、<block ref="660e84029d4c47136198fc3e50dbcb48" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="ac2952bbdeeadb1f8bfdc6205fabd389" category="sidebar">MetroClusterサブスクリプションの消費量と健全性を表示</block>
-  <block id="ab556116f6e3e88a66d6fb6d623318fa" category="sidebar">アドオンサービス</block>
   <block id="3f20b3134627198be1e0ff879a88cd8f" category="sidebar">高度なデータ保護</block>
+  <block id="ca1d1a0086fee239544c6e4e89b5f8f8" category="doc">Data Infrastructure Insightsアドオン消費量表示</block>
+  <block id="4d0aa03b8805975279d25e57b83cad25" category="inline-link-macro">Data Infrastructure Insights消費量を表示</block>
+  <block id="903f10a385ab3936430e26fbc1b90d88" category="paragraph">Data Infrastructure Insights（DII）アドオンの消費量が*現在の消費量*および*消費傾向*タブに表示されるようになりました。詳細については、<block ref="e1ed0a5aaa8506a20b57415cc0717b20" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="ade2f26a9f9c3f533ed70befc7417b6b" category="section-title">Keystoneサブスクリプション向けのDIIについて</block>
+  <block id="9843f64ed3799d5bdb14dda01a9b5a37" category="paragraph">DII は新規サブスクリプションと既存サブスクリプションの両方でご利用いただけます。コミット容量のアドオンとして Keystone サブスクリプションに統合できます。</block>
+  <block id="28ee0e8daa391f128672facc133e687f" category="paragraph">Data Infrastructure InsightsがKeystoneサブスクリプションに統合されている場合、サブスクリプション内の各基本パフォーマンスサービスレベルに対応するパフォーマンスサービスレベルが存在します。たとえば、ExtremeはData Infrastructure Insights Extremeにマップされ、PremiumはData Infrastructure Insights Premiumにマップされ、PerformanceはData Infrastructure Insights Performanceにマップされます。これらのマッピングにより、Data Infrastructure Insightsパフォーマンスサービスレベルが、Keystoneサブスクリプションの基本パフォーマンスサービスレベルと一致するようになります。</block>
+  <block id="0ff7208ef5e37de33ec837dee18cbdc1" category="paragraph">DIIアドオンサービスの消費状況は、NetApp ConsoleまたはDigital Advisorで確認できます。DIIパフォーマンスサービスレベル（DII Extreme、DII Premium、DII Performanceなど）の消費データは、現在の消費状況および消費傾向ビューで、ベースのパフォーマンスサービスレベルと並んで表示されます。</block>
+  <block id="be42f3858da5f1cd379afec5cbef2b6c" category="paragraph">次の例は、コンソールの *現在の消費量* タブの Data Infrastructure Insights パフォーマンス サービス レベルを示しています：</block>
+  <block id="ab206be215309dfd48d917f39a386bc6" category="inline-image-macro">Data Infrastructure Insights サービスレベルを表示する現在の消費タブのスクリーンショット</block>
+  <block id="6fb64940a1e6a241679a7f0c8fda8824" category="paragraph"><block ref="6fb64940a1e6a241679a7f0c8fda8824" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c3ef5e8e1cbfd217063168e43da5eee8" category="paragraph">次の例は、Digital Advisorの*Keystone Subscriptions*ウィジェットにおけるDIIパフォーマンスサービスレベルを示しています：</block>
+  <block id="53e2dacb590ff4008c16b7f5067d048b" category="inline-image-macro">Keystone サブスクリプションウィジェットのスクリーンショット（DII サービスレベルを表示）</block>
+  <block id="1a319c77796208929656fe0e744e4694" category="paragraph"><block ref="1a319c77796208929656fe0e744e4694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d2e0a33a4ecfd25ee5df1b85c1d29c5c" category="paragraph">消費量の表示の詳細については、以下を参照してください：</block>
+  <block id="fad18dbea5fe4d53670ce8b5f31e4228" category="list-text"><block ref="fad18dbea5fe4d53670ce8b5f31e4228" category="inline-link-macro-rx"></block></block>
+  <block id="d40818e721dbdfb8ef017a3c524d1def" category="list-text"><block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block></block>
+  <block id="ec3c5dc2acc96dd435267e93ff378ceb" category="inline-link-macro">アドオンサービスについて学ぶ</block>
+  <block id="85a900a56892dba4e86c93a2ca9a49c9" category="admonition">高度なデータ保護（ADP）やData Infrastructure Insights（DII）などのアドオンサービスに加入している場合、これらのサービスの消費データが、消費履歴と累積バーストビューの両方で基本パフォーマンスサービスレベルと一緒に表示されます。アドオンサービスの詳細については、<block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="f8ca7590fc27a84df2479575446a86d2" category="list-text"><block ref="f8ca7590fc27a84df2479575446a86d2" category="inline-link-macro-rx"></block></block>
+  <block id="2cf57deab11a97384e65ae3b18f8e059" category="list-text"><block ref="2cf57deab11a97384e65ae3b18f8e059" category="inline-link-macro-rx"></block></block>
+  <block id="102319efa425f0a1168cb455080902ee" category="admonition">高度なデータ保護（ADP）やData Infrastructure Insights（DII）などのアドオンサービスに加入している場合、これらのサービスの現在の消費量が、グラフ表示とテーブル表示の両方で基本パフォーマンスサービスレベルとともに表示されます。アドオンサービスの詳細については、<block ref="a9f54665bc3ae1390a16fe76b63295f2" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="dd22742edaecc726c34a5b11cbaa62a9" category="list-text">*サブスクリプションの詳細をモニター*：Keystoneサブスクリプションに関する詳細情報（パフォーマンスサービスレベル（ベースサービスおよび高度なデータ保護やData Infrastructure Insightsなどのアドオンサービス）、容量使用量、資産、アラートを含む）を表示します。</block>
+  <block id="3a0ac91f607c4908d1e3d47d382884f8" category="list-text">*リンクされたサブスクリプション*：プライマリサブスクリプションにリンクされたセカンダリサブスクリプションがある場合、この列にはプライマリサブスクリプションにリンクされたサブスクリプション番号が表示されます。</block>
+  <block id="b3f613e3d8f464b4f2aaf03e58cd7343" category="list-text">*リンクされたサブスクリプション*：プライマリサブスクリプションにリンクされたセカンダリサブスクリプションがある場合、この列にはプライマリサブスクリプションにリンクされたサブスクリプション番号がリストされます。</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026年2月16日</block>
 </blocks>

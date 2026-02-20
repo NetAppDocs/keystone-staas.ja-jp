@@ -18,6 +18,18 @@ Keystone STaaS サービスの最新機能と拡張機能について学びま�
 
 
 
+== 2026年2月16日
+
+NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
+
+
+
+=== Data Infrastructure Insightsアドオン消費量表示
+
+Data Infrastructure Insights（DII）アドオンの消費量が*現在の消費量*および*消費傾向*タブに表示されるようになりました。詳細については、link:./concepts/data-infra-insights.html#view-dii-consumption["Data Infrastructure Insights消費量を表示"]を参照してください。
+
+
+
 == 2026年2月2日
 
 NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:

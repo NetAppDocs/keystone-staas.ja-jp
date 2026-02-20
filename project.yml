@@ -152,7 +152,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: パフォーマンスサービスレベルの容量要件
         url: "/concepts/capacity-requirements.html"
-    - title: アドオンサービス
+    - title: アドオンサービスについて学ぶ
       entries:
       - title: 高度なデータ保護
         url: "/concepts/adp.html"

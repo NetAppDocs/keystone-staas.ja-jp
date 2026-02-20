@@ -18,11 +18,13 @@ NetApp Data Infrastructure Insights（DII、旧Cloud Insights）は、Keystone S
 
 Data Infrastructure Insightsの詳細については、を参照してくださいlink:https://docs.netapp.com/us-en/data-infrastructure-insights/["Data Infrastructure Insightsドキュメント"^]。
 
-DIIは、新規および既存のサブスクリプションの両方で利用できます。コミット済み容量のアドオンとしてKeystoneサブスクリプションに統合できます。DII を Keystone サブスクリプションに統合すると、サブスクリプション内の各基本パフォーマンス・サービス・レベルに対応するパフォーマンス・サービス・レベルが設定されます。たとえば、ExtremeはDII Extremeにマッピングされ、PremiumはDII Premiumにマッピングされ、PerformanceはDII Performanceにマッピングされます。これらのマッピングにより、DII のパフォーマンス・サービス・レベルが Keystone サブスクリプションの基本パフォーマンス・サービス・レベルと確実に一致するようになります。
 
-Digital Advisor ダッシュボードの *Keystone Subscriptions* ウィジェット内の DII パフォーマンス サービス レベルのビュー:
 
-image:keystone-widget-dii.png["DIIサービスレベルを示す[Keystone Subscriptions]ウィジェットのスクリーンショット"]
+== Keystoneサブスクリプション向けのDIIについて
+
+DII は新規サブスクリプションと既存サブスクリプションの両方でご利用いただけます。コミット容量のアドオンとして Keystone サブスクリプションに統合できます。
+
+Data Infrastructure InsightsがKeystoneサブスクリプションに統合されている場合、サブスクリプション内の各基本パフォーマンスサービスレベルに対応するパフォーマンスサービスレベルが存在します。たとえば、ExtremeはData Infrastructure Insights Extremeにマップされ、PremiumはData Infrastructure Insights Premiumにマップされ、PerformanceはData Infrastructure Insights Performanceにマップされます。これらのマッピングにより、Data Infrastructure Insightsパフォーマンスサービスレベルが、Keystoneサブスクリプションの基本パフォーマンスサービスレベルと一致するようになります。
 
 
 
@@ -60,14 +62,31 @@ NOTE: DIIは導入されたハードウェアの広範な監視機能を提供�
 
 
 
+== Data Infrastructure Insights消費量を表示
+
+DIIアドオンサービスの消費状況は、NetApp ConsoleまたはDigital Advisorで確認できます。DIIパフォーマンスサービスレベル（DII Extreme、DII Premium、DII Performanceなど）の消費データは、現在の消費状況および消費傾向ビューで、ベースのパフォーマンスサービスレベルと並んで表示されます。
+
+次の例は、コンソールの *現在の消費量* タブの Data Infrastructure Insights パフォーマンス サービス レベルを示しています：
+
+image:console-current-consumption-dii.png["Data Infrastructure Insights サービスレベルを表示する現在の消費タブのスクリーンショット"]
+
+次の例は、Digital Advisorの*Keystone Subscriptions*ウィジェットにおけるDIIパフォーマンスサービスレベルを示しています：
+
+image:keystone-widget-dii.png["Keystone サブスクリプションウィジェットのスクリーンショット（DII サービスレベルを表示）"]
+
+消費量の表示の詳細については、以下を参照してください：
+
+* link:../integrations/current-usage-tab.html["Keystoneサブスクリプションの現在の消費量を表示します"]
+* link:../integrations/consumption-tab.html["Keystoneサブスクリプションの消費傾向を表示する"]
+
+
+
+
 == 課金と計測
 
 以下に、DIIアドオンサービスの課金と計測の詳細の概要を示します。
 
 * このサービスは、お客様のメインサブスクリプションと同じ方法で測定されます。たとえば、メインのサブスクリプションに100TiBのExtremeサービスと100TiBのPremiumサービスが含まれている場合、どちらも論理使用量に基づいて測定されます。アドオンサービスのDII Extreme 100TiBとDII Premium 100TiBも、論理使用量に基づいて測定されます。メインのサブスクリプションがプロビジョニングベースで測定される場合、アドオンサービスは同じ容量に対して同じ方法で測定されます。アドオンサービスは、メインサブスクリプションと同じ測定方法に従います。
-+
-image:current-consumption-dii.png["サービスレベルの計測値を示す[Current Consumption]タブのスクリーンショット"]
-
 * このサービスは、Keystoneサブスクリプションと一緒に計測、請求され、同じ請求書に記載されます。Keystoneサブスクリプションをアクティブ化する前にKeystone用にDIIを設定しても、Keystoneサブスクリプションのアクティブ化日または既存のサブスクリプションの変更日から課金が開始されます。
 * このサービスは、標準のKeystone請求書に加え、DIIパフォーマンスサービスレベルのコミット容量とバースト使用量に基づいて計測および請求されます。このアドオンサービスの計測方法は、基盤となるKeystoneサブスクリプションパフォーマンスサービスレベル（論理、プロビジョニング、または物理）と同じ方法に従います。
 * このサービスは、リンク先のKeystoneサブスクリプションで終了します。更新時に、アドオンサービスを更新するかどうかを選択できます。Keystoneサブスクリプションを更新しないと、監視対象のハードウェアが運用停止され、アドオンサービスは自動的に終了します。
