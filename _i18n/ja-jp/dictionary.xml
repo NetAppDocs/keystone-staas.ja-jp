@@ -1685,7 +1685,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="a6d14f938372e9370efce69c777dcc25" category="admonition">列セレクターを使用してテーブルをカスタマイズできます<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>アイコンをクリックし、上部の検索バーを使用して、列パラメータに基づいて Keystone データを検索およびフィルタリングします。</block>
   <block id="724db714685a078e3188da156c5e09ff" category="list-text">*クラスター内のボリューム*タブを選択します。</block>
   <block id="7eaaba921c5d6990f4eb7b440707d8bf" category="inline-image-macro">複数のサブスクリプションのクラスター内のボリュームのスクリーンショット</block>
-  <block id="2c7173774c9df82165dfee33d6fceb13" category="paragraph">Keystoneサブスクリプション全体のクラスター内のすべてのボリュームに関する詳細情報（ボリューム名、サブスクリプション番号、ノードのシリアル番号、QoSポリシーのコンプライアンス、クラスター名、ホスト名、パフォーマンスサービスレベルなど）が表示されます。プロビジョニングされた容量、論理および物理使用率、コールドデータを監視できます。また、以下の概要も確認できます。</block>
   <block id="c35efb62586ff05c5d6f57e4b0350323" category="list-text">サブスクリプション、クラスター、ボリュームの合計数。</block>
   <block id="14ef4df445c232cff9b58a77d20a81f1" category="list-text">ボリュームのコンプライアンスと保護のステータス。*表示* ボタンを使用すると、テーブルをフィルター処理し、準拠、非準拠、保護されていないなどの基準に基づいて資産を表示できます。</block>
   <block id="f6eb16e137bdab399dbb70e386762544" category="paragraph">*サブスクリプション番号* 列のサブスクリプション番号をクリックすると、*サブスクリプション* タブに移動し、サブスクリプションの消費の詳細、タイムライン、および関連する資産情報を表示できます。詳細については、を参照して <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block>ください。</block>
@@ -2081,9 +2080,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c1602534a88a762a1ce3972cdede18e6" category="list-text">このファイルを添付した電子メールを、安全な非 USPS サイトの場合は ng-keystone-secure-site-upload@netapp.com に、安全な USPS サイトの場合は ng-keystone-secure-site-usps-upload@netapp.com に送信してください。</block>
   <block id="f554b3f79210a232f43aa1148b762978" category="list-text">ファイルを収集し、安全な非 USPS サイトの場合は ng-keystone-secure-site-upload@netapp.com に、安全な USPS サイトの場合は ng-keystone-secure-site-usps-upload@netapp.com に送信します。</block>
   <block id="2dfe1e4bd705394ed47b37168da7e39d" category="paragraph"><block ref="2dfe1e4bd705394ed47b37168da7e39d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d1b3427c4c890671eb0520ac0d4affa3" category="paragraph">ボリューム名、ノードのシリアル番号、クラスター名、ホスト名、パフォーマンス サービス レベルなど、クラスター内のボリュームに関する詳細情報が表示されます。プロビジョニングされた容量、論理的および物理的な使用率、コールド データも監視できます。</block>
   <block id="5c5e806c3574f28d7ccf6a897c034d18" category="paragraph"><block ref="5c5e806c3574f28d7ccf6a897c034d18" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="21c9d68b030c5bf0ddbda9a170d32552" category="paragraph">折れ線グラフには消費量の履歴データが表示され、ユーザーは選択した日付範囲の傾向を分析できます。グラフには、使用容量 (データとスナップショット データの両方を含む合計ストレージ容量)、データ (ユーザー データによって使用されるストレージ容量)、スナップショット (スナップショット データによって使用されるストレージ容量) などのメトリックと、コミット容量およびバースト容量が表示されます。各データ ポイントの日付と時刻はグラフの下部に表示されます。クエリの日付範囲に基づいて、使用状況チャートには最大 30 個のデータ収集ポイントが表示されます。グラフの上にマウス カーソルを置くと、各データ収集ポイントでの使用状況の内訳が表示されます。</block>
   <block id="1b137f241f929a351e941ba96f7347a8" category="admonition">パフォーマンス サービス レベルに複数のインスタンスが存在する場合は、インスタンスごとにフィルター処理して、各インスタンスの履歴データを個別に表示できます。</block>
   <block id="c790cd64cc9ce087b29b63d208671f07" category="admonition">パフォーマンス サービス レベルに複数のインスタンスがある場合は、どちらかのビューで [*インスタンス別に表示*] を展開して、各インスタンスの現在の消費量の詳細を個別に表示できます。たとえば、サブスクリプション内に Extreme パフォーマンス サービス レベルのインスタンスが 2 つある場合、各インスタンスのコミット済み容量、消費済み容量、および使用可能な容量が個別に表示されます。</block>
   <block id="1d302dcc8fc5540b6e87e54f3d0753c8" category="admonition">パフォーマンス サービス レベルに複数のインスタンスがある場合は、[インスタンス] タブを選択して、各インスタンスの現在の消費量の詳細を確認できます。たとえば、サブスクリプション内に Extreme パフォーマンス サービス レベルのインスタンスが 2 つある場合、各インスタンスのコミット済み容量、消費済み容量、および使用可能な容量が個別に表示されます。パフォーマンスサービスレベルの詳細については、以下を参照してください。<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block> 。</block>
@@ -2133,7 +2130,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">この列には、パフォーマンス層とコールド層の両方のデータを含む、 FabricPool階層化を使用したボリュームの合計論理フットプリントが表示されるため、 Keystone の消費量を正確に計算できます。</block>
   <block id="bff820430728f0b409c26641dc8ddd41" category="list-text">ONTAP 9.16.1 以降では、次のコマンドを実行して日次ログの内容を変更します。</block>
   <block id="63af57ffe551ed93c0576ba741b36e47" category="list-text">以前のONTAPバージョンの場合は、次のコマンドを実行して日次ログの内容を変更します。</block>
-  <block id="8e65b1fa60d467c8850acfb3f1d1b8b9" category="paragraph">*列の非表示/表示*を使用して、テーブルに表示される列を追加または削除できます。デフォルトでは、以前に保存した列の設定がテーブルに表示されます。 *Department* 列や *Total Footprint* 列などの新しく追加された列はデフォルトでは非表示になっており、テーブルに表示するには手動で選択する必要があります。任意の列を選択または選択解除することができ、設定は後で使用するために保存されます。  CSV レポートをダウンロードする場合、表示設定に関係なく、使用可能なすべての列がエクスポートに含まれます。</block>
   <block id="56a9fe5a3d171069cb125956f6186c86" category="paragraph">Digital AdvisorダッシュボードのMetroCluster構成で構成されたサブスクリプションの消費傾向チャートからバーストしきい値ラインが欠落しており、誤った *バースト制限超過* ステータスが表示されます。</block>
   <block id="8d317448388884cae15b07e53f9c9fbc" category="paragraph">2025/08/28</block>
   <block id="b8d454c9414aa4b52ad019b0311711b5" category="section-title">2025年8月28日</block>
@@ -2185,7 +2181,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="85fc8a3c54b846eae784ce216c74002f" category="list-text">削除するモニターの省略記号アイコンを選択します。</block>
   <block id="78d022431bdaa899926744aad15d4c0d" category="list-text">*削除*を選択し、削除を確認します。</block>
   <block id="e33238cb2adeeccce9f9b9d4a8b9bb1c" category="paragraph">削除すると、モニターに接続されているサブスクリプションは通知を受信しなくなります。</block>
-  <block id="0c3bfbd743380880bf374b2cdc5d53ec" category="admonition">システムによって生成されたモニターは、ユーザーが削除することはできません。</block>
   <block id="1d02064d5ee1a5a4a8455f06dacb6b1f" category="inline-link-macro">アラートの表示と管理</block>
   <block id="b3f8c20435f04a33e07ab53c0c9f7689" category="list-text"><block ref="b3f8c20435f04a33e07ab53c0c9f7689" category="inline-link-macro-rx"></block></block>
   <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Keystoneサブスクリプションのアラートを表示および管理する</block>
@@ -2195,12 +2190,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">アラートを表示</block>
   <block id="17ec1dd00ee2fa8e3a2bea341f3176eb" category="paragraph">アクティブなアラートを表示するには、次の手順に従います。</block>
   <block id="c1c3f4de38096a880721ae1b1aac2343" category="inline-image-macro">Keystoneサブスクリプションのアクティブアラートのスクリーンショット</block>
-  <block id="d3c879b0c34417e803eaa2f50299c117" category="paragraph">重大度、ID、説明、トリガー時刻、サブスクリプション番号、追跡 ID、パフォーマンス サービス レベル、ステータスなどのアラートの詳細を表示できます。このページには、重大度とタイプ別に未解決のアラートの合計も表示されます。</block>
   <block id="685b0f2db45e4fc09a06ccb4695806de" category="section-title">アラートを管理する</block>
   <block id="e947bf3957a95267ebbec2757a9931af" category="paragraph">*アラート*タブからは、次のアクションを実行できます。</block>
-  <block id="e6c2b8324e72d373fd318067fad63e39" category="list-text">*アラートを確認して解決する*: アラート ID 番号を選択すると、アラートの詳細ビューが開きます。このビューには、アラートの説明と推奨される解決手順が表示されます。この詳細ビューから、次の操作を実行できます。</block>
-  <block id="99091d9847708ade0e5c12b824b530ec" category="list-text">問題に対処した後、[*編集*] ボタンを選択して、アラートを解決済みとしてマークします。</block>
-  <block id="d97dee7ef47cec6420fa02b3c5776dde" category="list-text">必要に応じて、「*メモを追加*」ボタンを選択して補足メモを追加します。</block>
   <block id="e814402d8806e7855f5c97156e88da0c" category="list-text">*アラートのフィルタリング*: *ステータス* 列のフィルタ アイコンを使用して、アクティブなアラート、解決済みのアラート、またはその両方を表示します。</block>
   <block id="66c71aff4423b3f2e50ac2dfa8ccf4c9" category="list-text">*サブスクリプションの詳細を表示*: *サブスクリプション* 列からサブスクリプション番号を選択すると、サブスクリプションの詳細、消費傾向、およびアラートを理解して対処するのに役立つ資産情報にアクセスできます。詳細については、 <block ref="fdad9ab5c825af5756df523fe50d05f9" category="inline-link-macro-rx"></block> 。</block>
   <block id="f4a4fc70d768b745e8b5b57c259ad569" category="inline-link-macro">アラートモニターの表示と作成</block>
@@ -2269,7 +2260,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="187aba3af65d3bb1230dc8604f0acb91" category="paragraph"><block ref="187aba3af65d3bb1230dc8604f0acb91" category="inline-image-macro-rx" type="image"></block></block>
   <block id="293028e42f8edb8a2749fa8fca8130fa" category="paragraph">NetAppコンソールのKeystoneダッシュボードを使用すると、 Keystoneストレージ環境内のアクティブなアラートを表示および管理できます。容量の使用状況とサブスクリプションの有効期限に関するシステム生成アラートとユーザー定義アラートの両方を表示できます。このビューから、アラートの重大度を迅速に評価し、ストレージの問題を特定し、修正アクションを実行できます。このビューはDigital Advisorでは使用できません。</block>
   <block id="743c58da8a9fadd274f3f9b5676e7a58" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; モニタリング &gt; アラート*を選択します。</block>
-  <block id="63fb46a4add2145056e9aea0b921bc56" category="paragraph"><block ref="63fb46a4add2145056e9aea0b921bc56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ebc3d49271bd7e13ad66606299b721ea" category="section-title">NetAppコンソールからのデータの検索とフィルタリング</block>
   <block id="35716f4fafb244c80a13dc4d6f0b0da8" category="paragraph">コンソールでは、タブ内のテーブルで使用可能な列パラメータに基づいて、 Keystoneデータを検索およびフィルタリングできます。たとえば、「*サブスクリプション*」ページの「*サブスクリプション*」タブでは、検索ボックスにKeystone のバージョンを入力してデータをフィルタリングできます。同様に、「アセット」ページの「クラスター内のボリューム」タブでは、検索ボックスにボリューム名を入力してボリュームをフィルタリングできます。</block>
   <block id="4d3b4ab28c7beb3d285ae63a4b48dc5b" category="paragraph">利用可能な場合は、高度なフィルター オプションを使用して検索を絞り込むことができます。たとえば、[*サブスクリプション*] タブでは、 Keystone のバージョン、請求期間、最大容量、サブスクリプションの有効期限までの日数でデータをフィルタリングできます。また、[*クラスター内のボリューム*] タブでは、ボリューム名、クラスター名、ボリューム タイプなどでデータをフィルタリングできます。複数のフィルターを同時に適用して、結果を正確に絞り込むことができます。<block ref="f163c2c9209b92ad140bb233f78e91e3" category="inline-image-macro-rx" type="image"></block></block>
@@ -2354,7 +2344,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="8583cba6ee38a66f6e19ca7c15a5c1ed" category="inline-link-macro">アラートモニターのカバレッジギャップを管理する</block>
   <block id="a60761706ec1d12934bfc1dd049da2df" category="paragraph">*監視*ページの*アラート モニター*タブには、カバレッジ ギャップが存在する場合に表示される*カバレッジの完了*通知ボックスが含まれています。このボックスには、容量または有効期限モニターが不足しているサブスクリプションと、サブスクリプションのないモニターがリストされます。ギャップに対処するには、既存のモニターにサブスクリプションを追加したり、新しいモニターを作成したり、使用されていないモニターを削除したりします。詳細については、 <block ref="1ef75ae1f09bcc7a95c6bbe07a54229c" category="inline-link-macro-rx"></block>。</block>
   <block id="39fb73624dac610b8274b1bd6e2c1193" category="paragraph">NetApp ConsoleのKeystoneダッシュボードから、 Keystoneサブスクリプションのアラート モニターを表示および作成できます。ダッシュボードには、容量使用状況とサブスクリプションの有効期限に関するシステム生成モニターとユーザー定義モニターの両方が表示されます。モニターを作成して、しきい値を設定し、アラートの重大度を選択し、通知の電子メール受信者を追加できます。カバーされていないサブスクリプションにモニターを追加するか、未使用のモニターを解決することで、カバレッジのギャップに対処できます。この機能はDigital Advisorでは利用できません。</block>
-  <block id="60adeaffad8e127352095573a6e3157f" category="paragraph">モニター名、通知をトリガーするアラート条件、重大度レベル、サブスクリプション番号、パフォーマンス サービス レベル、ステータスなど、 Keystoneサブスクリプション全体のアラート モニターのリストを表示できます。*作成者* 列を確認すると、アラート モニターがシステムによって生成されたものか、ユーザー定義のものかを確認できます。</block>
   <block id="ac092a2bcbdb5857ae37a4756db46a49" category="list-text">*モニターの作成*ボタンを選択します。</block>
   <block id="cb5198d92b18cf007a9117aa50f90c3e" category="list-text">必要なフィールドを変更し、「作成」をクリックします。</block>
   <block id="2fd74b6a7fe875798408a25e1558c434" category="section-title">カバレッジギャップを管理する</block>
@@ -2606,4 +2595,36 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="da4bea38cc1244c367fa4751943a1de3" category="paragraph">パフォーマンスサービスレベルのレイテンシ要件の詳細については、<block ref="d534e2cd061f06b6e0ad742d6dda7fee" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="b4508efb1fe09000c916385cb19795aa" category="cell">*影響を受けるカレンダー日数*</block>
   <block id="2f8ed0b357b613711aa9e5d215bc6566" category="paragraph">計算によると、サービスクレジットは$12になります。</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">クラスター内のボリュームタブの新しい列</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">*アセット*の*クラスター内のボリューム*タブに、*ホット データ*、*コールド ティア (%)*、*ホット ティア (%)*の 3 つの新しい列が追加されました。詳細については、<block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block>および<block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">消費傾向における請求済み、未請求、および暫定的なバースト使用量</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">*消費傾向*タブの累積バースト課金グラフに、請求済み、未請求、暫定的なバースト使用量が表示されるようになりました。詳細については、<block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">監視ビューの機能強化</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">*Monitoring* ビューには次の更新が含まれています：</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*アラート タブ*：*アラート* 列の名前が *アラートの種類と条件* に変更されました。*ステータス* 列の横にある省略記号アイコンを使用して、アラートを編集したり、メモを追加したり、アラートの詳細を表示したりできるようになりました。</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Alert monitors タブ*：*Condition* 列の名前が *Monitor type &amp; condition* に変更されました。</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">詳細については、<block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block>および<block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="699549a6c51c3112d231898402b61156" category="admonition">上記のサードパーティパッケージのみがKeystoneコレクタでサポートされています。追加のソフトウェアのインストールはサポートされておらず、コレクターのパフォーマンス、データ収集、課金の精度に影響する可能性があります。</block>
+  <block id="9fc675b55df5c666e277ff0ddb9918bc" category="paragraph">ボリューム名、ノードのシリアル番号、クラスター名、ホスト名、パフォーマンスサービスレベルなど、クラスター内のボリュームに関する詳細情報が表示されます。プロビジョニングされた容量、論理的および物理的な使用率、コールドデータ、ホットデータを監視することもできます。</block>
+  <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 列と *Hot tier %* 列には、各層のデータの割合が表示され、それぞれ (Cold data / Total footprint) × 100 と (Hot data / Total footprint) × 100 として計算されます。</block>
+  <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">ボリューム名、サブスクリプション番号、ノードのシリアル番号、QoSポリシーへの準拠状況、クラスタ名、ホスト名、パフォーマンスサービスレベルなど、Keystoneサブスクリプション全体のクラスタ内のすべてのボリュームに関する詳細情報が表示されます。プロビジョニングされた容量、論理的および物理的な使用率、コールドデータ、ホットデータを監視できます。また、次の概要も表示されます：</block>
+  <block id="ac46686450b6c96a64532dec01703b45" category="paragraph">折れ線グラフには消費量の履歴データが表示され、ユーザーは選択した日付範囲の傾向を分析できます。グラフには、使用容量（データとスナップショットデータの両方を含む合計ストレージ容量）、データ（ユーザーデータによって使用されるストレージ容量）、スナップショット（スナップショットデータによって使用されるストレージ容量）などのメトリックに加えて、コミット済み容量とバースト容量が表示されます。クエリの日付範囲に基づいて、使用状況チャートには最大30個のデータ収集ポイントが表示されます。グラフの上にマウスカーソルを置くと、各データ収集ポイントでの使用状況の内訳が表示されます。</block>
+  <block id="34968986368de263575ec0925e1060e6" category="admonition">選択した日付範囲によって、グラフの下部に表示される詳細レベルが決まります。30日以下の期間の場合、各データポイントの日付と時刻の両方が表示されます。30日を超える期間の場合は、日付のみが表示されます。</block>
+  <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">コンソールでは、請求済みのバースト使用量に加えて、未請求のバースト使用量（発生済みだがまだ請求されていないもの）と暫定バースト使用量（現在の請求期間に発生し、まだ請求されていないもの）も表示できます。</block>
+  <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">コンソールで累積バースト使用量を表示するスクリーンショット</block>
+  <block id="f263a9088dc54ae9648c1dae3fe993d3" category="paragraph"><block ref="f263a9088dc54ae9648c1dae3fe993d3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9e85accc113cf94c2f026e5ffe3421be" category="paragraph">バースト ステータス（請求済み、未請求、暫定）や請求期間などのデータを Excel 形式でダウンロードすることもできます。</block>
+  <block id="9781ed71d59e0117b4c9dc5a901b029a" category="paragraph">Keystoneサブスクリプション全体のアラートモニターのリストを表示できます。モニター名、通知をトリガーするモニター条件、重大度レベル、サブスクリプション番号、パフォーマンスサービスレベル、ステータスが含まれます。*作成者*列を確認すると、アラートモニターがシステムによって生成されたものか、ユーザー定義のものかを確認できます。</block>
+  <block id="5389584b1bf548949de8edaecabfc485" category="admonition">システムによって生成されたモニターは編集できません。</block>
+  <block id="acfccb7b9983c50ac70ead28a6be20cb" category="admonition">システム生成のモニターは削除できません。</block>
+  <block id="ecc78b5c7a63bc05169745e40042420d" category="paragraph"><block ref="ecc78b5c7a63bc05169745e40042420d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="abb4f787da4156315d2c05514952debe" category="paragraph">重大度、ID、タイプと条件、説明、トリガーされた時間、サブスクリプション番号、追跡ID、パフォーマンスサービスレベル、ステータスなどのアラートの詳細を表示できます。このページには、重大度とタイプ別に未解決のアラートの合計も表示されます。</block>
+  <block id="08bb039c9e1d5f888e40163d67ac6f4a" category="admonition">列セレクター<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>アイコンを使用してテーブルをカスタマイズできます。</block>
+  <block id="a1cea21b853e465b55b0dcbdad0f5084" category="list-text">*アラートを確認して解決する*：アラート ID を選択すると、アラートの詳細ビューが開きます。このビューには、アラートの説明と推奨される解決手順が表示されます。この詳細ビューから、*編集*ボタンを使用してアラートを解決済みとしてマークしたり、*メモを追加*ボタンを使用して補足メモを追加したりできます。</block>
+  <block id="3d3fbc307b81c272b054f7c2b7473ca7" category="paragraph">*ステータス*列の横にある省略記号アイコンを使用して、次のアクションを実行することもできます：</block>
+  <block id="d2f643d03cc707eb27302765d368c0bb" category="list-text">*Edit*：ポップアップを開いて、アラートのステータスを変更し、解決の詳細を追加します。</block>
+  <block id="f069bdb9199fd723b309497a4681eaa7" category="list-text">*メモを追加*：ポップアップが開き、アラートにメモを追加できます。</block>
+  <block id="70d995c2419f7d9aa988641d4312954f" category="list-text">*View*：アラート ID を選択した場合と同じ詳細ビューが開きます。</block>
+  <block id="e0ceac7aa49cf625120dd2a395d6b528" category="paragraph">*列の非表示/表示*を使用して、テーブルに表示される列を追加または削除できます。デフォルトでは、以前に保存した列の設定がテーブルに表示されます。*Department*列や*Total Footprint*列などの新しく追加された列はデフォルトでは非表示になっており、テーブルに表示するには手動で選択する必要があります。任意の列を選択または選択解除することができ、設定は後で使用するために保存されます。CSVレポートをダウンロードすると、表示設定に関係なく、使用可能なすべての列がエクスポートに含まれます。</block>
+  <block id="8b06cde2817c964f7431fdcb3ffcf3f2" category="section-title">2026年3月2日</block>
 </blocks>

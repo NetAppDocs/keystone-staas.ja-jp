@@ -1,0 +1,29 @@
+= クラスター内のボリュームタブの新しい列
+:allow-uri-read: 
+
+
+NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
+
+
+
+=== クラスター内のボリュームタブの新しい列
+
+*アセット*の*クラスター内のボリューム*タブに、*ホット データ*、*コールド ティア (%)*、*ホット ティア (%)*の 3 つの新しい列が追加されました。詳細については、link:./integrations/assets-tab.html["Keystone サブスクリプションに関連付けられた資産を表示する"]およびlink:./integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]を参照してください。
+
+
+
+=== 消費傾向における請求済み、未請求、および暫定的なバースト使用量
+
+*消費傾向*タブの累積バースト課金グラフに、請求済み、未請求、暫定的なバースト使用量が表示されるようになりました。詳細については、link:./integrations/consumption-tab.html#view-accrued-burst["蓄積されたバーストを表示"]を参照してください。
+
+
+
+=== 監視ビューの機能強化
+
+*Monitoring* ビューには次の更新が含まれています：
+
+* *アラート タブ*：*アラート* 列の名前が *アラートの種類と条件* に変更されました。*ステータス* 列の横にある省略記号アイコンを使用して、アラートを編集したり、メモを追加したり、アラートの詳細を表示したりできるようになりました。
+* *Alert monitors タブ*：*Condition* 列の名前が *Monitor type & condition* に変更されました。
+
+
+詳細については、link:./integrations/monitoring-alerts.html["Keystoneサブスクリプションのアラートを表示および管理する"]およびlink:./integrations/monitoring-alert-monitors.html["Keystoneサブスクリプションのアラート モニターの表示と作成"]を参照してください。
