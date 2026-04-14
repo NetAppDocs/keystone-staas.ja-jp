@@ -48,9 +48,7 @@
   <block id="5233633b9faaa681d96ef5c43e30bea2" category="section-title">論理容量</block>
   <block id="4ac938291a74f21a35352afb886d2d88" category="section-title">コミット済み容量</block>
   <block id="326cde132ee3d2c6dbda5e81887d37fd" category="section-title">コミット済み容量に対する変更</block>
-  <block id="e80564e6a1386159e71203ed98662fc4" category="paragraph">サブスクリプションの期間中に、コミット済み容量を変更できます。ただし、前提条件は次のとおりです。</block>
   <block id="bd3fd623256db562bebda3e697d43452" category="inline-link-macro">容量の削減</block>
-  <block id="38ee5c58ab48cb8a1b633c2aea7a1e45" category="list-text">コミット済み容量は、特定の条件に基づいて削減できます。詳細については、を参照してください <block ref="bce311488cda7b3fc83e86e7b3939fd8" category="inline-link-macro-rx"></block>。</block>
   <block id="dd83b22a815febb6c6547eab078bbf30" category="section-title">使用済み容量</block>
   <block id="08d63a30cdbc798edef3e21cacda1ac2" category="section-title">バースト時の容量</block>
   <block id="b6e76ea727138e1a2c7199dd3f0874db" category="section-title">請求容量</block>
@@ -99,13 +97,7 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500</block>
   <block id="c4ca4238a0b923820dcc509a6f75849b" category="paragraph">1.</block>
   <block id="00fbf03a10283116fbaa1df317c78879" category="section-title">容量の調整</block>
-  <block id="b0ba5edc3c109e946a18ba8c3e71362b" category="list-text">コミット済み容量は、契約期間中にのみ変更できます。ただし、次のセクションで説明するように、特定の条件を満たしている必要があります。</block>
-  <block id="0b5abf5c3cccffbee4f48538a8f46c07" category="list-text">サービス期間の過去90日間の変更リクエストには、少なくとも1年間サービスの更新が必要です。</block>
   <block id="6e563e9d321b309cdef7d3f5a45b0d65" category="section-title">四半期支出の再配分</block>
-  <block id="075e59191efd36ae9c9c7094fbdab596" category="paragraph">サブスクリプションレベルの要件と条件：</block>
-  <block id="525638a12e9c8aa67d400bc4cae26beb" category="list-text">arrearモデルの月単位の請求にのみ適用されます。</block>
-  <block id="5e4b323295f9f67894cdf2fd31d63cd6" category="list-text">クラウド サービス への再割り当てには、既存のオンプレミスのサービスベースの月払いの最大25%を使用できます。</block>
-  <block id="6a25837b8815930341a1bb5594936448" category="list-text">再割り当て要求は、再割り当ての前回のアクティブ化日から90日が経過した時点で有効になります。</block>
   <block id="c11d3902def90b2c39f1b05142fc762e" category="summary">Keystoneの運用モデル</block>
   <block id="63e70807fd57df527662a30262f5b0cc" category="section-title">サービスライフサイクル全体での役割と責任</block>
   <block id="463c3a95787ac56f36c227feeb7bd389" category="list-text">* お客様が運用するモデル * ：次の表は、サービスライフサイクル全体のモデルと、お客様が運用する環境におけるサービスライフサイクルモデルに関連する役割と責任をまとめたものです。</block>
@@ -161,9 +153,6 @@
   <block id="dda89d5ef0cb22d8ac7b37078e4ba438" category="list-text">*耐久性*：お客様が原因で行った削除や破損を除き、忠実性を損なうことなくアクセスされたデータの割合。</block>
   <block id="9ffbb75c521c240c36fc4eedce45c367" category="list-text">* Latency *：クライアントから受信したI/O要求の処理にかかる時間。これはサービスの分離（ストレージコントローラのI/Oポート）で測定されます。</block>
   <block id="542e65f5a286fa6467f7b1c33bc0dab8" category="paragraph">導入の詳細については、を参照してください <block ref="d7e5ccf918d68bf60a6b52690444d5ea" category="inline-link-macro-rx"></block> および <block ref="141d19b4a500cb7c8f293062f31c9e48" category="inline-link-macro-rx"></block>。</block>
-  <block id="ba66768dfbbcde790d00e0de40f92803" category="paragraph">容量削減（年間）は、Advanceペイメントモデルの_年間およびオンプレミスのみの導入に適用されます。クラウド サービス またはハイブリッド クラウド サービス では使用できません。オンプレミスの容量をプロビジョニングできるため、サブスクリプションあたりサービスレベルを最大25%削減できます。この削減は、毎年1回、次の年間請求期間の開始時に有効にすることができます。サービスベースのオンプレミス年間支払い額は、容量削減を活用するために、いつでも2万ドル以上になるはずです。オンプレミス環境でのみサポートされるため、この課金モデルでは、オンプレミス環境から クラウド サービス 環境への支出に再割り当ては行われません。次の図に、年間容量削減の例を示します。</block>
-  <block id="63da2e64853bf4155b1b1a1e9ee74a97" category="list-text">契約期間が1年、2年、または3年のサブスクリプションにのみ適用されます。</block>
-  <block id="1ad380d64aaf6780bee52adfb88395c3" category="list-text">再割り当ての申請は、お客様またはパートナーが正式にKeystone Success Manager（KSM）に提出する必要があります。少なくとも1週間は次回の請求サイクルの前に実施してください。</block>
   <block id="a7bfd854f2e9dacfba92f6c8e2081c3e" category="list-text">このサービスは、ファイル、ブロック、オブジェクトの各サービスにのみ適用されます。</block>
   <block id="f3cab949200d7bfe230983c92bd7983f" category="list-text">お客様が動作するファイアウォールが接続を許可します。</block>
   <block id="72a2e26ee3dd7a4431c7b48558a4e647" category="paragraph">C13コンセントが十分にある、別々の保護された2つの回路に接続されたPower Distribution Unit（PDU；配電ユニット）を用意する必要があります。お客様が実施するサービスでは、場合によっては C19 コンセントが必要です。ネットアップが提供するサービスでは、要件に応じて、ネットアップまたはお客様がPDUを提供できます。</block>
@@ -653,7 +642,6 @@
   <block id="e35bc286817799a8ecac7de0060837be" category="list-text">サービス期間の終了時や、ドライブや不揮発性メモリで障害が発生した場合やサービス期間中に欠陥が見つかった場合は、ドライブや不揮発性メモリを返却する必要はありません。</block>
   <block id="b178e2d86eb51156fb8d9a2bd509938c" category="list-text">コンピューティング、ストレージ、ネットワーキングなどのクラウドネイティブサービスの料金は、クラウドプロバイダから請求されます。</block>
   <block id="296ad65314dcbf027a7993304c7a165d" category="list-text">これらのサービスは、クラウドストレージとコンピューティングの特性によって異なります。</block>
-  <block id="5f961dc6311c34fa23cf40360afba9db" category="list-text">サブスクリプションをさらに12カ月延長する場合を除き、サブスクリプションの有効期限の90日前にコミット済み容量を増やすことはできません。</block>
   <block id="783e590ecfbaebc7caa0409a8cae6926" category="paragraph">ファイルストレージとブロックストレージ向けのKeystone STaaS標準サービスには、使用頻度の低いデータを識別する階層化機能が含まれ、Keystone STaaS対応のネットアップコールドストレージに階層化できます。Keystone STaaSに対応したネットアップ以外の任意のストレージにコールドデータを階層化する場合は、アドオンサービスとしてデータ階層化を使用できます。</block>
   <block id="2809966e22bd3439cbbfaae3d51268b2" category="list-text">*可用性*:サービスが正常に応答したI/O要求数の割合として、サービスに対して行われたI/O要求の総数で割った値。これは、1か月以内のサービス境界で測定され、顧客が提供する施設、ネットワーク、またはその他のサービスの予定されたサービスダウンタイムや利用不能は含まれません。</block>
   <block id="82ed1e96c97e812264424ac485673960" category="paragraph">米国では、可能な場合、オンサイトおよびリモートでの導入および設置作業を行います米国の市民土。脚注：免責事項[オンサイトでの作業に適切な担当者が対応できるかどうかは、Keystoneシステムが導入されている地域によって異なります。]</block>
@@ -703,11 +691,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="1ae3a07b6896d577a03f95172e8b37ab" category="paragraph">SnapLock テクノロジの詳細については、を参照してください<block ref="75641a5590d09822bddecb04bdc449c0" category="inline-link-rx"></block>。</block>
   <block id="de70c043bed2cffae85b828a6246d7e2" category="inline-image-macro">再配置ロジックの説明</block>
   <block id="2ac0f144048cf5fb3e17783ff993bfa0" category="paragraph"><block ref="2ac0f144048cf5fb3e17783ff993bfa0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="7ad0cea6a0945e671f7a5229da06e38d" category="paragraph">Keystone STaaSでは、オンプレミスのサービス支出をCloud Volumes ONTAPの支出に再割り当てするオプションが提供されます。</block>
-  <block id="5f3938a7c9ef0aead37a2a006da8f29d" category="list-text">Cloud Volumes ONTAPとCloud Backup Serviceの容量は、Keystoneを通じて購入する必要があります。</block>
-  <block id="7ba0be7a00463a47d5ea7303892e6b01" category="list-text">クラウドサービスからオンプレミスサービスへの再割り当ては実行できません。</block>
-  <block id="83c156e8d858735c81db593f3e5a33fb" category="list-text">新しいリクエストは、連続した請求サイクルからのみ有効になります。</block>
-  <block id="5ced3418c634e1c2b7ff961f41b9cdfd" category="paragraph">次の表に、経費の再配分の仕組みを示す一連のサンプル値を示します。この例では、<block ref="1f77ba391c5954a787b54401d14e6ee7" prefix=" " category="inline-code"></block> 月 々 のコストをハイブリッドクラウドストレージサービスに再割り当て</block>
   <block id="dc555de27decf23adf718d54a63a9849" category="cell">*割当前*</block>
   <block id="eea204b95d2aed13b165e6198002ac7d" category="cell">*容量（TiB）*</block>
   <block id="b9051383c20643edc88f9f50b9491e18" category="cell">*毎月の指定費用*</block>
@@ -717,7 +700,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="a3c65c2974270fd093ee8a9bf8ae7d0b" category="cell">一 〇 八</block>
   <block id="67c6a1e7ce56d3d6fa748ab6d9af3fd7" category="cell">47です</block>
   <block id="162489d19966a7f95c7accf74f9c3c5c" category="cell">5、000</block>
-  <block id="035c7a855d56e0de01432f63faef9422" category="paragraph">オンプレミスサービスからクラウドサービスにコストを再配分する場合は、Keystoneサクセスマネージャー（KSM）にお問い合わせください。</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">既知の制限</block>
   <block id="747c6db0ede286805c21b0b78f4ce14f" category="paragraph">既知の制限事項は、Keystone STaaSのサービスやコンポーネントでサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、機能を示しています。これらの制限事項を慎重に確認してください</block>
@@ -1592,8 +1574,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Keystoneサブスクリプションの消費傾向を表示する</block>
   <block id="60b79d3b7a1433cb62d9ea5b5a5dac01" category="paragraph">このプロセスは、生成される消費レコードごとに実行されます。したがって、バースト消費量は、オーバー消費容量の量と時間の両方を、コミット済み容量の上に反映したものです。詳細については、を参照して <block ref="d40818e721dbdfb8ef017a3c524d1def" category="inline-link-macro-rx"></block>ください。</block>
   <block id="6095900a0be4c21e582c9ce633f3eb3f" category="doc">パフォーマンスサービスレベルの容量要件</block>
-  <block id="4a786f23e386c92e1c49cf8b214e240b" category="list-text">サブスクリプション期間中に容量を増加したり、より高パフォーマンスのサービスレベルに変更したりすることは可能です。ただし、高パフォーマンスのサービスレベルから低パフォーマンスのサービスレベルへの移行は許可されません。</block>
-  <block id="13af83dfc053ffff9447cbafc3b9ac06" category="paragraph">サブスクライブしたファイル、ブロック、またはオブジェクト ストレージ パフォーマンス サービス レベルにかかる費用の一部を、ハイブリッド クラウド ストレージ サービスに割り当てることができます。年間契約額（ACV）の最大25%を、四半期ごとにCloud Volumes ONTAPのプライマリサービスとCloud Volumes ONTAPのセカンダリサービスに再割り当てできます。</block>
   <block id="42c6fcaab380d23adc4355ae6bb2df0b" category="paragraph">削減される容量は、Extremeパフォーマンス・サービスレベルに割り当てられている容量の(125-108) = 17TiBです。支出の再割り当て時に、割り当てられたハイブリッドクラウドストレージの容量は17TiBではなく、5、000ドルで購入可能な容量に相当します。この例では、5,000ドルで、Extremeパフォーマンス・サービスレベルのオンプレミスストレージ容量17TiBと、Cloud Volumes ONTAPパフォーマンス・サービスレベルのハイブリッドクラウド容量47TiBを利用できます。したがって、再割り当ては容量ではなく支出に関するものです。</block>
   <block id="5f238d7b669564c4a06db9820b17a9c3" category="paragraph">コミットされた容量は、サブスクリプションの購入時に特定のパフォーマンス サービス レベルに対してコミットされた容量です。</block>
   <block id="a5e80c8c714cefa82d0f175e2ea8eae1" category="paragraph">コミットされた容量は、お客様と NetApp/パートナーが承認した、単一のサブスクリプション内のさまざまなパフォーマンス サービス レベルの合計容量になります。この容量は、Keystoneの注文ごとに記載され、実際の容量の消費量にかかわらず請求されます。</block>
@@ -1826,8 +1806,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="17a67557c6c448eedbaeeb25e2409ca8" category="inline-link-macro">バースト容量増加オプション</block>
   <block id="b8ce331afde85a2f9ccc21b17b658035" category="paragraph">バースト制限は、Keystone契約で決定および指定されます。デフォルトでは、コミット容量の20%超に設定されています。コミット容量の40%または60%のバースト容量制限を選択することもできます。詳細については、を参照して <block ref="c3f852e472538152b8572347bb4a142d" category="inline-link-macro-rx"></block>ください。</block>
   <block id="7d38503d78c628f634f345f9649cfdd1" category="paragraph">消費された容量がパフォーマンス サービス レベルのコミットされた容量を超えると、バースト消費が記録され、それに応じて課金されます。バースト容量を超過した使用量は、「超過バースト制限」と表示されます。</block>
-  <block id="b08904144697ce5104bed18cd93f91f8" category="paragraph">容量調整の詳細については、以下をご覧ください。</block>
-  <block id="dc6244a840ba98e3e2b7311362cd8e71" category="list-text">容量は、契約期間の最後の 90 日間を除き、契約期間中いつでも、前のセクションの表に記載されているパフォーマンス サービス レベルごとに増分単位で追加できます。サービス更新の同意がある限り、契約期間の最後の 90 日以内であれば、容量またはサービスの追加が許可されます。容量を追加すると、オンプレミスまたはクラウドの新しいサービスを既存の期間と共存させることができます。新しいサービスのアクティベーション後に送信された請求書には、変更された請求書が反映されます。クラウド サービス のコミット済み容量は、サブスクリプション期間中はどの時点でも削減できません。一方、契約期間中のオンプレミスサービスに対するコミット済み容量とコミット済みコストは、後述の「_Capacity reduction _」で定義されている特定の条件に基づいて削減できます。</block>
   <block id="f8738727fdc7ce9aa43eb40acba29e13" category="section-title">統合型およびブロック最適化ストレージの最小容量要件</block>
   <block id="3a4e4646e77e197efe8a5e44bfd42783" category="paragraph">統合ストレージとブロック最適化ストレージのサブスクリプションごとに許可される最小容量と増分容量については、次の表をご覧ください。</block>
   <block id="d6f750861d7ae27706ca32ed1f4c1ac8" category="paragraph">* ユニファイドストレージ *</block>
@@ -1838,7 +1816,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="3644a684f98ea8fe223c713b77189a77" category="cell">200</block>
   <block id="46b0c436fa4bc58d709e8c6c42bd1508" category="section-title">クラウドサービスの最小容量要件</block>
   <block id="bdc812c685045d622afc97886530ca22" category="paragraph">クラウド サービスの最小容量要件については、次の表をご覧ください。</block>
-  <block id="877c392489723433fcb2a31382a0b1f4" category="list-text">Keystone契約に基づいて、各サイトでバースト容量を利用できます。通常、パフォーマンス サービス レベルのコミット容量の 20% 超に設定されます。バースト使用量は、その請求期間のみに課金されます。合意した容量を超えるバースト要件がある場合は、サポートにお問い合わせください。</block>
   <block id="9b415518331e0b90bff9da067ceb4ad0" category="paragraph"><block ref="9b415518331e0b90bff9da067ceb4ad0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="22791b5a0b080a8c4c8a5a70f02dd14c" category="list-text">NetApp Keystone Collector は Keystone クラウドへの接続を開始します。</block>
   <block id="856cee671304bcac55562f75750e25ca" category="list-text">Keystone Collector は、ストレージ コントローラの管理接続に直接 REST API 接続を確立するか、Active IQ Unified Manager を介してトンネルして使用状況とパフォーマンスのデータを収集します。</block>
@@ -2347,7 +2324,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025年11月10日</block>
   <block id="0c359189f8e07afc4bf0a432b108a2f7" category="list-text">お客様は、Debian 12、Red Hat Enterprise Linux 8.6 以降の 8.x バージョン、Red Hat Enterprise Linux 9.0 以降のバージョン、または CentOS 7 (既存の環境のみ) のいずれかのオペレーティング システムで実行される Linux サーバーを提供します。Keystoneソフトウェアは、<block ref="27b0f8226ae1a7f1b973155b13221df6" prefix=" " category="inline-code"></block> または<block ref="a0d068ed6db680cb6ae54d799e889954" prefix=" " category="inline-code"></block> Linux ディストリビューションに応じてパッケージが異なります。</block>
   <block id="188a74af3438876c97ac7877f4af6cc9" category="list-text">お客様は、Debian 12、Ubuntu 20.04 LTS、Red Hat Enterprise Linux (RHEL) 8.x、Red Hat Enterprise Linux 9.0、Amazon Linux 2023、またはそれ以降のバージョンで実行される Linux サーバーを提供します。</block>
-  <block id="8e3e0d66dd46c331ec4b3a698a38a9e7" category="list-text">コミットされた容量の変更は、コンソールまたはKeystone Success Manager (KSM) からリクエストできます。変更のリクエストについては、以下を参照してください。 <block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>。</block>
   <block id="17766f6125f71fd7cf26ceef70d4e504" category="list-text">ファイルをダウンロードしたら、 Keystone ServiceNow サポート チケットに添付できます。チケットの発行については、以下を参照してください。 <block ref="fa4c1fe482109028db7ac27dab34833d" category="inline-link-macro-rx"></block>。</block>
   <block id="fd9138bbd3a6e55b24c6c044d67e4bc1" category="list-text">オペレーティング システム (いずれかを選択):</block>
   <block id="39132259812eb62420e77e39bfa951b1" category="list-text">Red Hat Enterprise Linux (RHEL) 8.6 またはそれ以降の 8.x シリーズ</block>
@@ -2661,4 +2637,39 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9678bc25baa5d4e1d8060e89e70f72fc" category="list-text"><block ref="9678bc25baa5d4e1d8060e89e70f72fc" category="inline-link-macro-rx"></block></block>
   <block id="843e615119fedf23ac503dbdf746f02a" category="inline-link-macro">StorageGRID テクニカルサポートケースの作成時に使用するシリアル番号</block>
   <block id="ce9d93de629e2074412aaee90a3a8db2" category="list-text"><block ref="ce9d93de629e2074412aaee90a3a8db2" category="inline-link-macro-rx"></block></block>
+  <block id="4b8841c22510f26ac13bfc6eae48b4a0" category="paragraph">計画されている容量の変更については、計画と導入を可能にするため、タイムリーにNetAppまでご連絡ください。以下の条件は、すべての容量調整に適用されます：</block>
+  <block id="8017b00939f18fb6cff5b8b64cb10f74" category="list-text">*容量の増加*：コミット容量は、サブスクリプションが更新される場合を除き、有効期限前の最後の90日以内を除いて、サブスクリプション期間中に指定された増分で増やすことができます。NetAppによる確認後、増加は残りの期間に適用され、最低支払額もそれに応じて改定されます。オンプレミスまたはクラウドを問わず、すべての容量追加と新しいサービスは、既存のサブスクリプションと同一の契約期間になります。クラウドサービスのコミット容量は、サブスクリプション期間中のいかなる時点でも削減することはできません。</block>
+  <block id="37248c35f63312e21a001c9749050f8b" category="list-text">*値上げの請求*：年間前払いモデルのサブスクリプションの場合、NetAppは現在の請求期間の残りの期間における最低支払額の按分増額分については、請求書を発行いたします。新サービスの有効化後に送付される請求書には、改訂後の請求内容が反映されています。</block>
+  <block id="4b9827f60195385d2acf4c1d324a5469" category="list-text">*バースト容量*：各サイトでは、契約レベルを超える追加容量が利用可能で、通常はパフォーマンスサービスレベルごとに最大20%までです。バースト制限と課金の詳細については、<block ref="85c4e06da3b978d5cb2b8ba9dc870124" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="c8e723c6a9858f9838c220934fb8ada8" category="list-text">*パフォーマンスサービスレベルの変更*：契約期間中は、より高いパフォーマンスサービスレベルへのアップグレードが可能です。パフォーマンスサービスレベルを低下させることは認められません。</block>
+  <block id="feab99d4a13efd2a13a932d9eb1b1b1d" category="list-text">*オンプレミス容量削減*：オンプレミス サービスのコミット済み容量は、特定の条件下で削減できます。詳細については、_容量削減_を参照してください。</block>
+  <block id="d393d4770a199bd09d8f09f003439305" category="paragraph">コミットメント容量削減は、_年間前払い_支払いモデルおよびオンプレミス Keystone 導入環境にのみ適用されます。利用資格を得るには、最低 24 カ月のサブスクリプション期間が必要です。クラウド サービスおよびハイブリッド クラウド導入環境は、容量削減の対象外です。</block>
+  <block id="1785031aba4381611fb7c452e73c7712" category="paragraph">以下の条件は、すべてのコミット済み容量削減要求に適用されます。</block>
+  <block id="bd0f14fff0a2017c507441b78ae4f7d2" category="list-text">*書面による申請*：申請は書面で提出し、削減が有効になる次回の年間購読期間の少なくとも60日前までにNetAppが受理する必要があります。</block>
+  <block id="fbd93fc92e78d8de2e644cf2cdc79b21" category="list-text">*学期ごとの減額可能回数*：</block>
+  <block id="b795c749a328b67aa4a17cbcf35bd2ec" category="list-text">2年または3年のサブスクリプション期間の場合：サブスクリプション期間中に1回の削減が許可されます。</block>
+  <block id="44b32d132775de5dbfedf8e254b1179a" category="list-text">4年または5年のサブスクリプション期間の場合：サブスクリプション期間中に2回の削減が許可されます。</block>
+  <block id="97d2399431283be9396bdc038b0d3c73" category="list-text">*1回のリクエストあたりの削減上限*：1回の削減は、リクエスト時点での確定済み容量の25%を超えることはできません。</block>
+  <block id="fa3d4871053ec6d8d839695f2126e52b" category="list-text">*最小容量しきい値*：削減によって、コミットメント容量が該当するパフォーマンス サービス レベルの最小コミットメント容量要件を下回ってはなりません。</block>
+  <block id="73939351e707407e78fc3b5ec5d96b63" category="list-text">*発効日*：承認された削減は、次回の年間サブスクリプション期間の開始時に発効します。</block>
+  <block id="a0da8a6eeef25732860c7a7fa773dd28" category="paragraph">減額申請が承認されるためには、オンプレミス サービスベースの年間支払額は、減額適用後も$200K以上を維持する必要があります。</block>
+  <block id="d8fa251f9bfc069980dc3b885cda8275" category="paragraph">以下の画像は、容量削減が3年間のKeystoneサブスクリプションにどのように適用されるかの例を示しています。</block>
+  <block id="1bc2a062d23469b824b852ca4bddb0d2" category="paragraph"><block ref="1bc2a062d23469b824b852ca4bddb0d2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="984cf94db150b8dcbdb8105bef8ea248" category="paragraph">この例では、初期契約容量は300 TiB（年間支払額$300K）です。1年目に、容量を225 TiBに削減するよう要請があった。NetAppは削減量（75 TiB）が25%の上限内に収まり、結果として支払われる金額が$200K以上であることを検証します。この申請は承認され、2年目の開始時から有効となります。2年目に、容量を100 TiBに削減するよう要請があった。NetAppは今回の削減は、現在の契約容量（225 TiB）の25%を超えており、また、この3年間で認められている1回の削減は既に使い切っているため、要請を却下します。3年目の容量は225 TiB（年間支払額$225K）のままであり、これ以上の削減は認められません。</block>
+  <block id="f5e3994736941b1a2f0aa3d2685771a2" category="paragraph">四半期ごとの支出再配分は、ハイブリッド クラウド サービスのみで利用可能です。四半期ごとに、オンプレミス サービスの支出をクラウド サービスの支出に再配分できます。クラウド サービスからオンプレミスへの再配分は許可されていません。</block>
+  <block id="7e7edad53e01324db49fe84613b4f243" category="paragraph">すべての再割り当て要求には、以下の条件が適用されます：</block>
+  <block id="38652801280f2ce8d81d06b234e5c6da" category="list-text">*再配分の上限*：申請時点での年間契約額（ACV）の最大25%まで再配分が可能です。</block>
+  <block id="8992bd0648c76e76cf15cd17723f3215" category="list-text">*再配分後の最低支払額*：再配分後、オンプレミス1つの購読プランにつき、月額最低支払額は$16,667以上でなければなりません。</block>
+  <block id="4082e3d66f5fc0276d9334d8b8e4809c" category="list-text">*90日間のロック*：新しい再割り当てリクエストは、前回の再割り当てが有効になってから少なくとも90日間経過するまで有効にできません。</block>
+  <block id="b97de2001f3ba7d57040a7ef76bfc9fa" category="list-text">*契約期間終了時の制限*：契約期間の最後の90日間は、契約を更新する場合を除き、再割り当ては許可されません。</block>
+  <block id="ec10404af8ad05ca95dfc01ea1625b74" category="list-text">*申請期限*：申請は、次回の請求サイクル開始日の少なくとも5営業日前までに提出する必要があります。</block>
+  <block id="b9952228f054359d655be54267fc3073" category="list-text">*発効日*：承認されたリクエストは、次回の請求サイクルの初日から有効になります。</block>
+  <block id="18f94080a305dd2e3f97cade5d0ca224" category="paragraph">以下の図は、四半期ごとの支出再配分がどのように行われるかを示しています。</block>
+  <block id="ec5cac371498d025c7a80f8462e7d9b0" category="paragraph">この例では、オンプレミス支出は月額USD 30K です。2 月に、USD 5K をクラウドサービスに移行するリクエスト A が承認され、3 月に有効化されました。これにより、5 月までの 90 日間のロックが開始されました。ロック期間中に送信されたリクエスト B は、ロックの期限が切れた後にアクティブになり、オンプレミス支出を USD 20K に削減し、7 月からクラウドサービス支出を USD 10K に増やします。契約期間の最後の 90 日間は、再配分は認められません。</block>
+  <block id="068c2643291801b07fc0b1d5411c5f44" category="paragraph">この表は、経費の再配分がどのように機能するかを示すためのサンプル値のセットを提供します。この例では、月々の支出から USD 5,000 がハイブリッド クラウド ストレージ サービスに再配分されます。</block>
+  <block id="06edadfbc4ba35d2e9cfcdbd12cae4dc" category="paragraph">Keystone Success Manager（KSM）に連絡して、再割り当てリクエストを提出してください。</block>
+  <block id="fada2eb6c577ac59ac127d87709bdeba" category="inline-link">Keystone STaaS v3 サービス概要および補足資料参照ガイド</block>
+  <block id="379bdcbc355b1c85f12e4fe26ce9ce52" category="paragraph">詳細については、<block ref="713f77483e33d0957b3e04d7bb3c25f3" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="091e308f3acc3715bded09fcb636bf53" category="summary">可用性SLOは、Keystone注文を提供するために導入されたすべてのNetApp ONTAPフラッシュストレージアレイについて、請求期間中に99.999%の稼働率を目標としています。</block>
+  <block id="fb3c717f6d7580452350dcd4dcbd5ce8" category="paragraph">契約期間中は、一定の条件を満たせば、契約済みの容量を変更することができます。容量増加および減少ルールの詳細については、<block ref="7bcdec1ed35620533b43c63b4f4340ca" category="inline-link-macro-rx"></block>を参照してください。変更を依頼するには、Keystoneサクセスマネージャー（KSM）に連絡するか、<block ref="4e739353290fa4a9ebb5e0d958a5945c" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
