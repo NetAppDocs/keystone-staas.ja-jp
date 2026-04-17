@@ -26,7 +26,7 @@ Keystoneでは、次の請求機能を提供しています。
 
 Keystone請求は、コミット済み容量と可変バースト消費に基づいて行われます。
 
-Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。
+Keystoneでサポートされるさまざまな容量については、link:../concepts/supported-storage-capacity.html["Keystoneのストレージ容量タイプ"]を参照してください。
 
 * 関連情報 *
 

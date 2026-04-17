@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: サービスレベルの容量要件は、Keystone STaaSサブスクリプションでサポートされるファイル、ブロック、オブジェクト、クラウドのストレージによって異なります。 
 ---
-= Keystoneパフォーマンス サービス レベルの容量要件
+= Keystoneにおける容量要件と調整
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: サービスレベルの容量要件は、Keystone STaaSサブスクリ
 
 
 [role="lead"]
-Keystone STaaS パフォーマンス サービス レベルの容量要件は、 Keystone STaaS サブスクリプションでサポートされる統合ストレージ、ブロック最適化ストレージ、オブジェクト ストレージ、またはクラウド ストレージ オファリングによって異なります。
+Keystone STaaS のパフォーマンス サービス レベルの最小容量要件と段階的な増加は、ストレージ タイプによって異なります。このページでは、サブスクリプション期間中にコミット容量を増加、減少、または再割り当てする方法についても説明します。
 
 
 
@@ -31,7 +31,7 @@ Keystone STaaS パフォーマンス サービス レベルの容量要件は、
 
 
  a| 
-最小容量[TiB ]
+PSLIあたりの最小容量（TiB単位）
 2+| 50 2+| 100 
 
 
@@ -49,24 +49,53 @@ Keystone STaaS パフォーマンス サービス レベルの容量要件は、
 |===
 
 
-| 容量 | 最高レベル | Premium サービス 
+| 容量 | 最高レベル | Premium サービス | 標準 
 
 
  a| 
-最小容量[TiB ]
-2+| 50 
+PSLIあたりの最小容量（TiB単位）
+| 50 | 50 | 100 
 
 
  a| 
 サブスクリプションの開始時に許可される増分容量（および倍数）[in TiB ]
-2+| 25 
+3+| 25 
 
 
  a| 
 サブスクリプション時にアドオンとして許可される増分容量（および倍数）[in TiB ]
-2+| 25 
+3+| 25 
 |===
 各パフォーマンス サービス レベルの最小容量は、すべての Keystone 販売で同じです。
+
+
+
+== AFXストレージの最小容量要件
+
+AFFストレージの最小容量要件は、以下の表で確認できます：
+
+|===
+
+
+| 容量 | 最高レベル 
+
+
+ a| 
+AFF クラスタあたりの最小容量（TiB単位）
+| 200 
+
+
+ a| 
+サブスクリプションの開始時に許可される増分容量（および倍数）[in TiB ]
+| 100 
+
+
+ a| 
+サブスクリプション時にアドオンとして許可される増分容量（および倍数）[in TiB ]
+| 100 
+|===
+
+NOTE: AFXストレージの場合、容量はAFXクラスタレベルで、クラスタ内のすべてのドライブシェルフにわたってコミットされ、測定されます。これは、クラスタ内のAFXストレージコントローラの数とは無関係です。
 
 
 
@@ -208,5 +237,3 @@ image:reallocation.png["再配置ロジックの説明"]
 削減される容量は、Extremeパフォーマンス・サービスレベルに割り当てられている容量の(125-108) = 17TiBです。支出の再割り当て時に、割り当てられたハイブリッドクラウドストレージの容量は17TiBではなく、5、000ドルで購入可能な容量に相当します。この例では、5,000ドルで、Extremeパフォーマンス・サービスレベルのオンプレミスストレージ容量17TiBと、Cloud Volumes ONTAPパフォーマンス・サービスレベルのハイブリッドクラウド容量47TiBを利用できます。したがって、再割り当ては容量ではなく支出に関するものです。
 
 Keystone Success Manager（KSM）に連絡して、再割り当てリクエストを提出してください。
-
-詳細については、 https://fieldportal.netapp.com/s/article/Changes-to-Keystone-STaaS-Service-Description-and-Supplement-v3-Reference-Guide["Keystone STaaS v3 サービス概要および補足資料参照ガイド"^]を参照してください。

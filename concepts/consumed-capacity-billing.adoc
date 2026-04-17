@@ -18,4 +18,4 @@ Keystone STaaSは、サービスの利用中に消費される容量に基づい
 
 Keystoneサービスの導入の一環として、ネットアップはサービスの利用状況を継続的に監視し、測定します。少なくとも5分に1回は、サブスクリプションで現在消費されている容量の詳細を示す消費レコードがシステムによって生成されます。これらのレコードは、請求書および使用状況レポートを生成するために請求期間にわたって集計されます。
 
-Keystoneでサポートされる各種容量については、を参照してください link:../concepts/supported-storage-capacity.html["Keystoneでサポートされるストレージ容量"]。
+Keystoneでサポートされるさまざまな容量については、link:../concepts/supported-storage-capacity.html["Keystoneのストレージ容量タイプ"]を参照してください。
