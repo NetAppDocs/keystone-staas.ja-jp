@@ -1,0 +1,17 @@
+= プロビジョニング済み容量ラベルの名前を変更しました
+:allow-uri-read: 
+
+
+NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
+
+
+
+=== プロビジョニング済み容量ラベルの名前を変更しました
+
+*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。
+
+
+
+=== 累積バーストの予測切り替え
+
+*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、link:./integrations/consumption-tab.html#view-forecast-data["予測データを表示する"]を参照してください。

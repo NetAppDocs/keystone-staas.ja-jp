@@ -2331,7 +2331,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">*サブスクリプション*タブには、プロビジョニングされた使用量、物理的な使用量、論理的な使用量のいずれに基づいてサブスクリプションが課金されるかを表示する*使用状況タイプ*列が含まれています。詳細については、<block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="77f26dcf71ccd46a1988ad176507362f" category="paragraph">DIIを設定するには、<block ref="9c96a8ce2c2de39e18e71cf6b16e737c" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="46258461c8dd073deb37f9c53353b64e" category="list-text">顧客が新しいDIIインスタンスを開始する場合は、<block ref="6d36cc4d8aae109cb667709b36f129f9" category="inline-link-macro-rx"></block>から始めることをお勧めします。この機能と必要な起動チェックリストについては、<block ref="fa9eb45797f94a182876dd4cce75625a" category="inline-link-macro-rx"></block>を参照してください。</block>
-  <block id="511d6a0f4f5ad7c5f79e56d010b571b0" category="paragraph">蓄積されたバーストデータ使用量は、コンソールまたはDigital Advisorで確認できます。コンソールの*消費傾向*タブの*表示*ドロップダウンから*発生バースト*を選択した場合、またはDigital Advisorの*消費傾向*タブから*請求済み発生バースト*オプションを選択した場合、選択した請求期間に応じて、月ごとまたは四半期ごとに累積バーストデータ使用量を確認できます。このデータは、過去12か月間の請求データとして利用可能で、過去30か月までの日付範囲でクエリを実行できます。</block>
   <block id="1e007e954fdd7587bcd939b10c21e650" category="list-text">Console では、発生したバースト課金グラフを操作して、毎日のデータ使用量をフィルタリングできます。詳細については、<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="1b342e2d578a51d6b3d947da95fe0f10" category="paragraph">コンソールでは、発生したバースト課金グラフの課金期間を表すバーを選択して、テーブルをフィルタリングできます。フィルタリングすると、選択した請求期間内の日数のみが表に表示されます。完全なデータセットを再度表示するには、*フィルターをクリア*オプションを使用します。選択した期間にデータが利用できない場合は、データが利用できないことを示すメッセージが表示されます。</block>
   <block id="e6f9cff2e05b0c21bfa8eacbea1108b9" category="paragraph"><block ref="e6f9cff2e05b0c21bfa8eacbea1108b9" category="inline-image-macro-rx" type="image"></block></block>
@@ -2474,10 +2473,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="951a19f47f142d3bea8b273df96be4b3" category="admonition">*Cold tier %* 列と *Hot tier %* 列には、各層のデータの割合が表示され、それぞれ (Cold data / Total footprint) × 100 と (Hot data / Total footprint) × 100 として計算されます。</block>
   <block id="a7a1db0a49d5a7e9bf844061304b61fc" category="paragraph">ボリューム名、サブスクリプション番号、ノードのシリアル番号、QoSポリシーへの準拠状況、クラスタ名、ホスト名、パフォーマンスサービスレベルなど、Keystoneサブスクリプション全体のクラスタ内のすべてのボリュームに関する詳細情報が表示されます。プロビジョニングされた容量、論理的および物理的な使用率、コールドデータ、ホットデータを監視できます。また、次の概要も表示されます：</block>
   <block id="34968986368de263575ec0925e1060e6" category="admonition">選択した日付範囲によって、グラフの下部に表示される詳細レベルが決まります。30日以下の期間の場合、各データポイントの日付と時刻の両方が表示されます。30日を超える期間の場合は、日付のみが表示されます。</block>
-  <block id="570959fa3089c0814520564f59d8cd93" category="paragraph">コンソールでは、請求済みのバースト使用量に加えて、未請求のバースト使用量（発生済みだがまだ請求されていないもの）と暫定バースト使用量（現在の請求期間に発生し、まだ請求されていないもの）も表示できます。</block>
   <block id="89558667b836c228a8a40c0b9646c294" category="inline-image-macro">コンソールで累積バースト使用量を表示するスクリーンショット</block>
   <block id="f263a9088dc54ae9648c1dae3fe993d3" category="paragraph"><block ref="f263a9088dc54ae9648c1dae3fe993d3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9e85accc113cf94c2f026e5ffe3421be" category="paragraph">バースト ステータス（請求済み、未請求、暫定）や請求期間などのデータを Excel 形式でダウンロードすることもできます。</block>
   <block id="9781ed71d59e0117b4c9dc5a901b029a" category="paragraph">Keystoneサブスクリプション全体のアラートモニターのリストを表示できます。モニター名、通知をトリガーするモニター条件、重大度レベル、サブスクリプション番号、パフォーマンスサービスレベル、ステータスが含まれます。*作成者*列を確認すると、アラートモニターがシステムによって生成されたものか、ユーザー定義のものかを確認できます。</block>
   <block id="5389584b1bf548949de8edaecabfc485" category="admonition">システムによって生成されたモニターは編集できません。</block>
   <block id="acfccb7b9983c50ac70ead28a6be20cb" category="admonition">システム生成のモニターは削除できません。</block>
@@ -2511,12 +2508,8 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="d1d79a1d3945e37b66a6707cd87b9ed0" category="list-text">*バースト容量*：ご契約で許可される最大バースト制限。</block>
   <block id="39d85a9f5c080a0273cd8ef8892c32b8" category="list-text">*バースト容量超過*：バースト制限を超えるストレージ使用量。この指標は、バースト制限を超えた場合にのみ表示されます。</block>
   <block id="c09e069ede7bdb06ea3b9e7615be21b1" category="paragraph">クエリの日付範囲に基づいて、使用状況チャートには最大30個のデータ収集ポイントが表示されます。グラフの上にマウスカーソルを置くと、各データ収集ポイントでの使用状況の内訳が表示されます。</block>
-  <block id="dee9a22d9bea2517a6ba3ada8d2b1d61" category="paragraph">コンソールの*消費傾向*タブの*履歴データ*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の予測容量使用量を表示できます。このトグルはデフォルトで有効になっています。</block>
-  <block id="d895d782266d449ca70ee01f77ce836f" category="paragraph">デフォルトでは、グラフには過去30日間の消費量データと、現在の日付から120日間の予測値が同じグラフ上に表示されます。合計で最大30個のデータポイントがプロットされます（履歴データが20個、予測データが10個）。2つのセグメントは垂直線で区切られています。</block>
   <block id="98e9fc7499f5ec07bce7ba0ae4c459ea" category="inline-image-macro">予測データを表示するスクリーンショット</block>
   <block id="aec1b050350c808c951dd08448b9c9ad" category="paragraph"><block ref="aec1b050350c808c951dd08448b9c9ad" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41ba25ff2c151db2eb81aa97afa993b7" category="paragraph">現在の日付で終わらない日付範囲を選択した場合、予測は自動的に無効になります。再度有効にするには、確認ダイアログが表示され、選択した期間が現在の日付で終了する場合にのみ予測データが利用可能であることが通知されます。確認すると、表示が過去30日間の履歴データと今後120日間の予測のデフォルト範囲にリセットされます。</block>
-  <block id="449cacbccdea6e91ca0e477aed1e6767" category="paragraph">予測される消費量がバースト容量を超えると予想される場合、グラフにアラートインジケーターが表示され、容量のアップグレードが推奨されます。</block>
   <block id="096ba8f18f440795ebc161dce2259d12" category="list-text">*リンクされたサブスクリプション*：プライマリサブスクリプションにリンクされたセカンダリサブスクリプションがある場合、この列にはプライマリサブスクリプションにリンクされたサブスクリプション番号が表示されます。この列はデフォルトでは非表示になっており、リンクされたサブスクリプションが利用可能な場合にのみ表示されます。</block>
   <block id="ed7ea238eb12e525c819f7503ae42929" category="list-text">* Keystoneバージョン*：サブスクリプションに使用されているKeystoneサービスのバージョン。パフォーマンスサービスレベルに関する料金プランのルールは、サブスクリプションのバージョンによって異なる場合があります。バージョンv1の詳細については、<block ref="d7848503560f6eda6c1c5b670f722092" category="inline-link-rx"></block>を参照してください。この列はデフォルトでは非表示になっており、列セレクター<block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block>アイコンを使用して有効にすることができます。</block>
   <block id="a317125c258dec2606079ff63caaadb2" category="paragraph">2026/03/30</block>
@@ -2706,4 +2699,23 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP に必要なハイパースケーラーベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaS サブスクリプションの一部として NetApp から提供されません。これらのサブスクリプションは、ハイパースケーラーのクラウド サービス プロバイダーから直接調達する必要があります。</block>
   <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone サブスクリプションの容量消費量は、ダッシュボードとレポートに TiBs で表示され、小数点以下第 2 位まで四捨五入されます。使用量が 0.01 TiB 未満の場合、値は 0 または「使用量なし」と表示されます。これらの画面のデータは、UTC 時間（サーバーのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的に UTC 時間として扱われます。使用状況指標の詳細については、<block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>を参照してください。Keystone で使用されるさまざまな容量については、<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">ストレージ容量のタイプ</block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">プロビジョニング済み容量ラベルの名前を変更しました</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">累積バーストの予測切り替え</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">*消費傾向*タブの*累積バースト*ビューにある*予測*トグルを使用すると、現在の日付から今後120日間の累積バースト使用量を予測できるようになりました。詳細については、<block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="b833fc063470eb72aa05a5570f243c7b" category="admonition">*予測*トグルを使用すると、*履歴データ*ビューで予測される容量使用量を、*累積バースト*ビューで予測される累積バーストを表示できます。詳細については、<block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="f0966c8c81211afb8b1cacba8a9fa525" category="paragraph">蓄積されたバーストデータ使用量は、コンソールまたはDigital Advisorで確認できます。コンソールの*消費傾向*タブの*表示*ドロップダウンから*発生バースト*を選択した場合、またはDigital Advisorの*消費傾向*タブから*請求済み発生バースト*オプションを選択した場合、選択した請求期間に応じて、月ごとまたは四半期ごとに累積バーストデータ使用量を確認できます。</block>
+  <block id="30403a0435001d542a0a621f63da7853" category="paragraph">コンソールで*Forecast*トグルが無効になっている場合、請求済みのバースト使用量に加え、未請求のバースト使用量（発生しているがまだ請求されていないもの）と暫定バースト使用量（現在の請求期間に発生しているがまだ請求されていないもの）を表示できます。*Forecast*トグルが有効になっている場合、グラフには現在の日付から今後120日間の予測される累積バースト使用量も表示されます。*Forecast*トグルについて詳しくは、<block ref="c3e0115050031e1e905cbb5a43dfe637" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="4951b01aa4815e91bf5e5e1d2f14728e" category="paragraph">コンソールでは、*消費傾向*タブの*予測*トグルを使用して、*履歴データ消費*ビューで予測される容量使用量を、*累積バースト*ビューで予測される累積バーストを表示できます。この切り替え機能は、どちらのビューでもデフォルトで有効になっています。</block>
+  <block id="30581acd054ace99b93673d52e83f48b" category="paragraph">*履歴消費量*ビューでは、過去30日間の履歴消費量と、現在の日付から120日間の予測が同じグラフ上に表示されます。合計で最大30個のデータポイントがプロットされます（履歴データが20個、予測データが10個）。2つのセグメントは垂直線で区切られています。</block>
+  <block id="c3150ed0c9263aebf6fad206d2bbfa0f" category="paragraph">*累積バースト*ビューでは、グラフに過去6か月間の累積バースト履歴と現在の日付から120日間の予測が表示され、履歴データと予測データは垂直線で区切られています。現在の請求期間を示すバーには、暫定的なバースト使用量と残りの日数の予測データの両方が表示されます。任意のバーをクリックすると、*日別累積バースト*テーブルで日ごとの内訳を表示できます。*日別累積バースト*テーブルの詳細については、<block ref="0cc16f2bbc32fd70c68f98b9b0b4296a" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="2c1588a23b3ae26913ca97110590c261" category="inline-image-macro">累積バースト予測を示すスクリーンショット</block>
+  <block id="fa251514521b15877d660478b5f146da" category="paragraph"><block ref="fa251514521b15877d660478b5f146da" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7fea2236eaf015429aa1139544fbef4b" category="paragraph">現在の日付で終わらない日付範囲を選択した場合、予測は自動的に無効になります。再度有効にするには、確認ダイアログが表示され、選択した期間が現在の日付で終了する場合にのみ予測データが利用可能であることが通知されます。ダイアログを確認すると、ビューは選択したビューのデフォルト範囲にリセットされます：*履歴消費量*ビューでは過去30日間の履歴データと今後120日間の予測、または*累積バースト*ビューでは過去6か月間の累積バースト履歴と今後120日間の予測が表示されます。</block>
+  <block id="4aadf88f31f4e4fb67909d4a1f8d6fa5" category="paragraph">予測される消費量が契約容量を超えると予想される場合、グラフ上にオレンジ色の警告表示が現れ、容量増強を推奨します。バースト容量を超えることが予想される場合は、赤色の警告表示も表示され、容量の増強が推奨されます。</block>
+  <block id="20eac3e5793b6f7331d6d7f608939431" category="admonition">グラフに表示されるデータは、*予測*トグルが有効になっているか無効になっているかによって異なります。</block>
+  <block id="42fda15e65e4afa2339de7eff6850159" category="paragraph">また、バーストステータス（請求済み、未請求、暫定、予測など、該当する場合）や請求期間を含む、利用可能なデータを Excel 形式でダウンロードすることもできます。</block>
+  <block id="f649abbfb1fbdf6d16ef1e522e9f0b3f" category="paragraph">予測消費データにおける不正確な下降傾向</block>
+  <block id="af9ef0b1942bfef1a3c549bcd43ad2d0" category="paragraph">*消費動向*タブにおいて、*履歴データ消費量*ビューで*予測*トグルが有効になっている場合、予測される容量使用量に、著しく不正確な下降傾向が表示されます。</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">2026年4月27日</block>
 </blocks>
