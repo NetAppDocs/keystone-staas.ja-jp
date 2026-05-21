@@ -176,20 +176,12 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: ランサムウェアリカバリ保証
         url: "/concepts/sla-ransomware.html"
-    - title: 請求について理解する
+    - title: Keystoneの請求について理解する
       entries:
-      - title: Keystoneの価格設定
+      - title: Keystoneの請求について学ぶ
         url: "/concepts/pricing.html"
-      - title: コミット済み容量に基づく請求
-        url: "/concepts/committed-capacity-billing.html"
-      - title: 消費容量に基づく計測
-        url: "/concepts/consumed-capacity-billing.html"
-      - title: バースト消費に基づく請求
-        url: "/concepts/burst-consumption-billing.html"
-      - title: 特定のボリューム構成に対する課金
+      - title: 特定のボリュームタイプに対するKeystone課金
         url: "/concepts/misc-volume-billing.html"
-      - title: 請求スケジュール
-        url: "/concepts/billing-schedules.html"
   - title: Digital Advisor REST APIからKeystoneにアクセス
     entries:
     - title: Digital Advisor REST APIを使用したKeystoneデータの取得を開始する
