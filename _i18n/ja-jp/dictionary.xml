@@ -1689,9 +1689,7 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="b714a345064d1fee61d1cc1281a6fefe" category="list-text">サブスクリプションのタイムラインを表示するには、「*サブスクリプション番号*」列でサブスクリプション番号を選択します。</block>
   <block id="378f1892574980608cc14d0505dc8302" category="list-text">*サブスクリプションタイムライン*タブを選択します。</block>
   <block id="33a1adebde8a441b691ab5ca91c43f67" category="inline-image-macro">重要なイベントとともに、サブスクリプションのタイムラインを折れ線グラフ形式で表示するスクリーンショット</block>
-  <block id="da68a8f816866d6c67389e49539cc5e4" category="paragraph"><block ref="da68a8f816866d6c67389e49539cc5e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20647cff2639f24d1690fa3e3247672e" category="inline-image-macro">重要なイベントとともに、サブスクリプションのタイムラインを表グラフ形式で表示するスクリーンショット</block>
-  <block id="e656406ec3f71a6faf961120d8791fe6" category="paragraph"><block ref="e656406ec3f71a6faf961120d8791fe6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e665113a95f128bda94a45125d034c0" category="doc">Keystoneサブスクリプションの詳細を表示する</block>
   <block id="da165360e20e2139a72fd6fadd1175f3" category="inline-image-macro">サブスクリプションタブの詳細を表示する</block>
   <block id="e6cb8545fbd488c01d2779c3cf2fe308" category="list-text">*顧客名*: Keystone サブスクリプションに関連付けられている顧客の名前。</block>
@@ -2104,7 +2102,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="2cffc1f33b9b6ccb45614d69036254d2" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [パフォーマンス]* を選択します。</block>
   <block id="cf965a30eec7fe8ec42e2f3f520205a4" category="summary">NetAppコンソールからサブスクリプションのタイムラインを表示します。これには、アクティベーション日、変更日、更新日などのイベントが含まれます。</block>
   <block id="ea0ce0391196099aab618a4b710b5332" category="paragraph">NetAppコンソールのKeystoneダッシュボードには、 Keystoneサブスクリプションのタイムライン ビューが提供され、アクティベーション、変更、更新日などのイベントが表示されます。このタイムライン ビューはDigital Advisorでは使用できません。</block>
-  <block id="51a66b760aa1870a147d6acc0e6c8efd" category="paragraph">サブスクリプションのタイムラインは、デフォルトでは折れ線グラフとして表示され、重要なイベントはアイコンでマークされます。イベントの上にマウスを移動すると、日付やコミットされた容量の変更などの詳細が表示されます。これらのイベントを表形式で表示するには、[表示形式] ドロップダウンから [表] オプションを選択します。他のサブスクリプションのタイムラインを表示するには、「*トラッキング ID*」ドロップダウンから選択または検索します。</block>
   <block id="fd4257d1ebe74f01a9d3b5236f722a08" category="paragraph">NetAppコンソールおよびDigital Advisorの *サブスクリプション* からすべてのサブスクリプションのリストを表示できます。このビューでは、サブスクリプションのステータスと使用状況に基づいたわかりやすい分析情報が提供され、常に情報を入手し、必要に応じて対応することができます。</block>
   <block id="579139f19217a677980dce581b098367" category="paragraph">容量の使用状況、サブスクリプションの有効期限ステータス、未解決のアラートなどの主要なメトリックが表示されます。</block>
   <block id="09253a17dd3290d17d3baeba1a85ec41" category="paragraph">表から次の詳細を確認できます。</block>
@@ -2726,4 +2723,12 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="e6ff8f3b83ecc7de79998d1038e44b10" category="sidebar">契約した容量を超過した場合、どうなりますか？</block>
   <block id="8c4d76fa92f09a8376865002414752f9" category="sidebar">請求書はいつ生成されますか？</block>
   <block id="58738d2f8ee7ea1370382ef241eb44f2" category="sidebar">Keystoneの請求について理解する</block>
+  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">購読タイムラインにおける同日の複数の更新の表示を改善しました</block>
+  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">購読状況を示すタイムラインチャートでは、異なる種類の購読更新が同日に複数発生した場合、個別のアイコンではなく数値が表示されるようになりました。その数字にカーソルを合わせると、その日のすべての更新の種類が表示されます。ダウンロードしたレポートには、更新内容ごとに個別の行が含まれており、すべての変更履歴を完全に確認できます。詳細については、<block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="0e3e57bffd0893b655bd0cbbfa13b3f1" category="paragraph"><block ref="0e3e57bffd0893b655bd0cbbfa13b3f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb648f8805fc9b54e9ef8edf7809ab97" category="paragraph">サブスクリプションタイムラインはデフォルトで折れ線グラフとして表示され、重要なイベントがアイコンでマークされます。異なるタイプの複数のサブスクリプション更新が同じ日に発生した場合、チャートには個別のアイコンではなく数字が表示されます。数字の上にカーソルを合わせると、その日に発生したすべての更新タイプが表示されます。また、任意のイベントアイコンの上にカーソルを合わせると、日付やコミット済み容量の変更などの詳細が表示されます。これらのイベントを表形式で表示するには、*View as*ドロップダウンから*Table*オプションを選択します。他のサブスクリプションタイムラインを表示するには、*Tracking ID*ドロップダウンから選択または検索します。</block>
+  <block id="08e7a28380a64fb6e2353778c694c0a9" category="paragraph"><block ref="08e7a28380a64fb6e2353778c694c0a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="96eda23bc910b422399a3d3faca263de" category="paragraph">期限切れのサブスクリプションの有効期限が間違っています</block>
+  <block id="bab3c4cbe1382c763eff57041def5e4a" category="paragraph">*Subscriptions*タブでは、期限切れの定期購読の場合、実際の購読終了日ではなく、昨日の日付が有効期限として表示されます。</block>
+  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">2026年5月25日</block>
 </blocks>
