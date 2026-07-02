@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: integrations/adp-tab.html 
-keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, bluexp, NetApp Console, Console 
-summary: Keystoneの高度なデータ保護アドオンサービスに登録すると、MetroClusterパートナーサイトの消費データを表示し、健全性ステータスを監視できます。 
+keywords: keystone-aiq, digital advisor keystone, advanced data protection, ADP, MetroCluster, consumption data, health status, primary site, mirror site, sync status, ONTAP Mediator, capacity utilization, consumption trends, license distribution, usage insights, license types, v1, v2, v3, bluexp, NetApp Console, Console 
+summary: Keystone の高度なデータ保護アドオンサービスに登録すると、MetroCluster パートナーサイトの消費データの表示、健全性ステータスの監視、および ADP ライセンスの配布状況の追跡を行うことができます。 
 ---
 = Keystone MetroClusterサブスクリプションの消費量と健全性を表示
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Keystoneの高度なデータ保護アドオンサービスに登録す
 
 
 [role="lead"]
-高度なデータ保護アドオンサービスに加入すると、MetroClusterパートナーサイトの消費データをNetApp ConsoleまたはDigital Advisorで表示できます。NetApp Consoleでは、MetroClusterセットアップのレプリケーションステータスと健全性を監視することもできます。
+advanced data protectionアドオン サービスを契約すると、NetApp ConsoleまたはDigital Advisorのいずれかで、MetroClusterパートナー サイトの消費データを確認できます。NetApp Consoleでは、MetroCluster構成の健全性を監視し、advanced data protectionライセンスの割り当て状況を追跡することもできます。
 
 
 
@@ -38,7 +38,7 @@ TIP: MetroClusterサブスクリプションは、image:metrocluster-icon.png["M
 
 . *Advanced data protection（ADP）*タブを選択します。
 +
-このタブでは、プライマリサイトとミラーサイトの両方での基本パフォーマンスサービスレベルの消費データを表示し、MetroClusterセットアップの健全性ステータスを監視し、同期ステータスを追跡できます。
+このタブでは、プライマリサイトとミラーサイトの両方における基本パフォーマンスサービスレベルの消費データを表示し、MetroClusterセットアップの健全性と同期ステータスを監視し、両方のクラスターにおけるADPライセンスの使用状況と配布状況を確認できます。
 
 +
 ** 選択した期間の消費分布チャートを表示します。
@@ -50,10 +50,20 @@ TIP: MetroClusterサブスクリプションは、image:metrocluster-icon.png["M
 NOTE: 基本パフォーマンス サービス レベルでは、各ボリュームはプライマリ サイトとミラー サイトの両方でプロビジョニングされたとおりに課金されます。したがって、グラフは各サイトでの消費量を反映するように分割されます。
 
 +
-*例：*ツールヒントには、プライマリサイトの1.15 TiBやミラーサイトの4.22 TiBなどの消費量の値が表示されます。
+*例：*ツールヒントには、プライマリサイトの109.29 TiBやミラーサイトの111.97 TiBなどの消費量の値が表示されます。
 
 +
-image:adp-consumption-chart.png["MetroCluster の消費分布を示す折れ線グラフ。ツールチップにプライマリサイトで 1.15 TiB、ミラーサイトで 4.22 TiB と表示されます"]
+image:adp-consumption-chart-1.png["MetroCluster の消費分布を示す折れ線グラフ。ツールチップにプライマリサイトで 1.15 TiB、ミラーサイトで 4.22 TiB と表示されます"]
+
+** 選択した期間のライセンス配布状況チャートを表示します。
++
+このグラフは、Cluster A（プライマリ）とCluster B（ミラー）におけるADPライセンスの使用状況を示しています。お客様のサブスクリプションに関連付けられているライセンスバージョンに応じて、このグラフには、各サイトにおける_Advanced data-protect premium tiering_やData-protect premium tieringなどの各ADPアドオンパフォーマンスサービスレベルの消費量が表示されます。
+
++
+image:adp-license-distribution.png["異なるライセンスバージョンにおけるCluster AとCluster BでのADPライセンスの分布を示す積み上げ棒グラフ"]
+
++
+このデータを使用すると、特定の日付の請求が正しいかどうかを確認したり、サブスクリプションの利用料金の引き落とし額を照合したりできます。
 
 ** *ADP トポロジ*ビューでMetroClusterセットアップの健全性ステータスを監視します。
 +
