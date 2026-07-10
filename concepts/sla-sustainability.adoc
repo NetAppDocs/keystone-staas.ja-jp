@@ -18,6 +18,7 @@ summary: Keystoneのサステナビリティ SLO が STaaS 導入の消費電力
 
 
 
+[[metrics]]
 == 指標
 
 * *ワット*：ストレージ アレイまたは AFF クラスタによって消費され、監視ツールによって報告される電力。基準最大消費電力制限はlink:https://hwu.netapp.com["NetApp Hardware Universe"^]に記載されています。
@@ -33,6 +34,7 @@ summary: Keystoneのサステナビリティ SLO が STaaS 導入の消費電力
 
 
 
+[[supported-configurations]]
 === サポートされている構成
 
 持続可能性SLOは、以下のサポートされる構成を持つ標準のKeystone STaaS注文に適用されます：
@@ -47,6 +49,7 @@ summary: Keystoneのサステナビリティ SLO が STaaS 導入の消費電力
 
 
 
+[[service-credits]]
 == サービスクレジット
 
 
@@ -80,6 +83,7 @@ NOTE: SLAと保証は申請に応じて提供されます。
 |===
 
 
+[[service-credit-request]]
 === サービスクレジットリクエスト
 
 サービスクレジットを要求するには、サービス月の終了日から7日以内に優先度3（P3）のサポートチケットをNetApp Keystoneサポートで開き、以下のExcelシートに記載されている詳細情報を提供してください：

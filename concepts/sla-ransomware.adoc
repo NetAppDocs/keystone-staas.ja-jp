@@ -18,12 +18,14 @@ NetAppは、ランサムウェア攻撃が発生した場合に、Ransomware Rec
 
 
 
+[[service-levels]]
 == サービスレベル
 
 Ransomware Recovery Assurance Serviceは、該当するサブスクリプション期間中、Keystoneサブスクリプションをサポートするすべてのハードウェアに対して必要である。
 
 
 
+[[service-credits]]
 == サービスクレジット
 
 

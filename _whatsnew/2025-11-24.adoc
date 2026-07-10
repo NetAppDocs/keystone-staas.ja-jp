@@ -6,6 +6,7 @@ NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
 
 
 
+[[tracking-id-for-coverage-gap-subscriptions]]
 === カバレッジギャップサブスクリプションの追跡ID
 
 *モニタリング > アラート モニター* の *カバレッジの完了* 通知ボックスで、各サブスクリプションのサブスクリプション番号の横に追跡 ID が表示されるようになりました。

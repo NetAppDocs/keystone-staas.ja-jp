@@ -38,6 +38,7 @@ image:rest-api-token-types.png["トークンの種類"]
 
 
 
+[[generate-access-token-using-the-digital-advisor-rest-api]]
 == Digital Advisor REST APIを使用したアクセストークンの生成
 
 アクセストークンは、Digital Advisor API要求の認証に使用されます。更新トークンと一緒にコンソールから直接生成するか、次のAPI呼び出しを使用して生成できます。
@@ -89,6 +90,7 @@ curl -X 'POST' \ 'https://api.activeiq.netapp.com/v1/tokens/accessToken' \ -H 'a
 ----
 
 
+[[execute-the-api-call]]
 == API呼び出しを実行する
 
 アクセストークンが正常に生成されたら、必要な情報に対して承認されたDigital Advisor API呼び出しを実行できます。

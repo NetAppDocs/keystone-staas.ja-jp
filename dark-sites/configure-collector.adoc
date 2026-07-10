@@ -66,6 +66,7 @@ image:dark-site-overall-healthy-2.png["サービスステータス"]
 
 
 
+[[export-usage-report]]
 == 使用状況レポートのエクスポート
 
 月次使用状況サマリーレポートは、毎月月末にNetAppに送信する必要があります。このレポートは手動で生成できます。
@@ -84,6 +85,7 @@ image:dark-site-clear-file-report-1.png["ファイルレポートのクリア"]
 
 
 
+[[upgrade-ontap]]
 == ONTAPのアップグレード
 
 Keystone Collectorでは、TUIによるONTAPのアップグレードがサポートされます。
@@ -100,6 +102,7 @@ image:dark-site-start-webserver-1.png["Webサーバの起動オプション"]
 
 
 
+[[restart-keystone-collector]]
 == Keystone Collectorを再起動
 
 TUIからKeystone Collectorサービスを再起動できます。TUIで*[Maintenance]>[Restart Collector]*[Services]に移動します。これにより、すべてのコレクタサービスがリブートされ、TUIのホーム画面からステータスを監視できます。

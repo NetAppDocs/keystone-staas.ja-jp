@@ -6,24 +6,28 @@ NetApp ConsoleのKeystoneダッシュボードの新しい機能強化:
 
 
 
+[[view-adp-license-distribution-for-metrocluster-subscriptions]]
 === MetroCluster サブスクリプションの ADP ライセンス配布状況を確認する
 
-「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、link:./integrations/adp-tab.html["Keystone MetroClusterサブスクリプションの消費量と健全性を表示"] を参照してください。
+「高度なデータ保護 (ADP)」タブに新しい「ライセンス配布」サブタブが追加され、MetroCluster パートナークラスター全体の ADP ライセンスの使用状況を可視化できるようになりました。詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/adp-tab.html["Keystone MetroClusterサブスクリプションの消費量と健全性を表示"]を参照してください。
 
 
 
+[[view-ransomware-protection-status-for-your-volumes]]
 === ボリュームのランサムウェア対策状況を確認する
 
-「アセット」の「クラスター内のボリューム」タブに「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、link:https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAPにおける自律型ランサムウェアプロテクション（ARP）"]を参照してください。
+「アセット」の「クラスター内のボリューム」タブに、「ARPステータス」列が追加されました。この列には、各ボリュームで自律型ランサムウェア対策（ARP）が有効になっているか無効になっているかが表示され、管理対象アセット全体におけるランサムウェア対策の状況を可視化できます。ARP の詳細については、 https://docs.netapp.com/us-en/ontap/anti-ransomware/["ONTAPにおける自律型ランサムウェアプロテクション（ARP）"^]を参照してください。
 
 
 
+[[share-feedback-using-the-feedback-tab]]
 === フィードバックタブを使用してフィードバックを共有する
 
 Keystoneダッシュボードのどの画面からでも、画面右下隅に固定された新しい「フィードバック」タブを使用してフィードバックを送信できるようになりました。タブをクリックすると、ご意見を共有し、コメントを直接 NetApp に送信できるパネルが開きます。
 
 
 
+[[improve-alerting-for-capacity-usage-and-subscription-expiration]]
 === 容量使用量とサブスクリプション期限切れに関するアラート機能を改善する
 
 システム生成の監視機能により、容量使用状況とサブスクリプションの有効期限切れに関する、より詳細なアラートが提供されるようになりました。
@@ -32,4 +36,4 @@ Keystoneダッシュボードのどの画面からでも、画面右下隅に固
 
 容量使用量に関するバーストアラートのしきい値は、固定の20%ではなく、お客様のサブスクリプションのコミット済みバースト率に基づいて設定されるようになりました。例えば、コミット済みバーストが40%の場合、コミット済み容量利用率が140%に達した時点でクリティカルアラートが発動します。
 
-詳細については、link:./integrations/monitoring-alert-monitors.html["Keystoneサブスクリプションのアラート モニターの表示と作成"] を参照してください。
+詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html["Keystoneサブスクリプションのアラート モニターの表示と作成"]を参照してください。

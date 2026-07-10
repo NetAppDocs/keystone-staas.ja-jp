@@ -18,6 +18,7 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 
 
+[[requirements-for-vmware-vsphere]]
 == VMware vSphereノヨウケン
 
 * オペレーティング システム: VMware vCenter Server および ESXi 8.0 以降
@@ -28,6 +29,7 @@ summary: インターネットアクセスのない環境（_dark site_or_privat
 
 
 
+[[requirements-for-linux]]
 == Linuxノヨウケン
 
 * オペレーティング システム (いずれかを選択):
@@ -81,6 +83,7 @@ NOTE: 上記のサードパーティパッケージのみがKeystoneコレクタ
 
 
 
+[[networking-requirements]]
 == ネットワーク要件
 
 Keystone Collectorのネットワーク要件は次のとおりです。

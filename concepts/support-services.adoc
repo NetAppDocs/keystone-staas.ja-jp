@@ -18,6 +18,7 @@ NetAppは、Keystoneのお客様に運用サービスを提供します。お客
 
 
 
+[[netapp-support-services]]
 == NetAppサポートサービス
 
 NetAppは、Keystoneのお客様に運用サービスをリモートで提供します。これらのサービスは、資産および構成管理、容量およびパフォーマンス管理、変更管理、イベントおよびインシデント管理、サービスリクエストの履行、レポート作成など、さまざまなストレージ管理アクティビティにわたります。
@@ -27,6 +28,7 @@ KSMは、お客様のKeystoneサービスについてお客様と緊密に連携
 
 
 
+[[contact-support]]
 == サポートにお問い合わせください
 
 Keystone サブスクリプションで問題が発生した場合は、 NSS クレデンシャルを使用してlink:https://support.netapp.com["NetAppサポート サイト"^]にログインし、サポートケースを作成してください。
@@ -45,12 +47,14 @@ NSSログインをお持ちでない場合は、link:https://mysupport.netapp.co
 
 
 
+[[support-monitoring]]
 == サポートの監視
 
 NetAppは、ITOM監視ソリューションを使用して、製品とサブスクライブサービスの健全性をプロアクティブに監視し、トラブルシューティングのためにNetApp Keystone環境に接続します。
 
 
 
+[[additional-resources]]
 == その他のリソース
 
 Keystoneサービスの詳細については、以下を参照してください。

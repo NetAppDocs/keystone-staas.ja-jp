@@ -4,6 +4,7 @@
 
 
 
+[[addition-of-alert-monitoring]]
 === アラート監視の追加
 
 BlueXPのKeystoneダッシュボードには、サブスクリプション全体のアラートとモニターを管理するための *監視* タブが追加されました。この新しいタブでは次のことが可能になります。
@@ -16,6 +17,7 @@ BlueXPのKeystoneダッシュボードには、サブスクリプション全体
 
 
 
+[[streamlined-performance-service-levels-viewing]]
 === 合理化されたパフォーマンス サービス レベルの表示
 
 パフォーマンス サービス レベル情報は、別のタブから展開可能なビューに移動され、[*サブスクリプション*] タブ内で表示できます。各サブスクリプションの有効期限を表示するには、「*有効期限*」列の横にある下矢印をクリックします。詳細については、link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示する"] 。

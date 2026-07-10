@@ -18,6 +18,7 @@ summary: '[Assets]タブを使用して、ONTAPのクラスタとノード、お
 
 
 
+[[view-keystone-subscription-assets-from-netapp-console]]
 == NetAppコンソールからKeystoneサブスクリプション資産を表示する
 
 *サブスクリプション* ページの *アセット* タブには、さまざまな詳細や容量ステータスなど、サブスクリプションに関連付けられているクラスター内のボリューム、 StorageGRIDノード、およびONTAPノードに関する詳細情報が表示されます。
@@ -106,6 +107,7 @@ TIP: 列セレクターを使用してテーブルをカスタマイズできま
 ====
 
 
+[[view-keystone-subscription-assets-from-digital-advisor]]
 == Digital Advisor から Keystone サブスクリプション資産を表示する
 
 Digital AdvisorのKeystoneダッシュボードの*Assets*タブには、*ONTAP*と*StorageGRID*という2つのサブタブがあります。このタブには、サブスクリプションに基づいてONTAPのクラスタレベルの情報とStorageGRIDのグリッドレベルの情報が収集され、データが正確な情報とともに分離されて表示されます。それぞれのサブタブをクリックすると、これらの情報が表示されます。

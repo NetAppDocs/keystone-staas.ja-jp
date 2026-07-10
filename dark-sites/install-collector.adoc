@@ -20,6 +20,7 @@ Keystone Collectorは、要件に応じてVMware vSphereシステムに導入す
 
 
 
+[[deploy-on-vmware-vsphere]]
 == VMware vSphereに導入
 
 次の手順を実行します。
@@ -30,6 +31,7 @@ Keystone Collectorは、要件に応じてVMware vSphereシステムに導入す
 
 
 
+[[install-on-linux]]
 == Linuxへのインストール
 
 Keystone Collectorソフトウェアは、Linuxディストリビューションに基づいて、提供されている.debファイルまたは.rpmファイルを使用してLinuxサーバにインストールされます。

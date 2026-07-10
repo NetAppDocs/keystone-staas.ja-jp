@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-logical-usage-tracking-with-a-new-column]]
 === 新しい列による論理使用状況の追跡の強化
 
 FabricPoolボリュームのKeystone消費量追跡を強化するために、新しい列「合計フットプリント」が追加されました。

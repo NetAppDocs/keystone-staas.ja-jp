@@ -18,6 +18,7 @@ advanced data protectionアドオン サービスを契約すると、NetApp Con
 
 
 
+[[view-metrocluster-subscriptions-consumption-and-health-status]]
 == MetroClusterサブスクリプションの消費量と健全性ステータスを表示
 
 次の手順を実行します。

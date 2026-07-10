@@ -4,6 +4,7 @@
 
 
 
+[[keystone-dashboard-in-bluexp]]
 === BlueXPのKeystoneダッシュボード
 
 BlueXPからKeystoneダッシュボードに直接アクセスできるようになりました。この統合により、すべてのKeystoneサブスクリプションとその他のNetAppサービスを一元的に監視、管理、追跡できるようになります。
