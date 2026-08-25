@@ -80,4 +80,4 @@ NetApp Keystone STaaSには、サービス提供のための2つの運用モデ�
 
 | image:check.png["チェックマーク"] | なし 
 |===
-導入の詳細については、を参照してください link:../concepts/infra.html["Keystoneインフラ"] および link:..//concepts/components.html["導入用のコンポーネント"]。
+展開の詳細については、link:../concepts/infra.html["Keystoneインフラストラクチャーについて"]およびlink:..//concepts/components.html["Keystoneサービスに必要なコンポーネント"]を参照してください。

@@ -4,7 +4,7 @@ permalink: installation/monitor-health.html
 keywords: monitoring system health 
 summary: データを確実に利用できるようにするには、HTTP要求をサポートする任意の監視システムを使用して、Keystone Collectorの健全性を監視します。 
 ---
-= Keystone Collectorの健全性を監視する
+= Keystone Collector の健全性監視
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

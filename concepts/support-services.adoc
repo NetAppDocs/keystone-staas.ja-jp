@@ -4,7 +4,7 @@ permalink: concepts/support-services.html
 keywords: Keystone support, service request, support ticket 
 summary: NetApp Support Siteを使用して、Keystoneサブスクリプションのサポートケースを作成したり、連絡先情報を確認したりできます。 
 ---
-= Keystoneに関するサポートを受ける
+= Keystoneのサポートサービス
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

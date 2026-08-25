@@ -42,6 +42,6 @@ Keystoneは、ファイル、ブロック、オブジェクトストレージの
 * link:../concepts/pricing.html["Keystoneの価格設定"]
 * link:../concepts/add-on.html["Keystone STaaSのアドオンサービス"]
 * link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"]
-* link:../concepts/infra.html["Keystoneインフラ"]
+* link:../concepts/infra.html["Keystoneインフラストラクチャーについて"]
 * link:../concepts/operational-models.html["Keystoneの運用モデル"]
 

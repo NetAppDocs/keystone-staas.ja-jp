@@ -4,7 +4,7 @@ permalink: dark-sites/overview.html
 keywords: keystone, dark, site, staas, security, deployment, collector, encryption, access 
 summary: Keystoneでは、ビジネス要件とセキュリティ要件を満たすために、_private_deploymentモード（_dark site_とも呼ばれます）が用意されています。 
 ---
-= Keystoneの詳細（プライベートモード）
+= プライベートモードでの Keystone について
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
