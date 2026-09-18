@@ -2597,7 +2597,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="210e56fe3363d08baaade2dc0b9e44d3" category="paragraph">オブジェクト ストレージを含む</block>
   <block id="ae566ca3a7090c62a4e64db6763e5fc9" category="paragraph">すべての StorageGRID 機能をサポート</block>
   <block id="6d1270d83b59c4d34695059058ba3873" category="admonition">Cloud Volumes ONTAP に必要なハイパースケーラーベースのコンピューティング、ストレージ、ネットワークサービスは、Keystone STaaS サブスクリプションの一部として NetApp から提供されません。これらのサブスクリプションは、ハイパースケーラーのクラウド サービス プロバイダーから直接調達する必要があります。</block>
-  <block id="c148f39d208183361daf2e5ab75c9a60" category="admonition">Keystone サブスクリプションの容量消費量は、ダッシュボードとレポートに TiBs で表示され、小数点以下第 2 位まで四捨五入されます。使用量が 0.01 TiB 未満の場合、値は 0 または「使用量なし」と表示されます。これらの画面のデータは、UTC 時間（サーバーのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的に UTC 時間として扱われます。使用状況指標の詳細については、<block ref="c526a2ccdbb16224fb861d4fec1eb67c" category="inline-link-macro-rx"></block>を参照してください。Keystone で使用されるさまざまな容量については、<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>を参照してください。</block>
   <block id="e6664e13d8023d762b4d6f2f644a6287" category="sidebar">ストレージ容量のタイプ</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">プロビジョニング済み容量ラベルの名前を変更しました</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">*Provisioned capacity* というラベルが *Provisioned volume capacity* に名称変更されました。更新されたラベルは、関連する CSV および Excel レポートにも反映されています。</block>
@@ -2770,4 +2769,5 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9e1f1d9a0941c4381482b8b0522725a2" category="list-text"><block ref="9e1f1d9a0941c4381482b8b0522725a2" category="inline-link-macro-rx"></block></block>
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor の「消費動向」タブでは、選択する日付範囲が異なると、同じ請求期間であっても請求済み発生バーストチャートに異なる値が表示されます。</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026/08/31</block>
+  <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone サブスクリプションの容量消費量は、ダッシュボードとレポートに TiBs で表示され、小数点以下第 2 位まで四捨五入されます。使用量が 0.01 TiB 未満の場合、値は 0 または「使用量なし」と表示されます。これらの画面のデータは、UTC 時間（サーバーのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的に UTC 時間として扱われます。使用状況指標の詳細については、<block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>を参照してください。Keystone で使用されるさまざまな容量については、<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>を参照してください。</block>
 </blocks>
