@@ -2023,15 +2023,12 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="ca0d168dfc9d3eec3e502042fa77ec2f" category="admonition">複数のパフォーマンス サービス レベルを同時に選択して PSL を作成できます。</block>
   <block id="b3eed4304ada05a16ec5ec8b501efe72" category="admonition">選択したパフォーマンス サービス レベルの PSL が、指定されたActive IQ Unified Manger サーバーにすでに存在する場合は、再度作成することはできません。そうしようとすると、エラー メッセージが表示されます。<block ref="b503f359d5754d7d4260112bc56a05d7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ea25018c2d045851b6c9e6567fb76051" category="paragraph">NetAppコンソールを使用して、 Keystoneサブスクリプションを変更するためのサービス リクエストを表示および追跡し、簡単な概要と監視の進行状況を表示できます。</block>
-  <block id="aaaea723208b33ae079e357878d9a9cb" category="paragraph">単一のKeystoneサブスクリプションによって管理されるONTAPクラスタとノード、およびStorageGRIDグリッド、サイト、ノードに関する詳細情報を表示できます。NetAppコンソールまたはDigital AdvisorからKeystoneダッシュボードでこれらのサブスクリプション アセットにアクセスできます。</block>
   <block id="d1c3a83a967f6dcdc9a6ad9e94a8bbed" category="section-title">NetAppコンソールからKeystoneサブスクリプション資産を表示する</block>
-  <block id="d79f885d7740bdd0320f954c06a36686" category="paragraph">*サブスクリプション* ページの *アセット* タブには、さまざまな詳細や容量ステータスなど、サブスクリプションに関連付けられているクラスター内のボリューム、 StorageGRIDノード、およびONTAPノードに関する詳細情報が表示されます。</block>
   <block id="0f05cad44de93b9ae51d0faab82ddf96" category="admonition">このビューは、一度に 1 つのKeystoneサブスクリプションに制限されます。*トラッキング ID* ドロップダウン リストから選択して、他のサブスクリプションのアセットを表示することもできます。NetAppコンソールのKeystoneダッシュボードを使用すると、複数のKeystoneサブスクリプションにわたる資産を表示できます。詳細については、<block ref="5fe743b586c50b2c4c63c54967e2b587" category="inline-link-macro-rx"></block> 。</block>
   <block id="6ad1754a0bf091736b7eaeb7b3f62c28" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; サブスクリプション*を選択します。</block>
   <block id="faf81a172b05b574a00b455b36f81124" category="paragraph">システムは*電流消費*タブを開きます。</block>
   <block id="5521c544829f1dc100d359936dfe7589" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [資産] &gt; [ONTAP]*を選択します。</block>
   <block id="2e74dd182df85e5efdcab206a5bb39aa" category="list-text">*[一般] &gt; [Keystoneサブスクリプション] &gt; [資産] &gt; [StorageGRID]*を選択します。</block>
-  <block id="722a86c8a2d2a94e76387a8dfcb77c75" category="paragraph">NetAppコンソールのKeystoneダッシュボードでは、アクセス権限に応じて、複数のKeystoneサブスクリプションにわたるクラスター内のノード、プロビジョニングされたボリューム、 StorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは使用できません。</block>
   <block id="5280fdba34096a28b0a045aa4d088574" category="list-text">コンソールの左側のナビゲーション メニューから、*ストレージ &gt; Keystone &gt; 資産*を選択します。</block>
   <block id="168a7f531362f0071a0d1ecd8963c4fa" category="paragraph">*アセット* ページには、*クラスター内のノード* タブが表示されます。</block>
   <block id="8942b04e12a7cd6446730a97caf54479" category="paragraph"><block ref="8942b04e12a7cd6446730a97caf54479" category="inline-image-macro-rx" type="image"></block></block>
@@ -2207,8 +2204,6 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="89982b0af4c1ad3b86da7a82b021fed7" category="paragraph">vCenter ルート信頼ストアには VMware 証明書のみが含まれます。NetApp は証明機関として Entrust を使用しており、それらの証明書を vCenter 信頼ストアに追加する必要があります。</block>
   <block id="6421324a362bee91e5fee16704e6b0e5" category="admonition">vCenter バージョン 7.x 以前の場合は、vCenter と ESXi をバージョン 8.0 以降に更新する必要があります。以前のバージョンはサポートされなくなりました。</block>
   <block id="21f65ffde9511843c6e3b86b7a0de865" category="list-text">オペレーティング システム: VMware vCenter Server および ESXi 8.0 以降</block>
-  <block id="effa0f06c02c1da56e0eada86a5982ec" category="list-text">*表示*ドロップダウン オプションは、 Keystoneサブスクリプション プラットフォームによって異なります。*クラスタ内のボリューム*と*クラスタ内のノード*はONTAPで使用できます。StorageGRIDの場合、[表示] ドロップダウンは使用できませんが、[グリッド内のノード] テーブルが自動的に表示されます。サブスクリプションに両方のプラットフォームが含まれている場合は、3 つのオプションすべてが利用可能です。</block>
-  <block id="a71fbcfaa67815b8c0edea5059cb96fb" category="admonition">*Assets* ページには、 Keystoneサブスクリプションに関連付けられているプラ​​ットフォームに基づいてタブが表示されます。ONTAPの場合、*クラスター内のノード*タブと*クラスター内のボリューム*タブの両方が利用可能です。StorageGRIDの場合、タブを選択せず​​に *グリッド内のノード* テーブルが直接表示されます。サブスクリプションに両方のプラットフォームが含まれている場合は、3 つのタブすべてが利用可能になります。</block>
   <block id="7a29351a5aff62fec009044b13aad77f" category="paragraph">消費が許可されたバースト制限内であるにもかかわらず、サブスクリプションでは、Digital Advisorダッシュボードに「*バースト制限超過*」ステータスが誤って表示されます。</block>
   <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">2025年12月8日</block>
   <block id="ee53a2d144b153a8ad44855abe0429a8" category="list-text">Python 3 (3.9.14 から 3.11.8)</block>
@@ -2770,4 +2765,78 @@ JSONの本文は、の全体的な健常性ステータスを提供します<blo
   <block id="9af3a80255b1f2badb4f52464dc42a1a" category="paragraph">Digital Advisor の「消費動向」タブでは、選択する日付範囲が異なると、同じ請求期間であっても請求済み発生バーストチャートに異なる値が表示されます。</block>
   <block id="46c131fa48958e881a135770d82d1ed2" category="paragraph">2026/08/31</block>
   <block id="ad931b1068f269c0ef3c383147ccdc53" category="admonition">Keystone サブスクリプションの容量消費量は、ダッシュボードとレポートに TiBs で表示され、小数点以下第 2 位まで四捨五入されます。使用量が 0.01 TiB 未満の場合、値は 0 または「使用量なし」と表示されます。これらの画面のデータは、UTC 時間（サーバーのタイムゾーン）で表示されます。クエリの日付を入力すると、自動的に UTC 時間として扱われます。使用状況指標の詳細については、<block ref="9b55f40c1987bcafac5b8c4a6068e0eb" category="inline-link-macro-rx"></block>を参照してください。Keystone で使用されるさまざまな容量については、<block ref="0ea2e5735a73cb1292027bc1604190c4" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="73c20ad627e7f815932cb8837d70e1e8" category="doc">Keystoneサブスクリプションのヘルスインサイトを生成する</block>
+  <block id="ae638b3203053916360a0f228b8b54d7" category="paragraph">このKeystone STaaSリリースには、NetApp ConsoleのKeystoneダッシュボードにおける以下の更新が含まれています。</block>
+  <block id="a0c062a66e58943547f514904ae51daa" category="inline-link">Keystoneサブスクリプションのヘルスレポートを生成およびスケジュール設定する</block>
+  <block id="6da38bfefa907461e0fc0e4cbf32c236" category="paragraph">NetApp Console の *Storage &gt; Keystone &gt; Monitoring &gt; Health reports* から、オンデマンド PowerPoint レポートをダウンロードするか、1 回限り、毎週、毎月、または四半期ごとの配信をスケジュールできます。各レポートは、選択したサブスクリプション全体のサブスクリプション使用状況、運用上の正常性、リスク、および脆弱性をまとめたもので、懸念事項を特定し、実用的なインサイトを受信者と共有するのに役立ちます。詳細については、<block ref="d2f756b41ddff582298cd4e997cfe66a" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="bebf4a0b6cd7d09b5a94da709f1d8c60" category="section-title">ONTAPクラスターおよびアグリゲートの容量の表示</block>
+  <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">ONTAPクラスターとそのアグリゲートの物理容量、論理容量、ストレージ効率は、*Assets &gt; Clusters and aggregates*で確認できます。これは、物理容量に基づいて課金されるKeystone STaaSサブスクリプションでのみ利用可能です。詳細については、<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block>および<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>を参照してください。</block>
+  <block id="242675f82977e2b732509b6acf8667db" category="summary">「アセット」タブを使用して、お客様のKeystoneサブスクリプションで管理されているONTAPのボリューム、クラスタ、アグリゲート、ノード、およびStorageGRIDのグリッド、サイト、ノードの詳細を表示します。</block>
+  <block id="0efe9eaf14acac86472298cdd5f5109d" category="paragraph">単一のKeystoneサブスクリプションで管理されているONTAPのボリューム、クラスタ、アグリゲート、ノード、およびStorageGRIDのグリッド、サイト、ノードに関する詳細情報を表示できます。NetApp ConsoleまたはDigital Advisorから、Keystoneダッシュボードのこれらのサブスクリプション資産にアクセスできます。</block>
+  <block id="b4d0e97d122ef07cd548b9187fdc510c" category="paragraph">*サブスクリプション*ページの*アセット*タブには、サブスクリプションに関連付けられたONTAPボリューム、クラスタ、アグリゲート、ノード、およびStorageGRIDノードに関する詳細情報（容量ステータスを含む）が表示されます。</block>
+  <block id="b6672104a5edc2ee268695649b7efc83" category="list-text">*表示*ドロップダウンのオプションは、Keystoneサブスクリプションのプラットフォームによって異なります。ONTAPでは、*クラスター内のボリューム*および*クラスター内のノード*を使用できます。物理容量に基づいて課金されるKeystone STaaSサブスクリプションをご利用の場合にのみ、ONTAPで*クラスターとアグリゲート*を使用できます。StorageGRIDの場合、*表示*ドロップダウンは使用できず、*グリッド内のノード*テーブルが自動的に表示されます。サブスクリプションに両方のプラットフォームが含まれている場合、すべてのビューを*表示*ドロップダウンで使用できます。</block>
+  <block id="d239adbb3056939632516d1d08d120d8" category="open-title">クラスターとアグリゲート</block>
+  <block id="ae2bc834f9936477344838e8948bdb0d" category="admonition">*クラスターとアグリゲート*ビューは、物理容量に基づいて課金されるKeystone STaaSサブスクリプションでのみ利用できます。</block>
+  <block id="09b83f5220bf0da2cb80807cd2bb8e96" category="list-text">「表示」ドロップダウンメニューから「クラスターとアグリゲート」を選択します。</block>
+  <block id="66dd1782272dfc032045b2159f99214d" category="inline-image-macro">Keystoneサブスクリプションのクラスターとアグリゲートの容量の詳細</block>
+  <block id="585c164f60d0e210ad340364d9015a24" category="paragraph"><block ref="585c164f60d0e210ad340364d9015a24" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="af72db9328b73a9e4a9d56c0171a5cc3" category="paragraph">物理使用済み容量、物理使用可能容量、物理利用可能容量、ストレージ効率比、論理実効容量、使用済み論理容量、およびONTAPバージョンが表示されます。クラスターを展開すると、そのクラスターに含まれるアグリゲートに関する詳細情報が表示されます。</block>
+  <block id="fade075752cf0e88fd17391fb2667903" category="paragraph">このビューは、使用量と請求消費量の要因となっているクラスタとアグリゲートを特定し、利用可能な容量を比較し、インフラストラクチャの使用状況とサブスクリプションの消費量を関連付けるのに役立ちます。</block>
+  <block id="bd5e17dce4ac42cb2bdb3cebdf28ba1c" category="paragraph">NetApp ConsoleのKeystoneダッシュボードでは、アクセス権限に応じて、複数のKeystoneサブスクリプションにわたるONTAPノード、ボリューム、クラスタ、アグリゲート、およびStorageGRIDノードに関する詳細情報を表示できます。このビューはDigital Advisorでは利用できません。</block>
+  <block id="e353e5a4fc32bc945b4e295d4939757e" category="admonition">「*Assets*」ページには、お客様のKeystoneサブスクリプションに関連付けられたプラットフォームに基づくタブが表示されます。ONTAPの場合は、「*クラスタ内のノード*」タブと「*クラスタ内のボリューム*」タブが使用できます。「*クラスタとアグリゲート*」タブは、物理容量に基づいて課金されるKeystone STaaSサブスクリプションをお客様が契約している場合にのみ、ONTAPで使用できます。StorageGRIDの場合は、タブを選択しなくても「*グリッド内のノード*」テーブルが直接表示されます。お客様のサブスクリプションに両方のプラットフォームが含まれている場合、すべてのタブが使用できます。</block>
+  <block id="764f1b2acdb9954fdcf286f81598b392" category="admonition">*クラスターとアグリゲート*タブは、物理容量に基づいて課金されるKeystone STaaSサブスクリプションにのみ表示されます。</block>
+  <block id="0b5c7c82501660ba2ce96581f1092498" category="list-text">*クラスターとアグリゲート*タブを選択します。</block>
+  <block id="3fa43161310f791ddad5b7842b7a822f" category="inline-image-macro">複数のKeystoneサブスクリプションにまたがるクラスタとアグリゲート</block>
+  <block id="1eccb2779e3e22d7205f2688edb4fff3" category="paragraph"><block ref="1eccb2779e3e22d7205f2688edb4fff3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ba3ae12ee592f23e17ca4c40deca1397" category="paragraph">Keystoneサブスクリプション全体のONTAPクラスタの容量の詳細を表示できます。各クラスタについて、表には、物理使用済み容量、物理使用可能容量、物理空き容量、ストレージ効率比、論理実効容量、使用済み論理容量、およびONTAPバージョンが表示されます。クラスタを展開すると、そのアグリゲートの対応する詳細が表示されます。</block>
+  <block id="26f2e17ff10ab700018054fc4030a1b3" category="paragraph">この情報は、どのクラスターとアグリゲートが容量消費を牽引しているかを特定し、展開済みのインフラストラクチャ全体で利用可能な容量を比較し、クラスターおよびアグリゲートレベルでの使用状況がサブスクリプション全体の消費にどのように影響するかを理解するのに役立ちます。</block>
+  <block id="c6709f36c2ce949dfd5b2354653575bc" category="admonition">列セレクター <block ref="99d8fedf6955beccd7c8c7d45fa452d9" category="inline-image-macro-rx" type="image"></block> アイコンを使用してテーブルをカスタマイズし、検索バーを使用して利用可能な列の値でテーブルを絞り込むことができます。</block>
+  <block id="d9488e4902ac8163ee538f8e5bfe01c8" category="inline-link-macro">ヘルスレポートの生成とスケジュール設定</block>
+  <block id="ea034e7c3ada4fd5285144ae8a2f1ec3" category="list-text"><block ref="ea034e7c3ada4fd5285144ae8a2f1ec3" category="inline-link-macro-rx"></block></block>
+  <block id="6cceac6cd41854fc33cca3191e462847" category="list-text">*ヘルスレポートの生成*：サブスクリプションの使用状況、運用状況、リスク、脆弱性を確認するための、オンデマンドまたはスケジュールされたヘルス評価レポートを作成します。</block>
+  <block id="bcd6194438a86161f86a66b169dcae08" category="summary">NetApp ConsoleでKeystoneの健全性評価レポートを使用すると、サブスクリプションの詳細を表示したり、健全性を評価したり、使用傾向を分析したり、1つまたは複数のサブスクリプション全体のリスクと脆弱性を特定したりできます。レポートはオンデマンドで生成することも、スケジュール設定して生成することもでき、関係者と正確な運用情報やコンプライアンス情報を共有できます。</block>
+  <block id="43c438a5f171a0070565c9a3ce412632" category="paragraph">NetApp ConsoleのKeystoneダッシュボードから、1つ以上のKeystoneサブスクリプションのヘルスレポートを生成またはスケジュールします。これらのレポートは、サブスクリプションの使用状況、運用の健全性、リスク、脆弱性の統合ビューを提供し、目的の受信者と共有できます。この機能はDigital Advisorでは利用できません。</block>
+  <block id="ed90fab979b1c2338f266823f485f606" category="paragraph">ヘルスレポートでは、選択したサブスクリプション全体の利用状況、運用状況、および特定されたリスクを確認できます。*新規レポート*ページで、*レポート設定*パネルを使用して、レポートの範囲とオプションを定義します。レポートを作成またはスケジュールする前に、プレビュー領域を使用してスライドの順序とレイアウトを確認してください。プレビューではレポートの構造のみが表示され、実際のサブスクリプションデータは表示されません。</block>
+  <block id="805e040836078c98207014459ce00fe4" category="paragraph">レポートをすぐにダウンロードできるように生成するか、単発または定期的なレポートを後日配信するようにスケジュールするには、以下の手順に従ってください：</block>
+  <block id="8b033bd96006a357396469d2d12002ff" category="list-text">コンソールの左側のナビゲーションメニューから、*「ストレージ」&gt;「Keystone」&gt;「モニタリング」&gt;「レポート」*を選択します。</block>
+  <block id="bc32ee3dafd98cfab55839d1a1ad173d" category="list-text">「新規レポート」を選択してください。</block>
+  <block id="db73c44d8bba03212ad21e123d47d5dd" category="list-text">*レポート設定パネル*で、*レポート名*フィールドに名前を入力します。</block>
+  <block id="d99d4ce092a8b9f4aff4e17d7603bfe2" category="list-text">*時間範囲* ドロップダウンから時間範囲を選択します。</block>
+  <block id="6a03b07232e58a0d22244bd78e9ee309" category="paragraph">「過去60日間」などのプリセット範囲を選択するか、「カスタム」を選択して独自の日付を入力してください。選択された範囲によって、「消費動向」セクションおよびその他の時間ベースのセクションに表示される履歴データが決まります。「カスタム」を選択した場合、レポートのスケジュール設定はできません。</block>
+  <block id="b9b414179e1f9c10b9cf39dc76d45554" category="inline-image-macro">カスタム日付範囲を選択した場合、スケジュール設定が無効になっていることを示すヘルスレポート構成</block>
+  <block id="e84931d18314142b08f9bd586d2d273d" category="paragraph"><block ref="e84931d18314142b08f9bd586d2d273d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="55c22e502f5cfc9d2f8d74e22b0c8e98" category="list-text">*サブスクリプション*ドロップダウンから、1つ以上のサブスクリプションを選択します。</block>
+  <block id="de710d1f96079b8408fcc93a084d21ca" category="admonition">NetAppパートナーは、管理しているKeystone顧客アカウントのうち、1つまたは複数のアカウントでサブスクリプションを選択できます。</block>
+  <block id="2494369c3bace34f8d03d3b0f6b35714" category="list-text">*レポートセクション* で、含めるセクションを選択します。</block>
+  <block id="c7c7753bafb710361f57e4327c1cd332" category="paragraph">選択した各セクションはプレビュー領域に表示され、生成されるレポートに含まれます。例えば、契約内容の概要、現在の容量使用状況、消費傾向、物理的な容量、システムの状態、リスクと脆弱性などを含めることができます。「消費動向」については、過去の消費量のグラフと、オプションで将来の消費量の予測を含めることができます。</block>
+  <block id="73edafd21beaaf25a3c4b463e7301486" category="list-text">プレゼンテーションのテーマを選択してください。</block>
+  <block id="e79541eac81a9b39cbfa8f8f8515ac14" category="list-text">プレビューエリアに表示されている項目を確認し、選択内容と一致していることを確認してください。</block>
+  <block id="c33cd459680d55a97ffee84381838d90" category="list-text">レポートの作成方法を選択してください。</block>
+  <block id="7fb99d2c520fc85b9123d1d2daf9e796" category="list-text">*レポートの生成*</block>
+  <block id="d3cd467451f595793563586a695d9c1c" category="paragraph">レポートをすぐにダウンロードするには、*レポートを生成*を選択します。</block>
+  <block id="8ab8d739fddb8825d819131cf0c36e7a" category="paragraph">レポートが生成のために送信され、*レポート*タブに戻ります。レポートは*実行中*のステータスで表示されます。</block>
+  <block id="9dabac9e7f2d642811e0cf62d3e18002" category="paragraph">ステータスが*生成済み*に変わったら、レポートの行末にある省略記号アイコンを選択し、*ダウンロード*を選択します。</block>
+  <block id="00555bd07173f7d9c242e377dc1e4afe" category="list-text">*スケジュールレポート*</block>
+  <block id="6cebac50d1a7bff739e4a52a8cedaa57" category="paragraph">*スケジュール*を選択して、単発または定期的なレポートを作成し、次の手順を実行します：</block>
+  <block id="8b7ea71302f67c6f0966ac6f0f8efc8f" category="list-text">頻度を選択してください：*1回限り*、*毎週*、*毎月*、または*四半期ごと*。</block>
+  <block id="83fb650baf1f2bfaabf37d0b01f8b198" category="list-text">*開始日*を選択してください。</block>
+  <block id="86b7782bce140b306301378eb75d320f" category="inline-image-macro">スケジュールレポートダイアログには、週次頻度が選択され、開始日と終了日のフィールドが空で、受信者フィールドがあり、PPT形式が選択されていることが表示されます。</block>
+  <block id="65de2e1080fef3c60cec4997218e5994" category="paragraph"><block ref="65de2e1080fef3c60cec4997218e5994" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1a65d24447c848fed1b1282d04274bcc" category="paragraph">開始日は、レポートが最初に実行される日時を決定します。定期的な実行の場合、レポートは選択された週次、月次、または四半期ごとのスケジュールに従って再度実行されます。</block>
+  <block id="a4f1fd8e2247116044a0a9ef4e9401ae" category="list-text">必要に応じて、*終了日*を選択してください。</block>
+  <block id="a0e32eed5feb418713b52f7739a1f7de" category="paragraph">終了日を選択しない場合、変更するまでスケジュールは継続されます。</block>
+  <block id="45fdcaf864d7e16c4c277f710fe9214c" category="list-text">「レポートのスケジュール設定」を選択してください。</block>
+  <block id="dda29f572e1f01fb24ef9fbb9567dcae" category="paragraph">スケジュールが作成され、レポートは*レポート*タブに*スケジュール実行*の実行タイプで表示されます。各実行状況を追跡するには、*前回の実行*、*次回の実行*、*ステータス*の各列を使用します。</block>
+  <block id="04091b33f99194409a3e638fb720ccd7" category="paragraph">週次、月次、または四半期ごとのスケジュールを編集するには、レポートの行末にある省略記号アイコンを選択し、次に*スケジュールの編集*を選択します。ステータスが*スケジュール済み*でも*生成済み*でも、この操作は可能です。レポート生成後は、*1回限り*のスケジュールを編集することはできません。</block>
+  <block id="3d8502ba652cf0b8dda71ea1d23775d9" category="paragraph">ステータスが*生成済み*に変わったら、レポートの横にある省略記号アイコンを選択し、*ダウンロード*を選択します。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
+  <block id="cf3e1ddb292882536f57277035f7ccdf" category="paragraph">生成されたレポートは、PowerPointプレゼンテーションとしてダウンロードされます。省略記号メニューから*再生成*を選択すると、同じ設定で新しいレポートを作成できます。</block>
+  <block id="74a2518355991b0460124194339aa262" category="inline-link-macro">現在の使用状況を表示する</block>
+  <block id="05a9cc32ea53864df9d04304930c39b2" category="list-text"><block ref="05a9cc32ea53864df9d04304930c39b2" category="inline-link-macro-rx"></block></block>
+  <block id="ff0355703598e77f5d53ad567098e540" category="inline-link-macro">サブスクリプションに関連付けられたアセットを表示します</block>
+  <block id="122bb916bdbca193871c1c238a8ad494" category="list-text"><block ref="122bb916bdbca193871c1c238a8ad494" category="inline-link-macro-rx"></block></block>
+  <block id="e9585bf2660bfde75b6f0a2b54b179ac" category="section-title">NetApp Consoleからヘルスレポートを生成する</block>
+  <block id="d2fc234fa58b5424fb66e69d6f37ea37" category="paragraph">NetApp Consoleを使用して、1つ以上のサブスクリプションのヘルスレポートを生成またはスケジュール設定します。これらのPowerPointレポートには、サブスクリプションの利用状況、運用上の健全性、リスク、および脆弱性が集約されています。Digital Advisorは、ヘルスアセスメントレポートの生成やスケジュール設定をサポートしていません。</block>
+  <block id="0557e64d44b59ed5a4145771c544da91" category="paragraph">詳細については、<block ref="1f95c525270767ec0581ce04383996f5" category="inline-link-macro-rx"></block>を参照してください。</block>
+  <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
 </blocks>

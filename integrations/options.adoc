@@ -36,6 +36,15 @@ summary: NetApp Keystone STaaS サブスクライバーは、データの検索�
 
 
 
+[[generate-health-reports-from-netapp-console]]
+== NetApp Consoleからヘルスレポートを生成する
+
+NetApp Consoleを使用して、1つ以上のサブスクリプションのヘルスレポートを生成またはスケジュール設定します。これらのPowerPointレポートには、サブスクリプションの利用状況、運用上の健全性、リスク、および脆弱性が集約されています。Digital Advisorは、ヘルスアセスメントレポートの生成やスケジュール設定をサポートしていません。
+
+詳細については、link:../integrations/health-assessment-reports.html["Keystoneサブスクリプションのヘルスレポートを生成およびスケジュール設定する"]を参照してください。
+
+
+
 [[generate-consolidated-report-from-digital-advisor]]
 == デジタルアドバイザーから統合レポートを生成する
 

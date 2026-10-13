@@ -228,6 +228,7 @@ image:invoiced-daily-accr-burst-date.png["バースト使用量データを折�
 * link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
 * link:../integrations/subscriptions-tab.html["Keystoneサブスクリプションの詳細を表示する"]
 * link:../integrations/current-usage-tab.html["Keystoneサブスクリプションの現在の消費量を表示します"]
+* link:../integrations/health-assessment-reports.html["ヘルスレポートの生成とスケジュール設定"]
 * link:../integrations/subscription-timeline.html["Keystoneサブスクリプションのタイムラインを表示する"]
 * link:../integrations/assets-tab.html["Keystone サブスクリプションに関連付けられた資産を表示する"]
 * link:../integrations/monitoring-alerts.html["アラートとモニターの表示と管理"]

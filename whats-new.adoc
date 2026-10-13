@@ -18,6 +18,27 @@ Keystone STaaS サービスの最新機能と拡張機能について学びま�
 
 
 
+[[12-october-2026]]
+== 2026年10月12日
+
+このKeystone STaaSリリースには、NetApp ConsoleのKeystoneダッシュボードにおける以下の更新が含まれています。
+
+
+
+[[generate-health-insights-for-keystone-subscriptions]]
+=== Keystoneサブスクリプションのヘルスインサイトを生成する
+
+NetApp Console の *Storage > Keystone > Monitoring > Health reports* から、オンデマンド PowerPoint レポートをダウンロードするか、1 回限り、毎週、毎月、または四半期ごとの配信をスケジュールできます。各レポートは、選択したサブスクリプション全体のサブスクリプション使用状況、運用上の正常性、リスク、および脆弱性をまとめたもので、懸念事項を特定し、実用的なインサイトを受信者と共有するのに役立ちます。詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html["Keystoneサブスクリプションのヘルスレポートを生成およびスケジュール設定する"]を参照してください。
+
+
+
+[[view-ontap-cluster-and-aggregate-capacity]]
+=== ONTAPクラスターおよびアグリゲートの容量の表示
+
+ONTAPクラスターとそのアグリゲートの物理容量、論理容量、ストレージ効率は、*Assets > Clusters and aggregates*で確認できます。これは、物理容量に基づいて課金されるKeystone STaaSサブスクリプションでのみ利用可能です。詳細については、 https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]および https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["Keystone サブスクリプションに関連付けられた資産を表示する"]を参照してください。
+
+
+
 [[20-july-2026]]
 == 2026年7月20日
 

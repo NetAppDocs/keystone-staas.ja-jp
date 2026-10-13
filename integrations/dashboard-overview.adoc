@@ -18,6 +18,7 @@ Keystoneダッシュボードは、Keystoneサブスクリプションを効率�
 
 * *サブスクリプションの詳細をモニター*：Keystoneサブスクリプションに関する詳細情報（パフォーマンスサービスレベル（ベースサービスおよび高度なデータ保護やData Infrastructure Insightsなどのアドオンサービス）、容量使用量、資産、アラートを含む）を表示します。
 * *容量使用状況を追跡し、レポートを生成*: 現在の容量使用状況と履歴容量使用状況を追跡し、レポートを生成してサブスクリプション データを分析して情報に基づいた意思決定を行います。
+* *ヘルスレポートの生成*：サブスクリプションの使用状況、運用状況、リスク、脆弱性を確認するための、オンデマンドまたはスケジュールされたヘルス評価レポートを作成します。
 * *サブスクリプションのタイムラインを表示*: サブスクリプションのタイムラインを監視して、重要な日付やイベントに関する最新情報を入手できます。
 * *サブスクリプションの管理*: ニーズの変化に応じて、パフォーマンス サービス レベルやその他のサブスクリプション パラメータを変更するリクエストを送信します。
 * *ボリュームとオブジェクトの分析*: ボリューム レベルとオブジェクト レベルの両方での容量など、サブスクリプションのボリュームとオブジェクトに関する詳細な情報を取得します。
@@ -100,6 +101,11 @@ link:../integrations/options.html#generate-reports-from-netapp-console-or-digita
 
 
  a| 
+link:../integrations/health-assessment-reports.html["ヘルスレポートの生成とスケジュール設定"]
+| はい | いいえ 
+
+
+ a| 
 link:../integrations/volumes-objects-tab.html["ボリュームとオブジェクトの詳細の表示"]
 | はい | はい 
 
@@ -116,6 +122,7 @@ link:../integrations/performance-tab.html["パフォーマンス指標の表示"
 * 関連情報 *
 
 * link:../integrations/dashboard-access.html["Keystoneダッシュボードを使い始める"]
+* link:../integrations/health-assessment-reports.html["ヘルスレポートの生成とスケジュール設定"]
 * link:../integrations/keystone-console.html["NetAppコンソールのKeystoneダッシュボード"]
 * link:..//integrations/keystone-aiq.html["Digital Advisor の Keystone ダッシュボード"]
 

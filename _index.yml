@@ -28,6 +28,8 @@ indexpage:
       url: "/integrations/subscriptions-tab.html"
     - title: アセットの表示
       url: "/integrations/assets-tab.html"
+    - title: ヘルスレポートの生成とスケジュール設定
+      url: "/integrations/health-assessment-reports.html"
     - title: データを検索してレポートを生成する
       url: "/integrations/options.html"
   - title: Keystoneでサポートされるサービス

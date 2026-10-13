@@ -80,6 +80,7 @@ Keystoneストレージサービスと関連するパフォーマンスサービ
 * link:../integrations/dashboard-overview.html["Keystoneダッシュボードを理解する"]
 * link:../integrations/subscriptions-tab.html["サブスクリプションの詳細を表示する"]
 * link:../integrations/consumption-tab.html["消費トレンドの表示"]
+* link:../integrations/health-assessment-reports.html["ヘルスレポートの生成とスケジュール設定"]
 * link:../integrations/subscription-timeline.html["サブスクリプションのタイムラインを表示する"]
 * link:../integrations/assets-tab.html["Keystoneサブスクリプション資産を表示する"]
 * link:../integrations/assets.html["Keystoneサブスクリプション全体の資産を表示する"]
