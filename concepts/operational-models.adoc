@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concepts/operational-models.html 
-keywords: Operational models, partner operations, customer operations, roles and responsibilities, 
-summary: NetApp Keystone STaaSには、サービス提供のための2つの運用モデルがあります。Keystoneの利用を開始する前に、これらのオプションについて理解しておく必要があります。 
+keywords: operational models, Keystone STaaS, Keystone XaaS, partner operations, customer operations, roles and responsibilities, partner support 
+summary: パートナーが運用するKeystone STaaSモデルとお客様が運用するKeystone STaaSモデルで運用責任がどのように異なるか、またKeystone XaaSのお客様がどこでサポートを受けられるかについて説明します。 
 ---
 = Keystoneの運用モデル
 :hardbreaks:
@@ -14,25 +14,34 @@ summary: NetApp Keystone STaaSには、サービス提供のための2つの運�
 
 
 [role="lead"]
-NetApp Keystone STaaSには、サービス提供のための2つの運用モデル（パートナー運用モデルとお客様運用モデル）があります。Keystoneの利用を開始する前に、これらのオプションについて理解しておく必要があります。
-
-* *パートナー運営モデル*: このモデルには 2 つのオプションがあります。
-+
-** *サービスプロバイダ*：サービスプロバイダは、エンドユーザー向けのサービスを運営します。NetAppとの契約当事者として、サービスプロバイダはマルチテナント環境を管理します。この環境では、サービスプロバイダの顧客である各テナントが独自のサブスクリプションを持ち、サービスプロバイダが課金を行います。サービスプロバイダ管理者は、テナントに関するすべての管理タスクを実行する責任を負います。
-** *リセラー*：リセラーとして、パートナーはNetAppとお客様をつなぐ橋渡し役を務めます。パートナーはエンドユーザーにKeystoneサービスを販売し、請求処理を管理します。パートナーが請求処理を担当する間、NetAppはお客様への直接サポートを提供します。Keystoneサポートはお客様とやり取りし、テナントに関するすべての管理タスクを担当します。
-
-
-* *お客様運用モデル*：お客様は、選択したパフォーマンス・サービスレベルとストレージに応じてKeystoneサービスをサブスクライブできます。ネットアップはアーキテクチャと製品を定義し、Keystoneをお客様のオンプレミスに導入します。ストレージとITリソースを使用してインフラを管理する必要があります。お客様の契約に基づいて、ネットアップまたはサービスプロバイダが対応するサービスリクエストを発行できます。お客様の組織の管理者が、お客様のサイト（環境）で管理タスクを実行できます。これらのタスクは、お客様の環境内のユーザーに関連付けられます。
+NetApp Keystoneは、Keystone Storage-as-a-Service（STaaS）およびKeystone XaaSサブスクリプションサービスを通じて提供されます。Keystone STaaSはパートナー運営およびお客様運営の運用モデルをサポートしますが、Keystone XaaSはNetAppパートナーからのみ提供されます。ご利用のサービスと運用モデルによって、ストレージ環境の管理、日常業務の処理、およびサポートの提供を誰が行うかが決まります。
 
 
 
+[[keystone-staas-operational-models]]
+== Keystone STaaSの運用モデル
 
-[[roles-and-responsibilities-across-the-service-lifecycle]]
-== サービスライフサイクル全体での役割と責任
+Keystone STaaSの運用モデルは、サービスライフサイクル全体におけるNetApp、パートナー、およびお客様の責任を定義します。以下のセクションでは、パートナー運用モデルとお客様運用モデルについて説明します。
 
-* *パートナー運営モデル*: 役割と責任の分担は、お客様とサービス プロバイダーまたはパートナーとの間の契約によって異なります。詳細については、サービスプロバイダにお問い合わせください。
-* * お客様が運用するモデル * ：次の表は、サービスライフサイクル全体のモデルと、お客様が運用する環境におけるサービスライフサイクルモデルに関連する役割と責任をまとめたものです。
 
+
+[[partner-operated-model]]
+=== パートナー運営モデル
+
+パートナーは、サービスプロバイダまたはリセラーとしてKeystone STaaSを提供できます。責任範囲は、パートナーとの契約内容によって異なります。サービスプロバイダまたはパートナーにお問い合わせのうえ、どのタスクが代行されるかをご確認ください。
+
+*サービスプロバイダー*：サービスプロバイダーは、エンドユーザー向けにサービスを運営します。NetAppとの契約当事者として、サービスプロバイダーはマルチテナント環境を管理します。各テナントはサービスプロバイダーの顧客であり、サービスプロバイダーが直接請求する個別のサブスクリプションを持っています。サービスプロバイダーの管理者は、テナントに関するすべての管理業務を行う責任を負います。*再販業者*：再販業者として、パートナーはNetAppとお客様の間の橋渡し役を務めます。パートナーはKeystoneサービスをエンドユーザーに販売し、請求を管理します。パートナーが請求処理を担当する一方で、NetAppはお客様に直接サポートを提供します。Keystoneサポートはお客様とやり取りを行い、テナントに関するすべての管理業務を処理します。
+
+
+
+[[customer-operated-model]]
+=== 顧客運営モデル
+
+顧客運用モデルでは、お客様のストレージ要件と選択したパフォーマンスサービスレベルに基づいてKeystone STaaSをサブスクライブします。NetAppはアーキテクチャと製品を定義し、お客様の施設にストレージを導入します。
+
+ストレージチームとITチームがインフラストラクチャを管理します。貴組織の管理者が、貴組織環境内のユーザーに対して管理業務を実行します。契約内容によっては、NetAppまたはサービスプロバイダーにサービスリクエストを送信できます。
+
+以下の表は、お客様が運用するKeystone STaaS環境におけるNetAppとお客様の責任をまとめたものです。
 
 |===
 | タスク | ネットアップ | お客様 
@@ -80,4 +89,21 @@ NetApp Keystone STaaSには、サービス提供のための2つの運用モデ�
 
 | image:check.png["チェックマーク"] | なし 
 |===
-展開の詳細については、link:../concepts/infra.html["Keystoneインフラストラクチャーについて"]およびlink:..//concepts/components.html["Keystoneサービスに必要なコンポーネント"]を参照してください。
+
+
+[[keystone-xaas-partner-delivery-and-support]]
+== Keystone XaaSパートナーの提供とサポート
+
+Keystone XaaSは、NetApp Keystoneの独立したサブスクリプションサービスであり、NetAppパートナーが独占的に提供します。パートナーは、エンドユーザーにサービスを提供し、サポートや日常業務を管理します。
+
+Keystone XaaSをご利用の場合は、サービスおよびサポートについて直接のパートナーにお問い合わせください。上記のKeystone STaaS運用モデルおよびお客様運用の責任表には、Keystone XaaSの責任範囲は記載されていません。
+
+
+
+[[related-information]]
+== 関連情報
+
+* link:../concepts/overview.html["NetApp Keystone の詳細をご覧ください"]
+* link:../concepts/infra.html["Keystoneインフラストラクチャーについて"]
+* link:../concepts/components.html["Keystoneサービスに必要なコンポーネント"]
+

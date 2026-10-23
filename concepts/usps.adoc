@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/usps.html 
 keywords: netapp, keystone, US citizen support, USPS, Keystone Success Manager, USPS support 
-summary: United States Protected Supportは、米国内の米国市民から継続的なKeystoneサービスの提供とサポートを提供するアドオンサービスです。 
+summary: 米国保護サポートは、米国内の米国市民による継続的なKeystoneサービスの提供とサポートを行う、NetApp Keystone STaaSサブスクリプション向けのアドオンサービスです。 
 ---
-= KeystoneのUSPSアドオン
+= Keystone STaaS向け米国保護サポートアドオン
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: United States Protected Supportは、米国内の米国市民から継�
 
 
 [role="lead"]
-米国保護サポート（USPS）は、NetApp Keystoneサブスクリプション向けのアドオンサービスです。パートナー様は、米国内の米国市民から継続的なKeystoneサービスの提供とサポートを受けることができます。
+米国保護サポート（USPS）は、NetApp Keystone STaaSサブスクリプションのアドオンサービスです。これにより、米国内の米国市民から継続的なKeystoneサービスの提供とサポートを受けることができます。
 
 次のセクションを読み、このアドオンサービスに拘束され、NetApp Keystone 契約の条件に基づいて提供されているサブスクリプションの要素を確認してください。脚注：disclaimer1 [ここで説明するサービスとサービスは、完全に締結されたKeystone契約の対象となり、これらに限定され、これらに限定されます。]
 

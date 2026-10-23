@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: dark-sites/configure-collector.html 
 keywords: configure, keystone, collector, private mode, darksite mode, tui utility 
-summary: インターネットにアクセスできない環境（_ダークサイト_または_プライベートモード_とも呼ばれます）でKeystone Collectorが使用状況データを収集できるようにするには、いくつかの設定タスクを実行します。 
+summary: インターネットアクセスのない_ダークサイト_環境で、プライベートモードで使用状況データを収集するようにKeystone Collectorを設定します。 
 ---
 = Keystone Collectorをプライベートモードで設定
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: インターネットにアクセスできない環境（_ダークサ�
 
 
 [role="lead"]
-インターネットにアクセスできない環境（_ダークサイト_または_プライベートモード_とも呼ばれます）でKeystone Collectorが使用状況データを収集できるようにするには、いくつかの設定タスクを実行します。これは、必要なコンポーネントをアクティブ化してストレージ環境に関連付けるための1回限りのアクティビティです。設定が完了すると、Keystone CollectorはActive IQ Unified Managerで管理されるすべてのONTAPクラスタを監視します。
+インターネットアクセスのない_ダークサイト_環境で、プライベートモードで使用状況データを収集するようにKeystone Collectorを設定します。この一度限りの設定により、必要なコンポーネントが有効化され、ストレージ環境に関連付けられます。設定が完了すると、Keystone CollectorはActive IQ Unified Managerによって管理されるすべてのONTAPクラスタを監視します。
 
 
 NOTE: Keystone Collectorには、Keystone Collector管理ターミナルユーザインターフェイス（TUI）ユーティリティが用意されており、設定と監視のアクティビティを実行できます。Enterキーや矢印キーなど、さまざまなキーボードコントロールを使用してオプションを選択し、このTUI間を移動できます。

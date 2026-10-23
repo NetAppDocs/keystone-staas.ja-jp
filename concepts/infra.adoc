@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/infra.html 
 keywords: keystone infrastructure, infra 
-summary: Keystoneのインフラ、設計、テクノロジの選択、コンポーネント製品は、ネットアップだけが提供します。 
+summary: Keystone STaaSのインフラストラクチャ、設計、テクノロジーの選択、およびコンポーネント製品は、すべてNetAppに帰属します。 
 ---
-= Keystoneインフラストラクチャーについて
+= Keystone STaaSインフラストラクチャについて学ぶ
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneのインフラ、設計、テクノロジの選択、コンポ
 
 
 [role="lead"]
-NetAppは、Keystoneのインフラ、設計、テクノロジの選択、コンポーネントについて単独で責任を負います。これらは、NetApp環境とお客様が運用する環境の両方に適用されます。
+NetAppは、Keystone STaaSのインフラストラクチャ、設計、技術の選択、およびコンポーネントについて単独で責任を負います。これは、NetAppが運用する環境とお客様が運用する環境の両方に適用されます。
 
 ネットアップは、次の処理を実行する権利を留保します。
 

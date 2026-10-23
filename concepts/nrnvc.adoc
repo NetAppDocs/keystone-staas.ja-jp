@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/nrnvc.html 
 keywords: Non-returnable, non-volatile components, SnapLock compliance, add-on service 
-summary: NetAppは、NetApp Keystoneサブスクリプションの一部として、お客様のファイルサービス、ブロックサービス、オブジェクトサービス向けにNRNVCサービスを拡張します。 
+summary: お客様のKeystone STaaSサブスクリプションの一部として、NetAppはファイル、ブロック、オブジェクトサービス向けにNRNVCアドオンサービスを拡張します。 
 ---
-= NRNVCとSnapLockコンプライアンスアドオンサービス（Keystone向け）
+= Keystone STaaS向けNRNVCおよびSnapLockコンプライアンスアドオンサービス
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: NetAppは、NetApp Keystoneサブスクリプションの一部とし�
 
 
 [role="lead"]
-NetAppは、NetApp Keystoneサブスクリプションの一部として、ファイルサービス、ブロックサービス、オブジェクトサービス向けに、返却不要不揮発性コンポーネント（NRNVC）サービスを拡張します。
+お客様のKeystone STaaSサブスクリプションの一部として、NetAppはファイル、ブロック、オブジェクトサービス向けに非返却型・非揮発性コンポーネント（NRNVC）アドオンサービスを拡張します。
 
 ネットアップでは、サービスの提供中に使用された物理ストレージメディアをリカバリすることはありません。リカバリに使用されていた物理ストレージメディアは、ネットアップがリカバリの際にサービスの終了時にリカバリすることはありません。
 

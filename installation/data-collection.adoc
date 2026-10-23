@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: installation/data-collection.html 
 keywords: type of data collected by Keystone collector 
-summary: Keystoneは、ONTAPとStorageGRIDのサブスクリプションの構成、ステータス、使用状況に関する情報を収集します。また、ONTAPのパフォーマンスデータを収集することもできます。 
+summary: Keystone Collectorは、Keystone STaaSサブスクリプションに関連付けられたONTAPおよびStorageGRIDシステムから、構成、ステータス、および使用状況データを収集します。また、Keystone CollectorをホストしているVMからテレメトリを収集し、オプションでONTAPのパフォーマンスデータを収集することもできます。 
 ---
-= Keystoneが収集するユーザデータのタイプ
+= Keystone Collectorが収集するデータ
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneは、ONTAPとStorageGRIDのサブスクリプションの構�
 
 
 [role="lead"]
-Keystoneは、 Keystone ONTAPおよびKeystone StorageGRIDサブスクリプションから構成、ステータス、使用状況情報、およびKeystone Collectorをホストする仮想マシン（VM）からテレメトリデータを収集します。KeystoneKeystoneでこのオプションが有効になっている場合、 ONTAPのパフォーマンスデータのみを収集できます。
+Keystone Collectorは、Keystone STaaSサブスクリプションに関連付けられたONTAPおよびStorageGRIDシステムから構成、ステータス、使用状況データを収集するほか、Keystone Collectorをホストする仮想マシン（VM）からのテレメトリも収集します。オプションとして、この機能が有効になっている場合、Keystone CollectorはONTAPのパフォーマンスデータを収集できます。
 
 
 

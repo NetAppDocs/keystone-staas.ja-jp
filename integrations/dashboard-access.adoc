@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: integrations/dashboard-access.html 
 keywords: Keystone, Digital Advisor, keystone-aiq, aiq, BlueXP, Keystone dashboard, Keystone subscriptions, NetApp Console, Console 
-summary: NetApp Keystone STaaS加入者は、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。 
+summary: NetApp Keystone STaaSサブスクライバーとして、NetApp ConsoleまたはDigital AdvisorからKeystoneダッシュボードにアクセスできます。 
 ---
 = Keystoneダッシュボードを使い始める
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetApp Keystone STaaS加入者は、 NetAppコンソールまたはDigi
 
 
 [role="lead"]
-NetApp Keystoneサービスに加入すると、 NetAppコンソールまたはDigital Advisorを通じてKeystoneダッシュボードにアクセスできます。
+NetApp Console または Digital Advisor を使用して、Keystone STaaS サブスクリプションの Keystone ダッシュボードにアクセスできます。
 
 [role="tabbed-block"]
 ====

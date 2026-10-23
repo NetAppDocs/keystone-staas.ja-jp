@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/sla-performance.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: Keystone は、消費された容量をバースト制限まで Keystone の注文書で説明されているように、パフォーマンス サービス レベルごとにレイテンシ ベースの SLO を提供します。 
+summary: Keystone STaaSは、バースト上限までの消費容量に関するKeystoneのオーダーに記載されているとおり、パフォーマンスサービスレベルごとにレイテンシベースのSLOを提供します。 
 ---
-= Keystoneのパフォーマンス SLO
+= Keystone STaaSのパフォーマンスSLO
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

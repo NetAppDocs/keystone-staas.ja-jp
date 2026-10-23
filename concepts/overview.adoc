@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: concepts/overview.html 
-keywords: learn about keystone, keystone introduction, keystone, STaaS, service, offering, overview 
-summary: Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）消費モデルを希望する企業向けの、従量課金制のサブスクリプションベースのサービスモデルです。 
+keywords: learn about keystone, keystone introduction, keystone platform, keystone STaaS, storage as a service, subscription, overview 
+summary: NetApp KeystoneはNetAppのストレージ・アズ・ア・サービス・プラットフォームおよびブランドです。Keystone STaaSは、ファイル、ブロック、オブジェクトストレージサービスを提供する同社の主要なサブスクリプションサービスです。 
 ---
 = NetApp Keystone の詳細をご覧ください
 :hardbreaks:
@@ -14,34 +14,47 @@ summary: Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用
 
 
 [role="lead"]
-NetApp Keystone は、データ ストレージと保護のニーズを満たすために先行投資やリースよりも運用コスト消費モデルを好む企業にシームレスなハイブリッド クラウド エクスペリエンスを提供する、従量課金制のサブスクリプション ベースのサービス モデルです。
-
-Keystone を使用すると、次のようなメリットが得られます。
-
-* *コスト効率*: 追加容量を柔軟に処理しながら、必要なストレージに対してのみ料金を支払います。
-* *資本効率*: 先行投資なしでエンタープライズ レベルのストレージにアクセスできます。
-* *スケーラビリティ*: ビジネスの成長に合わせてストレージ容量を簡単に拡張できます。
-* *カスタマイズ*: 必要に応じてストレージ プランを調整し、クラウドに移行して、全体的なコストを最適化します。
-* *クラウド統合*: オンプレミスとクラウド サービスを 1 つのサブスクリプションに統合します。
-* *セキュリティ*: 高度なセキュリティ対策と脅威からの確実な回復によりデータを保護します。
-
-
-image:keystone-benefit-1.png["キーストーンのメリット"]
-
-Keystoneは、ファイル、ブロック、オブジェクトストレージの各タイプにおいて、事前定義されたパフォーマンス・サービスレベルでストレージ容量を提供します。このストレージはオンプレミスで導入でき、NetApp、パートナー、またはお客様による運用が可能です。Keystoneは、任意のハイパースケーラ環境に導入できるCloud Volumes ONTAPなどのNetAppクラウドサービスと連携して使用できます。
+NetApp Keystoneは、初期投資やリースよりも運用コストとしての消費を好む企業向けの従量課金制サブスクリプションサービスであるKeystone Storage-as-a-Service（STaaS）を提供するプラットフォームです。
 
 
 
-[[keystone-storage-as-a-service-staas]]
-== Keystone ストレージ・アズ・ア・サービス (STaaS)
+[[keystone-staas-offering-and-services]]
+== Keystone STaaSの提供内容とサービス
 
-ストレージサービス（STaaS）サービスは、ストレージインフラの調達、導入、管理にパブリッククラウドと変わらないモデルを提供することを目的としています。多くの企業がハイブリッドクラウド戦略を策定中である中、Keystone STaaSはオンプレミスサービスからスタートし、適切なタイミングでクラウドに移行できる柔軟性を提供します。これにより、さまざまな導入モデル間でのコミットメントを維持し、必要に応じて支出を再配分できるため、月額料金の増加を抑えることができます。
+Keystone STaaSは、ストレージインフラストラクチャの調達、導入、管理において、パブリッククラウドに似たモデルを提供します。Keystone STaaSをサブスクライブすると、お客様の要件を満たすデータストレージの種類とパフォーマンスサービスレベルを選択できます。
+
+Keystone STaaSは、ストレージ機能の提供方法と利用方法を定義するサービスです。サービスとは、その製品・サービスで利用できる機能のことです。標準サービスは基本サブスクリプションに含まれており、追加機能が必要な場合はアドオンサービスを購入できます。例えば、高度なデータ保護（ADP）は、サポートされている構成に対して同期的なサイト間ミラーリングを提供するアドオンサービスです。
+
+この区別は、どの機能がサブスクリプションに含まれ、どの機能に追加購入が必要かを理解するのに役立ちます。標準サービスおよび追加サービスについては、link:../concepts/supported-storage-services.html["Keystone STaaSサービス"]を参照してください。
+
+
+
+[[storage-flexibility-and-operational-models]]
+== ストレージの柔軟性と運用モデル
+
+Keystone STaaSは、複数のデータストレージタイプとパフォーマンスサービスレベルをサポートしています。オンプレミスストレージから開始し、要件の変化に応じてクラウドサービスを追加できます。容量の調整およびクラウドの再割り当ては、サブスクリプション条件に従います。
+
+Keystone STaaSは、パートナー運営モデルまたはお客様運営モデルのいずれかで運用できます。詳細については、link:../concepts/operational-models.html["Keystoneの運用モデル"]を参照してください。
+
+
+
+[[key-benefits-of-keystone-staas]]
+== Keystone STaaSの主な利点
+
+* *コスト効率*：契約済みの容量については予測可能なコストで済み、契約容量を超えた消費量については使用量に応じた料金が発生します。
+* *資本効率*：多額の初期投資なしにエンタープライズストレージにアクセスできます。
+* *拡張性*：ビジネスの成長に合わせてストレージ容量を増やすことができます。
+* *柔軟性*：ストレージプランを調整し、必要に応じてワークロードをクラウドに移行できます。
+* *クラウド統合*：単一のサブスクリプションでオンプレミスとクラウドのサービスを利用できます。
+* *セキュリティ*：高度なセキュリティ対策と復旧機能でデータを保護します。
+
 
 * 関連情報 *
 
-* link:../concepts/pricing.html["Keystoneの価格設定"]
-* link:../concepts/adp.html["Keystone STaaSのアドオンサービス"]
-* link:../concepts/service-levels.html["Keystoneのパフォーマンスサービスレベル"]
-* link:../concepts/infra.html["Keystoneインフラストラクチャーについて"]
+* link:../concepts/pricing.html["Keystone STaaS課金"]
+* link:../concepts/adp.html["高度なデータ保護アドオンサービス"]
+* link:../concepts/supported-storage-services.html["Keystone STaaSサービス"]
+* link:../concepts/service-levels.html["Keystone STaaSのパフォーマンスサービスレベル"]
+* link:../concepts/infra.html["Keystone STaaSインフラストラクチャについて学ぶ"]
 * link:../concepts/operational-models.html["Keystoneの運用モデル"]
 

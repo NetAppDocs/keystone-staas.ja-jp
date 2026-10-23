@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/sla-sustainability.html 
 keywords: sustainability, sla, service level agreement, slo, service level objectives 
-summary: Keystoneのサステナビリティ SLO が STaaS 導入の消費電力目標をどのように定義し、目標が達成されなかった場合にサービス クレジットを請求する方法について説明します。 
+summary: Keystone STaaSのサステナビリティSLOで、お客様の環境における消費電力の目標がどのように定義されているか、また、その目標が達成されなかった場合にサービスクレジットを請求する方法について説明します。 
 ---
-= KeystoneのサステナビリティSLO
+= Keystone STaaSの持続可能性SLO
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/known-limitations.html 
 keywords: limitations, known limitations in Keystone STaaS 
-summary: 既知の制限事項は、このリリースの製品でサポートされていないプラットフォーム、デバイス、機能、または製品と正しく相互運用できない機能を特定します。これらの制限事項を慎重に確認してください 
+summary: 既知の制限事項には、Keystone STaaSのサービスやコンポーネントでサポートされていない、または正しく相互運用できないプラットフォーム、デバイス、機能が記載されています。 
 ---
 = Keystone STaaSの既知の制限事項
 :hardbreaks:

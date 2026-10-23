@@ -30,9 +30,9 @@ sidebar:
       url: "/release-notes/known-limitations.html"
   - title: はじめに
     entries:
-    - title: Keystone STaaSについて学ぶ
+    - title: NetApp Keystone の詳細をご覧ください
       url: "/concepts/overview.html"
-    - title: Keystoneインフラ
+    - title: Keystone STaaSインフラストラクチャ
       url: "/concepts/infra.html"
     - title: Keystoneコレクタ
       url: "/installation/installation-overview.html"
@@ -42,7 +42,7 @@ sidebar:
       url: "/concepts/data-flow.html"
     - title: 運用モデル
       url: "/concepts/operational-models.html"
-  - title: Keystoneをセットアップおよび設定する
+  - title: Keystone STaaSのセットアップと構成
     entries:
     - title: 要件
       entries:
@@ -80,7 +80,7 @@ sidebar:
         url: "/installation/upgrade.html"
     - title: Keystone Collectorのセキュリティ
       url: "/installation/security.html"
-    - title: 課金のために収集されたデータ
+    - title: Keystone Collectorが収集するデータ
       url: "/installation/data-collection.html"
     - title: Keystone（プライベートモード）
       entries:
@@ -154,7 +154,7 @@ sidebar:
         url: "/concepts/service-levels.html"
       - title: パフォーマンスサービスレベルの容量要件
         url: "/concepts/capacity-requirements.html"
-    - title: アドオンサービスについて学ぶ
+    - title: Keystone STaaSアドオンサービス
       entries:
       - title: 高度なデータ保護
         url: "/concepts/adp.html"
@@ -178,11 +178,11 @@ sidebar:
         url: "/concepts/sla-sustainability.html"
       - title: ランサムウェアリカバリ保証
         url: "/concepts/sla-ransomware.html"
-    - title: Keystoneの請求について理解する
+    - title: Keystone STaaSの課金について理解する
       entries:
-      - title: Keystoneの請求について学ぶ
+      - title: Keystone STaaSの課金について
         url: "/concepts/pricing.html"
-      - title: 特定のボリュームタイプに対するKeystone課金
+      - title: Keystone STaaSの特定ボリュームタイプごとの課金
         url: "/concepts/misc-volume-billing.html"
   - title: KeystoneのDigital Advisor REST API
     entries:
@@ -198,7 +198,7 @@ sidebar:
       url: "/rest-api/get-customer-consumption.html"
   - title: Keystoneサブスクリプションサービスバージョン1
     url: "/subscription-services-v1.html"
-  - title: Keystoneのサポートサービス
+  - title: Keystone STaaSのサポートサービス
     url: "/concepts/support-services.html"
   - title: 法的通知
     url: "/legal-notices.html"

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/misc-volume-billing.html 
 keywords: Keystone billing, special volume types, cloned volumes, SnapMirror destinations, LUNs, temporary volumes 
-summary: Keystoneの課金ルールは、特定のボリューム構成では異なります。このページでは、クローンボリューム、SnapMirrorデスティネーション、LUN、一時ボリューム、およびシステムボリュームの課金について説明します。 
+summary: Keystone STaaSの課金ルールは、特定のボリューム構成によって異なります。このページでは、クローンボリューム、SnapMirrorの宛先、LUN、一時ボリューム、およびシステムボリュームの課金について説明します。 
 ---
-= 特定のボリュームタイプに対するKeystone課金
+= Keystone STaaSの特定ボリュームタイプごとの課金
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Keystoneの課金ルールは、特定のボリューム構成では異
 
 
 [role="lead"]
-Keystoneの課金ルールは、特定のボリューム構成では異なります。これらの例外を知っておくと、クローンボリューム、SnapMirrorデスティネーション、LUN、または一時ストレージを操作する際に予期しない料金が発生するのを回避できます。
+Keystone STaaSの課金ルールは、特定のボリューム構成によって異なります。これらの例外を把握しておくことで、クローンボリューム、SnapMirrorの宛先、LUN、または一時ストレージを操作する際の予期せぬ課金を回避できます。
 
 次の表は、各ボリュームタイプの課金ルールをまとめたものです。
 

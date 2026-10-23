@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: release-notes/known-issues.html 
 keywords: netapp, keystone, release notes, known issues 
-summary: 既知の問題では、 Keystone を効果的に使用できない可能性がある問題が特定されます。 
+summary: 既知の問題では、 Keystone STaaS を効果的に使用できない可能性がある問題が特定されます。 
 ---
 = Keystone STaaSの既知の問題
 :hardbreaks:

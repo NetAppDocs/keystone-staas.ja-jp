@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concepts/pricing.html 
 keywords: pricing, Keystone billing, committed capacity, consumed capacity, burst consumption, billing schedules 
-summary: NetApp Keystone STaaSでは、コミットした分の料金を支払い、それを超えて使用した分についてのみ追加料金が発生します。このページでは、ストレージコミットメントの料金設定方法、容量の測定と請求方法、請求書の発行時期など、従量課金制モデルの仕組みについて説明します。 
+summary: NetApp Keystone STaaSでは、コミットした分に対して料金を支払い、それを超えて使用した分についてのみ追加料金が発生します。このページでは、ストレージのコミットメントの価格設定方法から、容量の測定と請求方法、請求書の発行時期まで、従量課金制モデルがどのように機能するかを説明します。 
 ---
-= Keystoneの請求について学ぶ
+= Keystone STaaSの課金について
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

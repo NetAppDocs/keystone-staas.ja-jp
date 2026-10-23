@@ -4,7 +4,7 @@ permalink: concepts/capacity-requirements.html
 keywords: storage capacity requirement for service levels, capacity definition per PSL, 
 summary: サービスレベルの容量要件は、Keystone STaaSサブスクリプションでサポートされるファイル、ブロック、オブジェクト、クラウドのストレージによって異なります。 
 ---
-= Keystoneにおける容量要件と調整
+= Keystone STaaSの容量要件と調整
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
